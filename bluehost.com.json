@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://bluehost.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:12 UTC",
+  "id": "1c604ba3-bd2e-4dad-9428-f9619c545158",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:12 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Wed, 05 Jan 2005 19:40:12 GMT, Wed, 05 Jan 2005 19:40:13 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, proxy-revalidate, no-cache, no-store, no-cache=Set-Cookie, private, proxy-revalidate, no-cache, no-store, no-cache=Set-Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "custid=C809740194607; domain=.bluehost.com; path=/; HttpOnly, custid=C021962416829; domain=.bluehost.com; path=/; HttpOnly, trail=index; domain=.bluehost.com; path=/; expires=Sat, 28-Mar-2015 19:40:12 GMT, custid=C395699780566; domain=.bluehost.com; path=/; expires=Sun, 03-Jan-2016 19:40:12 GMT; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-o",
+        "content": "770350714507a804eb35a9a5148a20bf"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "DENY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "9558"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;bluehost.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:12 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Wed, 05 Jan 2005 19:40:12 GMT, Wed, 05 Jan 2005 19:40:13 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, proxy-revalidate, no-cache, no-store, no-cache=Set-Cookie, private, proxy-revalidate, no-cache, no-store, no-cache=Set-Cookie&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;custid=C809740194607; domain=.bluehost.com; path=&#x2F;; HttpOnly, custid=C021962416829; domain=.bluehost.com; path=&#x2F;; HttpOnly, trail=index; domain=.bluehost.com; path=&#x2F;; expires=Sat, 28-Mar-2015 19:40:12 GMT, custid=C395699780566; domain=.bluehost.com; path=&#x2F;; expires=Sun, 03-Jan-2016 19:40:12 GMT; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-o&quot;, :content=&gt;&quot;770350714507a804eb35a9a5148a20bf&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;DENY&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;9558&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:13 UTC"
+}

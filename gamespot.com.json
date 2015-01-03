@@ -1,0 +1,155 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://gamespot.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:16 UTC",
+  "id": "dd1c83eb-4c2b-4997-9a17-f67a74e4b5e3",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.4.17"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=m16qv3v7rvtq6k23d0s6732lm5; path=/, xcr=us-us; expires=Sun, 04-Jan-2015 19:40:17 GMT; path=/; httponly, xcab=19-0%7C32-0%7C33-0; expires=Sun, 03-Jan-2016 19:40:17 GMT; path=/, vguid=2fd9c3a7-08fa-4b51-878b-11101bc5345e; path=/, AD_SESSION=e; path=/; domain=gamespot.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "public, s-maxage=306"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.2.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, X-Cache-Device, X-Cache-Region, X-Cache-AB"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:10 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-tx-id",
+        "content": "c7746666-2823-45c3-ace5-b64d629db948"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-phoenix-id",
+        "content": "54a845a1973b5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "85786715 85983279"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "age",
+        "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish-v4"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-debug-served-by",
+        "content": "ws420.phx2.cbsig.net"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-debug-result",
+        "content": "hit"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-debug-hits",
+        "content": "6615"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-device",
+        "content": "other"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-region",
+        "content": "us-us"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-ab",
+        "content": "19-0|32-0|33-0"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;gamespot.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.4.17&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=m16qv3v7rvtq6k23d0s6732lm5; path=&#x2F;, xcr=us-us; expires=Sun, 04-Jan-2015 19:40:17 GMT; path=&#x2F;; httponly, xcab=19-0%7C32-0%7C33-0; expires=Sun, 03-Jan-2016 19:40:17 GMT; path=&#x2F;, vguid=2fd9c3a7-08fa-4b51-878b-11101bc5345e; path=&#x2F;, AD_SESSION=e; path=&#x2F;; domain=gamespot.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public, s-maxage=306&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.2.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, X-Cache-Device, X-Cache-Region, X-Cache-AB&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:10 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-tx-id&quot;, :content=&gt;&quot;c7746666-2823-45c3-ace5-b64d629db948&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-phoenix-id&quot;, :content=&gt;&quot;54a845a1973b5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;85786715 85983279&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish-v4&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-debug-served-by&quot;, :content=&gt;&quot;ws420.phx2.cbsig.net&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-debug-result&quot;, :content=&gt;&quot;hit&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-debug-hits&quot;, :content=&gt;&quot;6615&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-device&quot;, :content=&gt;&quot;other&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-region&quot;, :content=&gt;&quot;us-us&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-ab&quot;, :content=&gt;&quot;19-0|32-0|33-0&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:17 UTC"
+}

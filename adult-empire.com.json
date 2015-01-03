@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://adult-empire.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:28 UTC",
+  "id": "5ae07d66-e5c4-45c4-aae4-c370ee4be71f",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:27 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.3.3"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "SSID=bc5sjsg0q7gsqs03q71vl04fk5; path=/, known_dr=1; expires=Mon, 02-Feb-2015 19:41:26 GMT, ctr_clips=a%3A12%3A%7Bi%3A0%3Bs%3A3%3A%22755%22%3Bi%3A1%3Bs%3A3%3A%22997%22%3Bi%3A2%3Bs%3A3%3A%22235%22%3Bi%3A3%3Bs%3A3%3A%22567%22%3Bi%3A4%3Bs%3A3%3A%22717%22%3Bi%3A5%3Bs%3A3%3A%22607%22%3Bi%3A6%3Bs%3A3%3A%22672%22%3Bi%3A7%3Bs%3A3%3A%22738%22%3Bi%3A8%3Bs%3A3%3A%22704%22%3Bi%3A9%3Bs%3A4%3A%221049%22%3Bi%3A10%3Bs%3A3%3A%22526%22%3Bi%3A11%3Bs%3A4%3A%221118%22%3B%7D"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Sat, 03 Jan 2015 19:41:26 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-transform"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge,chrome=1, IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/w3c/p3p.xml\", CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\""
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;adult-empire.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:27 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.3.3&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;SSID=bc5sjsg0q7gsqs03q71vl04fk5; path=&#x2F;, known_dr=1; expires=Mon, 02-Feb-2015 19:41:26 GMT, ctr_clips=a%3A12%3A%7Bi%3A0%3Bs%3A3%3A%22755%22%3Bi%3A1%3Bs%3A3%3A%22997%22%3Bi%3A2%3Bs%3A3%3A%22235%22%3Bi%3A3%3Bs%3A3%3A%22567%22%3Bi%3A4%3Bs%3A3%3A%22717%22%3Bi%3A5%3Bs%3A3%3A%22607%22%3Bi%3A6%3Bs%3A3%3A%22672%22%3Bi%3A7%3Bs%3A3%3A%22738%22%3Bi%3A8%3Bs%3A3%3A%22704%22%3Bi%3A9%3Bs%3A4%3A%221049%22%3Bi%3A10%3Bs%3A3%3A%22526%22%3Bi%3A11%3Bs%3A4%3A%221118%22%3B%7D&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:26 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, no-transform&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge,chrome=1, IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\\&quot;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:29 UTC"
+}

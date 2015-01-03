@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://comcast.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:15 UTC",
+  "id": "847a96e9-8b18-4f35-9417-d8be953822ce",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": ""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/8.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId=4ldsr4y0efzjemlxblfcynxa; path=/; HttpOnly, SHS=0; domain=comcast.com; path=/, BSD=1; domain=comcast.com; path=/, PSC=VA=1025&UCID=6ec8ca99-6326-4d07-a597-622acd2150e6&RC.MKT=13159; domain=comcast.com; expires=Sun, 03-Jan-2016 19:40:18 GMT; path=/, IPToMbox=IsEx=F&IsAsync=T; domain=comcast.com; path=/, SC=RC.USID=f9e1e11c-91af-46ad-82e8-b1fd1fc91751&GEO=True&RC.AGT=40&RC.BIL=CSG&RC.CRPN=0&RC.FRCHN=0&RC.LOC=-9223372036854775808&RC.MGMTA=0&RC.SEG=64%3d0%7c66%3d0%7c71%3d0%7c268%3d0%7c80%3d0%7c14%3d0%7c13%3d0%7c269%3d0%7c3%3d0%7c&RC.MKT=13159&RC.PRIN=1000&RC.SYS=8499&RC.CORP=608&RC.FRCH=18042&L1ID=11599&L2ID=1187&L3ID=1739&L4ID=13152&RC.IFL=N; domain=comcast.com; path=/, BIGipServerp_sitecore-prd-www_85=2771097250.21760.0000; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnet-version",
+        "content": "4.0.30319"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:19 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "23615"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;comcast.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;8.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ASP.NET_SessionId=4ldsr4y0efzjemlxblfcynxa; path=&#x2F;; HttpOnly, SHS=0; domain=comcast.com; path=&#x2F;, BSD=1; domain=comcast.com; path=&#x2F;, PSC=VA=1025&amp;UCID=6ec8ca99-6326-4d07-a597-622acd2150e6&amp;RC.MKT=13159; domain=comcast.com; expires=Sun, 03-Jan-2016 19:40:18 GMT; path=&#x2F;, IPToMbox=IsEx=F&amp;IsAsync=T; domain=comcast.com; path=&#x2F;, SC=RC.USID=f9e1e11c-91af-46ad-82e8-b1fd1fc91751&amp;GEO=True&amp;RC.AGT=40&amp;RC.BIL=CSG&amp;RC.CRPN=0&amp;RC.FRCHN=0&amp;RC.LOC=-9223372036854775808&amp;RC.MGMTA=0&amp;RC.SEG=64%3d0%7c66%3d0%7c71%3d0%7c268%3d0%7c80%3d0%7c14%3d0%7c13%3d0%7c269%3d0%7c3%3d0%7c&amp;RC.MKT=13159&amp;RC.PRIN=1000&amp;RC.SYS=8499&amp;RC.CORP=608&amp;RC.FRCH=18042&amp;L1ID=11599&amp;L2ID=1187&amp;L3ID=1739&amp;L4ID=13152&amp;RC.IFL=N; domain=comcast.com; path=&#x2F;, BIGipServerp_sitecore-prd-www_85=2771097250.21760.0000; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:19 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;23615&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:19 UTC"
+}

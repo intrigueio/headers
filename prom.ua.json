@@ -1,0 +1,71 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://prom.ua"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:35 UTC",
+  "id": "0db94113-74b3-4360-bb0b-7796bb5b8188",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.7.7"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:35 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "user_tracker=1dacfb3f527642b17ae3468a2fb63f42c36c9dc1|104.237.133.83|2015-01-03 21:41:35.606062; Domain=.prom.ua; Path=/, session_region_id=0; Domain=.prom.ua; Path=/, prom=9a89d0ac23f1193031dbeb9dcfcc7f14299020e949a67932bf9e4bfb8a18ddbb91f112a5; Domain=.prom.ua; httponly; Path=/, csrf_token=85458321f2bc41cfb8d25f5b0d15317a; Domain=.prom.ua; expires=\"Sat, 02-Jan-2016 19:41:35 GMT\"; Max-Age=31449600; Path=/, auth=ba4551f311956b52e9f046b4694b9cd4f34c9c85; Domain=.prom.ua; expires=\"Sun, 03-Jan-2016 19:41:35 GMT\"; httponly; Max-Age=31536000; Path=/"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;prom.ua&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.7.7&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:35 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;user_tracker=1dacfb3f527642b17ae3468a2fb63f42c36c9dc1|104.237.133.83|2015-01-03 21:41:35.606062; Domain=.prom.ua; Path=&#x2F;, session_region_id=0; Domain=.prom.ua; Path=&#x2F;, prom=9a89d0ac23f1193031dbeb9dcfcc7f14299020e949a67932bf9e4bfb8a18ddbb91f112a5; Domain=.prom.ua; httponly; Path=&#x2F;, csrf_token=85458321f2bc41cfb8d25f5b0d15317a; Domain=.prom.ua; expires=\\&quot;Sat, 02-Jan-2016 19:41:35 GMT\\&quot;; Max-Age=31449600; Path=&#x2F;, auth=ba4551f311956b52e9f046b4694b9cd4f34c9c85; Domain=.prom.ua; expires=\\&quot;Sun, 03-Jan-2016 19:41:35 GMT\\&quot;; httponly; Max-Age=31536000; Path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:36 UTC"
+}

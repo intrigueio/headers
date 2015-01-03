@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://laredoute.fr"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:16 UTC",
+  "id": "24c821b5-18a6-43b1-84db-9d79c90971cf",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "BaseDirectory=; expires=Tue, 03-Feb-2015 19:41:21 GMT; path=/, BaseDirectory=; expires=Tue, 03-Feb-2015 19:41:21 GMT; path=/, ASP.NET_SessionId=5sw0nrnbhrpotlo11kbgb2cj; path=/; HttpOnly, CurrencyShortName=EUR; expires=Sun, 03-Jan-2016 19:41:21 GMT; path=/, TheseusGUID1=9ef7b4d8-13b3-4e5d-8be8-622a197e1997; expires=Sat, 10-Jan-2015 19:41:21 GMT; path=/, SArea=HP; expires=Sun, 03-Jan-2016 19:41:21 GMT; path=/, LRCookiePrivacy=0; expires=Sun, 03-Jan-2016 19:41:21 GMT; path=/, M.R.Basket=ID=9ef7b4d8-13b3-4e5d-8be8-622a197e1997|03/01/2015 20:41:21||&BsktPrCnt=0&BsktLineItemCnt=0; expires=Sat, 17-Jan-2015 19:41:21 GMT; path=/, dtCookie=159F0C70ED88F9859560031141EAB456|LR+FR|1; Path=/; Domain=.laredoute.fr, SRV=3628538540.20480.0000; expires=Sat, 03-Jan-2015 20:11:21 GMT; path=/, Theseus_DC=1178824153.20480.0000; expires=Wed, 07-Jan-2015 20:12:50 GMT; path=/, GEOCC=US;path=/;"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnet-version",
+        "content": "4.0.30319"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "http://preprod.laredoute.fr"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-headers",
+        "content": "Origin, X-Requested-With, Content-Type, Accept"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-credentials",
+        "content": "true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-dynatrace-js-agent",
+        "content": "true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:21 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "age",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-server",
+        "content": "zzsrpc04"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;laredoute.fr&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;BaseDirectory=; expires=Tue, 03-Feb-2015 19:41:21 GMT; path=&#x2F;, BaseDirectory=; expires=Tue, 03-Feb-2015 19:41:21 GMT; path=&#x2F;, ASP.NET_SessionId=5sw0nrnbhrpotlo11kbgb2cj; path=&#x2F;; HttpOnly, CurrencyShortName=EUR; expires=Sun, 03-Jan-2016 19:41:21 GMT; path=&#x2F;, TheseusGUID1=9ef7b4d8-13b3-4e5d-8be8-622a197e1997; expires=Sat, 10-Jan-2015 19:41:21 GMT; path=&#x2F;, SArea=HP; expires=Sun, 03-Jan-2016 19:41:21 GMT; path=&#x2F;, LRCookiePrivacy=0; expires=Sun, 03-Jan-2016 19:41:21 GMT; path=&#x2F;, M.R.Basket=ID=9ef7b4d8-13b3-4e5d-8be8-622a197e1997|03&#x2F;01&#x2F;2015 20:41:21||&amp;BsktPrCnt=0&amp;BsktLineItemCnt=0; expires=Sat, 17-Jan-2015 19:41:21 GMT; path=&#x2F;, dtCookie=159F0C70ED88F9859560031141EAB456|LR+FR|1; Path=&#x2F;; Domain=.laredoute.fr, SRV=3628538540.20480.0000; expires=Sat, 03-Jan-2015 20:11:21 GMT; path=&#x2F;, Theseus_DC=1178824153.20480.0000; expires=Wed, 07-Jan-2015 20:12:50 GMT; path=&#x2F;, GEOCC=US;path=&#x2F;;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;preprod.laredoute.fr&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-headers&quot;, :content=&gt;&quot;Origin, X-Requested-With, Content-Type, Accept&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-credentials&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dynatrace-js-agent&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:21 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-server&quot;, :content=&gt;&quot;zzsrpc04&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:22 UTC"
+}

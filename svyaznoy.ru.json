@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://svyaznoy.ru"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:48 UTC",
+  "id": "17d63d73-de55-424b-998c-b53662000cd4",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:50 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=windows-1251"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "32150"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Sat, 03 Jan 2015 19:30:04 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=300"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Sat, 03 Jan 2015 19:40:49 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-hash",
+        "content": "d41d8cd98f00b204e9800998ecf8427e"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "userFilterType=old; path=/; domain=.svyaznoy.ru; max-age=86400, SV_REF=; path=/; domain=.svyaznoy.ru; max-age=86400, ZONE_ID=133; path=/; domain=.svyaznoy.ru; max-age=86400, SHOWCITY=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0; path=/; domain=.svyaznoy.ru; max-age=86400, GEO_CITY_NAME=show_cities_window; path=/; domain=.svyaznoy.ru; max-age=86400, O_CITY_ID=133; path=/; domain=.svyaznoy.ru; max-age=86400, GEO_CITY_ID=deleted; path=/; domain=.svyaznoy.ru; max-age=86400, SHOWCITYMESSAGE=1; path=/; domain=.svyaznoy.ru"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;svyaznoy.ru&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:50 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=windows-1251&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;32150&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:30:04 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;keep-alive&quot;, :content=&gt;&quot;timeout=300&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:49 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-hash&quot;, :content=&gt;&quot;d41d8cd98f00b204e9800998ecf8427e&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;userFilterType=old; path=&#x2F;; domain=.svyaznoy.ru; max-age=86400, SV_REF=; path=&#x2F;; domain=.svyaznoy.ru; max-age=86400, ZONE_ID=133; path=&#x2F;; domain=.svyaznoy.ru; max-age=86400, SHOWCITY=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0; path=&#x2F;; domain=.svyaznoy.ru; max-age=86400, GEO_CITY_NAME=show_cities_window; path=&#x2F;; domain=.svyaznoy.ru; max-age=86400, O_CITY_ID=133; path=&#x2F;; domain=.svyaznoy.ru; max-age=86400, GEO_CITY_ID=deleted; path=&#x2F;; domain=.svyaznoy.ru; max-age=86400, SHOWCITYMESSAGE=1; path=&#x2F;; domain=.svyaznoy.ru&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:50 UTC"
+}

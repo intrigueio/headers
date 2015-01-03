@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://barclaycardus.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:50 UTC",
+  "id": "ddd36ad4-b9a0-44ea-b17b-5068d8e9888a",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:50 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-wily-info",
+        "content": "Clear guid=B15082D1AC12649C7FDB276DA778DAF0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-wily-servlet",
+        "content": "Encrypt1 ZqlIXmfhkfYXNEtTwqHC3KcIpmg5+dic35Glhvl2qstEYJhQhkuDqgIoLpC6Ir7kVvGhpoSyVic20OyYcHklS6a3SflFDEuoK5VQoREZ/gMZwZBWxX4pajbVgy62w6w/RrRg4EtO/ZXkIZ7O89j5z4n04S6TK75zNRYotE+swLw="
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Jan 1970 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-bstat",
+        "content": "23%3|B|app|14%3"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=D7C50285EB1B2F67AD765A86170E3DF1; Path=/servicing/; HttpOnly, TSESSIONID=D7C50285EB1B2F67AD765A86170E3DF1; Path=/, TESTCOOKIEDISABLE=testvalue; Path=/, domainCPCCookie=003; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;barclaycardus.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:50 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-wily-info&quot;, :content=&gt;&quot;Clear guid=B15082D1AC12649C7FDB276DA778DAF0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-wily-servlet&quot;, :content=&gt;&quot;Encrypt1 ZqlIXmfhkfYXNEtTwqHC3KcIpmg5+dic35Glhvl2qstEYJhQhkuDqgIoLpC6Ir7kVvGhpoSyVic20OyYcHklS6a3SflFDEuoK5VQoREZ&#x2F;gMZwZBWxX4pajbVgy62w6w&#x2F;RrRg4EtO&#x2F;ZXkIZ7O89j5z4n04S6TK75zNRYotE+swLw=&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-bstat&quot;, :content=&gt;&quot;23%3|B|app|14%3&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=D7C50285EB1B2F67AD765A86170E3DF1; Path=&#x2F;servicing&#x2F;; HttpOnly, TSESSIONID=D7C50285EB1B2F67AD765A86170E3DF1; Path=&#x2F;, TESTCOOKIEDISABLE=testvalue; Path=&#x2F;, domainCPCCookie=003; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:51 UTC"
+}

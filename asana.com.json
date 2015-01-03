@@ -1,0 +1,71 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://asana.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:08 UTC",
+  "id": "626d52b4-9771-48ea-906a-be531472cb92",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:09 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "xsrf_token=2213c924edc54c76ea6da53ff90ca29b; expires=Sat, 03-Jan-2015 20:40:09 GMT; path=/; domain=.asana.com; secure; httponly, asana_orig_attr=%7B%22source%22%3A%22%22%2C%22query_string%22%3A%22%22%2C%22landing_page%22%3A%22%5C%2F%22%2C%22useragent%22%3A%22Ruby%22%2C%22timestamp%22%3A1420314009%7D; expires=Mon, 02-Feb-2015 19:40:09 GMT; path=/; domain=asana.com; secure, asana_attr=%7B%22source%22%3A%22%22%2C%22query_string%22%3A%22%22%2C%22landing_page%22%3A%22%5C%2F%22%2C%22useragent%22%3A%22Ruby%22%2C%22timestamp%22%3A1420314009%7D; expires=Sat, 03-Jan-2015 20:40:09 GMT; path=/; domain=asana.com; secure"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "DENY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;asana.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:09 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;xsrf_token=2213c924edc54c76ea6da53ff90ca29b; expires=Sat, 03-Jan-2015 20:40:09 GMT; path=&#x2F;; domain=.asana.com; secure; httponly, asana_orig_attr=%7B%22source%22%3A%22%22%2C%22query_string%22%3A%22%22%2C%22landing_page%22%3A%22%5C%2F%22%2C%22useragent%22%3A%22Ruby%22%2C%22timestamp%22%3A1420314009%7D; expires=Mon, 02-Feb-2015 19:40:09 GMT; path=&#x2F;; domain=asana.com; secure, asana_attr=%7B%22source%22%3A%22%22%2C%22query_string%22%3A%22%22%2C%22landing_page%22%3A%22%5C%2F%22%2C%22useragent%22%3A%22Ruby%22%2C%22timestamp%22%3A1420314009%7D; expires=Sat, 03-Jan-2015 20:40:09 GMT; path=&#x2F;; domain=asana.com; secure&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;DENY&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:09 UTC"
+}

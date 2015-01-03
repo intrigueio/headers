@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://homeaway.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:18 UTC",
+  "id": "2842b413-85cb-4877-86c4-562d27e96e34",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Resin/3.1.8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-homeaway-serverpagetype",
+        "content": "home"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ab=b10; path=/; expires=Thu, 24-Dec-2054 19:41:18 GMT, hav=e216dc23-11d4-41d8-a40a-ee41f2c86fb0; path=/; expires=Mon, 02-Jan-2017 19:41:18 GMT, has=762f9907-379d-431f-a3c4-32451e0f9502; path=/, hav=51bcca69-3383-47d5-9711-3dc7164e389e; path=/; expires=Mon, 02-Jan-2017 19:41:18 GMT, has=7d53a1c3-a2b1-4d98-8e2b-cad95cb1b9ec; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cteonnt-length",
+        "content": "113108"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "25040"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:18 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;homeaway.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Resin&#x2F;3.1.8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-homeaway-serverpagetype&quot;, :content=&gt;&quot;home&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ab=b10; path=&#x2F;; expires=Thu, 24-Dec-2054 19:41:18 GMT, hav=e216dc23-11d4-41d8-a40a-ee41f2c86fb0; path=&#x2F;; expires=Mon, 02-Jan-2017 19:41:18 GMT, has=762f9907-379d-431f-a3c4-32451e0f9502; path=&#x2F;, hav=51bcca69-3383-47d5-9711-3dc7164e389e; path=&#x2F;; expires=Mon, 02-Jan-2017 19:41:18 GMT, has=7d53a1c3-a2b1-4d98-8e2b-cad95cb1b9ec; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cteonnt-length&quot;, :content=&gt;&quot;113108&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;25040&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:18 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:18 UTC"
+}

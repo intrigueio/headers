@@ -1,0 +1,57 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://jobrapido.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:23 UTC",
+  "id": "3ac15b3a-6772-4cf3-9108-ad0ef99a65f8",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:23 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; utf-8=;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JE=\"WHQaDfUUcFi9h39ZN0MIqlWpPizhN7kmlvOUd5bFLMpY1q6CRFzuuHWwloqnDN8nzG948nBmwznuEZGnSNYbLDExI8JAUZqPkPWjxKKjw8QyKEe0VNVTERh1oNr1irKeSthfJRGX218lJLmdJR6ui6rjkuceg/zCfr+RM5qgjKPAhFKgx5L6KZ7zdLW5xq1WK3FTzDJshL4ROvm/yvXqACiBqQjUqHkNcIHTDvcLkpAU+Y3R05apfkyrXBOwJSRiAL4O4Ji3tDBc2OTAOy5Ges3MwWUYNJxNVs5mvoLyAsYRq6imqgXJ2GHt+4EjTOpn5Nt1RNEQ293Dx2fHKXRKBIDtRxEdj6t3xqFn2WUTboFV4185mKry1GWP39LyWvdaKUNrXuR0lzwhq5aeM1s9Y04/si4wXkzqB78NFHe8QNswlPBvJBzpu/4wKCKQJsLBDagoDmO2xLPK/3FIJBlaLvgbuZ4NfVMwKcPrVxtbJgAHp5NerPmO81BgBlWyS+14McgY8EacA1YK2ceXpnCmXVPjhz52nr0J7ZXJWgC0/zBtCC1bREZb3jH0USntRhTv8/QcJ5BVfZfEhjNcLLIefYQSXhkJ2nCZRmEjuM9zdLdoLlmCoCJwmvyGVXCzUhHtK83pgpqn3XW/C5X1DL6Z3+/JlkZt78Z438WgcLO5cTpgcEUPl2XDH1CQyISuFvdo8ou8pO3LtzHQYfZLD79lrg==\"; Version=1; Max-Age=1805620775; Expires=Wed, 23-Mar-2072 04:59:59 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;jobrapido.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:23 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; utf-8=;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JE=\\&quot;WHQaDfUUcFi9h39ZN0MIqlWpPizhN7kmlvOUd5bFLMpY1q6CRFzuuHWwloqnDN8nzG948nBmwznuEZGnSNYbLDExI8JAUZqPkPWjxKKjw8QyKEe0VNVTERh1oNr1irKeSthfJRGX218lJLmdJR6ui6rjkuceg&#x2F;zCfr+RM5qgjKPAhFKgx5L6KZ7zdLW5xq1WK3FTzDJshL4ROvm&#x2F;yvXqACiBqQjUqHkNcIHTDvcLkpAU+Y3R05apfkyrXBOwJSRiAL4O4Ji3tDBc2OTAOy5Ges3MwWUYNJxNVs5mvoLyAsYRq6imqgXJ2GHt+4EjTOpn5Nt1RNEQ293Dx2fHKXRKBIDtRxEdj6t3xqFn2WUTboFV4185mKry1GWP39LyWvdaKUNrXuR0lzwhq5aeM1s9Y04&#x2F;si4wXkzqB78NFHe8QNswlPBvJBzpu&#x2F;4wKCKQJsLBDagoDmO2xLPK&#x2F;3FIJBlaLvgbuZ4NfVMwKcPrVxtbJgAHp5NerPmO81BgBlWyS+14McgY8EacA1YK2ceXpnCmXVPjhz52nr0J7ZXJWgC0&#x2F;zBtCC1bREZb3jH0USntRhTv8&#x2F;QcJ5BVfZfEhjNcLLIefYQSXhkJ2nCZRmEjuM9zdLdoLlmCoCJwmvyGVXCzUhHtK83pgpqn3XW&#x2F;C5X1DL6Z3+&#x2F;JlkZt78Z438WgcLO5cTpgcEUPl2XDH1CQyISuFvdo8ou8pO3LtzHQYfZLD79lrg==\\&quot;; Version=1; Max-Age=1805620775; Expires=Wed, 23-Mar-2072 04:59:59 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:24 UTC"
+}

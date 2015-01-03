@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://popsugar.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:30 UTC",
+  "id": "804a70fb-2eb1-408c-a71a-b1c8d16c3f0c",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Sat, 03 Jan 2015 19:42:32 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"CAO DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONi HIS OUR DELi SAMi IND UNI INT CNT\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.6.2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-popsugar-server-name",
+        "content": "sugarprodweb32.sugarops.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.5.17"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Cookie, User-Agent, Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:30 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=ca36q3plqsfagm1fdluvbi4k14; expires=Mon, 26-Jan-2015 23:13:50 GMT; Max-Age=2000000; path=/, client_locale=US; expires=Sun, 04-Jan-2015 19:40:30 GMT; Max-Age=86400; path=/, ss1=0%7C1422314030%7CB%2F0ziC1cu35lUq%2FfDV8tQC4qGLDDlw%2FGf0DNHRk%2FjjvXoV70tPA3OXE8xHOBj9HsmXuX%2FV3Hky16xWpytwYJx4c3Qul0J6e1GhNmwSNN5NYMeJ%2B0M7FIA%2BJneMQ%2BOsnCqmsBbk0q0krrfwPvwEQ7K0pUYC4aVvSt6UNN1UN6dyNyTqcwJD9J%2B04fFUD1cS6uRfHLCBvI7wQeVi9lLozByQ%3D%3D%7Ce7d76dd3f0c4493193bab272466f49401042b016; expires=Mon, 26-Jan-2015 23:13:50 GMT; Max-Age=2000000; path=/"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;popsugar.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:42:32 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CAO DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONi HIS OUR DELi SAMi IND UNI INT CNT\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-popsugar-server-name&quot;, :content=&gt;&quot;sugarprodweb32.sugarops.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.5.17&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Cookie, User-Agent, Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:30 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=ca36q3plqsfagm1fdluvbi4k14; expires=Mon, 26-Jan-2015 23:13:50 GMT; Max-Age=2000000; path=&#x2F;, client_locale=US; expires=Sun, 04-Jan-2015 19:40:30 GMT; Max-Age=86400; path=&#x2F;, ss1=0%7C1422314030%7CB%2F0ziC1cu35lUq%2FfDV8tQC4qGLDDlw%2FGf0DNHRk%2FjjvXoV70tPA3OXE8xHOBj9HsmXuX%2FV3Hky16xWpytwYJx4c3Qul0J6e1GhNmwSNN5NYMeJ%2B0M7FIA%2BJneMQ%2BOsnCqmsBbk0q0krrfwPvwEQ7K0pUYC4aVvSt6UNN1UN6dyNyTqcwJD9J%2B04fFUD1cS6uRfHLCBvI7wQeVi9lLozByQ%3D%3D%7Ce7d76dd3f0c4493193bab272466f49401042b016; expires=Mon, 26-Jan-2015 23:13:50 GMT; Max-Age=2000000; path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:30 UTC"
+}

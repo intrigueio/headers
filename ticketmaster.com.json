@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://ticketmaster.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:13 UTC",
+  "id": "32f00046-8e5d-4c56-a30e-bedc3e1c393e",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-dc-name",
+        "content": "4"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/w3c/tmol/p3p.xml\", CP=\"IDC DSP COR NID CURa ADMa DEVa PSAa OUR IND COM NAV INT\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu,  1 Jan 1970 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-akamai-transformed",
+        "content": "9 - 0 pmb=mRUM,1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:14 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "SID=aeLxfd1-083Bp-BytZOQRdzJP9guYLvE_FCPoQu00HE-lY2r-jyFYZFnt_3X2h87oBmnQrx-AUmizC1A; path=/; domain=.ticketmaster.com, BID=oIYKZRnum6M4YH4AlRLXCpoU4OmtQOaFRmWNSZbI1UchEi7cqSp1pBjRfUXojBs6AOqGE1gJTEryQ3LJ_oRK; path=/; domain=.ticketmaster.com; expires=Fri, 01-Jan-2038 00:00:01 GMT, GEORAN=1; path=/; domain=.ticketmaster.com; expires=, NDMA=358; path=/; domain=.ticketmaster.com, NPDMA=358; path=/; domain=.ticketmaster.com; expires=Mon, 04-Jan-2016 01:28:14 GMT, GEO_OMN=in; path=/; domain=.ticketmaster.com, csrf_token=7d0dae2a56fcd72167de8f6162717761; path=/; domain=.ticketmaster.com, TM_PAGES_REBRANDED=; path=/; domain=.ticketmaster.com; expires=Thu Jan  1 00:00:00 1970, CMPS=n2oFciQMasnjnmD4+M7stzgzDBs5gI22ZVbxDqgZlawYthbuWloJOOoeS+XvQ6umHH5tsDfXBGk=; path=/"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ticketmaster.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dc-name&quot;, :content=&gt;&quot;4&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;tmol&#x2F;p3p.xml\\&quot;, CP=\\&quot;IDC DSP COR NID CURa ADMa DEVa PSAa OUR IND COM NAV INT\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu,  1 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-akamai-transformed&quot;, :content=&gt;&quot;9 - 0 pmb=mRUM,1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:14 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;SID=aeLxfd1-083Bp-BytZOQRdzJP9guYLvE_FCPoQu00HE-lY2r-jyFYZFnt_3X2h87oBmnQrx-AUmizC1A; path=&#x2F;; domain=.ticketmaster.com, BID=oIYKZRnum6M4YH4AlRLXCpoU4OmtQOaFRmWNSZbI1UchEi7cqSp1pBjRfUXojBs6AOqGE1gJTEryQ3LJ_oRK; path=&#x2F;; domain=.ticketmaster.com; expires=Fri, 01-Jan-2038 00:00:01 GMT, GEORAN=1; path=&#x2F;; domain=.ticketmaster.com; expires=, NDMA=358; path=&#x2F;; domain=.ticketmaster.com, NPDMA=358; path=&#x2F;; domain=.ticketmaster.com; expires=Mon, 04-Jan-2016 01:28:14 GMT, GEO_OMN=in; path=&#x2F;; domain=.ticketmaster.com, csrf_token=7d0dae2a56fcd72167de8f6162717761; path=&#x2F;; domain=.ticketmaster.com, TM_PAGES_REBRANDED=; path=&#x2F;; domain=.ticketmaster.com; expires=Thu Jan  1 00:00:00 1970, CMPS=n2oFciQMasnjnmD4+M7stzgzDBs5gI22ZVbxDqgZlawYthbuWloJOOoeS+XvQ6umHH5tsDfXBGk=; path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:15 UTC"
+}

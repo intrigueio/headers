@@ -1,0 +1,134 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://codepen.io"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:51 UTC",
+  "id": "217cb66a-3929-4723-8bbd-cfcc244cd070",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-security-policy",
+        "content": "default-src ; connect-src 'self' http://* https://* ws://* wss://*; font-src 'self' 'unsafe-inline' http://* https://* data: safari-extension://*; frame-src 'self' http://* https://* safari-extension://*; img-src 'self' 'unsafe-inline' http://* https://* safari-extension://* data:; media-src 'self' 'unsafe-inline' http://* https://*; object-src ; script-src 'self' 'unsafe-eval' http://assets.cdpn.io http://assets.codepen.io http://preprocessor.codepen.io https://assets.codepen.io http://*.pubnub.com https://*.pubnub.com http://platform.twitter.com http://connect.facebook.net http://www.google-analytics.com https://*.google-analytics.com https://*.google.com http://wufoo.com https://wufoo.com http://*.wufoo.com https://*.wufoo.com https://*.stripe.com https://*.instapaper.com http://*.instapaper.com http://dc8na2hxrj29i.cloudfront.net; style-src 'self' 'unsafe-inline' http://* https://*;"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:32 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx + Phusion Passenger 4.0.48"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "_codepen_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFVEkiJTdmYzA3MjdlMGVhOThlZWYwOWM3NGIwMjY5ZjU5YmYxBjsAVEkiB2lkBjsAVGkGSSIQX2NzcmZfdG9rZW4GOwBGSSIxek13b3p3K00wNm9RRVE4Mnp2MXdPaGFGdkY4bGVIY2EvWldDazV0Mjdlcz0GOwBG--5a413a409ce4ea0bc2164883295b63453e62c4d2; path=/; expires=Mon, 02-Feb-2015 19:41:32 GMT; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Phusion Passenger 4.0.48"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "c8dc4c924d888e9e8d7ea05f35b9ea0e"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.074805"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;codepen.io&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-security-policy&quot;, :content=&gt;&quot;default-src ; connect-src &#x27;self&#x27; http:&#x2F;&#x2F;* https:&#x2F;&#x2F;* ws:&#x2F;&#x2F;* wss:&#x2F;&#x2F;*; font-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; http:&#x2F;&#x2F;* https:&#x2F;&#x2F;* data: safari-extension:&#x2F;&#x2F;*; frame-src &#x27;self&#x27; http:&#x2F;&#x2F;* https:&#x2F;&#x2F;* safari-extension:&#x2F;&#x2F;*; img-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; http:&#x2F;&#x2F;* https:&#x2F;&#x2F;* safari-extension:&#x2F;&#x2F;* data:; media-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; http:&#x2F;&#x2F;* https:&#x2F;&#x2F;*; object-src ; script-src &#x27;self&#x27; &#x27;unsafe-eval&#x27; http:&#x2F;&#x2F;assets.cdpn.io http:&#x2F;&#x2F;assets.codepen.io http:&#x2F;&#x2F;preprocessor.codepen.io https:&#x2F;&#x2F;assets.codepen.io http:&#x2F;&#x2F;*.pubnub.com https:&#x2F;&#x2F;*.pubnub.com http:&#x2F;&#x2F;platform.twitter.com http:&#x2F;&#x2F;connect.facebook.net http:&#x2F;&#x2F;www.google-analytics.com https:&#x2F;&#x2F;*.google-analytics.com https:&#x2F;&#x2F;*.google.com http:&#x2F;&#x2F;wufoo.com https:&#x2F;&#x2F;wufoo.com http:&#x2F;&#x2F;*.wufoo.com https:&#x2F;&#x2F;*.wufoo.com https:&#x2F;&#x2F;*.stripe.com https:&#x2F;&#x2F;*.instapaper.com http:&#x2F;&#x2F;*.instapaper.com http:&#x2F;&#x2F;dc8na2hxrj29i.cloudfront.net; style-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; http:&#x2F;&#x2F;* https:&#x2F;&#x2F;*;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:32 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx + Phusion Passenger 4.0.48&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_codepen_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFVEkiJTdmYzA3MjdlMGVhOThlZWYwOWM3NGIwMjY5ZjU5YmYxBjsAVEkiB2lkBjsAVGkGSSIQX2NzcmZfdG9rZW4GOwBGSSIxek13b3p3K00wNm9RRVE4Mnp2MXdPaGFGdkY4bGVIY2EvWldDazV0Mjdlcz0GOwBG--5a413a409ce4ea0bc2164883295b63453e62c4d2; path=&#x2F;; expires=Mon, 02-Feb-2015 19:41:32 GMT; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger 4.0.48&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;c8dc4c924d888e9e8d7ea05f35b9ea0e&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.074805&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:52 UTC"
+}

@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://groupon.it"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:40 UTC",
+  "id": "633632a5-72ba-45ea-8aaf-7d12ed038ca7",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Express"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "99429"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, no-cache, no-store, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "685401f0-0b89-48b2-8590-c26d06d6f8ed"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-p-cookie",
+        "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "DENY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-destination",
+        "content": "homepage_ita"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "pageId=ef6b412d-02b5-4e66-9375-a95445fe1713-1420314101494-TH0; Path=/, division=roma; Max-Age=315360000; Domain=.groupon.it; Path=/; Expires=Tue, 31 Dec 2024 19:41:41 GMT, CID=IT_DTI_0_0_0_0; Domain=.groupon.it; Path=/; Expires=Mon, 02 Feb 2015 23:59:59 GMT, homepage.sid=s%3A3qrbePvte9IvhQWpalB2b9SCs2GMIH1p.T1%2FsGPCvIl%2FScBZ1ob7si%2Fgb6T5gLL6q3kMFjbrIG1o; Path=/; HttpOnly, b=0b788c05-f889-4ed2-8059-79f4d709405e; Expires=Tue, 31 Dec 2024 19:41:41 GMT; Path=/; Domain=.groupon.it, p0=1; Expires=Sat, 03 Jan 2015 19:46:41 GMT; Path=/; Domain=.groupon.it, s=ef6b412d-02b5-4e66-9375-a95445fe1713; Expires=Sat, 03 Jan 2015 20:11:41 GMT; Path=/; Domain=.groupon.it"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:42 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;groupon.it&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Express&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;99429&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, no-cache, no-store, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;685401f0-0b89-48b2-8590-c26d06d6f8ed&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-p-cookie&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;DENY&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-destination&quot;, :content=&gt;&quot;homepage_ita&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;pageId=ef6b412d-02b5-4e66-9375-a95445fe1713-1420314101494-TH0; Path=&#x2F;, division=roma; Max-Age=315360000; Domain=.groupon.it; Path=&#x2F;; Expires=Tue, 31 Dec 2024 19:41:41 GMT, CID=IT_DTI_0_0_0_0; Domain=.groupon.it; Path=&#x2F;; Expires=Mon, 02 Feb 2015 23:59:59 GMT, homepage.sid=s%3A3qrbePvte9IvhQWpalB2b9SCs2GMIH1p.T1%2FsGPCvIl%2FScBZ1ob7si%2Fgb6T5gLL6q3kMFjbrIG1o; Path=&#x2F;; HttpOnly, b=0b788c05-f889-4ed2-8059-79f4d709405e; Expires=Tue, 31 Dec 2024 19:41:41 GMT; Path=&#x2F;; Domain=.groupon.it, p0=1; Expires=Sat, 03 Jan 2015 19:46:41 GMT; Path=&#x2F;; Domain=.groupon.it, s=ef6b412d-02b5-4e66-9375-a95445fe1713; Expires=Sat, 03 Jan 2015 20:11:41 GMT; Path=&#x2F;; Domain=.groupon.it&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:42 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:42 UTC"
+}

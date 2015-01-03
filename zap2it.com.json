@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://zap2it.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:16 UTC",
+  "id": "ed11c7e6-5fec-4e41-a52d-deee791c1a9f",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:16 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache/2.4.7 (Ubuntu)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "fuelcid=SycL7YYEfWIAkzh2g746IfjOMc5XJVT47NfEt7V3BKAMVkKWSmVB0eEZJdSS795dTlRDDK_vjNpsNm8P4KfHPNZJqnDTLOl9nt4QoXNjNnLCWh8f23ycFGG41WKOdKcNX7PjPofO8cJ8_BNZp588pUJM5BLvEdIKN9SHOL8cM9PFykVY-AfehKHJyJ4OZlTxCv9iX7k5kZy5KvaULIRRf5OFBWPYrH9BwZgZxop4Y5Jb9_32bYTq0OHlBw3aA9JjA26n6U1XkqxyetnDSPksJkWn3m2qEe029bMRU3akGL63-oMKVL4vIYCcIMHsddug5LmgoZUdlaaYlg7yY04hHjkxRzFxS1paRzVJSFVUam51aTNyNnd6akV2SktyTzNma2ZfOV8xYmFnc1k; expires=Sat, 03-Jan-2015 21:41:16 GMT; Max-Age=7200; path=/, rmcookie=SycL7YYEfWIAkzh2g746IfjOMc5XJVT47NfEt7V3BKBiK-UryjJdxvNKM3pqOly1uD68rSSRHuZgacX-Eb7Zn8M2diZ6mnIAGRlxPY6azsas-LPCQimgS-yLSwRxO0JlUrakFEc-5xUOTm61JDs5hdaDdOu27n2Es1APSaZt9I0C7KBYZM6AJhJqDS80fJIdNd5mEqvz75AIJiPrxxHQyvHT7_9XrbZ8kUBML9wwhQdgjKH8jvZLIPGJ3TaZFuPy8zr9DqZ6-lpMFsRR_bE2Z9rA6TfelxKgQ9h3gd9LOvNx-O_m_mywyVsn7bS4lGN6jhY9Gvm_QGQq0t6IDpdx4E1GR2FYMGNxU2s3NVREWHl1YThFallxbnp6aWNZemZ2aHhGYTExeXpvbkk; expires=Thu, 05-Mar-2015 19:41:16 GMT; Max-Age=5270400; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.5.9-1+sury.org~precise+1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "15274"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;zap2it.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:16 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.4.7 (Ubuntu)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;fuelcid=SycL7YYEfWIAkzh2g746IfjOMc5XJVT47NfEt7V3BKAMVkKWSmVB0eEZJdSS795dTlRDDK_vjNpsNm8P4KfHPNZJqnDTLOl9nt4QoXNjNnLCWh8f23ycFGG41WKOdKcNX7PjPofO8cJ8_BNZp588pUJM5BLvEdIKN9SHOL8cM9PFykVY-AfehKHJyJ4OZlTxCv9iX7k5kZy5KvaULIRRf5OFBWPYrH9BwZgZxop4Y5Jb9_32bYTq0OHlBw3aA9JjA26n6U1XkqxyetnDSPksJkWn3m2qEe029bMRU3akGL63-oMKVL4vIYCcIMHsddug5LmgoZUdlaaYlg7yY04hHjkxRzFxS1paRzVJSFVUam51aTNyNnd6akV2SktyTzNma2ZfOV8xYmFnc1k; expires=Sat, 03-Jan-2015 21:41:16 GMT; Max-Age=7200; path=&#x2F;, rmcookie=SycL7YYEfWIAkzh2g746IfjOMc5XJVT47NfEt7V3BKBiK-UryjJdxvNKM3pqOly1uD68rSSRHuZgacX-Eb7Zn8M2diZ6mnIAGRlxPY6azsas-LPCQimgS-yLSwRxO0JlUrakFEc-5xUOTm61JDs5hdaDdOu27n2Es1APSaZt9I0C7KBYZM6AJhJqDS80fJIdNd5mEqvz75AIJiPrxxHQyvHT7_9XrbZ8kUBML9wwhQdgjKH8jvZLIPGJ3TaZFuPy8zr9DqZ6-lpMFsRR_bE2Z9rA6TfelxKgQ9h3gd9LOvNx-O_m_mywyVsn7bS4lGN6jhY9Gvm_QGQq0t6IDpdx4E1GR2FYMGNxU2s3NVREWHl1YThFallxbnp6aWNZemZ2aHhGYTExeXpvbkk; expires=Thu, 05-Mar-2015 19:41:16 GMT; Max-Age=5270400; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.5.9-1+sury.org~precise+1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;15274&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:16 UTC"
+}

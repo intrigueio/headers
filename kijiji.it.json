@@ -1,0 +1,127 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://kijiji.it"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:14 UTC",
+  "id": "e68bcabe-365f-42dd-ae70-6383b78fd282",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=kd555os3ojlel6h3h2kahhe2m0; path=/, last_category=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/, luckyNumber=152903029; expires=Fri, 03-Apr-2015 19:41:15 GMT; Max-Age=7775998, sshh=152903029_c2e9295f0220de883d46342b82acee9ce252df7d; expires=Fri, 03-Apr-2015 19:41:15 GMT; Max-Age=7775998, organic_user_session=0; path=/, cookie_box=b1c85dfab98b6a82968aaaf68fe1f4c9; expires=Sun, 03-Jan-2016 19:41:15 GMT; Max-Age=31535998; path=/, last_category=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/, mpch_vc=0; expires=Mon, 05-Jan-2015 01:41:17 GMT; Max-Age=108000; path=/, abgroup=kijiji; Expires=Sun, 04 Jan 2015 03:41:17 GMT; path=/; httpOnly;"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "it"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "hostreference",
+        "content": "web013"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=iso-8859-15"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "24573"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:17 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "946327488"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "age",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;kijiji.it&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=kd555os3ojlel6h3h2kahhe2m0; path=&#x2F;, last_category=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=&#x2F;, luckyNumber=152903029; expires=Fri, 03-Apr-2015 19:41:15 GMT; Max-Age=7775998, sshh=152903029_c2e9295f0220de883d46342b82acee9ce252df7d; expires=Fri, 03-Apr-2015 19:41:15 GMT; Max-Age=7775998, organic_user_session=0; path=&#x2F;, cookie_box=b1c85dfab98b6a82968aaaf68fe1f4c9; expires=Sun, 03-Jan-2016 19:41:15 GMT; Max-Age=31535998; path=&#x2F;, last_category=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=&#x2F;, mpch_vc=0; expires=Mon, 05-Jan-2015 01:41:17 GMT; Max-Age=108000; path=&#x2F;, abgroup=kijiji; Expires=Sun, 04 Jan 2015 03:41:17 GMT; path=&#x2F;; httpOnly;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;it&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;hostreference&quot;, :content=&gt;&quot;web013&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=iso-8859-15&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;24573&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:17 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;946327488&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:17 UTC"
+}

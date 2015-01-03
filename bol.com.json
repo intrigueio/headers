@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://bol.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:52 UTC",
+  "id": "a20cfe29-a9b2-48b4-a49e-fd4347153b9c",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:53 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ps",
+        "content": "ps30"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "nl-NL"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "abt_aid=107#178#190#185#372#241#194#340#346#343; Expires=Mon, 02-Feb-2015 19:40:53 GMT; Path=/, abt_aid_session=true; Expires=Sat, 03-Jan-2015 20:10:53 GMT; Path=/, BUI=4ed3dv6w2lgfue64ikoy3y9g63slk3fl; Domain=.bol.com; Expires=Tue, 02-Jan-2018 19:40:53 GMT; Path=/, JSESSIONID=7AA5596325C189AB40897A3936C36ACC.ps30; Path=/nl, locale=nl_NL; Domain=www.bol.com; Expires=Sun, 03-Jan-2016 19:40:53 GMT; Path=/nl"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;bol.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:53 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ps&quot;, :content=&gt;&quot;ps30&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;nl-NL&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;abt_aid=107#178#190#185#372#241#194#340#346#343; Expires=Mon, 02-Feb-2015 19:40:53 GMT; Path=&#x2F;, abt_aid_session=true; Expires=Sat, 03-Jan-2015 20:10:53 GMT; Path=&#x2F;, BUI=4ed3dv6w2lgfue64ikoy3y9g63slk3fl; Domain=.bol.com; Expires=Tue, 02-Jan-2018 19:40:53 GMT; Path=&#x2F;, JSESSIONID=7AA5596325C189AB40897A3936C36ACC.ps30; Path=&#x2F;nl, locale=nl_NL; Domain=www.bol.com; Expires=Sun, 03-Jan-2016 19:40:53 GMT; Path=&#x2F;nl&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:54 UTC"
+}

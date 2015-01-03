@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://pagesjaunes.fr"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:18 UTC",
+  "id": "e4c8135b-97b1-4a24-a061-8c26bc1dda2d",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "openresty"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:19 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "nav=; path=/; Version=1; Domain=www.pagesjaunes.fr; Max-Age=0, ctxUUId=3ab7650b-2b47-4ac1-ca45-3389ca7a4bac-bad41ac-48e9; path=/; Version=1; Domain=www.pagesjaunes.fr; Max-Age=2592000, ctxUUIdExt=7b23b679ae008a8760c435602c622866#20150103#a7c702d5bd55731fb866a8f283fe1fb5; path=/; Version=1; Domain=www.pagesjaunes.fr; Max-Age=2592000, plk=G; path=/; domain=www.pagesjaunes.fr; expires=Sat, 03-Jan-2015 20:10:19 GMT, PJSESSIONID=224B18099C74A55DF5E0AA9DC1DE8CA3.yas62g; Path=/; HttpOnly, cookieILOSEO=224B18099C74A55DF5E0AA9DC1DE8CA3.yas62g; Path=/, VisitorID=090142031401938247; Expires=Wed, 03-Feb-2016 12:10:19 GMT; Path=/, IdPage=0901420314019382471420314019382; Path=/, IdPagePrecedent=0; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;pagesjaunes.fr&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;openresty&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:19 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;nav=; path=&#x2F;; Version=1; Domain=www.pagesjaunes.fr; Max-Age=0, ctxUUId=3ab7650b-2b47-4ac1-ca45-3389ca7a4bac-bad41ac-48e9; path=&#x2F;; Version=1; Domain=www.pagesjaunes.fr; Max-Age=2592000, ctxUUIdExt=7b23b679ae008a8760c435602c622866#20150103#a7c702d5bd55731fb866a8f283fe1fb5; path=&#x2F;; Version=1; Domain=www.pagesjaunes.fr; Max-Age=2592000, plk=G; path=&#x2F;; domain=www.pagesjaunes.fr; expires=Sat, 03-Jan-2015 20:10:19 GMT, PJSESSIONID=224B18099C74A55DF5E0AA9DC1DE8CA3.yas62g; Path=&#x2F;; HttpOnly, cookieILOSEO=224B18099C74A55DF5E0AA9DC1DE8CA3.yas62g; Path=&#x2F;, VisitorID=090142031401938247; Expires=Wed, 03-Feb-2016 12:10:19 GMT; Path=&#x2F;, IdPage=0901420314019382471420314019382; Path=&#x2F;, IdPagePrecedent=0; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:19 UTC"
+}

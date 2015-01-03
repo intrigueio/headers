@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://vine.co"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:13 UTC",
+  "id": "263bc3f1-a18b-4d21-92e5-83a19218b22b",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=600"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-security-policy-report-only",
+        "content": "default-src https: data:;img-src 'self' data: https://*.cdn.vine.co https://media.vineapp.com https://t.co https://analytics.twitter.com https://ssl.google-analytics.com https://stats.g.doubleclick.net;script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.twitter.com https://*.cdn.vine.co https://platform.vine.co https://stats.g.doubleclick.net https://ssl.google-analytics.com https://ajax.googleapis.com https://connect.facebook.net;style-src 'self' 'unsafe-inline' https://*.cdn.vine.co; media-src 'self' https://*.cdn.vine.co https://*.vncdn.co https://media.vineapp.com;object-src 'self' https://*.cdn.vine.co https://media.vineapp.com;connect-src 'self' https://*.cdn.vine.co https://media.vineapp.com https://graph.facebook.com;font-src 'self' https://*.cdn.vine.co;report-uri https://twitter.com/i/csp_report?a=OZUW4ZI=&ro=true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:14 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=631138519"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "95734"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;vine.co&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=600&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-security-policy-report-only&quot;, :content=&gt;&quot;default-src https: data:;img-src &#x27;self&#x27; data: https:&#x2F;&#x2F;*.cdn.vine.co https:&#x2F;&#x2F;media.vineapp.com https:&#x2F;&#x2F;t.co https:&#x2F;&#x2F;analytics.twitter.com https:&#x2F;&#x2F;ssl.google-analytics.com https:&#x2F;&#x2F;stats.g.doubleclick.net;script-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; https:&#x2F;&#x2F;*.twitter.com https:&#x2F;&#x2F;*.cdn.vine.co https:&#x2F;&#x2F;platform.vine.co https:&#x2F;&#x2F;stats.g.doubleclick.net https:&#x2F;&#x2F;ssl.google-analytics.com https:&#x2F;&#x2F;ajax.googleapis.com https:&#x2F;&#x2F;connect.facebook.net;style-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; https:&#x2F;&#x2F;*.cdn.vine.co; media-src &#x27;self&#x27; https:&#x2F;&#x2F;*.cdn.vine.co https:&#x2F;&#x2F;*.vncdn.co https:&#x2F;&#x2F;media.vineapp.com;object-src &#x27;self&#x27; https:&#x2F;&#x2F;*.cdn.vine.co https:&#x2F;&#x2F;media.vineapp.com;connect-src &#x27;self&#x27; https:&#x2F;&#x2F;*.cdn.vine.co https:&#x2F;&#x2F;media.vineapp.com https:&#x2F;&#x2F;graph.facebook.com;font-src &#x27;self&#x27; https:&#x2F;&#x2F;*.cdn.vine.co;report-uri https:&#x2F;&#x2F;twitter.com&#x2F;i&#x2F;csp_report?a=OZUW4ZI=&amp;ro=true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:14 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=631138519&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;95734&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:14 UTC"
+}

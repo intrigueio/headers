@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://finn.no"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:39 UTC",
+  "id": "52859878-bc65-4ad6-90bb-f9b1ae2d0e21",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:40 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "no-NO"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"CURa CONi TELi OUR IND NID DSP CAO COR\", policyref=\"http://www.finn.no/daily/w3c/p3p.xml\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=4718D85B7068499EEA2D899240059C08; Path=/; HttpOnly, USERAREA=XXXX20061X; Domain=.finn.no; Expires=Tue, 06-Jan-2015 19:40:40 GMT; Path=/, IADVISITOR=539416937; Version=1; Comment=\"unique id cookie\"; Domain=.finn.no; Max-Age=5184000; Expires=Wed, 04-Mar-2015 19:40:40 GMT; Path=/, USERID=539416938; Expires=Wed, 04-Mar-2015 19:40:40 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 www.finn.no"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;finn.no&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:40 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;no-NO&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CURa CONi TELi OUR IND NID DSP CAO COR\\&quot;, policyref=\\&quot;http:&#x2F;&#x2F;www.finn.no&#x2F;daily&#x2F;w3c&#x2F;p3p.xml\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=4718D85B7068499EEA2D899240059C08; Path=&#x2F;; HttpOnly, USERAREA=XXXX20061X; Domain=.finn.no; Expires=Tue, 06-Jan-2015 19:40:40 GMT; Path=&#x2F;, IADVISITOR=539416937; Version=1; Comment=\\&quot;unique id cookie\\&quot;; Domain=.finn.no; Max-Age=5184000; Expires=Wed, 04-Mar-2015 19:40:40 GMT; Path=&#x2F;, USERID=539416938; Expires=Wed, 04-Mar-2015 19:40:40 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 www.finn.no&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:41 UTC"
+}

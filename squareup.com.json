@@ -1,0 +1,127 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://squareup.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:35 UTC",
+  "id": "a386b348-bcf0-4d9b-8325-818c36e0aa5a",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=31536000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "DENY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "_savt=8b8bc5ca-1b56-4b51-a458-f7b402124f90; path=/; expires=Wed, 03 Jan 2018 19:41:35 -0000; secure, _ab_test_variants=IntcImFhX3Rlc3RcIjpcImFub3RoZXJfY29udHJvbFwiLFwicHVibGljX3dlYl9sb2dpblwiOlwiY29udHJvbFwiLFwicHVibGljX3dlYl9waG9uZV9zdXBwb3J0XCI6XCJwaG9uZV9iYW5uZXJcIixcInB1YmxpY193ZWJfYXBwb2ludG1lbnRzX2luZGV4XCI6XCJzbWFsbFwiLFwicHVibGljX3dlYl9jb250YWN0X3NhbGVzXCI6XCJzcGFcIn0i--dbb62ef1dd117b6697f2170db5cce1ef20881f2dd5e87a6f345ccd16ab292d754c956319f80007899360fe04979b38948acf5603b4e12c7e6dc9b83e56c86754; path=/; expires=Wed, 03 Jan 2035 19:41:35 -0000; secure"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "bd321bb0-c8b2-49a1-ac67-f48683c8b55e"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.062807"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Phusion Passenger 4.0.53"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:35 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx + Phusion Passenger 4.0.53"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-square",
+        "content": "S=awa1.sjc1b.square"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;squareup.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=31536000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;DENY&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_savt=8b8bc5ca-1b56-4b51-a458-f7b402124f90; path=&#x2F;; expires=Wed, 03 Jan 2018 19:41:35 -0000; secure, _ab_test_variants=IntcImFhX3Rlc3RcIjpcImFub3RoZXJfY29udHJvbFwiLFwicHVibGljX3dlYl9sb2dpblwiOlwiY29udHJvbFwiLFwicHVibGljX3dlYl9waG9uZV9zdXBwb3J0XCI6XCJwaG9uZV9iYW5uZXJcIixcInB1YmxpY193ZWJfYXBwb2ludG1lbnRzX2luZGV4XCI6XCJzbWFsbFwiLFwicHVibGljX3dlYl9jb250YWN0X3NhbGVzXCI6XCJzcGFcIn0i--dbb62ef1dd117b6697f2170db5cce1ef20881f2dd5e87a6f345ccd16ab292d754c956319f80007899360fe04979b38948acf5603b4e12c7e6dc9b83e56c86754; path=&#x2F;; expires=Wed, 03 Jan 2035 19:41:35 -0000; secure&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;bd321bb0-c8b2-49a1-ac67-f48683c8b55e&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.062807&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger 4.0.53&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:35 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx + Phusion Passenger 4.0.53&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-square&quot;, :content=&gt;&quot;S=awa1.sjc1b.square&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:35 UTC"
+}

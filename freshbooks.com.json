@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://freshbooks.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:01 UTC",
+  "id": "2ae1545a-3fe0-4db0-a9ee-8dbbc0b94835",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:01 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=vm1960cffv8cs7nbtldgrug3f2; expires=Sun, 04 Jan 2015 05:41:01 GMT; path=/, fb_referrer=deleted; expires=Fri, 03-Jan-2014 19:41:00 GMT; path=/; domain=.freshbooks.com, fb_entrypage=http%3A%2F%2Fwww.freshbooks.com%2F; expires=Tue, 17-May-2016 19:41:01 GMT; path=/; domain=.freshbooks.com, fb_landtime=2015-01-03+19%3A41%3A01; expires=Tue, 17-May-2016 19:41:01 GMT; path=/; domain=.freshbooks.com, fb_landing_url=http%3A%2F%2Fwww.freshbooks.comhttp%3A%2F%2Fwww.freshbooks.com%2F; expires=Mon, 02-Feb-2015 19:41:01 GMT; path=/; domain=.freshbooks.com, fb_referring_url=deleted; expires=Fri, 03-Jan-2014 19:41:00 GMT; path=/; domain=.freshbooks.com, fb_landing_time=2015-01-03+19%3A41%3A01; expires=Mon, 02-Feb-2015 19:41:01 GMT; path=/; domain=.freshbooks.com, fb_visitor_id=FDB08E58-4073-49FB-AB5D-E5462D4526BE; expires=Sun, 03-Jan-2016 19:41:01 GMT; path=/; domain=.freshbooks.com, sess_split=da17271eb6ee309fa2e63f60a9cd5024; expires=Sun, 03-Jan-2016 19:41:01 GMT; path=/; domain=freshbooks.com, sess_header=deleted; expires=Fri, 03-Jan-2014 19:41:00 GMT; path=/; domain=freshbooks.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "11841"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;freshbooks.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:01 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=vm1960cffv8cs7nbtldgrug3f2; expires=Sun, 04 Jan 2015 05:41:01 GMT; path=&#x2F;, fb_referrer=deleted; expires=Fri, 03-Jan-2014 19:41:00 GMT; path=&#x2F;; domain=.freshbooks.com, fb_entrypage=http%3A%2F%2Fwww.freshbooks.com%2F; expires=Tue, 17-May-2016 19:41:01 GMT; path=&#x2F;; domain=.freshbooks.com, fb_landtime=2015-01-03+19%3A41%3A01; expires=Tue, 17-May-2016 19:41:01 GMT; path=&#x2F;; domain=.freshbooks.com, fb_landing_url=http%3A%2F%2Fwww.freshbooks.comhttp%3A%2F%2Fwww.freshbooks.com%2F; expires=Mon, 02-Feb-2015 19:41:01 GMT; path=&#x2F;; domain=.freshbooks.com, fb_referring_url=deleted; expires=Fri, 03-Jan-2014 19:41:00 GMT; path=&#x2F;; domain=.freshbooks.com, fb_landing_time=2015-01-03+19%3A41%3A01; expires=Mon, 02-Feb-2015 19:41:01 GMT; path=&#x2F;; domain=.freshbooks.com, fb_visitor_id=FDB08E58-4073-49FB-AB5D-E5462D4526BE; expires=Sun, 03-Jan-2016 19:41:01 GMT; path=&#x2F;; domain=.freshbooks.com, sess_split=da17271eb6ee309fa2e63f60a9cd5024; expires=Sun, 03-Jan-2016 19:41:01 GMT; path=&#x2F;; domain=freshbooks.com, sess_header=deleted; expires=Fri, 03-Jan-2014 19:41:00 GMT; path=&#x2F;; domain=freshbooks.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;11841&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:01 UTC"
+}

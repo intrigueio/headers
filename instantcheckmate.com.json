@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://instantcheckmate.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:32 UTC",
+  "id": "2b4e36f1-164e-4f21-b04a-369140a92cd6",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:34 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d900ec65efdf9012d72aa70b494c114cb1420314093; expires=Sun, 03-Jan-16 19:41:33 GMT; path=/; domain=.instantcheckmate.com; HttpOnly, checkmate=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%227f4cb10c9da1175501824c39dc34fbd6%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.133.83%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420314093%3B%7D4e71a86158ee3eb0cc56d8ff5a50a2a2; expires=Sat, 03-Jan-2015 23:41:33 GMT; path=/, PHPSESSID=pqhkibjj59veqjocdt8vqkl6q6; path=/; domain=.instantcheckmate.com, tests=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.instantcheckmate.com, visitor=d91081d245bb826df227e968c8ccfa007dfb506d; expires=Wed, 03-Jan-2018 13:07:51 GMT; path=/, visitor=d91081d245bb826df227e968c8ccfa007dfb506d; expires=Wed, 03-Jan-2018 13:07:51 GMT; path=/, tests=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.instantcheckmate.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1a31acaead66116b-DFW"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;instantcheckmate.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:34 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d900ec65efdf9012d72aa70b494c114cb1420314093; expires=Sun, 03-Jan-16 19:41:33 GMT; path=&#x2F;; domain=.instantcheckmate.com; HttpOnly, checkmate=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%227f4cb10c9da1175501824c39dc34fbd6%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.133.83%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420314093%3B%7D4e71a86158ee3eb0cc56d8ff5a50a2a2; expires=Sat, 03-Jan-2015 23:41:33 GMT; path=&#x2F;, PHPSESSID=pqhkibjj59veqjocdt8vqkl6q6; path=&#x2F;; domain=.instantcheckmate.com, tests=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.instantcheckmate.com, visitor=d91081d245bb826df227e968c8ccfa007dfb506d; expires=Wed, 03-Jan-2018 13:07:51 GMT; path=&#x2F;, visitor=d91081d245bb826df227e968c8ccfa007dfb506d; expires=Wed, 03-Jan-2018 13:07:51 GMT; path=&#x2F;, tests=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.instantcheckmate.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a31acaead66116b-DFW&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:34 UTC"
+}

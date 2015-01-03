@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://ask.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:39:48 UTC",
+  "id": "40a52bbd-da46-4d3b-bef0-9cdc5f7729a6",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Jan 1970 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "tr-request-id",
+        "content": "VKhFhApcrLgAAEul2zwAAADV"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "from-tr",
+        "content": "trafrt021iad.io.askjeeves.info"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:39:48 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "user=o=0&l=dir;Path=/;Domain=ask.com, tr_uid=VKhFhApcrLgAAEul2zwAAADV;Path=/;Domain=ask.com;Expires=Sun, 03-Jan-2016 19:39:48 GMT, uc=u=8C05C344-B598-4569-AD18-B677675C4AC5&sn=askus005iad.io.askjeeves.info&od=none&op=-&fv=1420313988918&lv=1420313988918&ok=-&nv=1;Path=/;Domain=.ask.com;Expires=Fri, 27-Dec-2024 15:39:48 GMT, ucs=sk=-&sp=-&so=-&sd=none&sc=-&s=631137270&ap=&am=&an=&ad=dirN&sv=1420313988918&ag=&ps=1&af=;Path=/;Domain=.ask.com"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ask.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;tr-request-id&quot;, :content=&gt;&quot;VKhFhApcrLgAAEul2zwAAADV&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;from-tr&quot;, :content=&gt;&quot;trafrt021iad.io.askjeeves.info&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:39:48 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;user=o=0&amp;l=dir;Path=&#x2F;;Domain=ask.com, tr_uid=VKhFhApcrLgAAEul2zwAAADV;Path=&#x2F;;Domain=ask.com;Expires=Sun, 03-Jan-2016 19:39:48 GMT, uc=u=8C05C344-B598-4569-AD18-B677675C4AC5&amp;sn=askus005iad.io.askjeeves.info&amp;od=none&amp;op=-&amp;fv=1420313988918&amp;lv=1420313988918&amp;ok=-&amp;nv=1;Path=&#x2F;;Domain=.ask.com;Expires=Fri, 27-Dec-2024 15:39:48 GMT, ucs=sk=-&amp;sp=-&amp;so=-&amp;sd=none&amp;sc=-&amp;s=631137270&amp;ap=&amp;am=&amp;an=&amp;ad=dirN&amp;sv=1420313988918&amp;ag=&amp;ps=1&amp;af=;Path=&#x2F;;Domain=.ask.com&quot;}\n",
+  "timestamp_end": "2015-01-03 19:39:48 UTC"
+}

@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://yandex.com.tr"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:16 UTC",
+  "id": "d4638c26-0e04-48a1-a152-f1b5a627ef5a",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:20 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache,no-store,max-age=0,must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Sat, 03 Jan 2015 19:40:21 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Sat, 03 Jan 2015 19:40:21 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-security-policy",
+        "content": "default-src 'self' 'unsafe-inline' 'unsafe-eval' wss://portal-xiva.yandex.net *.yandex.ru yandex.ru *.yandex.net *.yandex.com.tr yandex.com.tr https://*.yandex.ru https://yandex.ru https://*.yandex.net https://*.yandex.com.tr https://yandex.com.tr yandex.st yastatic.net *.yastatic.net ws://portal-xiva.yandex.net wss://portal-xiva.yandex.net wss://push.yandex.ru; img-src data: 'self' awaps.yandex.com.tr *.yandex.ru *.yandex.com.tr *.tns-counter.ru *.gemius.pl https://awaps.yandex.com.tr https://*.yandex.ru https://*.yandex.com.tr https://*.tns-counter.ru https://*.gemius.pl yandex.st *.yandex.net yastatic.net *.yastatic.net; report-uri http://www.yandex.ru/log/csp?from=comtr.com.tr&showid=22877.6135.1420314020.6217&h=n13&yu=7268020101420314021;"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/w3c/p3p.xml\", CP=\"NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "yandex_gid=87; Expires=Mon, 02-Feb-2015 19:40:20 GMT; Domain=.yandex.com.tr; Path=/, yp=; Expires=Wed, 05-Jan-2005 19:40:20 GMT; Path=/, yp=; Expires=Wed, 05-Jan-2005 19:40:20 GMT; Domain=.www.yandex.com.tr; Path=/, yp=1422906021.ygu.1#4294967295.m.1420314021:1; Expires=Tue, 31-Dec-2024 19:40:20 GMT; Domain=.yandex.com.tr; Path=/, yandexuid=7268020101420314021; Expires=Tue, 31-Dec-2024 19:40:20 GMT; Domain=.yandex.com.tr; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "DENY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xrds-location",
+        "content": "http://openid.yandex.ru/server_xrds/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;yandex.com.tr&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:20 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache,no-store,max-age=0,must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:21 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:21 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-security-policy&quot;, :content=&gt;&quot;default-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; wss:&#x2F;&#x2F;portal-xiva.yandex.net *.yandex.ru yandex.ru *.yandex.net *.yandex.com.tr yandex.com.tr https:&#x2F;&#x2F;*.yandex.ru https:&#x2F;&#x2F;yandex.ru https:&#x2F;&#x2F;*.yandex.net https:&#x2F;&#x2F;*.yandex.com.tr https:&#x2F;&#x2F;yandex.com.tr yandex.st yastatic.net *.yastatic.net ws:&#x2F;&#x2F;portal-xiva.yandex.net wss:&#x2F;&#x2F;portal-xiva.yandex.net wss:&#x2F;&#x2F;push.yandex.ru; img-src data: &#x27;self&#x27; awaps.yandex.com.tr *.yandex.ru *.yandex.com.tr *.tns-counter.ru *.gemius.pl https:&#x2F;&#x2F;awaps.yandex.com.tr https:&#x2F;&#x2F;*.yandex.ru https:&#x2F;&#x2F;*.yandex.com.tr https:&#x2F;&#x2F;*.tns-counter.ru https:&#x2F;&#x2F;*.gemius.pl yandex.st *.yandex.net yastatic.net *.yastatic.net; report-uri http:&#x2F;&#x2F;www.yandex.ru&#x2F;log&#x2F;csp?from=comtr.com.tr&amp;showid=22877.6135.1420314020.6217&amp;h=n13&amp;yu=7268020101420314021;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;yandex_gid=87; Expires=Mon, 02-Feb-2015 19:40:20 GMT; Domain=.yandex.com.tr; Path=&#x2F;, yp=; Expires=Wed, 05-Jan-2005 19:40:20 GMT; Path=&#x2F;, yp=; Expires=Wed, 05-Jan-2005 19:40:20 GMT; Domain=.www.yandex.com.tr; Path=&#x2F;, yp=1422906021.ygu.1#4294967295.m.1420314021:1; Expires=Tue, 31-Dec-2024 19:40:20 GMT; Domain=.yandex.com.tr; Path=&#x2F;, yandexuid=7268020101420314021; Expires=Tue, 31-Dec-2024 19:40:20 GMT; Domain=.yandex.com.tr; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;DENY&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xrds-location&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;openid.yandex.ru&#x2F;server_xrds&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:20 UTC"
+}

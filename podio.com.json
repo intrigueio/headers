@@ -1,0 +1,134 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://podio.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:31 UTC",
+  "id": "34239fb3-8545-409a-95bb-30d476d52609",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:32 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=31536000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"ffe9480355f4abd9b32c100ce7ea37a4\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "subject_identifier=560175aea11c47dab4b6f6607dabb16a; domain=.podio.com; path=/; expires=Sun, 03 Jan 2016 19:41:32 -0000; secure, _contentsite_session=K2lJTzNSWVBMVGRlb1FnS3JGSXRLTytRSFJRcnFad1RLZFNBdVRPczJhZzJGSlIvZTlRQ3Fwb0J4MFBGQVp2R0VmZ3VuR3A2b3QxSlU5b1U1ZVFpK1VTdnNkMkw2U3RZajFSdVIxaUV1dGJzSWpkM2NYdWwyL1FiY0k4djJjRnFaN3pMZ3ZQY01lbjVkeThld3pXOTR3PT0tLTJOYllKQU03MEpRTGNwNzJ0YmY5N0E9PQ%3D%3D--d4ab3a90064073cf39add5db1b16da410b5b8c10; path=/; secure; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "cba5b38f-1cd1-4df3-8827-63c824023957"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.037203"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-served-by",
+        "content": "web-i-d0d49193"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;podio.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:32 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=31536000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;ffe9480355f4abd9b32c100ce7ea37a4\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;subject_identifier=560175aea11c47dab4b6f6607dabb16a; domain=.podio.com; path=&#x2F;; expires=Sun, 03 Jan 2016 19:41:32 -0000; secure, _contentsite_session=K2lJTzNSWVBMVGRlb1FnS3JGSXRLTytRSFJRcnFad1RLZFNBdVRPczJhZzJGSlIvZTlRQ3Fwb0J4MFBGQVp2R0VmZ3VuR3A2b3QxSlU5b1U1ZVFpK1VTdnNkMkw2U3RZajFSdVIxaUV1dGJzSWpkM2NYdWwyL1FiY0k4djJjRnFaN3pMZ3ZQY01lbjVkeThld3pXOTR3PT0tLTJOYllKQU03MEpRTGNwNzJ0YmY5N0E9PQ%3D%3D--d4ab3a90064073cf39add5db1b16da410b5b8c10; path=&#x2F;; secure; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;cba5b38f-1cd1-4df3-8827-63c824023957&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.037203&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-served-by&quot;, :content=&gt;&quot;web-i-d0d49193&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:32 UTC"
+}

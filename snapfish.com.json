@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://snapfish.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:34 UTC",
+  "id": "4aeb385f-048b-490e-aac3-e7b9ecadffcc",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:35 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache,must-revalidate,proxy-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"ALL DSP COR CONi OUR BUS PHY ONL PUR DEM STA\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "GSID=660b671a-8344-4c9f-88c9-a9011a2579c4; Domain=snapfish.com; Path=/, JSESSIONID=D6FB2B11F73569C3909EEDCDE14482AD; Path=/, __sf__ot__.snapfish_us.prd=\"\"; Domain=snapfish.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, mcn.snapfish_us.prd=snapfish; Domain=snapfish.com; Path=/, BIGipServer=1833250058.16415.000; Path=/, SF_CisForCookie=SF_ThatIsGoodEnoughForMe!; Domain=snapfish.com; Path=/; Secure, cms.snapfish_us.prd=\"\"; Domain=snapfish.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, s_sc.snapfish_us.prd=jrofvgrBvq%21%25RDHNYF%5E%211000000%21%25AIC_FRC%5E%21pboenaqBvq%21%25RDHNYF%5E%211000; Domain=snapfish.com; Path=/, __sf__lsc__.snapfish_us.prd=\"\"; Domain=snapfish.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, __sf__ot__.snapfish_us.prd=\"\"; Domain=snapfish.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, SF_PC_060100.snapfish_us.prd=\"\"; Domain=snapfish.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, __sf__cmpg__.snapfish_us.prd=\"\"; Domain=snapfish.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, BIGipServersf1-snapcat-pod1=1833250058.16415.0000; path=/, bip1=p1:sb:32:ne::t11:1420314095295:t13:1420314095327:tmz:-0800:s1:1420314095:s2:1420314095;"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;snapfish.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:35 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache,must-revalidate,proxy-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;ALL DSP COR CONi OUR BUS PHY ONL PUR DEM STA\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;GSID=660b671a-8344-4c9f-88c9-a9011a2579c4; Domain=snapfish.com; Path=&#x2F;, JSESSIONID=D6FB2B11F73569C3909EEDCDE14482AD; Path=&#x2F;, __sf__ot__.snapfish_us.prd=\\&quot;\\&quot;; Domain=snapfish.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, mcn.snapfish_us.prd=snapfish; Domain=snapfish.com; Path=&#x2F;, BIGipServer=1833250058.16415.000; Path=&#x2F;, SF_CisForCookie=SF_ThatIsGoodEnoughForMe!; Domain=snapfish.com; Path=&#x2F;; Secure, cms.snapfish_us.prd=\\&quot;\\&quot;; Domain=snapfish.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, s_sc.snapfish_us.prd=jrofvgrBvq%21%25RDHNYF%5E%211000000%21%25AIC_FRC%5E%21pboenaqBvq%21%25RDHNYF%5E%211000; Domain=snapfish.com; Path=&#x2F;, __sf__lsc__.snapfish_us.prd=\\&quot;\\&quot;; Domain=snapfish.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, __sf__ot__.snapfish_us.prd=\\&quot;\\&quot;; Domain=snapfish.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, SF_PC_060100.snapfish_us.prd=\\&quot;\\&quot;; Domain=snapfish.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, __sf__cmpg__.snapfish_us.prd=\\&quot;\\&quot;; Domain=snapfish.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, BIGipServersf1-snapcat-pod1=1833250058.16415.0000; path=&#x2F;, bip1=p1:sb:32:ne::t11:1420314095295:t13:1420314095327:tmz:-0800:s1:1420314095:s2:1420314095;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:35 UTC"
+}

@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://casino.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:23 UTC",
+  "id": "41f7541f-a2c0-41f8-82db-2804b75a9cbf",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:25 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache/2.2.15 (CentOS)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "lo=us; path=/; domain=.casino.com; expires=Sun, 04-Jan-2015 19:41:25 GMT, session_id=vh9gd3urco0pshqlqjkv0ehff4; path=/; domain=.casino.com, mts_guid=5c0d9c44-b5b0-4d15-ae14-804379dcc9d6; expires=Sun, 03-Jan-2016 19:41:25 GMT; path=/; domain=.casino.com, referrer=deleted; expires=Fri, 03-Jan-2014 19:41:24 GMT; path=/; domain=.casino.com, mts_traffic_source=DIRECT; path=/; domain=.casino.com, mts_session=%5B%7B%22brand%22%3A%22casino.com%22%2C%22channel%22%3A%7B%22traffic_source%22%3A%22DIRECT%22%2C%22referrer%22%3A%22%22%2C%22custom_data%22%3A%7B%7D%7D%7D%5D; path=/; domain=.casino.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.3.3"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=600, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "imagetoolbar",
+        "content": "no"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "12574"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cnection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;casino.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:25 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.15 (CentOS)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;lo=us; path=&#x2F;; domain=.casino.com; expires=Sun, 04-Jan-2015 19:41:25 GMT, session_id=vh9gd3urco0pshqlqjkv0ehff4; path=&#x2F;; domain=.casino.com, mts_guid=5c0d9c44-b5b0-4d15-ae14-804379dcc9d6; expires=Sun, 03-Jan-2016 19:41:25 GMT; path=&#x2F;; domain=.casino.com, referrer=deleted; expires=Fri, 03-Jan-2014 19:41:24 GMT; path=&#x2F;; domain=.casino.com, mts_traffic_source=DIRECT; path=&#x2F;; domain=.casino.com, mts_session=%5B%7B%22brand%22%3A%22casino.com%22%2C%22channel%22%3A%7B%22traffic_source%22%3A%22DIRECT%22%2C%22referrer%22%3A%22%22%2C%22custom_data%22%3A%7B%7D%7D%7D%5D; path=&#x2F;; domain=.casino.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.3.3&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=600, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;imagetoolbar&quot;, :content=&gt;&quot;no&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;12574&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cnection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:25 UTC"
+}

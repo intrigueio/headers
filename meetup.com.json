@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://meetup.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:01 UTC",
+  "id": "09ab5de1-6b4b-4b3f-a195-4f7ed5670f29",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:02 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d389c9d20fcc62fe09568f490bf7b76ae1420314002; expires=Sun, 03-Jan-16 19:40:02 GMT; path=/; domain=.meetup.com; HttpOnly, MEETUP_MEMBER=\"id=0&status=1&timestamp=1420314002&bs=0&tz=US%2FEastern&zip=&country=us&city=&state=&lat=0.0&lon=0.0&s=2e8ef36979036aee7f0a9e96b0e2ddafc8c0f9b6\"; Version=1; Domain=.meetup.com; Path=/, MEETUP_AFFIL=\"affil=meetup\"; Version=1; Domain=.meetup.com; Max-Age=3888000; Expires=Tue, 17-Feb-2015 19:40:02 GMT; Path=/, MEETUP_LANGUAGE=\"language=en&country=US\"; Version=1; Domain=.meetup.com; Path=/, MEETUP_TRACK=\"id=27883be8-d638-479c-93f3-10cc16fdf342&l=0&s=b123a9c68e80bea31605d7f1fb7c2cc7a341adbe\"; Version=1; Domain=.meetup.com; Path=/, MEETUP_CSRF=6f3b7d38-d490-49cb-a525-fdaeae9e333c; Domain=.meetup.com; Expires=Mon, 02-Feb-2015 19:40:02 GMT; Path=/, trax_alien_featured_chapter_sort=\"uuid=9ce887b9-4ff9-4428-9265-d850e7e98be7&v=cat_ranking&p=start&s=0&_=bd15f0\"; Version=1; Domain=.meetup.com; Max-Age=14400; Expires=Sat, 03-Jan-2015 23:40:02 GMT; Path=/, trax_find_findyourpeople=\"uuid=37774c79-61d0-4321-a7f9-693caa556322&v=control1&p=start&s=0&_=642731\"; Version=1; Domain=.meetup.com; Max-Age=14400; Expires=Sat, 03-Jan-2015 23:40:02 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"CAO DSP LAW CUR DEVa TAIa PSAi PSDi OTPi OUR IND UNI NAV DEM STA LOC OTC\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-meetup-server",
+        "content": "app4.int.meetup.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "sameorigin"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "No-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1a31aa7584d4092c-DFW"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;meetup.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:02 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d389c9d20fcc62fe09568f490bf7b76ae1420314002; expires=Sun, 03-Jan-16 19:40:02 GMT; path=&#x2F;; domain=.meetup.com; HttpOnly, MEETUP_MEMBER=\\&quot;id=0&amp;status=1&amp;timestamp=1420314002&amp;bs=0&amp;tz=US%2FEastern&amp;zip=&amp;country=us&amp;city=&amp;state=&amp;lat=0.0&amp;lon=0.0&amp;s=2e8ef36979036aee7f0a9e96b0e2ddafc8c0f9b6\\&quot;; Version=1; Domain=.meetup.com; Path=&#x2F;, MEETUP_AFFIL=\\&quot;affil=meetup\\&quot;; Version=1; Domain=.meetup.com; Max-Age=3888000; Expires=Tue, 17-Feb-2015 19:40:02 GMT; Path=&#x2F;, MEETUP_LANGUAGE=\\&quot;language=en&amp;country=US\\&quot;; Version=1; Domain=.meetup.com; Path=&#x2F;, MEETUP_TRACK=\\&quot;id=27883be8-d638-479c-93f3-10cc16fdf342&amp;l=0&amp;s=b123a9c68e80bea31605d7f1fb7c2cc7a341adbe\\&quot;; Version=1; Domain=.meetup.com; Path=&#x2F;, MEETUP_CSRF=6f3b7d38-d490-49cb-a525-fdaeae9e333c; Domain=.meetup.com; Expires=Mon, 02-Feb-2015 19:40:02 GMT; Path=&#x2F;, trax_alien_featured_chapter_sort=\\&quot;uuid=9ce887b9-4ff9-4428-9265-d850e7e98be7&amp;v=cat_ranking&amp;p=start&amp;s=0&amp;_=bd15f0\\&quot;; Version=1; Domain=.meetup.com; Max-Age=14400; Expires=Sat, 03-Jan-2015 23:40:02 GMT; Path=&#x2F;, trax_find_findyourpeople=\\&quot;uuid=37774c79-61d0-4321-a7f9-693caa556322&amp;v=control1&amp;p=start&amp;s=0&amp;_=642731\\&quot;; Version=1; Domain=.meetup.com; Max-Age=14400; Expires=Sat, 03-Jan-2015 23:40:02 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CAO DSP LAW CUR DEVa TAIa PSAi PSDi OTPi OUR IND UNI NAV DEM STA LOC OTC\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-meetup-server&quot;, :content=&gt;&quot;app4.int.meetup.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;sameorigin&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;No-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a31aa7584d4092c-DFW&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:03 UTC"
+}

@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://coupons.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:11 UTC",
+  "id": "63342739-006c-4ef0-abef-512660e39f4a",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:11 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "CLIENT-IP"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ci-srv",
+        "content": "las-prd-web19.lv1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "citag=1, cidat=1%2F3%2F2015+11%3A40%3A11+AM, CSPidCookie=13306; path=/, B=i=1420314012bbY8gp4Ikw&r=843&t=1420314012&v=2&s=f8d3f2ce40c8c89627b1a52689d849430ef9af87; expires=Mon, 02-Jan-2017 19:40:12 GMT; path=/; domain=coupons.com, UserInfo=mac=H&uid=H&acc=H&isPrinterSupported=0&groupid=0%2C0%2C0&nid=AH&ZIP=&rememberMeCookie=0&UserKey=/h/Ds1ZHTOB+rsASEvi1T8OW/L9Hb09kTHVDJEZyT21NYU5pQ2tB&cbStatus=0&isInitialSSOReg=0&euid=&appid=&redirectToLamp=0; expires=Mon, 13-Apr-2015 18:40:12 GMT; path=/; domain=coupons.com, SessionInfo=TrackingID=ALK0103114011C800B4513383109&SI=iG0O=Fwb!LWeeQ9xaeE74DBE2M@Ud4utib:|:uK32S=k:|:HYnJ~dPrQ=I:|:BRuhBwgo=2:|:FnanKe$=M:|:jMdn=Y:|:8y_$a.caSo=dc:|:Ht^p328eV=Uq:|:di^=X:|:HeC=cM^ubWg4zz5EqyMOot0XZ%DHnfIiw:|:AUPaW6gi5y0mJ~CT5Pl=U:|:~wh_VD%0=O:|:_LX=%~X0P1:|:WeYk8tGOoa6=8^:|:@^GrBE=m:|:8yqjoic=1:|:VSo9Z7=i:|:poiRLw7=w:|:IwGSfLM=6y:|:a1GN=5:|:R%eZ3sKin=j:|:OKgrM=6:|:^7=WUxAGT&sC=yxzLLsYRc=fJ:|:glc_dul5jyE~8=D1:|:63ihezy%~F=0%b/3O/csZPPsJ4o; path=/; domain=coupons.com; httponly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, no-cache, no-store, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Sat, 01 Jan 2000 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"Coupons.com does not have a P3P policy. P3P was suspended years ago due to insufficient support from browsers. Please see our Privacy Policy: http://www.couponsinc.com/privacy-policy/\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "ci_svr_id",
+        "content": "4:11/109"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;coupons.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:11 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;CLIENT-IP&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ci-srv&quot;, :content=&gt;&quot;las-prd-web19.lv1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;citag=1, cidat=1%2F3%2F2015+11%3A40%3A11+AM, CSPidCookie=13306; path=&#x2F;, B=i=1420314012bbY8gp4Ikw&amp;r=843&amp;t=1420314012&amp;v=2&amp;s=f8d3f2ce40c8c89627b1a52689d849430ef9af87; expires=Mon, 02-Jan-2017 19:40:12 GMT; path=&#x2F;; domain=coupons.com, UserInfo=mac=H&amp;uid=H&amp;acc=H&amp;isPrinterSupported=0&amp;groupid=0%2C0%2C0&amp;nid=AH&amp;ZIP=&amp;rememberMeCookie=0&amp;UserKey=&#x2F;h&#x2F;Ds1ZHTOB+rsASEvi1T8OW&#x2F;L9Hb09kTHVDJEZyT21NYU5pQ2tB&amp;cbStatus=0&amp;isInitialSSOReg=0&amp;euid=&amp;appid=&amp;redirectToLamp=0; expires=Mon, 13-Apr-2015 18:40:12 GMT; path=&#x2F;; domain=coupons.com, SessionInfo=TrackingID=ALK0103114011C800B4513383109&amp;SI=iG0O=Fwb!LWeeQ9xaeE74DBE2M@Ud4utib:|:uK32S=k:|:HYnJ~dPrQ=I:|:BRuhBwgo=2:|:FnanKe$=M:|:jMdn=Y:|:8y_$a.caSo=dc:|:Ht^p328eV=Uq:|:di^=X:|:HeC=cM^ubWg4zz5EqyMOot0XZ%DHnfIiw:|:AUPaW6gi5y0mJ~CT5Pl=U:|:~wh_VD%0=O:|:_LX=%~X0P1:|:WeYk8tGOoa6=8^:|:@^GrBE=m:|:8yqjoic=1:|:VSo9Z7=i:|:poiRLw7=w:|:IwGSfLM=6y:|:a1GN=5:|:R%eZ3sKin=j:|:OKgrM=6:|:^7=WUxAGT&amp;sC=yxzLLsYRc=fJ:|:glc_dul5jyE~8=D1:|:63ihezy%~F=0%b&#x2F;3O&#x2F;csZPPsJ4o; path=&#x2F;; domain=coupons.com; httponly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, no-cache, no-store, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 01 Jan 2000 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;Coupons.com does not have a P3P policy. P3P was suspended years ago due to insufficient support from browsers. Please see our Privacy Policy: http:&#x2F;&#x2F;www.couponsinc.com&#x2F;privacy-policy&#x2F;\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;ci_svr_id&quot;, :content=&gt;&quot;4:11&#x2F;109&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:12 UTC"
+}

@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://tchibo.de"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:05 UTC",
+  "id": "e0fb3360-b87a-48c5-8fe6-77b26cc0b115",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "SECURETOKEN=AAAAAAEytBoAAAFKsVC67gAUQUVTL0NCQy9QS0NTNVBhZGRpbmcAgAAQABDtI0tYqKBHhhww_dsX6be6AAAAQAsnJCx5xsZp9HipGrHSnWs34POmaZBDhV0swYjZ0G1Pbb8R6oSSuFMCmaEwvHwIe6tr8mfEnfbaNbShpHMtjsAAFKX2oXzlfq79B6TULveo7RdZzfsR; Path=/, DE_abtest_000=H4sIAAAAAAAAAAGWAGn_AAAAAAEytBoAAAFKsVC69wAUQUVTL0NCQy9QS0NTNVBhZGRpbmcAgAAQABAkeuDC0na1wI3pPjq_ZmZ4AAAAQCheBXsHsNbFK5_vJzujU3HiUga9NkeKPXS-ipDh7EDMBWreZwdUe4OzYmZk3ZO7brMG1YzVBk-HdAeKpu6VqPUAFBSDWBbOxT5q5oeWmXARP4K_TaCfb3MrKJYAAAA%3D; Expires=Sun, 03-Jan-2016 19:41:05 GMT; Path=/, DE_visit=H4sIAAAAAAAAAAEmAtn9AAAAAAEytBoAAAFKsVC7ogAUQUVTL0NCQy9QS0NTNVBhZGRpbmcAgAAQABBRgjuA19H6tDLZ6nlqz7YCAAAB0IHrAlqtYa3V5ZnfliD_REKZhX6BV403_NpKmM8GzF4FS9ALIe8YbhY9teAWAVxr_NUPdGjDutVbJEKZSmSGQFtoBzppAvQKz9dzKtnIEoeMskyAbO1BTqNIJd3XgSuDYd61mw1cXBfaIBlacaRDUZnH3c4M00p0DqkX1WwS7lEBNej9VXvBmT6rVVyoEWmHJ1R54hY2Ffppic3TVV_ZIiQA-3J0aLhJvVe1pd6sZTsl9gyrkA4HyVB3hk_IhK0iqLAhOa0FSVjRkvO3BMIqFO1vsax1uFjXq-nNGTh7lsVsEzadVPLQYEx8RLH3hNUDMl5P9EPyKtrAd-mqUIge9RVXrx0q2ZFv3YU8iU1ULJwQNgI_3XrLswTalRYFIQBuPX_2U6yL5IC8rVh60wwSZsbsc9gS-fhDgjyse73pYPawJlSsLvOY-yxYYLAUNHdhjV-7j3gIz45VH-tICSU7Uni2z0GH5dh2c3AuBbA8PepHx0ad4ooWALbhZCbPei99UNZQS51A61E09g4V3lBooVCghDzuYIO2kYC3ftJl3UvZKIgnMe6ovupwu6lJSYa-nh9VljNFnjV-rbMk0fdQks-eSba0GYwdXLt7Td22Pbq5ABRk3ERMHL8Z2UHbVy9Lm5J16Nlr33KelFgmAgAA; Expires=Wed, 04-Mar-2015 19:41:05 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "de-DE"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:05 GMT"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;tchibo.de&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;SECURETOKEN=AAAAAAEytBoAAAFKsVC67gAUQUVTL0NCQy9QS0NTNVBhZGRpbmcAgAAQABDtI0tYqKBHhhww_dsX6be6AAAAQAsnJCx5xsZp9HipGrHSnWs34POmaZBDhV0swYjZ0G1Pbb8R6oSSuFMCmaEwvHwIe6tr8mfEnfbaNbShpHMtjsAAFKX2oXzlfq79B6TULveo7RdZzfsR; Path=&#x2F;, DE_abtest_000=H4sIAAAAAAAAAAGWAGn_AAAAAAEytBoAAAFKsVC69wAUQUVTL0NCQy9QS0NTNVBhZGRpbmcAgAAQABAkeuDC0na1wI3pPjq_ZmZ4AAAAQCheBXsHsNbFK5_vJzujU3HiUga9NkeKPXS-ipDh7EDMBWreZwdUe4OzYmZk3ZO7brMG1YzVBk-HdAeKpu6VqPUAFBSDWBbOxT5q5oeWmXARP4K_TaCfb3MrKJYAAAA%3D; Expires=Sun, 03-Jan-2016 19:41:05 GMT; Path=&#x2F;, DE_visit=H4sIAAAAAAAAAAEmAtn9AAAAAAEytBoAAAFKsVC7ogAUQUVTL0NCQy9QS0NTNVBhZGRpbmcAgAAQABBRgjuA19H6tDLZ6nlqz7YCAAAB0IHrAlqtYa3V5ZnfliD_REKZhX6BV403_NpKmM8GzF4FS9ALIe8YbhY9teAWAVxr_NUPdGjDutVbJEKZSmSGQFtoBzppAvQKz9dzKtnIEoeMskyAbO1BTqNIJd3XgSuDYd61mw1cXBfaIBlacaRDUZnH3c4M00p0DqkX1WwS7lEBNej9VXvBmT6rVVyoEWmHJ1R54hY2Ffppic3TVV_ZIiQA-3J0aLhJvVe1pd6sZTsl9gyrkA4HyVB3hk_IhK0iqLAhOa0FSVjRkvO3BMIqFO1vsax1uFjXq-nNGTh7lsVsEzadVPLQYEx8RLH3hNUDMl5P9EPyKtrAd-mqUIge9RVXrx0q2ZFv3YU8iU1ULJwQNgI_3XrLswTalRYFIQBuPX_2U6yL5IC8rVh60wwSZsbsc9gS-fhDgjyse73pYPawJlSsLvOY-yxYYLAUNHdhjV-7j3gIz45VH-tICSU7Uni2z0GH5dh2c3AuBbA8PepHx0ad4ooWALbhZCbPei99UNZQS51A61E09g4V3lBooVCghDzuYIO2kYC3ftJl3UvZKIgnMe6ovupwu6lJSYa-nh9VljNFnjV-rbMk0fdQks-eSba0GYwdXLt7Td22Pbq5ABRk3ERMHL8Z2UHbVy9Lm5J16Nlr33KelFgmAgAA; Expires=Wed, 04-Mar-2015 19:41:05 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;de-DE&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:05 GMT&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:06 UTC"
+}

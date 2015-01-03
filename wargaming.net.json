@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://wargaming.net"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:36 UTC",
+  "id": "d0fe2826-5c58-4189-b3c7-77e9fcb3d189",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:37 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, Accept,Accept-Language,Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xrds-location",
+        "content": "https://na.wargaming.net/id/openid/yadis/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "wgn_realm=us; Domain=.wargaming.net; expires=Sun, 03-Jan-2016 19:40:37 GMT; Max-Age=31536000; Path=/, wgnp_csrftoken=N4qb1CRxwcYeFqUtrOQP9CNV9UmPznLa; expires=Sat, 02-Jan-2016 19:40:37 GMT; Max-Age=31449600; Path=/, wgnp_language=en; expires=Sat, 17-Jan-2015 19:40:37 GMT; Max-Age=1209600; Path=/"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;wargaming.net&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:37 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, Accept,Accept-Language,Cookie&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xrds-location&quot;, :content=&gt;&quot;https:&#x2F;&#x2F;na.wargaming.net&#x2F;id&#x2F;openid&#x2F;yadis&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;wgn_realm=us; Domain=.wargaming.net; expires=Sun, 03-Jan-2016 19:40:37 GMT; Max-Age=31536000; Path=&#x2F;, wgnp_csrftoken=N4qb1CRxwcYeFqUtrOQP9CNV9UmPznLa; expires=Sat, 02-Jan-2016 19:40:37 GMT; Max-Age=31449600; Path=&#x2F;, wgnp_language=en; expires=Sat, 17-Jan-2015 19:40:37 GMT; Max-Age=1209600; Path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:37 UTC"
+}

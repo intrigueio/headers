@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://nomorerack.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:48 UTC",
+  "id": "ce07fa8f-baa8-495a-9838-e92a5cb3f62e",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:42:19 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "track_visitor=330385704; expires=Mon, 02-Feb-2015 19:42:19 GMT; Max-Age=2592000; path=/; domain=nomorerack.com, nomorerack=9nqk4p2vstj0d0uq952vn8tmj0i473a7hnpfdfjs3mn2i9jkmrpv3otc4pto325c2klmk532as3qsenf87tb4llg6a7mp74qo4em4r2; expires=Mon, 02-Feb-2015 19:42:19 GMT; Max-Age=2592000; path=/; domain=nomorerack.com, visits=1; expires=Sun, 03-Jan-2016 19:42:19 GMT; Max-Age=31536000, visits_2hr=1; expires=Sat, 03-Jan-2015 21:42:19 GMT; Max-Age=7200"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.6.2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-instart-streaming",
+        "content": "HtmlStreaming:MISS,user_agent_filter;InstantLoad:SKIP,optimization_disabled"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-instart-request-id",
+        "content": "10625999196348929038:QSJ01-NPPRY21:1420314049:231"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;nomorerack.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:42:19 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;track_visitor=330385704; expires=Mon, 02-Feb-2015 19:42:19 GMT; Max-Age=2592000; path=&#x2F;; domain=nomorerack.com, nomorerack=9nqk4p2vstj0d0uq952vn8tmj0i473a7hnpfdfjs3mn2i9jkmrpv3otc4pto325c2klmk532as3qsenf87tb4llg6a7mp74qo4em4r2; expires=Mon, 02-Feb-2015 19:42:19 GMT; Max-Age=2592000; path=&#x2F;; domain=nomorerack.com, visits=1; expires=Sun, 03-Jan-2016 19:42:19 GMT; Max-Age=31536000, visits_2hr=1; expires=Sat, 03-Jan-2015 21:42:19 GMT; Max-Age=7200&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-instart-streaming&quot;, :content=&gt;&quot;HtmlStreaming:MISS,user_agent_filter;InstantLoad:SKIP,optimization_disabled&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-instart-request-id&quot;, :content=&gt;&quot;10625999196348929038:QSJ01-NPPRY21:1420314049:231&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:49 UTC"
+}

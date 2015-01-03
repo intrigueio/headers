@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://icook.tw"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:42 UTC",
+  "id": "053c883a-b914-467b-a21e-ce38a4c385b6",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:43 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.4.6 (Ubuntu)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "XSRF-TOKEN=AsLUEQeCxraO%2BBrGD82%2B0Rnw70KSbL6GzKYZ40%2BLX0M%3D; path=/, _icook_sess=eyJzZXNzaW9uX2lkIjoiNmZjOTA4YzBlNDg2NjNkZTljMTMyZTk5NWY5ZWRkYzYiLCJfY3NyZl90b2tlbiI6IkFzTFVFUWVDeHJhTytCckdEODIrMFJudzcwS1NiTDZHektZWjQwK0xYME09IiwicHJldmlvdXNfcGF0aCI6Ii8iLCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbGVydCI6IuWms%2Bato%2BWcqOS9v%2BeUqOS4gOWAi%2BaEm%2BaWmeeQhuS4jeaUr%2BaPtOeahOeAj%2BimveWZqOeJiOacrOOAgueCuuS6hui%2FveaxguabtOWlveeahOS9v%2BeUqOmrlOmpl%2B%2B8jOirizxhIGhyZWY9XCJodHRwOi8vd2hhdGJyb3dzZXIub3JnL1wiPuabtOaWsOWms%2BeahOeAj%2BimveWZqDwvYT7jgIIifX19--3eb1c43c6683c6833d619107f0401507d639adce; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "198d163f-0279-462c-a624-fd18d8934911"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.388939"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;icook.tw&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:43 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.4.6 (Ubuntu)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;XSRF-TOKEN=AsLUEQeCxraO%2BBrGD82%2B0Rnw70KSbL6GzKYZ40%2BLX0M%3D; path=&#x2F;, _icook_sess=eyJzZXNzaW9uX2lkIjoiNmZjOTA4YzBlNDg2NjNkZTljMTMyZTk5NWY5ZWRkYzYiLCJfY3NyZl90b2tlbiI6IkFzTFVFUWVDeHJhTytCckdEODIrMFJudzcwS1NiTDZHektZWjQwK0xYME09IiwicHJldmlvdXNfcGF0aCI6Ii8iLCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxhc2hlcyI6eyJhbGVydCI6IuWms%2Bato%2BWcqOS9v%2BeUqOS4gOWAi%2BaEm%2BaWmeeQhuS4jeaUr%2BaPtOeahOeAj%2BimveWZqOeJiOacrOOAgueCuuS6hui%2FveaxguabtOWlveeahOS9v%2BeUqOmrlOmpl%2B%2B8jOirizxhIGhyZWY9XCJodHRwOi8vd2hhdGJyb3dzZXIub3JnL1wiPuabtOaWsOWms%2BeahOeAj%2BimveWZqDwvYT7jgIIifX19--3eb1c43c6683c6833d619107f0401507d639adce; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;198d163f-0279-462c-a624-fd18d8934911&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.388939&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:43 UTC"
+}

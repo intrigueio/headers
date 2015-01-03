@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://shutterfly.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:08 UTC",
+  "id": "c3476c5b-e592-4a49-9443-116abcf00594",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:09 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Frankie/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/w3c/p3p.xml\", CP=\"CAO DSP COR CURa ADMa TAIa PSAa PSDa OUR BUS ONL COM NAV INT STA PRE UNI\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=A5D5AC0B135ED301344F616BD6849BCF; Path=/; HttpOnly, sflyversion=\"E\"; Domain=.shutterfly.com; Path=/, visitor=\"53651dbd-9380-11e4-a768-51b774db4d4b\"; Domain=.shutterfly.com; Expires=Fri, 29-Sep-2017 19:40:09 GMT; Path=/, masterServer=\"serverName:www.shutterfly.com&sessionId:A5D5AC0B135ED301344F616BD6849BCF&serverIP:172.18.84.104\"; Version=1; Domain=.shutterfly.com; Path=/, cccData=\"vu:1420314309224&ck:334a7fc0-2eb0-4591-8b39-e28dc3985b09&lmt:1420314009224\"; Version=1; Domain=.shutterfly.com; Path=/, cccData=\"vu:1420314309224&ck:334a7fc0-2eb0-4591-8b39-e28dc3985b09&lmt:1420314009249\"; Version=1; Domain=.shutterfly.com; Path=/, cccData=\"vu:1420314309224&ck:334a7fc0-2eb0-4591-8b39-e28dc3985b09&lmt:1420314009266\"; Version=1; Domain=.shutterfly.com; Path=/, BIGipServerAPP-B-LR=ffffffffaf1a4a7945525d5f4f58455e445a4a423660;path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;shutterfly.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:09 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Frankie&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;CAO DSP COR CURa ADMa TAIa PSAa PSDa OUR BUS ONL COM NAV INT STA PRE UNI\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=A5D5AC0B135ED301344F616BD6849BCF; Path=&#x2F;; HttpOnly, sflyversion=\\&quot;E\\&quot;; Domain=.shutterfly.com; Path=&#x2F;, visitor=\\&quot;53651dbd-9380-11e4-a768-51b774db4d4b\\&quot;; Domain=.shutterfly.com; Expires=Fri, 29-Sep-2017 19:40:09 GMT; Path=&#x2F;, masterServer=\\&quot;serverName:www.shutterfly.com&amp;sessionId:A5D5AC0B135ED301344F616BD6849BCF&amp;serverIP:172.18.84.104\\&quot;; Version=1; Domain=.shutterfly.com; Path=&#x2F;, cccData=\\&quot;vu:1420314309224&amp;ck:334a7fc0-2eb0-4591-8b39-e28dc3985b09&amp;lmt:1420314009224\\&quot;; Version=1; Domain=.shutterfly.com; Path=&#x2F;, cccData=\\&quot;vu:1420314309224&amp;ck:334a7fc0-2eb0-4591-8b39-e28dc3985b09&amp;lmt:1420314009249\\&quot;; Version=1; Domain=.shutterfly.com; Path=&#x2F;, cccData=\\&quot;vu:1420314309224&amp;ck:334a7fc0-2eb0-4591-8b39-e28dc3985b09&amp;lmt:1420314009266\\&quot;; Version=1; Domain=.shutterfly.com; Path=&#x2F;, BIGipServerAPP-B-LR=ffffffffaf1a4a7945525d5f4f58455e445a4a423660;path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:09 UTC"
+}

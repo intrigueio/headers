@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://so.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:39:53 UTC",
+  "id": "70bd5268-0fae-4c3c-a08a-78fd63db821c",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:39:55 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "GUID=W6fHGWGNnof/n3idY/dsRM2ALmeQuGHGMM1Axju0/1RAiVj0CpxJgShJsbvwXMvMYQA4mBslq3vZTYwFnow=|a|1420313995.784;expires=Mon, 02-Jan-17 19:39:55 GMT;path=/, _S=0pr488ks5kjoc8dk23i8psmoj5; expires=Sat, 03-Jan-2015 19:49:55 GMT; path=/, QiHooGUID=47824DFBE600B012725918B394C266DD.1420313995786; expires=Mon, 02-Jan-2017 19:39:55 GMT; path=/, QiHooGUID=1118C8964CA016AEC0F2F8B619C37C55.1420313995786; expires=Mon, 02-Jan-2017 19:39:55 GMT; path=/, so_paper_xmon=0; expires=Fri, 02-Jan-2015 19:39:55 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;so.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:39:55 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;GUID=W6fHGWGNnof&#x2F;n3idY&#x2F;dsRM2ALmeQuGHGMM1Axju0&#x2F;1RAiVj0CpxJgShJsbvwXMvMYQA4mBslq3vZTYwFnow=|a|1420313995.784;expires=Mon, 02-Jan-17 19:39:55 GMT;path=&#x2F;, _S=0pr488ks5kjoc8dk23i8psmoj5; expires=Sat, 03-Jan-2015 19:49:55 GMT; path=&#x2F;, QiHooGUID=47824DFBE600B012725918B394C266DD.1420313995786; expires=Mon, 02-Jan-2017 19:39:55 GMT; path=&#x2F;, QiHooGUID=1118C8964CA016AEC0F2F8B619C37C55.1420313995786; expires=Mon, 02-Jan-2017 19:39:55 GMT; path=&#x2F;, so_paper_xmon=0; expires=Fri, 02-Jan-2015 19:39:55 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n",
+  "timestamp_end": "2015-01-03 19:39:56 UTC"
+}

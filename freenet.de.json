@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://freenet.de"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:30 UTC",
+  "id": "1eb0d543-fab4-46ba-ab14-ca2923028bdf",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=DA9C9C942223FC76242B6835D01BDCF6.CAE5TC4; Path=/freenet/; HttpOnly, frn075ucp=\"{\\\"profile\\\":{\\\"weatherHistory\\\":[],\\\"financeHistory\\\":[],\\\"profileData\\\":{\\\"ic\\\":\\\"\\\",\\\"hs\\\":\\\"1\\\",\\\"wss\\\":\\\"622\\\",\\\"1\\\":\\\"2\\\",\\\"ts\\\":\\\"super\\\",\\\"c\\\":\\\"134-238-220-214-59-94-88-94\\\",\\\"bs\\\":\\\"ALL\\\"}}}\"; Version=1; Domain=.md.de; Max-Age=5184000; Expires=Wed, 04-Mar-2015 19:41:31 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "de-DE"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "26645"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;freenet.de&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=DA9C9C942223FC76242B6835D01BDCF6.CAE5TC4; Path=&#x2F;freenet&#x2F;; HttpOnly, frn075ucp=\\&quot;{\\\\\\&quot;profile\\\\\\&quot;:{\\\\\\&quot;weatherHistory\\\\\\&quot;:[],\\\\\\&quot;financeHistory\\\\\\&quot;:[],\\\\\\&quot;profileData\\\\\\&quot;:{\\\\\\&quot;ic\\\\\\&quot;:\\\\\\&quot;\\\\\\&quot;,\\\\\\&quot;hs\\\\\\&quot;:\\\\\\&quot;1\\\\\\&quot;,\\\\\\&quot;wss\\\\\\&quot;:\\\\\\&quot;622\\\\\\&quot;,\\\\\\&quot;1\\\\\\&quot;:\\\\\\&quot;2\\\\\\&quot;,\\\\\\&quot;ts\\\\\\&quot;:\\\\\\&quot;super\\\\\\&quot;,\\\\\\&quot;c\\\\\\&quot;:\\\\\\&quot;134-238-220-214-59-94-88-94\\\\\\&quot;,\\\\\\&quot;bs\\\\\\&quot;:\\\\\\&quot;ALL\\\\\\&quot;}}}\\&quot;; Version=1; Domain=.md.de; Max-Age=5184000; Expires=Wed, 04-Mar-2015 19:41:31 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;de-DE&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;26645&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:31 UTC"
+}

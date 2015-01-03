@@ -1,0 +1,57 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://rantlifestyle.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:03 UTC",
+  "id": "58eb20fd-682e-42b8-b0e4-52e09f0c8404",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close, close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "5087"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "10-10611696-0 0NNN RT(1420314064848 0) q(0 -1 -1 0) r(0 -1) B10(4,314,0)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "incap_ses_144_104771=NOg2YS5O1ErEkzWyIKv/AdBFqFQAAAAAcDQkCKn1Dx4wpmlCB5np8w==; path=/; Domain=.rantlifestyle.com, visid_incap_104771=4DmvhhmbSoyRkb4i0j83W9BFqFQAAAAAQUIPAAAAAACU5trdFBFS+7tW84EeEhpc; expires=Sun, 01 Jan 2017 20:57:26 GMT; path=/; Domain=.rantlifestyle.com"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;rantlifestyle.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close, close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;5087&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-iinfo&quot;, :content=&gt;&quot;10-10611696-0 0NNN RT(1420314064848 0) q(0 -1 -1 0) r(0 -1) B10(4,314,0)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;incap_ses_144_104771=NOg2YS5O1ErEkzWyIKv&#x2F;AdBFqFQAAAAAcDQkCKn1Dx4wpmlCB5np8w==; path=&#x2F;; Domain=.rantlifestyle.com, visid_incap_104771=4DmvhhmbSoyRkb4i0j83W9BFqFQAAAAAQUIPAAAAAACU5trdFBFS+7tW84EeEhpc; expires=Sun, 01 Jan 2017 20:57:26 GMT; path=&#x2F;; Domain=.rantlifestyle.com&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:05 UTC"
+}

@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://houseoffraser.co.uk"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:50 UTC",
+  "id": "4e10364f-eab6-46f8-a42c-8e10e1ab1df4",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:51 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Demandware eCommerce Server"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "dwac_bcsUoiaagXHaEaaacsQBF5RFGp=f3g0SFDGKTt-2JHetUiTNg7YsBzRRCWb6Ak%3D|demandaabahof|||GBP|false|Europe%2FLondon|true; Path=/, dwpersonalization_f92f92f68126b7fba0dab38bf9ce235a=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, dwanonymous_f92f92f68126b7fba0dab38bf9ce235a=cfTEb5aPioj6CVVdrjcPUtcamh; Version=1; Comment=\"Demandware anonymous cookie for site Sites-hof-Site\"; Max-Age=15552000; Expires=Thu, 02-Jul-2015 19:41:51 GMT; Path=/, sid=f3g0SFDGKTt-2JHetUiTNg7YsBzRRCWb6Ak; Path=/, miniBasketTimeStamp=1420314111412; Domain=.www.houseoffraser.co.uk; Path=/, miniBasketAmount=0.00; Domain=.www.houseoffraser.co.uk; Path=/, miniBasketQuantity=0; Domain=.www.houseoffraser.co.uk; Path=/, dwsid=wYmiXDL-6Tuc1DKTktxr_LApJgizfOWbCgVMMLuS_jdViooTZAv2SE0Z0Wrc39kZ1XuZ_DNyDavK_0hT5IFj9w==; path=/; HttpOnly, SL_Audience=590|Accelerated|  a0d540765fc98c.239|2|0;Expires=Mon, 02-Jan-17 19:41:51 GMT;Path=/;Domain=.houseoffraser.co.uk, SL_ClassKey=0.0.0;Expires=Mon, 05-Jan-15 07:41:51 GMT;Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache,no-store,must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Dec 1994 16:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=5, max=100"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "Keep-Alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-strangeloop",
+        "content": "Compression"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;houseoffraser.co.uk&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:51 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Demandware eCommerce Server&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;dwac_bcsUoiaagXHaEaaacsQBF5RFGp=f3g0SFDGKTt-2JHetUiTNg7YsBzRRCWb6Ak%3D|demandaabahof|||GBP|false|Europe%2FLondon|true; Path=&#x2F;, dwpersonalization_f92f92f68126b7fba0dab38bf9ce235a=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, dwanonymous_f92f92f68126b7fba0dab38bf9ce235a=cfTEb5aPioj6CVVdrjcPUtcamh; Version=1; Comment=\\&quot;Demandware anonymous cookie for site Sites-hof-Site\\&quot;; Max-Age=15552000; Expires=Thu, 02-Jul-2015 19:41:51 GMT; Path=&#x2F;, sid=f3g0SFDGKTt-2JHetUiTNg7YsBzRRCWb6Ak; Path=&#x2F;, miniBasketTimeStamp=1420314111412; Domain=.www.houseoffraser.co.uk; Path=&#x2F;, miniBasketAmount=0.00; Domain=.www.houseoffraser.co.uk; Path=&#x2F;, miniBasketQuantity=0; Domain=.www.houseoffraser.co.uk; Path=&#x2F;, dwsid=wYmiXDL-6Tuc1DKTktxr_LApJgizfOWbCgVMMLuS_jdViooTZAv2SE0Z0Wrc39kZ1XuZ_DNyDavK_0hT5IFj9w==; path=&#x2F;; HttpOnly, SL_Audience=590|Accelerated|  a0d540765fc98c.239|2|0;Expires=Mon, 02-Jan-17 19:41:51 GMT;Path=&#x2F;;Domain=.houseoffraser.co.uk, SL_ClassKey=0.0.0;Expires=Mon, 05-Jan-15 07:41:51 GMT;Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache,no-store,must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Dec 1994 16:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;keep-alive&quot;, :content=&gt;&quot;timeout=5, max=100&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;Keep-Alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-strangeloop&quot;, :content=&gt;&quot;Compression&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:51 UTC"
+}

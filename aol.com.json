@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://aol.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:39:50 UTC",
+  "id": "a378244d-06ec-4951-af94-c06bc6b89a71",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:39:50 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "RSP_CHECK_PORTAL_STARTPAGE.AOL.COM=deleted; expires=Thu Jan 01 00:17:51 1970 GMT; path=/; domain=www.aol.com, RSP_CHECK_PORTAL_STARTPAGE.AOL.COM=deleted; expires=Thu Jan 01 00:17:51 1970 GMT; path=/, RSP_CHECK_PORTAL_STARTPAGE.AOL.COM=deleted; expires=Thu Jan 01 00:17:51 1970 GMT; path=/; domain=aol.com, JSESSIONID=3C00123A105FFC1E53CFB65E3DB221A6; Path=/aol, tst=%2C65%2Cs391a%3A%2C73%2Cs392a%3A%2C70%2Cs393a%3A%2C71%2Cs394a%3A%2C69%2Cs395a%3Ab%2C72%2Cs396a; Expires=Mon, 02-Jan-2017 19:39:51 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, no-cache, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "r-host",
+        "content": "portal-fe5-ipv6-m05.websys.aol.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "modpagespeeddisablefilters",
+        "content": "rewrite_javascript,inline_css"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-mod-pagespeed",
+        "content": "1.6.29.7-3343"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;;charset=utf-8"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;aol.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:39:50 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;RSP_CHECK_PORTAL_STARTPAGE.AOL.COM=deleted; expires=Thu Jan 01 00:17:51 1970 GMT; path=&#x2F;; domain=www.aol.com, RSP_CHECK_PORTAL_STARTPAGE.AOL.COM=deleted; expires=Thu Jan 01 00:17:51 1970 GMT; path=&#x2F;, RSP_CHECK_PORTAL_STARTPAGE.AOL.COM=deleted; expires=Thu Jan 01 00:17:51 1970 GMT; path=&#x2F;; domain=aol.com, JSESSIONID=3C00123A105FFC1E53CFB65E3DB221A6; Path=&#x2F;aol, tst=%2C65%2Cs391a%3A%2C73%2Cs392a%3A%2C70%2Cs393a%3A%2C71%2Cs394a%3A%2C69%2Cs395a%3Ab%2C72%2Cs396a; Expires=Mon, 02-Jan-2017 19:39:51 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;r-host&quot;, :content=&gt;&quot;portal-fe5-ipv6-m05.websys.aol.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;modpagespeeddisablefilters&quot;, :content=&gt;&quot;rewrite_javascript,inline_css&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-mod-pagespeed&quot;, :content=&gt;&quot;1.6.29.7-3343&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;;charset=utf-8&quot;}\n",
+  "timestamp_end": "2015-01-03 19:39:51 UTC"
+}

@@ -1,0 +1,141 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://wetransfer.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:09 UTC",
+  "id": "e3b6863c-275e-4da9-810b-cc7a98d5045d",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-headers",
+        "content": "x-csrf-token,x-file-name,x-file-size,x-file-type,x-requested-with"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "http://www.wetransfer.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-request-method",
+        "content": "*"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:11 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"b94f442d9945edd00fa57be56382fc88\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"DSP IDC CUR ADM PSA PSDi OTPi DELi STP NAV COM UNI INT PHY DEM\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "request_method=GET; path=/, _wt_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTUwNjczNDhjZmVlZWIxMzMzMTI0YjU2NTY4MTM4YzA5BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUxCNVFiKzZ4eVk0WXZtbEtZYWtsb0FMNlBTb1NiUllBTlZmWDVvU3R3bHc9BjsARg%3D%3D--5c559ae8c5e5947e75cf860973a3f844048bf4ff; domain=wetransfer.com; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-opaque",
+        "content": "6cf96295a09ccc6e97cc20b2b08e4d8b6c1633c3-2z19q0w68xxmg1qise7ms4pvk-14682"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "9c49448a0c77c01e302d65ab1732d644"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.067666"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "31380"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;wetransfer.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-headers&quot;, :content=&gt;&quot;x-csrf-token,x-file-name,x-file-size,x-file-type,x-requested-with&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;www.wetransfer.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-request-method&quot;, :content=&gt;&quot;*&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:11 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;b94f442d9945edd00fa57be56382fc88\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;DSP IDC CUR ADM PSA PSDi OTPi DELi STP NAV COM UNI INT PHY DEM\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;request_method=GET; path=&#x2F;, _wt_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTUwNjczNDhjZmVlZWIxMzMzMTI0YjU2NTY4MTM4YzA5BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUxCNVFiKzZ4eVk0WXZtbEtZYWtsb0FMNlBTb1NiUllBTlZmWDVvU3R3bHc9BjsARg%3D%3D--5c559ae8c5e5947e75cf860973a3f844048bf4ff; domain=wetransfer.com; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-opaque&quot;, :content=&gt;&quot;6cf96295a09ccc6e97cc20b2b08e4d8b6c1633c3-2z19q0w68xxmg1qise7ms4pvk-14682&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;9c49448a0c77c01e302d65ab1732d644&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.067666&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;31380&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:11 UTC"
+}

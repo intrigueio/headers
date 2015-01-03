@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://polyvore.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:31 UTC",
+  "id": "351a4279-4cac-4c96-bd46-7d7ee136a184",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "polyvore"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:32 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/w3c/p3p.xml\", CP=\"CAO DSP COR CURa ADMa DEVa OUR STP ONL UNI COM NAV INT STA PRE CNT\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "se=c&1420314032&v&4070106403609850856&s&1&t&1420314032; domain=.polyvore.com; path=/; expires=Tue, 31-Dec-2024 19:40:32 GMT, v=1318238441; domain=.polyvore.com; path=/; expires=Tue, 31-Dec-2024 19:40:32 GMT, exps=; domain=.polyvore.com; path=/; expires=Fri, 02-Jan-2015 19:40:32 GMT, st=bid%7C1318238441%2Cclient_type%7Cdesktop%2Cexp_MOBILE%3A%3Aautocomplete_show_img%7C__DEFAULT%2Cexp_MOBILE%3A%3Afb_birthday_permission_request%7C__DEFAULT%2Cexp_MOBILE%3A%3Afeed_content%7C__DEFAULT%2Cexp_MOBILE%3A%3Ashow_large_publish_btn%7C__DEFAULT%2Cexp_conserv_api_cache%7C__DEFAULT%2Cexp_ga_test1%7C__DEFAULT%2Cexp_ga_test2%7C__DEFAULT%2Cexp_holiday%7C__DEFAULT%2Cexp_on_sale_banner%7C__DEFAULT%2Cexp_organic_search%7C__DEFAULT%2Cexp_plus_size_filter%7C__DEFAULT%2Cexp_plus_size_nav%7C__DEFAULT%2Cexp_rev_main_thing%7C__DEFAULT%2Cexp_rev_ranking_v2%7C__DEFAULT%2Cexp_search_cat_expansion%7C__DEFAULT%2Cexp_sets_to_styling_ideas%7C__DEFAULT%2Cexp_social_sharing%7C__DEFAULT%2Cexp_solr_ranking_exps%7C__DEFAULT%2Cexp_spellcheck%7C__DEFAULT%2Cexp_white_search_box%7C__DEFAULT%2Coutmode%7CHTML%2Csid%7C1%2Cvid%7C4070106403609850856; domain=.polyvore.com; path=/; expires=Tue, 31-Dec-2024 19:40:32 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;polyvore.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;polyvore&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:32 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;CAO DSP COR CURa ADMa DEVa OUR STP ONL UNI COM NAV INT STA PRE CNT\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;se=c&amp;1420314032&amp;v&amp;4070106403609850856&amp;s&amp;1&amp;t&amp;1420314032; domain=.polyvore.com; path=&#x2F;; expires=Tue, 31-Dec-2024 19:40:32 GMT, v=1318238441; domain=.polyvore.com; path=&#x2F;; expires=Tue, 31-Dec-2024 19:40:32 GMT, exps=; domain=.polyvore.com; path=&#x2F;; expires=Fri, 02-Jan-2015 19:40:32 GMT, st=bid%7C1318238441%2Cclient_type%7Cdesktop%2Cexp_MOBILE%3A%3Aautocomplete_show_img%7C__DEFAULT%2Cexp_MOBILE%3A%3Afb_birthday_permission_request%7C__DEFAULT%2Cexp_MOBILE%3A%3Afeed_content%7C__DEFAULT%2Cexp_MOBILE%3A%3Ashow_large_publish_btn%7C__DEFAULT%2Cexp_conserv_api_cache%7C__DEFAULT%2Cexp_ga_test1%7C__DEFAULT%2Cexp_ga_test2%7C__DEFAULT%2Cexp_holiday%7C__DEFAULT%2Cexp_on_sale_banner%7C__DEFAULT%2Cexp_organic_search%7C__DEFAULT%2Cexp_plus_size_filter%7C__DEFAULT%2Cexp_plus_size_nav%7C__DEFAULT%2Cexp_rev_main_thing%7C__DEFAULT%2Cexp_rev_ranking_v2%7C__DEFAULT%2Cexp_search_cat_expansion%7C__DEFAULT%2Cexp_sets_to_styling_ideas%7C__DEFAULT%2Cexp_social_sharing%7C__DEFAULT%2Cexp_solr_ranking_exps%7C__DEFAULT%2Cexp_spellcheck%7C__DEFAULT%2Cexp_white_search_box%7C__DEFAULT%2Coutmode%7CHTML%2Csid%7C1%2Cvid%7C4070106403609850856; domain=.polyvore.com; path=&#x2F;; expires=Tue, 31-Dec-2024 19:40:32 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:32 UTC"
+}

@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://mediamarkt.de"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:55 UTC",
+  "id": "3f34927b-cb6a-4d0b-ac2e-6f582febe56c",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:56 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "No-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache,no-store,max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Jan 1970 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=0000ZOjPqpRTkea_LuqEV_q3b3k:18o06b6oj; Path=/; HttpOnly, WC_PERSISTENT=l%2fdd4uYMhXM%2fIjkrZafeasO7NQA%3d%0a%3b2015%2d01%2d03+20%3a40%3a56%2e499%5f1420314056499%2d1379481%5f0; Expires=Mon, 02-Feb-15 19:40:56 GMT; Path=/; HttpOnly, MC_DEVICE_ID=-1; Path=/, WC_SESSION_ESTABLISHED=true; Path=/; HttpOnly, WC_PERSISTENT=NVaZv2FJu24m306ZIYmQI2kdAPI%3d%0a%3b2015%2d01%2d03+20%3a40%3a56%2e5%5f1420314056499%2d1379481%5f19501%5f%2d1002%2c%2d3%2cEUR%5f19501; Expires=Mon, 02-Feb-15 19:40:56 GMT; Path=/; HttpOnly, WC_ACTIVEPOINTER=%2d3%2c19501; Path=/; HttpOnly, WC_USERACTIVITY_-1002=%2d1002%2c19501%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2c2bRd2YQV%2fpprAXUJP8yF66CZ5h%2fB%2fTEhUrVPFryx6Gz8fqHlRWXSjX%2fhLt9ATfON8nf%2f9nI9m4aSVCHmhnoho6tob3GTsRRRm%2fBCunc4%2blLqyAietEomIQMy2daYGNYy74JhfMJCNcC89jW0TxeIGi7kIcXHjFqXKM2l%2ftNBM%2bxsjsbSRK0vDW9c6E6oRxv%2fb3ZVKfl7qV4at6EWRlGqDg%3d%3d; Path=/; HttpOnly, WC_GENERIC_ACTIVITYDATA=[7320403521%3atrue%3afalse%3a0%3awA7o7wAbc9v07DBAlDEybrBK13k%3d][com.ibm.commerce.context.audit.AuditContext|1420314056499%2d1379481][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][CTXSETNAME|Store][com.ibm.commerce.context.globalization.GlobalizationContext|%2d3%26EUR%26%2d3%26EUR][com.ibm.commerce.catalog.businesscontext.CatalogContext|null%26null%26false%26false%26false][com.ibm.commerce.context.base.BaseContext|19501%26%2d1002%26%2d1002%26%2d1][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.entitlement.EntitlementContext|null%26null%26null%26null%26null%26null%26null][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]; Path=/; HttpOnly, TS015b134e=014cde7230ef61358bd7206b475c91df78b8c63a4a33f8f9e61e88874c62e285314b09679adefc1728db8609ceb79707b19b2f63032aa43624dfa571c0466771f9a7ebedb28755c73e4971598d2d0950e77501ed680fe2a249a9b4c7b1014430c87c9c52373858407c84e8b468fa3125540041b0a14d20c779d7d265e1ec096334a50bdaf7505616e361f588cd56b15779a24c6a0f79643bab089a3cdbcb4b00b06859151c; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "de-DE"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;mediamarkt.de&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:56 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;No-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache,no-store,max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=0000ZOjPqpRTkea_LuqEV_q3b3k:18o06b6oj; Path=&#x2F;; HttpOnly, WC_PERSISTENT=l%2fdd4uYMhXM%2fIjkrZafeasO7NQA%3d%0a%3b2015%2d01%2d03+20%3a40%3a56%2e499%5f1420314056499%2d1379481%5f0; Expires=Mon, 02-Feb-15 19:40:56 GMT; Path=&#x2F;; HttpOnly, MC_DEVICE_ID=-1; Path=&#x2F;, WC_SESSION_ESTABLISHED=true; Path=&#x2F;; HttpOnly, WC_PERSISTENT=NVaZv2FJu24m306ZIYmQI2kdAPI%3d%0a%3b2015%2d01%2d03+20%3a40%3a56%2e5%5f1420314056499%2d1379481%5f19501%5f%2d1002%2c%2d3%2cEUR%5f19501; Expires=Mon, 02-Feb-15 19:40:56 GMT; Path=&#x2F;; HttpOnly, WC_ACTIVEPOINTER=%2d3%2c19501; Path=&#x2F;; HttpOnly, WC_USERACTIVITY_-1002=%2d1002%2c19501%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2c2bRd2YQV%2fpprAXUJP8yF66CZ5h%2fB%2fTEhUrVPFryx6Gz8fqHlRWXSjX%2fhLt9ATfON8nf%2f9nI9m4aSVCHmhnoho6tob3GTsRRRm%2fBCunc4%2blLqyAietEomIQMy2daYGNYy74JhfMJCNcC89jW0TxeIGi7kIcXHjFqXKM2l%2ftNBM%2bxsjsbSRK0vDW9c6E6oRxv%2fb3ZVKfl7qV4at6EWRlGqDg%3d%3d; Path=&#x2F;; HttpOnly, WC_GENERIC_ACTIVITYDATA=[7320403521%3atrue%3afalse%3a0%3awA7o7wAbc9v07DBAlDEybrBK13k%3d][com.ibm.commerce.context.audit.AuditContext|1420314056499%2d1379481][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][CTXSETNAME|Store][com.ibm.commerce.context.globalization.GlobalizationContext|%2d3%26EUR%26%2d3%26EUR][com.ibm.commerce.catalog.businesscontext.CatalogContext|null%26null%26false%26false%26false][com.ibm.commerce.context.base.BaseContext|19501%26%2d1002%26%2d1002%26%2d1][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.entitlement.EntitlementContext|null%26null%26null%26null%26null%26null%26null][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]; Path=&#x2F;; HttpOnly, TS015b134e=014cde7230ef61358bd7206b475c91df78b8c63a4a33f8f9e61e88874c62e285314b09679adefc1728db8609ceb79707b19b2f63032aa43624dfa571c0466771f9a7ebedb28755c73e4971598d2d0950e77501ed680fe2a249a9b4c7b1014430c87c9c52373858407c84e8b468fa3125540041b0a14d20c779d7d265e1ec096334a50bdaf7505616e361f588cd56b15779a24c6a0f79643bab089a3cdbcb4b00b06859151c; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;de-DE&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:56 UTC"
+}

@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://autotrader.co.uk"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:03 UTC",
+  "id": "37ae71cf-7650-4f81-9f45-140212d79c53",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:04 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Jetty(9.1.4.v20140401)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "bucket=desktop; Domain=.autotrader.co.uk; path=/;, _ATD_SESSION_=1420314064|24d75bbb-a2e4-4efb-a9e5-2c17ec55faf5; Path=/;, _ATD_DIGEST_=4d5fd2b2597b7d114bd3c27ab62a016b; Path=/;, userid=ID=7e6c0de6-c45a-4bda-be97-33437f0f7dfc;Path=/;Domain=.autotrader.co.uk;Expires=Sun, 03-Jan-2016 19:41:04 GMT, user=STATUS=0&HASH=c2cadb4763d3bf090d76aecb56fe1a26&PR=&ID=7e6c0de6-c45a-4bda-be97-33437f0f7dfc;Path=/;Domain=.autotrader.co.uk;Expires=Sun, 03-Jan-2016 19:41:04 GMT, omnitureReportSuite=tmlautotrader1;Path=/;Domain=.autotrader.co.uk;Expires=Sun, 03-Jan-2016 19:41:04 GMT, sessVar=7f4078c6-2bf7-4203-ac7a-47691fa8be96;Path=/;Domain=.autotrader.co.uk"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-store, must-revalidate, private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Jan 1970 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-version",
+        "content": "4.0.35993"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-host",
+        "content": "(null)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "MISS from dc1cache002.live.dc1.tradermedia.net"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-lookup",
+        "content": "MISS from dc1cache002.live.dc1.tradermedia.net:3129"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 dc1cache002.live.dc1.tradermedia.net:3129 (squid/2.7.STABLE9)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;autotrader.co.uk&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:04 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Jetty(9.1.4.v20140401)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;bucket=desktop; Domain=.autotrader.co.uk; path=&#x2F;;, _ATD_SESSION_=1420314064|24d75bbb-a2e4-4efb-a9e5-2c17ec55faf5; Path=&#x2F;;, _ATD_DIGEST_=4d5fd2b2597b7d114bd3c27ab62a016b; Path=&#x2F;;, userid=ID=7e6c0de6-c45a-4bda-be97-33437f0f7dfc;Path=&#x2F;;Domain=.autotrader.co.uk;Expires=Sun, 03-Jan-2016 19:41:04 GMT, user=STATUS=0&amp;HASH=c2cadb4763d3bf090d76aecb56fe1a26&amp;PR=&amp;ID=7e6c0de6-c45a-4bda-be97-33437f0f7dfc;Path=&#x2F;;Domain=.autotrader.co.uk;Expires=Sun, 03-Jan-2016 19:41:04 GMT, omnitureReportSuite=tmlautotrader1;Path=&#x2F;;Domain=.autotrader.co.uk;Expires=Sun, 03-Jan-2016 19:41:04 GMT, sessVar=7f4078c6-2bf7-4203-ac7a-47691fa8be96;Path=&#x2F;;Domain=.autotrader.co.uk&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, no-store, must-revalidate, private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-version&quot;, :content=&gt;&quot;4.0.35993&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-host&quot;, :content=&gt;&quot;(null)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS from dc1cache002.live.dc1.tradermedia.net&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-lookup&quot;, :content=&gt;&quot;MISS from dc1cache002.live.dc1.tradermedia.net:3129&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 dc1cache002.live.dc1.tradermedia.net:3129 (squid&#x2F;2.7.STABLE9)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:05 UTC"
+}

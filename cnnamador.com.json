@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://cnnamador.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:53 UTC",
+  "id": "74fbdbe7-975b-438f-a35e-d01d4465dfd2",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:56 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=ddb6d5dabe5cd4f55538d74b785fe0cb51420314055; expires=Sun, 03-Jan-16 19:40:55 GMT; path=/; domain=.cnnamador.com; HttpOnly, ci_session=ee6afa5218436900d1879a1f78d9958875e012c3862991943549b8edff97cc80e51d7a6a92f0cc09e2d3c28d822bba0ccf7b3a9a0a99c63207f4b17944ab056bJXyJVwh5Fx%2FVNjNuLkH5cKJHqV1RFCP5tf88xcYvVYAP%2BK6q6ZL81Cm7qAX%2FrAc5OxPBttnBulcQ6wDripWcOcszHSZ4bg3oGqvEouJW%2BhoSN6FgfaxxjbVzLtEDg0dscuhGiyM%2F7oP9LcosG%2BnnlbwpkfalO2ayapuEZ9lnztierGq%2Fcp1%2BvDLoRkpYDknS6KhBucVsxc0K1sTy8r5rsXQydBl7dhaV9fO1fGaFpcASujo3nOn341papjvqZbdmpi4k59czIe09MGvmdvuVZg%3D%3D; expires=Sat, 03-Jan-2015 23:40:54 GMT; path=/; domain=cnnamador.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "HIT from Backend"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1a31abbc71ea042a-ORD"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;cnnamador.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:56 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=ddb6d5dabe5cd4f55538d74b785fe0cb51420314055; expires=Sun, 03-Jan-16 19:40:55 GMT; path=&#x2F;; domain=.cnnamador.com; HttpOnly, ci_session=ee6afa5218436900d1879a1f78d9958875e012c3862991943549b8edff97cc80e51d7a6a92f0cc09e2d3c28d822bba0ccf7b3a9a0a99c63207f4b17944ab056bJXyJVwh5Fx%2FVNjNuLkH5cKJHqV1RFCP5tf88xcYvVYAP%2BK6q6ZL81Cm7qAX%2FrAc5OxPBttnBulcQ6wDripWcOcszHSZ4bg3oGqvEouJW%2BhoSN6FgfaxxjbVzLtEDg0dscuhGiyM%2F7oP9LcosG%2BnnlbwpkfalO2ayapuEZ9lnztierGq%2Fcp1%2BvDLoRkpYDknS6KhBucVsxc0K1sTy8r5rsXQydBl7dhaV9fO1fGaFpcASujo3nOn341papjvqZbdmpi4k59czIe09MGvmdvuVZg%3D%3D; expires=Sat, 03-Jan-2015 23:40:54 GMT; path=&#x2F;; domain=cnnamador.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;HIT from Backend&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a31abbc71ea042a-ORD&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:56 UTC"
+}

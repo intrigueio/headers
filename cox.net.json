@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://cox.net"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:12 UTC",
+  "id": "d702fdb5-1170-433e-9b27-e69b488085d0",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:13 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "SMIDENTITY=tMpUC+xNpSRDu14GcvHrkKwnpeEaADIEOdNmNmxd2wyVGZ8+kSYtmaZWqpxlro6NFQtt87DUQlv5xmABoDEwFZnnw+oC3OmjyTPlUCpA/cKY3yg9CXlVnucdpsDsbRp/gCVWG5+EhInOwPYW8XaZ0lSY5JGtp2m2ik1YOFut7tTFOMq1pe97Kt/BbV+wktcLzfgMPha/yvjRPmU2vjgAS3QaGCF8NUf8TsBBb1p/vj7M6RMQJGGwH/2bh0i1MlSQaK9TGICihAX0phG02vOsHp6ob1BZsndXNW0f5Q6AvDHkwouFDgXH65r8VtTKBMAMEdNbrWfKKsJxMzL5I0C5MrTANiGOnxZhWzORq7gfjGu1HDidblgM2HAnxoT7VwWBjhOXiYu7QzAVtVWa/XOpxTK+fWT/NvhP+bkqab67w/tgMv+fO+Igqr3Ceu51dpUe/Hf3Zi9HgkT2B93gmgRMMM3KmKPP5KxGMcrzAkxU/O+dO4D0bNDjgKraTA1080g1EXFu1XzsUzduZ54i/bjob7zRM8xJvPbmFT4H+ccgMZIcvrxPZSHuoaSkmiu+cW7HvLGC1FAmaBlRh7xl9oTzi02NipCL75mhZ6s8fQxEuuoBSnx+PzkxTi5z0/n4ZfSGczUip/m2eDHE1mOlY9EILofo+QtBt9mVHAmWX9V9KMxXpQ2fagInvnEZfakpXJs3; expires=Mon, 02 Jan 2017 19:41:13 GMT; path=/; domain=.cox.com, JSESSIONID=C80AA9174608D0FBED96E566A8F9DB48.mycon_01; Path=/myconnection, cox-current-zipcode=75219; Max-Age=31536000; Domain=.cox.com; Path=/, cox-current-site=; Max-Age=0; Domain=.cox.com; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Host"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;cox.net&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:13 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;SMIDENTITY=tMpUC+xNpSRDu14GcvHrkKwnpeEaADIEOdNmNmxd2wyVGZ8+kSYtmaZWqpxlro6NFQtt87DUQlv5xmABoDEwFZnnw+oC3OmjyTPlUCpA&#x2F;cKY3yg9CXlVnucdpsDsbRp&#x2F;gCVWG5+EhInOwPYW8XaZ0lSY5JGtp2m2ik1YOFut7tTFOMq1pe97Kt&#x2F;BbV+wktcLzfgMPha&#x2F;yvjRPmU2vjgAS3QaGCF8NUf8TsBBb1p&#x2F;vj7M6RMQJGGwH&#x2F;2bh0i1MlSQaK9TGICihAX0phG02vOsHp6ob1BZsndXNW0f5Q6AvDHkwouFDgXH65r8VtTKBMAMEdNbrWfKKsJxMzL5I0C5MrTANiGOnxZhWzORq7gfjGu1HDidblgM2HAnxoT7VwWBjhOXiYu7QzAVtVWa&#x2F;XOpxTK+fWT&#x2F;NvhP+bkqab67w&#x2F;tgMv+fO+Igqr3Ceu51dpUe&#x2F;Hf3Zi9HgkT2B93gmgRMMM3KmKPP5KxGMcrzAkxU&#x2F;O+dO4D0bNDjgKraTA1080g1EXFu1XzsUzduZ54i&#x2F;bjob7zRM8xJvPbmFT4H+ccgMZIcvrxPZSHuoaSkmiu+cW7HvLGC1FAmaBlRh7xl9oTzi02NipCL75mhZ6s8fQxEuuoBSnx+PzkxTi5z0&#x2F;n4ZfSGczUip&#x2F;m2eDHE1mOlY9EILofo+QtBt9mVHAmWX9V9KMxXpQ2fagInvnEZfakpXJs3; expires=Mon, 02 Jan 2017 19:41:13 GMT; path=&#x2F;; domain=.cox.com, JSESSIONID=C80AA9174608D0FBED96E566A8F9DB48.mycon_01; Path=&#x2F;myconnection, cox-current-zipcode=75219; Max-Age=31536000; Domain=.cox.com; Path=&#x2F;, cox-current-site=; Max-Age=0; Domain=.cox.com; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Host&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:13 UTC"
+}

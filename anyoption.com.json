@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://anyoption.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:25 UTC",
+  "id": "5e6d99a5-6204-44cd-be66-234b6b0a1e3a",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache, no-cache, no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Reblaze Secure Web Gateway"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent, Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:27 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=548EA00924F6F1FDE74689D2D1C0AD1A.W03; Path=/; HttpOnly, s=2; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, c=2; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, l=2; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, countryId=220; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, regulated=false; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, combid=22; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, f_combid=22; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, oam.Flash.RENDERMAP.TOKEN=wl1792i4w; Path=/, smt=4d537b35343845413030393234463646314644453734363839443244314330414431412e5730335e43537b32325e485454507b687474703a2f2f7777772e616e796f7074696f6e2e636f6d2f6a732f726567466f726d5f6d61702e6a735e44507b6e756c6c5e54537b31393a34313a32362030332f30312f31355e55544d7b6e756c6c; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, oam.Flash.RENDERMAP.TOKEN=wl1792i4y; Path=/, smt=4d537b35343845413030393234463646314644453734363839443244314330414431412e5730335e43537b32325e485454507b687474703a2f2f7777772e616e796f7074696f6e2e636f6d2f6a73702f696e6465782e6a73665e44507b6e756c6c5e54537b31393a34313a32362030332f30312f31355e55544d7b6e756c6c; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, s=2; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, c=2; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, l=2; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, countryId=220; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, regulated=false; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, combid=22; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/, f_combid=22; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=/"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;anyoption.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache, no-cache, no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Reblaze Secure Web Gateway&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent, Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:27 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=548EA00924F6F1FDE74689D2D1C0AD1A.W03; Path=&#x2F;; HttpOnly, s=2; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, c=2; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, l=2; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, countryId=220; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, regulated=false; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, combid=22; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, f_combid=22; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, oam.Flash.RENDERMAP.TOKEN=wl1792i4w; Path=&#x2F;, smt=4d537b35343845413030393234463646314644453734363839443244314330414431412e5730335e43537b32325e485454507b687474703a2f2f7777772e616e796f7074696f6e2e636f6d2f6a732f726567466f726d5f6d61702e6a735e44507b6e756c6c5e54537b31393a34313a32362030332f30312f31355e55544d7b6e756c6c; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, oam.Flash.RENDERMAP.TOKEN=wl1792i4y; Path=&#x2F;, smt=4d537b35343845413030393234463646314644453734363839443244314330414431412e5730335e43537b32325e485454507b687474703a2f2f7777772e616e796f7074696f6e2e636f6d2f6a73702f696e6465782e6a73665e44507b6e756c6c5e54537b31393a34313a32362030332f30312f31355e55544d7b6e756c6c; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, s=2; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, c=2; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, l=2; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, countryId=220; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, regulated=false; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, combid=22; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;, f_combid=22; Domain=.anyoption.com; Expires=Wed, 17-Aug-2061 22:23:34 GMT; Path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:27 UTC"
+}

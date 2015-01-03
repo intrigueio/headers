@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://1und1.de"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:39 UTC",
+  "id": "9717e7d4-c583-484e-a8f4-089bbfb7ec44",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:42 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=15"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "DPX=v1:rVCWsypt6F:jZvFLfpv:54a853cf:gb; Path=/; Expires=Sat, 03-Jan-15 20:40:42 GMT; HttpOnly, variant.configname=2014-04-22; Expires=Thu, 21-Jan-2083 22:54:49 GMT; Path=/, variant=\"bGVhZDpkZWZhdWx0\"; Expires=Thu, 21-Jan-2083 22:54:49 GMT; Path=/, chocolateChip=\"OYVszJyQkJyEhHyEfHB8aNDErLSwrKE07Z1xebCQjJVJrV1ApG2ZpbWdxZVxmT2FqX2kxJCYjICIfIRwfHDU1MHljYGhdXWkzSkI+QEBHPWpjVV5TdHI7QlFAWT09IychJSckISMgIh0gHR82MSouMC0qLCkrJikmKCgj\"; Domain=.1und1.de; Expires=Tue, 31-Dec-2024 19:40:42 GMT; Path=/, uimid=927f9545-6bd0-4d67-a9bc-6d128fe6b0bf; Domain=.1und1.de; Expires=Wed, 04-Mar-2015 19:40:42 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Mon, 05 Jul 1970 05:07:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "5833b2f45383afb93d3128e8b1321684"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;1und1.de&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:42 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;keep-alive&quot;, :content=&gt;&quot;timeout=15&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;DPX=v1:rVCWsypt6F:jZvFLfpv:54a853cf:gb; Path=&#x2F;; Expires=Sat, 03-Jan-15 20:40:42 GMT; HttpOnly, variant.configname=2014-04-22; Expires=Thu, 21-Jan-2083 22:54:49 GMT; Path=&#x2F;, variant=\\&quot;bGVhZDpkZWZhdWx0\\&quot;; Expires=Thu, 21-Jan-2083 22:54:49 GMT; Path=&#x2F;, chocolateChip=\\&quot;OYVszJyQkJyEhHyEfHB8aNDErLSwrKE07Z1xebCQjJVJrV1ApG2ZpbWdxZVxmT2FqX2kxJCYjICIfIRwfHDU1MHljYGhdXWkzSkI+QEBHPWpjVV5TdHI7QlFAWT09IychJSckISMgIh0gHR82MSouMC0qLCkrJikmKCgj\\&quot;; Domain=.1und1.de; Expires=Tue, 31-Dec-2024 19:40:42 GMT; Path=&#x2F;, uimid=927f9545-6bd0-4d67-a9bc-6d128fe6b0bf; Domain=.1und1.de; Expires=Wed, 04-Mar-2015 19:40:42 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Mon, 05 Jul 1970 05:07:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;5833b2f45383afb93d3128e8b1321684&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:42 UTC"
+}

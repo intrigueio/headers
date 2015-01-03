@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://secureserver.net"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:39:53 UTC",
+  "id": "7055b886-18cb-4f03-88b4-cdf8530542bf",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/7.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "language0=en-US; domain=secureserver.net; expires=Sun, 03-Jan-2016 19:39:56 GMT; path=/, market=en-US; domain=secureserver.net; expires=Sun, 03-Jan-2016 19:39:56 GMT; path=/, language0=en-US; domain=secureserver.net; expires=Sun, 03-Jan-2016 19:39:56 GMT; path=/, market=en-US; domain=secureserver.net; expires=Sun, 03-Jan-2016 19:39:56 GMT; path=/, ATL.SID.SALES=N3PDFqT1vzI%2ftxMEZmfw%2fkomI%2fgHC.95U2kYoa8qg.w%3d; path=/; HttpOnly, gdCassCluster.sePQKXdv2U=1; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/w3c/p3p.xml\", CP=\"COM CNT DEM FIN GOV INT NAV ONL PHY PRE PUR STA UNI IDC CAO OTI DSP COR CUR OUR IND\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:39:55 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "824"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;secureserver.net&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;language0=en-US; domain=secureserver.net; expires=Sun, 03-Jan-2016 19:39:56 GMT; path=&#x2F;, market=en-US; domain=secureserver.net; expires=Sun, 03-Jan-2016 19:39:56 GMT; path=&#x2F;, language0=en-US; domain=secureserver.net; expires=Sun, 03-Jan-2016 19:39:56 GMT; path=&#x2F;, market=en-US; domain=secureserver.net; expires=Sun, 03-Jan-2016 19:39:56 GMT; path=&#x2F;, ATL.SID.SALES=N3PDFqT1vzI%2ftxMEZmfw%2fkomI%2fgHC.95U2kYoa8qg.w%3d; path=&#x2F;; HttpOnly, gdCassCluster.sePQKXdv2U=1; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;COM CNT DEM FIN GOV INT NAV ONL PHY PRE PUR STA UNI IDC CAO OTI DSP COR CUR OUR IND\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:39:55 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;824&quot;}\n",
+  "timestamp_end": "2015-01-03 19:39:56 UTC"
+}

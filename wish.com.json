@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://wish.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:55 UTC",
+  "id": "9c4410ca-cfde-45df-b6f7-7a94e493853a",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:56 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"d5ca20d782dfe10027cd0d2e100172265c9beb34\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "TornadoServer/2.1git-cl"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "M23_cur=; expires=Fri, 03 Jan 2014 19:41:56 GMT; Path=/, M22_cur=; expires=Fri, 03 Jan 2014 19:41:56 GMT; Path=/, F19_cur=; expires=Fri, 03 Jan 2014 19:41:56 GMT; Path=/, F31_cur=; expires=Fri, 03 Jan 2014 19:41:56 GMT; Path=/, F20-30_cur=; expires=Fri, 03 Jan 2014 19:41:56 GMT; Path=/, bsid=ce3c99d0e572433594134ef70052ae9a; expires=Sat, 03 Jan 2015 20:11:56 GMT; Path=/, _xsrf=cdaa260c80974a4dbbba61eae1d93524; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-status",
+        "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-wish-hostname",
+        "content": "wish-tornado-99c3ea51"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;wish.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:56 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;d5ca20d782dfe10027cd0d2e100172265c9beb34\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;TornadoServer&#x2F;2.1git-cl&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;M23_cur=; expires=Fri, 03 Jan 2014 19:41:56 GMT; Path=&#x2F;, M22_cur=; expires=Fri, 03 Jan 2014 19:41:56 GMT; Path=&#x2F;, F19_cur=; expires=Fri, 03 Jan 2014 19:41:56 GMT; Path=&#x2F;, F31_cur=; expires=Fri, 03 Jan 2014 19:41:56 GMT; Path=&#x2F;, F20-30_cur=; expires=Fri, 03 Jan 2014 19:41:56 GMT; Path=&#x2F;, bsid=ce3c99d0e572433594134ef70052ae9a; expires=Sat, 03 Jan 2015 20:11:56 GMT; Path=&#x2F;, _xsrf=cdaa260c80974a4dbbba61eae1d93524; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-status&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-wish-hostname&quot;, :content=&gt;&quot;wish-tornado-99c3ea51&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:57 UTC"
+}

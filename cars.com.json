@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://cars.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:45 UTC",
+  "id": "23711c31-89db-4a9a-b400-9240ddd951b9",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:47 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Servlet/3.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-dynatrace-js-agent",
+        "content": "true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "dtCookie=4511A4BEA06F0B90FD2A11BF4EB61D30|_default|1; Path=/; Domain=.cars.com, JSESSIONID=0000TIGGZiaqap-QFRZcBWsDFRZ:1821a9sib; Path=/; HttpOnly, Registration=currentUserId:sdZEUYHDQS89exdSFCTiK7tGFQMgZeQuu0YVAyBl5C67RhUDIGXkLrtGFQMgZeQujM0BA2bVq+H72fxWzPMmi8kQD6KK4m32P3FGYlkXuII=; Expires=Thu, 02-Jan-20 19:40:47 GMT; Path=/; Domain=www.cars.com, affiliate=national; Expires=Sat, 24-Jan-15 19:40:47 GMT; Path=/; Domain=www.cars.com, cars_persist=2587956396.20480.0000; expires=Sat, 03-Jan-2015 20:10:47 GMT; path=/, TS01952cdc=01fce1e7c43a822e08671c35c638d9af8ad73c5baa2a2b0b53a31fb5d3e521e96b949eee9f85225ad28d203ea24cf431db8fd43574bb597dcc434a836a1103d39f8788f5b5; Path=/, TS011184a0=01fce1e7c44928f50eee632f9d7354196bb701e5b76036800d0cbf7ddb000734f3d65205ab8aee1d47a774eca61335dc280210c0ac; path=/; domain=.cars.com, TS01eea597=01fce1e7c4b553b3040afcc068d5471aea90d9f0e35aceecf1b0412d5e7a758095f2036efe72e51ab156184d8feb1b3cdf50090ec202e04b5ff7fc9b28849d87e4aa808f8c; path=/; domain=www.cars.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Dec 1994 16:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache=\"set-cookie, set-cookie2\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/w3c/p3p.xml\", CP=\"ALL DEM ONL PHY PUR CUR OUR BUS IND\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=ISO-8859-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;cars.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:47 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Servlet&#x2F;3.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dynatrace-js-agent&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;dtCookie=4511A4BEA06F0B90FD2A11BF4EB61D30|_default|1; Path=&#x2F;; Domain=.cars.com, JSESSIONID=0000TIGGZiaqap-QFRZcBWsDFRZ:1821a9sib; Path=&#x2F;; HttpOnly, Registration=currentUserId:sdZEUYHDQS89exdSFCTiK7tGFQMgZeQuu0YVAyBl5C67RhUDIGXkLrtGFQMgZeQujM0BA2bVq+H72fxWzPMmi8kQD6KK4m32P3FGYlkXuII=; Expires=Thu, 02-Jan-20 19:40:47 GMT; Path=&#x2F;; Domain=www.cars.com, affiliate=national; Expires=Sat, 24-Jan-15 19:40:47 GMT; Path=&#x2F;; Domain=www.cars.com, cars_persist=2587956396.20480.0000; expires=Sat, 03-Jan-2015 20:10:47 GMT; path=&#x2F;, TS01952cdc=01fce1e7c43a822e08671c35c638d9af8ad73c5baa2a2b0b53a31fb5d3e521e96b949eee9f85225ad28d203ea24cf431db8fd43574bb597dcc434a836a1103d39f8788f5b5; Path=&#x2F;, TS011184a0=01fce1e7c44928f50eee632f9d7354196bb701e5b76036800d0cbf7ddb000734f3d65205ab8aee1d47a774eca61335dc280210c0ac; path=&#x2F;; domain=.cars.com, TS01eea597=01fce1e7c4b553b3040afcc068d5471aea90d9f0e35aceecf1b0412d5e7a758095f2036efe72e51ab156184d8feb1b3cdf50090ec202e04b5ff7fc9b28849d87e4aa808f8c; path=&#x2F;; domain=www.cars.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Dec 1994 16:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache=\\&quot;set-cookie, set-cookie2\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;ALL DEM ONL PHY PUR CUR OUR BUS IND\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=ISO-8859-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:48 UTC"
+}

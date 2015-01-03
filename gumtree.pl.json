@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://gumtree.pl"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:53 UTC",
+  "id": "95768313-f6e5-498c-8efc-bac7ce1457f4",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"CAO PSA OUR\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "151380"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "confidential"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:54 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "area_preference=Vrandom_marker=94^guid=2AQAAAUpqJLwAAM4AMDllMjkwMzljLWExNWQtNGU0Ny1iZDVjLWJjYWM4NWUyMmQ5OS0xNGFiMTUwOGVjOAxS093zai4bYH0w7GuRUWFSWCiz; Domain=.gumtree.pl; Expires=Sun, 03-Jan-2016 19:40:54 GMT; Path=/, cls-last-visit=1420314054391; Domain=www.gumtree.pl; Expires=Sun, 03-Jan-2016 19:40:54 GMT; Path=/"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;gumtree.pl&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CAO PSA OUR\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;151380&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;confidential&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:54 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;area_preference=Vrandom_marker=94^guid=2AQAAAUpqJLwAAM4AMDllMjkwMzljLWExNWQtNGU0Ny1iZDVjLWJjYWM4NWUyMmQ5OS0xNGFiMTUwOGVjOAxS093zai4bYH0w7GuRUWFSWCiz; Domain=.gumtree.pl; Expires=Sun, 03-Jan-2016 19:40:54 GMT; Path=&#x2F;, cls-last-visit=1420314054391; Domain=www.gumtree.pl; Expires=Sun, 03-Jan-2016 19:40:54 GMT; Path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:54 UTC"
+}

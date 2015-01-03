@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://ya.ru"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:52 UTC",
+  "id": "dbc4d072-4b06-4fa0-906a-ff2e857d31b1",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:54 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache,no-store,max-age=0,must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Sat, 03 Jan 2015 19:40:54 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Sat, 03 Jan 2015 19:40:54 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-security-policy",
+        "content": "default-src 'self' 'unsafe-inline' 'unsafe-eval' wss://portal-xiva.yandex.net *.yandex.ru yandex.ru *.yandex.net https://*.yandex.ru https://yandex.ru https://*.yandex.net yandex.st yastatic.net *.yastatic.net ws://portal-xiva.yandex.net wss://portal-xiva.yandex.net wss://push.yandex.ru; img-src data: 'self' *.yandex.ru *.tns-counter.ru *.gemius.pl https://*.yandex.ru https://*.tns-counter.ru https://*.gemius.pl yandex.st *.yandex.net yastatic.net *.yastatic.net; report-uri http://www.yandex.ru/log/csp?from=yaru.ru&showid=22909.17476.1420314054.11307&h=u68&yu=8830541021420314054;"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/w3c/p3p.xml\", CP=\"NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "yandex_gid=87; Expires=Mon, 02-Feb-2015 19:40:54 GMT; Domain=.ya.ru; Path=/, yp=; Expires=Wed, 05-Jan-2005 19:40:54 GMT; Path=/, yp=; Expires=Wed, 05-Jan-2005 19:40:54 GMT; Domain=.ya.ru; Path=/, yp=1422906054.ygu.1; Expires=Tue, 31-Dec-2024 19:40:54 GMT; Domain=.ya.ru; Path=/, yandexuid=8830541021420314054; Expires=Tue, 31-Dec-2024 19:40:54 GMT; Domain=.ya.ru; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "DENY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xrds-location",
+        "content": "http://openid.yandex.ru/server_xrds/"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ya.ru&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:54 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache,no-store,max-age=0,must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:54 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:54 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-security-policy&quot;, :content=&gt;&quot;default-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; wss:&#x2F;&#x2F;portal-xiva.yandex.net *.yandex.ru yandex.ru *.yandex.net https:&#x2F;&#x2F;*.yandex.ru https:&#x2F;&#x2F;yandex.ru https:&#x2F;&#x2F;*.yandex.net yandex.st yastatic.net *.yastatic.net ws:&#x2F;&#x2F;portal-xiva.yandex.net wss:&#x2F;&#x2F;portal-xiva.yandex.net wss:&#x2F;&#x2F;push.yandex.ru; img-src data: &#x27;self&#x27; *.yandex.ru *.tns-counter.ru *.gemius.pl https:&#x2F;&#x2F;*.yandex.ru https:&#x2F;&#x2F;*.tns-counter.ru https:&#x2F;&#x2F;*.gemius.pl yandex.st *.yandex.net yastatic.net *.yastatic.net; report-uri http:&#x2F;&#x2F;www.yandex.ru&#x2F;log&#x2F;csp?from=yaru.ru&amp;showid=22909.17476.1420314054.11307&amp;h=u68&amp;yu=8830541021420314054;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;yandex_gid=87; Expires=Mon, 02-Feb-2015 19:40:54 GMT; Domain=.ya.ru; Path=&#x2F;, yp=; Expires=Wed, 05-Jan-2005 19:40:54 GMT; Path=&#x2F;, yp=; Expires=Wed, 05-Jan-2005 19:40:54 GMT; Domain=.ya.ru; Path=&#x2F;, yp=1422906054.ygu.1; Expires=Tue, 31-Dec-2024 19:40:54 GMT; Domain=.ya.ru; Path=&#x2F;, yandexuid=8830541021420314054; Expires=Tue, 31-Dec-2024 19:40:54 GMT; Domain=.ya.ru; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;DENY&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xrds-location&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;openid.yandex.ru&#x2F;server_xrds&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:54 UTC"
+}

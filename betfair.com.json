@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://betfair.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:11 UTC",
+  "id": "61201926-c78c-42c2-9020-b4a9090743af",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "sess=active; Domain=.betfair.com; Path=/, userhistory=18600151011420314072599|1|N|030115|030115|home|N; Domain=.betfair.com; Expires=Sun, 03-Jan-2016 19:41:12 GMT; Path=/, bucket=3~66~maxymiser; Domain=.betfair.com; Expires=Sun, 03-Jan-2016 19:41:12 GMT; Path=/, bftim=1420314072599; Domain=.betfair.com; Expires=Sun, 03-Jan-2016 19:41:12 GMT; Path=/, vid=fc3c9b85-6f5e-4a7a-8918-a1405543ca9f; Domain=.betfair.com; Expires=Tue, 31-Dec-2024 19:41:12 GMT; Path=/, homepageredirect=TRUE; Domain=.betfair.com; Path=/, betexPtk=betexRegion%3DGBR%7EbetexLocale%3Den; Domain=.betfair.com; Expires=Sun, 03-Jan-2016 19:41:12 GMT; Path=/, betexPtkSess=betexRegionSessionCookie%3DGBR%7EbetexLocaleSessionCookie%3Den; Domain=.betfair.com; Path=/, NSC_mc-80-qpsubm.efgbvmu=ffffffff0920b70a45525d5f4f58455e445a4a4229a0;path=/;httponly, vid=fc3c9b85-6f5e-4a7a-8918-a1405543ca9f; Domain=.betfair.com; Expires=Mon, 01-Dec-2022 09:00:00 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:11 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "age",
+        "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;betfair.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;sess=active; Domain=.betfair.com; Path=&#x2F;, userhistory=18600151011420314072599|1|N|030115|030115|home|N; Domain=.betfair.com; Expires=Sun, 03-Jan-2016 19:41:12 GMT; Path=&#x2F;, bucket=3~66~maxymiser; Domain=.betfair.com; Expires=Sun, 03-Jan-2016 19:41:12 GMT; Path=&#x2F;, bftim=1420314072599; Domain=.betfair.com; Expires=Sun, 03-Jan-2016 19:41:12 GMT; Path=&#x2F;, vid=fc3c9b85-6f5e-4a7a-8918-a1405543ca9f; Domain=.betfair.com; Expires=Tue, 31-Dec-2024 19:41:12 GMT; Path=&#x2F;, homepageredirect=TRUE; Domain=.betfair.com; Path=&#x2F;, betexPtk=betexRegion%3DGBR%7EbetexLocale%3Den; Domain=.betfair.com; Expires=Sun, 03-Jan-2016 19:41:12 GMT; Path=&#x2F;, betexPtkSess=betexRegionSessionCookie%3DGBR%7EbetexLocaleSessionCookie%3Den; Domain=.betfair.com; Path=&#x2F;, NSC_mc-80-qpsubm.efgbvmu=ffffffff0920b70a45525d5f4f58455e445a4a4229a0;path=&#x2F;;httponly, vid=fc3c9b85-6f5e-4a7a-8918-a1405543ca9f; Domain=.betfair.com; Expires=Mon, 01-Dec-2022 09:00:00 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:11 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:12 UTC"
+}

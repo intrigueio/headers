@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://sourceforge.net"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:39:52 UTC",
+  "id": "e1c9c674-3390-4c60-a338-726ee06b2789",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:39:52 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "Keep-Alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xrds-location",
+        "content": "http://sourceforge.net/account/xrds.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "VISITOR=54a84588ce09e77710c1cb24; expires=\"Tue, 31-Dec-2024 19:39:52 GMT\"; httponly; Max-Age=315360000; Path=/, sourceforge=d19e2cd1da868bb8a1415d50fbab5f44ebc7225dgAJ9cQEoVQxsYW5kaW5nX3BhZ2VxAlUBL1UFcHJlZnNxA31xBFUDa2V5cQVVGDU0YTg0NTg4Y2UwOWU3NzcxMGMxY2IyNHEGVQNfaWRxB1UgYTk4MjNkMGVmYjhhNGJlYWFkZTAxYzRmN2JkZDNhNTBxCFUOX2FjY2Vzc2VkX3RpbWVxCUdB1SoRYjKC3FUOX2NyZWF0aW9uX3RpbWVxCkdB1SoRYjKC1HUu; expires=Tue, 19-Jan-2038 03:14:07 GMT; httponly; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "13794"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;sourceforge.net&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:39:52 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;Keep-Alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xrds-location&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;sourceforge.net&#x2F;account&#x2F;xrds.php&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;VISITOR=54a84588ce09e77710c1cb24; expires=\\&quot;Tue, 31-Dec-2024 19:39:52 GMT\\&quot;; httponly; Max-Age=315360000; Path=&#x2F;, sourceforge=d19e2cd1da868bb8a1415d50fbab5f44ebc7225dgAJ9cQEoVQxsYW5kaW5nX3BhZ2VxAlUBL1UFcHJlZnNxA31xBFUDa2V5cQVVGDU0YTg0NTg4Y2UwOWU3NzcxMGMxY2IyNHEGVQNfaWRxB1UgYTk4MjNkMGVmYjhhNGJlYWFkZTAxYzRmN2JkZDNhNTBxCFUOX2FjY2Vzc2VkX3RpbWVxCUdB1SoRYjKC3FUOX2NyZWF0aW9uX3RpbWVxCkdB1SoRYjKC1HUu; expires=Tue, 19-Jan-2038 03:14:07 GMT; httponly; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;13794&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, User-Agent&quot;}\n",
+  "timestamp_end": "2015-01-03 19:39:52 UTC"
+}

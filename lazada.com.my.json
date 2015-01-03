@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://lazada.com.my"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:11 UTC",
+  "id": "1ac07080-fa8b-4ecf-a7cd-3d31ef8850ce",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "myracloud"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:16 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "accept-encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "userLanguageML=en; expires=Mon, 02-Feb-2015 19:41:15 GMT; path=/, PHPSESSID_26cedaad9cc30104da500ad92159d7f5=9v1pslivcsq9l666mcvq4oosa5; path=/; domain=.lazada.com.my; HttpOnly, browserDetection=eyJ0eXBlIjpudWxsLCJuYW1lIjoiT3RoZXIiLCJjc3NDbGFzcyI6IiIsInZlcnNpb24iOjAsIm9zIjoiVW5Lbm93biJ9; expires=Sat, 10-Jan-2015 19:41:15 GMT; path=/, mib_s=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, split_test_recommendation=t00_c_25; expires=Sun, 03-Jan-2016 19:41:16 GMT; path=/, split_test_recommendation=t00_c_25; path=/, is_new_user=1; expires=Sat, 17-Jan-2015 19:41:16 GMT; path=/, lzd_first_visit=1; expires=Sat, 03-Jan-2015 20:11:16 GMT; path=/, lzd_visitor_type=new; expires=Sun, 03-Jan-2016 19:41:16 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-server",
+        "content": "web29.myamz"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;lazada.com.my&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;myracloud&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:16 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;accept-encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;userLanguageML=en; expires=Mon, 02-Feb-2015 19:41:15 GMT; path=&#x2F;, PHPSESSID_26cedaad9cc30104da500ad92159d7f5=9v1pslivcsq9l666mcvq4oosa5; path=&#x2F;; domain=.lazada.com.my; HttpOnly, browserDetection=eyJ0eXBlIjpudWxsLCJuYW1lIjoiT3RoZXIiLCJjc3NDbGFzcyI6IiIsInZlcnNpb24iOjAsIm9zIjoiVW5Lbm93biJ9; expires=Sat, 10-Jan-2015 19:41:15 GMT; path=&#x2F;, mib_s=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;, split_test_recommendation=t00_c_25; expires=Sun, 03-Jan-2016 19:41:16 GMT; path=&#x2F;, split_test_recommendation=t00_c_25; path=&#x2F;, is_new_user=1; expires=Sat, 17-Jan-2015 19:41:16 GMT; path=&#x2F;, lzd_first_visit=1; expires=Sat, 03-Jan-2015 20:11:16 GMT; path=&#x2F;, lzd_visitor_type=new; expires=Sun, 03-Jan-2016 19:41:16 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-server&quot;, :content=&gt;&quot;web29.myamz&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:16 UTC"
+}

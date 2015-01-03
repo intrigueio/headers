@@ -1,0 +1,71 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://nuvid.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:30 UTC",
+  "id": "08ec06cd-f2d0-4bcf-a228-037f0f5136a6",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.6.2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:32 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.6.2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "area=US; expires=Sun, 04-Jan-2015 19:40:31 GMT; Max-Age=86400; path=/; domain=.nuvid.com, no_popups=1; expires=Sat, 10-Jan-2015 19:40:31 GMT; Max-Age=604800; path=/; domain=.nuvid.com, no_ads=1; expires=Sat, 10-Jan-2015 19:40:31 GMT; Max-Age=604800; path=/; domain=.nuvid.com, search_filter_new=ch%3D178.1.2.3.4.7.8.5.6.9.10.169.11.12.13.14.15.16.17.18.28.20.21.22.27.23.24.25.26.29.30.31.32.181.35.36.37.180.176.38.33.34.39.40.41.42.177.44.43.45.47.48.46.49.50.51.52.53.54.55.56.57.58.179.59.60.61.62.63.64.65.66.69.68.71.67.70.72.73.74.75.182.183.77.76.78.79.80.81.82.83.84.85.88.86.87.89.91.90.92.93.94.%26hq%3D0%26sort%3Dmr%26added%3D%26dur%3D%26rate%3D; expires=Sat, 10-Jan-2015 19:40:31 GMT; Max-Age=604800; path=/; domain=.nuvid.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\""
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;nuvid.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:32 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;area=US; expires=Sun, 04-Jan-2015 19:40:31 GMT; Max-Age=86400; path=&#x2F;; domain=.nuvid.com, no_popups=1; expires=Sat, 10-Jan-2015 19:40:31 GMT; Max-Age=604800; path=&#x2F;; domain=.nuvid.com, no_ads=1; expires=Sat, 10-Jan-2015 19:40:31 GMT; Max-Age=604800; path=&#x2F;; domain=.nuvid.com, search_filter_new=ch%3D178.1.2.3.4.7.8.5.6.9.10.169.11.12.13.14.15.16.17.18.28.20.21.22.27.23.24.25.26.29.30.31.32.181.35.36.37.180.176.38.33.34.39.40.41.42.177.44.43.45.47.48.46.49.50.51.52.53.54.55.56.57.58.179.59.60.61.62.63.64.65.66.69.68.71.67.70.72.73.74.75.182.183.77.76.78.79.80.81.82.83.84.85.88.86.87.89.91.90.92.93.94.%26hq%3D0%26sort%3Dmr%26added%3D%26dur%3D%26rate%3D; expires=Sat, 10-Jan-2015 19:40:31 GMT; Max-Age=604800; path=&#x2F;; domain=.nuvid.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\\&quot;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:35 UTC"
+}

@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://constantcontact.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:02 UTC",
+  "id": "a5629306-2ddb-4310-96a6-7c3e654464ba",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:02 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=BB3A3018FAC38B8BDDFD71DD99682994.worker_landingPages; Path=/, site_loc=\"en_US\"; Domain=.constantcontact.com; Path=/, site_locale=en_US_USD; Domain=.constantcontact.com; Expires=Sun, 05-Jul-2015 07:40:02 GMT; Path=/, cclp_content=\"lp_uid=20150103_14:40:02.584_BB3A3018FAC38B8BDDFD71DD99682994.worker_landingPages_|\"; Domain=.constantcontact.com; Expires=Fri, 03-Apr-2015 19:40:02 GMT; Path=/, cclp_partner=\"prt_01=partner.name::ROVING|prt_01_ts=23671900|\"; Domain=.constantcontact.com; Expires=Fri, 03-Apr-2015 19:40:02 GMT; Path=/, cclp_referral=\"partner.name=ROVING|pn=ROVING|partner=ROVING|sitereferrer=http://www.constantcontact.com/index.jsp|\"; Domain=.constantcontact.com; Expires=Fri, 03-Apr-2015 19:40:02 GMT; Path=/, cclp_content=\"lp_uid=20150103_14:40:02.584_BB3A3018FAC38B8BDDFD71DD99682994.worker_landingPages_|\"; Domain=.constantcontact.com; Expires=Fri, 03-Apr-2015 19:40:02 GMT; Path=/, cclp_partner=\"prt_01=partner.name::ROVING|prt_01_ts=23671900|\"; Domain=.constantcontact.com; Expires=Fri, 03-Apr-2015 19:40:02 GMT; Path=/, cclp_referral=\"partner.name=ROVING|pn=ROVING|partner=ROVING|sitereferrer=http://www.constantcontact.com/index.jsp|\"; Domain=.constantcontact.com; Expires=Fri, 03-Apr-2015 19:40:02 GMT; Path=/, BIGipServerProdLP=3866956810.20480.0000; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-mod-pagespeed",
+        "content": "1.2.24.1-2581"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "7732"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;constantcontact.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:02 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=BB3A3018FAC38B8BDDFD71DD99682994.worker_landingPages; Path=&#x2F;, site_loc=\\&quot;en_US\\&quot;; Domain=.constantcontact.com; Path=&#x2F;, site_locale=en_US_USD; Domain=.constantcontact.com; Expires=Sun, 05-Jul-2015 07:40:02 GMT; Path=&#x2F;, cclp_content=\\&quot;lp_uid=20150103_14:40:02.584_BB3A3018FAC38B8BDDFD71DD99682994.worker_landingPages_|\\&quot;; Domain=.constantcontact.com; Expires=Fri, 03-Apr-2015 19:40:02 GMT; Path=&#x2F;, cclp_partner=\\&quot;prt_01=partner.name::ROVING|prt_01_ts=23671900|\\&quot;; Domain=.constantcontact.com; Expires=Fri, 03-Apr-2015 19:40:02 GMT; Path=&#x2F;, cclp_referral=\\&quot;partner.name=ROVING|pn=ROVING|partner=ROVING|sitereferrer=http:&#x2F;&#x2F;www.constantcontact.com&#x2F;index.jsp|\\&quot;; Domain=.constantcontact.com; Expires=Fri, 03-Apr-2015 19:40:02 GMT; Path=&#x2F;, cclp_content=\\&quot;lp_uid=20150103_14:40:02.584_BB3A3018FAC38B8BDDFD71DD99682994.worker_landingPages_|\\&quot;; Domain=.constantcontact.com; Expires=Fri, 03-Apr-2015 19:40:02 GMT; Path=&#x2F;, cclp_partner=\\&quot;prt_01=partner.name::ROVING|prt_01_ts=23671900|\\&quot;; Domain=.constantcontact.com; Expires=Fri, 03-Apr-2015 19:40:02 GMT; Path=&#x2F;, cclp_referral=\\&quot;partner.name=ROVING|pn=ROVING|partner=ROVING|sitereferrer=http:&#x2F;&#x2F;www.constantcontact.com&#x2F;index.jsp|\\&quot;; Domain=.constantcontact.com; Expires=Fri, 03-Apr-2015 19:40:02 GMT; Path=&#x2F;, BIGipServerProdLP=3866956810.20480.0000; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-mod-pagespeed&quot;, :content=&gt;&quot;1.2.24.1-2581&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;7732&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:02 UTC"
+}

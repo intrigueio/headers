@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://jibjab.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:47 UTC",
+  "id": "31d71f71-2a0c-4c50-89e1-6d0cd525845c",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:48 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"bab223479521f4184492bb91d80814b5\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "jj_t=hAI3RXxcSgQfDVW68uFA; domain=.jibjab.com; path=/; expires=Fri, 03-Jan-2025 19:40:48 GMT; HttpOnly, _sendables_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJTNmYTU2Yjk1N2M5NWZmZmIwNzIxMTcxMGY3YmI5MTk4BjsAVEkiF3Zpc2l0b3Jfc2Vzc2lvbl9pZAY7AEZJIiVEcWVtbVNkbURoMFRveWlWSVphMnRoM2ZYWU44V3ZTRwY7AEZJIhBfY3NyZl90b2tlbgY7AEZJIjFCMjlvTFhwNFhCbmxNcnB3K2p1RnB0eHFrenY2USswTnV6RXVCTFdSWGJRPQY7AEY%3D--337c99161e84e3a3f1a1a51f82e65a18499eccf9; domain=.jibjab.com; path=/; HttpOnly, search_term_tracking=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "98f3e16adf051acb7d4443484c501feb"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.158789"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "*"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;jibjab.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:48 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;bab223479521f4184492bb91d80814b5\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;jj_t=hAI3RXxcSgQfDVW68uFA; domain=.jibjab.com; path=&#x2F;; expires=Fri, 03-Jan-2025 19:40:48 GMT; HttpOnly, _sendables_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJTNmYTU2Yjk1N2M5NWZmZmIwNzIxMTcxMGY3YmI5MTk4BjsAVEkiF3Zpc2l0b3Jfc2Vzc2lvbl9pZAY7AEZJIiVEcWVtbVNkbURoMFRveWlWSVphMnRoM2ZYWU44V3ZTRwY7AEZJIhBfY3NyZl90b2tlbgY7AEZJIjFCMjlvTFhwNFhCbmxNcnB3K2p1RnB0eHFrenY2USswTnV6RXVCTFdSWGJRPQY7AEY%3D--337c99161e84e3a3f1a1a51f82e65a18499eccf9; domain=.jibjab.com; path=&#x2F;; HttpOnly, search_term_tracking=; path=&#x2F;; expires=Thu, 01-Jan-1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;98f3e16adf051acb7d4443484c501feb&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.158789&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;*&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:49 UTC"
+}

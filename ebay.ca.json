@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://ebay.ca"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:23 UTC",
+  "id": "4e4f3a32-0d94-4d74-99b4-057e409e0d5c",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ebay-c-request-id",
+        "content": "ri=1l7yNMr0QTw%3D,rci=LTfypCjjTr4%3D"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "rlogid",
+        "content": "t6e%60cckjkb9%3Fuk%601d72f%2Bc%60c3%29pqtfwpu%29pie%29fgg%7E-fij-14ab1501b3e-0x9c"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN, SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=25BE7BA0FB5D7C3497C8C7369251544E; Path=/; HttpOnly, ebay=%5Esbf%3D%23%5E;Domain=.ebay.ca;Path=/, dp1=bu1p/QEBfX0BAX19AQA**56897929^;Domain=.ebay.ca;Expires=Mon, 02-Jan-2017 19:40:25 GMT;Path=/, s=CgAD4ACBUqZcpYjE1MDFiM2ExNGEwYTVlZDc2NTBhZjgyZmZlMTY4YjRiq3PM;Domain=.ebay.ca;Path=/; HttpOnly, nonsession=CgADLAAFUqEyxMQDKACBeDkcpYjE1MDFiM2ExNGEwYTVlZDc2NTBhZjgyZmZlMTY4YjRbEpK0;Domain=.ebay.ca;Expires=Sun, 03-Jan-2016 19:40:25 GMT;Path=/, lucky9=2642570;Domain=.ebay.ca;Expires=Thu, 02-Jan-2020 19:40:25 GMT;Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:24 GMT"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ebay.ca&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ebay-c-request-id&quot;, :content=&gt;&quot;ri=1l7yNMr0QTw%3D,rci=LTfypCjjTr4%3D&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;rlogid&quot;, :content=&gt;&quot;t6e%60cckjkb9%3Fuk%601d72f%2Bc%60c3%29pqtfwpu%29pie%29fgg%7E-fij-14ab1501b3e-0x9c&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN, SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=25BE7BA0FB5D7C3497C8C7369251544E; Path=&#x2F;; HttpOnly, ebay=%5Esbf%3D%23%5E;Domain=.ebay.ca;Path=&#x2F;, dp1=bu1p&#x2F;QEBfX0BAX19AQA**56897929^;Domain=.ebay.ca;Expires=Mon, 02-Jan-2017 19:40:25 GMT;Path=&#x2F;, s=CgAD4ACBUqZcpYjE1MDFiM2ExNGEwYTVlZDc2NTBhZjgyZmZlMTY4YjRiq3PM;Domain=.ebay.ca;Path=&#x2F;; HttpOnly, nonsession=CgADLAAFUqEyxMQDKACBeDkcpYjE1MDFiM2ExNGEwYTVlZDc2NTBhZjgyZmZlMTY4YjRbEpK0;Domain=.ebay.ca;Expires=Sun, 03-Jan-2016 19:40:25 GMT;Path=&#x2F;, lucky9=2642570;Domain=.ebay.ca;Expires=Thu, 02-Jan-2020 19:40:25 GMT;Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:24 GMT&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:25 UTC"
+}

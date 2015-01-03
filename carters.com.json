@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://carters.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:38 UTC",
+  "id": "30c89e9f-d477-401b-8754-d59d05c4d38d",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Demandware eCommerce Server"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache,no-store,must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Dec 1994 16:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:38 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "dwac_bcWK6iaagGacsaaac72qM7BEZK=fZ3MUlTRcfK9bGKVaOfcjRx8zQbqeOB7mdk%3D|dw-only|||USD|false|US%2FEastern|true; Path=/, sid=fZ3MUlTRcfK9bGKVaOfcjRx8zQbqeOB7mdk; Path=/, currentSite=carters; Expires=Sun, 04-Jan-2015 19:41:38 GMT; Path=/, dwpersonalization_147a2aff3a3cbeff33fff2d813b373d1=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, dwanonymous_147a2aff3a3cbeff33fff2d813b373d1=acFxwVUlQBi1YY7HHQpGcuBOsa; Version=1; Comment=\"Demandware anonymous cookie for site Sites-Carters-Site\"; Max-Age=15552000; Expires=Thu, 02-Jul-2015 19:41:38 GMT; Path=/, dwsid=aGjMHtaF-02bc94ZxW1jSQmJzUpoLGrEv8asCVT1nrhUxhAzeRUtpbcv4BMACQlxNCQt4Oz9tUjK07cAXSGIuA==; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;carters.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Demandware eCommerce Server&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache,no-store,must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Dec 1994 16:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:38 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;dwac_bcWK6iaagGacsaaac72qM7BEZK=fZ3MUlTRcfK9bGKVaOfcjRx8zQbqeOB7mdk%3D|dw-only|||USD|false|US%2FEastern|true; Path=&#x2F;, sid=fZ3MUlTRcfK9bGKVaOfcjRx8zQbqeOB7mdk; Path=&#x2F;, currentSite=carters; Expires=Sun, 04-Jan-2015 19:41:38 GMT; Path=&#x2F;, dwpersonalization_147a2aff3a3cbeff33fff2d813b373d1=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, dwanonymous_147a2aff3a3cbeff33fff2d813b373d1=acFxwVUlQBi1YY7HHQpGcuBOsa; Version=1; Comment=\\&quot;Demandware anonymous cookie for site Sites-Carters-Site\\&quot;; Max-Age=15552000; Expires=Thu, 02-Jul-2015 19:41:38 GMT; Path=&#x2F;, dwsid=aGjMHtaF-02bc94ZxW1jSQmJzUpoLGrEv8asCVT1nrhUxhAzeRUtpbcv4BMACQlxNCQt4Oz9tUjK07cAXSGIuA==; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, User-Agent&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:38 UTC"
+}

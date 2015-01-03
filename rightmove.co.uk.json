@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://rightmove.co.uk"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:29 UTC",
+  "id": "b5b78e37-a85b-4691-a65b-59ff177772fc",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:31 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=3F893F1FBF8E444CFDBAF01360F5CC27; Path=/; HttpOnly, svr=3113; Domain=.rightmove.co.uk; Expires=Sun, 04-Jan-2015 03:40:31 GMT; Path=/, permuserid=150103FBYW54ZTSEDYEEJEUJT5QM6KV8; Domain=.rightmove.co.uk; Expires=Sun, 03-Jan-2016 19:40:31 GMT; Path=/, cks_policy=TT; Domain=.rightmove.co.uk; Expires=Sun, 03-Jan-2016 19:40:31 GMT; Path=/, TS019c0ed0=012f990cd387b88810f9e554b11b465bd2194c3cdeab09e91902baee5fd76ca6490b8fca143f9f698df54aa45233e1be526f62c1c4; Path=/, TS01ec61d1=012f990cd3aec129ec67380f9db50acc4125280234fa7cccb2e74e7edb091a8ea91e430774c60e812c60889c6362b73541f2f31a998a6b8112437c3965a0f7fd8d9e315cafda999eabf0ae1cd9224a26a16bf7bec1; path=/; domain=.rightmove.co.uk, TS019c0ed0_28=0186df1e986531c20f6ce66a072efc50cc3d604aa441d298af3688e718c0dd16b132fa36acbea05314b6501464b7c004378de1e4d8; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Jan 1970 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=ISO-8859-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "16929"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;rightmove.co.uk&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:31 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=3F893F1FBF8E444CFDBAF01360F5CC27; Path=&#x2F;; HttpOnly, svr=3113; Domain=.rightmove.co.uk; Expires=Sun, 04-Jan-2015 03:40:31 GMT; Path=&#x2F;, permuserid=150103FBYW54ZTSEDYEEJEUJT5QM6KV8; Domain=.rightmove.co.uk; Expires=Sun, 03-Jan-2016 19:40:31 GMT; Path=&#x2F;, cks_policy=TT; Domain=.rightmove.co.uk; Expires=Sun, 03-Jan-2016 19:40:31 GMT; Path=&#x2F;, TS019c0ed0=012f990cd387b88810f9e554b11b465bd2194c3cdeab09e91902baee5fd76ca6490b8fca143f9f698df54aa45233e1be526f62c1c4; Path=&#x2F;, TS01ec61d1=012f990cd3aec129ec67380f9db50acc4125280234fa7cccb2e74e7edb091a8ea91e430774c60e812c60889c6362b73541f2f31a998a6b8112437c3965a0f7fd8d9e315cafda999eabf0ae1cd9224a26a16bf7bec1; path=&#x2F;; domain=.rightmove.co.uk, TS019c0ed0_28=0186df1e986531c20f6ce66a072efc50cc3d604aa441d298af3688e718c0dd16b132fa36acbea05314b6501464b7c004378de1e4d8; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=ISO-8859-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;16929&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:31 UTC"
+}

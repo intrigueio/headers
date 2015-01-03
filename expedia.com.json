@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://expedia.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:05 UTC",
+  "id": "32353807-541a-4b27-bcbc-71e283a685b8",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "openresty/1.5.11.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "activity-id",
+        "content": "<!--tlactivity-id: 61a514df-a1dd-4463-b084-23a0dc76ae8a-->"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/w3c/p3p.xml\", CP=\"CAO DSP IND COR ADM CONo CUR CUSi DEV PSA PSD DELi OUR COM NAV PHY ONL PUR UNI\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "rtss",
+        "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "k3s",
+        "content": "<!--tlK3s:40-->"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Host, Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:06 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "SSLB=1; path=/; domain=.expedia.com, MC1=GUID=b114e6b4673140d49b04ae3008c649e0; Domain=.expedia.com; Expires=Mon, 06-Jan-2020 12:33:25 GMT; Path=/, JSESSION=1eaf3295-1dc9-4a09-8df8-7c94f6c0fbed; Domain=.expedia.com; Path=/, tpid=v.1,1; Domain=.expedia.com; Expires=Thu, 15-Jan-2015 09:26:45 GMT; Path=/, iEAPID=0,; Domain=.expedia.com; Path=/, linfo=v.4,|0|0|255|1|0||||||||1033|0|0||0|0|0|-1|-1; Domain=.expedia.com; Expires=Mon, 06-Jan-2020 12:33:25 GMT; Path=/, ipsnf3=v.3|us|0|623|dallas; Domain=.expedia.com; Path=/, ipsnf3=v.3|us|1|623|dallas; Domain=.expedia.com; Path=/"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;expedia.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;openresty&#x2F;1.5.11.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;activity-id&quot;, :content=&gt;&quot;&lt;!--tlactivity-id: 61a514df-a1dd-4463-b084-23a0dc76ae8a--&gt;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;CAO DSP IND COR ADM CONo CUR CUSi DEV PSA PSD DELi OUR COM NAV PHY ONL PUR UNI\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;rtss&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;k3s&quot;, :content=&gt;&quot;&lt;!--tlK3s:40--&gt;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Host, Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:06 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;SSLB=1; path=&#x2F;; domain=.expedia.com, MC1=GUID=b114e6b4673140d49b04ae3008c649e0; Domain=.expedia.com; Expires=Mon, 06-Jan-2020 12:33:25 GMT; Path=&#x2F;, JSESSION=1eaf3295-1dc9-4a09-8df8-7c94f6c0fbed; Domain=.expedia.com; Path=&#x2F;, tpid=v.1,1; Domain=.expedia.com; Expires=Thu, 15-Jan-2015 09:26:45 GMT; Path=&#x2F;, iEAPID=0,; Domain=.expedia.com; Path=&#x2F;, linfo=v.4,|0|0|255|1|0||||||||1033|0|0||0|0|0|-1|-1; Domain=.expedia.com; Expires=Mon, 06-Jan-2020 12:33:25 GMT; Path=&#x2F;, ipsnf3=v.3|us|0|623|dallas; Domain=.expedia.com; Path=&#x2F;, ipsnf3=v.3|us|1|623|dallas; Domain=.expedia.com; Path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:06 UTC"
+}

@@ -1,0 +1,148 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://pinterest.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:39:48 UTC",
+  "id": "13249425-4eac-4e2b-929f-e4a8d655eee6",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "age",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-security-policy",
+        "content": "default-src 'self' https://*.pinterest.com https://*.pinimg.com  *.pinterest.com *.pinimg.com *.google.com connect.facebook.net *.google-analytics.com https://*.facebook.com *.facebook.com www.googleadservices.com googleads.g.doubleclick.net *.tiles.mapbox.com *.online-metrix.net 'unsafe-inline' 'unsafe-eval'; frame-src *; img-src *; report-uri /_/_/csp_report/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:39:48 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pinterest-breed",
+        "content": "CORGI"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pinterest-generated-by",
+        "content": "ngapp2-5116d17d"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pinterest-version",
+        "content": "3b9fef7"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "csrftoken=vN1PiiyKnQ2dDrvYqQLiN4UXEhtuDrNO; Domain=.pinterest.com; expires=Sat, 02-Jan-2016 19:39:48 GMT; Max-Age=31449600; Path=/, _pinterest_sess=TWc9PSZIQ0FENHlkTXIrNFJWSXNma0lkYmEzNVhtTGFLbi9aTEhvVTBSM1hnaFRrSkxXWVIwU3lZOUN6RVJSTnVlNjBUN2xqNDZzUG41ckpuUm8vK2orMktWbjkrbUdUdGJZenYzZ3JrNHlxTjhmRm5sa3p2dC9nb1BrMVNsMUNzU1lnYyZ5ZU5aSS9ENE9WWENVcWtDeW1TOGVXdUJDREE9; Domain=.pinterest.com; expires=Tue, 29-Dec-2015 19:39:48 GMT; httponly; Max-Age=31103999; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent, Cookie, Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pinterest-rid",
+        "content": "838300427314"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "2297524209"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;pinterest.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-security-policy&quot;, :content=&gt;&quot;default-src &#x27;self&#x27; https:&#x2F;&#x2F;*.pinterest.com https:&#x2F;&#x2F;*.pinimg.com  *.pinterest.com *.pinimg.com *.google.com connect.facebook.net *.google-analytics.com https:&#x2F;&#x2F;*.facebook.com *.facebook.com www.googleadservices.com googleads.g.doubleclick.net *.tiles.mapbox.com *.online-metrix.net &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27;; frame-src *; img-src *; report-uri &#x2F;_&#x2F;_&#x2F;csp_report&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:39:48 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pinterest-breed&quot;, :content=&gt;&quot;CORGI&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pinterest-generated-by&quot;, :content=&gt;&quot;ngapp2-5116d17d&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pinterest-version&quot;, :content=&gt;&quot;3b9fef7&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;csrftoken=vN1PiiyKnQ2dDrvYqQLiN4UXEhtuDrNO; Domain=.pinterest.com; expires=Sat, 02-Jan-2016 19:39:48 GMT; Max-Age=31449600; Path=&#x2F;, _pinterest_sess=TWc9PSZIQ0FENHlkTXIrNFJWSXNma0lkYmEzNVhtTGFLbi9aTEhvVTBSM1hnaFRrSkxXWVIwU3lZOUN6RVJSTnVlNjBUN2xqNDZzUG41ckpuUm8vK2orMktWbjkrbUdUdGJZenYzZ3JrNHlxTjhmRm5sa3p2dC9nb1BrMVNsMUNzU1lnYyZ5ZU5aSS9ENE9WWENVcWtDeW1TOGVXdUJDREE9; Domain=.pinterest.com; expires=Tue, 29-Dec-2015 19:39:48 GMT; httponly; Max-Age=31103999; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent, Cookie, Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-pinterest-rid&quot;, :content=&gt;&quot;838300427314&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;2297524209&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:39:49 UTC"
+}

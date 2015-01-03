@@ -1,0 +1,113 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://kbb.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:46 UTC",
+  "id": "17293ffd-51f8-4a5b-bdb9-8689d1f9f2d3",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/7.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnetmvc-version",
+        "content": "4.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-url",
+        "content": "http://www.kbb.com/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-stephen",
+        "content": "was here"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnet-version",
+        "content": "4.0.30319"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:46 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId=4s0jc04nxub41fgmjvyos5cq; path=/; HttpOnly, LANDING_DOMAIN=www.kbb.com; domain=.kbb.com; path=/, VisitorId=dbd096f8-15ce-406d-ad29-21366701347c; domain=.kbb.com; expires=Mon, 02-Feb-2015 19:40:41 GMT; path=/, SessionId=8a98107c339f44f3a1224ca08612ed01; domain=.kbb.com; path=/, Referer=kbb.com; domain=.kbb.com; path=/, Referer=kbb.com; domain=.kbb.com; path=/, Referer=kbb.com; domain=.kbb.com; path=/, Referer=kbb.com; domain=.kbb.com; path=/, BIGipServerpool_kbb-A=1305011210.20480.0000; path=/"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;kbb.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnetmvc-version&quot;, :content=&gt;&quot;4.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-url&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;www.kbb.com&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-stephen&quot;, :content=&gt;&quot;was here&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:46 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ASP.NET_SessionId=4s0jc04nxub41fgmjvyos5cq; path=&#x2F;; HttpOnly, LANDING_DOMAIN=www.kbb.com; domain=.kbb.com; path=&#x2F;, VisitorId=dbd096f8-15ce-406d-ad29-21366701347c; domain=.kbb.com; expires=Mon, 02-Feb-2015 19:40:41 GMT; path=&#x2F;, SessionId=8a98107c339f44f3a1224ca08612ed01; domain=.kbb.com; path=&#x2F;, Referer=kbb.com; domain=.kbb.com; path=&#x2F;, Referer=kbb.com; domain=.kbb.com; path=&#x2F;, Referer=kbb.com; domain=.kbb.com; path=&#x2F;, Referer=kbb.com; domain=.kbb.com; path=&#x2F;, BIGipServerpool_kbb-A=1305011210.20480.0000; path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:46 UTC"
+}

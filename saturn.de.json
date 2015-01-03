@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://saturn.de"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:28 UTC",
+  "id": "c77fa35e-7964-4d26-939e-32a6bc1af3db",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:29 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "No-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache,no-store,max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Jan 1970 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=0000LXdhmY_T7csZzNrhD_ccY9W:18o06eu1m; Path=/; HttpOnly, WC_PERSISTENT=n3vKnwrdAftIDa4vjnKKRGfWD50%3d%0a%3b2015%2d01%2d03+20%3a41%3a29%2e408%5f1420314089408%2d1377553%5f0; Expires=Mon, 02-Feb-15 19:41:29 GMT; Path=/; HttpOnly, MC_DEVICE_ID=-1; Path=/, WC_SESSION_ESTABLISHED=true; Path=/; HttpOnly, WC_PERSISTENT=WMxMFYInB5KbxSM6CTFipiO8wJU%3d%0a%3b2015%2d01%2d03+20%3a41%3a29%2e411%5f1420314089408%2d1377553%5f13801%5f%2d1002%2c%2d3%2cEUR%5f13801; Expires=Mon, 02-Feb-15 19:41:29 GMT; Path=/; HttpOnly, WC_ACTIVEPOINTER=%2d3%2c13801; Path=/; HttpOnly, WC_USERACTIVITY_-1002=%2d1002%2c13801%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cQvfQwiaHmC2KGtfbfkpQWC1fGPZ20T5SWNXsO8NT7zazp%2bijZOyBRR3X7AHzWK6vAgxHnehtZSr%2f7f8eSXHGTyU0zUG%2foiDp9xj9YD0vmkHa9AFcGlVV5A9wWHK6osQl3pzkDljNsDF1G4Zsun5n7LFPI9HNqm2VqM%2bHC3cXA5k150U5pfjJko%2f3p5rlULzvmHJaaAiHYP7VKjNNHxIemA%3d%3d; Path=/; HttpOnly, WC_GENERIC_ACTIVITYDATA=[7320451903%3atrue%3afalse%3a0%3aw1OUZMAXYjnEB8LX0C4iC6mggiE%3d][com.ibm.commerce.context.audit.AuditContext|1420314089408%2d1377553][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][CTXSETNAME|Store][com.ibm.commerce.context.globalization.GlobalizationContext|%2d3%26EUR%26%2d3%26EUR][com.ibm.commerce.catalog.businesscontext.CatalogContext|null%26null%26false%26false%26false][com.ibm.commerce.context.base.BaseContext|13801%26%2d1002%26%2d1002%26%2d1][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.entitlement.EntitlementContext|null%26null%26null%26null%26null%26null%26null][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]; Path=/; HttpOnly, TS015b134e=014cde723056feeca0372414a92f60ffece894ea8b61d86c6679420350de6e51a06cf55adb351ec1353e20fc51ee4604707cdd2c8950b909e54720237ce657f951d2c494bb32beba89bc6ce1294372f9ba27931a1f4649761378ebbbbc7b79e53be446356e35d3baad3f0a9cb8a4958c55e53e9db222ff53c8eff7d31e399c1500bd9322b71206db097651787f4e18f23e2dc29e04cd7b088458425db6bc29d33e86a6f2f3; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "de-DE"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;saturn.de&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:29 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;No-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache,no-store,max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=0000LXdhmY_T7csZzNrhD_ccY9W:18o06eu1m; Path=&#x2F;; HttpOnly, WC_PERSISTENT=n3vKnwrdAftIDa4vjnKKRGfWD50%3d%0a%3b2015%2d01%2d03+20%3a41%3a29%2e408%5f1420314089408%2d1377553%5f0; Expires=Mon, 02-Feb-15 19:41:29 GMT; Path=&#x2F;; HttpOnly, MC_DEVICE_ID=-1; Path=&#x2F;, WC_SESSION_ESTABLISHED=true; Path=&#x2F;; HttpOnly, WC_PERSISTENT=WMxMFYInB5KbxSM6CTFipiO8wJU%3d%0a%3b2015%2d01%2d03+20%3a41%3a29%2e411%5f1420314089408%2d1377553%5f13801%5f%2d1002%2c%2d3%2cEUR%5f13801; Expires=Mon, 02-Feb-15 19:41:29 GMT; Path=&#x2F;; HttpOnly, WC_ACTIVEPOINTER=%2d3%2c13801; Path=&#x2F;; HttpOnly, WC_USERACTIVITY_-1002=%2d1002%2c13801%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cQvfQwiaHmC2KGtfbfkpQWC1fGPZ20T5SWNXsO8NT7zazp%2bijZOyBRR3X7AHzWK6vAgxHnehtZSr%2f7f8eSXHGTyU0zUG%2foiDp9xj9YD0vmkHa9AFcGlVV5A9wWHK6osQl3pzkDljNsDF1G4Zsun5n7LFPI9HNqm2VqM%2bHC3cXA5k150U5pfjJko%2f3p5rlULzvmHJaaAiHYP7VKjNNHxIemA%3d%3d; Path=&#x2F;; HttpOnly, WC_GENERIC_ACTIVITYDATA=[7320451903%3atrue%3afalse%3a0%3aw1OUZMAXYjnEB8LX0C4iC6mggiE%3d][com.ibm.commerce.context.audit.AuditContext|1420314089408%2d1377553][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][CTXSETNAME|Store][com.ibm.commerce.context.globalization.GlobalizationContext|%2d3%26EUR%26%2d3%26EUR][com.ibm.commerce.catalog.businesscontext.CatalogContext|null%26null%26false%26false%26false][com.ibm.commerce.context.base.BaseContext|13801%26%2d1002%26%2d1002%26%2d1][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.entitlement.EntitlementContext|null%26null%26null%26null%26null%26null%26null][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]; Path=&#x2F;; HttpOnly, TS015b134e=014cde723056feeca0372414a92f60ffece894ea8b61d86c6679420350de6e51a06cf55adb351ec1353e20fc51ee4604707cdd2c8950b909e54720237ce657f951d2c494bb32beba89bc6ce1294372f9ba27931a1f4649761378ebbbbc7b79e53be446356e35d3baad3f0a9cb8a4958c55e53e9db222ff53c8eff7d31e399c1500bd9322b71206db097651787f4e18f23e2dc29e04cd7b088458425db6bc29d33e86a6f2f3; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;de-DE&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:29 UTC"
+}

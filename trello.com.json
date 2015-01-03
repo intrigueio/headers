@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://trello.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:39:59 UTC",
+  "id": "ee0e0ce9-f781-4703-b2e4-e9b3491695d9",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=15768000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "DENY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-trello-version",
+        "content": "1.275.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-trello-environment",
+        "content": "Production"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "dsc=e10505bcd36ad69da9c828f533e23c74c404c60146332413db53b1c261075bf9; Path=/; Expires=Tue, 06 Jan 2015 19:40:00 GMT; Secure, mab=38308; Path=/; Expires=Mon, 02 Feb 2015 19:40:00 GMT, incap_ses_223_168551=+3lQF8Qy7Ro/CJxQukEYA5BFqFQAAAAAB7ZzZJnTVe1KzGQo6GTjPQ==; path=/; Domain=.trello.com, visid_incap_168551=xnaiBBqAReW/if8HHuX2O5BFqFQAAAAAQUIPAAAAAABNqAwBT9foGO5SN7tESXBj; expires=Sun, 01 Jan 2017 20:20:56 GMT; path=/; Domain=.trello.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"-31986960\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "9-15011919-14998929 PNNN RT(1420313999999 67) q(0 0 0 0) r(0 0) U10000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cdn",
+        "content": "Incapsula"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;trello.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=15768000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;DENY&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-trello-version&quot;, :content=&gt;&quot;1.275.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-trello-environment&quot;, :content=&gt;&quot;Production&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;dsc=e10505bcd36ad69da9c828f533e23c74c404c60146332413db53b1c261075bf9; Path=&#x2F;; Expires=Tue, 06 Jan 2015 19:40:00 GMT; Secure, mab=38308; Path=&#x2F;; Expires=Mon, 02 Feb 2015 19:40:00 GMT, incap_ses_223_168551=+3lQF8Qy7Ro&#x2F;CJxQukEYA5BFqFQAAAAAB7ZzZJnTVe1KzGQo6GTjPQ==; path=&#x2F;; Domain=.trello.com, visid_incap_168551=xnaiBBqAReW&#x2F;if8HHuX2O5BFqFQAAAAAQUIPAAAAAABNqAwBT9foGO5SN7tESXBj; expires=Sun, 01 Jan 2017 20:20:56 GMT; path=&#x2F;; Domain=.trello.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;-31986960\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-iinfo&quot;, :content=&gt;&quot;9-15011919-14998929 PNNN RT(1420313999999 67) q(0 0 0 0) r(0 0) U10000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cdn&quot;, :content=&gt;&quot;Incapsula&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:00 UTC"
+}

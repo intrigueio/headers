@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://livingsocial.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:25 UTC",
+  "id": "9b258a37-c77a-4e69-bc31-44af708101de",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-security-policy-report-only",
+        "content": "default-src 'unsafe-inline' 'unsafe-eval' https: ; img-src https: data: ; report-uri https://www.livingsocial.com/csp"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "416ebb8b-5700-4278-b209-3e615d51d604"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.031040"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:25 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ref_code=broader_roadblock_dm_none_qt_none; domain=livingsocial.com; path=/; expires=Sat, 10 Jan 2015 19:40:25 -0000, _ls_session=eyJzZXNzaW9uX2lkIjoiNGZmOTg2NmJkN2RlNWZlZGViZjk0N2RhNGFlYmVjZGQiLCJfY3NyZl90b2tlbiI6Im40alRuRlFNOTBxUm9TUzZ1VXM5NUZQK1JzL3h2eEhZek0vRkhYTU43dm89IiwiYXNpZCI6Ijg5OGJkYjMzZWE1NTUyMDRiMDY5YmIyNDNmMWZlODBmIn0%3D--da2642bf209db02277eba3e0ae012c7eccf21781; domain=.livingsocial.com; path=/; HttpOnly"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;livingsocial.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-security-policy-report-only&quot;, :content=&gt;&quot;default-src &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; https: ; img-src https: data: ; report-uri https:&#x2F;&#x2F;www.livingsocial.com&#x2F;csp&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;416ebb8b-5700-4278-b209-3e615d51d604&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.031040&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:25 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ref_code=broader_roadblock_dm_none_qt_none; domain=livingsocial.com; path=&#x2F;; expires=Sat, 10 Jan 2015 19:40:25 -0000, _ls_session=eyJzZXNzaW9uX2lkIjoiNGZmOTg2NmJkN2RlNWZlZGViZjk0N2RhNGFlYmVjZGQiLCJfY3NyZl90b2tlbiI6Im40alRuRlFNOTBxUm9TUzZ1VXM5NUZQK1JzL3h2eEhZek0vRkhYTU43dm89IiwiYXNpZCI6Ijg5OGJkYjMzZWE1NTUyMDRiMDY5YmIyNDNmMWZlODBmIn0%3D--da2642bf209db02277eba3e0ae012c7eccf21781; domain=.livingsocial.com; path=&#x2F;; HttpOnly&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:25 UTC"
+}

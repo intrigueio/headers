@@ -1,0 +1,113 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://lastpass.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:15 UTC",
+  "id": "ab752f11-aede-4595-af21-5f649531e421",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:16 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "lang=en_US; expires=Sun, 03-Jan-2016 19:41:16 GMT; Max-Age=31536000; path=/; domain=lastpass.com; secure"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-security-policy",
+        "content": "default-src 'self' ; img-src 'self' https://lastpass.com data: https://ssl.google-analytics.com https://www.google-analytics.com https://img.youtube.com https://googleads.g.doubleclick.net https://www.google.com  ; object-src 'self' http://*.googlevideo.com http://*.youtube.com https://*.youtube.com http://*.ytimg.com https://*.ytimg.com http://www.google.com http://youtube.googleapis.com; connect-src 'self' https://lastpass.com wss://*.lastpass.com ; style-src 'self' 'unsafe-inline' 'unsafe-eval'  https://lastpass.com ; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://lastpass.com https://www.youtube.com https://*.ytimg.com ; font-src 'self' 'unsafe-inline' 'unsafe-eval'  https://lastpass.com ; frame-src 'self' https://www.youtube.com https://*.ytimg.com https://ssl.gstatic.com https://www.google.com https://www.youtube.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-security-policy",
+        "content": "allow 'self'  'self' https://lastpass.com wss://*.lastpass.com ; img-src 'self' https://lastpass.com data: https://ssl.google-analytics.com https://www.google-analytics.com https://img.youtube.com https://googleads.g.doubleclick.net https://www.google.com  ; object-src 'self' http://*.googlevideo.com http://*.youtube.com https://*.youtube.com http://*.ytimg.com https://*.ytimg.com http://www.google.com http://youtube.googleapis.com; frame-src 'self' https://www.youtube.com https://*.ytimg.com https://ssl.gstatic.com https://www.google.com https://www.youtube.com ; options inline-script eval-script"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"NON DSP COR CUR OUR LEG PHY COM\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "LastPass"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=86400000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;lastpass.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:16 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;lang=en_US; expires=Sun, 03-Jan-2016 19:41:16 GMT; Max-Age=31536000; path=&#x2F;; domain=lastpass.com; secure&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-security-policy&quot;, :content=&gt;&quot;default-src &#x27;self&#x27; ; img-src &#x27;self&#x27; https:&#x2F;&#x2F;lastpass.com data: https:&#x2F;&#x2F;ssl.google-analytics.com https:&#x2F;&#x2F;www.google-analytics.com https:&#x2F;&#x2F;img.youtube.com https:&#x2F;&#x2F;googleads.g.doubleclick.net https:&#x2F;&#x2F;www.google.com  ; object-src &#x27;self&#x27; http:&#x2F;&#x2F;*.googlevideo.com http:&#x2F;&#x2F;*.youtube.com https:&#x2F;&#x2F;*.youtube.com http:&#x2F;&#x2F;*.ytimg.com https:&#x2F;&#x2F;*.ytimg.com http:&#x2F;&#x2F;www.google.com http:&#x2F;&#x2F;youtube.googleapis.com; connect-src &#x27;self&#x27; https:&#x2F;&#x2F;lastpass.com wss:&#x2F;&#x2F;*.lastpass.com ; style-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27;  https:&#x2F;&#x2F;lastpass.com ; script-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; https:&#x2F;&#x2F;lastpass.com https:&#x2F;&#x2F;www.youtube.com https:&#x2F;&#x2F;*.ytimg.com ; font-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27;  https:&#x2F;&#x2F;lastpass.com ; frame-src &#x27;self&#x27; https:&#x2F;&#x2F;www.youtube.com https:&#x2F;&#x2F;*.ytimg.com https:&#x2F;&#x2F;ssl.gstatic.com https:&#x2F;&#x2F;www.google.com https:&#x2F;&#x2F;www.youtube.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-security-policy&quot;, :content=&gt;&quot;allow &#x27;self&#x27;  &#x27;self&#x27; https:&#x2F;&#x2F;lastpass.com wss:&#x2F;&#x2F;*.lastpass.com ; img-src &#x27;self&#x27; https:&#x2F;&#x2F;lastpass.com data: https:&#x2F;&#x2F;ssl.google-analytics.com https:&#x2F;&#x2F;www.google-analytics.com https:&#x2F;&#x2F;img.youtube.com https:&#x2F;&#x2F;googleads.g.doubleclick.net https:&#x2F;&#x2F;www.google.com  ; object-src &#x27;self&#x27; http:&#x2F;&#x2F;*.googlevideo.com http:&#x2F;&#x2F;*.youtube.com https:&#x2F;&#x2F;*.youtube.com http:&#x2F;&#x2F;*.ytimg.com https:&#x2F;&#x2F;*.ytimg.com http:&#x2F;&#x2F;www.google.com http:&#x2F;&#x2F;youtube.googleapis.com; frame-src &#x27;self&#x27; https:&#x2F;&#x2F;www.youtube.com https:&#x2F;&#x2F;*.ytimg.com https:&#x2F;&#x2F;ssl.gstatic.com https:&#x2F;&#x2F;www.google.com https:&#x2F;&#x2F;www.youtube.com ; options inline-script eval-script&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;NON DSP COR CUR OUR LEG PHY COM\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;LastPass&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=86400000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:16 UTC"
+}

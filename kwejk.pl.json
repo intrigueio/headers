@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://kwejk.pl"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:13 UTC",
+  "id": "60832201-1fee-4219-93b0-8d43a71d3faf",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:14 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=da1b94d8c1bfe417cca906bf2abe8b8931420314074; expires=Sun, 03-Jan-16 19:41:14 GMT; path=/; domain=.kwejk.pl; HttpOnly, ci_session=Z1Qxbda9fl2se7HBm4IXa9EqXo1woXqepmmqNTSoQDUpJT%2FL1u0utN0XE9gD3iWgT4b8PJCASrOSQ1DAeEDfbIhDZ9j0ZqXfMZCtRMjKftuYK0%2BgvBFpFlimVatiRQTxye0sEM0YW%2FuxiZH1CVdOlZjod0ansRIAMhxX6tKHDlWmSgumenOAYxzXzB%2FFouNFrNsG7vDIycXXYUCLDfRv3q2IA2ndfR5fg6hLN8g0R8KYB12GWCKp%2BvjkTa8KdbxbcNElg7nr9Cft2Ji3wkvzdelAbmzrKpiR0rwviC9JF9A%3D; expires=Sun, 04-Jan-2015 19:44:45 GMT; path=/; domain=kwejk.pl, ci_session=TSs%2FcvbpncJ6FKccxi3SO8ash8AMu8azhFbLQetrxRdvMGC5J0JD3bj2T3RnbGsMUMY%2BKfioPce5NrZ5f08Cw2Sa7L42WVe0cBtnsZfAt4fUCV%2BzPRZt4TOq9%2BoMV5mLP%2FEFPZ6f%2BsPG8dm6bI0DcJioFVKkFvoUwICB7NUvJ3tDwzSd8nDLaKR18qF%2B%2FV8S9bJ25Tq90wolO55P2nxc6Bwuhv8Yu6SUrZ1buyxRMxmsxamAvCwQsWDoVowg9E4sL0oea1dxJKPlItPiYz9mOT80WvlpZ7mtoQhfz5zNJSw%3D; expires=Sun, 04-Jan-2015 19:44:45 GMT; path=/; domain=kwejk.pl"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "public, s-maxage=30, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-node",
+        "content": "2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1a31ac3704f110c3-ORD"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;kwejk.pl&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:14 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=da1b94d8c1bfe417cca906bf2abe8b8931420314074; expires=Sun, 03-Jan-16 19:41:14 GMT; path=&#x2F;; domain=.kwejk.pl; HttpOnly, ci_session=Z1Qxbda9fl2se7HBm4IXa9EqXo1woXqepmmqNTSoQDUpJT%2FL1u0utN0XE9gD3iWgT4b8PJCASrOSQ1DAeEDfbIhDZ9j0ZqXfMZCtRMjKftuYK0%2BgvBFpFlimVatiRQTxye0sEM0YW%2FuxiZH1CVdOlZjod0ansRIAMhxX6tKHDlWmSgumenOAYxzXzB%2FFouNFrNsG7vDIycXXYUCLDfRv3q2IA2ndfR5fg6hLN8g0R8KYB12GWCKp%2BvjkTa8KdbxbcNElg7nr9Cft2Ji3wkvzdelAbmzrKpiR0rwviC9JF9A%3D; expires=Sun, 04-Jan-2015 19:44:45 GMT; path=&#x2F;; domain=kwejk.pl, ci_session=TSs%2FcvbpncJ6FKccxi3SO8ash8AMu8azhFbLQetrxRdvMGC5J0JD3bj2T3RnbGsMUMY%2BKfioPce5NrZ5f08Cw2Sa7L42WVe0cBtnsZfAt4fUCV%2BzPRZt4TOq9%2BoMV5mLP%2FEFPZ6f%2BsPG8dm6bI0DcJioFVKkFvoUwICB7NUvJ3tDwzSd8nDLaKR18qF%2B%2FV8S9bJ25Tq90wolO55P2nxc6Bwuhv8Yu6SUrZ1buyxRMxmsxamAvCwQsWDoVowg9E4sL0oea1dxJKPlItPiYz9mOT80WvlpZ7mtoQhfz5zNJSw%3D; expires=Sun, 04-Jan-2015 19:44:45 GMT; path=&#x2F;; domain=kwejk.pl&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public, s-maxage=30, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-node&quot;, :content=&gt;&quot;2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a31ac3704f110c3-ORD&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:14 UTC"
+}

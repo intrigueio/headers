@@ -1,0 +1,71 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://yoox.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:02 UTC",
+  "id": "2c7f139f-3b78-4362-b125-861862c6264c",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "origin",
+        "content": "web32"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "161099"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:05 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "VISIT=TSKAY=3FD17CD7&NAZIONE=UNITED+STATES&ID%5FNAZIONE=38&ID%5FMERCATO=19&SIGLA%5FVALUTA=%24&CURRENCYCODE=USD&REFERENCE%5FCURRENCYCODE=USD&CAMBIO%5FEURO=1&ID%5FMERCATO%5FPER%5FLISTINO=19&MERCATO%5FPATH=%2fus%2f&VALUTA%5FID=22&DYN%5FPATH=%2fus%2f&SITE%5FCODE=YOOX_US&EUR%5FEXCHANGE%5FRATE=0.78444&ANONYMOUS%5FCHECKOUT=True&NAZIONE%5FISO=US&WAREHOUSES=70%2c413%2c439%2c594%2c691%2c744%2c1111%2c1446%2c1923%2c2787%2c2805%2c4112%2c4134%2c4625%2c4800%2c5551%2c4098%2c2775%2c1918%2c1441%2c1106%2c739%2c686%2c589%2c434%2c271%2c408&TWOLETTERISOCODE=EN; domain=yoox.com; path=/, USERINFO=SESSO=D&SESSOBAMBINO=D; domain=yoox.com; expires=Fri, 02-Jan-2015 19:41:03 GMT; path=/, OLDVISIT=1; domain=yoox.com; expires=Fri, 31-Dec-9999 23:59:59 GMT; path=/, SESSIONS=FIRSTTIMEUSER=1; domain=yoox.com; path=/, TS019ba4a1=01a1c9e334ef273353dfdbd07e7999dd4962df0b82dd68122695283a940ad8e0aa1a4788df; Path=/, TS01186779=01a1c9e3349b1c5d3cc2fd543094e47c6edee108cc3b140dcb417a6c7d608c525e42101532b271cfd25fa852969cf2632ff9eea03828f8d9c3fb65bdd12921fb5dfad421db6ef559c308c001503ca8448cc790ba58a2596e9ec93bc4dc281fdb073d934537; path=/; domain=yoox.com"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;yoox.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;origin&quot;, :content=&gt;&quot;web32&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;161099&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:05 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;VISIT=TSKAY=3FD17CD7&amp;NAZIONE=UNITED+STATES&amp;ID%5FNAZIONE=38&amp;ID%5FMERCATO=19&amp;SIGLA%5FVALUTA=%24&amp;CURRENCYCODE=USD&amp;REFERENCE%5FCURRENCYCODE=USD&amp;CAMBIO%5FEURO=1&amp;ID%5FMERCATO%5FPER%5FLISTINO=19&amp;MERCATO%5FPATH=%2fus%2f&amp;VALUTA%5FID=22&amp;DYN%5FPATH=%2fus%2f&amp;SITE%5FCODE=YOOX_US&amp;EUR%5FEXCHANGE%5FRATE=0.78444&amp;ANONYMOUS%5FCHECKOUT=True&amp;NAZIONE%5FISO=US&amp;WAREHOUSES=70%2c413%2c439%2c594%2c691%2c744%2c1111%2c1446%2c1923%2c2787%2c2805%2c4112%2c4134%2c4625%2c4800%2c5551%2c4098%2c2775%2c1918%2c1441%2c1106%2c739%2c686%2c589%2c434%2c271%2c408&amp;TWOLETTERISOCODE=EN; domain=yoox.com; path=&#x2F;, USERINFO=SESSO=D&amp;SESSOBAMBINO=D; domain=yoox.com; expires=Fri, 02-Jan-2015 19:41:03 GMT; path=&#x2F;, OLDVISIT=1; domain=yoox.com; expires=Fri, 31-Dec-9999 23:59:59 GMT; path=&#x2F;, SESSIONS=FIRSTTIMEUSER=1; domain=yoox.com; path=&#x2F;, TS019ba4a1=01a1c9e334ef273353dfdbd07e7999dd4962df0b82dd68122695283a940ad8e0aa1a4788df; Path=&#x2F;, TS01186779=01a1c9e3349b1c5d3cc2fd543094e47c6edee108cc3b140dcb417a6c7d608c525e42101532b271cfd25fa852969cf2632ff9eea03828f8d9c3fb65bdd12921fb5dfad421db6ef559c308c001503ca8448cc790ba58a2596e9ec93bc4dc281fdb073d934537; path=&#x2F;; domain=yoox.com&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:05 UTC"
+}

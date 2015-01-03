@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://techbang.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:22 UTC",
+  "id": "c195d614-43dc-4acd-93e4-0bf95ac9cabf",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:23 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"636cabd7db8bb1c88d546edb7b8e94f8\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "read_announcements=BAhbBmkCQzk%3D--e09db3be04434ddd2c04dbf87d3aedd257b5658d; path=/; expires=Wed, 03-Jan-2035 19:41:23 GMT, _session_id=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJWM5NmIwNGI4N2YxMzM4Y2QzMWM1MDM0OTAyNzU4MTE0BjsAVEkiDXN0aWNraWVzBjsARm86F1N0aWNraWVzOjpNZXNzYWdlcwg6DkBtZXNzYWdlc3sGOgtub3RpY2VbADoLQGJ5X2lkewA6DUBzZWVuX29uewBJIhBfY3NyZl90b2tlbgY7AEZJIjExbGo3QzYwUTJER3RzKzRaemV6WklVUyt4Z3FZUWlGM2JHczlnL2c0eXhnPQY7AEY%3D--7943d4d5eb8319f5f04fa4397136ee0699ee5cb6; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "c765f2acd9ded288844177ab39bd27cd"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;techbang.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:23 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;636cabd7db8bb1c88d546edb7b8e94f8\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;read_announcements=BAhbBmkCQzk%3D--e09db3be04434ddd2c04dbf87d3aedd257b5658d; path=&#x2F;; expires=Wed, 03-Jan-2035 19:41:23 GMT, _session_id=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJWM5NmIwNGI4N2YxMzM4Y2QzMWM1MDM0OTAyNzU4MTE0BjsAVEkiDXN0aWNraWVzBjsARm86F1N0aWNraWVzOjpNZXNzYWdlcwg6DkBtZXNzYWdlc3sGOgtub3RpY2VbADoLQGJ5X2lkewA6DUBzZWVuX29uewBJIhBfY3NyZl90b2tlbgY7AEZJIjExbGo3QzYwUTJER3RzKzRaemV6WklVUyt4Z3FZUWlGM2JHczlnL2c0eXhnPQY7AEY%3D--7943d4d5eb8319f5f04fa4397136ee0699ee5cb6; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;c765f2acd9ded288844177ab39bd27cd&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:24 UTC"
+}

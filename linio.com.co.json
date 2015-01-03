@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://linio.com.co"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:31 UTC",
+  "id": "89eae292-c948-4760-aae5-b97e9c9882a7",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:32 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cnection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "userLanguage=es_CO; expires=Mon, 02-Feb-2015 19:41:32 GMT; path=/, PHPSESSID_0323cc68b155db4fb2e4392b86bd05e4=8vsksv4ck49hc4o6s9t14nfdt4; path=/; domain=www.linio.com.co; HttpOnly, browserDetection=eyJ0eXBlIjpudWxsLCJuYW1lIjoiT3RoZXIiLCJjc3NDbGFzcyI6IiIsInZlcnNpb24iOjB9; expires=Sat, 10-Jan-2015 19:41:32 GMT; path=/, splittest=b; expires=Sun, 03-Jan-2016 19:41:32 GMT; path=/, prudsys-uid=77f724c15799596aaa14c9a2275a5c26; expires=Sun, 03-Jan-2016 19:41:32 GMT; path=/, browserDetection=eyJ0eXBlIjpudWxsLCJuYW1lIjoiT3RoZXIiLCJjc3NDbGFzcyI6IiIsInZlcnNpb24iOjB9; expires=Sat, 10-Jan-2015 19:41:32 GMT; path=/, prudsys-uid=5ada841368effd9a692f060008d9e8e6; expires=Sun, 03-Jan-2016 19:41:32 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-server",
+        "content": "alice09.cluster.linio.com"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;linio.com.co&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:32 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cnection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;userLanguage=es_CO; expires=Mon, 02-Feb-2015 19:41:32 GMT; path=&#x2F;, PHPSESSID_0323cc68b155db4fb2e4392b86bd05e4=8vsksv4ck49hc4o6s9t14nfdt4; path=&#x2F;; domain=www.linio.com.co; HttpOnly, browserDetection=eyJ0eXBlIjpudWxsLCJuYW1lIjoiT3RoZXIiLCJjc3NDbGFzcyI6IiIsInZlcnNpb24iOjB9; expires=Sat, 10-Jan-2015 19:41:32 GMT; path=&#x2F;, splittest=b; expires=Sun, 03-Jan-2016 19:41:32 GMT; path=&#x2F;, prudsys-uid=77f724c15799596aaa14c9a2275a5c26; expires=Sun, 03-Jan-2016 19:41:32 GMT; path=&#x2F;, browserDetection=eyJ0eXBlIjpudWxsLCJuYW1lIjoiT3RoZXIiLCJjc3NDbGFzcyI6IiIsInZlcnNpb24iOjB9; expires=Sat, 10-Jan-2015 19:41:32 GMT; path=&#x2F;, prudsys-uid=5ada841368effd9a692f060008d9e8e6; expires=Sun, 03-Jan-2016 19:41:32 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-server&quot;, :content=&gt;&quot;alice09.cluster.linio.com&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:33 UTC"
+}

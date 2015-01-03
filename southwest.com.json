@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://southwest.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:12 UTC",
+  "id": "16557a05-08d3-4874-a0ac-b1892e358db8",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-swa-ws",
+        "content": "BADIS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:13 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=055A62CF599C27A4C74ECCE09C383220; Path=/flight/; HttpOnly, AccountBarCookie=136047110112112124130123129091110122114047071123130121121057047112121110128128047071047112124122059128132110112124127125059112124122122124123059078112112124130123129079110127080124124120118114099110121130114128047057047114133125118127114128047071123130121121057047121110128129078112129118131118129134047071123130121121057047121124116118123082127127124127047071123130121121057047121124116118123082127127124127080124113114047071123130121121057047121124134110121129134047071115110121128114057047127127078112112124130123129091130122111114127047071123130121121057047129118114127047071123130121121057047133113118116114128129047071123130121121057047133118125110113113127047071047062061065059063064068059062064064059069064057045063064059063062066059062066059064066047057047133129118122114124130129047071047061062060061064060063061063066045062070071065061071062064047138; Domain=www.southwest.com; Expires=Fri, 03-Jan-2025 05:47:53 GMT; Path=/"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;southwest.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-swa-ws&quot;, :content=&gt;&quot;BADIS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:13 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=055A62CF599C27A4C74ECCE09C383220; Path=&#x2F;flight&#x2F;; HttpOnly, AccountBarCookie=136047110112112124130123129091110122114047071123130121121057047112121110128128047071047112124122059128132110112124127125059112124122122124123059078112112124130123129079110127080124124120118114099110121130114128047057047114133125118127114128047071123130121121057047121110128129078112129118131118129134047071123130121121057047121124116118123082127127124127047071123130121121057047121124116118123082127127124127080124113114047071123130121121057047121124134110121129134047071115110121128114057047127127078112112124130123129091130122111114127047071123130121121057047129118114127047071123130121121057047133113118116114128129047071123130121121057047133118125110113113127047071047062061065059063064068059062064064059069064057045063064059063062066059062066059064066047057047133129118122114124130129047071047061062060061064060063061063066045062070071065061071062064047138; Domain=www.southwest.com; Expires=Fri, 03-Jan-2025 05:47:53 GMT; Path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:13 UTC"
+}

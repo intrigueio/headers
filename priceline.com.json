@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://priceline.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:13 UTC",
+  "id": "759f1ed4-5f78-4f18-a67a-91a251017316",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:15 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Host,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "SITESERVER=ID=cc9618480000014ab043a27a330d0016; Domain=.priceline.com; Expires=Mon, 26-Dec-2044 19:40:15 GMT; Path=/, JSessionKey=354a050a334a050a20150103194015281020223494; Domain=.priceline.com; Path=/, vid=v2015010319401528102022; Domain=.priceline.com; Path=/, Referral=CLICKID=&WEBENTRYTIME=01%2F03%2F2015+14%3A40%3A15&ID=DIRECT&PRODUCTID=&SOURCEID=DT; Domain=.priceline.com; Expires=Mon, 02-Feb-2015 19:40:15 GMT; Path=/, JSESSIONID=D0FFB4E6E3D69B5A0091E24FB7CF9F1F; Path=/landing, pclnguidse=82fb98f1c81b5cd5fd31d240be5e959159d7689b;path=/;domain=.priceline.com;, pclnguidpe=82fb98f1c81b5cd5fd31d240be5e959159d7689b;expires=Sun, 03-Jan-2016 19:40:15 GMT;path=/;domain=.priceline.com;"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "wsheader",
+        "content": "ws=h422 D=50705 NT=51"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"http://www.priceline.com/w3c/p3p_default_policy.xml\",CP=\"CAO DSP COR CURa ADMa DEVo TAIo PSAa PSDa OUR OTRa IND ONL PUR NAV INT CNT STA PRE\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "21876"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=ISO-8859-1"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;priceline.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:15 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Host,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;SITESERVER=ID=cc9618480000014ab043a27a330d0016; Domain=.priceline.com; Expires=Mon, 26-Dec-2044 19:40:15 GMT; Path=&#x2F;, JSessionKey=354a050a334a050a20150103194015281020223494; Domain=.priceline.com; Path=&#x2F;, vid=v2015010319401528102022; Domain=.priceline.com; Path=&#x2F;, Referral=CLICKID=&amp;WEBENTRYTIME=01%2F03%2F2015+14%3A40%3A15&amp;ID=DIRECT&amp;PRODUCTID=&amp;SOURCEID=DT; Domain=.priceline.com; Expires=Mon, 02-Feb-2015 19:40:15 GMT; Path=&#x2F;, JSESSIONID=D0FFB4E6E3D69B5A0091E24FB7CF9F1F; Path=&#x2F;landing, pclnguidse=82fb98f1c81b5cd5fd31d240be5e959159d7689b;path=&#x2F;;domain=.priceline.com;, pclnguidpe=82fb98f1c81b5cd5fd31d240be5e959159d7689b;expires=Sun, 03-Jan-2016 19:40:15 GMT;path=&#x2F;;domain=.priceline.com;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;wsheader&quot;, :content=&gt;&quot;ws=h422 D=50705 NT=51&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;http:&#x2F;&#x2F;www.priceline.com&#x2F;w3c&#x2F;p3p_default_policy.xml\\&quot;,CP=\\&quot;CAO DSP COR CURa ADMa DEVo TAIo PSAa PSDa OUR OTRa IND ONL PUR NAV INT CNT STA PRE\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;21876&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=ISO-8859-1&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:15 UTC"
+}

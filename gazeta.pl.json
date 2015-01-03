@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://gazeta.pl"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:05 UTC",
+  "id": "b210d4a1-81da-4b9b-bcab-a9e1aacdc6fa",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "GW_JSESSIONID=mytWJyFW0gPV2n21v2yG8vhRVWWxtDLs2QQrhFD2Qz8YppLbVh33!1613749304; domain=.gazeta.pl; path=/; HttpOnly, test=172A20A6A22k1420314006304; domain=.gazeta.pl; expires=Mon, 02-Jan-2017 19:40:06 GMT; path=/, perm_hp_alt=0; domain=.gazeta.pl; expires=Wed, 04-Mar-2015 19:40:06 GMT; path=/, hp_ht_cntr=2; domain=.gazeta.pl; expires=Wed, 04-Mar-2015 19:40:06 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "surrogate-control",
+        "content": "content=\"ESI/1.0\",max-age=0+0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Servlet/2.5 JSP/2.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"NOI DSP COR NID DEV PSA OUR IND UNI\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=iso-8859-2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:06 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "1243548631"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "age",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "hp_cache25"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;gazeta.pl&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;GW_JSESSIONID=mytWJyFW0gPV2n21v2yG8vhRVWWxtDLs2QQrhFD2Qz8YppLbVh33!1613749304; domain=.gazeta.pl; path=&#x2F;; HttpOnly, test=172A20A6A22k1420314006304; domain=.gazeta.pl; expires=Mon, 02-Jan-2017 19:40:06 GMT; path=&#x2F;, perm_hp_alt=0; domain=.gazeta.pl; expires=Wed, 04-Mar-2015 19:40:06 GMT; path=&#x2F;, hp_ht_cntr=2; domain=.gazeta.pl; expires=Wed, 04-Mar-2015 19:40:06 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;surrogate-control&quot;, :content=&gt;&quot;content=\\&quot;ESI&#x2F;1.0\\&quot;,max-age=0+0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Servlet&#x2F;2.5 JSP&#x2F;2.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;NOI DSP COR NID DEV PSA OUR IND UNI\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=iso-8859-2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:06 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1243548631&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;hp_cache25&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:07 UTC"
+}

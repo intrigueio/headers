@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://eventbrite.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:22 UTC",
+  "id": "9f660526-4006-4273-9e4e-240b29457326",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:22 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "12499"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Cookie, Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "mgrefby=; Domain=.eventbrite.com; expires=Sun, 03-Jan-2016 19:40:22 GMT; httponly; Max-Age=31536000; Path=/, G=v%3D1%26i%3D07b69921-9117-4de4-9e94-431969d188ce%26a%3D53f%26s%3DAPDvTK6Pai_dFhPrD4EPdZjXkG2zqfJJcQ; Domain=.eventbrite.com; expires=Sun, 03-Jan-2016 19:40:22 GMT; httponly; Path=/, SS=AE3DLHT4L64iDgbkNHpDOSdVvSM0NaQWdA; Domain=.eventbrite.com; httponly; Path=/; secure, eblang=lo%3Den_US%26la%3Den-us; Domain=.eventbrite.com; expires=Sun, 03-Jan-2016 19:40:22 GMT; httponly; Path=/, AN=; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/, csrftoken=cbRmQyCc7ZbdnYs0gnN6hRAZq97yAnCe; Domain=.eventbrite.com; expires=Sat, 02-Jan-2016 19:40:22 GMT; Max-Age=31449600; Path=/, mgref=typeins; Domain=.eventbrite.com; expires=Sun, 03-Jan-2016 19:40:22 GMT; httponly; Max-Age=31536000; Path=/, SP=AGQgbbkcW4kHtN53DIiuQP4ntSWcQLPMMIw5DeYtNLq5vxPC5anxoMBXWDeyyRJvh_d6ykzN6Mbqgvg3Zsx3jhUP1ZNxcXtL4DKvf9jINlcUyRRQ8Jd03VzGQzWi511TCUqmSlxNSQj208-3yyJSD2AuyVfpjBqj9Ns2Ouo5nURztfZRJpMQMTknEQ1fYbkzwLD1H78dEZLwqh9W90rkcWmo3xhmD0LGnKGSri8gIkkqXKcBAXvwgQg; Domain=.eventbrite.com; httponly; Path=/, SERVERID=djc7; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;eventbrite.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:22 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;12499&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Cookie, Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;mgrefby=; Domain=.eventbrite.com; expires=Sun, 03-Jan-2016 19:40:22 GMT; httponly; Max-Age=31536000; Path=&#x2F;, G=v%3D1%26i%3D07b69921-9117-4de4-9e94-431969d188ce%26a%3D53f%26s%3DAPDvTK6Pai_dFhPrD4EPdZjXkG2zqfJJcQ; Domain=.eventbrite.com; expires=Sun, 03-Jan-2016 19:40:22 GMT; httponly; Path=&#x2F;, SS=AE3DLHT4L64iDgbkNHpDOSdVvSM0NaQWdA; Domain=.eventbrite.com; httponly; Path=&#x2F;; secure, eblang=lo%3Den_US%26la%3Den-us; Domain=.eventbrite.com; expires=Sun, 03-Jan-2016 19:40:22 GMT; httponly; Path=&#x2F;, AN=; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=&#x2F;, csrftoken=cbRmQyCc7ZbdnYs0gnN6hRAZq97yAnCe; Domain=.eventbrite.com; expires=Sat, 02-Jan-2016 19:40:22 GMT; Max-Age=31449600; Path=&#x2F;, mgref=typeins; Domain=.eventbrite.com; expires=Sun, 03-Jan-2016 19:40:22 GMT; httponly; Max-Age=31536000; Path=&#x2F;, SP=AGQgbbkcW4kHtN53DIiuQP4ntSWcQLPMMIw5DeYtNLq5vxPC5anxoMBXWDeyyRJvh_d6ykzN6Mbqgvg3Zsx3jhUP1ZNxcXtL4DKvf9jINlcUyRRQ8Jd03VzGQzWi511TCUqmSlxNSQj208-3yyJSD2AuyVfpjBqj9Ns2Ouo5nURztfZRJpMQMTknEQ1fYbkzwLD1H78dEZLwqh9W90rkcWmo3xhmD0LGnKGSri8gIkkqXKcBAXvwgQg; Domain=.eventbrite.com; httponly; Path=&#x2F;, SERVERID=djc7; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:22 UTC"
+}

@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://buscape.com.br"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:24 UTC",
+  "id": "aac26cac-fe67-499c-8de4-a7082923b9db",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "buscape=id_user=1042371338320150103174027&cn=455153993&xrb=0b27f516a336d8750d294638496b5b59; Domain=.buscape.com.br; Expires=Thu, 02-Jan-2020 19:40:27 GMT; Path=/, bpc=dupv=2015-01-03+17%3A40%3A27&duvcso=&uso=0&tzu=0&pr=0&cn=455153993&xrbpc=e518d0152fbcffd2aeb4bc623b7db2e3; Domain=.buscape.com.br; Expires=Thu, 02-Jan-2020 19:40:27 GMT; Path=/, sessao3=rfin=NO-REFERRER&site_origem=9402546&cna=455153993&stp=1&dppv=2015-01-03+17%3A40%3A27&id_entrada=site_origem%3D9402546&exp_cont=gcpu%3Dord_ecpc&xr3=7dc0ba347780bc7471d30d5c95d45d80&sbx=false&kwt=null; Domain=.buscape.com.br; Path=/, refererPage=home; Domain=.buscape.com.br; Expires=Sat, 03-Jan-2015 19:50:27 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"http://www.buscape.com.br/w3c/p3p.xml\", CP=\"PSA CONo OUR ONL BUS NOI\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "tipo_pagina",
+        "content": "HOME"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=ISO-8859-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:27 GMT"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;buscape.com.br&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;buscape=id_user=1042371338320150103174027&amp;cn=455153993&amp;xrb=0b27f516a336d8750d294638496b5b59; Domain=.buscape.com.br; Expires=Thu, 02-Jan-2020 19:40:27 GMT; Path=&#x2F;, bpc=dupv=2015-01-03+17%3A40%3A27&amp;duvcso=&amp;uso=0&amp;tzu=0&amp;pr=0&amp;cn=455153993&amp;xrbpc=e518d0152fbcffd2aeb4bc623b7db2e3; Domain=.buscape.com.br; Expires=Thu, 02-Jan-2020 19:40:27 GMT; Path=&#x2F;, sessao3=rfin=NO-REFERRER&amp;site_origem=9402546&amp;cna=455153993&amp;stp=1&amp;dppv=2015-01-03+17%3A40%3A27&amp;id_entrada=site_origem%3D9402546&amp;exp_cont=gcpu%3Dord_ecpc&amp;xr3=7dc0ba347780bc7471d30d5c95d45d80&amp;sbx=false&amp;kwt=null; Domain=.buscape.com.br; Path=&#x2F;, refererPage=home; Domain=.buscape.com.br; Expires=Sat, 03-Jan-2015 19:50:27 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;http:&#x2F;&#x2F;www.buscape.com.br&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;PSA CONo OUR ONL BUS NOI\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;tipo_pagina&quot;, :content=&gt;&quot;HOME&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=ISO-8859-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:27 GMT&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:28 UTC"
+}

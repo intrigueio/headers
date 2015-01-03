@@ -1,0 +1,71 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://bizjournals.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:40:43 UTC",
+  "id": "9b910145-1899-4c97-9de9-f09e0e4466dc",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:40:44 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "bizj=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.www.bizjournals.com, U=eER8bsnQzHfxuWBuQSch%2Bw0a809bd7; expires=Sun, 03-Jan-2016 19:40:44 GMT; path=/; domain=.bizjournals.com, bizj=YToxOntzOjM6IlVJTiI7czozMDoiZUVSOGJzblF6SGZ4dVdCdVFTY2grdzBhODA5YmQ3Ijt9%7C1420314044%7Ce45badf38573ee3bea17049b2e0887280d030a4ef78c0e87e71caae872945abf; expires=Sun, 03-Jan-2016 19:40:44 GMT; path=/; domain=.bizjournals.com, s_vid=eER8bsnQzHfxuWBuQSch%2Bw0a809bd7; expires=Thu, 02-Jan-2020 19:40:44 GMT; path=/; domain=.bizjournals.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-uin",
+        "content": "eER8bsnQzHfxuWBuQSch%2Bw0a809bd7"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "serverid",
+        "content": "15"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "18238"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;bizjournals.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:44 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;bizj=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.www.bizjournals.com, U=eER8bsnQzHfxuWBuQSch%2Bw0a809bd7; expires=Sun, 03-Jan-2016 19:40:44 GMT; path=&#x2F;; domain=.bizjournals.com, bizj=YToxOntzOjM6IlVJTiI7czozMDoiZUVSOGJzblF6SGZ4dVdCdVFTY2grdzBhODA5YmQ3Ijt9%7C1420314044%7Ce45badf38573ee3bea17049b2e0887280d030a4ef78c0e87e71caae872945abf; expires=Sun, 03-Jan-2016 19:40:44 GMT; path=&#x2F;; domain=.bizjournals.com, s_vid=eER8bsnQzHfxuWBuQSch%2Bw0a809bd7; expires=Thu, 02-Jan-2020 19:40:44 GMT; path=&#x2F;; domain=.bizjournals.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-uin&quot;, :content=&gt;&quot;eER8bsnQzHfxuWBuQSch%2Bw0a809bd7&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;serverid&quot;, :content=&gt;&quot;15&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;18238&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n",
+  "timestamp_end": "2015-01-03 19:40:45 UTC"
+}

@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://michaels.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:41:09 UTC",
+  "id": "410e288f-698c-421a-be98-ed0d2827ac79",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:09 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Demandware eCommerce Server"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "dwac_ceX32iaagc6R6aaadcb4RCTw64=jFTqACvLQYq3EHWWjU5iE0TcKZYtMwLS1CY%3D|dw-only|||USD|false|US%2FCentral|true; Path=/, sid=jFTqACvLQYq3EHWWjU5iE0TcKZYtMwLS1CY; Path=/, dwpersonalization_d66f2697a69c686d1f27016181aca359=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, dwanonymous_d66f2697a69c686d1f27016181aca359=abq17YbANEf6IzZq2pQvXg18Zq; Version=1; Comment=\"Demandware anonymous cookie for site Sites-MichaelsUS-Site\"; Max-Age=15552000; Expires=Thu, 02-Jul-2015 19:41:09 GMT; Path=/, Redirect=false; Expires=Sat, 10-Jan-2015 19:41:09 GMT; Path=/, dwsid=2xZfgNIQfLVVDvR4ZkD1OxOenBbU6D_tNjgQV7PiugLdbnrTuyKoYsLf9iKv5NEhe24-JILF-O3GKn1qRzbZww==; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache,no-store,must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Dec 1994 16:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "40332"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;michaels.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:09 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Demandware eCommerce Server&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;dwac_ceX32iaagc6R6aaadcb4RCTw64=jFTqACvLQYq3EHWWjU5iE0TcKZYtMwLS1CY%3D|dw-only|||USD|false|US%2FCentral|true; Path=&#x2F;, sid=jFTqACvLQYq3EHWWjU5iE0TcKZYtMwLS1CY; Path=&#x2F;, dwpersonalization_d66f2697a69c686d1f27016181aca359=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, dwanonymous_d66f2697a69c686d1f27016181aca359=abq17YbANEf6IzZq2pQvXg18Zq; Version=1; Comment=\\&quot;Demandware anonymous cookie for site Sites-MichaelsUS-Site\\&quot;; Max-Age=15552000; Expires=Thu, 02-Jul-2015 19:41:09 GMT; Path=&#x2F;, Redirect=false; Expires=Sat, 10-Jan-2015 19:41:09 GMT; Path=&#x2F;, dwsid=2xZfgNIQfLVVDvR4ZkD1OxOenBbU6D_tNjgQV7PiugLdbnrTuyKoYsLf9iKv5NEhe24-JILF-O3GKn1qRzbZww==; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache,no-store,must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Dec 1994 16:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;40332&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n",
+  "timestamp_end": "2015-01-03 19:41:10 UTC"
+}
