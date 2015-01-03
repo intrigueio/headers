@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://avon.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:43:58 UTC",
+  "id": "e34c560a-44b8-44be-baf2-eae7b2171627",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/7.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "webserverindex",
+        "content": "3"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId=iani3en1d3xc3iay1qx1f3al; path=/; secure; HttpOnly, shoppermanager=customerid=&customertotal=0&langid=1&langtheme=&shopperid=d6713380297f486b80130d581df5d135&emailSignUpLastShown=; domain=.www.avon.com; expires=Wed, 02-Jan-2019 05:00:00 GMT; path=/; secure; HttpOnly, cacheparms=campaign=201502&language=1&ispreviewmode=N&referrer=&isnewvisitor=Y&iseshopper=N&customertype=1&deliverytype=3&ordercount=0&couponcode=&lastpurchasedate=0; domain=.www.avon.com; path=/; secure; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-opnet-transaction-trace",
+        "content": "pid=3788,appdomainid=2,requestid=1420280411229,initiatorip=134.65.6.26,initiatorport=25809,clientip=134.65.6.26,clientport=25809,serverip=134.65.6.125,serverport=443"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "*"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/w3c/p3p.xml\", CP=\"NON CURa ADMa OUR STP PHY ONL COM PRE\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-style-type",
+        "content": "text/css"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-script-type",
+        "content": "text/javascript"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:43:57 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "25751"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;avon.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;webserverindex&quot;, :content=&gt;&quot;3&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ASP.NET_SessionId=iani3en1d3xc3iay1qx1f3al; path=&#x2F;; secure; HttpOnly, shoppermanager=customerid=&amp;customertotal=0&amp;langid=1&amp;langtheme=&amp;shopperid=d6713380297f486b80130d581df5d135&amp;emailSignUpLastShown=; domain=.www.avon.com; expires=Wed, 02-Jan-2019 05:00:00 GMT; path=&#x2F;; secure; HttpOnly, cacheparms=campaign=201502&amp;language=1&amp;ispreviewmode=N&amp;referrer=&amp;isnewvisitor=Y&amp;iseshopper=N&amp;customertype=1&amp;deliverytype=3&amp;ordercount=0&amp;couponcode=&amp;lastpurchasedate=0; domain=.www.avon.com; path=&#x2F;; secure; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-opnet-transaction-trace&quot;, :content=&gt;&quot;pid=3788,appdomainid=2,requestid=1420280411229,initiatorip=134.65.6.26,initiatorport=25809,clientip=134.65.6.26,clientport=25809,serverip=134.65.6.125,serverport=443&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;*&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;NON CURa ADMa OUR STP PHY ONL COM PRE\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-style-type&quot;, :content=&gt;&quot;text&#x2F;css&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-script-type&quot;, :content=&gt;&quot;text&#x2F;javascript&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:43:57 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;25751&quot;}\n",
+  "timestamp_end": "2015-01-03 19:43:59 UTC"
+}

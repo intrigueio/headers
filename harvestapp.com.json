@@ -1,0 +1,134 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://harvestapp.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:49:06 UTC",
+  "id": "fc199a4c-dd10-4a19-9390-f4d8d08bde71",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:49:07 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"http://www.getharvest.com/p3p.xml\", CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"86c9db2c42d6088f67c9b1956de7c057\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "lnd=http%3A%2F%2Fwww.getharvest.com%2F; path=/; expires=Mon, 02 Feb 2015 19:49:07 -0000, _getharvest_session_3_2=NjBYTjBpc2tWNVhlblBwYVJYRlJEbmRGbTNScHpVSGJvVk0rWWp5MWJqVzJMeFNjL1E4ZXJLV0lmQVNlU3g2TDBpN2pDM1NKdUJadHltMzBXNEo5UXVSM2hKeVl4ejVVSGtHWVBJZTdRSXAwL3ZGYmZuZzZjbkFXSjRRVjVTSzl0N3NMMUNjODdRb0QxQklOVWhXc203dE9uVm5pL01ydlY3SjF5OVI0SHNYb1A1S2xGNGlsTjl6UmJwRW9uTGpzNEdOanVjYXNZUzNYd2dSaEpyZnNqbmxYSUxUYkJVRE94VSt6RFhBVi91UT0tLVNNZ2NBVmk2UWY1ZDRka2pYWlA1VUE9PQ%3D%3D--c04ce8dc8b318b45d99521cca71c99cd91f0adb8; domain=.www.getharvest.com; path=/; secure; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "114a378c-2582-44df-be9f-b67518a9cb36"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.126265"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-server",
+        "content": "rails2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-lb",
+        "content": "lb2"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;harvestapp.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:49:07 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;http:&#x2F;&#x2F;www.getharvest.com&#x2F;p3p.xml\\&quot;, CP=\\&quot;IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;86c9db2c42d6088f67c9b1956de7c057\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;lnd=http%3A%2F%2Fwww.getharvest.com%2F; path=&#x2F;; expires=Mon, 02 Feb 2015 19:49:07 -0000, _getharvest_session_3_2=NjBYTjBpc2tWNVhlblBwYVJYRlJEbmRGbTNScHpVSGJvVk0rWWp5MWJqVzJMeFNjL1E4ZXJLV0lmQVNlU3g2TDBpN2pDM1NKdUJadHltMzBXNEo5UXVSM2hKeVl4ejVVSGtHWVBJZTdRSXAwL3ZGYmZuZzZjbkFXSjRRVjVTSzl0N3NMMUNjODdRb0QxQklOVWhXc203dE9uVm5pL01ydlY3SjF5OVI0SHNYb1A1S2xGNGlsTjl6UmJwRW9uTGpzNEdOanVjYXNZUzNYd2dSaEpyZnNqbmxYSUxUYkJVRE94VSt6RFhBVi91UT0tLVNNZ2NBVmk2UWY1ZDRka2pYWlA1VUE9PQ%3D%3D--c04ce8dc8b318b45d99521cca71c99cd91f0adb8; domain=.www.getharvest.com; path=&#x2F;; secure; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;114a378c-2582-44df-be9f-b67518a9cb36&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.126265&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-server&quot;, :content=&gt;&quot;rails2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-lb&quot;, :content=&gt;&quot;lb2&quot;}\n",
+  "timestamp_end": "2015-01-03 19:49:07 UTC"
+}

@@ -1,0 +1,57 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://geekycrunch.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:44:48 UTC",
+  "id": "b0d8e282-566e-4c2d-9b96-14bc60582950",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close, close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "5085"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "9-12148124-0 0NNN RT(1420314287629 0) q(0 -1 -1 3) r(0 -1) B10(4,314,0)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "incap_ses_220_229698=vI1NGKZYCyx+Gtq5OZkNA69GqFQAAAAAwRkcbdqOf1RZw3vsOHFckQ==; path=/; Domain=.geekycrunch.com, visid_incap_229698=otSr0lRhQlyZfvdnN7VIeq9GqFQAAAAAQUIPAAAAAABUeS6J67DtVo/bin00POHD; expires=Sun, 01 Jan 2017 21:33:49 GMT; path=/; Domain=.geekycrunch.com"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;geekycrunch.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close, close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;5085&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-iinfo&quot;, :content=&gt;&quot;9-12148124-0 0NNN RT(1420314287629 0) q(0 -1 -1 3) r(0 -1) B10(4,314,0)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;incap_ses_220_229698=vI1NGKZYCyx+Gtq5OZkNA69GqFQAAAAAwRkcbdqOf1RZw3vsOHFckQ==; path=&#x2F;; Domain=.geekycrunch.com, visid_incap_229698=otSr0lRhQlyZfvdnN7VIeq9GqFQAAAAAQUIPAAAAAABUeS6J67DtVo&#x2F;bin00POHD; expires=Sun, 01 Jan 2017 21:33:49 GMT; path=&#x2F;; Domain=.geekycrunch.com&quot;}\n",
+  "timestamp_end": "2015-01-03 19:44:48 UTC"
+}

@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://carmax.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:43:31 UTC",
+  "id": "0ac35e9a-ab5a-4252-97b6-8cfd54ea07ed",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/7.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnetmvc-version",
+        "content": "4.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnet-version",
+        "content": "4.0.30319"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:43:31 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "KmxSession_0=080a2665-a2a9-4655-9256-906210f2b8dc; domain=.carmax.com; path=/, KmxCurrSession_0=AB=False&StartDate=1/3/2015 2:43:33 PM&DST=7&IsIntranet=False&IP=True&IsHomeOffice=False; domain=.carmax.com; path=/, KmxNewCustomerSession_0=True; domain=.carmax.com; path=/, KmxVisitor_0=VisitorID=c489f869-3374-4b0e-82fe-96acd9cd7f89&CookieDate=1/3/2015 2:43:33 PM&Zip=75062&ZipDate=1/3/2015 2:43:33 PM; domain=.carmax.com; expires=Sun, 03-Jan-2016 19:43:33 GMT; path=/, KmxabVisitor_0=test=10060&bucket=V10060B02; domain=.carmax.com; expires=Sat, 28-Feb-2015 05:00:00 GMT; path=/, KmxabGeo_0=test=10040&bucket=G10040B02; domain=.carmax.com; expires=Wed, 25-Dec-2019 05:00:00 GMT; path=/, KmxMobile_0=stop_mobi=False; domain=.carmax.com; expires=Tue, 03-Feb-2015 19:43:33 GMT; path=/, KMXCOM_COOKIE=1746837770.29207.0000; path=/"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;carmax.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnetmvc-version&quot;, :content=&gt;&quot;4.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:43:31 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;KmxSession_0=080a2665-a2a9-4655-9256-906210f2b8dc; domain=.carmax.com; path=&#x2F;, KmxCurrSession_0=AB=False&amp;StartDate=1&#x2F;3&#x2F;2015 2:43:33 PM&amp;DST=7&amp;IsIntranet=False&amp;IP=True&amp;IsHomeOffice=False; domain=.carmax.com; path=&#x2F;, KmxNewCustomerSession_0=True; domain=.carmax.com; path=&#x2F;, KmxVisitor_0=VisitorID=c489f869-3374-4b0e-82fe-96acd9cd7f89&amp;CookieDate=1&#x2F;3&#x2F;2015 2:43:33 PM&amp;Zip=75062&amp;ZipDate=1&#x2F;3&#x2F;2015 2:43:33 PM; domain=.carmax.com; expires=Sun, 03-Jan-2016 19:43:33 GMT; path=&#x2F;, KmxabVisitor_0=test=10060&amp;bucket=V10060B02; domain=.carmax.com; expires=Sat, 28-Feb-2015 05:00:00 GMT; path=&#x2F;, KmxabGeo_0=test=10040&amp;bucket=G10040B02; domain=.carmax.com; expires=Wed, 25-Dec-2019 05:00:00 GMT; path=&#x2F;, KmxMobile_0=stop_mobi=False; domain=.carmax.com; expires=Tue, 03-Feb-2015 19:43:33 GMT; path=&#x2F;, KMXCOM_COOKIE=1746837770.29207.0000; path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:43:31 UTC"
+}

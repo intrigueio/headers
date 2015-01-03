@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://blair.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:23 UTC",
+  "id": "c852b4a5-d460-43ec-8145-4d079d8577b1",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=ISO-8859-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:24 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=A84B1802146E75F04E277EFD785AAB33; Path=/; HttpOnly, LAST_SITE_CODE=bla; Domain=blair.com; Path=/, PIPELINE_SESSION_ID=cp_65f4dfdcec924be98a68722fdb78ca88; Domain=blair.com; Expires=Mon, 02-Feb-2015 19:45:24 GMT; Path=/, SITE_VISITED_DATE=01/03/2015; Expires=Thu, 21-Jan-2083 22:59:31 GMT; Path=/, blair.com_LoadBalance=2232750508.20480.0000; expires=Sun, 04-Jan-2015 19:45:24 GMT; path=/"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;blair.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=ISO-8859-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:24 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=A84B1802146E75F04E277EFD785AAB33; Path=&#x2F;; HttpOnly, LAST_SITE_CODE=bla; Domain=blair.com; Path=&#x2F;, PIPELINE_SESSION_ID=cp_65f4dfdcec924be98a68722fdb78ca88; Domain=blair.com; Expires=Mon, 02-Feb-2015 19:45:24 GMT; Path=&#x2F;, SITE_VISITED_DATE=01&#x2F;03&#x2F;2015; Expires=Thu, 21-Jan-2083 22:59:31 GMT; Path=&#x2F;, blair.com_LoadBalance=2232750508.20480.0000; expires=Sun, 04-Jan-2015 19:45:24 GMT; path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:24 UTC"
+}

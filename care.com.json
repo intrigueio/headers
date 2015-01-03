@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://care.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:44:34 UTC",
+  "id": "842ee9bf-289b-4097-b015-9444a1c26ba3",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:44:34 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 www.care.com (Apache/2.4.9)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-mod-pagespeed",
+        "content": "1.8.31.4-4056"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=N7AYdHFKwjdq0ujBD22p1D1g.592663-mobile3; Path=/; HttpOnly, JSESSIONID=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly, JSESSIONID=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly, JSESSIONID=N7AYdHFKwjdq0ujBD22p1D1g.592663-mobile3; Domain=.care.com; Path=/; HttpOnly, vc=e3897515-9feb-42c1-9ce7-663bfc74ee71; Domain=.care.com; Path=/, n_vis=592663-mobile3.care.com1420251784233; Domain=.care.com; Expires=Tue, 31-Dec-2024 19:44:34 GMT; Path=/; HttpOnly, n_tc=1114; Domain=.care.com; Expires=Tue, 31-Dec-2024 19:44:34 GMT; Path=/, n_tc=1114; Domain=.care.com; Expires=Tue, 31-Dec-2024 19:44:34 GMT; Path=/, eps=\"vhp 1402240255\"; Version=1; Domain=.care.com; Max-Age=315360000; Path=/, ROUTE2=m; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=ISO-8859-1"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;care.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:44:34 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 www.care.com (Apache&#x2F;2.4.9)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-mod-pagespeed&quot;, :content=&gt;&quot;1.8.31.4-4056&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=N7AYdHFKwjdq0ujBD22p1D1g.592663-mobile3; Path=&#x2F;; HttpOnly, JSESSIONID=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;; HttpOnly, JSESSIONID=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;; HttpOnly, JSESSIONID=N7AYdHFKwjdq0ujBD22p1D1g.592663-mobile3; Domain=.care.com; Path=&#x2F;; HttpOnly, vc=e3897515-9feb-42c1-9ce7-663bfc74ee71; Domain=.care.com; Path=&#x2F;, n_vis=592663-mobile3.care.com1420251784233; Domain=.care.com; Expires=Tue, 31-Dec-2024 19:44:34 GMT; Path=&#x2F;; HttpOnly, n_tc=1114; Domain=.care.com; Expires=Tue, 31-Dec-2024 19:44:34 GMT; Path=&#x2F;, n_tc=1114; Domain=.care.com; Expires=Tue, 31-Dec-2024 19:44:34 GMT; Path=&#x2F;, eps=\\&quot;vhp 1402240255\\&quot;; Version=1; Domain=.care.com; Max-Age=315360000; Path=&#x2F;, ROUTE2=m; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=ISO-8859-1&quot;}\n",
+  "timestamp_end": "2015-01-03 19:44:34 UTC"
+}

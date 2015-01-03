@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://ixigo.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:44:01 UTC",
+  "id": "86b53ba5-e584-43e5-b170-304644eb0b7f",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "age",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, must-revalidate, proxy-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:44:03 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Sun Jan 04 01:14:03 IST 2015"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ncr=IN; Path=/, ixiUsrLocale=urgn=-:ucnc=-:ucty=-:cnc=IN:cc=INR:lng=en; Expires=Sat, 03-Jan-2015 23:44:03 GMT; Path=/, JSESSIONID=E8E37ADC53D17E1F1D8501D81A3B35A5; Path=/; HttpOnly, ixiUID=w001iH5jsdnAI0I82vZ6; Domain=.ixigo.com; Expires=Fri, 29-Dec-2034 19:44:03 GMT; Path=/, ixiSrc=ytAaTQcCwz5a+LS6ih/C7F8aYl7MvorgMxs0eNHVF37mpEfJ8F4mhSVTs33dw8dNNUjekyle9PMKiETQm/wd2A==; Domain=.ixigo.com; Expires=Fri, 29-Dec-2034 19:44:03 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-backend",
+        "content": "j3ax2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-device",
+        "content": "pc"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-devicetype",
+        "content": "pc"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ixigo"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "21291"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ixigo.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, must-revalidate, proxy-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:44:03 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun Jan 04 01:14:03 IST 2015&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ncr=IN; Path=&#x2F;, ixiUsrLocale=urgn=-:ucnc=-:ucty=-:cnc=IN:cc=INR:lng=en; Expires=Sat, 03-Jan-2015 23:44:03 GMT; Path=&#x2F;, JSESSIONID=E8E37ADC53D17E1F1D8501D81A3B35A5; Path=&#x2F;; HttpOnly, ixiUID=w001iH5jsdnAI0I82vZ6; Domain=.ixigo.com; Expires=Fri, 29-Dec-2034 19:44:03 GMT; Path=&#x2F;, ixiSrc=ytAaTQcCwz5a+LS6ih&#x2F;C7F8aYl7MvorgMxs0eNHVF37mpEfJ8F4mhSVTs33dw8dNNUjekyle9PMKiETQm&#x2F;wd2A==; Domain=.ixigo.com; Expires=Fri, 29-Dec-2034 19:44:03 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-backend&quot;, :content=&gt;&quot;j3ax2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-device&quot;, :content=&gt;&quot;pc&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-devicetype&quot;, :content=&gt;&quot;pc&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ixigo&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;21291&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:44:03 UTC"
+}

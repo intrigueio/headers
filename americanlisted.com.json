@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://americanlisted.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:44:08 UTC",
+  "id": "25b4052e-15e0-4747-9438-a1b8c2de6953",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.3.10-1ubuntu3.8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=6815afce934b1632efc34115dccc291d; path=/; domain=.americanlisted.com, city_id=0; expires=Mon, 02-Feb-2015 19:46:52 GMT; path=/; domain=.americanlisted.com, state_id=0; expires=Mon, 02-Feb-2015 19:46:52 GMT; path=/; domain=.americanlisted.com, zip_id=0; expires=Mon, 02-Feb-2015 19:46:52 GMT; path=/; domain=.americanlisted.com, dfa=1; expires=Mon, 02-Feb-2015 19:46:52 GMT; path=/; domain=.americanlisted.com, lstur=aHR0cDovL3d3dy5hbWVyaWNhbmxpc3RlZC5jb20vYWxsX2Fkcy5odG1s; expires=Mon, 02-Feb-2015 19:46:52 GMT; path=/; domain=.americanlisted.com, nexprevad=30003221%2C30003219%2C30003217%2C30003215%2C30003213%2C30003211%2C30003209%2C30003207%2C30003205%2C30003203%2C30003201%2C30003199%2C30003197%2C30003195%2C30003193%2C30003191%2C30003189%2C30003187%2C30003185%2C30003183%2C30003181%2C30003179%2C30003177%2C30003175%2C30003173%2C30003171%2C30003169%2C30003167%2C30003165%2C30003163%2C30003161%2C30003159%2C30003157%2C30003155%2C30003153%2C30003151%2C30003149%2C30003147%2C30003145%2C30003143; expires=Sat, 03-Jan-2015 20:46:52 GMT; path=/; domain=.americanlisted.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "lighttpd/1.4.28"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "15436"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:41:58 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "2158254759"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "age",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;americanlisted.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.3.10-1ubuntu3.8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=6815afce934b1632efc34115dccc291d; path=&#x2F;; domain=.americanlisted.com, city_id=0; expires=Mon, 02-Feb-2015 19:46:52 GMT; path=&#x2F;; domain=.americanlisted.com, state_id=0; expires=Mon, 02-Feb-2015 19:46:52 GMT; path=&#x2F;; domain=.americanlisted.com, zip_id=0; expires=Mon, 02-Feb-2015 19:46:52 GMT; path=&#x2F;; domain=.americanlisted.com, dfa=1; expires=Mon, 02-Feb-2015 19:46:52 GMT; path=&#x2F;; domain=.americanlisted.com, lstur=aHR0cDovL3d3dy5hbWVyaWNhbmxpc3RlZC5jb20vYWxsX2Fkcy5odG1s; expires=Mon, 02-Feb-2015 19:46:52 GMT; path=&#x2F;; domain=.americanlisted.com, nexprevad=30003221%2C30003219%2C30003217%2C30003215%2C30003213%2C30003211%2C30003209%2C30003207%2C30003205%2C30003203%2C30003201%2C30003199%2C30003197%2C30003195%2C30003193%2C30003191%2C30003189%2C30003187%2C30003185%2C30003183%2C30003181%2C30003179%2C30003177%2C30003175%2C30003173%2C30003171%2C30003169%2C30003167%2C30003165%2C30003163%2C30003161%2C30003159%2C30003157%2C30003155%2C30003153%2C30003151%2C30003149%2C30003147%2C30003145%2C30003143; expires=Sat, 03-Jan-2015 20:46:52 GMT; path=&#x2F;; domain=.americanlisted.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;lighttpd&#x2F;1.4.28&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;15436&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:58 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;2158254759&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:44:09 UTC"
+}

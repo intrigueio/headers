@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://finansbank.com.tr"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:59 UTC",
+  "id": "3a06053b-4038-4c2d-804e-48508c26bca9",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cteonnt-length",
+        "content": "46800"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=iso-8859-9"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "BehaviorPad_Profile=b1b587d4-f646-4de0-b2fb-e3f613a12f2c; expires=Fri, 03-Jul-2015 18:46:01 GMT; path=/; HttpOnly, bp_visit_635559183615909256=p=~/Default.aspx&u=635559183615909256&h=1; expires=Mon, 02-Feb-2015 19:47:01 GMT; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "behaviorpad-version",
+        "content": "1.2.5.0-release"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:46:02 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "13192"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;finansbank.com.tr&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cteonnt-length&quot;, :content=&gt;&quot;46800&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=iso-8859-9&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;BehaviorPad_Profile=b1b587d4-f646-4de0-b2fb-e3f613a12f2c; expires=Fri, 03-Jul-2015 18:46:01 GMT; path=&#x2F;; HttpOnly, bp_visit_635559183615909256=p=~&#x2F;Default.aspx&amp;u=635559183615909256&amp;h=1; expires=Mon, 02-Feb-2015 19:47:01 GMT; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;behaviorpad-version&quot;, :content=&gt;&quot;1.2.5.0-release&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:46:02 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;13192&quot;}\n",
+  "timestamp_end": "2015-01-03 19:46:02 UTC"
+}

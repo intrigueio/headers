@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://lanebryant.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:07 UTC",
+  "id": "92b0fa33-6d39-448c-bb4b-38da02b96cdc",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=ISO-8859-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:08 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PIPELINE_SESSION_ID=5a13dc2d9c9f4d4dab596536a62a7ea7; Domain=.lanebryant.com; Expires=Thu, 21-Jan-2083 22:59:14 GMT; Path=/, JSESSIONID=64F72B18BAF87F9244983E6134C07BD4; Path=/; HttpOnly, COUNTRY_CODE=US; Domain=.lanebryant.com; Expires=Mon, 02-Feb-2015 19:45:07 GMT; Path=/, CURRENCY_CODE=USD; Domain=.lanebryant.com; Expires=Mon, 02-Feb-2015 19:45:07 GMT; Path=/, FX_RATE_CODE=1; Domain=.lanebryant.com; Expires=Sun, 04-Jan-2015 12:45:07 GMT; Path=/, PC_RATE_CODE=1; Domain=.lanebryant.com; Expires=Sun, 04-Jan-2015 12:45:07 GMT; Path=/, CS_LoadBalance=!0niImj0jX3wX+u/OeKEwbUYOpx1DMgondblrWgIqlteLqMGvarphGYOQKCr/RIERF0qbJts7QcD2w/I=; path=/, f5avrbbbbbbbbbbbbbbbb=CJBAPBAAHOENIMIPGAFFCBCMNHOIEDLHJPKPMNFBJKODPPHANPFPNBBKEEEAHCHLIGJCEGOGPKAHGIHPHEDAMPLFCPJHDEPAIBPEPEFMOKMNKDNDEFACGCMOGIFOLNNK; HttpOnly"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;lanebryant.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=ISO-8859-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:08 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PIPELINE_SESSION_ID=5a13dc2d9c9f4d4dab596536a62a7ea7; Domain=.lanebryant.com; Expires=Thu, 21-Jan-2083 22:59:14 GMT; Path=&#x2F;, JSESSIONID=64F72B18BAF87F9244983E6134C07BD4; Path=&#x2F;; HttpOnly, COUNTRY_CODE=US; Domain=.lanebryant.com; Expires=Mon, 02-Feb-2015 19:45:07 GMT; Path=&#x2F;, CURRENCY_CODE=USD; Domain=.lanebryant.com; Expires=Mon, 02-Feb-2015 19:45:07 GMT; Path=&#x2F;, FX_RATE_CODE=1; Domain=.lanebryant.com; Expires=Sun, 04-Jan-2015 12:45:07 GMT; Path=&#x2F;, PC_RATE_CODE=1; Domain=.lanebryant.com; Expires=Sun, 04-Jan-2015 12:45:07 GMT; Path=&#x2F;, CS_LoadBalance=!0niImj0jX3wX+u&#x2F;OeKEwbUYOpx1DMgondblrWgIqlteLqMGvarphGYOQKCr&#x2F;RIERF0qbJts7QcD2w&#x2F;I=; path=&#x2F;, f5avrbbbbbbbbbbbbbbbb=CJBAPBAAHOENIMIPGAFFCBCMNHOIEDLHJPKPMNFBJKODPPHANPFPNBBKEEEAHCHLIGJCEGOGPKAHGIHPHEDAMPLFCPJHDEPAIBPEPEFMOKMNKDNDEFACGCMOGIFOLNNK; HttpOnly&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:08 UTC"
+}

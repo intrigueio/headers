@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://intouchweekly.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:46:04 UTC",
+  "id": "f231f5eb-6fc2-4b8f-b3f6-2bad8cfdcb4b",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Cowboy"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:46:05 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "ALLOWALL"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"152e5b3df888268f628ccf7c75bb338e\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "user_id=; path=/; expires=Thu, 01 Jan 1970 00:00:00 -0000, _BNTP_session=eG5HNURvNXEvay83cy9wbVQwK09TYnoxRUkza0FaTjRBRWdadzMrREFBeVE0aVNveUFqRFVpRGlrclF2cThWUGZLSEplbXlham1XRk1wRjhubktmTUtYd2pJMVBpbVNRVFZVN3lVYThETlVZekx1Si9wRi8zbnhnbDQ1SEtycFlTSHp4Z2E2aEtzdXYwOUxEajFHcTFueGdVQnV4SlRSUU5XZ1Y4U2k0UWFFck43eG44cVJQZC9DTTJhdnpzWmlxLS1wYnBuYTNQa3RhQXpXUXRlc1BKMk1BPT0%3D--867784af0bff23121132d38a6e462a591bea6c8e; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "512aeb40-48d8-4cb4-89ad-62fea2f58833"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.093194"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 vegur"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;intouchweekly.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Cowboy&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:46:05 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;ALLOWALL&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;152e5b3df888268f628ccf7c75bb338e\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;user_id=; path=&#x2F;; expires=Thu, 01 Jan 1970 00:00:00 -0000, _BNTP_session=eG5HNURvNXEvay83cy9wbVQwK09TYnoxRUkza0FaTjRBRWdadzMrREFBeVE0aVNveUFqRFVpRGlrclF2cThWUGZLSEplbXlham1XRk1wRjhubktmTUtYd2pJMVBpbVNRVFZVN3lVYThETlVZekx1Si9wRi8zbnhnbDQ1SEtycFlTSHp4Z2E2aEtzdXYwOUxEajFHcTFueGdVQnV4SlRSUU5XZ1Y4U2k0UWFFck43eG44cVJQZC9DTTJhdnpzWmlxLS1wYnBuYTNQa3RhQXpXUXRlc1BKMk1BPT0%3D--867784af0bff23121132d38a6e462a591bea6c8e; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;512aeb40-48d8-4cb4-89ad-62fea2f58833&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.093194&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 vegur&quot;}\n",
+  "timestamp_end": "2015-01-03 19:46:05 UTC"
+}

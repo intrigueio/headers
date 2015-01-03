@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://mindmeister.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:21 UTC",
+  "id": "9ae532da-1b58-44df-8c3d-d9bafabd671a",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:23 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"CAO PSA OUR\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "https://socket.mindmeister.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "5cee0cf13f5eb7e25a28a76f796bd369"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.029817"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "_mm_session=LzFRYlFta1ZKTzBlalBoZmp2dDBBczFCYlBSelNTL2lFeW1zWmVNcjhCa2phM2Q0SWdYbGxBNlBIOGpUTnNRTENIWlhrejFZeGpRaFhpaDUxMmVKb2hGOGEwTnBEdmc0QW54cHBSZ0tyMDJSMTBxVEJwSHppd0VmNThUUmh4UEtnSnVuSWZBand5bm1YTFRKTWxiZWFaczlOOURIVXFndnlRVnUrc3JUK1huYzgzMVRMdHY4SHBCdTIzMllNVkRpbThHUUNJbXpGdzdoVkQ4dUVkR2JFSE1udHdzeUF1cDdIYTNYOXVkUWd1ZHFuNHpjT0loaUdkejRQSDVMdXplZzRHVkVjMkxydlhlUi9yYzAxeXJlTkE9PS0taXAwdzBwNG95VFVabG1CRDBjTEFwZz09--010012b5dee230f9c1b2399de446458b6b1804b0; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;mindmeister.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:23 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CAO PSA OUR\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;https:&#x2F;&#x2F;socket.mindmeister.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;5cee0cf13f5eb7e25a28a76f796bd369&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.029817&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_mm_session=LzFRYlFta1ZKTzBlalBoZmp2dDBBczFCYlBSelNTL2lFeW1zWmVNcjhCa2phM2Q0SWdYbGxBNlBIOGpUTnNRTENIWlhrejFZeGpRaFhpaDUxMmVKb2hGOGEwTnBEdmc0QW54cHBSZ0tyMDJSMTBxVEJwSHppd0VmNThUUmh4UEtnSnVuSWZBand5bm1YTFRKTWxiZWFaczlOOURIVXFndnlRVnUrc3JUK1huYzgzMVRMdHY4SHBCdTIzMllNVkRpbThHUUNJbXpGdzdoVkQ4dUVkR2JFSE1udHdzeUF1cDdIYTNYOXVkUWd1ZHFuNHpjT0loaUdkejRQSDVMdXplZzRHVkVjMkxydlhlUi9yYzAxeXJlTkE9PS0taXAwdzBwNG95VFVabG1CRDBjTEFwZz09--010012b5dee230f9c1b2399de446458b6b1804b0; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:23 UTC"
+}

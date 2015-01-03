@@ -1,0 +1,127 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://reverb.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:44:27 UTC",
+  "id": "1e6007f1-03a9-41db-abac-d864aceb92c7",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:44:28 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"3bf44d90235899f27f0c5177b27e91a3\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "return_to=https%3A%2F%2Freverb.com%2F; path=/, split=%7B%22onboarding_banner_ab_test%3A3%22%3A%22big_text_banner%22%7D; path=/; expires=Sun, 03-Jan-2016 15:32:34 GMT, _reverb_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJWU1ZDBiNWIxMDExZGZjMWExMjc4OTNlODUzYzc2Y2Q2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXR3ZDBXN1dZdTMzRW04T3RCeGtXTXdZK2ZUSXdvdzE5MVNGdGFvTTFGYkU9BjsARg%3D%3D--05d5ad87a7ac2dde21ce92ec2c61ef15b0bbbbb8; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "f979ff96fc33ea522c698ba76b02ee30"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.555607"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-revision",
+        "content": "73c2899f708c65b65badae9d3fb50a688f9ebfdb"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "http://reverb.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-credentials",
+        "content": "true"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;reverb.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:44:28 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;3bf44d90235899f27f0c5177b27e91a3\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;return_to=https%3A%2F%2Freverb.com%2F; path=&#x2F;, split=%7B%22onboarding_banner_ab_test%3A3%22%3A%22big_text_banner%22%7D; path=&#x2F;; expires=Sun, 03-Jan-2016 15:32:34 GMT, _reverb_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJWU1ZDBiNWIxMDExZGZjMWExMjc4OTNlODUzYzc2Y2Q2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXR3ZDBXN1dZdTMzRW04T3RCeGtXTXdZK2ZUSXdvdzE5MVNGdGFvTTFGYkU9BjsARg%3D%3D--05d5ad87a7ac2dde21ce92ec2c61ef15b0bbbbb8; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;f979ff96fc33ea522c698ba76b02ee30&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.555607&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-revision&quot;, :content=&gt;&quot;73c2899f708c65b65badae9d3fb50a688f9ebfdb&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;reverb.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-credentials&quot;, :content=&gt;&quot;true&quot;}\n",
+  "timestamp_end": "2015-01-03 19:44:28 UTC"
+}

@@ -1,0 +1,57 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://buyma.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:49:19 UTC",
+  "id": "a36d6cac-858b-4d19-9e77-fc8a4e4b1321",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:49:20 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "24627"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ses=4bea6f985477d52d3cfbb82b3e0973aa; path=/, ses=899e433ad27de4bde30a712456b513b6; path=/, _w_sqd90kU0982a741_8=ZmFsc2U%3D; expires=Mon, 26-Dec-2044 19:49:20 GMT; path=/; domain=www.buyma.com, _bTcSnK2z_1=MQ%3D%3D; expires=Mon, 26-Dec-2044 19:49:20 GMT; path=/; domain=www.buyma.com, _9UoYx0yr_2=MjAxNS8wMS8wNCAwNDo0OToyMA%3D%3D; expires=Mon, 26-Dec-2044 19:49:20 GMT; path=/; domain=www.buyma.com, _gWy89cor_3=MjAxNS8wMS8wNCAwNDo0OToyMA%3D%3D; expires=Mon, 26-Dec-2044 19:49:20 GMT; path=/; domain=www.buyma.com, _nRv3Hphs_4=deleted; expires=Fri, 03-Jan-2014 19:49:19 GMT; path=/; domain=www.buyma.com, _bom4g50s_7=NjdiNjUwMDJiYjZiNGYxNTZjZmIyMGZiOTg3N2Y0MGZiNDE5MmYyYjY1OTM5MzQwZTJlY2MxMjRiY2QxNjBmZQ%3D%3D; expires=Mon, 26-Dec-2044 19:49:20 GMT; path=/; domain=www.buyma.com, bm_absw=no_target; expires=Sat, 10-Jan-2015 19:49:20 GMT; path=/, bm_fwsw=2; expires=Mon, 05-Jan-2015 19:49:20 GMT; path=/, bm_uafcd=deleted; expires=Fri, 03-Jan-2014 19:49:19 GMT; path=/; domain=www.buyma.com, _DBOngl29f311ALR78vy7WVXn=deleted; expires=Fri, 03-Jan-2014 19:49:19 GMT; path=/; domain=www.buyma.com"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;buyma.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:49:20 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;24627&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ses=4bea6f985477d52d3cfbb82b3e0973aa; path=&#x2F;, ses=899e433ad27de4bde30a712456b513b6; path=&#x2F;, _w_sqd90kU0982a741_8=ZmFsc2U%3D; expires=Mon, 26-Dec-2044 19:49:20 GMT; path=&#x2F;; domain=www.buyma.com, _bTcSnK2z_1=MQ%3D%3D; expires=Mon, 26-Dec-2044 19:49:20 GMT; path=&#x2F;; domain=www.buyma.com, _9UoYx0yr_2=MjAxNS8wMS8wNCAwNDo0OToyMA%3D%3D; expires=Mon, 26-Dec-2044 19:49:20 GMT; path=&#x2F;; domain=www.buyma.com, _gWy89cor_3=MjAxNS8wMS8wNCAwNDo0OToyMA%3D%3D; expires=Mon, 26-Dec-2044 19:49:20 GMT; path=&#x2F;; domain=www.buyma.com, _nRv3Hphs_4=deleted; expires=Fri, 03-Jan-2014 19:49:19 GMT; path=&#x2F;; domain=www.buyma.com, _bom4g50s_7=NjdiNjUwMDJiYjZiNGYxNTZjZmIyMGZiOTg3N2Y0MGZiNDE5MmYyYjY1OTM5MzQwZTJlY2MxMjRiY2QxNjBmZQ%3D%3D; expires=Mon, 26-Dec-2044 19:49:20 GMT; path=&#x2F;; domain=www.buyma.com, bm_absw=no_target; expires=Sat, 10-Jan-2015 19:49:20 GMT; path=&#x2F;, bm_fwsw=2; expires=Mon, 05-Jan-2015 19:49:20 GMT; path=&#x2F;, bm_uafcd=deleted; expires=Fri, 03-Jan-2014 19:49:19 GMT; path=&#x2F;; domain=www.buyma.com, _DBOngl29f311ALR78vy7WVXn=deleted; expires=Fri, 03-Jan-2014 19:49:19 GMT; path=&#x2F;; domain=www.buyma.com&quot;}\n",
+  "timestamp_end": "2015-01-03 19:49:20 UTC"
+}

@@ -1,0 +1,71 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://justfab.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:15 UTC",
+  "id": "8eb1c667-f1f9-48dc-a5c2-bbfd5a2de2b3",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US,en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/7.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "BP=0;domain=.justfab.com;path=/, SESSION=4950F217%2D564DC4C9%2D96F5%2D4EBC%2D9EFB%2DCB887CA53C91;domain=.justfab.com;path=/, VISITOR=1230041623;domain=.justfab.com;expires=Mon, 26-Dec-2044 19:45:17 GMT;path=/, MEMBERSHIP_LEVEL=0;domain=.justfab.com;path=/, OPINION_LAB_CUSTOM_VARIABLES=%7B%7D;domain=.justfab.com;path=/, TPSUPPLIST=1230041623%3A11;domain=.justfab.com;path=/, BIGipServerEXT_secure.justfab.com_http_pool=1477849610.16206.0000; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:17 GMT"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;justfab.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US,en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;BP=0;domain=.justfab.com;path=&#x2F;, SESSION=4950F217%2D564DC4C9%2D96F5%2D4EBC%2D9EFB%2DCB887CA53C91;domain=.justfab.com;path=&#x2F;, VISITOR=1230041623;domain=.justfab.com;expires=Mon, 26-Dec-2044 19:45:17 GMT;path=&#x2F;, MEMBERSHIP_LEVEL=0;domain=.justfab.com;path=&#x2F;, OPINION_LAB_CUSTOM_VARIABLES=%7B%7D;domain=.justfab.com;path=&#x2F;, TPSUPPLIST=1230041623%3A11;domain=.justfab.com;path=&#x2F;, BIGipServerEXT_secure.justfab.com_http_pool=1477849610.16206.0000; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:17 GMT&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:17 UTC"
+}

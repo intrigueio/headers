@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://findlaw.cn"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:57 UTC",
+  "id": "8d6b3afc-1808-42f2-a45d-7da25a53d417",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:46:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=gb2312"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=gh94kmq3jld9mld5uipge5ggm5; path=/, areainfo[province]=%B1%B1%C3%C0%B5%D8%C7%F8; expires=Mon, 02-Feb-2015 19:45:59 GMT; path=/; domain=.findlaw.cn, areainfo[city]=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.findlaw.cn, areainfo[pinyin]=603000; expires=Mon, 02-Feb-2015 19:45:59 GMT; path=/; domain=.findlaw.cn, areainfo[areacode]=603000; expires=Mon, 02-Feb-2015 19:45:59 GMT; path=/; domain=.findlaw.cn, areainfo[default]=0; expires=Mon, 02-Feb-2015 19:45:59 GMT; path=/; domain=.findlaw.cn, uuid=05hleFSoRvi1VVgpDOn4Ag==; expires=Tue, 31-Dec-24 19:46:00 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;findlaw.cn&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:46:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=gb2312&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=gh94kmq3jld9mld5uipge5ggm5; path=&#x2F;, areainfo[province]=%B1%B1%C3%C0%B5%D8%C7%F8; expires=Mon, 02-Feb-2015 19:45:59 GMT; path=&#x2F;; domain=.findlaw.cn, areainfo[city]=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.findlaw.cn, areainfo[pinyin]=603000; expires=Mon, 02-Feb-2015 19:45:59 GMT; path=&#x2F;; domain=.findlaw.cn, areainfo[areacode]=603000; expires=Mon, 02-Feb-2015 19:45:59 GMT; path=&#x2F;; domain=.findlaw.cn, areainfo[default]=0; expires=Mon, 02-Feb-2015 19:45:59 GMT; path=&#x2F;; domain=.findlaw.cn, uuid=05hleFSoRvi1VVgpDOn4Ag==; expires=Tue, 31-Dec-24 19:46:00 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n",
+  "timestamp_end": "2015-01-03 19:46:01 UTC"
+}

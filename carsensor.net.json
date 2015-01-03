@@ -1,0 +1,71 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://carsensor.net"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:48:33 UTC",
+  "id": "2052d5ca-ec1e-4fdd-be5f-e21f4b6384e1",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:48:34 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "CSSSID=500417314MUVFQ046882; path=/; domain=.carsensor.net, CSUUID=500417314MUVFQ095484; expires=Fri, 03-Apr-2015 19:48:34 GMT; path=/; domain=.carsensor.net, CS_TOP_MVBN=1.1422906514; expires=Mon, 02-Feb-2015 19:48:34 GMT, CS_TOP_MVBN_OFF=0, CS_USER_DATA=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.carsensor.net, CS_USER_SESSION=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.carsensor.net, CS_MEMBER_SESSION_S=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.carsensor.net; secure, CSSSID=500417314WTZDQ082893; path=/; domain=.carsensor.net, CSUUID=500417314WTZDQ007962; expires=Fri, 03-Apr-2015 19:48:34 GMT; path=/; domain=.carsensor.net, CSFAVNUM_500417314WTZDQ007962=0; expires=Fri, 03-Apr-2015 19:48:34 GMT; path=/; domain=.carsensor.net, CSFAVNUM_500417314WTZDQ007962=0; expires=Fri, 03-Apr-2015 19:48:34 GMT; path=/; domain=.carsensor.net"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Sat, 03 Jan 2015 19:48:34 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"NON DSP COR CURa ADMa DEVa CUSo TAIa PSDo OUR BUS UNI COM NAV STA\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "132058"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;carsensor.net&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:48:34 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;CSSSID=500417314MUVFQ046882; path=&#x2F;; domain=.carsensor.net, CSUUID=500417314MUVFQ095484; expires=Fri, 03-Apr-2015 19:48:34 GMT; path=&#x2F;; domain=.carsensor.net, CS_TOP_MVBN=1.1422906514; expires=Mon, 02-Feb-2015 19:48:34 GMT, CS_TOP_MVBN_OFF=0, CS_USER_DATA=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.carsensor.net, CS_USER_SESSION=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.carsensor.net, CS_MEMBER_SESSION_S=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.carsensor.net; secure, CSSSID=500417314WTZDQ082893; path=&#x2F;; domain=.carsensor.net, CSUUID=500417314WTZDQ007962; expires=Fri, 03-Apr-2015 19:48:34 GMT; path=&#x2F;; domain=.carsensor.net, CSFAVNUM_500417314WTZDQ007962=0; expires=Fri, 03-Apr-2015 19:48:34 GMT; path=&#x2F;; domain=.carsensor.net, CSFAVNUM_500417314WTZDQ007962=0; expires=Fri, 03-Apr-2015 19:48:34 GMT; path=&#x2F;; domain=.carsensor.net&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:48:34 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;NON DSP COR CURa ADMa DEVa CUSo TAIa PSDo OUR BUS UNI COM NAV STA\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;132058&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n",
+  "timestamp_end": "2015-01-03 19:48:35 UTC"
+}

@@ -6,8 +6,8 @@
       "name": "http://lynda.com"
     }
   },
-  "timestamp_start": "2015-01-03 19:40:38 UTC",
-  "id": "4c309ee4-ed06-4f33-ad8a-522d923f4d51",
+  "timestamp_start": "2015-01-03 19:47:11 UTC",
+  "id": "8a1effa9-4af5-4338-b691-baa2110bf4e4",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -55,7 +55,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "token=e50333f2-2b1a-44f5-a033-ff5f35be6409,8eb38e4e6d8da93590e0a508c9e3289a,EUD2eVuvBRwGpZCwbLe+RAlEnoSphVrPnPvU3iC9obSfv698fyB+JZkw0ydyz26kB96jzq0GC/mmMwnREstI6bQ0dURdJvqe3oJosknghdUOTLfjsAgFgnMQ4T4h48aQ; expires=Sat, 03-Jan-2015 23:40:38 GMT; path=/; HttpOnly, player_settings_0_7=player_type=2&video_format=2&cc_status=2&window_extra_height=148&volume_percentage=50&resolution=0&reset_on_plugins=True; expires=Fri, 23-Jan-2015 19:40:38 GMT; path=/, LyndaLoginStatus=Unknown-Not-Logged-In; domain=.lynda.com; expires=Fri, 03-Jan-2025 19:40:38 GMT; path=/, show-member-tour-cta=true; expires=Fri, 31-Dec-9999 23:59:59 GMT; path=/, NSC_tw5_xxx-iuuq_wt=ffffffffaf1a652245525d5f4f58455e445a4a423660;expires=Sat, 03-Jan-2015 19:47:55 GMT;path=/;httponly"
+        "content": "token=b9e1579f-8713-48e1-9229-faa0c84ed5e4,90d501f014312ad55fa75f8345cfe8e1,EUD2eVuvBRwGpZCwbLe+RAlEnoSphVrPnPvU3iC9obSfv698fyB+JZkw0ydyz26k12TlVQaYL5dCokRlzzMUs9FBMkSdfPPYT36Qu3HebCFcn1dii21nKF5++BjBs3fS; expires=Sat, 03-Jan-2015 23:47:12 GMT; path=/; HttpOnly, player_settings_0_7=player_type=2&video_format=2&cc_status=2&window_extra_height=148&volume_percentage=50&resolution=0&reset_on_plugins=True; expires=Fri, 23-Jan-2015 19:47:12 GMT; path=/, LyndaLoginStatus=Unknown-Not-Logged-In; domain=.lynda.com; expires=Fri, 03-Jan-2025 19:47:12 GMT; path=/, show-member-tour-cta=true; expires=Fri, 31-Dec-9999 23:59:59 GMT; path=/, NSC_tw5_xxx-iuuq_wt=ffffffffaf1a652c45525d5f4f58455e445a4a423660;expires=Sat, 03-Jan-2015 19:54:29 GMT;path=/;httponly"
       }
     },
     {
@@ -68,18 +68,25 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "from",
+        "content": "501417-WEB4"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 19:40:39 GMT"
+        "content": "Sat, 03 Jan 2015 19:47:12 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-length",
-        "content": "11144"
+        "content": "11142"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;lynda.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnetmvc-version&quot;, :content=&gt;&quot;2.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;token=e50333f2-2b1a-44f5-a033-ff5f35be6409,8eb38e4e6d8da93590e0a508c9e3289a,EUD2eVuvBRwGpZCwbLe+RAlEnoSphVrPnPvU3iC9obSfv698fyB+JZkw0ydyz26kB96jzq0GC&#x2F;mmMwnREstI6bQ0dURdJvqe3oJosknghdUOTLfjsAgFgnMQ4T4h48aQ; expires=Sat, 03-Jan-2015 23:40:38 GMT; path=&#x2F;; HttpOnly, player_settings_0_7=player_type=2&amp;video_format=2&amp;cc_status=2&amp;window_extra_height=148&amp;volume_percentage=50&amp;resolution=0&amp;reset_on_plugins=True; expires=Fri, 23-Jan-2015 19:40:38 GMT; path=&#x2F;, LyndaLoginStatus=Unknown-Not-Logged-In; domain=.lynda.com; expires=Fri, 03-Jan-2025 19:40:38 GMT; path=&#x2F;, show-member-tour-cta=true; expires=Fri, 31-Dec-9999 23:59:59 GMT; path=&#x2F;, NSC_tw5_xxx-iuuq_wt=ffffffffaf1a652245525d5f4f58455e445a4a423660;expires=Sat, 03-Jan-2015 19:47:55 GMT;path=&#x2F;;httponly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASPX.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:40:39 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;11144&quot;}\n",
-  "timestamp_end": "2015-01-03 19:40:39 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;lynda.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnetmvc-version&quot;, :content=&gt;&quot;2.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;token=b9e1579f-8713-48e1-9229-faa0c84ed5e4,90d501f014312ad55fa75f8345cfe8e1,EUD2eVuvBRwGpZCwbLe+RAlEnoSphVrPnPvU3iC9obSfv698fyB+JZkw0ydyz26k12TlVQaYL5dCokRlzzMUs9FBMkSdfPPYT36Qu3HebCFcn1dii21nKF5++BjBs3fS; expires=Sat, 03-Jan-2015 23:47:12 GMT; path=&#x2F;; HttpOnly, player_settings_0_7=player_type=2&amp;video_format=2&amp;cc_status=2&amp;window_extra_height=148&amp;volume_percentage=50&amp;resolution=0&amp;reset_on_plugins=True; expires=Fri, 23-Jan-2015 19:47:12 GMT; path=&#x2F;, LyndaLoginStatus=Unknown-Not-Logged-In; domain=.lynda.com; expires=Fri, 03-Jan-2025 19:47:12 GMT; path=&#x2F;, show-member-tour-cta=true; expires=Fri, 31-Dec-9999 23:59:59 GMT; path=&#x2F;, NSC_tw5_xxx-iuuq_wt=ffffffffaf1a652c45525d5f4f58455e445a4a423660;expires=Sat, 03-Jan-2015 19:54:29 GMT;path=&#x2F;;httponly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASPX.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;from&quot;, :content=&gt;&quot;501417-WEB4&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:47:12 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;11142&quot;}\n",
+  "timestamp_end": "2015-01-03 19:47:12 UTC"
 }

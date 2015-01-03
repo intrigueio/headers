@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://gymboree.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:48:42 UTC",
+  "id": "8c0f1626-897e-4aed-8651-0e56318972f5",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:48:44 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache/2.2.22 (Unix)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Host"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache=\"Set-Cookie\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"http://www.gymboree.com/w3c/p3p.xml\",CP=\"ALL DSP COR ADMa DEVa TAIa OUR STP UNI\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=BmfLJyHd3xJQ51GV7hNZhNT9QGvZng8nM2pJjM9LvrZnfkpJtSM7Wn7nH1P67WmhD9RGnJqLkS9fvYJ8PQQs2GV2sCTFGvytp4JVMH0fxpT4m5HjJ2ynzQTvLfJDqnkQ!1783326223; domain=.gymboree.com; path=/, bmSessionId=75LS3G79Vge4_14wi_15oa_AUqhpz75_8jfT_i4helhed_em6x; path=/, subscribe-gym=created; expires=Sunday, 03-Jan-2016 19:48:45 GMT; path=/, dtCookie=415F3D3F89951B587C1B9E3EAA8D7955|www.gymboree.com|1; Path=/; Domain=.gymboree.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Servlet/2.5 JSP/2.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-dynatrace-js-agent",
+        "content": "true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=ISO-8859-1"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;gymboree.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:48:44 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.22 (Unix)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Host&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache=\\&quot;Set-Cookie\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;http:&#x2F;&#x2F;www.gymboree.com&#x2F;w3c&#x2F;p3p.xml\\&quot;,CP=\\&quot;ALL DSP COR ADMa DEVa TAIa OUR STP UNI\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=BmfLJyHd3xJQ51GV7hNZhNT9QGvZng8nM2pJjM9LvrZnfkpJtSM7Wn7nH1P67WmhD9RGnJqLkS9fvYJ8PQQs2GV2sCTFGvytp4JVMH0fxpT4m5HjJ2ynzQTvLfJDqnkQ!1783326223; domain=.gymboree.com; path=&#x2F;, bmSessionId=75LS3G79Vge4_14wi_15oa_AUqhpz75_8jfT_i4helhed_em6x; path=&#x2F;, subscribe-gym=created; expires=Sunday, 03-Jan-2016 19:48:45 GMT; path=&#x2F;, dtCookie=415F3D3F89951B587C1B9E3EAA8D7955|www.gymboree.com|1; Path=&#x2F;; Domain=.gymboree.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Servlet&#x2F;2.5 JSP&#x2F;2.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dynatrace-js-agent&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=ISO-8859-1&quot;}\n",
+  "timestamp_end": "2015-01-03 19:48:46 UTC"
+}

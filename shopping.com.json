@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://shopping.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:43:32 UTC",
+  "id": "8b9f5cc5-1e06-4222-8be8-429980e94179",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"NOI CURa ADMa DEVa TAIa PSAa PSDa OTPa OUR BUS IND UNI COM NAV INT STA\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "btc=www.shopping.com; Domain=shopping.com; Expires=Sat, 10-Jan-2015 19:43:32 GMT; Path=/, JSESSIONID=61F0EF3C76F910F0FE7E36F87A81E4ED; Path=/, session=ts%3D2%5EPVS%3D1; Domain=.shopping.com; Path=/, reloadCheck=%2Fnull; Domain=.shopping.com; Path=/, pdscookie=0%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A1; Domain=.shopping.com; Path=/, perm=countryCode%3Dus; Domain=.shopping.com; Expires=Thu, 02-Jan-2025 19:43:32 GMT; Path=/, DealTimeUserID=vZHM5yCVZY; Domain=.shopping.com; Expires=Thu, 02-Jan-2025 19:43:32 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:43:31 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;shopping.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;NOI CURa ADMa DEVa TAIa PSAa PSDa OTPa OUR BUS IND UNI COM NAV INT STA\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;btc=www.shopping.com; Domain=shopping.com; Expires=Sat, 10-Jan-2015 19:43:32 GMT; Path=&#x2F;, JSESSIONID=61F0EF3C76F910F0FE7E36F87A81E4ED; Path=&#x2F;, session=ts%3D2%5EPVS%3D1; Domain=.shopping.com; Path=&#x2F;, reloadCheck=%2Fnull; Domain=.shopping.com; Path=&#x2F;, pdscookie=0%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A1; Domain=.shopping.com; Path=&#x2F;, perm=countryCode%3Dus; Domain=.shopping.com; Expires=Thu, 02-Jan-2025 19:43:32 GMT; Path=&#x2F;, DealTimeUserID=vZHM5yCVZY; Domain=.shopping.com; Expires=Thu, 02-Jan-2025 19:43:32 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:43:31 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n",
+  "timestamp_end": "2015-01-03 19:43:32 UTC"
+}

@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://producthunt.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:48:55 UTC",
+  "id": "66c45321-3cbc-4b9c-86ff-6132ba268f0a",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:48:57 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d648ff746f16645c311354b073fac92171420314537; expires=Sun, 03-Jan-16 19:48:57 GMT; path=/; domain=.producthunt.com; HttpOnly, track_code=eb5be0dd0f; path=/; expires=Sun, 03 Jan 2016 19:48:57 -0000, _producthunt_session_production=NHhqMVA2azVwWk0yNnZLT1dheUxjMlQrQ1QvbzRVUjh0Y01IM2ZiaXJ2aHArd2dqVUJIS0ptekFPRUxjVGtjUFppMzlnTGtGTlprcVFibnpmbGh1V292R01MME1xc1paYml4M1hFd050K01DdThYRE1NQ1NCYTR6V0NqWTNLcWU2V1pKcGhMWjZ1anphekVqRlVKRmlRPT0tLWR2ZkhXb0pxdUorK0xwWk8xeHg1Z0E9PQ%3D%3D--f7924d7f4ff12d01b71f5608e0cdb009d96b4d57; domain=.producthunt.com; path=/; expires=Wed, 29 Apr 2015 13:35:36 -0000; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"1000c859debcecab7701a0410f81658a\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "fa79d13c-3d02-4e40-bf20-99d757e337d9"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.131157"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 vegur"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1a31b78426170926-DFW"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;producthunt.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:48:57 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d648ff746f16645c311354b073fac92171420314537; expires=Sun, 03-Jan-16 19:48:57 GMT; path=&#x2F;; domain=.producthunt.com; HttpOnly, track_code=eb5be0dd0f; path=&#x2F;; expires=Sun, 03 Jan 2016 19:48:57 -0000, _producthunt_session_production=NHhqMVA2azVwWk0yNnZLT1dheUxjMlQrQ1QvbzRVUjh0Y01IM2ZiaXJ2aHArd2dqVUJIS0ptekFPRUxjVGtjUFppMzlnTGtGTlprcVFibnpmbGh1V292R01MME1xc1paYml4M1hFd050K01DdThYRE1NQ1NCYTR6V0NqWTNLcWU2V1pKcGhMWjZ1anphekVqRlVKRmlRPT0tLWR2ZkhXb0pxdUorK0xwWk8xeHg1Z0E9PQ%3D%3D--f7924d7f4ff12d01b71f5608e0cdb009d96b4d57; domain=.producthunt.com; path=&#x2F;; expires=Wed, 29 Apr 2015 13:35:36 -0000; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;1000c859debcecab7701a0410f81658a\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;fa79d13c-3d02-4e40-bf20-99d757e337d9&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.131157&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 vegur&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a31b78426170926-DFW&quot;}\n",
+  "timestamp_end": "2015-01-03 19:48:58 UTC"
+}

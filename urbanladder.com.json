@@ -1,0 +1,134 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://urbanladder.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:46:00 UTC",
+  "id": "2b757645-2411-42ce-b95f-2cf5fd68358f",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-store, max-age=0, must-revalidate, no-cache=\"set-cookie\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:46:04 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Fri, 01 Jan 1990 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.1.19"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "request_method=GET; path=/, _hercules_session=VnovN25ualdXYk80T0N0Ym9CMEpWcVN2K1ErTHp1cVJvNll3TXRHMis2VTlxRmppbkJ5Vm1oWitLUWUxYXBHOTl2RC8vb3NBVGxJRFBwSmhzZXNOMkN1ZDRUdTdmblRtYWxGWk9zWDM1SG1ZWFl0NXpkOG1HL2VKRXJ6cEppR0ZqWFFTN0IxejNOczlqbzZRWG5ZanVBdzE0UWNIQlJxMEdaeEVFVE1nNmM1UjM5WUtlcG94SzBLWTFFRjBOcUxrLS1LRWw4T3lEbU1ia0tKZVNVZ2o1ZjNBPT0%3D--2fc9d3b409eb02b95c433833b4b76c7f6533ced0; path=/; HttpOnly, AWSELB=4B3DF11CDCD8CFB8765FDEB4D38F76B8A6B99BCF66F69C47989332AB5C50EE38559AB250797B5222DA7B26146FF76272F369948B71347D100CAB7EF81689E8CAF9016110;PATH=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "31298677-1ca4-4b35-8a22-c719886658e2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.203573"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "13626"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;urbanladder.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, no-store, max-age=0, must-revalidate, no-cache=\\&quot;set-cookie\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:46:04 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Fri, 01 Jan 1990 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.1.19&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;request_method=GET; path=&#x2F;, _hercules_session=VnovN25ualdXYk80T0N0Ym9CMEpWcVN2K1ErTHp1cVJvNll3TXRHMis2VTlxRmppbkJ5Vm1oWitLUWUxYXBHOTl2RC8vb3NBVGxJRFBwSmhzZXNOMkN1ZDRUdTdmblRtYWxGWk9zWDM1SG1ZWFl0NXpkOG1HL2VKRXJ6cEppR0ZqWFFTN0IxejNOczlqbzZRWG5ZanVBdzE0UWNIQlJxMEdaeEVFVE1nNmM1UjM5WUtlcG94SzBLWTFFRjBOcUxrLS1LRWw4T3lEbU1ia0tKZVNVZ2o1ZjNBPT0%3D--2fc9d3b409eb02b95c433833b4b76c7f6533ced0; path=&#x2F;; HttpOnly, AWSELB=4B3DF11CDCD8CFB8765FDEB4D38F76B8A6B99BCF66F69C47989332AB5C50EE38559AB250797B5222DA7B26146FF76272F369948B71347D100CAB7EF81689E8CAF9016110;PATH=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;31298677-1ca4-4b35-8a22-c719886658e2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.203573&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;13626&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:46:05 UTC"
+}

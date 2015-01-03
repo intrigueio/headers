@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://virtex.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:55 UTC",
+  "id": "76ff9513-2f2e-4c34-9260-d6801c559dff",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.6.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:57 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=cff425704807b36bd0b926d7a5bfe7bf; expires=Sat, 03-Jan-2015 20:45:56 GMT; Max-Age=3600; path=/; domain=virtex.com; secure; HttpOnly, hl=en; expires=Sun, 03-Jan-2016 19:45:57 GMT; Max-Age=31536000; path=/, market=btc-usd; expires=Sun, 03-Jan-2016 19:45:57 GMT; Max-Age=31536000; path=/; domain=virtex.com; secure; httponly, incap_ses_197_167478=q4WtNvhu01jvh+Gdz+K7AvVGqFQAAAAAzW7emIn2bkQSc+d9QaFTqQ==; path=/; Domain=.virtex.com, visid_incap_167478=WDvq8+RXSN2EO+LtTbnu7fVGqFQAAAAAQUIPAAAAAADBglyN5tEKyYutiG1a3jyS; expires=Mon, 02 Jan 2017 18:10:36 GMT; path=/; Domain=.virtex.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=31536000; includeSubdomains;"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "10-44045976-44046032 NNNN CT(7 7 0) RT(1420314356301 243) q(0 0 0 -1) r(0 5)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cdn",
+        "content": "Incapsula"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;virtex.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:57 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=cff425704807b36bd0b926d7a5bfe7bf; expires=Sat, 03-Jan-2015 20:45:56 GMT; Max-Age=3600; path=&#x2F;; domain=virtex.com; secure; HttpOnly, hl=en; expires=Sun, 03-Jan-2016 19:45:57 GMT; Max-Age=31536000; path=&#x2F;, market=btc-usd; expires=Sun, 03-Jan-2016 19:45:57 GMT; Max-Age=31536000; path=&#x2F;; domain=virtex.com; secure; httponly, incap_ses_197_167478=q4WtNvhu01jvh+Gdz+K7AvVGqFQAAAAAzW7emIn2bkQSc+d9QaFTqQ==; path=&#x2F;; Domain=.virtex.com, visid_incap_167478=WDvq8+RXSN2EO+LtTbnu7fVGqFQAAAAAQUIPAAAAAADBglyN5tEKyYutiG1a3jyS; expires=Mon, 02 Jan 2017 18:10:36 GMT; path=&#x2F;; Domain=.virtex.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=31536000; includeSubdomains;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-iinfo&quot;, :content=&gt;&quot;10-44045976-44046032 NNNN CT(7 7 0) RT(1420314356301 243) q(0 0 0 -1) r(0 5)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cdn&quot;, :content=&gt;&quot;Incapsula&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:57 UTC"
+}

@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://kay.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:20 UTC",
+  "id": "47feda47-ff93-40ad-ba8c-ee29cd1c3e6e",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "No-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache,no-store,max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Jan 1970 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-dynatrace-js-agent",
+        "content": "true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-dynatrace",
+        "content": "PT=71232485;PA=1445368613;RS=dynaTrace Production Profile/20150103133048_0.session;SP=dynaTrace Production Profile;PS=-391812454"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:21 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=0000CwTiNXkIwCQTsNVTXkGvEqy:15vuvt234; Path=/, WC_PERSISTENT=5%2fLvEgXHk2FIptY1s8I%2ftDoT0OE%3d%0a%3b2015%2d01%2d03+14%3a45%3a21%2e185%5f1420314321185%2d8824%5f0; Expires=Mon, 02-Feb-15 19:45:20 GMT; Path=/, WC_SESSION_ESTABLISHED=true; Path=/, WC_PERSISTENT=4SyxXgtY5Xr%2fUG7RKouYEb22ffs%3d%0a%3b2015%2d01%2d03+14%3a45%3a21%2e188%5f1420314321185%2d8824%5f10101%5f%2d1002%2c%2d1%2cUSD%5f10101; Expires=Mon, 02-Feb-15 19:45:20 GMT; Path=/, WC_ACTIVEPOINTER=%2d1%2c10101; Path=/, WC_USERACTIVITY_-1002=%2d1002%2c10101%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cekk%2bTdP1XNBS99TCu4eGuizlOCIpOzkJQJFZ%2b8p0L01m4d3q%2fadgJ4mXrbeSjysN5cGjeIyi0HmUZWagDSOnlGqcM1rBt4sUoMt5d7wwUoflxRIwFagORT7%2bUkA1OrHZBAvgWCeCa3%2fWNQhnNuRRn%2bdEeR%2b6sMRh4cgsOYq13cVkLIcHrr0%2bpnIpggb3k8kSqzo7CQMyHFo9wQ4CLGwEXA%3d%3d; Path=/, WC_GENERIC_ACTIVITYDATA=[5363435227%3atrue%3afalse%3a0%3a6l0666zy1rkcf0FQ5ZhKTpKYL5E%3d][com.ibm.commerce.context.audit.AuditContext|1420314321185%2d8824][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][CTXSETNAME|Store][com.ibm.commerce.context.globalization.GlobalizationContext|%2d1%26USD%26%2d1%26USD][com.ibm.commerce.catalog.businesscontext.CatalogContext|10001%26null%26false%26false%26false][com.ibm.commerce.context.base.BaseContext|10101%26%2d1002%26%2d1002%26%2d1][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.entitlement.EntitlementContext|4000000000000000003%264000000000000000003%26null%26%2d2000%26null%26null%26null][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]; Path=/, dtCookie=C6DC13BA36720F91751CE47793714C53|Kay|1; Path=/; Domain=.kay.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;kay.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;No-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache,no-store,max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dynatrace-js-agent&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dynatrace&quot;, :content=&gt;&quot;PT=71232485;PA=1445368613;RS=dynaTrace Production Profile&#x2F;20150103133048_0.session;SP=dynaTrace Production Profile;PS=-391812454&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:21 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=0000CwTiNXkIwCQTsNVTXkGvEqy:15vuvt234; Path=&#x2F;, WC_PERSISTENT=5%2fLvEgXHk2FIptY1s8I%2ftDoT0OE%3d%0a%3b2015%2d01%2d03+14%3a45%3a21%2e185%5f1420314321185%2d8824%5f0; Expires=Mon, 02-Feb-15 19:45:20 GMT; Path=&#x2F;, WC_SESSION_ESTABLISHED=true; Path=&#x2F;, WC_PERSISTENT=4SyxXgtY5Xr%2fUG7RKouYEb22ffs%3d%0a%3b2015%2d01%2d03+14%3a45%3a21%2e188%5f1420314321185%2d8824%5f10101%5f%2d1002%2c%2d1%2cUSD%5f10101; Expires=Mon, 02-Feb-15 19:45:20 GMT; Path=&#x2F;, WC_ACTIVEPOINTER=%2d1%2c10101; Path=&#x2F;, WC_USERACTIVITY_-1002=%2d1002%2c10101%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cekk%2bTdP1XNBS99TCu4eGuizlOCIpOzkJQJFZ%2b8p0L01m4d3q%2fadgJ4mXrbeSjysN5cGjeIyi0HmUZWagDSOnlGqcM1rBt4sUoMt5d7wwUoflxRIwFagORT7%2bUkA1OrHZBAvgWCeCa3%2fWNQhnNuRRn%2bdEeR%2b6sMRh4cgsOYq13cVkLIcHrr0%2bpnIpggb3k8kSqzo7CQMyHFo9wQ4CLGwEXA%3d%3d; Path=&#x2F;, WC_GENERIC_ACTIVITYDATA=[5363435227%3atrue%3afalse%3a0%3a6l0666zy1rkcf0FQ5ZhKTpKYL5E%3d][com.ibm.commerce.context.audit.AuditContext|1420314321185%2d8824][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][CTXSETNAME|Store][com.ibm.commerce.context.globalization.GlobalizationContext|%2d1%26USD%26%2d1%26USD][com.ibm.commerce.catalog.businesscontext.CatalogContext|10001%26null%26false%26false%26false][com.ibm.commerce.context.base.BaseContext|10101%26%2d1002%26%2d1002%26%2d1][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.entitlement.EntitlementContext|4000000000000000003%264000000000000000003%26null%26%2d2000%26null%26null%26null][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]; Path=&#x2F;, dtCookie=C6DC13BA36720F91751CE47793714C53|Kay|1; Path=&#x2F;; Domain=.kay.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, User-Agent&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:21 UTC"
+}

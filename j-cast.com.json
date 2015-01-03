@@ -1,0 +1,71 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://j-cast.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:49:02 UTC",
+  "id": "51122b00-b558-43a6-ba73-dfa49b6db8df",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:49:01 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache/2.2.20"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.3.6"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ara=%D5%B5%C2%7E%F0%7Cbnq%88%FB%CD%25%EC%C4n%C3%3D%9D%B4X%E1r%99%DE%09%93QQp%F4%0C; expires=Mon, 02-Feb-2015 19:49:01 GMT; path=/; domain=j-cast.com, ekl=%D5%B5%C2%7E%F0%7Cbn%0C%ADH%23%0E%C8%ED%CB%B9%E8%D2%EB%AE%E2%B1%B7%DE%F6%F1%84%D37%86f%0E%11r%E2%1B%86%28%9E%18%EB%0AJ%28%F5%80%AF%F6%04P%D6%D9sq2%EE%13-%D1%FD%93%2F%29%C8%23%1C%E3%3B%D1f%9F%9D%9F%E7%87%E5%EC%BC%7B%E5b%88%F5%AB9%5EK%11I%DC%DB%B5%DF%D7%0CIWu%AA%1E%BA%2C%CE%A7%A9%05%95%BF%FC%26%AC%7D%11%7B%EF%B1%10%22%09%DE%08%9D%23%A6%C6d%3F%BD%CEp%18%C5%C0h2%2F%8B%A5%8B%13%87%8C%9A%BF7%FCfX%DF%A4%19; expires=Sun, 04-Jan-2015 19:49:01 GMT; path=/; domain=j-cast.com, wmp=%D5%B5%C2%7E%F0%7Cbn%E0%C9%93%F1%E2%B1%28%3C%D7_%01%0B%E3%2A2%D3; expires=Mon, 02-Feb-2015 19:49:01 GMT; path=/; domain=j-cast.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "23998"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;j-cast.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:49:01 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.20&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.3.6&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ara=%D5%B5%C2%7E%F0%7Cbnq%88%FB%CD%25%EC%C4n%C3%3D%9D%B4X%E1r%99%DE%09%93QQp%F4%0C; expires=Mon, 02-Feb-2015 19:49:01 GMT; path=&#x2F;; domain=j-cast.com, ekl=%D5%B5%C2%7E%F0%7Cbn%0C%ADH%23%0E%C8%ED%CB%B9%E8%D2%EB%AE%E2%B1%B7%DE%F6%F1%84%D37%86f%0E%11r%E2%1B%86%28%9E%18%EB%0AJ%28%F5%80%AF%F6%04P%D6%D9sq2%EE%13-%D1%FD%93%2F%29%C8%23%1C%E3%3B%D1f%9F%9D%9F%E7%87%E5%EC%BC%7B%E5b%88%F5%AB9%5EK%11I%DC%DB%B5%DF%D7%0CIWu%AA%1E%BA%2C%CE%A7%A9%05%95%BF%FC%26%AC%7D%11%7B%EF%B1%10%22%09%DE%08%9D%23%A6%C6d%3F%BD%CEp%18%C5%C0h2%2F%8B%A5%8B%13%87%8C%9A%BF7%FCfX%DF%A4%19; expires=Sun, 04-Jan-2015 19:49:01 GMT; path=&#x2F;; domain=j-cast.com, wmp=%D5%B5%C2%7E%F0%7Cbn%E0%C9%93%F1%E2%B1%28%3C%D7_%01%0B%E3%2A2%D3; expires=Mon, 02-Feb-2015 19:49:01 GMT; path=&#x2F;; domain=j-cast.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;23998&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n",
+  "timestamp_end": "2015-01-03 19:49:03 UTC"
+}

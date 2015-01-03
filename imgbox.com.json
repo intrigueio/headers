@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://imgbox.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:48:46 UTC",
+  "id": "c9d8254c-cdfb-4f1d-ada4-f8b60b8d24d3",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "request_method=GET; path=/, _imgbox_session=MDQ0UkorYmQ3UUhqZk0yMWoxbVhFNnVJN0lLSTMydy9QZ3E0RTlsYTVVUDlKU3FBVzRpUytKYjZLUVUrVXNuUjNocE1TZjh3RUlsTEVDc2pQcUZ1cmZQbC9JVlJ4dk8zNk52SnUzTHR3dGp1Q0RwKy9FZnRRSVNZbTZLVFdKU1NKVjVtSG96bHhoWEUxYkdWOHNTbnlLK3NjVFRXcnd4Ry9EZUQvbVBOSDhVK0t0c3pNN2EvcVhMUXJuK2JrbWVILS1MTXhWd0VtTlhKVFFwR1l4YkhjaFZBPT0%3D--4564f5c965b9c67b687e2f0b6d0e09304d6e50c8; path=/; expires=Sun, 03 Jan 2016 19:48:46 -0000; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "1c859f61-32b9-4b00-915f-bc5a36161a0a"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.005259"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Phusion Passenger 4.0.46"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:48:46 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.6.0 + Phusion Passenger 4.0.46"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;imgbox.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;request_method=GET; path=&#x2F;, _imgbox_session=MDQ0UkorYmQ3UUhqZk0yMWoxbVhFNnVJN0lLSTMydy9QZ3E0RTlsYTVVUDlKU3FBVzRpUytKYjZLUVUrVXNuUjNocE1TZjh3RUlsTEVDc2pQcUZ1cmZQbC9JVlJ4dk8zNk52SnUzTHR3dGp1Q0RwKy9FZnRRSVNZbTZLVFdKU1NKVjVtSG96bHhoWEUxYkdWOHNTbnlLK3NjVFRXcnd4Ry9EZUQvbVBOSDhVK0t0c3pNN2EvcVhMUXJuK2JrbWVILS1MTXhWd0VtTlhKVFFwR1l4YkhjaFZBPT0%3D--4564f5c965b9c67b687e2f0b6d0e09304d6e50c8; path=&#x2F;; expires=Sun, 03 Jan 2016 19:48:46 -0000; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;1c859f61-32b9-4b00-915f-bc5a36161a0a&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.005259&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger 4.0.46&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:48:46 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.0 + Phusion Passenger 4.0.46&quot;}\n",
+  "timestamp_end": "2015-01-03 19:48:46 UTC"
+}

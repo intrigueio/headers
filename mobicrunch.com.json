@@ -1,0 +1,57 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://mobicrunch.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:53 UTC",
+  "id": "3d8801a4-735e-443e-9692-724fc1c7c8dc",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close, close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "5085"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "9-41221486-0 0NNN RT(1420314354102 0) q(0 -1 -1 0) r(0 -1) B10(4,314,0)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "incap_ses_238_191748=gEkOS5SKeB3u5OYMA4xNA/JGqFQAAAAAXHKcj7n/QjLFDeDzCSZjKg==; path=/; Domain=.mobicrunch.com, visid_incap_191748=AqXqnRN2QfOHfD1i5IcezfJGqFQAAAAAQUIPAAAAAAAh8c8zul2q4NPZxZAKSnxl; expires=Mon, 02 Jan 2017 15:44:19 GMT; path=/; Domain=.mobicrunch.com"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;mobicrunch.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close, close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;5085&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-iinfo&quot;, :content=&gt;&quot;9-41221486-0 0NNN RT(1420314354102 0) q(0 -1 -1 0) r(0 -1) B10(4,314,0)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;incap_ses_238_191748=gEkOS5SKeB3u5OYMA4xNA&#x2F;JGqFQAAAAAXHKcj7n&#x2F;QjLFDeDzCSZjKg==; path=&#x2F;; Domain=.mobicrunch.com, visid_incap_191748=AqXqnRN2QfOHfD1i5IcezfJGqFQAAAAAQUIPAAAAAAAh8c8zul2q4NPZxZAKSnxl; expires=Mon, 02 Jan 2017 15:44:19 GMT; path=&#x2F;; Domain=.mobicrunch.com&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:54 UTC"
+}

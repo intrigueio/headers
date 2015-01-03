@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://nanapi.jp"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:43:50 UTC",
+  "id": "823f41a1-267b-4f65-b57a-69b38c395031",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate, no-cache=\"set-cookie\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:43:51 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.6.2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__ptc=0526a52c035e3fac8a12fc9c2c32fe1708094ce8; path=/; expires=Wed, 03 Jan 2035 19:43:51 -0000, __ttc=183af3d1887a906216edd9f533f90f008eb64468; path=/; expires=Sat, 03 Jan 2015 19:58:51 -0000, _nanapi_session=UlFzYksyQkpkUmdDeXBuK0NPUTBhOWNJNVdRdjVFZkM2Qlp3SU91azhZZGFWaDhCK1hiV0xrWUpPRTEwaW1heWhiNDhkOHZaQWpkbmYxVHQ3a0EyQkFYTHV5UFhEMi9WUXFMOFZ6ZG1LOVdGU1pGRVp3bFd4bXpRZ3pSSGRCZExsZDg5ZE55UHBReHZEZnloa05nenp3PT0tLVNTL3RrUExsVTFPYWxyRklpdTVBT2c9PQ%3D%3D--3b3e632a3920ab307c1dfb077aa11a0798bbb42d; path=/; HttpOnly, AWSELB=6B6131B91CD2B87D365515623063D11F4B52AFBB80EEEC78A9ACF60FAD8D1FFEBF9A43244937DAE9F7978ABE3E0C8FD4A1104A95D5AD21BD94881C06113AFFC39F8EB122C5;PATH=/;MAX-AGE=3600"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "9fcc1ae9-ff82-4015-ac40-4c29dd831179"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.054164"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "9882"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;nanapi.jp&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate, no-cache=\\&quot;set-cookie\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:43:51 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__ptc=0526a52c035e3fac8a12fc9c2c32fe1708094ce8; path=&#x2F;; expires=Wed, 03 Jan 2035 19:43:51 -0000, __ttc=183af3d1887a906216edd9f533f90f008eb64468; path=&#x2F;; expires=Sat, 03 Jan 2015 19:58:51 -0000, _nanapi_session=UlFzYksyQkpkUmdDeXBuK0NPUTBhOWNJNVdRdjVFZkM2Qlp3SU91azhZZGFWaDhCK1hiV0xrWUpPRTEwaW1heWhiNDhkOHZaQWpkbmYxVHQ3a0EyQkFYTHV5UFhEMi9WUXFMOFZ6ZG1LOVdGU1pGRVp3bFd4bXpRZ3pSSGRCZExsZDg5ZE55UHBReHZEZnloa05nenp3PT0tLVNTL3RrUExsVTFPYWxyRklpdTVBT2c9PQ%3D%3D--3b3e632a3920ab307c1dfb077aa11a0798bbb42d; path=&#x2F;; HttpOnly, AWSELB=6B6131B91CD2B87D365515623063D11F4B52AFBB80EEEC78A9ACF60FAD8D1FFEBF9A43244937DAE9F7978ABE3E0C8FD4A1104A95D5AD21BD94881C06113AFFC39F8EB122C5;PATH=&#x2F;;MAX-AGE=3600&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;9fcc1ae9-ff82-4015-ac40-4c29dd831179&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.054164&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;9882&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:43:51 UTC"
+}

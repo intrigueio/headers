@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://bizsugar.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:46:15 UTC",
+  "id": "b58546ac-771f-4212-ba23-f98d67e0d223",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:46:19 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache/2.2.27 (Unix) mod_ssl/2.2.27 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.4.30"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=d404c78eaac032068f7038bc7485475c; path=/, timesvisited3=1; expires=Sat, 10-Jan-2015 19:46:20 GMT, incap_ses_209_51074=gQ64SZe2uEQatJpxjoTmAgtHqFQAAAAAHNikCwEcyRSkCMXQTFmAHw==; path=/; Domain=.bizsugar.com, visid_incap_51074=UseGnJskSAKPQeoDc/CaOwtHqFQAAAAAQUIPAAAAAABZMFOtHdXdCW21czyya5nE; expires=Sun, 01 Jan 2017 21:17:38 GMT; path=/; Domain=.bizsugar.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "9-24019121-24019125 NNNN CT(34 -1 0) RT(1420314379021 0) q(0 0 0 4) r(4 4) U5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cdn",
+        "content": "Incapsula"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;bizsugar.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:46:19 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.27 (Unix) mod_ssl&#x2F;2.2.27 OpenSSL&#x2F;1.0.1e-fips mod_bwlimited&#x2F;1.4&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.4.30&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=d404c78eaac032068f7038bc7485475c; path=&#x2F;, timesvisited3=1; expires=Sat, 10-Jan-2015 19:46:20 GMT, incap_ses_209_51074=gQ64SZe2uEQatJpxjoTmAgtHqFQAAAAAHNikCwEcyRSkCMXQTFmAHw==; path=&#x2F;; Domain=.bizsugar.com, visid_incap_51074=UseGnJskSAKPQeoDc&#x2F;CaOwtHqFQAAAAAQUIPAAAAAABZMFOtHdXdCW21czyya5nE; expires=Sun, 01 Jan 2017 21:17:38 GMT; path=&#x2F;; Domain=.bizsugar.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-iinfo&quot;, :content=&gt;&quot;9-24019121-24019125 NNNN CT(34 -1 0) RT(1420314379021 0) q(0 0 0 4) r(4 4) U5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cdn&quot;, :content=&gt;&quot;Incapsula&quot;}\n",
+  "timestamp_end": "2015-01-03 19:46:20 UTC"
+}

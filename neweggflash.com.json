@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://neweggflash.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:01 UTC",
+  "id": "aa633bb3-de0b-402e-ae52-eeff1f40b52d",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "NEWEGG, NEG-Server"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "NV%5FNEWEGGMINICOOKIE=%7b%22ItemList%22%3a%5b%5d%2c%22qty%22%3a0%2c%22opt%22%3a%22%7b%5c%22exp%5c%22%3a%5c%222017-09-29T11%3a45%3a03.6103615-07%3a00%5c%22%2c%5c%22domain%5c%22%3a%5c%22.neweggflash.com%5c%22%2c%5c%22path%5c%22%3a%5c%22%2f%5c%22%2c%5c%22secure%5c%22%3afalse%7d%22%7d; domain=.neweggflash.com; expires=Fri, 29-Sep-2017 18:45:03 GMT; path=/, NV%5FNEWEGGCOOKIE=%7b%22opt%22%3a%22%7b%5c%22exp%5c%22%3a%5c%222017-09-29T11%3a45%3a03.6103615-07%3a00%5c%22%2c%5c%22domain%5c%22%3a%5c%22.neweggflash.com%5c%22%2c%5c%22path%5c%22%3a%5c%22%2f%5c%22%2c%5c%22secure%5c%22%3afalse%7d%22%7d; domain=.neweggflash.com; expires=Fri, 29-Sep-2017 18:45:03 GMT; path=/, NV%5FOTHERINFO=%7b%22st%22%3a0%2c%22sd%22%3a%22%22%2c%22hs%22%3afalse%2c%22hb%22%3afalse%2c%22hc%22%3afalse%2c%22sj%22%3afalse%2c%22opt%22%3a%22%7b%5c%22exp%5c%22%3a%5c%222017-09-29T11%3a45%3a03.6103615-07%3a00%5c%22%2c%5c%22domain%5c%22%3a%5c%22.neweggflash.com%5c%22%2c%5c%22path%5c%22%3a%5c%22%2f%5c%22%2c%5c%22secure%5c%22%3afalse%7d%22%7d; domain=.neweggflash.com; expires=Fri, 29-Sep-2017 18:45:03 GMT; path=/, NV%5FGL=%7b%22Content%22%3a%22%22%2c%22opt%22%3a%22%7b%5c%22exp%5c%22%3a%5c%222017-09-29T11%3a45%3a03.6103615-07%3a00%5c%22%2c%5c%22domain%5c%22%3a%5c%22.neweggflash.com%5c%22%2c%5c%22path%5c%22%3a%5c%22%2f%5c%22%2c%5c%22secure%5c%22%3afalse%7d%22%7d; domain=.neweggflash.com; expires=Fri, 29-Sep-2017 18:45:03 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-server-id",
+        "content": "118"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:03 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "age",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-served-by",
+        "content": "40009"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ver",
+        "content": "1230201401"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-newegg-flow",
+        "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-newegg-index",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;neweggflash.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;NEWEGG, NEG-Server&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;NV%5FNEWEGGMINICOOKIE=%7b%22ItemList%22%3a%5b%5d%2c%22qty%22%3a0%2c%22opt%22%3a%22%7b%5c%22exp%5c%22%3a%5c%222017-09-29T11%3a45%3a03.6103615-07%3a00%5c%22%2c%5c%22domain%5c%22%3a%5c%22.neweggflash.com%5c%22%2c%5c%22path%5c%22%3a%5c%22%2f%5c%22%2c%5c%22secure%5c%22%3afalse%7d%22%7d; domain=.neweggflash.com; expires=Fri, 29-Sep-2017 18:45:03 GMT; path=&#x2F;, NV%5FNEWEGGCOOKIE=%7b%22opt%22%3a%22%7b%5c%22exp%5c%22%3a%5c%222017-09-29T11%3a45%3a03.6103615-07%3a00%5c%22%2c%5c%22domain%5c%22%3a%5c%22.neweggflash.com%5c%22%2c%5c%22path%5c%22%3a%5c%22%2f%5c%22%2c%5c%22secure%5c%22%3afalse%7d%22%7d; domain=.neweggflash.com; expires=Fri, 29-Sep-2017 18:45:03 GMT; path=&#x2F;, NV%5FOTHERINFO=%7b%22st%22%3a0%2c%22sd%22%3a%22%22%2c%22hs%22%3afalse%2c%22hb%22%3afalse%2c%22hc%22%3afalse%2c%22sj%22%3afalse%2c%22opt%22%3a%22%7b%5c%22exp%5c%22%3a%5c%222017-09-29T11%3a45%3a03.6103615-07%3a00%5c%22%2c%5c%22domain%5c%22%3a%5c%22.neweggflash.com%5c%22%2c%5c%22path%5c%22%3a%5c%22%2f%5c%22%2c%5c%22secure%5c%22%3afalse%7d%22%7d; domain=.neweggflash.com; expires=Fri, 29-Sep-2017 18:45:03 GMT; path=&#x2F;, NV%5FGL=%7b%22Content%22%3a%22%22%2c%22opt%22%3a%22%7b%5c%22exp%5c%22%3a%5c%222017-09-29T11%3a45%3a03.6103615-07%3a00%5c%22%2c%5c%22domain%5c%22%3a%5c%22.neweggflash.com%5c%22%2c%5c%22path%5c%22%3a%5c%22%2f%5c%22%2c%5c%22secure%5c%22%3afalse%7d%22%7d; domain=.neweggflash.com; expires=Fri, 29-Sep-2017 18:45:03 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-server-id&quot;, :content=&gt;&quot;118&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:03 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-served-by&quot;, :content=&gt;&quot;40009&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ver&quot;, :content=&gt;&quot;1230201401&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-newegg-flow&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-newegg-index&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:04 UTC"
+}

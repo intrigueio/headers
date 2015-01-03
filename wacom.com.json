@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://wacom.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:13 UTC",
+  "id": "3692df91-9b59-410f-9666-55419ec8b175",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "*"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-store, no-cache=\"set-cookie\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:25 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/w3c/privacy.htm\", CP=\"NOI DSP COR NOR UNI STA\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/7.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "english global#lang=en-US; path=/, WacomGeoInfo=Lang=en-US&Site=English United States; expires=Sun, 03-Jan-2016 19:45:25 GMT; path=/, ASP.NET_SessionId=pj4gi3ziducdhvvwwvdumpge; path=/; HttpOnly, SC_ANALYTICS_GLOBAL_COOKIE=789595097ee943ed8b4add951b2c7163; expires=Fri, 03-Jan-2025 19:45:25 GMT; path=/; HttpOnly, SC_ANALYTICS_SESSION_COOKIE=039A6BCCBC0B4AF5A6D702C2A19115D8|1|pj4gi3ziducdhvvwwvdumpge; path=/; HttpOnly, sc_pview_shuser=; path=/, AWSELB=F9753F2F1EB309D196351527B5FE9803796E7480E2A79BD1FF0B96B5771AC9FB297A3B2759A938195B546E16CD8005CC01113843957E30EBDA1B49BBD5F628C5F1BFB219E8;PATH=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "23852"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;wacom.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;*&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, no-store, no-cache=\\&quot;set-cookie\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:25 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;privacy.htm\\&quot;, CP=\\&quot;NOI DSP COR NOR UNI STA\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;english global#lang=en-US; path=&#x2F;, WacomGeoInfo=Lang=en-US&amp;Site=English United States; expires=Sun, 03-Jan-2016 19:45:25 GMT; path=&#x2F;, ASP.NET_SessionId=pj4gi3ziducdhvvwwvdumpge; path=&#x2F;; HttpOnly, SC_ANALYTICS_GLOBAL_COOKIE=789595097ee943ed8b4add951b2c7163; expires=Fri, 03-Jan-2025 19:45:25 GMT; path=&#x2F;; HttpOnly, SC_ANALYTICS_SESSION_COOKIE=039A6BCCBC0B4AF5A6D702C2A19115D8|1|pj4gi3ziducdhvvwwvdumpge; path=&#x2F;; HttpOnly, sc_pview_shuser=; path=&#x2F;, AWSELB=F9753F2F1EB309D196351527B5FE9803796E7480E2A79BD1FF0B96B5771AC9FB297A3B2759A938195B546E16CD8005CC01113843957E30EBDA1B49BBD5F628C5F1BFB219E8;PATH=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;23852&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:15 UTC"
+}

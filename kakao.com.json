@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://kakao.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:49:37 UTC",
+  "id": "4247b490-385f-47a5-b7dd-193bb98930d8",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "_kakao-www-new_session=Rk83WHN3YndLNjVuU1pkY0tSamZrZ01VcnFBNXpMdFl4WTNYTkJ0UnY2NlVLVkFUUWh6eGcybEozOU9GVHRRd0JvdTcrcUNHMElqSGJvNURZNWtoMm5GeGI4NVdwd1AwOE1pVkJDSU56Rm0xeEcxdVRBWmN6L1B0U1IyMHYxbVU4aWNVNVBTQkpJdVlQLzRRVUFWUHgvSnlvMkxhb1dmbHdrMGJYSFVscm15eFpzRmZQS2swc0FDM0xrMlkxZ3MxVWgzT2J5TWFJQlQ2TkRsbkk5Vnk4QT09LS00NmNZaFNFSklxN0RNblBoNVJ1YjNRPT0%3D--0b92e432c636ea5cdeff0dd2928b3f686eb5962f; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "b999b852-562f-4161-b75c-d7a09ae64ef1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sun, 04 Jan 2015 04:49:37 KST"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;kakao.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_kakao-www-new_session=Rk83WHN3YndLNjVuU1pkY0tSamZrZ01VcnFBNXpMdFl4WTNYTkJ0UnY2NlVLVkFUUWh6eGcybEozOU9GVHRRd0JvdTcrcUNHMElqSGJvNURZNWtoMm5GeGI4NVdwd1AwOE1pVkJDSU56Rm0xeEcxdVRBWmN6L1B0U1IyMHYxbVU4aWNVNVBTQkpJdVlQLzRRVUFWUHgvSnlvMkxhb1dmbHdrMGJYSFVscm15eFpzRmZQS2swc0FDM0xrMlkxZ3MxVWgzT2J5TWFJQlQ2TkRsbkk5Vnk4QT09LS00NmNZaFNFSklxN0RNblBoNVJ1YjNRPT0%3D--0b92e432c636ea5cdeff0dd2928b3f686eb5962f; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;b999b852-562f-4161-b75c-d7a09ae64ef1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 04:49:37 KST&quot;}\n",
+  "timestamp_end": "2015-01-03 19:49:38 UTC"
+}

@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://yellowpages.ca"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:49:04 UTC",
+  "id": "8b41e792-8370-4291-a29e-3ce4c888369d",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:49:05 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "*"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-methods",
+        "content": "GET, POST, OPTIONS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, no-cache, no-store, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Sat, 03 Jan 2015 19:49:05 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-yp-info",
+        "content": "www.yellowpages.ca;1.4.6.4 (rev 50995.20141212.1132);ProdYPLDC"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "yp.analytics=%7B%22id%22%3A%22afcf4af3-775a-4915-bec5-b86e98cd0e91%22%7D; Domain=.yellowpages.ca; Expires=Sat, 03-Jan-2015 20:19:05 GMT; Path=/, yp.prefs=%7B%22loc%22%3A%22Toronto%2C+ON%22%2C%22locla%22%3A43.6485%2C%22loclo%22%3A-79.3853%2C%22po%22%3Atrue%7D; Domain=.yellowpages.ca; Path=/, TS01cbe734=01582184e8d8e8c28cbc094f3c0720952693d43e927d8b96e8defacddca63db103fc7073a1; Path=/, TS014875e2=01582184e8136ee0848bba4181cfecbc919121b77aee7368805ab8df5f96e818eeaa7262339bd5c2227702be9d8d3cd6e59b018d0653c143c4719d19591acac3e58796a5b1; path=/; domain=.yellowpages.ca"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP='required by microsoft internet explorer'"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-CA"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;yellowpages.ca&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:49:05 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;*&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-methods&quot;, :content=&gt;&quot;GET, POST, OPTIONS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:49:05 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-yp-info&quot;, :content=&gt;&quot;www.yellowpages.ca;1.4.6.4 (rev 50995.20141212.1132);ProdYPLDC&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;yp.analytics=%7B%22id%22%3A%22afcf4af3-775a-4915-bec5-b86e98cd0e91%22%7D; Domain=.yellowpages.ca; Expires=Sat, 03-Jan-2015 20:19:05 GMT; Path=&#x2F;, yp.prefs=%7B%22loc%22%3A%22Toronto%2C+ON%22%2C%22locla%22%3A43.6485%2C%22loclo%22%3A-79.3853%2C%22po%22%3Atrue%7D; Domain=.yellowpages.ca; Path=&#x2F;, TS01cbe734=01582184e8d8e8c28cbc094f3c0720952693d43e927d8b96e8defacddca63db103fc7073a1; Path=&#x2F;, TS014875e2=01582184e8136ee0848bba4181cfecbc919121b77aee7368805ab8df5f96e818eeaa7262339bd5c2227702be9d8d3cd6e59b018d0653c143c4719d19591acac3e58796a5b1; path=&#x2F;; domain=.yellowpages.ca&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=&#x27;required by microsoft internet explorer&#x27;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-CA&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:49:05 UTC"
+}

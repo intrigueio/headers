@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://192.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:43:37 UTC",
+  "id": "5ce3a746-9924-4c0d-8bca-badb85b2ca65",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:43:38 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=FA3A458B7BC1281E3160C71786E73969; Domain=.192.com; Path=/; HttpOnly, CUSTOMERCOOKIEID=WbzVlxFDoVHV11n00elliw2OkyE0BuL8nn0qDWdq%2Fg%2FQ%2F6fr; Domain=.192.com; Expires=Mon, 04-Jan-2016 01:32:24 GMT; Path=/, SESSION=DbffnkIX8VL57sn6qYljblFoP8Z82%2FTPqlmte8Y58GFmHaST; Domain=.192.com; Expires=Mon, 04-Jan-2016 01:32:24 GMT; Path=/, JAVA_SESSION=e8%2Ff70AUrHIaB5fsMkeu%2FAalNvjLGXoVVUc5GsZFfk4%3D; Domain=.192.com; Expires=Mon, 04-Jan-2016 01:32:24 GMT; Path=/, BIGipServerWeb_HTTP_Pool=302120970.20480.0000; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "4445"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;192.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:43:38 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=FA3A458B7BC1281E3160C71786E73969; Domain=.192.com; Path=&#x2F;; HttpOnly, CUSTOMERCOOKIEID=WbzVlxFDoVHV11n00elliw2OkyE0BuL8nn0qDWdq%2Fg%2FQ%2F6fr; Domain=.192.com; Expires=Mon, 04-Jan-2016 01:32:24 GMT; Path=&#x2F;, SESSION=DbffnkIX8VL57sn6qYljblFoP8Z82%2FTPqlmte8Y58GFmHaST; Domain=.192.com; Expires=Mon, 04-Jan-2016 01:32:24 GMT; Path=&#x2F;, JAVA_SESSION=e8%2Ff70AUrHIaB5fsMkeu%2FAalNvjLGXoVVUc5GsZFfk4%3D; Domain=.192.com; Expires=Mon, 04-Jan-2016 01:32:24 GMT; Path=&#x2F;, BIGipServerWeb_HTTP_Pool=302120970.20480.0000; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;4445&quot;}\n",
+  "timestamp_end": "2015-01-03 19:43:38 UTC"
+}

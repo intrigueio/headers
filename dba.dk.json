@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://dba.dk"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:43:38 UTC",
+  "id": "0ea88cbf-e2e4-457f-92c7-990623356d87",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "dbatracker=id=d17695b0-2850-41ce-a5f8-51ecfb5b3922; domain=.dba.dk; expires=Sun, 03-Jan-2016 19:43:40 GMT; path=/; HttpOnly, dbasession=id=f871da32-82bc-473a-81b6-bf1be9eee38e; path=/; HttpOnly, __RequestVerificationToken=_E_ImoPFo_r1dACWp4BW18fmjm92BgXZ-X2ToBzCHisNzWXGL2_EltJtusuzdmTHDJtjHqhc3uawFX7OvY47Dk6JCz5MS7kAUBLfMaDrj6s5yDK5TJvAkKpMR5IloqQg6ctiYA2; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:43:39 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "37768"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;dba.dk&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;dbatracker=id=d17695b0-2850-41ce-a5f8-51ecfb5b3922; domain=.dba.dk; expires=Sun, 03-Jan-2016 19:43:40 GMT; path=&#x2F;; HttpOnly, dbasession=id=f871da32-82bc-473a-81b6-bf1be9eee38e; path=&#x2F;; HttpOnly, __RequestVerificationToken=_E_ImoPFo_r1dACWp4BW18fmjm92BgXZ-X2ToBzCHisNzWXGL2_EltJtusuzdmTHDJtjHqhc3uawFX7OvY47Dk6JCz5MS7kAUBLfMaDrj6s5yDK5TJvAkKpMR5IloqQg6ctiYA2; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:43:39 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;37768&quot;}\n",
+  "timestamp_end": "2015-01-03 19:43:40 UTC"
+}

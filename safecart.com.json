@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://safecart.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:27 UTC",
+  "id": "9c44d64e-d2b4-403f-b10f-fad25e563c6e",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:28 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "RWSESSID=46v5pl71tq1rgkn87gr3gmeor2; path=/; HttpOnly, RWSERVERID=php-app4; path=/, incap_ses_210_115595=EFZnUqYhrkXOZdFDVRLqAtdGqFQAAAAAIemZn3p5z15e1vq/Aai8jA==; path=/; Domain=.safecart.com, visid_incap_115595=l6N1ygK6QxyIPO10/Kd5O9dGqFQAAAAAQUIPAAAAAACZVxplLCJh9D4yqWT8eHls; expires=Sun, 01 Jan 2017 21:20:05 GMT; path=/; Domain=.safecart.com, nlbi_115595=qdSAZQ0xRwmTGzJhx6BqzgAAAACcEl6eGhGc9QXy2NUA3X2J; path=/; Domain=.safecart.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "6-12983742-12983743 NNNN CT(61 61 0) RT(1420314327410 10) q(0 0 1 1) r(1 3) U2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cdn",
+        "content": "Incapsula"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;safecart.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:28 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;RWSESSID=46v5pl71tq1rgkn87gr3gmeor2; path=&#x2F;; HttpOnly, RWSERVERID=php-app4; path=&#x2F;, incap_ses_210_115595=EFZnUqYhrkXOZdFDVRLqAtdGqFQAAAAAIemZn3p5z15e1vq&#x2F;Aai8jA==; path=&#x2F;; Domain=.safecart.com, visid_incap_115595=l6N1ygK6QxyIPO10&#x2F;Kd5O9dGqFQAAAAAQUIPAAAAAACZVxplLCJh9D4yqWT8eHls; expires=Sun, 01 Jan 2017 21:20:05 GMT; path=&#x2F;; Domain=.safecart.com, nlbi_115595=qdSAZQ0xRwmTGzJhx6BqzgAAAACcEl6eGhGc9QXy2NUA3X2J; path=&#x2F;; Domain=.safecart.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-iinfo&quot;, :content=&gt;&quot;6-12983742-12983743 NNNN CT(61 61 0) RT(1420314327410 10) q(0 0 1 1) r(1 3) U2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cdn&quot;, :content=&gt;&quot;Incapsula&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:28 UTC"
+}

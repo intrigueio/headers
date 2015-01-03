@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://static.squarespace.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:49:30 UTC",
+  "id": "93db1d0a-65c0-40f4-b41b-330477d9ea8e",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:49:30 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "ECS (lga/13A2)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-contextid",
+        "content": "szvd3b3I/4CBGJimv"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-servedby",
+        "content": "ny1-prod6-web042.int.peer1.squarespace.net"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-via",
+        "content": "1.1 nyc-echo12.int.peer1.squarespace.net"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "1951"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;static.squarespace.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:49:30 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;ECS (lga&#x2F;13A2)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-contextid&quot;, :content=&gt;&quot;szvd3b3I&#x2F;4CBGJimv&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-servedby&quot;, :content=&gt;&quot;ny1-prod6-web042.int.peer1.squarespace.net&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-via&quot;, :content=&gt;&quot;1.1 nyc-echo12.int.peer1.squarespace.net&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;1951&quot;}\n",
+  "timestamp_end": "2015-01-03 19:49:30 UTC"
+}

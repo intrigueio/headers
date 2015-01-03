@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://mery.jp"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:44:13 UTC",
+  "id": "a2c2ffdd-dee2-41df-bf00-247f9acc2372",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:44:14 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "mtid=b7349e0a-287c-45eb-b040-ba0c65515da9; path=/; expires=Tue, 03-Jan-2017 19:44:14 GMT, _matome_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJTc5Nzk4ZDdjNzk0YjI0YjY1OTlkOGYxMjFhMWU1ZDgzBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMVlHTmpkNTMrZzdVTjAvamlDUTVBSDVDVVJjUGVkRmJhcEJsc3FSbUJOQnM9BjsARkkiEXByZXZpb3VzX3VybAY7AEYiBi8%3D--4dcb43286aac9b82d8a44873a903964843745483; path=/; expires=Tue, 03-Feb-2015 19:44:14 GMT; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "d1a8a7906bfe8e77679d05f1ff12a5c1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;mery.jp&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:44:14 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;mtid=b7349e0a-287c-45eb-b040-ba0c65515da9; path=&#x2F;; expires=Tue, 03-Jan-2017 19:44:14 GMT, _matome_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJTc5Nzk4ZDdjNzk0YjI0YjY1OTlkOGYxMjFhMWU1ZDgzBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMVlHTmpkNTMrZzdVTjAvamlDUTVBSDVDVVJjUGVkRmJhcEJsc3FSbUJOQnM9BjsARkkiEXByZXZpb3VzX3VybAY7AEYiBi8%3D--4dcb43286aac9b82d8a44873a903964843745483; path=&#x2F;; expires=Tue, 03-Feb-2015 19:44:14 GMT; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;d1a8a7906bfe8e77679d05f1ff12a5c1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:44:14 UTC"
+}

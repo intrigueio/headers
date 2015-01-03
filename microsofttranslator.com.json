@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://microsofttranslator.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:25 UTC",
+  "id": "25ca4aa8-9e41-48f9-8e74-ff0ac6a5a7ab",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/8.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "_FS=NU=1; domain=.bing.com; path=/, _SS=SID=4B1718CFBD2D4B6ABB5BAE45A4282F27; domain=.bing.com; path=/, SRCHD=AF=NOFORM; expires=Mon, 02-Jan-2017 19:45:25 GMT; domain=.bing.com; path=/, SRCHUID=V=2&GUID=79D75DBDC8524F10B551B730CCADA8B1; expires=Mon, 02-Jan-2017 19:45:25 GMT; path=/, SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20150103; expires=Mon, 02-Jan-2017 19:45:25 GMT; domain=.bing.com; path=/, _EDGE_S=F=1&SID=12F423723F0F6A871F1824563EE86B60; path=/; httponly; domain=bing.com, _EDGE_V=1; path=/; httponly; expires=Mon, 02-Jan-2017 19:45:25 GMT; domain=bing.com, MUID=3684D3CA9E9C636D2929D4EE9F7B622C; path=/; expires=Mon, 02-Jan-2017 19:45:25 GMT; domain=bing.com, MUIDB=3684D3CA9E9C636D2929D4EE9F7B622C; path=/; httponly; expires=Mon, 02-Jan-2017 19:45:25 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ms-trans-info",
+        "content": "s=63922"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnetmvc-version",
+        "content": "4.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge, IE=edge, IE=edge, IE=edge"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "edge-control",
+        "content": "no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnet-version",
+        "content": "4.0.30319"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-msedge-ref",
+        "content": "Ref A: 67160C46F78740AB8C87AD737FE12E11 Ref B: CA669872B3FF18A8D94A02E0B3CA9E21 Ref C: Sat Jan 03 11:45:25 2015 PST"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:24 GMT"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;microsofttranslator.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;8.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_FS=NU=1; domain=.bing.com; path=&#x2F;, _SS=SID=4B1718CFBD2D4B6ABB5BAE45A4282F27; domain=.bing.com; path=&#x2F;, SRCHD=AF=NOFORM; expires=Mon, 02-Jan-2017 19:45:25 GMT; domain=.bing.com; path=&#x2F;, SRCHUID=V=2&amp;GUID=79D75DBDC8524F10B551B730CCADA8B1; expires=Mon, 02-Jan-2017 19:45:25 GMT; path=&#x2F;, SRCHUSR=AUTOREDIR=0&amp;GEOVAR=&amp;DOB=20150103; expires=Mon, 02-Jan-2017 19:45:25 GMT; domain=.bing.com; path=&#x2F;, _EDGE_S=F=1&amp;SID=12F423723F0F6A871F1824563EE86B60; path=&#x2F;; httponly; domain=bing.com, _EDGE_V=1; path=&#x2F;; httponly; expires=Mon, 02-Jan-2017 19:45:25 GMT; domain=bing.com, MUID=3684D3CA9E9C636D2929D4EE9F7B622C; path=&#x2F;; expires=Mon, 02-Jan-2017 19:45:25 GMT; domain=bing.com, MUIDB=3684D3CA9E9C636D2929D4EE9F7B622C; path=&#x2F;; httponly; expires=Mon, 02-Jan-2017 19:45:25 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ms-trans-info&quot;, :content=&gt;&quot;s=63922&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnetmvc-version&quot;, :content=&gt;&quot;4.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge, IE=edge, IE=edge, IE=edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;edge-control&quot;, :content=&gt;&quot;no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-msedge-ref&quot;, :content=&gt;&quot;Ref A: 67160C46F78740AB8C87AD737FE12E11 Ref B: CA669872B3FF18A8D94A02E0B3CA9E21 Ref C: Sat Jan 03 11:45:25 2015 PST&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:24 GMT&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:25 UTC"
+}

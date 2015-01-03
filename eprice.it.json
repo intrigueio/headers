@@ -1,0 +1,92 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://eprice.it"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:44:43 UTC",
+  "id": "d5eaf797-ace7-4bdd-9dc7-bfd3187d52c2",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/8.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnet-version",
+        "content": "4.0.30319"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId=qhr3corxsdtwckuquxigwm4j; path=/; HttpOnly, keys=; path=/, SessionID=5bcd18c3-1a1b-4f8e-8010-c82ab70b0302; path=/, ExternalReferrer=; expires=Sat, 03-Jan-2015 21:44:42 GMT; path=/, CryptId=; path=/, CryptId=82efe99a350a4423967a03d09187709d; expires=Sat, 10-Jan-2015 19:44:42 GMT; path=/, epriceInfo=fqd2xKvl92IwCdA7OBOzLpQQiwToCGlIaddIWgpVUo+VkqeJGMeIDwft9Uj2qLiJCutKaAi/FO3TE3RPPv7o353GGiPwnl4OP4BN1aLr7bFtCME6haoWN12GHGqyRGhtwli+nC+76VVQ+uIx2vbYr/3BH3lySKMIP4BN1aLr7bFtCME6haoWN12GHGqyRGhtwli+nC+76VXrQ37BjMbkGg==; expires=Sun, 04-Jan-2015 19:44:42 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:44:41 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "39847"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;eprice.it&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;8.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ASP.NET_SessionId=qhr3corxsdtwckuquxigwm4j; path=&#x2F;; HttpOnly, keys=; path=&#x2F;, SessionID=5bcd18c3-1a1b-4f8e-8010-c82ab70b0302; path=&#x2F;, ExternalReferrer=; expires=Sat, 03-Jan-2015 21:44:42 GMT; path=&#x2F;, CryptId=; path=&#x2F;, CryptId=82efe99a350a4423967a03d09187709d; expires=Sat, 10-Jan-2015 19:44:42 GMT; path=&#x2F;, epriceInfo=fqd2xKvl92IwCdA7OBOzLpQQiwToCGlIaddIWgpVUo+VkqeJGMeIDwft9Uj2qLiJCutKaAi&#x2F;FO3TE3RPPv7o353GGiPwnl4OP4BN1aLr7bFtCME6haoWN12GHGqyRGhtwli+nC+76VVQ+uIx2vbYr&#x2F;3BH3lySKMIP4BN1aLr7bFtCME6haoWN12GHGqyRGhtwli+nC+76VXrQ37BjMbkGg==; expires=Sun, 04-Jan-2015 19:44:42 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:44:41 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;39847&quot;}\n",
+  "timestamp_end": "2015-01-03 19:44:44 UTC"
+}

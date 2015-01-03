@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://nextdoor.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:48:49 UTC",
+  "id": "64d19b2b-e929-4b94-98c1-816a27932b61",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache=\"set-cookie\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:48:49 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.4.2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "WERC=eda78074-2eb0-4267-aa23-55024faa7c901501031420314529; Domain=.nextdoor.com; expires=Sat, 03-Jan-2015 20:18:49 GMT; Max-Age=1800; Path=/, WE=3f3ae81a-5b14-4ca0-8308-4fccd1ff3ae6150103; Domain=.nextdoor.com; expires=Sat, 31-Dec-2016 19:48:49 GMT; Max-Age=62899200; Path=/, s=006081b16eceb8bc09af90ac53a6d3d2; Domain=.nextdoor.com; expires=Thu, 02-Jul-2015 19:48:49 GMT; httponly; Max-Age=15552000; Path=/; secure, AWSELB=5B59DD8B0E98D2CD7398FDCA398EA44C2DF48EA501A1B5EC4B284F14EF120C7C56B9652CA24D6D36876823354037CAECC255FE4C0F3FF34A36DE807477CAD83AA92F642353;PATH=/;MAX-AGE=600"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "11615"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;nextdoor.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache=\\&quot;set-cookie\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:48:49 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.4.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;WERC=eda78074-2eb0-4267-aa23-55024faa7c901501031420314529; Domain=.nextdoor.com; expires=Sat, 03-Jan-2015 20:18:49 GMT; Max-Age=1800; Path=&#x2F;, WE=3f3ae81a-5b14-4ca0-8308-4fccd1ff3ae6150103; Domain=.nextdoor.com; expires=Sat, 31-Dec-2016 19:48:49 GMT; Max-Age=62899200; Path=&#x2F;, s=006081b16eceb8bc09af90ac53a6d3d2; Domain=.nextdoor.com; expires=Thu, 02-Jul-2015 19:48:49 GMT; httponly; Max-Age=15552000; Path=&#x2F;; secure, AWSELB=5B59DD8B0E98D2CD7398FDCA398EA44C2DF48EA501A1B5EC4B284F14EF120C7C56B9652CA24D6D36876823354037CAECC255FE4C0F3FF34A36DE807477CAD83AA92F642353;PATH=&#x2F;;MAX-AGE=600&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, Cookie&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;11615&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:48:49 UTC"
+}

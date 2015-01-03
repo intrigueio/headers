@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://stocktwits.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:43:51 UTC",
+  "id": "fcae261b-7946-49c8-bf30-0f728fbb78b2",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:43:54 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=25"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "session_visits_count=1; path=/; expires=Wed, 03-Jan-2035 19:43:53 GMT, session_visit_counted=true; path=/; expires=Sat, 03-Jan-2015 20:13:53 GMT, quotes_port=2; path=/; expires=Fri, 03-Apr-2015 19:43:53 GMT, _stwts=BAh7CEkiD3Nlc3Npb25faWQGOgZFVEkiJTlkODA4ODc5NzcyYTVmMGNhZjA4YmFmODYyNzAwMzYzBjsAVEkiFGFuYWx5dGljc19xdWV1ZQY7AEZbAEkiEF9jc3JmX3Rva2VuBjsARkkiMVdrY243RDlXR2Jwcy9tYVpWR2JzMmt5VW1YcTFjTnhRMm04UGlrU3hTVU09BjsARg%3D%3D--3fbb112c570f0f19b1ee0a129a005c23333801f2; domain=.stocktwits.com; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "35adbb28e45451c70974d89112e7145b"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.093343"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;stocktwits.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:43:54 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;keep-alive&quot;, :content=&gt;&quot;timeout=25&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;session_visits_count=1; path=&#x2F;; expires=Wed, 03-Jan-2035 19:43:53 GMT, session_visit_counted=true; path=&#x2F;; expires=Sat, 03-Jan-2015 20:13:53 GMT, quotes_port=2; path=&#x2F;; expires=Fri, 03-Apr-2015 19:43:53 GMT, _stwts=BAh7CEkiD3Nlc3Npb25faWQGOgZFVEkiJTlkODA4ODc5NzcyYTVmMGNhZjA4YmFmODYyNzAwMzYzBjsAVEkiFGFuYWx5dGljc19xdWV1ZQY7AEZbAEkiEF9jc3JmX3Rva2VuBjsARkkiMVdrY243RDlXR2Jwcy9tYVpWR2JzMmt5VW1YcTFjTnhRMm04UGlrU3hTVU09BjsARg%3D%3D--3fbb112c570f0f19b1ee0a129a005c23333801f2; domain=.stocktwits.com; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;35adbb28e45451c70974d89112e7145b&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.093343&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n",
+  "timestamp_end": "2015-01-03 19:43:54 UTC"
+}

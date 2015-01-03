@@ -1,0 +1,127 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://groupon.my"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:31 UTC",
+  "id": "61bfa58d-931e-4811-9310-2d5b8ad08967",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:38 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-server",
+        "content": "web00"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "mobile=false; Version=1; Domain=.groupon.my; Max-Age=3600; Expires=Sat, 03-Jan-2015 20:45:38 GMT; Path=/, bcookie=\"b79fd47d-f7ed-4880-b90d-000863c42abc|||486\"; Expires=Tue, 31-Dec-2024 19:45:38 GMT; Max-Age=315360000; Domain=.groupon.my; Path=/; HttpOnly, b=7d0a78ec-0bde-4bdf-953e-85c1d8aee5f7; Version=1; Domain=.groupon.my; Max-Age=315360000; Expires=Tue, 31-Dec-2024 19:45:38 GMT; Path=/, s=0478159a-fb47-4c0a-b4cf-77ccf74c1c7b; Version=1; Domain=.groupon.my; Path=/, JSESSIONID=C03B4FBECD5B97EEC68B862189612A8B.jvm_app02_p3720; Path=/; HttpOnly, CID=MY_DTI_0_0_0_0%26date_created%3D2015-01-03+20-45-38-410; Domain=.groupon.my; Expires=Mon, 02-Feb-2015 19:45:38 GMT; Path=/, optin=\"\"; Version=1; Domain=.groupon.my; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, optin_remind=\"\"; Version=1; Domain=.groupon.my; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, optin_reminder=\"\"; Version=1; Domain=.groupon.my; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, visited-count=1; Domain=.groupon.my; Expires=Sun, 03-Jan-2016 19:45:38 GMT; Path=/, channel=local; Version=1; Domain=.groupon.my; Max-Age=2592000; Expires=Mon, 02-Feb-2015 19:45:38 GMT; Path=/, city=sabah; Version=1; Domain=.groupon.my; Max-Age=31104000; Expires=Tue, 29-Dec-2015 19:45:38 GMT; Path=/, city=sabah; Version=1; Domain=.groupon.my; Max-Age=31104000; Expires=Tue, 29-Dec-2015 19:45:38 GMT; Path=/, BIGipServerPool_720=504169482.53250.0000; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-instance",
+        "content": "app02_p3720"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-b-cookie",
+        "content": "7d0a78ec-0bde-4bdf-953e-85c1d8aee5f7"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-s-cookie",
+        "content": "0478159a-fb47-4c0a-b4cf-77ccf74c1c7b"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-store, max-age=1, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Jan 1970 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-MY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;groupon.my&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:38 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-server&quot;, :content=&gt;&quot;web00&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;mobile=false; Version=1; Domain=.groupon.my; Max-Age=3600; Expires=Sat, 03-Jan-2015 20:45:38 GMT; Path=&#x2F;, bcookie=\\&quot;b79fd47d-f7ed-4880-b90d-000863c42abc|||486\\&quot;; Expires=Tue, 31-Dec-2024 19:45:38 GMT; Max-Age=315360000; Domain=.groupon.my; Path=&#x2F;; HttpOnly, b=7d0a78ec-0bde-4bdf-953e-85c1d8aee5f7; Version=1; Domain=.groupon.my; Max-Age=315360000; Expires=Tue, 31-Dec-2024 19:45:38 GMT; Path=&#x2F;, s=0478159a-fb47-4c0a-b4cf-77ccf74c1c7b; Version=1; Domain=.groupon.my; Path=&#x2F;, JSESSIONID=C03B4FBECD5B97EEC68B862189612A8B.jvm_app02_p3720; Path=&#x2F;; HttpOnly, CID=MY_DTI_0_0_0_0%26date_created%3D2015-01-03+20-45-38-410; Domain=.groupon.my; Expires=Mon, 02-Feb-2015 19:45:38 GMT; Path=&#x2F;, optin=\\&quot;\\&quot;; Version=1; Domain=.groupon.my; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, optin_remind=\\&quot;\\&quot;; Version=1; Domain=.groupon.my; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, optin_reminder=\\&quot;\\&quot;; Version=1; Domain=.groupon.my; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, visited-count=1; Domain=.groupon.my; Expires=Sun, 03-Jan-2016 19:45:38 GMT; Path=&#x2F;, channel=local; Version=1; Domain=.groupon.my; Max-Age=2592000; Expires=Mon, 02-Feb-2015 19:45:38 GMT; Path=&#x2F;, city=sabah; Version=1; Domain=.groupon.my; Max-Age=31104000; Expires=Tue, 29-Dec-2015 19:45:38 GMT; Path=&#x2F;, city=sabah; Version=1; Domain=.groupon.my; Max-Age=31104000; Expires=Tue, 29-Dec-2015 19:45:38 GMT; Path=&#x2F;, BIGipServerPool_720=504169482.53250.0000; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-instance&quot;, :content=&gt;&quot;app02_p3720&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-b-cookie&quot;, :content=&gt;&quot;7d0a78ec-0bde-4bdf-953e-85c1d8aee5f7&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-s-cookie&quot;, :content=&gt;&quot;0478159a-fb47-4c0a-b4cf-77ccf74c1c7b&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, no-store, max-age=1, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-MY&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:39 UTC"
+}

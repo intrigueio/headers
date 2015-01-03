@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://nrgbinary.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:22 UTC",
+  "id": "b264899b-e3e0-4f62-b8f1-10a7e538d90f",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:19 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache/6.6.6"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "spotsession_1_2043133513=fb8b69e98f7611f871b02b52a1d9ffdf; path=/; domain=.nrgbinary.com, isLanguageTerriortyChecked=1, allowedDemoAccount=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, BOA=test; expires=Sat, 03-Jan-2015 18:45:19 GMT; path=/, incap_ses_209_63112=B0MgL68x/2+0DZpxjoTmAtNGqFQAAAAAiatoUuEAN1A/ST8N0UfItg==; path=/; Domain=.nrgbinary.com, visid_incap_63112=VPdnIHCfQwW7H3LLgT18/tJGqFQAAAAAQUIPAAAAAABffErPe4rRESQknmQL9O80; expires=Sun, 01 Jan 2017 21:17:26 GMT; path=/; Domain=.nrgbinary.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "8-21180121-21180122 NNNN CT(121 -1 0) RT(1420314322659 0) q(0 0 1 0) r(4 4) U11"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cdn",
+        "content": "Incapsula"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;nrgbinary.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:19 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;6.6.6&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;spotsession_1_2043133513=fb8b69e98f7611f871b02b52a1d9ffdf; path=&#x2F;; domain=.nrgbinary.com, isLanguageTerriortyChecked=1, allowedDemoAccount=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;, BOA=test; expires=Sat, 03-Jan-2015 18:45:19 GMT; path=&#x2F;, incap_ses_209_63112=B0MgL68x&#x2F;2+0DZpxjoTmAtNGqFQAAAAAiatoUuEAN1A&#x2F;ST8N0UfItg==; path=&#x2F;; Domain=.nrgbinary.com, visid_incap_63112=VPdnIHCfQwW7H3LLgT18&#x2F;tJGqFQAAAAAQUIPAAAAAABffErPe4rRESQknmQL9O80; expires=Sun, 01 Jan 2017 21:17:26 GMT; path=&#x2F;; Domain=.nrgbinary.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-iinfo&quot;, :content=&gt;&quot;8-21180121-21180122 NNNN CT(121 -1 0) RT(1420314322659 0) q(0 0 1 0) r(4 4) U11&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cdn&quot;, :content=&gt;&quot;Incapsula&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:23 UTC"
+}

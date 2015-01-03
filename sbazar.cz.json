@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://sbazar.cz"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:11 UTC",
+  "id": "2c956fd0-9a05-4e4b-a3ad-3bd47ff81db3",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.6.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:13 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 1 Jan 1970 08:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache=\"set-cookie\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__dd=MS4wIzEjMzIwIzMyMCNkZXNrdG9wI290aGVy; Domain=sbazar.cz; expires=Sun, 04-Jan-2015 20:45:13 GMT; Max-Age=86400; Path=/; HttpOnly, __sduid=aab498eb019d2345866ee00e11795bde9a6ef1b45768cc334f6b; Domain=sbazar.cz; Path=/; HttpOnly, __sburl=aHR0cDovL3d3dy5zYmF6YXIuY3ov; Domain=sbazar.cz; Path=/; HttpOnly, backUrl=Lw==; Domain=sbazar.cz; expires=Sat, 03-Jan-2015 21:15:13 GMT; Max-Age=1800; Path=/; HttpOnly, __dd=MS4wIzEjMzIwIzMyMCNkZXNrdG9wI290aGVy; Domain=sbazar.cz; expires=Sun, 04-Jan-2015 20:45:13 GMT; Max-Age=86400; Path=/; HttpOnly, __sduid=aab498eb019d2345866ee00e11795bde9a6ef1b45768cc334f6b; Domain=sbazar.cz; Path=/; HttpOnly, __sburl=aHR0cDovL3d3dy5zYmF6YXIuY3ov; Domain=sbazar.cz; Path=/; HttpOnly, backUrl=Lw==; Domain=sbazar.cz; expires=Sat, 03-Jan-2015 21:15:13 GMT; Max-Age=1800; Path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "NONE"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;sbazar.cz&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:13 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 1 Jan 1970 08:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache=\\&quot;set-cookie\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__dd=MS4wIzEjMzIwIzMyMCNkZXNrdG9wI290aGVy; Domain=sbazar.cz; expires=Sun, 04-Jan-2015 20:45:13 GMT; Max-Age=86400; Path=&#x2F;; HttpOnly, __sduid=aab498eb019d2345866ee00e11795bde9a6ef1b45768cc334f6b; Domain=sbazar.cz; Path=&#x2F;; HttpOnly, __sburl=aHR0cDovL3d3dy5zYmF6YXIuY3ov; Domain=sbazar.cz; Path=&#x2F;; HttpOnly, backUrl=Lw==; Domain=sbazar.cz; expires=Sat, 03-Jan-2015 21:15:13 GMT; Max-Age=1800; Path=&#x2F;; HttpOnly, __dd=MS4wIzEjMzIwIzMyMCNkZXNrdG9wI290aGVy; Domain=sbazar.cz; expires=Sun, 04-Jan-2015 20:45:13 GMT; Max-Age=86400; Path=&#x2F;; HttpOnly, __sduid=aab498eb019d2345866ee00e11795bde9a6ef1b45768cc334f6b; Domain=sbazar.cz; Path=&#x2F;; HttpOnly, __sburl=aHR0cDovL3d3dy5zYmF6YXIuY3ov; Domain=sbazar.cz; Path=&#x2F;; HttpOnly, backUrl=Lw==; Domain=sbazar.cz; expires=Sat, 03-Jan-2015 21:15:13 GMT; Max-Age=1800; Path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;NONE&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:13 UTC"
+}

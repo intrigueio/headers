@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://yota.ru"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:49 UTC",
+  "id": "f80662bd-4a63-40e8-83d5-62af373ad0d7",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "http://static.yota.ru"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=3494983450288A27BE67513F3E0EDF23; Path=/; HttpOnly, COOKIE_SUPPORT=true; Expires=Wed, 17-Aug-2061 22:27:59 GMT; Path=/; HttpOnly, GUEST_LANGUAGE_ID=ru_RU; Expires=Wed, 17-Aug-2061 22:27:59 GMT; Path=/; HttpOnly, GUEST_LANGUAGE_ID=ru_RU; Expires=Wed, 17-Aug-2061 22:27:59 GMT; Path=/; HttpOnly, COOKIE_SUPPORT=true; Expires=Wed, 17-Aug-2061 22:27:59 GMT; Path=/; HttpOnly, NSC_xxx.zpub.sv-ofx-mcwt-iuuq-8080=ffffffff090a874245525d5f4f58455e445a4a4229a0;expires=Sat, 03-Jan-2015 20:05:51 GMT;path=/;httponly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "liferay-portal",
+        "content": "Liferay Portal Enterprise Edition 6.2.10 EE GA1 (Newton / Build 6210 / November 1, 2013)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:50 GMT"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;yota.ru&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;static.yota.ru&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=3494983450288A27BE67513F3E0EDF23; Path=&#x2F;; HttpOnly, COOKIE_SUPPORT=true; Expires=Wed, 17-Aug-2061 22:27:59 GMT; Path=&#x2F;; HttpOnly, GUEST_LANGUAGE_ID=ru_RU; Expires=Wed, 17-Aug-2061 22:27:59 GMT; Path=&#x2F;; HttpOnly, GUEST_LANGUAGE_ID=ru_RU; Expires=Wed, 17-Aug-2061 22:27:59 GMT; Path=&#x2F;; HttpOnly, COOKIE_SUPPORT=true; Expires=Wed, 17-Aug-2061 22:27:59 GMT; Path=&#x2F;; HttpOnly, NSC_xxx.zpub.sv-ofx-mcwt-iuuq-8080=ffffffff090a874245525d5f4f58455e445a4a4229a0;expires=Sat, 03-Jan-2015 20:05:51 GMT;path=&#x2F;;httponly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;liferay-portal&quot;, :content=&gt;&quot;Liferay Portal Enterprise Edition 6.2.10 EE GA1 (Newton &#x2F; Build 6210 &#x2F; November 1, 2013)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:50 GMT&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:51 UTC"
+}

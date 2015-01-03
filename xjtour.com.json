@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://xjtour.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:42:49 UTC",
+  "id": "9ab55a58-0231-4a08-862f-f9f490f56d7e",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:46:10 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "XJTOUR.COM"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=tmobq26iagraokhglb1gp7peu7; path=/, lyh_uir=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/, lyh_uir=980syYzwzrdxshCWa1%2BjIaw35xkgT78AI45rV%2Bx1gFQbP%2FOpCevSZh0nhVGpzJ8A; expires=Mon, 05-Jan-2015 19:46:10 GMT; Max-Age=172800; path=/, lyh_mobile_is_mac=pcp9m97yyOdx; expires=Sat, 10-Jan-2015 19:46:10 GMT; Max-Age=604800; path=/, lyh_is_mobile_view=pcp9m97yyOdx; expires=Sat, 10-Jan-2015 19:46:10 GMT; Max-Age=604800; path=/, lyh_MobileType=pcp9m97yyOdx; expires=Sat, 10-Jan-2015 19:46:10 GMT; Max-Age=604800; path=/, lyh_svt=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/, lyh_svt=85t%2Fydryned4; expires=Sat, 10-Jan-2015 19:46:10 GMT; Max-Age=604800; path=/, lyh_tvi=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/, lyh_tvi=pMcpyY2lxe9z4hCUcluqP6w3sRklHLBSKo9rV%2BNw3QDMh1d90QMDyc%2BhaNL9yJxUs86U; expires=Sun, 04-Jan-2015 19:46:10 GMT; Max-Age=86400; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "20624"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;xjtour.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:46:10 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;XJTOUR.COM&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=tmobq26iagraokhglb1gp7peu7; path=&#x2F;, lyh_uir=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=&#x2F;, lyh_uir=980syYzwzrdxshCWa1%2BjIaw35xkgT78AI45rV%2Bx1gFQbP%2FOpCevSZh0nhVGpzJ8A; expires=Mon, 05-Jan-2015 19:46:10 GMT; Max-Age=172800; path=&#x2F;, lyh_mobile_is_mac=pcp9m97yyOdx; expires=Sat, 10-Jan-2015 19:46:10 GMT; Max-Age=604800; path=&#x2F;, lyh_is_mobile_view=pcp9m97yyOdx; expires=Sat, 10-Jan-2015 19:46:10 GMT; Max-Age=604800; path=&#x2F;, lyh_MobileType=pcp9m97yyOdx; expires=Sat, 10-Jan-2015 19:46:10 GMT; Max-Age=604800; path=&#x2F;, lyh_svt=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=&#x2F;, lyh_svt=85t%2Fydryned4; expires=Sat, 10-Jan-2015 19:46:10 GMT; Max-Age=604800; path=&#x2F;, lyh_tvi=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=&#x2F;, lyh_tvi=pMcpyY2lxe9z4hCUcluqP6w3sRklHLBSKo9rV%2BNw3QDMh1d90QMDyc%2BhaNL9yJxUs86U; expires=Sun, 04-Jan-2015 19:46:10 GMT; Max-Age=86400; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;20624&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n",
+  "timestamp_end": "2015-01-03 19:42:52 UTC"
+}

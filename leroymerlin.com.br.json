@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://leroymerlin.com.br"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:26 UTC",
+  "id": "2df127be-b464-4a87-b4f3-dd1ba45c5c1a",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:46:36 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "lm_session=eyJpdiI6IlFNZVE4VXlWWmR5UFhSdndGVXZKZ3FRQW4xcnNnczZVbkVVdFNOZCtpZlU9IiwidmFsdWUiOiJKS2dOV083RHlcL2RZbW5vUmhpSnFCK1VwY2hoeW1ZMFwvOTdoOE96Yk1KeWhlT1IxejZOWnlEeTJRWHdsZ0tEUTNEUGg1ZDd3em53bEhOMDFGYVVDbEFBPT0iLCJtYWMiOiJlODEyMTFiNzhmYjJjZGRjMTE4YjA4MGU2ZTU4ZjViZmY5NDA2MWY3MWJlZjBjNzcwY2Y4MjM2NWU0M2Y1ODQ1In0%3D; expires=Sun, 04-Jan-2015 07:46:37 GMT; path=/; httponly, 42e7b11ed639619eecc8ddec41916a89f1002f43=eyJpdiI6IlRXOUZralNOYmlRSjNwMmxTem9UaWI4QW9FRTYrb3RGc1BMS2JBeHRlXC93PSIsInZhbHVlIjoiellyZDM2dm1ubWRWZ1ZEeTlyeGgrNGJFMnVKbkpVXC9La2dMVHVQSDNkVENZUHpUMEVhRHJSVkxTMXlUcEtzcjdIOHo4Q2ZtRFwvYjlYU2dRcWZVeUpxK243bmJtVDJEXC9KSGwrOHdodnQ1ZGY5QzhERExBK0lTYlJidFpZd1k3UjVhUnlyUHhleDJ0ZlF0QTV0M01pZjh0cVVcL3JxWHlOeUNPckN3MlFQNVk5QTdKa0IyZGdKV0lWclwva1ZxSm5BNnRNNHExMm14b21KNTBTXC9kdXZybkZaMnROV01ZdXZBVzZ0azkxQ25ZZ1I3NGU2UGRiQ1hYV1ZyYjVxSHZlcGwrbFBkK0puSXJXQVdIRGRRMFR6cW0wUnFKdTFma3FpOFwveDVDNjRNbUV3a3hJPSIsIm1hYyI6IjE4YTNmMmZhNTFhYWZkYTdlMWY4NmE3NzNiODMwNzhkYWZmMjgzYTE3Zjg5MmM1OTU3MmUyYmEyN2Y5MTYwMWMifQ%3D%3D; expires=Sun, 04-Jan-2015 07:46:37 GMT; path=/; httponly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;leroymerlin.com.br&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:46:36 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;lm_session=eyJpdiI6IlFNZVE4VXlWWmR5UFhSdndGVXZKZ3FRQW4xcnNnczZVbkVVdFNOZCtpZlU9IiwidmFsdWUiOiJKS2dOV083RHlcL2RZbW5vUmhpSnFCK1VwY2hoeW1ZMFwvOTdoOE96Yk1KeWhlT1IxejZOWnlEeTJRWHdsZ0tEUTNEUGg1ZDd3em53bEhOMDFGYVVDbEFBPT0iLCJtYWMiOiJlODEyMTFiNzhmYjJjZGRjMTE4YjA4MGU2ZTU4ZjViZmY5NDA2MWY3MWJlZjBjNzcwY2Y4MjM2NWU0M2Y1ODQ1In0%3D; expires=Sun, 04-Jan-2015 07:46:37 GMT; path=&#x2F;; httponly, 42e7b11ed639619eecc8ddec41916a89f1002f43=eyJpdiI6IlRXOUZralNOYmlRSjNwMmxTem9UaWI4QW9FRTYrb3RGc1BMS2JBeHRlXC93PSIsInZhbHVlIjoiellyZDM2dm1ubWRWZ1ZEeTlyeGgrNGJFMnVKbkpVXC9La2dMVHVQSDNkVENZUHpUMEVhRHJSVkxTMXlUcEtzcjdIOHo4Q2ZtRFwvYjlYU2dRcWZVeUpxK243bmJtVDJEXC9KSGwrOHdodnQ1ZGY5QzhERExBK0lTYlJidFpZd1k3UjVhUnlyUHhleDJ0ZlF0QTV0M01pZjh0cVVcL3JxWHlOeUNPckN3MlFQNVk5QTdKa0IyZGdKV0lWclwva1ZxSm5BNnRNNHExMm14b21KNTBTXC9kdXZybkZaMnROV01ZdXZBVzZ0azkxQ25ZZ1I3NGU2UGRiQ1hYV1ZyYjVxSHZlcGwrbFBkK0puSXJXQVdIRGRRMFR6cW0wUnFKdTFma3FpOFwveDVDNjRNbUV3a3hJPSIsIm1hYyI6IjE4YTNmMmZhNTFhYWZkYTdlMWY4NmE3NzNiODMwNzhkYWZmMjgzYTE3Zjg5MmM1OTU3MmUyYmEyN2Y5MTYwMWMifQ%3D%3D; expires=Sun, 04-Jan-2015 07:46:37 GMT; path=&#x2F;; httponly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:28 UTC"
+}

@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://yunfile.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:43:42 UTC",
+  "id": "23edfd74-0304-43ad-ab12-9ec087de690a",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=1D936BE093F6DC8A9B210A70B181F568; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:43:44 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "MISS from yunfile.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-lookup",
+        "content": "MISS from yunfile.com:80"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 yunfile.com:80 (squid/2.7.STABLE9)"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;yunfile.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=1D936BE093F6DC8A9B210A70B181F568; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;, language=en_us; Domain=yunfile.com; Expires=Fri, 03-Apr-2015 19:43:44 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:43:44 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS from yunfile.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-lookup&quot;, :content=&gt;&quot;MISS from yunfile.com:80&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 yunfile.com:80 (squid&#x2F;2.7.STABLE9)&quot;}\n",
+  "timestamp_end": "2015-01-03 19:43:43 UTC"
+}

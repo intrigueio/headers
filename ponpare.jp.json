@@ -1,0 +1,57 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://ponpare.jp"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:43:46 UTC",
+  "id": "5e545b84-6f0a-4877-8fec-a5ccecf11360",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:43:47 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=2D7E547E19A65EA375070E9FD270935F.0701; Path=/, abtest=H4sIAAAAAAAAAA%3D%3DW%2FOWgbW4iEEwK7EsUa%2B0JDNHzyOxOMM3sYCV%2FdbBw2IJF5kZmNwYuHLyE1Pc%0D%0AEpNL8os8GThLMopSizPyc1IqCuwdGECAp5wDSAoAMWMJg4x%2BaTkQFRgAAZAuAdF%2B%2BUW5iTl6Kfkl%0D%0ADELFpcnJqcXF8QY6RgaGJoaGRqYVAFAneeKGAAAA; Expires=Mon, 02-Feb-2015 19:43:47 GMT; Path=/, PomSESSIONID=PomSESSIONIDtWacfpXTSkVLqdFNUHwDj6UqihIMy; Path=/, PomSession01=A284320e8zANBGoxFN78WCxyVEjshBTCCEj7PBDLuTgin0VIS0-HYI1yp3o9kU61xWVOK3ClBz2P74BEZdqyIvxVvhrrHk9QSU_QdNZySQv4z6f9dPfaiTv6jTaFt6q70FSahinPZb1cCb9NU3HF2i4u47UBrD90x5QqVQrj9ETvii8CqDVIK5wmneOpVnuXDwzxPs-wQm0X4k2ClqiwjoOyhAdGLSFZQAyNhvzXzFDdhCTl2S-8W6aTSFlGHCBmOjZMJF35RMaWcSfpYk2raSZ5-JtbJcsglW5_DPb63tKHUVrZW1L7c8NN3FYilQ5CqeNk-BPwkzb0HssS5-O_yu7_jB0L3r6l7ndyPYfPYlSfIdt7Ki_aO9484hQXnhqBGgN4faBkLRNARqht-48w7dQGa-04lcKJj0iXoWSozFNjgEU60YWU_GytCm7QffI6-5zGtvXXIFj_G-mWHouup_p8OA9AHPL15Vsz8njuDJeGCOHIV64Ka-kgbQc1rubG2ngc6uQzcRSx9u9RksogSrWXQMB5Q4YiFXLZJYcigJ0iyhw_vnJn7AUFpz0FWgIy17JaWQouAOV9NeW7vBm20sec7rZcPPw; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=Windows-31J"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"NON DSP COR CURa ADMa DEVa CUSo TAIa PSDo OUR BUS UNI COM NAV STA\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ponpare.jp&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:43:47 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=2D7E547E19A65EA375070E9FD270935F.0701; Path=&#x2F;, abtest=H4sIAAAAAAAAAA%3D%3DW%2FOWgbW4iEEwK7EsUa%2B0JDNHzyOxOMM3sYCV%2FdbBw2IJF5kZmNwYuHLyE1Pc%0D%0AEpNL8os8GThLMopSizPyc1IqCuwdGECAp5wDSAoAMWMJg4x%2BaTkQFRgAAZAuAdF%2B%2BUW5iTl6Kfkl%0D%0ADELFpcnJqcXF8QY6RgaGJoaGRqYVAFAneeKGAAAA; Expires=Mon, 02-Feb-2015 19:43:47 GMT; Path=&#x2F;, PomSESSIONID=PomSESSIONIDtWacfpXTSkVLqdFNUHwDj6UqihIMy; Path=&#x2F;, PomSession01=A284320e8zANBGoxFN78WCxyVEjshBTCCEj7PBDLuTgin0VIS0-HYI1yp3o9kU61xWVOK3ClBz2P74BEZdqyIvxVvhrrHk9QSU_QdNZySQv4z6f9dPfaiTv6jTaFt6q70FSahinPZb1cCb9NU3HF2i4u47UBrD90x5QqVQrj9ETvii8CqDVIK5wmneOpVnuXDwzxPs-wQm0X4k2ClqiwjoOyhAdGLSFZQAyNhvzXzFDdhCTl2S-8W6aTSFlGHCBmOjZMJF35RMaWcSfpYk2raSZ5-JtbJcsglW5_DPb63tKHUVrZW1L7c8NN3FYilQ5CqeNk-BPwkzb0HssS5-O_yu7_jB0L3r6l7ndyPYfPYlSfIdt7Ki_aO9484hQXnhqBGgN4faBkLRNARqht-48w7dQGa-04lcKJj0iXoWSozFNjgEU60YWU_GytCm7QffI6-5zGtvXXIFj_G-mWHouup_p8OA9AHPL15Vsz8njuDJeGCOHIV64Ka-kgbQc1rubG2ngc6uQzcRSx9u9RksogSrWXQMB5Q4YiFXLZJYcigJ0iyhw_vnJn7AUFpz0FWgIy17JaWQouAOV9NeW7vBm20sec7rZcPPw; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=Windows-31J&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;NON DSP COR CURa ADMa DEVa CUSo TAIa PSDo OUR BUS UNI COM NAV STA\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:43:48 UTC"
+}

@@ -1,0 +1,71 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://mypoints.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:49:11 UTC",
+  "id": "7dd1d626-7d2f-4c50-9cd0-23974c7520a7",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:49:12 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache/2.2.15 (CentOS)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Jan 1970 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "MIDA=;Path=/emp/u;Expires=Thu, 01 Jan 1970 00:00:00 GMT, MIDA=;Path=/emp/u/;Expires=Thu, 01 Jan 1970 00:00:00 GMT, GOSECURE=;Path=/emp/u;Expires=Thu, 01 Jan 1970 00:00:00 GMT, GOSECURE=;Path=/emp/u/;Expires=Thu, 01 Jan 1970 00:00:00 GMT, JSESSIONID=ojqa0osy9rg2.s5;Path=/emp/u;HttpOnly, HJS=ojqa0osy9rg2.s5;Path=/emp/u;HttpOnly, BID=7bx0qk03qtpq;Path=/emp;Expires=Thu, 02-Jul-15 19:49:12 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "No-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache,no-store,max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;mypoints.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:49:12 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.15 (CentOS)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;MIDA=;Path=&#x2F;emp&#x2F;u;Expires=Thu, 01 Jan 1970 00:00:00 GMT, MIDA=;Path=&#x2F;emp&#x2F;u&#x2F;;Expires=Thu, 01 Jan 1970 00:00:00 GMT, GOSECURE=;Path=&#x2F;emp&#x2F;u;Expires=Thu, 01 Jan 1970 00:00:00 GMT, GOSECURE=;Path=&#x2F;emp&#x2F;u&#x2F;;Expires=Thu, 01 Jan 1970 00:00:00 GMT, JSESSIONID=ojqa0osy9rg2.s5;Path=&#x2F;emp&#x2F;u;HttpOnly, HJS=ojqa0osy9rg2.s5;Path=&#x2F;emp&#x2F;u;HttpOnly, BID=7bx0qk03qtpq;Path=&#x2F;emp;Expires=Thu, 02-Jul-15 19:49:12 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;No-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache,no-store,max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:49:12 UTC"
+}

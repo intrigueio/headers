@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://autotrader.ca"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:46:16 UTC",
+  "id": "9fa23b9f-d789-4794-95d9-f6fb3f367001",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/7.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "culture=en-ca; path=/, uag=03C2B5B697AEBD2E9EEEB71E5DA77739C9A5204D7216F29B4A4CF86B011DCDDB; domain=autotrader.ca; expires=Mon, 02-Feb-2015 19:46:17 GMT; path=/, .ASPXANONYMOUS=CVElxx9e0AEkAAAAMThkYjExNWEtOWRhYS00YzA5LTlkYTAtZjU3ZDEyMGQ4MDg2ql4Sy_Lk36d3fZF-luZ65LTOzL81; expires=Sat, 14-Mar-2015 06:26:17 GMT; path=/; HttpOnly, ASP.NET_SessionId=lxy2lwaut5t3glyzdvzbfl1r; path=/; HttpOnly, ShowPushDownUntil=03/01/2015 3:06:17 PM; expires=Tue, 03-Mar-2015 19:46:17 GMT; path=/, NextShowPushDownDate=03/02/2015 2:46:17 PM; expires=Tue, 03-Mar-2015 19:46:17 GMT; path=/, at_uid=YV6UGiiHS0qD67FyIpyF2A%3d%3d; domain=autoTRADER.ca; expires=Sun, 03-Jan-2016 19:46:17 GMT; path=/, InternalSignInComplete=False; expires=Sun, 03-Jan-2016 19:46:17 GMT; path=/, DoubleClickSessionID=79503390975; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnet-version",
+        "content": "4.0.30319"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "s",
+        "content": "18"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:46:16 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "36022"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;autotrader.ca&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;culture=en-ca; path=&#x2F;, uag=03C2B5B697AEBD2E9EEEB71E5DA77739C9A5204D7216F29B4A4CF86B011DCDDB; domain=autotrader.ca; expires=Mon, 02-Feb-2015 19:46:17 GMT; path=&#x2F;, .ASPXANONYMOUS=CVElxx9e0AEkAAAAMThkYjExNWEtOWRhYS00YzA5LTlkYTAtZjU3ZDEyMGQ4MDg2ql4Sy_Lk36d3fZF-luZ65LTOzL81; expires=Sat, 14-Mar-2015 06:26:17 GMT; path=&#x2F;; HttpOnly, ASP.NET_SessionId=lxy2lwaut5t3glyzdvzbfl1r; path=&#x2F;; HttpOnly, ShowPushDownUntil=03&#x2F;01&#x2F;2015 3:06:17 PM; expires=Tue, 03-Mar-2015 19:46:17 GMT; path=&#x2F;, NextShowPushDownDate=03&#x2F;02&#x2F;2015 2:46:17 PM; expires=Tue, 03-Mar-2015 19:46:17 GMT; path=&#x2F;, at_uid=YV6UGiiHS0qD67FyIpyF2A%3d%3d; domain=autoTRADER.ca; expires=Sun, 03-Jan-2016 19:46:17 GMT; path=&#x2F;, InternalSignInComplete=False; expires=Sun, 03-Jan-2016 19:46:17 GMT; path=&#x2F;, DoubleClickSessionID=79503390975; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;s&quot;, :content=&gt;&quot;18&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:46:16 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;36022&quot;}\n",
+  "timestamp_end": "2015-01-03 19:46:17 UTC"
+}

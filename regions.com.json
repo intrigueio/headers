@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://regions.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:49:03 UTC",
+  "id": "5a32f679-5d6b-4e35-8c28-96d42bea7784",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/8.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "dynatrace",
+        "content": "PT=103381807;PA=971047521;RS=Regions/20150103125011_0.session;SP=Regions;PS=1440241242"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnet-version",
+        "content": "2.0.50727"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-dynatrace-js-agent",
+        "content": "true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-dynatrace",
+        "content": "PT=103381807;PA=971047521;RS=Regions/20150103125011_0.session;SP=Regions;PS=1440241242"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:48:11 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "11974"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId=bh3uoi45bywdgqimpjl4bf45; Path=/; HttpOnly, dtCookie=4CF4E87F98B30E4F2FB8AF62F1F5937F|Regions.com|1; Domain=.regions.com; Path=/, NSC_OFX.SFHJPOT.DPN-8080-XBG=ffffffff09ae160e45525d5f4f58455e445a4a4229a0; Path=/; Version=1; HttpOnly, RFAFWP=qc2c4mBGCSx2VJmq2VHezr/xNacA050; Domain=.regions.com; Path=/; HttpOnly, RFAFWP_.regions.com_%2F_wat=QVNQLk5FVF9TZXNzaW9uSWRf?D/C7WQ8XOxm2LeVc3MAVwlIdx4cA&ZHRDb29raWVf?v1ScDlbT8+wJU3k6irTqZMAmWMAA&TlNDX09GWC5TRkhKUE9ULkRQTi04MDgwLVhCR19f?g/r8Cy495lCbaIgblA+mWGc11M8A&; Domain=.regions.com; Path=/; HttpOnly"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;regions.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;8.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;dynatrace&quot;, :content=&gt;&quot;PT=103381807;PA=971047521;RS=Regions&#x2F;20150103125011_0.session;SP=Regions;PS=1440241242&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;2.0.50727&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dynatrace-js-agent&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dynatrace&quot;, :content=&gt;&quot;PT=103381807;PA=971047521;RS=Regions&#x2F;20150103125011_0.session;SP=Regions;PS=1440241242&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:48:11 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;11974&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ASP.NET_SessionId=bh3uoi45bywdgqimpjl4bf45; Path=&#x2F;; HttpOnly, dtCookie=4CF4E87F98B30E4F2FB8AF62F1F5937F|Regions.com|1; Domain=.regions.com; Path=&#x2F;, NSC_OFX.SFHJPOT.DPN-8080-XBG=ffffffff09ae160e45525d5f4f58455e445a4a4229a0; Path=&#x2F;; Version=1; HttpOnly, RFAFWP=qc2c4mBGCSx2VJmq2VHezr&#x2F;xNacA050; Domain=.regions.com; Path=&#x2F;; HttpOnly, RFAFWP_.regions.com_%2F_wat=QVNQLk5FVF9TZXNzaW9uSWRf?D&#x2F;C7WQ8XOxm2LeVc3MAVwlIdx4cA&amp;ZHRDb29raWVf?v1ScDlbT8+wJU3k6irTqZMAmWMAA&amp;TlNDX09GWC5TRkhKUE9ULkRQTi04MDgwLVhCR19f?g&#x2F;r8Cy495lCbaIgblA+mWGc11M8A&amp;; Domain=.regions.com; Path=&#x2F;; HttpOnly&quot;}\n",
+  "timestamp_end": "2015-01-03 19:49:06 UTC"
+}

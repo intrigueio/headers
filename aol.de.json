@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://aol.de"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:48:51 UTC",
+  "id": "cb1e6fe2-ad31-4313-962c-c1557d20c06e",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:48:51 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "RSP_CHECK_PORTAL_WWW.AOL.DE=deleted; expires=Thu Jan 01 00:17:51 1970 GMT; path=/; domain=www.aol.de, RSP_CHECK_PORTAL_WWW.AOL.DE=deleted; expires=Thu Jan 01 00:17:51 1970 GMT; path=/, RSP_CHECK_PORTAL_WWW.AOL.DE=deleted; expires=Thu Jan 01 00:17:51 1970 GMT; path=/; domain=aol.de, JSESSIONID=4F050E7AC65FCF0D251B1581F22B86D2; Path=/aol, tst=b%2C3%2Cdetest1; Expires=Mon, 02-Jan-2017 19:48:51 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-store, private, max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;;charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;aol.de&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:48:51 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;RSP_CHECK_PORTAL_WWW.AOL.DE=deleted; expires=Thu Jan 01 00:17:51 1970 GMT; path=&#x2F;; domain=www.aol.de, RSP_CHECK_PORTAL_WWW.AOL.DE=deleted; expires=Thu Jan 01 00:17:51 1970 GMT; path=&#x2F;, RSP_CHECK_PORTAL_WWW.AOL.DE=deleted; expires=Thu Jan 01 00:17:51 1970 GMT; path=&#x2F;; domain=aol.de, JSESSIONID=4F050E7AC65FCF0D251B1581F22B86D2; Path=&#x2F;aol, tst=b%2C3%2Cdetest1; Expires=Mon, 02-Jan-2017 19:48:51 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, no-store, private, max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;;charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-03 19:48:51 UTC"
+}

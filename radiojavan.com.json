@@ -1,0 +1,127 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://radiojavan.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:54 UTC",
+  "id": "62843943-b341-42f4-9c2e-c14021d3d9a6",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.6.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:44 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xhr-current-location",
+        "content": "/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "request_method=GET; path=/, _rj_web=BAh7CkkiD3Nlc3Npb25faWQGOgZFVEkiJWM0OGI2NDcwYWJhY2QyYzc3MWE3MGIwZTZjZDE0NzJmBjsAVEkiDGdlb2luZm8GOwBGewg6D2lwX2FkZHJlc3MiEzEwNC4yMzcuMTMzLjgzOgxleHBpcmVzSXU6CVRpbWUNdsAcgIrZZ7cHOgtvZmZzZXRp%2FrC5Ogl6b25lSSIIRVNUBjsAVDoHZGJ7EDoRY291bnRyeV9jb2RlSSIHVVMGOwBUOhJjb3VudHJ5X2NvZGUzSSIIVVNBBjsAVDoRY291bnRyeV9uYW1lSSISVW5pdGVkIFN0YXRlcwY7AFQ6C3JlZ2lvbkkiB05KBjsAVDoQcmVnaW9uX25hbWVJIg9OZXcgSmVyc2V5BjsAVDoJY2l0eUkiDEFic2Vjb24GOwBUOhBwb3N0YWxfY29kZUkiCjA4MjA1BjsAVDoNbGF0aXR1ZGVmFzM5LjQ4OTg5ODY4MTY0MDYyNToObG9uZ2l0dWRlZhctNzQuNDc3MzAyNTUxMjY5NTM6DWRtYV9jb2RlaQL4AToOYXJlYV9jb2RlaQJhAkkiF2Zyb250X2ludGVyc3RpdGlhbAY7AEZJdTsIDXPAHIC93Ge3CjoNbmFub19udW1pApYDOg1uYW5vX2RlbmkGOg1zdWJtaWNybyIHkYA7CWn%2BsLk7CkkiCEVTVAY7AFRJIh1mcm9udF9pbnRlcnN0aXRpYWxfY291bnQGOwBGaQZJIhBfY3NyZl90b2tlbgY7AEZJIjFZZWRIR2xSUXlIWFlscGtCYncyYTFJTlFxNk81SDI3eTRlaUMyV2ZLVDI0PQY7AEY%3D--77fac8b38e5b3aefc551f01c0419fe29d13f9f0c; domain=.radiojavan.com; path=/; expires=Mon, 04-Jan-2016 01:34:40 GMT; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "3efe04e30cd0f076efe3bb8bcdec707b"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.024878"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Phusion Passenger 4.0.33"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-credentials",
+        "content": "true"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;radiojavan.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:44 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xhr-current-location&quot;, :content=&gt;&quot;&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;request_method=GET; path=&#x2F;, _rj_web=BAh7CkkiD3Nlc3Npb25faWQGOgZFVEkiJWM0OGI2NDcwYWJhY2QyYzc3MWE3MGIwZTZjZDE0NzJmBjsAVEkiDGdlb2luZm8GOwBGewg6D2lwX2FkZHJlc3MiEzEwNC4yMzcuMTMzLjgzOgxleHBpcmVzSXU6CVRpbWUNdsAcgIrZZ7cHOgtvZmZzZXRp%2FrC5Ogl6b25lSSIIRVNUBjsAVDoHZGJ7EDoRY291bnRyeV9jb2RlSSIHVVMGOwBUOhJjb3VudHJ5X2NvZGUzSSIIVVNBBjsAVDoRY291bnRyeV9uYW1lSSISVW5pdGVkIFN0YXRlcwY7AFQ6C3JlZ2lvbkkiB05KBjsAVDoQcmVnaW9uX25hbWVJIg9OZXcgSmVyc2V5BjsAVDoJY2l0eUkiDEFic2Vjb24GOwBUOhBwb3N0YWxfY29kZUkiCjA4MjA1BjsAVDoNbGF0aXR1ZGVmFzM5LjQ4OTg5ODY4MTY0MDYyNToObG9uZ2l0dWRlZhctNzQuNDc3MzAyNTUxMjY5NTM6DWRtYV9jb2RlaQL4AToOYXJlYV9jb2RlaQJhAkkiF2Zyb250X2ludGVyc3RpdGlhbAY7AEZJdTsIDXPAHIC93Ge3CjoNbmFub19udW1pApYDOg1uYW5vX2RlbmkGOg1zdWJtaWNybyIHkYA7CWn%2BsLk7CkkiCEVTVAY7AFRJIh1mcm9udF9pbnRlcnN0aXRpYWxfY291bnQGOwBGaQZJIhBfY3NyZl90b2tlbgY7AEZJIjFZZWRIR2xSUXlIWFlscGtCYncyYTFJTlFxNk81SDI3eTRlaUMyV2ZLVDI0PQY7AEY%3D--77fac8b38e5b3aefc551f01c0419fe29d13f9f0c; domain=.radiojavan.com; path=&#x2F;; expires=Mon, 04-Jan-2016 01:34:40 GMT; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;3efe04e30cd0f076efe3bb8bcdec707b&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.024878&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger 4.0.33&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-credentials&quot;, :content=&gt;&quot;true&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:54 UTC"
+}

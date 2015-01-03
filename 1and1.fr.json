@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://1and1.fr"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:45:44 UTC",
+  "id": "36d0051b-6cbf-4125-bd71-e32d083d30f1",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:45:47 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=15"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "DPX=v1:iRXAiyUfxE:3Zp1m9UY:54a854ff:gb; Path=/; Expires=Sat, 03-Jan-15 20:45:46 GMT; HttpOnly, JSESSIONID=2A4205BD87301C115C24E63D7C167A4D.TC4b; Path=/; HttpOnly, variant.configname=2014-12-08; Expires=Thu, 21-Jan-2083 22:59:54 GMT; Path=/, variant=\"bGVhZDp2aDU4OS1h\"; Expires=Thu, 21-Jan-2083 22:59:54 GMT; Path=/, chocolateChip=\"iZ2E5LSoqLScnJSclIiUlIyUaHBsaLlNBMV53Y1w1J3JeYlxmWlFbRFZfVF49MDIvLC4rLSsrLSUoKW5YVV1SUl4oP05KTExTSXZvYWpfaWcwNjpJTjBCPzQ4RVJRKS0nKy0qJykmKCYmKCAjJBkdHxwwMi8xLy8xKSwt\"; Domain=.1and1.fr; Expires=Tue, 31-Dec-2024 19:45:47 GMT; Path=/, pfixUser=\"20150103204547-000.TC4b-1420314347046:::1420314347046\"; Version=1; Max-Age=2147483647; Expires=Thu, 21-Jan-2083 22:59:54 GMT; Path=/, chocolateChip=\"eVE49MS4uMSsrKSspJikpJykeIB8eG0AuHmJ7Z2A5K3ZiZmBqXlVfSFpjWGIqHR8cMDIvMS8vMSksLXJcWWFWVmIsQzs3OTlXTXpzZW5jbWs0PkRHRzs/N04zQjFKLkUrLyktLywpKygqKCgqIiojGx8hHhsdMTMxMTMrMywbOz9OUzVHRDk9M0A/FxssMDIvLC4rLSsrLSUoKR4iJCEeIB0fHTQ2LjEy\"; Domain=.1and1.fr; Expires=Tue, 31-Dec-2024 19:45:47 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/w3c/p3p.xml\", CP=\"CURi DEV TELi CONi TAI IVAi PSD ADM PSA CUR SAMi DELi OUR OTRi IND  INT COM NAV PRE DEM CNT PUR ONL PHY FIN CAO COR\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Mon, 05 Jul 1970 05:07:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "a3af31e7b6d1624899acab590ca2ec70"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;1and1.fr&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:47 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;keep-alive&quot;, :content=&gt;&quot;timeout=15&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;DPX=v1:iRXAiyUfxE:3Zp1m9UY:54a854ff:gb; Path=&#x2F;; Expires=Sat, 03-Jan-15 20:45:46 GMT; HttpOnly, JSESSIONID=2A4205BD87301C115C24E63D7C167A4D.TC4b; Path=&#x2F;; HttpOnly, variant.configname=2014-12-08; Expires=Thu, 21-Jan-2083 22:59:54 GMT; Path=&#x2F;, variant=\\&quot;bGVhZDp2aDU4OS1h\\&quot;; Expires=Thu, 21-Jan-2083 22:59:54 GMT; Path=&#x2F;, chocolateChip=\\&quot;iZ2E5LSoqLScnJSclIiUlIyUaHBsaLlNBMV53Y1w1J3JeYlxmWlFbRFZfVF49MDIvLC4rLSsrLSUoKW5YVV1SUl4oP05KTExTSXZvYWpfaWcwNjpJTjBCPzQ4RVJRKS0nKy0qJykmKCYmKCAjJBkdHxwwMi8xLy8xKSwt\\&quot;; Domain=.1and1.fr; Expires=Tue, 31-Dec-2024 19:45:47 GMT; Path=&#x2F;, pfixUser=\\&quot;20150103204547-000.TC4b-1420314347046:::1420314347046\\&quot;; Version=1; Max-Age=2147483647; Expires=Thu, 21-Jan-2083 22:59:54 GMT; Path=&#x2F;, chocolateChip=\\&quot;eVE49MS4uMSsrKSspJikpJykeIB8eG0AuHmJ7Z2A5K3ZiZmBqXlVfSFpjWGIqHR8cMDIvMS8vMSksLXJcWWFWVmIsQzs3OTlXTXpzZW5jbWs0PkRHRzs&#x2F;N04zQjFKLkUrLyktLywpKygqKCgqIiojGx8hHhsdMTMxMTMrMywbOz9OUzVHRDk9M0A&#x2F;FxssMDIvLC4rLSsrLSUoKR4iJCEeIB0fHTQ2LjEy\\&quot;; Domain=.1and1.fr; Expires=Tue, 31-Dec-2024 19:45:47 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;CURi DEV TELi CONi TAI IVAi PSD ADM PSA CUR SAMi DELi OUR OTRi IND  INT COM NAV PRE DEM CNT PUR ONL PHY FIN CAO COR\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Mon, 05 Jul 1970 05:07:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;a3af31e7b6d1624899acab590ca2ec70&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n",
+  "timestamp_end": "2015-01-03 19:45:47 UTC"
+}

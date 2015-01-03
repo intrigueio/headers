@@ -6,8 +6,8 @@
       "name": "http://allmusic.com"
     }
   },
-  "timestamp_start": "2015-01-03 19:41:22 UTC",
-  "id": "1f2be1de-0ea9-4e39-ba44-1cc98ac6353b",
+  "timestamp_start": "2015-01-03 19:47:55 UTC",
+  "id": "6af3277c-5e32-47ff-85d8-d3b76eed2eed",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -28,13 +28,6 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.4.26-1+deb.sury.org~precise+1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "allmusic_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%229fa7fdd3085b2382b26dd5a8f564c485%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A18%3A%222607%3Af700%3A1%3A83%3A%3A92%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420314083%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Dce264af18ec94688f605adcfc69c63a8; path=/, allmusic_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%229fa7fdd3085b2382b26dd5a8f564c485%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A18%3A%222607%3Af700%3A1%3A83%3A%3A92%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420314083%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3Bs%3A4%3A%22user%22%3Bi%3A0%3B%7D59daaf2bccb274d2bc2ebe5959704d3a; path=/"
       }
     },
     {
@@ -75,22 +68,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "age",
+        "content": "394"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-cache",
-        "content": "MISS from bb-all-isquid03.allmusic.amn, MISS from bb-all-esquid01.allmusic.amn"
+        "content": "HIT from bb-all-isquid03.allmusic.amn, MISS from bb-all-esquid02.allmusic.amn"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-lookup",
-        "content": "MISS from bb-all-isquid03.allmusic.amn:80, MISS from bb-all-esquid01.allmusic.amn:80"
+        "content": "HIT from bb-all-isquid03.allmusic.amn:80, MISS from bb-all-esquid02.allmusic.amn:80"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "1.0 bb-all-isquid03.allmusic.amn (squid/3.1.23), 1.0 bb-all-esquid01.allmusic.amn (squid/3.1.23)"
+        "content": "1.0 bb-all-isquid03.allmusic.amn (squid/3.1.23), 1.0 bb-all-esquid02.allmusic.amn (squid/3.1.23)"
       }
     },
     {
@@ -101,6 +101,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;allmusic.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:23 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.22 (Ubuntu)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.4.26-1+deb.sury.org~precise+1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;allmusic_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%229fa7fdd3085b2382b26dd5a8f564c485%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A18%3A%222607%3Af700%3A1%3A83%3A%3A92%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420314083%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Dce264af18ec94688f605adcfc69c63a8; path=&#x2F;, allmusic_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%229fa7fdd3085b2382b26dd5a8f564c485%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A18%3A%222607%3Af700%3A1%3A83%3A%3A92%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420314083%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3Bs%3A4%3A%22user%22%3Bi%3A0%3B%7D59daaf2bccb274d2bc2ebe5959704d3a; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:41:25 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;maxage=3600&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;16068&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS from bb-all-isquid03.allmusic.amn, MISS from bb-all-esquid01.allmusic.amn&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-lookup&quot;, :content=&gt;&quot;MISS from bb-all-isquid03.allmusic.amn:80, MISS from bb-all-esquid01.allmusic.amn:80&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.0 bb-all-isquid03.allmusic.amn (squid&#x2F;3.1.23), 1.0 bb-all-esquid01.allmusic.amn (squid&#x2F;3.1.23)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-03 19:41:25 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;allmusic.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:41:23 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.22 (Ubuntu)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.4.26-1+deb.sury.org~precise+1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:41:25 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;maxage=3600&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;16068&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;394&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;HIT from bb-all-isquid03.allmusic.amn, MISS from bb-all-esquid02.allmusic.amn&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-lookup&quot;, :content=&gt;&quot;HIT from bb-all-isquid03.allmusic.amn:80, MISS from bb-all-esquid02.allmusic.amn:80&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.0 bb-all-isquid03.allmusic.amn (squid&#x2F;3.1.23), 1.0 bb-all-esquid02.allmusic.amn (squid&#x2F;3.1.23)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:47:55 UTC"
 }

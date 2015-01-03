@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://qvc.de"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:44:48 UTC",
+  "id": "57bbd417-9bb1-4fff-87ce-db8f95f3995d",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "IBM_HTTP_Server"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-dynatrace",
+        "content": "PT=11888051;PA=1660336845;RS=International Commerce/20150103141240_0.session;SP=International Commerce;PS=-607108378"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "dynatrace",
+        "content": "PT=11888051;PA=1660336845;RS=International Commerce/20150103141240_0.session;SP=International Commerce;PS=-607108378"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "now"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "QVC Web Server"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnet-version",
+        "content": "1.21.366"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "de-DE"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:44:52 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "dc=1365; path=/; domain=qvc.de, JSESSIONID=00005dN1a1tpF_a1pCND8q1GT2a:16rkt6bar; Path=/, WC_PERSISTENT=WGCH9TUEyez4oOYBA%2fpPUK45uMg%3d%0a%3b2015%2d01%2d03+14%3a44%3a52%2e026%5f1420314292026%2d2152841%5f0; Expires=Mon, 02 Feb 2015 19:44:51 GMT; Path=/, akaau_bots=1420314592~id=587144d42670b11134f692c692bdd6c3; domain=.qvc.de; path=/"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;qvc.de&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;IBM_HTTP_Server&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dynatrace&quot;, :content=&gt;&quot;PT=11888051;PA=1660336845;RS=International Commerce&#x2F;20150103141240_0.session;SP=International Commerce;PS=-607108378&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;dynatrace&quot;, :content=&gt;&quot;PT=11888051;PA=1660336845;RS=International Commerce&#x2F;20150103141240_0.session;SP=International Commerce;PS=-607108378&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;now&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;QVC Web Server&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;1.21.366&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;de-DE&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:44:52 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;dc=1365; path=&#x2F;; domain=qvc.de, JSESSIONID=00005dN1a1tpF_a1pCND8q1GT2a:16rkt6bar; Path=&#x2F;, WC_PERSISTENT=WGCH9TUEyez4oOYBA%2fpPUK45uMg%3d%0a%3b2015%2d01%2d03+14%3a44%3a52%2e026%5f1420314292026%2d2152841%5f0; Expires=Mon, 02 Feb 2015 19:44:51 GMT; Path=&#x2F;, akaau_bots=1420314592~id=587144d42670b11134f692c692bdd6c3; domain=.qvc.de; path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 19:44:52 UTC"
+}

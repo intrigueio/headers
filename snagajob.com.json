@@ -1,0 +1,71 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://snagajob.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:44:20 UTC",
+  "id": "17598d2c-baf9-49cc-9888-20cef0b62fca",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.4.6 (Ubuntu)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:44:20 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.5.9-1ubuntu4.2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "sajNewVisitor=true; path=/; domain=snagajob.com, sajJsSession=682daeb4-81ec-fc9a-cf71-fcbd2253708b; expires=Sun, 03-Jan-2016 19:44:20 GMT; Max-Age=31536000; path=/; domain=snagajob.com, sajJsSessionSet=1420314260; expires=Sun, 03-Jan-2016 19:44:20 GMT; Max-Age=31536000; path=/; domain=snagajob.com, saj_ref=%7B%22refCode%22%3A%22bmktyp%22%2C%22refCodeParameter%22%3Anull%2C%22channelCode%22%3A%22bmktyp%22%2C%22dropDate%22%3A1420314260%2C%22sourceId%22%3A%22%22%7D; path=/; domain=snagajob.com, sajWTM=c39af2d2-5328-e350-653b-dfa5b8fc183a; expires=Thu, 02-Jan-2020 19:44:20 GMT; Max-Age=157680000; path=/; domain=snagajob.com, sajEventContext=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=snagajob.com, saj-headeranimatedcount=1; expires=Sat, 10-Jan-2015 19:44:20 GMT; Max-Age=604800; path=/; domain=snagajob.com, sajPageCount=1; expires=Sun, 03-Jan-2016 19:44:20 GMT; Max-Age=31536000; path=/; domain=snagajob.com, ac_display=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=snagajob.com, saj_promoview=%5B%7B%22count%22%3A1%2C%22id%22%3A%2221633536%22%7D%2C%7B%22count%22%3A1%2C%22id%22%3A%2221638712%22%7D%5D; expires=Sun, 04-Jan-2015 05:00:00 GMT; Max-Age=33340; path=/; domain=snagajob.com, SAJ_sess=%7B%22omnEvts%22%3A%7B%22value%22%3A%22%22%2C%22expire%22%3A0%7D%7D; path=/; domain=snagajob.com"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;snagajob.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.4.6 (Ubuntu)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:44:20 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.5.9-1ubuntu4.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;sajNewVisitor=true; path=&#x2F;; domain=snagajob.com, sajJsSession=682daeb4-81ec-fc9a-cf71-fcbd2253708b; expires=Sun, 03-Jan-2016 19:44:20 GMT; Max-Age=31536000; path=&#x2F;; domain=snagajob.com, sajJsSessionSet=1420314260; expires=Sun, 03-Jan-2016 19:44:20 GMT; Max-Age=31536000; path=&#x2F;; domain=snagajob.com, saj_ref=%7B%22refCode%22%3A%22bmktyp%22%2C%22refCodeParameter%22%3Anull%2C%22channelCode%22%3A%22bmktyp%22%2C%22dropDate%22%3A1420314260%2C%22sourceId%22%3A%22%22%7D; path=&#x2F;; domain=snagajob.com, sajWTM=c39af2d2-5328-e350-653b-dfa5b8fc183a; expires=Thu, 02-Jan-2020 19:44:20 GMT; Max-Age=157680000; path=&#x2F;; domain=snagajob.com, sajEventContext=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=&#x2F;; domain=snagajob.com, saj-headeranimatedcount=1; expires=Sat, 10-Jan-2015 19:44:20 GMT; Max-Age=604800; path=&#x2F;; domain=snagajob.com, sajPageCount=1; expires=Sun, 03-Jan-2016 19:44:20 GMT; Max-Age=31536000; path=&#x2F;; domain=snagajob.com, ac_display=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=&#x2F;; domain=snagajob.com, saj_promoview=%5B%7B%22count%22%3A1%2C%22id%22%3A%2221633536%22%7D%2C%7B%22count%22%3A1%2C%22id%22%3A%2221638712%22%7D%5D; expires=Sun, 04-Jan-2015 05:00:00 GMT; Max-Age=33340; path=&#x2F;; domain=snagajob.com, SAJ_sess=%7B%22omnEvts%22%3A%7B%22value%22%3A%22%22%2C%22expire%22%3A0%7D%7D; path=&#x2F;; domain=snagajob.com&quot;}\n",
+  "timestamp_end": "2015-01-03 19:44:21 UTC"
+}

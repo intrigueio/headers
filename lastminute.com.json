@@ -1,0 +1,99 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://lastminute.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:48:58 UTC",
+  "id": "d9b943e7-8174-48d9-b50c-3a051dc38e91",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "DCache:dcacheedge001"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-server",
+        "content": "DCache:dcacheedge001"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache=Set-Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Dec 1994 16:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Fri, 02 Jan 2015 15:50:05 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "requestuid",
+        "content": "VKhHqwocQroAAGtbJRUAAFAR"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:48:59 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "TLTSID=8F352D4093811093B9B3C729C9567698; Path=/; Domain=.lastminute.com, TLTUID=8F352D4093811093B9B3C729C9567698; Path=/; Domain=.lastminute.com; Expires=Sat, 03-01-2025 19:48:59 GMT, THROTTL3=0; path=/; domain=www.lastminute.com, TLTSID=8F33585893811093067EB687E634CBC1; Path=/; Domain=.lastminute.com, TLTUID=8F33585893811093067EB687E634CBC1; Path=/; Domain=.lastminute.com; Expires=Sat, 03-01-2025 19:48:59 GMT, tyrg1st=AA249A8A0A304E48; path=/; expires=Wed, 19 Feb 2020 14:28:00 GMT; domain=.lastminute.com"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;lastminute.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;DCache:dcacheedge001&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-server&quot;, :content=&gt;&quot;DCache:dcacheedge001&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache=Set-Cookie&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Dec 1994 16:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Fri, 02 Jan 2015 15:50:05 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;requestuid&quot;, :content=&gt;&quot;VKhHqwocQroAAGtbJRUAAFAR&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:48:59 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;TLTSID=8F352D4093811093B9B3C729C9567698; Path=&#x2F;; Domain=.lastminute.com, TLTUID=8F352D4093811093B9B3C729C9567698; Path=&#x2F;; Domain=.lastminute.com; Expires=Sat, 03-01-2025 19:48:59 GMT, THROTTL3=0; path=&#x2F;; domain=www.lastminute.com, TLTSID=8F33585893811093067EB687E634CBC1; Path=&#x2F;; Domain=.lastminute.com, TLTUID=8F33585893811093067EB687E634CBC1; Path=&#x2F;; Domain=.lastminute.com; Expires=Sat, 03-01-2025 19:48:59 GMT, tyrg1st=AA249A8A0A304E48; path=&#x2F;; expires=Wed, 19 Feb 2020 14:28:00 GMT; domain=.lastminute.com&quot;}\n",
+  "timestamp_end": "2015-01-03 19:48:59 UTC"
+}

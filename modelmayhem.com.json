@@ -1,0 +1,120 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://modelmayhem.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:48:34 UTC",
+  "id": "fdf68f66-e1b7-416a-9486-e7baed6e7f41",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=hedrd6o2udraq8im7ne2of6ti1; path=/; domain=.modelmayhem.com; HttpOnly, MM_SAT=bc44ab936e8aeae4302a4662f500114aef19c233d173c5f34927117c98a4e3af463cf90817c383c5fe857b33bcedce43ddbbb9ecd64609015017196dd10deb22; expires=Mon, 13-Apr-2015 19:48:32 GMT; Max-Age=8640000; path=/; domain=.modelmayhem.com; httponly, PHPSESSID=uce0qg5pegtq8jftlut6311t35; path=/; domain=.modelmayhem.com; HttpOnly, MM_SAT=3e98fd0ecea71625d661a9ef754a69ea85877fa77f44b00481da34c9a0964e11e6be6b4f29eef1baf68ee40a5cd4a3b39d68f9be828798b3f7139179f93e225a; expires=Mon, 13-Apr-2015 19:48:32 GMT; Max-Age=8640000; path=/; domain=.modelmayhem.com; httponly, worksafe=1; expires=Fri, 03-Apr-2015 19:48:32 GMT; Max-Age=7776000; path=/; domain=.modelmayhem.com, BIGipServermodelmayhem-web-http_POOL=3660713994.20480.0000; path=/, BIGipServermodelmayhem-varnish1_POOL=738267146.52514.0000; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "404"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "'ibf5scheme'",
+        "content": "http"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "ibf5scheme",
+        "content": "http"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "5041"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:48:32 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "age",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "private"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;modelmayhem.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=hedrd6o2udraq8im7ne2of6ti1; path=&#x2F;; domain=.modelmayhem.com; HttpOnly, MM_SAT=bc44ab936e8aeae4302a4662f500114aef19c233d173c5f34927117c98a4e3af463cf90817c383c5fe857b33bcedce43ddbbb9ecd64609015017196dd10deb22; expires=Mon, 13-Apr-2015 19:48:32 GMT; Max-Age=8640000; path=&#x2F;; domain=.modelmayhem.com; httponly, PHPSESSID=uce0qg5pegtq8jftlut6311t35; path=&#x2F;; domain=.modelmayhem.com; HttpOnly, MM_SAT=3e98fd0ecea71625d661a9ef754a69ea85877fa77f44b00481da34c9a0964e11e6be6b4f29eef1baf68ee40a5cd4a3b39d68f9be828798b3f7139179f93e225a; expires=Mon, 13-Apr-2015 19:48:32 GMT; Max-Age=8640000; path=&#x2F;; domain=.modelmayhem.com; httponly, worksafe=1; expires=Fri, 03-Apr-2015 19:48:32 GMT; Max-Age=7776000; path=&#x2F;; domain=.modelmayhem.com, BIGipServermodelmayhem-web-http_POOL=3660713994.20480.0000; path=&#x2F;, BIGipServermodelmayhem-varnish1_POOL=738267146.52514.0000; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;404&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;&#x27;ibf5scheme&#x27;&quot;, :content=&gt;&quot;http&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;ibf5scheme&quot;, :content=&gt;&quot;http&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;5041&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:48:32 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;private&quot;}\n",
+  "timestamp_end": "2015-01-03 19:48:35 UTC"
+}

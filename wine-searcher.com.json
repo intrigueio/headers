@@ -1,0 +1,78 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://wine-searcher.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:43:32 UTC",
+  "id": "1be5f7eb-6888-4e5d-8c5d-719477315896",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:43:33 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache/2.2.15 (CentOS) DAV/2 PHP/5.4.25 mod_ssl/2.2.15 OpenSSL/1.0.0-fips LML (luhr)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=ISO-8859-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "COOKIE_ID=R16LB2KMX9N00C3; path=/; expires=Fri, 31-Dec-2030 00:00:00 GMT, ID=R16LB2KMX9N00C3; path=/, IDPWD=I82154470; path=/, x=1; path=/; domain=wine-searcher.com, visit=R16LB2KMX9N00C3,20150103194333,index.lml,,end; path=/; domain=wine-searcher.com; expires=Tue, 31-Dec-2030 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-hostname",
+        "content": "luhr"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "10608"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;wine-searcher.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:43:33 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.15 (CentOS) DAV&#x2F;2 PHP&#x2F;5.4.25 mod_ssl&#x2F;2.2.15 OpenSSL&#x2F;1.0.0-fips LML (luhr)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=ISO-8859-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;COOKIE_ID=R16LB2KMX9N00C3; path=&#x2F;; expires=Fri, 31-Dec-2030 00:00:00 GMT, ID=R16LB2KMX9N00C3; path=&#x2F;, IDPWD=I82154470; path=&#x2F;, x=1; path=&#x2F;; domain=wine-searcher.com, visit=R16LB2KMX9N00C3,20150103194333,index.lml,,end; path=&#x2F;; domain=wine-searcher.com; expires=Tue, 31-Dec-2030 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-hostname&quot;, :content=&gt;&quot;luhr&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;10608&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n",
+  "timestamp_end": "2015-01-03 19:43:33 UTC"
+}

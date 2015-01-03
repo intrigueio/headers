@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://centurylink.net"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:44:08 UTC",
+  "id": "f616b4ee-572d-4f3e-afb4-db5c69fc9ca7",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:44:08 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "temporalchip=MTA0LjIzNy4xMzMuODM6MTQyMDMxNDI0OA%3D%3D; path=/; domain=.centurylink.net, eternalchip=MTA0LjIzNy4xMzMuODM6MTQyMDMxNDI0OA%3D%3D; expires=Mon, 02-Jan-2017 19:44:08 GMT; path=/; domain=.centurylink.net, session=e04decd0046a7b137173de51aed09c1bb7cd6181-1420314248; expires=Sun, 03-Jan-2016 19:44:08 GMT; path=/; domain=.centurylink.net, synmaxymizer3=1; expires=Sat, 10-Jan-2015 19:44:08 GMT; path=/; domain=.centurylink.net, Synacor_0=%7B%22peridot_livefeedback0ctl_referring_url%22%3A%5B1483386248%2Cnull%5D%2C%22peridot_liveads31pc%22%3A%5B1420314548%2C%22%22%5D%7D; expires=Tue, 03-Jan-2017 19:44:08 GMT; path=/; domain=.centurylink.net, Synacor_1=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.centurylink.net"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"ALL DSP COR TAIa PSAa PSDa IVAa IVDa CONi OUR IND UNI\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "83172528"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "age",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;centurylink.net&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:44:08 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;temporalchip=MTA0LjIzNy4xMzMuODM6MTQyMDMxNDI0OA%3D%3D; path=&#x2F;; domain=.centurylink.net, eternalchip=MTA0LjIzNy4xMzMuODM6MTQyMDMxNDI0OA%3D%3D; expires=Mon, 02-Jan-2017 19:44:08 GMT; path=&#x2F;; domain=.centurylink.net, session=e04decd0046a7b137173de51aed09c1bb7cd6181-1420314248; expires=Sun, 03-Jan-2016 19:44:08 GMT; path=&#x2F;; domain=.centurylink.net, synmaxymizer3=1; expires=Sat, 10-Jan-2015 19:44:08 GMT; path=&#x2F;; domain=.centurylink.net, Synacor_0=%7B%22peridot_livefeedback0ctl_referring_url%22%3A%5B1483386248%2Cnull%5D%2C%22peridot_liveads31pc%22%3A%5B1420314548%2C%22%22%5D%7D; expires=Tue, 03-Jan-2017 19:44:08 GMT; path=&#x2F;; domain=.centurylink.net, Synacor_1=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.centurylink.net&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;ALL DSP COR TAIa PSAa PSDa IVAa IVDa CONi OUR IND UNI\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;83172528&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n",
+  "timestamp_end": "2015-01-03 19:44:08 UTC"
+}

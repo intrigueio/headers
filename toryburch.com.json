@@ -1,0 +1,85 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://toryburch.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:49:37 UTC",
+  "id": "e3aca53e-397f-4a68-b8aa-e929c62c0e57",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:49:37 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Demandware eCommerce Server"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "dwac_bcK1Uiaag3VtQaaacPokYWBAtR=nJ9ObHs1HCUTntjIbjhK70ihhEtaz13dmFA%3D|demandaafhtoryburchus|||USD|false|US%2FEastern|true; Path=/, sr_token=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, dwpersonalization_9abe564a81388502d2cc4046fac2bf9c=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, sid=nJ9ObHs1HCUTntjIbjhK70ihhEtaz13dmFA; Path=/, dwanonymous_9abe564a81388502d2cc4046fac2bf9c=acapJ4Fgk7LsSQYO4WHjhafazq; Version=1; Comment=\"Demandware anonymous cookie for site Sites-ToryBurch_US-Site\"; Max-Age=15552000; Expires=Thu, 02-Jul-2015 19:49:37 GMT; Path=/, dwsid=IJDausGEFfNyF_6TIoYjs_SuEJ3gflQL-dm-EP1Hwi3m45UTSjGQswChqMIClmr31WKlsZWnBUrOAjsNoAZXTA==; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache,no-store,must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 01 Dec 1994 16:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "20511"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;toryburch.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:49:37 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Demandware eCommerce Server&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;dwac_bcK1Uiaag3VtQaaacPokYWBAtR=nJ9ObHs1HCUTntjIbjhK70ihhEtaz13dmFA%3D|demandaafhtoryburchus|||USD|false|US%2FEastern|true; Path=&#x2F;, sr_token=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, dwpersonalization_9abe564a81388502d2cc4046fac2bf9c=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, sid=nJ9ObHs1HCUTntjIbjhK70ihhEtaz13dmFA; Path=&#x2F;, dwanonymous_9abe564a81388502d2cc4046fac2bf9c=acapJ4Fgk7LsSQYO4WHjhafazq; Version=1; Comment=\\&quot;Demandware anonymous cookie for site Sites-ToryBurch_US-Site\\&quot;; Max-Age=15552000; Expires=Thu, 02-Jul-2015 19:49:37 GMT; Path=&#x2F;, dwsid=IJDausGEFfNyF_6TIoYjs_SuEJ3gflQL-dm-EP1Hwi3m45UTSjGQswChqMIClmr31WKlsZWnBUrOAjsNoAZXTA==; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache,no-store,must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Dec 1994 16:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;20511&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n",
+  "timestamp_end": "2015-01-03 19:49:37 UTC"
+}

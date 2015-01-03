@@ -1,0 +1,106 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://tanga.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 19:44:10 UTC",
+  "id": "f5ca82d5-9872-43f7-9b8b-dd931ed35e8c",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"f44d12d2230db7a8f9dc22a813786e87\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "db_session_id=47997ffe-1304-4ed3-a802-fe59d5914b4c; path=/; expires=Wed, 03 Jan 2035 19:44:10 -0000; HttpOnly; secure, last_action=%2F; path=/; secure, _session_1=ZnZjZ24vQ2Y4Z0s4Nmt2QmRWQlFZZTBmZmgzTWt4QkZwVyt6REgzL2U4aHJTaEpZdEZhUkdSK0R0Qk9neXp6VW1wVmVvSU5hSGQ5RFRMbkltNUJmMXRXcE1iREhscUxlc3NnOE42Q3ZDVWVnaW9uUHlMUC9iQlNXVU9qQmdpN2UtLTRJeEt0aS8zekVDdDA1WjJ6UkNLN3c9PQ%3D%3D--d0a2f67bfbbe02095a11db79b4d79222a63c420b; path=/; secure; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=31536000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "5df1f35d-3be6-45d3-835e-4d61b62b14ec"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.033732"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;tanga.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;f44d12d2230db7a8f9dc22a813786e87\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;db_session_id=47997ffe-1304-4ed3-a802-fe59d5914b4c; path=&#x2F;; expires=Wed, 03 Jan 2035 19:44:10 -0000; HttpOnly; secure, last_action=%2F; path=&#x2F;; secure, _session_1=ZnZjZ24vQ2Y4Z0s4Nmt2QmRWQlFZZTBmZmgzTWt4QkZwVyt6REgzL2U4aHJTaEpZdEZhUkdSK0R0Qk9neXp6VW1wVmVvSU5hSGQ5RFRMbkltNUJmMXRXcE1iREhscUxlc3NnOE42Q3ZDVWVnaW9uUHlMUC9iQlNXVU9qQmdpN2UtLTRJeEt0aS8zekVDdDA1WjJ6UkNLN3c9PQ%3D%3D--d0a2f67bfbbe02095a11db79b4d79222a63c420b; path=&#x2F;; secure; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=31536000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;5df1f35d-3be6-45d3-835e-4d61b62b14ec&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.033732&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 19:44:10 UTC"
+}
