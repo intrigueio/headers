@@ -6,21 +6,14 @@
       "name": "http://billboard.com"
     }
   },
-  "timestamp_start": "2015-01-03 19:47:16 UTC",
-  "id": "5ed48f3b-b7fc-45db-961b-0af27c3e4f0f",
+  "timestamp_start": "2015-01-03 20:00:18 UTC",
+  "id": "2affb182-3b8f-456d-8156-1e2b50c22959",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "accept-ranges",
         "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "age",
-        "content": "298"
       }
     },
     {
@@ -48,14 +41,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 19:47:16 GMT"
+        "content": "Sat, 03 Jan 2015 20:00:18 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1420313578-0\""
+        "content": "\"1420314438-0\""
       }
     },
     {
@@ -69,7 +62,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Sat, 03 Jan 2015 19:32:58 +0000"
+        "content": "Sat, 03 Jan 2015 19:47:18 +0000"
       }
     },
     {
@@ -83,7 +76,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.2.7"
+        "content": "ECS (ftw/FBE4)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -96,8 +96,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-cache",
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-cache-hits",
-        "content": "HIT (9)"
+        "content": "MISS"
       }
     },
     {
@@ -132,24 +139,24 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-trace",
-        "content": "1B4AF815B5AAFB5B8ACECCCDE17B6A253AB53BFA525950A7D17C3881E0"
+        "content": "1B2F2C51AB7CAC5C6BEFF3F5E19AC5E1AFD9FA68C1AE5D82CAF5BB1E5A"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1980877457 1980873148"
+        "content": "1670850675"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-length",
-        "content": "21387"
+        "content": "21367"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;billboard.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;298&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public, s-maxage=300, max-age=120&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:47:16 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;1420313578-0\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 19 Nov 1978 05:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:32:58 +0000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;link&quot;, :content=&gt;&quot;&lt;http:&#x2F;&#x2F;www.billboard.com&#x2F;&gt;; rel=\\&quot;canonical\\&quot;,&lt;http:&#x2F;&#x2F;www.billboard.com&#x2F;&gt;; rel=\\&quot;shortlink\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.2.7&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-hits&quot;, :content=&gt;&quot;HIT (9)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-debug-cookies&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-debug-log&quot;, :content=&gt;&quot;Removed cookies&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-drupal-cache&quot;, :content=&gt;&quot;HIT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-nx-host&quot;, :content=&gt;&quot;www.billboard.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-trace&quot;, :content=&gt;&quot;1B4AF815B5AAFB5B8ACECCCDE17B6A253AB53BFA525950A7D17C3881E0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1980877457 1980873148&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;21387&quot;}\n",
-  "timestamp_end": "2015-01-03 19:47:16 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;billboard.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public, s-maxage=300, max-age=120&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:00:18 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;1420314438-0\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 19 Nov 1978 05:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:47:18 +0000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;link&quot;, :content=&gt;&quot;&lt;http:&#x2F;&#x2F;www.billboard.com&#x2F;&gt;; rel=\\&quot;canonical\\&quot;,&lt;http:&#x2F;&#x2F;www.billboard.com&#x2F;&gt;; rel=\\&quot;shortlink\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;ECS (ftw&#x2F;FBE4)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;HIT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-hits&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-debug-cookies&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-debug-log&quot;, :content=&gt;&quot;Removed cookies&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-drupal-cache&quot;, :content=&gt;&quot;HIT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-nx-host&quot;, :content=&gt;&quot;www.billboard.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-trace&quot;, :content=&gt;&quot;1B2F2C51AB7CAC5C6BEFF3F5E19AC5E1AFD9FA68C1AE5D82CAF5BB1E5A&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1670850675&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;21367&quot;}\n",
+  "timestamp_end": "2015-01-03 20:00:18 UTC"
 }

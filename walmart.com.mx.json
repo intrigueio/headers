@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://walmart.com.mx"
+    }
+  },
+  "timestamp_start": "2015-01-03 20:02:26 UTC",
+  "id": "ea603fee-a455-4011-984a-8daa61133128",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=iso-8859-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "DENY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "WalMartGuest=C16317C7793B90BD8B07B91425D14F16A6A083C260E0E6B8C00FB4BB958E7C313B0AFF7CA1FD1E3DCD14633911F1210057C091ED993CC04009FE0D4301FE9694812545F3032B614EA85335952CFE90A7AB074BBF8EB4424DADAB9585F17EA8EC36FF4DE3C3307385BAA0828EE4E54DB10EF250E8041E9F77793D1D1AB35204F501D3E6B0A9649636DB3595BCA8D1E542DC3C5FCC3D43922764822E279FBACFDCC5FAE4D127615418F55EF34EB6E9C10784710A15; path=/; HttpOnly, ASP.NET_SessionId=hzqijm3e3ukfvnsbwg5bowqh; path=/; HttpOnly, dtCookie=11E0607DFE742E6CFB3DEA3D05C0B5B6|WalMart+Retail|1; Path=/; Domain=.walmart.com.mx, f5_cspm=1234;"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-dynatrace-js-agent",
+        "content": "true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "153135"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;walmart.com.mx&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=iso-8859-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;DENY&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;WalMartGuest=C16317C7793B90BD8B07B91425D14F16A6A083C260E0E6B8C00FB4BB958E7C313B0AFF7CA1FD1E3DCD14633911F1210057C091ED993CC04009FE0D4301FE9694812545F3032B614EA85335952CFE90A7AB074BBF8EB4424DADAB9585F17EA8EC36FF4DE3C3307385BAA0828EE4E54DB10EF250E8041E9F77793D1D1AB35204F501D3E6B0A9649636DB3595BCA8D1E542DC3C5FCC3D43922764822E279FBACFDCC5FAE4D127615418F55EF34EB6E9C10784710A15; path=&#x2F;; HttpOnly, ASP.NET_SessionId=hzqijm3e3ukfvnsbwg5bowqh; path=&#x2F;; HttpOnly, dtCookie=11E0607DFE742E6CFB3DEA3D05C0B5B6|WalMart+Retail|1; Path=&#x2F;; Domain=.walmart.com.mx, f5_cspm=1234;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dynatrace-js-agent&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;153135&quot;}\n",
+  "timestamp_end": "2015-01-03 20:02:40 UTC"
+}

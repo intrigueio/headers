@@ -6,14 +6,56 @@
       "name": "http://nintendo.com"
     }
   },
-  "timestamp_start": "2015-01-03 19:47:40 UTC",
-  "id": "82ff86fa-b5d3-4db6-ac3e-8ec28b94312c",
+  "timestamp_start": "2015-01-03 20:00:44 UTC",
+  "id": "d9878e78-0b38-409a-84af-cf82ee2a6c01",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "max-age=21600, public"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 19:47:41 GMT"
+        "content": "Sat, 03 Jan 2015 20:00:45 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Sun, 04 Jan 2015 02:00:45 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Sat, 03 Jan 2015 17:59:12 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "node",
+        "content": "10.24.2.192"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa CONo OTPa OUR SAMa NOR IND UNI PUR COM NAV INT DEM CNT STA PRE OTC\", policyref=\"http://www.nintendo.com/w3c/p3p.xml\", CP=\"CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa CONo OTPa OUR SAMa NOR IND PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE OTC\", policyref=\"http://www.nintendo.com/w3c/p3p.xml\""
       }
     },
     {
@@ -27,73 +69,31 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "NINTENDO=104.237.133.83.1420314461504369; path=/; expires=Thu, 02-Jan-20 19:47:41 GMT; domain=.nintendo.com, JSESSIONID=B7ABC8D90AC20583FB160BC2A359C3C9; Path=/, nintendo.locale.country=US; Expires=Tue, 31-Dec-2024 19:47:41 GMT; Path=/, nintendo.locale.language=en; Expires=Tue, 31-Dec-2024 19:47:41 GMT; Path=/, BIGipServerWEB_NINTENDO=2068842506.20480.0000; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "p3p",
-        "content": "CP=\"CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa CONo OTPa OUR SAMa NOR IND UNI PUR COM NAV INT DEM CNT STA PRE OTC\", policyref=\"http://www.nintendo.com/w3c/p3p.xml\", CP=\"CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa CONo OTPa OUR SAMa NOR IND PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE OTC\", policyref=\"http://www.nintendo.com/w3c/p3p.xml\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "expires",
-        "content": "Sun, 04 Jan 2015 01:47:41 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "max-age=21600, public"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Sat, 03 Jan 2015 14:59:52 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "10093"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "node",
-        "content": "swebe3"
+        "content": "NINTENDO=10.24.2.137.1420315245004337; path=/; expires=Thu, 02-Jan-20 20:00:45 GMT; domain=.nintendo.com, JSESSIONID=2D8F205A3B3775E2D397F1F6F68AD0DD; Path=/, nintendo.locale.country=US; Expires=Tue, 31-Dec-2024 20:00:45 GMT; Path=/, nintendo.locale.language=en; Expires=Tue, 31-Dec-2024 20:00:45 GMT; Path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding, User-Agent"
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "content-length",
+        "content": "7779"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "Keep-Alive"
+        "content": "keep-alive"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;nintendo.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:47:41 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;NINTENDO=104.237.133.83.1420314461504369; path=&#x2F;; expires=Thu, 02-Jan-20 19:47:41 GMT; domain=.nintendo.com, JSESSIONID=B7ABC8D90AC20583FB160BC2A359C3C9; Path=&#x2F;, nintendo.locale.country=US; Expires=Tue, 31-Dec-2024 19:47:41 GMT; Path=&#x2F;, nintendo.locale.language=en; Expires=Tue, 31-Dec-2024 19:47:41 GMT; Path=&#x2F;, BIGipServerWEB_NINTENDO=2068842506.20480.0000; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa CONo OTPa OUR SAMa NOR IND UNI PUR COM NAV INT DEM CNT STA PRE OTC\\&quot;, policyref=\\&quot;http:&#x2F;&#x2F;www.nintendo.com&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa CONo OTPa OUR SAMa NOR IND PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE OTC\\&quot;, policyref=\\&quot;http:&#x2F;&#x2F;www.nintendo.com&#x2F;w3c&#x2F;p3p.xml\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 01:47:41 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=21600, public&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 14:59:52 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;10093&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;node&quot;, :content=&gt;&quot;swebe3&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;Keep-Alive&quot;}\n",
-  "timestamp_end": "2015-01-03 19:47:41 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;nintendo.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=21600, public&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:00:45 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 02:00:45 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 17:59:12 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;node&quot;, :content=&gt;&quot;10.24.2.192&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa CONo OTPa OUR SAMa NOR IND UNI PUR COM NAV INT DEM CNT STA PRE OTC\\&quot;, policyref=\\&quot;http:&#x2F;&#x2F;www.nintendo.com&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa CONo OTPa OUR SAMa NOR IND PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE OTC\\&quot;, policyref=\\&quot;http:&#x2F;&#x2F;www.nintendo.com&#x2F;w3c&#x2F;p3p.xml\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;NINTENDO=10.24.2.137.1420315245004337; path=&#x2F;; expires=Thu, 02-Jan-20 20:00:45 GMT; domain=.nintendo.com, JSESSIONID=2D8F205A3B3775E2D397F1F6F68AD0DD; Path=&#x2F;, nintendo.locale.country=US; Expires=Tue, 31-Dec-2024 20:00:45 GMT; Path=&#x2F;, nintendo.locale.language=en; Expires=Tue, 31-Dec-2024 20:00:45 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;7779&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 20:00:44 UTC"
 }

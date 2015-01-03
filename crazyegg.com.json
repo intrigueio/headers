@@ -1,0 +1,71 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://crazyegg.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 20:02:38 UTC",
+  "id": "14b3c3c4-898f-46b8-85c0-17c123e0e0be",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 20:02:39 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ce2tg=71da37bb414bdcc52a0ddfc93e577fbbf7d576e6; domain=crazyegg.com; path=/; expires=Thu, 02-Jan-2020 20:02:39 GMT, ce2ab=xxxxxxxxxxxxxxxxxxxx2; domain=crazyegg.com; path=/; expires=Thu, 02-Jan-2020 20:02:39 GMT, ce2tg=013436330335b4b01a6e12009ad214d2bab0c4b1; domain=crazyegg.com; path=/; expires=Thu, 02-Jan-2020 20:02:39 GMT, sid=BAh7AA%3D%3D%0A--2b7cb7a832cf66d0e06d8b990c3bd9e53e90dec4; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;crazyegg.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:02:39 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ce2tg=71da37bb414bdcc52a0ddfc93e577fbbf7d576e6; domain=crazyegg.com; path=&#x2F;; expires=Thu, 02-Jan-2020 20:02:39 GMT, ce2ab=xxxxxxxxxxxxxxxxxxxx2; domain=crazyegg.com; path=&#x2F;; expires=Thu, 02-Jan-2020 20:02:39 GMT, ce2tg=013436330335b4b01a6e12009ad214d2bab0c4b1; domain=crazyegg.com; path=&#x2F;; expires=Thu, 02-Jan-2020 20:02:39 GMT, sid=BAh7AA%3D%3D%0A--2b7cb7a832cf66d0e06d8b990c3bd9e53e90dec4; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 20:02:40 UTC"
+}

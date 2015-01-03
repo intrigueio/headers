@@ -1,0 +1,113 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://uszcn.com"
+    }
+  },
+  "timestamp_start": "2015-01-03 20:02:36 UTC",
+  "id": "c319f5b9-34b9-43cb-8e08-470be766105a",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.7.3"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 20:02:39 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"2e7a0a444bcf10f64c6edd33ac314504\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "_c=08ibq4xxts8pha9e; domain=uszcn.com; path=/; expires=Wed, 03 Jan 2035 20:02:39 -0000, _ns=bDdiaG9vSzdxTEh5WVcvaVZRVCtrN1dud2NJdzNyQUlsRkd6NVhXbmdvQ3JQRFBDcnBhWjI5RFZtejlzSHNhVVA5M3E1QmgwQkExbURaeCtKRUdvd25NbFdhR3VHUzVmRGtSUU55RUczeElwZTZBRDdZek43V0FxczJXZWhOME1Od1dGaWw0WjRpNUpDUmlhNWkrM1lnPT0tLThneFRZRmVBa0J3Y0FrVmt2RndqcHc9PQ%3D%3D--4132254331d9de0c9e100db76cc96fac3e4a54b1; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "52217f2c-c67a-43d4-b69d-52c516a447b2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.014655"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;uszcn.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.7.3&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:02:39 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;2e7a0a444bcf10f64c6edd33ac314504\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_c=08ibq4xxts8pha9e; domain=uszcn.com; path=&#x2F;; expires=Wed, 03 Jan 2035 20:02:39 -0000, _ns=bDdiaG9vSzdxTEh5WVcvaVZRVCtrN1dud2NJdzNyQUlsRkd6NVhXbmdvQ3JQRFBDcnBhWjI5RFZtejlzSHNhVVA5M3E1QmgwQkExbURaeCtKRUdvd25NbFdhR3VHUzVmRGtSUU55RUczeElwZTZBRDdZek43V0FxczJXZWhOME1Od1dGaWw0WjRpNUpDUmlhNWkrM1lnPT0tLThneFRZRmVBa0J3Y0FrVmt2RndqcHc9PQ%3D%3D--4132254331d9de0c9e100db76cc96fac3e4a54b1; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;52217f2c-c67a-43d4-b69d-52c516a447b2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.014655&quot;}\n",
+  "timestamp_end": "2015-01-03 20:02:39 UTC"
+}

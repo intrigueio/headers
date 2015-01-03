@@ -6,8 +6,8 @@
       "name": "http://ravelry.com"
     }
   },
-  "timestamp_start": "2015-01-03 19:47:39 UTC",
-  "id": "4e5769e0-1862-4dcc-916c-4b75e0eac06f",
+  "timestamp_start": "2015-01-03 20:00:43 UTC",
+  "id": "50d96045-84d3-47c3-a1bc-a30d11b4c3bf",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -20,7 +20,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 19:47:41 GMT"
+        "content": "Sat, 03 Jan 2015 20:00:45 GMT"
       }
     },
     {
@@ -54,8 +54,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "etag",
+        "content": "\"152ef875352202e872cef1261a6cb989\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-runtime",
-        "content": "11"
+        "content": "15"
       }
     },
     {
@@ -68,29 +75,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"9de329bf328363962924cbf5d732deab\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "set-cookie",
-        "content": "radvid=4e85d9b4fee3025eda40b17d52a4dfd9; path=/; expires=Fri, 03-Jan-2025 19:47:41 GMT, version=1; path=/; expires=Fri, 03-Jan-2025 19:47:41 GMT, ravelrys_pocketses=BAh7BzoQX2NzcmZfdG9rZW4iMUpTUmxnbGJuWGtpSENkUUVIRUk1Ukk2c2xFZ1JqYWkxa1FyUlVneEMrRFE9Og9zZXNzaW9uX2lkIiU2ZDBiNDA5NzUzMjQyNzdjZjJjZjA3NDg3M2M3NmU0NQ%3D%3D--34232e97ef47c15b15ff2be3a818abefae274741; path=/; HttpOnly"
+        "content": "radvid=69dfc39d3d04e59d5cb62711617bd819; path=/; expires=Fri, 03 Jan 2025 20:00:45 -0000, , version=1; path=/; expires=Fri, 03 Jan 2025 20:00:45 -0000, ravelrys_pocketses=BAh7BzoQX2NzcmZfdG9rZW4iMVNmVnBoSjA2YndiREZJYmw3dk84VUxPdU1LZzAybU0wbGM5dmpsK2ppSTg9Og9zZXNzaW9uX2lkIiVkYjMzYjA4MGE3M2QwODljYWFkZmI0YzM5NWNhOTI2MQ%3D%3D--d8dd93aa9d7b2b698d3aff1d7369bca10d580e8f; path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "status",
-        "content": "200 OK"
+        "content": "200"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-handled-by",
-        "content": "corriedale"
+        "content": "frog"
       }
     },
     {
@@ -101,6 +101,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ravelry.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Ravelry.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:47:41 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;11&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;9de329bf328363962924cbf5d732deab\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;radvid=4e85d9b4fee3025eda40b17d52a4dfd9; path=&#x2F;; expires=Fri, 03-Jan-2025 19:47:41 GMT, version=1; path=&#x2F;; expires=Fri, 03-Jan-2025 19:47:41 GMT, ravelrys_pocketses=BAh7BzoQX2NzcmZfdG9rZW4iMUpTUmxnbGJuWGtpSENkUUVIRUk1Ukk2c2xFZ1JqYWkxa1FyUlVneEMrRFE9Og9zZXNzaW9uX2lkIiU2ZDBiNDA5NzUzMjQyNzdjZjJjZjA3NDg3M2M3NmU0NQ%3D%3D--34232e97ef47c15b15ff2be3a818abefae274741; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-handled-by&quot;, :content=&gt;&quot;corriedale&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-security-policy&quot;, :content=&gt;&quot;script-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; *.ravelry.com https:&#x2F;&#x2F;www.ravelry.com *.ravelrycache.com https:&#x2F;&#x2F;www.dropbox.com *.googleapis.com https:&#x2F;&#x2F;*.googleapis.com *.google-analytics.com https:&#x2F;&#x2F;www.google.com *.gstatic.com https:&#x2F;&#x2F;maps.gstatic.com maps.googleapis.com maps.google.com *.newrelic.com platform.twitter.com connect.facebook.net *.facebook.com *.pinterest.com https:&#x2F;&#x2F;*.pinterest.com; object-src &#x27;self&#x27; *.ravelry.com *.macromedia.com *.etsy.com *.youtube.com *.vimeocdn.com *.vimeo.com *.gstatic.com; frame-src &#x27;self&#x27; https:&#x2F;&#x2F;*.facebook.com *.vimeo.com *.vimeocdn.com *.youtube.com vine.co *.twitter.com *.facebook.com *.pinterest.com chromenull:&#x2F;&#x2F;* chromeinvoke:&#x2F;&#x2F;* webviewprogressproxy:&#x2F;&#x2F;*; connect-src &#x27;self&#x27; *.ravelry.com https:&#x2F;&#x2F;www.ravelry.com ws:&#x2F;&#x2F;websocket.ravelry.com translate.googleapis.com; report-uri http:&#x2F;&#x2F;csp-reports.ravelry.com&#x2F;&quot;}\n",
-  "timestamp_end": "2015-01-03 19:47:41 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ravelry.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Ravelry.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:00:45 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;152ef875352202e872cef1261a6cb989\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;15&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;radvid=69dfc39d3d04e59d5cb62711617bd819; path=&#x2F;; expires=Fri, 03 Jan 2025 20:00:45 -0000, , version=1; path=&#x2F;; expires=Fri, 03 Jan 2025 20:00:45 -0000, ravelrys_pocketses=BAh7BzoQX2NzcmZfdG9rZW4iMVNmVnBoSjA2YndiREZJYmw3dk84VUxPdU1LZzAybU0wbGM5dmpsK2ppSTg9Og9zZXNzaW9uX2lkIiVkYjMzYjA4MGE3M2QwODljYWFkZmI0YzM5NWNhOTI2MQ%3D%3D--d8dd93aa9d7b2b698d3aff1d7369bca10d580e8f; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-handled-by&quot;, :content=&gt;&quot;frog&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-security-policy&quot;, :content=&gt;&quot;script-src &#x27;self&#x27; &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; *.ravelry.com https:&#x2F;&#x2F;www.ravelry.com *.ravelrycache.com https:&#x2F;&#x2F;www.dropbox.com *.googleapis.com https:&#x2F;&#x2F;*.googleapis.com *.google-analytics.com https:&#x2F;&#x2F;www.google.com *.gstatic.com https:&#x2F;&#x2F;maps.gstatic.com maps.googleapis.com maps.google.com *.newrelic.com platform.twitter.com connect.facebook.net *.facebook.com *.pinterest.com https:&#x2F;&#x2F;*.pinterest.com; object-src &#x27;self&#x27; *.ravelry.com *.macromedia.com *.etsy.com *.youtube.com *.vimeocdn.com *.vimeo.com *.gstatic.com; frame-src &#x27;self&#x27; https:&#x2F;&#x2F;*.facebook.com *.vimeo.com *.vimeocdn.com *.youtube.com vine.co *.twitter.com *.facebook.com *.pinterest.com chromenull:&#x2F;&#x2F;* chromeinvoke:&#x2F;&#x2F;* webviewprogressproxy:&#x2F;&#x2F;*; connect-src &#x27;self&#x27; *.ravelry.com https:&#x2F;&#x2F;www.ravelry.com ws:&#x2F;&#x2F;websocket.ravelry.com translate.googleapis.com; report-uri http:&#x2F;&#x2F;csp-reports.ravelry.com&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-03 20:00:45 UTC"
 }

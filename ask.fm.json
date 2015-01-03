@@ -6,8 +6,8 @@
       "name": "http://ask.fm"
     }
   },
-  "timestamp_start": "2015-01-03 19:46:25 UTC",
-  "id": "d2a88617-d27e-4765-b029-470b023ba423",
+  "timestamp_start": "2015-01-03 19:59:25 UTC",
+  "id": "633ee914-1c8e-4db7-98cc-44f356654e8e",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -33,22 +33,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Sun, 03-Jan-2016 19:46:25 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CDoQb2xkX2dldF91cmwiBi86D3Nlc3Npb25faWQiJWI1YWMzMjhhMTU5OWI3ODIxNDUwMmI4NDY1MTNhMDU0OhBfY3NyZl90b2tlbiIxaVRxYlltUno3cVFVMUx6OXJTWml5cHJVcUsyTkhyeFVVTmcyMGUwU21xbz0%3D--e903c914deb696ec99304d2482e09aef006a4c77; path=/; HttpOnly"
       }
     },
     {
@@ -62,7 +48,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 19:46:25 GMT"
+        "content": "Sat, 03 Jan 2015 19:59:25 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Sun, 03-Jan-2016 19:59:25 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CDoPc2Vzc2lvbl9pZCIlYWQ2ZjM5MTdmZDBjYzNjNmQwNThkYjIxNjAwYzBjNzg6EF9jc3JmX3Rva2VuIjExQjd1eXJka0Z2THBPdkRSYTNKMHhKRzhpaENOc3kxT3lLWG0rK28yL2prPToQb2xkX2dldF91cmwiBi8%3D--c366b8274c729d2e975c1704bb9345456c55649d; path=/; HttpOnly"
       }
     },
     {
@@ -80,6 +80,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ask.fm&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;mobile_view=false; path=&#x2F;, , language_id=1; path=&#x2F;; expires=Sun, 03-Jan-2016 19:46:25 GMT, , l=; path=&#x2F;; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CDoQb2xkX2dldF91cmwiBi86D3Nlc3Npb25faWQiJWI1YWMzMjhhMTU5OWI3ODIxNDUwMmI4NDY1MTNhMDU0OhBfY3NyZl90b2tlbiIxaVRxYlltUno3cVFVMUx6OXJTWml5cHJVcUsyTkhyeFVVTmcyMGUwU21xbz0%3D--e903c914deb696ec99304d2482e09aef006a4c77; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:46:25 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Ask.FM Web Service&quot;}\n",
-  "timestamp_end": "2015-01-03 19:46:25 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ask.fm&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:59:25 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;mobile_view=false; path=&#x2F;, , language_id=1; path=&#x2F;; expires=Sun, 03-Jan-2016 19:59:25 GMT, , l=; path=&#x2F;; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CDoPc2Vzc2lvbl9pZCIlYWQ2ZjM5MTdmZDBjYzNjNmQwNThkYjIxNjAwYzBjNzg6EF9jc3JmX3Rva2VuIjExQjd1eXJka0Z2THBPdkRSYTNKMHhKRzhpaENOc3kxT3lLWG0rK28yL2prPToQb2xkX2dldF91cmwiBi8%3D--c366b8274c729d2e975c1704bb9345456c55649d; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Ask.FM Web Service&quot;}\n",
+  "timestamp_end": "2015-01-03 19:59:25 UTC"
 }

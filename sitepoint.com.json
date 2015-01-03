@@ -6,8 +6,8 @@
       "name": "http://sitepoint.com"
     }
   },
-  "timestamp_start": "2015-01-03 19:47:05 UTC",
-  "id": "e2ed2e19-d93d-4759-b8dd-a62230850e05",
+  "timestamp_start": "2015-01-03 20:00:07 UTC",
+  "id": "60a0fbdc-20cb-4a65-942c-746e9a462157",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -20,7 +20,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 19:47:07 GMT"
+        "content": "Sat, 03 Jan 2015 20:00:07 GMT"
       }
     },
     {
@@ -47,15 +47,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "X-Forwarded-Proto,Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-powered-by",
-        "content": "PHP/5.4.35-0+deb7u2"
+        "content": "PHP/5.4.35-1+deb7u1"
       }
     },
     {
@@ -68,13 +61,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "expires",
-        "content": "Sat, 03 Jan 2015 20:07:02 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-pingback",
         "content": "http://www.sitepoint.com/xmlrpc.php"
       }
@@ -82,22 +68,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "expires",
+        "content": "Sat, 03 Jan 2015 20:07:02 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "X-Forwarded-Proto,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "age",
-        "content": "669, 669"
+        "content": "859, 859"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "HIT from ip-10-151-80-93.ec2.internal"
+        "content": "HIT from ip-10-68-142-173.ec2.internal"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-lookup",
-        "content": "HIT from ip-10-151-80-93.ec2.internal:80"
+        "content": "HIT from ip-10-68-142-173.ec2.internal:80"
       }
     },
     {
@@ -111,7 +111,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "2137406310"
+        "content": "2137413679"
       }
     },
     {
@@ -122,6 +122,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;sitepoint.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.2.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:47:07 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;8081&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;X-Forwarded-Proto,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.4.35-0+deb7u2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:07:02 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:07:02 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-pingback&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;www.sitepoint.com&#x2F;xmlrpc.php&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;669, 669&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;HIT from ip-10-151-80-93.ec2.internal&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-lookup&quot;, :content=&gt;&quot;HIT from ip-10-151-80-93.ec2.internal:80&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;2137406310&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n",
-  "timestamp_end": "2015-01-03 19:47:07 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;sitepoint.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.2.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:00:07 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;8081&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.4.35-1+deb7u1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:07:02 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-pingback&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;www.sitepoint.com&#x2F;xmlrpc.php&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:07:02 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;X-Forwarded-Proto,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;859, 859&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;HIT from ip-10-68-142-173.ec2.internal&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-lookup&quot;, :content=&gt;&quot;HIT from ip-10-68-142-173.ec2.internal:80&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;2137413679&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n",
+  "timestamp_end": "2015-01-03 20:00:08 UTC"
 }

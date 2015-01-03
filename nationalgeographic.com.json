@@ -6,8 +6,8 @@
       "name": "http://nationalgeographic.com"
     }
   },
-  "timestamp_start": "2015-01-03 19:46:58 UTC",
-  "id": "f591942c-9104-4dca-b359-86e8114520b3",
+  "timestamp_start": "2015-01-03 19:59:59 UTC",
+  "id": "4577c42c-2c66-4046-a272-37103b12b547",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -27,7 +27,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-lookup",
-        "content": "MISS from platform-proxy2.int.ngeo.com:80, HIT from django-rpc2.int.ngeo.com:80"
+        "content": "MISS from platform-proxy2.int.ngeo.com:80, HIT from django-rpc1.int.ngeo.com:80, MISS from django-rpc2.int.ngeo.com:80"
       }
     },
     {
@@ -48,14 +48,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=1"
+        "content": "max-age=100"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 19:46:58 GMT"
+        "content": "Sat, 03 Jan 2015 20:00:00 GMT"
       }
     },
     {
@@ -73,6 +73,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;nationalgeographic.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-lookup&quot;, :content=&gt;&quot;MISS from platform-proxy2.int.ngeo.com:80, HIT from django-rpc2.int.ngeo.com:80&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;*&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:46:58 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;16630&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-03 19:46:58 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;nationalgeographic.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-lookup&quot;, :content=&gt;&quot;MISS from platform-proxy2.int.ngeo.com:80, HIT from django-rpc1.int.ngeo.com:80, MISS from django-rpc2.int.ngeo.com:80&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;*&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=100&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;16630&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-03 20:00:00 UTC"
 }

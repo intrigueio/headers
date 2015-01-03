@@ -6,14 +6,14 @@
       "name": "http://inspireworthy.com"
     }
   },
-  "timestamp_start": "2015-01-03 19:45:06 UTC",
-  "id": "b8d1d2fc-d211-454b-a670-c0d837873b16",
+  "timestamp_start": "2015-01-03 20:04:45 UTC",
+  "id": "5c096490-5307-45a6-a6a7-facb556fcd33",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 19:45:06 GMT"
+        "content": "Sat, 03 Jan 2015 20:04:46 GMT"
       }
     },
     {
@@ -41,7 +41,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d53b52d3f9a83d41f989ce3a8e5eaf10d1420314306; expires=Sun, 03-Jan-16 19:45:06 GMT; path=/; domain=.inspireworthy.com; HttpOnly, s=\"!TxZLxXxO4tVY7APMPgYH5g==?gAJVAXN9cQGGcQIu\"; Domain=.inspireworthy.com; expires=Sat, 03 Jan 2015 20:45:06 GMT; Path=/, c=\"!j7WlRNeVIIOqFSSeT1gJgg==?gAJVAWNJNzc2NTc3MDQ4NDA5MzQ4NzUwCoZxAS4=\"; Domain=.inspireworthy.com; expires=Sun, 03 Jan 2016 19:45:06 GMT; Path=/"
+        "content": "__cfduid=df2e249534a729f72fc4d211503c7fa7f1420315485; expires=Sun, 03-Jan-16 20:04:45 GMT; path=/; domain=.inspireworthy.com; HttpOnly, s=\"!TxZLxXxO4tVY7APMPgYH5g==?gAJVAXN9cQGGcQIu\"; Domain=.inspireworthy.com; expires=Sat, 03 Jan 2015 21:04:46 GMT; Path=/, c=\"!2tESEfuy64V/rlLBzbcPLQ==?gAJVAWOKCaMcOig5VH3dAIZxAS4=\"; Domain=.inspireworthy.com; expires=Sun, 03 Jan 2016 20:04:46 GMT; Path=/"
       }
     },
     {
@@ -49,13 +49,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private"
       }
     },
     {
@@ -75,6 +68,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "cloudflare-nginx"
       }
@@ -83,10 +83,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a31b1e0f0240107-DFW"
+        "content": "1a31cea761030108-DFW"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;inspireworthy.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:45:06 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d53b52d3f9a83d41f989ce3a8e5eaf10d1420314306; expires=Sun, 03-Jan-16 19:45:06 GMT; path=&#x2F;; domain=.inspireworthy.com; HttpOnly, s=\\&quot;!TxZLxXxO4tVY7APMPgYH5g==?gAJVAXN9cQGGcQIu\\&quot;; Domain=.inspireworthy.com; expires=Sat, 03 Jan 2015 20:45:06 GMT; Path=&#x2F;, c=\\&quot;!j7WlRNeVIIOqFSSeT1gJgg==?gAJVAWNJNzc2NTc3MDQ4NDA5MzQ4NzUwCoZxAS4=\\&quot;; Domain=.inspireworthy.com; expires=Sun, 03 Jan 2016 19:45:06 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a31b1e0f0240107-DFW&quot;}\n",
-  "timestamp_end": "2015-01-03 19:45:06 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;inspireworthy.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:04:46 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=df2e249534a729f72fc4d211503c7fa7f1420315485; expires=Sun, 03-Jan-16 20:04:45 GMT; path=&#x2F;; domain=.inspireworthy.com; HttpOnly, s=\\&quot;!TxZLxXxO4tVY7APMPgYH5g==?gAJVAXN9cQGGcQIu\\&quot;; Domain=.inspireworthy.com; expires=Sat, 03 Jan 2015 21:04:46 GMT; Path=&#x2F;, c=\\&quot;!2tESEfuy64V&#x2F;rlLBzbcPLQ==?gAJVAWOKCaMcOig5VH3dAIZxAS4=\\&quot;; Domain=.inspireworthy.com; expires=Sun, 03 Jan 2016 20:04:46 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a31cea761030108-DFW&quot;}\n",
+  "timestamp_end": "2015-01-03 20:04:46 UTC"
 }

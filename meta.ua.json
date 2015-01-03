@@ -1,0 +1,64 @@
+{
+  "task_name": "web_app_gather_headers",
+  "entity": {
+    "type": "WebApplication",
+    "attributes": {
+      "name": "http://meta.ua"
+    }
+  },
+  "timestamp_start": "2015-01-03 20:03:36 UTC",
+  "id": "e37f7e80-719c-4c46-bdb9-40b9b3771fd2",
+  "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.7.6"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 20:04:46 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=windows-1251"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "lt=0; path=/, tR=; expires=Tue, 31-Dec-2019 22:00:00 GMT; domain=meta.ua; path=/, ui=UA2739T1420315486471; expires=Sat, 31-Dec-2033 22:00:00 GMT; domain=meta.ua; path=/, adui=0UA68ed8553T54a84b5e; expires=Sat, 31-Dec-2033 22:00:00 GMT; domain=meta.ua; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    }
+  ],
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;meta.ua&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.7.6&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:04:46 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=windows-1251&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;lt=0; path=&#x2F;, tR=; expires=Tue, 31-Dec-2019 22:00:00 GMT; domain=meta.ua; path=&#x2F;, ui=UA2739T1420315486471; expires=Sat, 31-Dec-2033 22:00:00 GMT; domain=meta.ua; path=&#x2F;, adui=0UA68ed8553T54a84b5e; expires=Sat, 31-Dec-2033 22:00:00 GMT; domain=meta.ua; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n",
+  "timestamp_end": "2015-01-03 20:03:37 UTC"
+}

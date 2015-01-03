@@ -6,14 +6,28 @@
       "name": "http://finviz.com"
     }
   },
-  "timestamp_start": "2015-01-03 19:49:30 UTC",
-  "id": "a27dca6a-2350-4ae4-93ba-cf2a49c0b85c",
+  "timestamp_start": "2015-01-03 20:02:37 UTC",
+  "id": "f399d98c-8fd5-437d-85fd-8e2e2ea5daca",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private"
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -21,6 +35,13 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "-1"
       }
     },
     {
@@ -40,15 +61,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-aspnet-version",
-        "content": "4.0.30319"
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId=sjzpblor34twuy345e05g2a4; path=/; HttpOnly, preventRedirectLoop=false; domain=.finviz.com; expires=Fri, 02-Jan-2015 20:02:54 GMT; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "preventRedirectLoop=false; domain=.finviz.com; expires=Fri, 02-Jan-2015 19:49:48 GMT; path=/"
+        "name": "x-aspnet-version",
+        "content": "4.0.30319"
       }
     },
     {
@@ -62,17 +83,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 19:49:48 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "19774"
+        "content": "Sat, 03 Jan 2015 20:02:54 GMT"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;finviz.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;8.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;preventRedirectLoop=false; domain=.finviz.com; expires=Fri, 02-Jan-2015 19:49:48 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:49:48 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;19774&quot;}\n",
-  "timestamp_end": "2015-01-03 19:49:31 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;finviz.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;8.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ASP.NET_SessionId=sjzpblor34twuy345e05g2a4; path=&#x2F;; HttpOnly, preventRedirectLoop=false; domain=.finviz.com; expires=Fri, 02-Jan-2015 20:02:54 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:02:54 GMT&quot;}\n",
+  "timestamp_end": "2015-01-03 20:02:38 UTC"
 }

@@ -6,8 +6,8 @@
       "name": "http://d1g.com"
     }
   },
-  "timestamp_start": "2015-01-03 19:45:26 UTC",
-  "id": "d554580d-3ca3-4952-b371-dceeea8f0530",
+  "timestamp_start": "2015-01-03 20:05:06 UTC",
+  "id": "42bc40a4-d12f-4d1e-bb0c-d962597f0186",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -20,7 +20,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 18:37:47 GMT"
+        "content": "Sat, 03 Jan 2015 18:57:26 GMT"
       }
     },
     {
@@ -34,7 +34,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-length",
-        "content": "119392"
+        "content": "119427"
       }
     },
     {
@@ -61,15 +61,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "etag",
+        "content": "\"8c47aaaa2bccc1da2772fe1558c7672c\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-runtime",
-        "content": "1321"
+        "content": "1277"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "lang=ar_JO; path=/, , geewangi=bb11da71368ef478b3e2540f22d8f595; domain=.com; path=/; expires=Mon, 05 Jan 2015 01:45:28 GMT; HttpOnly"
+        "content": "lang=ar_JO; path=/, , geewangi=a8e9abd5cc3efcc93fa39fa33170e516; domain=.com; path=/; expires=Mon, 05 Jan 2015 02:05:08 GMT; HttpOnly"
       }
     },
     {
@@ -78,15 +85,8 @@
         "name": "cache-control",
         "content": "private, max-age=0, must-revalidate"
       }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "etag",
-        "content": "\"643ae834aae3a5b9807c1dfc7794944f\""
-      }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;d1g.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 18:37:47 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;119392&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger (mod_rails&#x2F;mod_rack) 3.0.14&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;1321&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;lang=ar_JO; path=&#x2F;, , geewangi=bb11da71368ef478b3e2540f22d8f595; domain=.com; path=&#x2F;; expires=Mon, 05 Jan 2015 01:45:28 GMT; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;643ae834aae3a5b9807c1dfc7794944f\\&quot;&quot;}\n",
-  "timestamp_end": "2015-01-03 19:45:29 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;d1g.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 18:57:26 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;119427&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger (mod_rails&#x2F;mod_rack) 3.0.14&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;8c47aaaa2bccc1da2772fe1558c7672c\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;1277&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;lang=ar_JO; path=&#x2F;, , geewangi=a8e9abd5cc3efcc93fa39fa33170e516; domain=.com; path=&#x2F;; expires=Mon, 05 Jan 2015 02:05:08 GMT; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, must-revalidate&quot;}\n",
+  "timestamp_end": "2015-01-03 20:05:08 UTC"
 }

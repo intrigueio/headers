@@ -6,11 +6,66 @@
       "name": "http://varzesh3.com"
     }
   },
-  "timestamp_start": "2015-01-03 19:46:31 UTC",
-  "id": "a6bbff00-9b46-41ba-af51-5b5029a93996",
+  "timestamp_start": "2015-01-03 19:59:31 UTC",
+  "id": "1b48cb2c-1ad2-4d43-8859-077f21c27653",
   "entities": [
-
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/8.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "K0%2DNoFlash=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, K0=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, H0%2DNoFlash=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, H0=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, G0%2DNoFlash=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, G0=01%2C02; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, F0%2DNoFlash=02%2C01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, F0=02%2C01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, E0%2DNoFlash=02%2C01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, E0=01%2C03%2C02; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, C0%2DNoFlash=01%2C04%2C07%2C06%2C02%2C08%2C03%2C05; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, C0=01%2C10%2C07%2C12%2C16%2C08%2C09%2C04%2C02%2C11%2C17%2C05%2C06%2C03%2C13%2C15%2C14; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, B0%2DNoFlash=01%2C02%2C03; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, B0=01%2C03%2C02; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, A0%2DNoFlash=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, A0=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=/, ASPSESSIONIDSACRCSBR=JIMINECAIGFMOAMFHMMGEIMO; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 03 Jan 2015 19:59:34 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "39688"
+      }
+    }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;varzesh3.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[-] : Timed out\n",
-  "timestamp_end": "2015-01-03 19:46:51 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;varzesh3.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;8.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;K0%2DNoFlash=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, K0=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, H0%2DNoFlash=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, H0=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, G0%2DNoFlash=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, G0=01%2C02; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, F0%2DNoFlash=02%2C01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, F0=02%2C01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, E0%2DNoFlash=02%2C01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, E0=01%2C03%2C02; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, C0%2DNoFlash=01%2C04%2C07%2C06%2C02%2C08%2C03%2C05; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, C0=01%2C10%2C07%2C12%2C16%2C08%2C09%2C04%2C02%2C11%2C17%2C05%2C06%2C03%2C13%2C15%2C14; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, B0%2DNoFlash=01%2C02%2C03; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, B0=01%2C03%2C02; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, A0%2DNoFlash=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, A0=01; expires=Wed, 31-Dec-2014 20:30:00 GMT; path=&#x2F;, ASPSESSIONIDSACRCSBR=JIMINECAIGFMOAMFHMMGEIMO; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:59:34 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;39688&quot;}\n",
+  "timestamp_end": "2015-01-03 19:59:35 UTC"
 }
