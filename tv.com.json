@@ -6,9 +6,16 @@
       "name": "http://tv.com"
     }
   },
-  "timestamp_start": "2015-01-03 20:00:32 UTC",
-  "id": "ec61b80b-91b7-409a-b448-d6b677fb08c6",
+  "timestamp_start": "2015-01-04 19:45:27 UTC",
+  "id": "bc115139-8c3a-4ae0-aa9f-df7a9964b4ec",
   "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
     {
       "type": "WebApplicationHeader",
       "attributes": {
@@ -26,46 +33,46 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnish",
-        "content": "877933158"
+        "name": "vary",
+        "content": "Cookie"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Cookie, Accept-Encoding"
+        "name": "x-varnish",
+        "content": "898595229"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "133454"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 20:00:33 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "content": "Sun, 04 Jan 2015 19:45:28 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive, Transfer-Encoding"
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "csrftoken=ca68df9e59a4a1735be327dd3a77b312; expires=Sat, 02-Jan-2016 20:00:33 GMT; Max-Age=31449600; Path=/, COUNTRY=US; Domain=.tv.com; Path=/, REGION=US; Domain=.tv.com; Path=/"
+        "content": "csrftoken=692d59742329c1e27b94df056382131c; expires=Sun, 03-Jan-2016 19:45:27 GMT; Max-Age=31449600; Path=/, COUNTRY=US; Domain=.tv.com; Path=/, REGION=US; Domain=.tv.com; Path=/"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;tv.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;877933158&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Cookie, Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:00:33 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;csrftoken=ca68df9e59a4a1735be327dd3a77b312; expires=Sat, 02-Jan-2016 20:00:33 GMT; Max-Age=31449600; Path=&#x2F;, COUNTRY=US; Domain=.tv.com; Path=&#x2F;, REGION=US; Domain=.tv.com; Path=&#x2F;&quot;}\n",
-  "timestamp_end": "2015-01-03 20:00:33 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;tv.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Cookie&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;898595229&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;133454&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:45:28 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;csrftoken=692d59742329c1e27b94df056382131c; expires=Sun, 03-Jan-2016 19:45:27 GMT; Max-Age=31449600; Path=&#x2F;, COUNTRY=US; Domain=.tv.com; Path=&#x2F;, REGION=US; Domain=.tv.com; Path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-04 19:45:28 UTC"
 }

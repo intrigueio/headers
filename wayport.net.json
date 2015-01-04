@@ -6,8 +6,8 @@
       "name": "http://wayport.net"
     }
   },
-  "timestamp_start": "2015-01-03 20:04:44 UTC",
-  "id": "f6aa7606-ffd9-4f26-b2c0-a92f921c4e6b",
+  "timestamp_start": "2015-01-04 19:49:12 UTC",
+  "id": "82ec3596-5e18-4fcb-992c-a76784589be1",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -21,6 +21,13 @@
       "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "87777"
       }
     },
     {
@@ -54,15 +61,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "expires",
-        "content": "Sat, 03 Jan 2015 20:04:47 GMT"
+        "content": "Sun, 04 Jan 2015 19:49:14 GMT"
       }
     },
     {
@@ -83,31 +83,24 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 20:04:47 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "content": "Sun, 04 Jan 2015 19:49:14 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive, Transfer-Encoding"
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "business1=2037; path=/, JSESSIONID=YhySJyLpljn0QypyW2rRyJlNxhlDfmSrnpCz1b4TYJ1DNVF9r32p!-2057234348; path=/; HttpOnly, BNES_business1=HoaMK2GQjecqD2qM6M3/JjLbGtzO70ZesgIRzHiWQZU1m56m2mf1s1R0T3GzqBAtpsOlKMs3gFaoVwh83rNXNQ==; path=/, BNES_JSESSIONID=XpUnHxQECtHmVktVCSbHz+lBcV4x0sPaTzn7OEjQtXVGRH1JUc3eXspgUXh0ylOw48VwXLzQUyV9WPscqBUUmOdU/086t7ekMpQJEohF5qbyHijwt4rJjBK9SXwQqOiICM+QUklLTnD5xLsX54Ii1GVUkRm36VnH; path=/; HttpOnly"
+        "content": "business1=2037; path=/, JSESSIONID=1D1hJpZZ4sTb9TpWbGhdK0ncwlT3vmrPQ5sDVBlQ0jfL1MsTTnX7!-1859082352; path=/; HttpOnly, BNES_business1=VO7mzdYaeV2UhZ61gUTgEOznIumQZpk1ic29ZoURHBFP/y17Hr828/jLxPp6HMasZzXW5IFKDQCEaQ4F+xbQYQ==; path=/, BNES_JSESSIONID=7h4ClcriMWiFmfhxR2iZRhYnO5PMPDAUR0T4PgTQCyPPlqdPDFCK5WZACP4SNfNMvvYAWM17yfj7Yp/SpmNSujCey8t2KIfohxVSzSbsaiRuOY8y4SFV4C7loxwvDiL1LGh3+iO3PVdwY2XzWVZG2Wa1luBx6JC3; path=/; HttpOnly"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;wayport.net&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-atg-version&quot;, :content=&gt;&quot;version=QVRHUGxhdGZvcm0vMTAuMC4zcDMsQUNPLzEwLjAuM3AzLENBRi8xMC4wLjNwMw==&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Servlet&#x2F;2.5 JSP&#x2F;2.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;,CP=\\&quot;CAO DSP COR LAW CURa ADMa DEVa TAIa PSAa PSDa IVAo IVDo CONo TELo OUR OTRi IND PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE GOV\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=ISO-8859-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:04:47 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:04:47 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;business1=2037; path=&#x2F;, JSESSIONID=YhySJyLpljn0QypyW2rRyJlNxhlDfmSrnpCz1b4TYJ1DNVF9r32p!-2057234348; path=&#x2F;; HttpOnly, BNES_business1=HoaMK2GQjecqD2qM6M3&#x2F;JjLbGtzO70ZesgIRzHiWQZU1m56m2mf1s1R0T3GzqBAtpsOlKMs3gFaoVwh83rNXNQ==; path=&#x2F;, BNES_JSESSIONID=XpUnHxQECtHmVktVCSbHz+lBcV4x0sPaTzn7OEjQtXVGRH1JUc3eXspgUXh0ylOw48VwXLzQUyV9WPscqBUUmOdU&#x2F;086t7ekMpQJEohF5qbyHijwt4rJjBK9SXwQqOiICM+QUklLTnD5xLsX54Ii1GVUkRm36VnH; path=&#x2F;; HttpOnly&quot;}\n",
-  "timestamp_end": "2015-01-03 20:04:47 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;wayport.net&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;87777&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-atg-version&quot;, :content=&gt;&quot;version=QVRHUGxhdGZvcm0vMTAuMC4zcDMsQUNPLzEwLjAuM3AzLENBRi8xMC4wLjNwMw==&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Servlet&#x2F;2.5 JSP&#x2F;2.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;,CP=\\&quot;CAO DSP COR LAW CURa ADMa DEVa TAIa PSAa PSDa IVAo IVDo CONo TELo OUR OTRi IND PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE GOV\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=ISO-8859-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:49:14 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:49:14 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;business1=2037; path=&#x2F;, JSESSIONID=1D1hJpZZ4sTb9TpWbGhdK0ncwlT3vmrPQ5sDVBlQ0jfL1MsTTnX7!-1859082352; path=&#x2F;; HttpOnly, BNES_business1=VO7mzdYaeV2UhZ61gUTgEOznIumQZpk1ic29ZoURHBFP&#x2F;y17Hr828&#x2F;jLxPp6HMasZzXW5IFKDQCEaQ4F+xbQYQ==; path=&#x2F;, BNES_JSESSIONID=7h4ClcriMWiFmfhxR2iZRhYnO5PMPDAUR0T4PgTQCyPPlqdPDFCK5WZACP4SNfNMvvYAWM17yfj7Yp&#x2F;SpmNSujCey8t2KIfohxVSzSbsaiRuOY8y4SFV4C7loxwvDiL1LGh3+iO3PVdwY2XzWVZG2Wa1luBx6JC3; path=&#x2F;; HttpOnly&quot;}\n",
+  "timestamp_end": "2015-01-04 19:49:14 UTC"
 }

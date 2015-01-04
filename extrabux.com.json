@@ -6,14 +6,14 @@
       "name": "http://extrabux.com"
     }
   },
-  "timestamp_start": "2015-01-03 20:02:44 UTC",
-  "id": "4300b632-24ff-4d9f-867d-827096b5adcf",
+  "timestamp_start": "2015-01-04 19:47:24 UTC",
+  "id": "3d3c46f0-d775-4c97-b0cc-4ecdea62d7ef",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 20:02:46 GMT"
+        "content": "Sun, 04 Jan 2015 19:47:24 GMT"
       }
     },
     {
@@ -41,21 +41,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=ddedf1035c737fedd1f778ef8d96cc8f31420315366; expires=Sun, 03-Jan-16 20:02:46 GMT; path=/; domain=.extrabux.com; HttpOnly, PHPSESSID=g74td8cmpi3frkegq6cscn71k7; path=/, _lang=en; expires=Sun, 03-Jan-2016 20:03:07 GMT; Max-Age=31536000; path=/, _geo=US; expires=Sun, 03-Jan-2016 20:03:07 GMT; Max-Age=31536000; path=/, utm_imc_id=3410262; expires=Mon, 02-Feb-2015 20:03:07 GMT; Max-Age=2592000; path=/, utm_assoc_ts=1420315387; path=/, utm_assoc_hash=none.direct.direct..; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "expires",
-        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "__cfduid=ddebe969f5d6d62a47e6eaa9da720972d1420400844; expires=Mon, 04-Jan-16 19:47:24 GMT; path=/; domain=.extrabux.com; HttpOnly, PHPSESSID=gups2ecglu8vktpeb346toulp6; path=/, _lang=en; expires=Mon, 04-Jan-2016 19:47:47 GMT; Max-Age=31536000; path=/, _geo=US; expires=Mon, 04-Jan-2016 19:47:47 GMT; Max-Age=31536000; path=/, utm_imc_id=3410262; expires=Tue, 03-Feb-2015 19:47:48 GMT; Max-Age=2592000; path=/, utm_assoc_ts=1420400868; path=/, utm_assoc_hash=none.direct.direct..; path=/"
       }
     },
     {
@@ -68,8 +54,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -89,13 +89,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cf-railgun",
-        "content": "612e035d49 1.47 0.088433 0030 5360"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
         "content": "cloudflare-nginx"
       }
@@ -104,10 +97,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a31cbbffe0309a0-ORD"
+        "content": "1a39f29de14509a0-ORD"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;extrabux.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:02:46 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=ddedf1035c737fedd1f778ef8d96cc8f31420315366; expires=Sun, 03-Jan-16 20:02:46 GMT; path=&#x2F;; domain=.extrabux.com; HttpOnly, PHPSESSID=g74td8cmpi3frkegq6cscn71k7; path=&#x2F;, _lang=en; expires=Sun, 03-Jan-2016 20:03:07 GMT; Max-Age=31536000; path=&#x2F;, _geo=US; expires=Sun, 03-Jan-2016 20:03:07 GMT; Max-Age=31536000; path=&#x2F;, utm_imc_id=3410262; expires=Mon, 02-Feb-2015 20:03:07 GMT; Max-Age=2592000; path=&#x2F;, utm_assoc_ts=1420315387; path=&#x2F;, utm_assoc_hash=none.direct.direct..; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.5.20-1+deb.sury.org~precise+1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-railgun&quot;, :content=&gt;&quot;612e035d49 1.47 0.088433 0030 5360&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a31cbbffe0309a0-ORD&quot;}\n",
-  "timestamp_end": "2015-01-03 20:02:46 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;extrabux.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:47:24 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=ddebe969f5d6d62a47e6eaa9da720972d1420400844; expires=Mon, 04-Jan-16 19:47:24 GMT; path=&#x2F;; domain=.extrabux.com; HttpOnly, PHPSESSID=gups2ecglu8vktpeb346toulp6; path=&#x2F;, _lang=en; expires=Mon, 04-Jan-2016 19:47:47 GMT; Max-Age=31536000; path=&#x2F;, _geo=US; expires=Mon, 04-Jan-2016 19:47:47 GMT; Max-Age=31536000; path=&#x2F;, utm_imc_id=3410262; expires=Tue, 03-Feb-2015 19:47:48 GMT; Max-Age=2592000; path=&#x2F;, utm_assoc_ts=1420400868; path=&#x2F;, utm_assoc_hash=none.direct.direct..; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.5.20-1+deb.sury.org~precise+1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a39f29de14509a0-ORD&quot;}\n",
+  "timestamp_end": "2015-01-04 19:47:24 UTC"
 }

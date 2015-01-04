@@ -6,8 +6,8 @@
       "name": "http://thebay.com"
     }
   },
-  "timestamp_start": "2015-01-03 20:03:05 UTC",
-  "id": "16ec5079-82cc-4b56-a466-63a43894d6a9",
+  "timestamp_start": "2015-01-04 19:47:42 UTC",
+  "id": "6c61211b-fdae-49d6-8dbb-a5b362bf1a64",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -40,8 +40,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-akamai-transformed",
+        "content": "9 - 0 pmb=mRUM,1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "expires",
-        "content": "Sat, 03 Jan 2015 20:03:06 GMT"
+        "content": "Sun, 04 Jan 2015 19:47:43 GMT"
       }
     },
     {
@@ -62,7 +69,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 20:03:06 GMT"
+        "content": "Sun, 04 Jan 2015 19:47:43 GMT"
       }
     },
     {
@@ -83,14 +90,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "akaau=1420317186~id=bd736dd413546684347a6617529929fb; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding, User-Agent"
+        "content": "akaau=1420402663~id=025d3015e9506e86be434f5946874e8c; path=/"
       }
     },
     {
@@ -99,8 +99,15 @@
         "name": "x-akamai-edgescape",
         "content": "georegion=285,country_code=US,region_code=TX,city=DALLAS,dma=623,pmsa =1920,msa=1922,areacode=214+972,county=DALLAS,fips=48113,lat=32.7874,long=-96.7989,timezone=CST,zip=75201-75212+75214-75238+75240-75244+75246-75254+75260-75267+75270+75275+75277+75283-75285+75287+75301+75303+75312-75313+75315+75320+75326+75336+75339+75342+75354-75360+75367-75368+75370-75374+75376+75378-75382+75389-75395+75397-75398,continent=NA,throughput=vhigh,bw=5000,asnum=36351"
       }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent"
+      }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;thebay.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cached_response&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-CA&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:03:06 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:03:06 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;akaau=1420317186~id=bd736dd413546684347a6617529929fb; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-akamai-edgescape&quot;, :content=&gt;&quot;georegion=285,country_code=US,region_code=TX,city=DALLAS,dma=623,pmsa =1920,msa=1922,areacode=214+972,county=DALLAS,fips=48113,lat=32.7874,long=-96.7989,timezone=CST,zip=75201-75212+75214-75238+75240-75244+75246-75254+75260-75267+75270+75275+75277+75283-75285+75287+75301+75303+75312-75313+75315+75320+75326+75336+75339+75342+75354-75360+75367-75368+75370-75374+75376+75378-75382+75389-75395+75397-75398,continent=NA,throughput=vhigh,bw=5000,asnum=36351&quot;}\n",
-  "timestamp_end": "2015-01-03 20:03:06 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;thebay.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cached_response&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-CA&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-akamai-transformed&quot;, :content=&gt;&quot;9 - 0 pmb=mRUM,1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:47:43 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:47:43 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;akaau=1420402663~id=025d3015e9506e86be434f5946874e8c; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-akamai-edgescape&quot;, :content=&gt;&quot;georegion=285,country_code=US,region_code=TX,city=DALLAS,dma=623,pmsa =1920,msa=1922,areacode=214+972,county=DALLAS,fips=48113,lat=32.7874,long=-96.7989,timezone=CST,zip=75201-75212+75214-75238+75240-75244+75246-75254+75260-75267+75270+75275+75277+75283-75285+75287+75301+75303+75312-75313+75315+75320+75326+75336+75339+75342+75354-75360+75367-75368+75370-75374+75376+75378-75382+75389-75395+75397-75398,continent=NA,throughput=vhigh,bw=5000,asnum=36351&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent&quot;}\n",
+  "timestamp_end": "2015-01-04 19:47:44 UTC"
 }

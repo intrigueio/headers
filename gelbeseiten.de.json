@@ -6,21 +6,21 @@
       "name": "http://gelbeseiten.de"
     }
   },
-  "timestamp_start": "2015-01-03 20:04:29 UTC",
-  "id": "4064e647-474e-4aad-b63c-a834335516d8",
+  "timestamp_start": "2015-01-04 19:48:57 UTC",
+  "id": "00ec9031-b002-49d8-a58b-9bea4eddef67",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 20:04:32 GMT"
+        "content": "Sun, 04 Jan 2015 19:48:58 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "subjectgs=MjE7; Domain=gelbeseiten.de; Expires=Sat, 03-Jan-2015 20:34:32 GMT; Path=/, gssession=MTA3ZGRlOTA0LThiYTAtNDM3Yi1hNTNiLWFkZjc2Yjc1MTk1OTsyMTs3ZGVza3RvcDs4b2ZmOw-e-e; Domain=gelbeseiten.de; Expires=Mon, 02-Feb-2015 20:04:32 GMT; Path=/"
+        "content": "JSESSIONID=E47B75BE72B9F6E7A93DBBCAB93621C5.Cat0101; Path=/yp, subjectgs=MjE7; Domain=gelbeseiten.de; Expires=Sun, 04-Jan-2015 20:18:58 GMT; Path=/, gssession=MTAxYTY0ZWI0LTlhMzAtNGZhZi1hNjQ3LTIxNmY3YzhiMDk2YjsyMTs3ZGVza3RvcDs4b2ZmOw-e-e; Domain=gelbeseiten.de; Expires=Tue, 03-Feb-2015 19:48:58 GMT; Path=/"
       }
     },
     {
@@ -41,7 +41,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Sun, 04 Jan 2015 20:04:32 GMT"
+        "content": "Mon, 05 Jan 2015 19:48:58 GMT"
       }
     },
     {
@@ -55,10 +55,17 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-length",
-        "content": "15460"
+        "content": "15456"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;gelbeseiten.de&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:04:32 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;subjectgs=MjE7; Domain=gelbeseiten.de; Expires=Sat, 03-Jan-2015 20:34:32 GMT; Path=&#x2F;, gssession=MTA3ZGRlOTA0LThiYTAtNDM3Yi1hNTNiLWFkZjc2Yjc1MTk1OTsyMTs3ZGVza3RvcDs4b2ZmOw-e-e; Domain=gelbeseiten.de; Expires=Mon, 02-Feb-2015 20:04:32 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=86400&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 20:04:32 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;15460&quot;}\n",
-  "timestamp_end": "2015-01-03 20:04:34 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;gelbeseiten.de&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:48:58 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=E47B75BE72B9F6E7A93DBBCAB93621C5.Cat0101; Path=&#x2F;yp, subjectgs=MjE7; Domain=gelbeseiten.de; Expires=Sun, 04-Jan-2015 20:18:58 GMT; Path=&#x2F;, gssession=MTAxYTY0ZWI0LTlhMzAtNGZhZi1hNjQ3LTIxNmY3YzhiMDk2YjsyMTs3ZGVza3RvcDs4b2ZmOw-e-e; Domain=gelbeseiten.de; Expires=Tue, 03-Feb-2015 19:48:58 GMT; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=86400&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:48:58 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;15456&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n",
+  "timestamp_end": "2015-01-04 19:48:58 UTC"
 }

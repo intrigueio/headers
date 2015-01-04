@@ -6,8 +6,8 @@
       "name": "http://homedepot.com"
     }
   },
-  "timestamp_start": "2015-01-03 19:59:27 UTC",
-  "id": "4932eacc-7cbf-4ce2-bca0-4f264bd70797",
+  "timestamp_start": "2015-01-04 19:44:28 UTC",
+  "id": "7c1487d5-3737-41df-b34b-a022c786b65b",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -27,14 +27,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-dynatrace",
-        "content": "PT=2605533;PA=-1091737887;RS=Production Live/20150103142205_0.session;SP=Production Live;PS=-1262753182"
+        "content": "PT=3328213;PA=-1773062202;RS=Production Live/20150104142620_0.session;SP=Production Live;PS=-1262753182"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "dynatrace",
-        "content": "PT=2605533;PA=-1091737887;RS=Production Live/20150103142205_0.session;SP=Production Live;PS=-1262753182"
+        "content": "PT=3328213;PA=-1773062202;RS=Production Live/20150104142620_0.session;SP=Production Live;PS=-1262753182"
       }
     },
     {
@@ -48,14 +48,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "885156346 884007147"
+        "content": "998503083 997944650"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish-cache",
-        "content": "HIT(1116)@core_browse_grid"
+        "content": "HIT(541)@core_browse_grid"
       }
     },
     {
@@ -69,7 +69,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Sat, 03 Jan 2015 19:59:27 GMT"
+        "content": "Sun, 04 Jan 2015 19:44:29 GMT"
       }
     },
     {
@@ -90,7 +90,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 19:59:27 GMT"
+        "content": "Sun, 04 Jan 2015 19:44:29 GMT"
       }
     },
     {
@@ -111,7 +111,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "Coradiantuserid=4b673fe0-78f9-143f-9678-00e0ed0ed026; Path=/; Domain=.homedepot.com, akaau=1420315467~id=380611f4165e1036149bc9379c6708d0; path=/, HD_DC=origin; Domain=.homedepot.com; Path=/"
+        "content": "Coradiantuserid=4d32344c-788d-143f-9678-00e0ed194bfc; Path=/; Domain=.homedepot.com, akaau=1420400969~id=2e3c6bb9739f56f0eb604ee74b006b6b; path=/, HD_DC=origin; Domain=.homedepot.com; Path=/"
       }
     },
     {
@@ -150,6 +150,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;homedepot.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dynatrace&quot;, :content=&gt;&quot;PT=2605533;PA=-1091737887;RS=Production Live&#x2F;20150103142205_0.session;SP=Production Live;PS=-1262753182&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;dynatrace&quot;, :content=&gt;&quot;PT=2605533;PA=-1091737887;RS=Production Live&#x2F;20150103142205_0.session;SP=Production Live;PS=-1262753182&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-esi&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;885156346 884007147&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-cache&quot;, :content=&gt;&quot;HIT(1116)@core_browse_grid&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:59:27 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:59:27 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;Coradiantuserid=4b673fe0-78f9-143f-9678-00e0ed0ed026; Path=&#x2F;; Domain=.homedepot.com, akaau=1420315467~id=380611f4165e1036149bc9379c6708d0; path=&#x2F;, HD_DC=origin; Domain=.homedepot.com; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-max-age&quot;, :content=&gt;&quot;86400&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-credentials&quot;, :content=&gt;&quot;false&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-headers&quot;, :content=&gt;&quot;*&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-methods&quot;, :content=&gt;&quot;GET,POST&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;*&quot;}\n",
-  "timestamp_end": "2015-01-03 19:59:27 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;homedepot.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dynatrace&quot;, :content=&gt;&quot;PT=3328213;PA=-1773062202;RS=Production Live&#x2F;20150104142620_0.session;SP=Production Live;PS=-1262753182&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;dynatrace&quot;, :content=&gt;&quot;PT=3328213;PA=-1773062202;RS=Production Live&#x2F;20150104142620_0.session;SP=Production Live;PS=-1262753182&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-esi&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;998503083 997944650&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-cache&quot;, :content=&gt;&quot;HIT(541)@core_browse_grid&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:44:29 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:44:29 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;Coradiantuserid=4d32344c-788d-143f-9678-00e0ed194bfc; Path=&#x2F;; Domain=.homedepot.com, akaau=1420400969~id=2e3c6bb9739f56f0eb604ee74b006b6b; path=&#x2F;, HD_DC=origin; Domain=.homedepot.com; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-max-age&quot;, :content=&gt;&quot;86400&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-credentials&quot;, :content=&gt;&quot;false&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-headers&quot;, :content=&gt;&quot;*&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-methods&quot;, :content=&gt;&quot;GET,POST&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;*&quot;}\n",
+  "timestamp_end": "2015-01-04 19:44:29 UTC"
 }

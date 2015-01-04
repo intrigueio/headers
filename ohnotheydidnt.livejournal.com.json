@@ -6,8 +6,8 @@
       "name": "http://ohnotheydidnt.livejournal.com"
     }
   },
-  "timestamp_start": "2015-01-03 20:02:39 UTC",
-  "id": "3a5cb6f6-fefd-4da3-8d4a-41ae8dd2bcb9",
+  "timestamp_start": "2015-01-04 19:47:19 UTC",
+  "id": "a3d89244-907e-4afc-b67e-c6885f75fd3e",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -20,7 +20,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 20:02:39 GMT"
+        "content": "Sun, 04 Jan 2015 19:47:19 GMT"
       }
     },
     {
@@ -34,7 +34,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-length",
-        "content": "22173"
+        "content": "21829"
       }
     },
     {
@@ -48,7 +48,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-aws-id",
-        "content": "ws49"
+        "content": "ws27"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "vertical_tags=1420400839%7Cvent; expires=Tuesday, 03-Feb-2015 19:47:19 GMT; path=/; domain=.livejournal.com; HttpOnly, ljident=2835617196.20480.0000;domain=.livejournal.com; path=/"
       }
     },
     {
@@ -62,7 +69,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-md5",
-        "content": "abpMBnf5fN0q2QcNhBre+A"
+        "content": "n0uGWc/gmAIGneekZPt5KQ"
       }
     },
     {
@@ -70,6 +77,13 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding,ETag"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-end",
+        "content": "end: ohnotheydidnt.livejournal.com/<_c-><_cs->N0C00KIE5"
       }
     },
     {
@@ -83,14 +97,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "572181862 572181252"
+        "content": "1866489267"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "age",
-        "content": "2"
+        "content": "0"
       }
     },
     {
@@ -104,14 +118,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "GgZzabpMBnf5fN0q2QcNhBre+A"
+        "content": "GgZzn0uGWc/gmAIGneekZPt5KQ"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-gateway",
-        "content": "bil1-swlb02"
+        "content": "bil1-swlb01"
       }
     },
     {
@@ -120,15 +134,8 @@
         "name": "x-beta",
         "content": "http://varnish"
       }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "ljident=2852394412.20480.0000;domain=.livejournal.com; path=/"
-      }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ohnotheydidnt.livejournal.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:02:39 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;22173&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aws-id&quot;, :content=&gt;&quot;ws49&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, proxy-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-md5&quot;, :content=&gt;&quot;abpMBnf5fN0q2QcNhBre+A&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,ETag&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;572181862 572181252&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-vws-id&quot;, :content=&gt;&quot;bil1-varn24&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;GgZzabpMBnf5fN0q2QcNhBre+A&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-gateway&quot;, :content=&gt;&quot;bil1-swlb02&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-beta&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ljident=2852394412.20480.0000;domain=.livejournal.com; path=&#x2F;&quot;}\n",
-  "timestamp_end": "2015-01-03 20:02:39 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ohnotheydidnt.livejournal.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:47:19 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;21829&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aws-id&quot;, :content=&gt;&quot;ws27&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;vertical_tags=1420400839%7Cvent; expires=Tuesday, 03-Feb-2015 19:47:19 GMT; path=&#x2F;; domain=.livejournal.com; HttpOnly, ljident=2835617196.20480.0000;domain=.livejournal.com; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, proxy-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-md5&quot;, :content=&gt;&quot;n0uGWc&#x2F;gmAIGneekZPt5KQ&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,ETag&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-end&quot;, :content=&gt;&quot;end: ohnotheydidnt.livejournal.com&#x2F;&lt;_c-&gt;&lt;_cs-&gt;N0C00KIE5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1866489267&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-vws-id&quot;, :content=&gt;&quot;bil1-varn24&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;GgZzn0uGWc&#x2F;gmAIGneekZPt5KQ&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-gateway&quot;, :content=&gt;&quot;bil1-swlb01&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-beta&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;varnish&quot;}\n",
+  "timestamp_end": "2015-01-04 19:47:19 UTC"
 }

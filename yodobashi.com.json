@@ -6,28 +6,21 @@
       "name": "http://yodobashi.com"
     }
   },
-  "timestamp_start": "2015-01-03 20:00:01 UTC",
-  "id": "188d5b23-140d-47ff-b26e-fa999efd705d",
+  "timestamp_start": "2015-01-04 19:45:00 UTC",
+  "id": "2c07b9df-bdde-4f78-88ff-b5e2653046b7",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 20:00:02 GMT"
+        "content": "Sun, 04 Jan 2015 19:45:01 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "yuid=932BB619593CC65B4236613A9B4F2647; Path=/, yatpz=C1A99TFIXn%2FDYMSIa5KVBfGaCg%3D%3D; Domain=.yodobashi.com; Expires=Fri, 03-Apr-2015 20:00:02 GMT; Path=/, newses=1; Domain=.yodobashi.com; Expires=Thu, 21-Jan-2083 23:14:09 GMT; Path=/, google_crmid=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, bhs=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend, fhs=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend, hhs=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend, rdh=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend, crs=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend, erc=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend, psn_misc=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "expires",
-        "content": "Thu, 01 Jan 1970 00:00:00 GMT"
+        "name": "last-modified",
+        "content": "Sun, 04 Jan 2015 19:45:01 GMT"
       }
     },
     {
@@ -35,6 +28,13 @@
       "attributes": {
         "name": "cache-control",
         "content": "max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "yuid=05EC45DB154403F5CE7C07DD134517F8; Path=/, yid=05EC45DB154403F5CE7C07DD134517F8; Domain=.yodobashi.com; Expires=Fri, 22-Jan-2083 22:59:08 GMT; Path=/, newses=1; Domain=.yodobashi.com; Expires=Fri, 22-Jan-2083 22:59:08 GMT; Path=/, uq=fa90c732f2a0b2f926a5e4e416a540628192f5d3; Expires=Fri, 22-Jan-2083 22:59:08 GMT; Path=/, yatpz=C1A4ahY2bys77bL5d5%2F%2F%2F9r9Lg%3D%3D; Domain=.yodobashi.com; Expires=Sat, 04-Apr-2015 19:45:01 GMT; Path=/, bhs=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend, fhs=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend, hhs=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend, rdh=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend, crs=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend, erc=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend, psn_misc=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ws/api/recommend, google_crmid=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, JSESSIONID=0A2B415053FE9A97502A02F3C0AB47FD; Path=/"
       }
     },
     {
@@ -55,7 +55,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-length",
-        "content": "40611"
+        "content": "40640"
       }
     },
     {
@@ -66,6 +66,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;yodobashi.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:00:02 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;yuid=932BB619593CC65B4236613A9B4F2647; Path=&#x2F;, yatpz=C1A99TFIXn%2FDYMSIa5KVBfGaCg%3D%3D; Domain=.yodobashi.com; Expires=Fri, 03-Apr-2015 20:00:02 GMT; Path=&#x2F;, newses=1; Domain=.yodobashi.com; Expires=Thu, 21-Jan-2083 23:14:09 GMT; Path=&#x2F;, google_crmid=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, bhs=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend, fhs=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend, hhs=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend, rdh=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend, crs=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend, erc=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend, psn_misc=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;40611&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n",
-  "timestamp_end": "2015-01-03 20:00:03 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;yodobashi.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:45:01 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:45:01 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;yuid=05EC45DB154403F5CE7C07DD134517F8; Path=&#x2F;, yid=05EC45DB154403F5CE7C07DD134517F8; Domain=.yodobashi.com; Expires=Fri, 22-Jan-2083 22:59:08 GMT; Path=&#x2F;, newses=1; Domain=.yodobashi.com; Expires=Fri, 22-Jan-2083 22:59:08 GMT; Path=&#x2F;, uq=fa90c732f2a0b2f926a5e4e416a540628192f5d3; Expires=Fri, 22-Jan-2083 22:59:08 GMT; Path=&#x2F;, yatpz=C1A4ahY2bys77bL5d5%2F%2F%2F9r9Lg%3D%3D; Domain=.yodobashi.com; Expires=Sat, 04-Apr-2015 19:45:01 GMT; Path=&#x2F;, bhs=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend, fhs=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend, hhs=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend, rdh=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend, crs=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend, erc=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend, psn_misc=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;ws&#x2F;api&#x2F;recommend, google_crmid=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, JSESSIONID=0A2B415053FE9A97502A02F3C0AB47FD; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;40640&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n",
+  "timestamp_end": "2015-01-04 19:45:02 UTC"
 }

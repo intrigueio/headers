@@ -6,8 +6,8 @@
       "name": "http://smh.com.au"
     }
   },
-  "timestamp_start": "2015-01-03 19:59:55 UTC",
-  "id": "20f269fe-b402-4b79-ba2f-b0e04fe3eb72",
+  "timestamp_start": "2015-01-04 19:44:55 UTC",
+  "id": "6c00c113-a521-494b-845a-94f9f91d52e6",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -20,7 +20,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-length",
-        "content": "335803"
+        "content": "342522"
       }
     },
     {
@@ -34,7 +34,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"f1457e89d39e37bb0f709906bfed4e96\""
+        "content": "\"29f559d5a9728727bd02a904c6e43665\""
       }
     },
     {
@@ -48,7 +48,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1057310661 1057303486"
+        "content": "1587797844 1587791339"
       }
     },
     {
@@ -69,35 +69,49 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-amz-version-id",
-        "content": "hyoxztrhVj05ktCJFFvgdXiZHZxcnOhj"
+        "content": "hgkt1fKQfyIIySeiCog85jysv5sCgKbW"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-amz-request-id",
-        "content": "E593FEFA2284588A"
+        "content": "1A11F10E72B78B27"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-amz-id-2",
-        "content": "r2JHnkxyl8wCkkhsfi9IXTOaGPS+oGXB3hWHNAM+QQ2GBypVzPDYWQsSb5R9QsQp"
+        "content": "Gf4PDb0bl3J1sGWWXIbVWTK6SfxogwSl4hOHYw79S9utyi5crTJTJDc2+8CP6TXQ"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Sun, 04 Jan 2015 19:44:55 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=38"
+        "content": "max-age=0, no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 19:59:58 GMT"
+        "content": "Sun, 04 Jan 2015 19:44:55 GMT"
       }
     },
     {
@@ -108,6 +122,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;smh.com.au&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;AmazonS3&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;335803&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;f1457e89d39e37bb0f709906bfed4e96\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1057310661 1057303486&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-host&quot;, :content=&gt;&quot;s3-ap-southeast-2.amazonaws.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-esi-enable&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-amz-version-id&quot;, :content=&gt;&quot;hyoxztrhVj05ktCJFFvgdXiZHZxcnOhj&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-amz-request-id&quot;, :content=&gt;&quot;E593FEFA2284588A&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-amz-id-2&quot;, :content=&gt;&quot;r2JHnkxyl8wCkkhsfi9IXTOaGPS+oGXB3hWHNAM+QQ2GBypVzPDYWQsSb5R9QsQp&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=38&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 19:59:58 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-03 19:59:58 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;smh.com.au&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;AmazonS3&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;342522&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;29f559d5a9728727bd02a904c6e43665\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1587797844 1587791339&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-host&quot;, :content=&gt;&quot;s3-ap-southeast-2.amazonaws.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-esi-enable&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-amz-version-id&quot;, :content=&gt;&quot;hgkt1fKQfyIIySeiCog85jysv5sCgKbW&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-amz-request-id&quot;, :content=&gt;&quot;1A11F10E72B78B27&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-amz-id-2&quot;, :content=&gt;&quot;Gf4PDb0bl3J1sGWWXIbVWTK6SfxogwSl4hOHYw79S9utyi5crTJTJDc2+8CP6TXQ&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:44:55 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:44:55 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-04 19:44:56 UTC"
 }

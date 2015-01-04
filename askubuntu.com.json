@@ -6,14 +6,14 @@
       "name": "http://askubuntu.com"
     }
   },
-  "timestamp_start": "2015-01-03 20:00:10 UTC",
-  "id": "c12b573a-3c25-4e1d-8091-03b52602682f",
+  "timestamp_start": "2015-01-04 19:45:07 UTC",
+  "id": "d25c55ad-64a9-4ada-afe7-c16d738811c2",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 20:00:10 GMT"
+        "content": "Sun, 04 Jan 2015 19:45:07 GMT"
       }
     },
     {
@@ -41,7 +41,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=dea60fa3bfe3f555bef4d8b9578814fc11420315210; expires=Sun, 03-Jan-16 20:00:10 GMT; path=/; domain=.askubuntu.com; HttpOnly, prov=65d861c1-af10-4f33-9ae1-78f746792c05; domain=.askubuntu.com; expires=Fri, 01-Jan-2055 00:00:00 GMT; path=/; HttpOnly"
+        "content": "__cfduid=de5580a9efffe8e362f338befcfa89fa41420400707; expires=Mon, 04-Jan-16 19:45:07 GMT; path=/; domain=.askubuntu.com; HttpOnly, prov=daa4a2f1-a432-4f66-b822-8a5788a70d97; domain=.askubuntu.com; expires=Fri, 01-Jan-2055 00:00:00 GMT; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Sun, 04 Jan 2015 19:46:07 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Sun, 04 Jan 2015 19:45:07 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "public, no-cache=\"Set-Cookie\", max-age=60"
       }
     },
     {
@@ -61,29 +82,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "expires",
-        "content": "Sat, 03 Jan 2015 20:01:04 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Sat, 03 Jan 2015 20:00:04 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "public, no-cache=\"Set-Cookie\", max-age=54"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cf-railgun",
-        "content": "651e28d2b2 8.21 0.003498 0031 b048"
+        "content": "52460ca97f 6.75 0.015909 0031 b048"
       }
     },
     {
@@ -97,10 +97,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a31c7ef784c03e2-DFW"
+        "content": "1a39ef476b110103-DFW"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;askubuntu.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:00:10 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=dea60fa3bfe3f555bef4d8b9578814fc11420315210; expires=Sun, 03-Jan-16 20:00:10 GMT; path=&#x2F;; domain=.askubuntu.com; HttpOnly, prov=65d861c1-af10-4f33-9ae1-78f746792c05; domain=.askubuntu.com; expires=Fri, 01-Jan-2055 00:00:00 GMT; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;*&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:01:04 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:00:04 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public, no-cache=\\&quot;Set-Cookie\\&quot;, max-age=54&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-railgun&quot;, :content=&gt;&quot;651e28d2b2 8.21 0.003498 0031 b048&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a31c7ef784c03e2-DFW&quot;}\n",
-  "timestamp_end": "2015-01-03 20:00:10 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;askubuntu.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:45:07 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=de5580a9efffe8e362f338befcfa89fa41420400707; expires=Mon, 04-Jan-16 19:45:07 GMT; path=&#x2F;; domain=.askubuntu.com; HttpOnly, prov=daa4a2f1-a432-4f66-b822-8a5788a70d97; domain=.askubuntu.com; expires=Fri, 01-Jan-2055 00:00:00 GMT; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:46:07 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:45:07 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public, no-cache=\\&quot;Set-Cookie\\&quot;, max-age=60&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;*&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-railgun&quot;, :content=&gt;&quot;52460ca97f 6.75 0.015909 0031 b048&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a39ef476b110103-DFW&quot;}\n",
+  "timestamp_end": "2015-01-04 19:45:07 UTC"
 }

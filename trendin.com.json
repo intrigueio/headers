@@ -6,8 +6,8 @@
       "name": "http://trendin.com"
     }
   },
-  "timestamp_start": "2015-01-03 20:02:31 UTC",
-  "id": "6694959e-c9a2-40f3-af02-c5bea893bbfd",
+  "timestamp_start": "2015-01-04 19:47:12 UTC",
+  "id": "df85fa4a-a128-40ff-bea2-78e75fb7cbbe",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -20,7 +20,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "live",
-        "content": "3"
+        "content": "1"
       }
     },
     {
@@ -40,29 +40,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
-        "content": "max-age=203"
+        "content": "max-age=600"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Sat, 03 Jan 2015 20:05:55 GMT"
+        "content": "Sun, 04 Jan 2015 19:57:14 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sat, 03 Jan 2015 20:02:32 GMT"
+        "content": "Sun, 04 Jan 2015 19:47:14 GMT"
       }
     },
     {
@@ -78,8 +71,22 @@
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
       }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "session_key=5ed1dca103abd4889e0c9e0521afda54; expires=Mon, 05-Jan-2015 19:47:13 GMT; path=/, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, bbb=9eae9d2e8707f17874ed722cc183e0d4; expires=Mon, 05-Jan-2015 19:47:13 GMT; path=/, 2c13bf470b0cff7f836912399abb0301=CCbjZw89N%2BEOHRvE76Ns8CL9o7l8gJE1DgPlszGWP8NFC8NPwmz6iIkFQ7fw%2B%2FIUrmhZ0esHlU3fyAj3xTx0WkdBjBsYMnGl7u%2B%2FuxeryqblpU2qqf4EpNOrZIsRU3Ltky8fYhlGJ2rTcFByWgasU1keaG8MQxsCbCAhCuBNIqQPqrnTd6HluO9J8%2B9VkKmArjnabjQhLlnZEV0QzlzptqWwxZ%2BngdeBIGIfCXqJXUQ%3D000170; expires=Mon, 05-Jan-2015 19:47:13 GMT; path=/; domain=.trendin.com; httponly, AWSELB=13195FD71065B11AC8AC408E0EFB0A3AC949F331FD2E90522BEBA5FCB198AA77E10C241B45BEF754C2882F26E4D25E6D840D9AC10C57CD42A66F01656C558F7902F8E24A85;PATH=/;MAX-AGE=86400"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
+      }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;trendin.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;live&quot;, :content=&gt;&quot;3&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=203&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:05:55 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 03 Jan 2015 20:02:32 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n",
-  "timestamp_end": "2015-01-03 20:02:32 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;trendin.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;live&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=600&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:57:14 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:47:14 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;session_key=5ed1dca103abd4889e0c9e0521afda54; expires=Mon, 05-Jan-2015 19:47:13 GMT; path=&#x2F;, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;, bbb=9eae9d2e8707f17874ed722cc183e0d4; expires=Mon, 05-Jan-2015 19:47:13 GMT; path=&#x2F;, 2c13bf470b0cff7f836912399abb0301=CCbjZw89N%2BEOHRvE76Ns8CL9o7l8gJE1DgPlszGWP8NFC8NPwmz6iIkFQ7fw%2B%2FIUrmhZ0esHlU3fyAj3xTx0WkdBjBsYMnGl7u%2B%2FuxeryqblpU2qqf4EpNOrZIsRU3Ltky8fYhlGJ2rTcFByWgasU1keaG8MQxsCbCAhCuBNIqQPqrnTd6HluO9J8%2B9VkKmArjnabjQhLlnZEV0QzlzptqWwxZ%2BngdeBIGIfCXqJXUQ%3D000170; expires=Mon, 05-Jan-2015 19:47:13 GMT; path=&#x2F;; domain=.trendin.com; httponly, AWSELB=13195FD71065B11AC8AC408E0EFB0A3AC949F331FD2E90522BEBA5FCB198AA77E10C241B45BEF754C2882F26E4D25E6D840D9AC10C57CD42A66F01656C558F7902F8E24A85;PATH=&#x2F;;MAX-AGE=86400&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, User-Agent&quot;}\n",
+  "timestamp_end": "2015-01-04 19:47:14 UTC"
 }
