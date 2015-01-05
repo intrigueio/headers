@@ -6,35 +6,21 @@
       "name": "http://ciudad.com.ar"
     }
   },
-  "timestamp_start": "2015-01-04 19:47:06 UTC",
-  "id": "9d8f5e6b-92e5-4550-b1d9-d7b3e9755acd",
+  "timestamp_start": "2015-01-05 19:47:20 UTC",
+  "id": "ce8615f2-5f6a-4176-8c49-cadfa7004143",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache/2.2.25 (Unix) mod_ssl/2.2.25 OpenSSL/1.0.0-fips DAV/2 PHP/5.2.13 mod_fcgid/2.3.9"
+        "content": "Apache/2.2.20 (Unix) PHP/5.2.13 mod_fcgid/2.3.5"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Sun, 04 Jan 2015 19:21:07 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes, bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "expires",
-        "content": "Sun, 19 Nov 1978 05:00:00 GMT"
+        "content": "Mon, 05 Jan 2015 19:25:33 GMT"
       }
     },
     {
@@ -48,28 +34,42 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cacheable",
-        "content": "-1.000"
+        "content": "YES"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cacheable-ttl",
+        "content": "120.000"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-length",
-        "content": "28058"
+        "content": "27517"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sun, 04 Jan 2015 19:47:07 GMT"
+        "content": "Mon, 05 Jan 2015 19:47:21 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1368049052"
+        "content": "2294171680"
       }
     },
     {
@@ -97,7 +97,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-served-by",
-        "content": "calamar14"
+        "content": "calamar15"
       }
     },
     {
@@ -202,7 +202,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-backend",
-        "content": ""
+        "content": "www_ciudad[3]"
       }
     },
     {
@@ -213,6 +213,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ciudad.com.ar&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.25 (Unix) mod_ssl&#x2F;2.2.25 OpenSSL&#x2F;1.0.0-fips DAV&#x2F;2 PHP&#x2F;5.2.13 mod_fcgid&#x2F;2.3.9&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:21:07 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes, bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 19 Nov 1978 05:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cacheable&quot;, :content=&gt;&quot;-1.000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;28058&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:47:07 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1368049052&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-served-by&quot;, :content=&gt;&quot;calamar14&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-client-ip&quot;, :content=&gt;&quot;104.237.133.83&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-logged&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-jash&quot;, :content=&gt;&quot;www.ciudad.com.ar - http:&#x2F;&#x2F;www.ciudad.com.ar&#x2F; - ( | ) -  - Default&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-block&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cookie-s&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cookie-r&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-grace&quot;, :content=&gt;&quot;6m&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-useragent&quot;, :content=&gt;&quot;Default&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-purge&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-hash&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ref&quot;, :content=&gt;&quot;0 -&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-http-host&quot;, :content=&gt;&quot;www.ciudad.com.ar&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-backend&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-req-url&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;www.ciudad.com.ar&#x2F;&quot;}\n",
-  "timestamp_end": "2015-01-04 19:47:08 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ciudad.com.ar&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.20 (Unix) PHP&#x2F;5.2.13 mod_fcgid&#x2F;2.3.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:25:33 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cacheable&quot;, :content=&gt;&quot;YES&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cacheable-ttl&quot;, :content=&gt;&quot;120.000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;27517&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:47:21 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;2294171680&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-served-by&quot;, :content=&gt;&quot;calamar15&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-client-ip&quot;, :content=&gt;&quot;104.237.133.83&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-logged&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-jash&quot;, :content=&gt;&quot;www.ciudad.com.ar - http:&#x2F;&#x2F;www.ciudad.com.ar&#x2F; - ( | ) -  - Default&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-block&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cookie-s&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cookie-r&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-grace&quot;, :content=&gt;&quot;6m&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-useragent&quot;, :content=&gt;&quot;Default&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-purge&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-hash&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ref&quot;, :content=&gt;&quot;0 -&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-http-host&quot;, :content=&gt;&quot;www.ciudad.com.ar&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-backend&quot;, :content=&gt;&quot;www_ciudad[3]&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-req-url&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;www.ciudad.com.ar&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-05 19:47:21 UTC"
 }

@@ -6,11 +6,66 @@
       "name": "http://gilt.com"
     }
   },
-  "timestamp_start": "2015-01-04 19:44:54 UTC",
-  "id": "f7d428d0-9aae-48d5-adb6-e62db38bac1c",
+  "timestamp_start": "2015-01-05 19:45:07 UTC",
+  "id": "7c034744-c5a8-4214-a041-24827bfd90a9",
   "entities": [
-
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Mon, 05 Jan 2015 19:45:10 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=df7c88806584da6b87a60c97b871fcc931420487110; expires=Tue, 05-Jan-16 19:45:10 GMT; path=/; domain=.gilt.com; HttpOnly, sid=z_20150105_194509_108.162.221.177_73_16_17; path=/, cp=441; path=/; expires=Wed, 15 Apr 2015 19:45:09 GMT, test_bucket=135; path=/; expires=Wed, 15 Apr 2015 19:45:09 GMT, test_bucket_id=6346295725153538701; path=/; expires=Wed, 15 Apr 2015 19:45:09 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1a422cb59a53093e-DFW"
+      }
+    }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;gilt.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[-] : Unable to request URI: &#x2F;sale&#x2F;women the scheme http does not accept registry part: :80 (or bad hostname?)\n",
-  "timestamp_end": "2015-01-04 19:44:55 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;gilt.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:45:10 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=df7c88806584da6b87a60c97b871fcc931420487110; expires=Tue, 05-Jan-16 19:45:10 GMT; path=&#x2F;; domain=.gilt.com; HttpOnly, sid=z_20150105_194509_108.162.221.177_73_16_17; path=&#x2F;, cp=441; path=&#x2F;; expires=Wed, 15 Apr 2015 19:45:09 GMT, test_bucket=135; path=&#x2F;; expires=Wed, 15 Apr 2015 19:45:09 GMT, test_bucket_id=6346295725153538701; path=&#x2F;; expires=Wed, 15 Apr 2015 19:45:09 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a422cb59a53093e-DFW&quot;}\n",
+  "timestamp_end": "2015-01-05 19:45:10 UTC"
 }

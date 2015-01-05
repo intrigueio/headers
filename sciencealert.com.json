@@ -6,14 +6,14 @@
       "name": "http://sciencealert.com"
     }
   },
-  "timestamp_start": "2015-01-04 19:49:02 UTC",
-  "id": "72ce02a3-4cff-43ea-bac3-c238bef3dc3c",
+  "timestamp_start": "2015-01-05 19:49:23 UTC",
+  "id": "cbc02807-aea9-4502-aa50-709094aad708",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sun, 04 Jan 2015 19:49:04 GMT"
+        "content": "Mon, 05 Jan 2015 19:49:25 GMT"
       }
     },
     {
@@ -41,42 +41,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d99251d8e521f0232643dd93e2f592f101420400944; expires=Mon, 04-Jan-16 19:49:04 GMT; path=/; domain=.sciencealert.com; HttpOnly, f9414a2856bbe9a201b6bfd01ec37a95=p61el50bqr5bgl61mt660iaqt4; path=/; HttpOnly"
+        "content": "__cfduid=dc9c1e64e4172172c4bf5b313b7a5fb5b1420487364; expires=Tue, 05-Jan-16 19:49:24 GMT; path=/; domain=.sciencealert.com; HttpOnly, f9414a2856bbe9a201b6bfd01ec37a95=kuhqdr6ort55krfeaqusoq3jd6; path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "expires",
-        "content": "Mon, 1 Jan 2001 00:00:00 GMT"
+        "name": "x-cache-enabled",
+        "content": "True"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "host-header",
-        "content": "192fc2e7e50945beb8231a492d6a8024, 192fc2e7e50945beb8231a492d6a8024"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-forwarded-for",
-        "content": "119.81.1.68"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Sun, 04 Jan 2015 19:49:04 GMT"
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
       }
     },
     {
@@ -96,13 +75,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cache-enabled",
-        "content": "True"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "pragma",
         "content": "no-cache"
       }
@@ -110,15 +82,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
+        "name": "x-forwarded-for",
+        "content": "119.81.1.68"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-url",
-        "content": "/"
+        "name": "expires",
+        "content": "Mon, 1 Jan 2001 00:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "host-header",
+        "content": "192fc2e7e50945beb8231a492d6a8024, 192fc2e7e50945beb8231a492d6a8024"
       }
     },
     {
@@ -131,8 +117,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "last-modified",
+        "content": "Mon, 05 Jan 2015 19:49:25 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-url",
+        "content": "/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cf-railgun",
-        "content": "38decf837f 0.22 0.638158 0030 5360"
+        "content": "cca76a454c 0.30 0.643730 0030 5360"
       }
     },
     {
@@ -146,10 +146,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a39f50c49730430-ORD"
+        "content": "1a4232eb4a160430-ORD"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;sciencealert.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:49:04 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d99251d8e521f0232643dd93e2f592f101420400944; expires=Mon, 04-Jan-16 19:49:04 GMT; path=&#x2F;; domain=.sciencealert.com; HttpOnly, f9414a2856bbe9a201b6bfd01ec37a95=p61el50bqr5bgl61mt660iaqt4; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Mon, 1 Jan 2001 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;host-header&quot;, :content=&gt;&quot;192fc2e7e50945beb8231a492d6a8024, 192fc2e7e50945beb8231a492d6a8024&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-forwarded-for&quot;, :content=&gt;&quot;119.81.1.68&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:49:04 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-host&quot;, :content=&gt;&quot;www.sciencealert.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;SGCACHE-MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-enabled&quot;, :content=&gt;&quot;True&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-url&quot;, :content=&gt;&quot;&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-railgun&quot;, :content=&gt;&quot;38decf837f 0.22 0.638158 0030 5360&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a39f50c49730430-ORD&quot;}\n",
-  "timestamp_end": "2015-01-04 19:49:05 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;sciencealert.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:49:25 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=dc9c1e64e4172172c4bf5b313b7a5fb5b1420487364; expires=Tue, 05-Jan-16 19:49:24 GMT; path=&#x2F;; domain=.sciencealert.com; HttpOnly, f9414a2856bbe9a201b6bfd01ec37a95=kuhqdr6ort55krfeaqusoq3jd6; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-enabled&quot;, :content=&gt;&quot;True&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-host&quot;, :content=&gt;&quot;www.sciencealert.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;SGCACHE-MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-forwarded-for&quot;, :content=&gt;&quot;119.81.1.68&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Mon, 1 Jan 2001 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;host-header&quot;, :content=&gt;&quot;192fc2e7e50945beb8231a492d6a8024, 192fc2e7e50945beb8231a492d6a8024&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:49:25 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-url&quot;, :content=&gt;&quot;&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-railgun&quot;, :content=&gt;&quot;cca76a454c 0.30 0.643730 0030 5360&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a4232eb4a160430-ORD&quot;}\n",
+  "timestamp_end": "2015-01-05 19:49:25 UTC"
 }

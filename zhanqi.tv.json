@@ -6,21 +6,21 @@
       "name": "http://zhanqi.tv"
     }
   },
-  "timestamp_start": "2015-01-04 19:48:47 UTC",
-  "id": "4373d40c-e006-48c6-a97c-1beb4a78eee7",
+  "timestamp_start": "2015-01-05 19:49:08 UTC",
+  "id": "c475fb74-321b-4fc1-bb66-2cd9f19e3cd2",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Sun, 04 Jan 2015 19:49:51 GMT"
+        "content": "Mon, 05 Jan 2015 19:49:38 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sun, 04 Jan 2015 19:48:51 GMT"
+        "content": "Mon, 05 Jan 2015 19:48:38 GMT"
       }
     },
     {
@@ -40,15 +40,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "content-length",
+        "content": "106578"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Sun, 04 Jan 2015 19:48:32 GMT"
+        "content": "Mon, 05 Jan 2015 19:48:31 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"54aaea8f-1a052\""
       }
     },
     {
@@ -62,7 +69,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "websource",
-        "content": "webappmaster02, upstream03"
+        "content": "webappmaster02, upstream01"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
@@ -75,8 +89,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "age",
+        "content": "33"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-via",
-        "content": "1.1 jg4:3 (Cdn Cache Server V2.0)"
+        "content": "1.1 zjjhdx36:80 (Cdn Cache Server V2.0), 1.1 shiben2:3 (Cdn Cache Server V2.0)"
       }
     },
     {
@@ -87,6 +108,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;zhanqi.tv&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:49:51 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:48:51 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:48:32 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=60&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;websource&quot;, :content=&gt;&quot;webappmaster02, upstream03&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;*.zhanqi.tv&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-via&quot;, :content=&gt;&quot;1.1 jg4:3 (Cdn Cache Server V2.0)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-04 19:48:51 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;zhanqi.tv&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:49:38 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:48:38 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;106578&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:48:31 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;54aaea8f-1a052\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=60&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;websource&quot;, :content=&gt;&quot;webappmaster02, upstream01&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;*.zhanqi.tv&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;33&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-via&quot;, :content=&gt;&quot;1.1 zjjhdx36:80 (Cdn Cache Server V2.0), 1.1 shiben2:3 (Cdn Cache Server V2.0)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-05 19:49:11 UTC"
 }

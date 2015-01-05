@@ -6,8 +6,8 @@
       "name": "http://seagate.com"
     }
   },
-  "timestamp_start": "2015-01-04 19:47:30 UTC",
-  "id": "5ac44673-12cd-4d60-8cf7-9d7ad0e53d27",
+  "timestamp_start": "2015-01-05 19:47:44 UTC",
+  "id": "51de11b6-13d4-4368-9873-6ac85a3d13c1",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -40,6 +40,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "content-length",
+        "content": "76610"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "no-cache"
       }
@@ -48,14 +55,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sun, 04 Jan 2015 19:47:30 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "76685"
+        "content": "Mon, 05 Jan 2015 19:47:44 GMT"
       }
     },
     {
@@ -69,10 +69,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "permanentLocaleCookie=en-us; expires=Thu, 05-Mar-2015 19:47:30 GMT; path=/; domain=seagate.com, userSelectedLocaleCookie=en-us; path=/; domain=seagate.com, ecommSessionCookie=en-us; path=/; domain=seagate.com, ecommLocaleCookie=en-us; expires=Thu, 05-Mar-2015 19:47:30 GMT; path=/; domain=seagate.com, stxEdgescape=country_code=US,region_code=TX,city=DALLAS,lat=32.7874,long=-96.7989,timezone=CST,zip=75201-75212+75214-75238+75240-75244+75246-75254+75260-75267+75270+75275+75277+75283-75285+75287+75301+75303+75312-75313+75315+75320+75326+75336+75339+75342+75354-75360+75367-75368+75370-75374+75376+75378-75382+75389-75395+75397-75398,continent=NA,throughput=vhigh,asnum=36351,network=,network_type=,proxy=,pmsa=1920,msa=1922,area_code=,county=DALLAS,fips=48113; path=/; domain=seagate.com"
+        "content": "permanentLocaleCookie=en-us; expires=Fri, 06-Mar-2015 19:47:44 GMT; path=/; domain=seagate.com, userSelectedLocaleCookie=en-us; path=/; domain=seagate.com, ecommSessionCookie=en-us; path=/; domain=seagate.com, ecommLocaleCookie=en-us; expires=Fri, 06-Mar-2015 19:47:44 GMT; path=/; domain=seagate.com, stxEdgescape=country_code=US,region_code=TX,city=DALLAS,lat=32.7874,long=-96.7989,timezone=CST,zip=75201-75212+75214-75238+75240-75244+75246-75254+75260-75267+75270+75275+75277+75283-75285+75287+75301+75303+75312-75313+75315+75320+75326+75336+75339+75342+75354-75360+75367-75368+75370-75374+75376+75378-75382+75389-75395+75397-75398,continent=NA,throughput=vhigh,asnum=36351,network=,network_type=,proxy=,pmsa=1920,msa=1922,area_code=,county=DALLAS,fips=48113; path=/; domain=seagate.com"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;seagate.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.26 (Unix) DAV&#x2F;2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;ot-force-account-verify&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Servlet&#x2F;2.5 JSP&#x2F;2.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:47:30 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;76685&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;permanentLocaleCookie=en-us; expires=Thu, 05-Mar-2015 19:47:30 GMT; path=&#x2F;; domain=seagate.com, userSelectedLocaleCookie=en-us; path=&#x2F;; domain=seagate.com, ecommSessionCookie=en-us; path=&#x2F;; domain=seagate.com, ecommLocaleCookie=en-us; expires=Thu, 05-Mar-2015 19:47:30 GMT; path=&#x2F;; domain=seagate.com, stxEdgescape=country_code=US,region_code=TX,city=DALLAS,lat=32.7874,long=-96.7989,timezone=CST,zip=75201-75212+75214-75238+75240-75244+75246-75254+75260-75267+75270+75275+75277+75283-75285+75287+75301+75303+75312-75313+75315+75320+75326+75336+75339+75342+75354-75360+75367-75368+75370-75374+75376+75378-75382+75389-75395+75397-75398,continent=NA,throughput=vhigh,asnum=36351,network=,network_type=,proxy=,pmsa=1920,msa=1922,area_code=,county=DALLAS,fips=48113; path=&#x2F;; domain=seagate.com&quot;}\n",
-  "timestamp_end": "2015-01-04 19:47:30 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;seagate.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.26 (Unix) DAV&#x2F;2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;ot-force-account-verify&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Servlet&#x2F;2.5 JSP&#x2F;2.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;76610&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:47:44 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;permanentLocaleCookie=en-us; expires=Fri, 06-Mar-2015 19:47:44 GMT; path=&#x2F;; domain=seagate.com, userSelectedLocaleCookie=en-us; path=&#x2F;; domain=seagate.com, ecommSessionCookie=en-us; path=&#x2F;; domain=seagate.com, ecommLocaleCookie=en-us; expires=Fri, 06-Mar-2015 19:47:44 GMT; path=&#x2F;; domain=seagate.com, stxEdgescape=country_code=US,region_code=TX,city=DALLAS,lat=32.7874,long=-96.7989,timezone=CST,zip=75201-75212+75214-75238+75240-75244+75246-75254+75260-75267+75270+75275+75277+75283-75285+75287+75301+75303+75312-75313+75315+75320+75326+75336+75339+75342+75354-75360+75367-75368+75370-75374+75376+75378-75382+75389-75395+75397-75398,continent=NA,throughput=vhigh,asnum=36351,network=,network_type=,proxy=,pmsa=1920,msa=1922,area_code=,county=DALLAS,fips=48113; path=&#x2F;; domain=seagate.com&quot;}\n",
+  "timestamp_end": "2015-01-05 19:47:44 UTC"
 }

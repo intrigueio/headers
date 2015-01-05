@@ -6,9 +6,23 @@
       "name": "http://funda.nl"
     }
   },
-  "timestamp_start": "2015-01-04 19:47:00 UTC",
-  "id": "4969701e-adad-42fd-9a1a-c1e09bb22243",
+  "timestamp_start": "2015-01-05 19:47:14 UTC",
+  "id": "57018f65-3d97-45ae-ae45-36fe3d5cc70c",
   "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Mon, 05 Jan 2015 19:47:14 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "SSLB=1; path=/; domain=www.funda.nl, .ASPXANONYMOUS=MupNpol2T3Jfnp4GNLqdpkoHYxP4T3sshCY5zxJy6UouCmczjp9sc9J850QW6G9xILlvQeyjwam6nubACQx880pSQQeDUJ0hHdP_GFfRP_Ckcie6ItGICRaleuHLmytPnShD0vrNY49c3vs_Ym_Rr5t10LI1; expires=Mon, 16-Mar-2015 06:27:15 GMT; path=/; HttpOnly, lastVisitForThisHost=desktop; domain=funda.nl; expires=Wed, 04-Feb-2015 19:47:15 GMT; path=/, .ASPXANONYMOUS=MupNpol2T3Jfnp4GNLqdpkoHYxP4T3sshCY5zxJy6UouCmczjp9sc9J850QW6G9xILlvQeyjwam6nubACQx880pSQQeDUJ0hHdP_GFfRP_Ckcie6ItGICRaleuHLmytPnShD0vrNY49c3vs_Ym_Rr5t10LI1; expires=Mon, 16-Mar-2015 06:27:15 GMT; path=/; HttpOnly, lastVisitForThisHost=desktop; domain=funda.nl; expires=Wed, 04-Feb-2015 19:47:15 GMT; path=/, uisettings=lang=nl-NL; expires=Wed, 04-Feb-2015 23:00:00 GMT; path=/"
+      }
+    },
     {
       "type": "WebApplicationHeader",
       "attributes": {
@@ -26,29 +40,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": ".ASPXANONYMOUS=FIJujqEYpQN7kho552g7K7pqSqrz589hWYkAJIcq_-2p5xwcHWaaf12zBMjf1PUi51V30r8GNJ7ya7VQ6ahaXtjjtq6HdmEmSFsNABTkiPIFWY1eguSuQ_0dQeOS-8TbzIdbFXo6hBqRhtMKJsTFb7k6Z901; expires=Sun, 15-Mar-2015 06:27:02 GMT; path=/; HttpOnly, .ASPXANONYMOUS=FIJujqEYpQN7kho552g7K7pqSqrz589hWYkAJIcq_-2p5xwcHWaaf12zBMjf1PUi51V30r8GNJ7ya7VQ6ahaXtjjtq6HdmEmSFsNABTkiPIFWY1eguSuQ_0dQeOS-8TbzIdbFXo6hBqRhtMKJsTFb7k6Z901; expires=Sun, 15-Mar-2015 06:27:02 GMT; path=/; HttpOnly, uisettings=lang=nl-NL; expires=Tue, 03-Feb-2015 23:00:00 GMT; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "p3p",
         "content": "policyref=\"/w3c/p3p.xml\", CP=\"CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sun, 04 Jan 2015 19:47:01 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "21875"
       }
     },
     {
@@ -61,11 +54,18 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "Keep-Alive"
+        "name": "rtss",
+        "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;funda.nl&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;.ASPXANONYMOUS=FIJujqEYpQN7kho552g7K7pqSqrz589hWYkAJIcq_-2p5xwcHWaaf12zBMjf1PUi51V30r8GNJ7ya7VQ6ahaXtjjtq6HdmEmSFsNABTkiPIFWY1eguSuQ_0dQeOS-8TbzIdbFXo6hBqRhtMKJsTFb7k6Z901; expires=Sun, 15-Mar-2015 06:27:02 GMT; path=&#x2F;; HttpOnly, .ASPXANONYMOUS=FIJujqEYpQN7kho552g7K7pqSqrz589hWYkAJIcq_-2p5xwcHWaaf12zBMjf1PUi51V30r8GNJ7ya7VQ6ahaXtjjtq6HdmEmSFsNABTkiPIFWY1eguSuQ_0dQeOS-8TbzIdbFXo6hBqRhtMKJsTFb7k6Z901; expires=Sun, 15-Mar-2015 06:27:02 GMT; path=&#x2F;; HttpOnly, uisettings=lang=nl-NL; expires=Tue, 03-Feb-2015 23:00:00 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:47:01 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;21875&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;Keep-Alive&quot;}\n",
-  "timestamp_end": "2015-01-04 19:47:02 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;funda.nl&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:47:14 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;SSLB=1; path=&#x2F;; domain=www.funda.nl, .ASPXANONYMOUS=MupNpol2T3Jfnp4GNLqdpkoHYxP4T3sshCY5zxJy6UouCmczjp9sc9J850QW6G9xILlvQeyjwam6nubACQx880pSQQeDUJ0hHdP_GFfRP_Ckcie6ItGICRaleuHLmytPnShD0vrNY49c3vs_Ym_Rr5t10LI1; expires=Mon, 16-Mar-2015 06:27:15 GMT; path=&#x2F;; HttpOnly, lastVisitForThisHost=desktop; domain=funda.nl; expires=Wed, 04-Feb-2015 19:47:15 GMT; path=&#x2F;, .ASPXANONYMOUS=MupNpol2T3Jfnp4GNLqdpkoHYxP4T3sshCY5zxJy6UouCmczjp9sc9J850QW6G9xILlvQeyjwam6nubACQx880pSQQeDUJ0hHdP_GFfRP_Ckcie6ItGICRaleuHLmytPnShD0vrNY49c3vs_Ym_Rr5t10LI1; expires=Mon, 16-Mar-2015 06:27:15 GMT; path=&#x2F;; HttpOnly, lastVisitForThisHost=desktop; domain=funda.nl; expires=Wed, 04-Feb-2015 19:47:15 GMT; path=&#x2F;, uisettings=lang=nl-NL; expires=Wed, 04-Feb-2015 23:00:00 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;rtss&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-05 19:47:16 UTC"
 }

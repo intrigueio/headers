@@ -6,8 +6,8 @@
       "name": "http://rogers.com"
     }
   },
-  "timestamp_start": "2015-01-04 19:47:22 UTC",
-  "id": "dc40c5aa-7d2a-4ad2-8d12-999c0739780e",
+  "timestamp_start": "2015-01-05 19:47:36 UTC",
+  "id": "45475785-0f65-453f-bbab-75246319331b",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -40,6 +40,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-hp-cam-color",
+        "content": "V=1;ServerAddr=aEGc0flgZrxWfEBjNc5Mqg==;GUID=1|IG5RCFBwyfVYPlb0Fy6Bicc4e1Cy3iojOZwrMoU1Bdcd_IlQKCZj34K2DW4RSFGi8ZmKW9b86pNFQb0DzXVGz_raTk11NRzT-9UkAC_d5lU.|L3dlYi9yZXNvdXJjZXMvc2VydmljZS9yZXNpZGVudGlhbFJlZGlyZWN0LmpzcA.."
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
         "content": "Servlet/2.5 JSP/2.1"
       }
@@ -62,7 +69,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Sun, 04 Jan 2015 19:47:23 GMT"
+        "content": "Mon, 05 Jan 2015 19:47:37 GMT"
       }
     },
     {
@@ -83,10 +90,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "TLTSID=80BEB12C944A10947A58A2BDA251E5A6; Path=/; Domain=.rogers.com, TLTUID=80BEB12C944A10947A58A2BDA251E5A6; Path=/; Domain=.rogers.com; Expires=Sun, 04-01-2025 19:47:23 GMT, JSESSIONID=eQe2fNt7nXvl6EvAaJ3by-RpAKAgUfqzoiT9d_ATrzdASsw0sI76!1668620945; domain=.rogers.com; path=/; HttpOnly, language=en; domain=.rogers.com; expires=Fri, 22-Jan-2083 23:01:30 GMT; path=/, province=ON; domain=.rogers.com; expires=Fri, 22-Jan-2083 23:01:30 GMT; path=/, customer_type=Residential; domain=.rogers.com; expires=Fri, 22-Jan-2083 23:01:30 GMT; path=/"
+        "content": "TLTSID=B37587029513109533D791F42211AE2E; Path=/; Domain=.rogers.com, TLTUID=B37587029513109533D791F42211AE2E; Path=/; Domain=.rogers.com; Expires=Mon, 05-01-2025 19:47:37 GMT, JSESSIONID=CFa7o23hJNQQWBPO_iRi515AQIExoSpUAz-FXApyuc4JkZE_5nAy!853557871; domain=.rogers.com; path=/; HttpOnly, language=en; domain=.rogers.com; expires=Sat, 23-Jan-2083 23:01:44 GMT; path=/, province=ON; domain=.rogers.com; expires=Sat, 23-Jan-2083 23:01:44 GMT; path=/, customer_type=Residential; domain=.rogers.com; expires=Sat, 23-Jan-2083 23:01:44 GMT; path=/"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;rogers.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Servlet&#x2F;2.5 JSP&#x2F;2.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sun, 04 Jan 2015 19:47:23 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;443&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;TLTSID=80BEB12C944A10947A58A2BDA251E5A6; Path=&#x2F;; Domain=.rogers.com, TLTUID=80BEB12C944A10947A58A2BDA251E5A6; Path=&#x2F;; Domain=.rogers.com; Expires=Sun, 04-01-2025 19:47:23 GMT, JSESSIONID=eQe2fNt7nXvl6EvAaJ3by-RpAKAgUfqzoiT9d_ATrzdASsw0sI76!1668620945; domain=.rogers.com; path=&#x2F;; HttpOnly, language=en; domain=.rogers.com; expires=Fri, 22-Jan-2083 23:01:30 GMT; path=&#x2F;, province=ON; domain=.rogers.com; expires=Fri, 22-Jan-2083 23:01:30 GMT; path=&#x2F;, customer_type=Residential; domain=.rogers.com; expires=Fri, 22-Jan-2083 23:01:30 GMT; path=&#x2F;&quot;}\n",
-  "timestamp_end": "2015-01-04 19:47:23 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;rogers.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-hp-cam-color&quot;, :content=&gt;&quot;V=1;ServerAddr=aEGc0flgZrxWfEBjNc5Mqg==;GUID=1|IG5RCFBwyfVYPlb0Fy6Bicc4e1Cy3iojOZwrMoU1Bdcd_IlQKCZj34K2DW4RSFGi8ZmKW9b86pNFQb0DzXVGz_raTk11NRzT-9UkAC_d5lU.|L3dlYi9yZXNvdXJjZXMvc2VydmljZS9yZXNpZGVudGlhbFJlZGlyZWN0LmpzcA..&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Servlet&#x2F;2.5 JSP&#x2F;2.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:47:37 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;443&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;TLTSID=B37587029513109533D791F42211AE2E; Path=&#x2F;; Domain=.rogers.com, TLTUID=B37587029513109533D791F42211AE2E; Path=&#x2F;; Domain=.rogers.com; Expires=Mon, 05-01-2025 19:47:37 GMT, JSESSIONID=CFa7o23hJNQQWBPO_iRi515AQIExoSpUAz-FXApyuc4JkZE_5nAy!853557871; domain=.rogers.com; path=&#x2F;; HttpOnly, language=en; domain=.rogers.com; expires=Sat, 23-Jan-2083 23:01:44 GMT; path=&#x2F;, province=ON; domain=.rogers.com; expires=Sat, 23-Jan-2083 23:01:44 GMT; path=&#x2F;, customer_type=Residential; domain=.rogers.com; expires=Sat, 23-Jan-2083 23:01:44 GMT; path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-05 19:47:37 UTC"
 }
