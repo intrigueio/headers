@@ -6,42 +6,56 @@
       "name": "http://espnfc.us"
     }
   },
-  "timestamp_start": "2015-01-05 19:46:30 UTC",
-  "id": "0b5ed097-821a-4bc7-b6b7-268730c1644a",
+  "timestamp_start": "2015-01-06 19:46:46 UTC",
+  "id": "780890dd-f9d8-4208-97f5-7df94e6fa789",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html;charset=UTF-8"
+        "content": "text/html"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Mon, 05 Jan 2015 19:46:34 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "last-modified",
+        "content": "Mon, 05 Jan 2015 20:01:28 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=60"
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "4382"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Tue, 06 Jan 2015 19:46:50 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cnection",
+        "content": "close"
       }
     },
     {
@@ -55,17 +69,17 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "country=us; path=/; Expires=Mon, 12 Jan 2015 19:46:34 GMT;, device=pc; path=/; Expires=Wed, 04 Feb 2015 19:46:34 GMT;"
+        "content": "country=us; path=/; Expires=Tue, 13 Jan 2015 19:46:50 GMT;, device=pc; path=/; Expires=Thu, 05 Feb 2015 19:46:50 GMT;"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "User-Agent,Cookie"
+        "content": "Accept-Encoding"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;espnfc.us&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:46:34 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=60&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi CONi OUR SAMo OTRo BUS PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;country=us; path=&#x2F;; Expires=Mon, 12 Jan 2015 19:46:34 GMT;, device=pc; path=&#x2F;; Expires=Wed, 04 Feb 2015 19:46:34 GMT;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent,Cookie&quot;}\n",
-  "timestamp_end": "2015-01-05 19:46:32 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;espnfc.us&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 20:01:28 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;4382&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:46:50 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cnection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi CONi OUR SAMo OTRo BUS PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;country=us; path=&#x2F;; Expires=Tue, 13 Jan 2015 19:46:50 GMT;, device=pc; path=&#x2F;; Expires=Thu, 05 Feb 2015 19:46:50 GMT;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n",
+  "timestamp_end": "2015-01-06 19:46:48 UTC"
 }

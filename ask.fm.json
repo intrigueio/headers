@@ -6,8 +6,8 @@
       "name": "http://ask.fm"
     }
   },
-  "timestamp_start": "2015-01-05 19:44:41 UTC",
-  "id": "ea0846ce-a722-404b-9698-de42d2ca028a",
+  "timestamp_start": "2015-01-06 19:44:56 UTC",
+  "id": "afc99cc7-35df-41dd-8d38-c97c11cdcd1f",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -33,6 +33,27 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Wed, 06-Jan-2016 19:44:56 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CDoPc2Vzc2lvbl9pZCIlYjVhY2VkM2Y5MWUzM2ZlNDEwZDcwMWYyMmI3ZjYyNGE6EG9sZF9nZXRfdXJsIgYvOhBfY3NyZl90b2tlbiIxUWNlUGd0UG03dDk1cExldUVnTGU1VkVTdkJHdWVlMWlmWjZ6RnMrc0plOD0%3D--1472669d439b34810eeea3eba079111b5ea92c39; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-xss-protection",
         "content": "1; mode=block"
       }
@@ -47,29 +68,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "date",
-        "content": "Mon, 05 Jan 2015 19:44:41 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Tue, 05-Jan-2016 19:44:41 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CDoPc2Vzc2lvbl9pZCIlZmM3Nzk0ZDgyYWRjMDIyODdmNzBkNmM0MzBjNTIyOGY6EF9jc3JmX3Rva2VuIjExY2wrTktpVXdlSUVhSUhmQ3ZYNlpIZ1RZeTFoZjc1QndVbVpNYmJJTHc4PToQb2xkX2dldF91cmwiBi8%3D--b1924793f3434e53167aa0df587f8cac566520f1; path=/; HttpOnly"
+        "content": "Tue, 06 Jan 2015 19:44:56 GMT"
       }
     },
     {
@@ -80,6 +80,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ask.fm&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:44:41 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;mobile_view=false; path=&#x2F;, , language_id=1; path=&#x2F;; expires=Tue, 05-Jan-2016 19:44:41 GMT, , l=; path=&#x2F;; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CDoPc2Vzc2lvbl9pZCIlZmM3Nzk0ZDgyYWRjMDIyODdmNzBkNmM0MzBjNTIyOGY6EF9jc3JmX3Rva2VuIjExY2wrTktpVXdlSUVhSUhmQ3ZYNlpIZ1RZeTFoZjc1QndVbVpNYmJJTHc4PToQb2xkX2dldF91cmwiBi8%3D--b1924793f3434e53167aa0df587f8cac566520f1; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Ask.FM Web Service&quot;}\n",
-  "timestamp_end": "2015-01-05 19:44:41 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ask.fm&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;mobile_view=false; path=&#x2F;, , language_id=1; path=&#x2F;; expires=Wed, 06-Jan-2016 19:44:56 GMT, , l=; path=&#x2F;; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CDoPc2Vzc2lvbl9pZCIlYjVhY2VkM2Y5MWUzM2ZlNDEwZDcwMWYyMmI3ZjYyNGE6EG9sZF9nZXRfdXJsIgYvOhBfY3NyZl90b2tlbiIxUWNlUGd0UG03dDk1cExldUVnTGU1VkVTdkJHdWVlMWlmWjZ6RnMrc0plOD0%3D--1472669d439b34810eeea3eba079111b5ea92c39; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:44:56 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Ask.FM Web Service&quot;}\n",
+  "timestamp_end": "2015-01-06 19:44:56 UTC"
 }

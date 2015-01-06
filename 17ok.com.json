@@ -6,21 +6,35 @@
       "name": "http://17ok.com"
     }
   },
-  "timestamp_start": "2015-01-05 19:44:54 UTC",
-  "id": "96c82121-206e-427b-bbc0-eea99b98f2dd",
+  "timestamp_start": "2015-01-06 19:45:07 UTC",
+  "id": "658b8f3f-aa7a-4c20-a77e-ac6e3d397f6f",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Mon, 05 Jan 2015 19:43:18 GMT"
+        "content": "Tue, 06 Jan 2015 19:45:05 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache/2.2.19 (Unix) PHP/5.2.17 mod_ssl/2.2.19 OpenSSL/0.9.8q"
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Tue, 06 Jan 2015 19:45:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"fd5d47-1ff1d-50c010ad84700\""
       }
     },
     {
@@ -33,8 +47,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "26885"
       }
     },
     {
@@ -45,6 +66,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;17ok.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:43:18 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.19 (Unix) PHP&#x2F;5.2.17 mod_ssl&#x2F;2.2.19 OpenSSL&#x2F;0.9.8q&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n",
-  "timestamp_end": "2015-01-05 19:44:56 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;17ok.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:45:05 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:45:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;fd5d47-1ff1d-50c010ad84700\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;26885&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n",
+  "timestamp_end": "2015-01-06 19:45:08 UTC"
 }

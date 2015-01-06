@@ -6,35 +6,42 @@
       "name": "http://staples.ca"
     }
   },
-  "timestamp_start": "2015-01-05 19:47:49 UTC",
-  "id": "c7a56e22-9efc-4d7b-8906-528c0631a1fc",
+  "timestamp_start": "2015-01-06 19:48:07 UTC",
+  "id": "cf41311c-b65c-4062-85d5-d2091d2e7e58",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache"
+        "name": "cached_response",
+        "content": "true"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"b24d629fed6fdd53b865e2720dc1422a:1420474570\""
+        "name": "x-wily-info",
+        "content": "Clear guid=BE4F68DC0A0FD56207D707D7ED1D4364"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Mon, 05 Jan 2015 16:16:10 GMT"
+        "name": "x-wily-servlet",
+        "content": "Clear appServerIp=10.15.213.98&agentName=sdmprdm01Cell64%2FSDM-SVR03-P&servletName=ECActionServlet&agentHost=sdmpras03&agentProcess=WebSphere"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
       }
     },
     {
@@ -48,7 +55,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Mon, 05 Jan 2015 19:47:51 GMT"
+        "content": "Tue, 06 Jan 2015 19:48:08 GMT"
       }
     },
     {
@@ -69,31 +76,31 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Mon, 05 Jan 2015 19:47:51 GMT"
+        "content": "Tue, 06 Jan 2015 19:48:08 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "2839"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "geocode=32.7874,-96.7989; expires=Sun, 31-Dec-2034 19:47:51 GMT; path=/; domain=.staples.ca, DESKTOPVIEW=true; expires=Mon, 05-Jan-2015 20:17:51 GMT; path=/; domain=staples.ca, StaplesDC=ndm; expires=Mon, 05-Jan-2015 20:07:51 GMT; path=/; domain=failover.staples.ca"
+        "content": "JSESSIONID=000066HyEmTI0d1sbmH6ICd2AWk:16ugfl2cs; Path=/, langPref=1; Expires=Mon, 01-Jan-35 19:48:07 GMT; Path=/, geocode=32.7874,-96.7989; expires=Mon, 01-Jan-2035 19:48:08 GMT; path=/; domain=.staples.ca, DESKTOPVIEW=true; expires=Tue, 06-Jan-2015 20:18:08 GMT; path=/; domain=staples.ca, StaplesDC=mbo; expires=Tue, 06-Jan-2015 20:08:08 GMT; path=/; domain=www.staples.ca, akaau=1420573988~id=baec7caeebf3574f015048dda0aed4db; domain=.staples.ca; path=/"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;staples.ca&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;b24d629fed6fdd53b865e2720dc1422a:1420474570\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 16:16:10 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:47:51 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:47:51 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;2839&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;geocode=32.7874,-96.7989; expires=Sun, 31-Dec-2034 19:47:51 GMT; path=&#x2F;; domain=.staples.ca, DESKTOPVIEW=true; expires=Mon, 05-Jan-2015 20:17:51 GMT; path=&#x2F;; domain=staples.ca, StaplesDC=ndm; expires=Mon, 05-Jan-2015 20:07:51 GMT; path=&#x2F;; domain=failover.staples.ca&quot;}\n",
-  "timestamp_end": "2015-01-05 19:47:51 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;staples.ca&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cached_response&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-wily-info&quot;, :content=&gt;&quot;Clear guid=BE4F68DC0A0FD56207D707D7ED1D4364&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-wily-servlet&quot;, :content=&gt;&quot;Clear appServerIp=10.15.213.98&amp;agentName=sdmprdm01Cell64%2FSDM-SVR03-P&amp;servletName=ECActionServlet&amp;agentHost=sdmpras03&amp;agentProcess=WebSphere&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:48:08 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:48:08 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=000066HyEmTI0d1sbmH6ICd2AWk:16ugfl2cs; Path=&#x2F;, langPref=1; Expires=Mon, 01-Jan-35 19:48:07 GMT; Path=&#x2F;, geocode=32.7874,-96.7989; expires=Mon, 01-Jan-2035 19:48:08 GMT; path=&#x2F;; domain=.staples.ca, DESKTOPVIEW=true; expires=Tue, 06-Jan-2015 20:18:08 GMT; path=&#x2F;; domain=staples.ca, StaplesDC=mbo; expires=Tue, 06-Jan-2015 20:08:08 GMT; path=&#x2F;; domain=www.staples.ca, akaau=1420573988~id=baec7caeebf3574f015048dda0aed4db; domain=.staples.ca; path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-06 19:48:08 UTC"
 }

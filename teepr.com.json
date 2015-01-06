@@ -6,8 +6,8 @@
       "name": "http://teepr.com"
     }
   },
-  "timestamp_start": "2015-01-05 19:44:49 UTC",
-  "id": "cbeed638-f3f3-4130-a14d-0bce1abc6391",
+  "timestamp_start": "2015-01-06 19:45:03 UTC",
+  "id": "ab76cecd-bd20-462f-a6fa-8fee98c34814",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -40,6 +40,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-pingback",
+        "content": "http://www.teepr.com/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "accept-ranges",
         "content": "bytes"
       }
@@ -48,14 +55,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "467751397 467748918"
+        "content": "1393160033 1393157667"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "age",
-        "content": "169"
+        "content": "154"
       }
     },
     {
@@ -69,14 +76,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Mon, 05 Jan 2015 19:44:50 GMT"
+        "content": "Tue, 06 Jan 2015 19:45:05 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Mon, 05 Jan 2015 19:44:50 GMT"
+        "content": "Tue, 06 Jan 2015 19:45:05 GMT"
       }
     },
     {
@@ -115,6 +122,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;teepr.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.4.35-1+deb.sury.org~precise+1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;467751397 467748918&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;169&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:44:50 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:44:50 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-page-speed&quot;, :content=&gt;&quot;125_1_bo&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;alternate-protocol&quot;, :content=&gt;&quot;80:quic,p=0.02&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
-  "timestamp_end": "2015-01-05 19:44:50 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;teepr.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.4.35-1+deb.sury.org~precise+1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-pingback&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;www.teepr.com&#x2F;xmlrpc.php&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1393160033 1393157667&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;154&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:45:05 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:45:05 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-page-speed&quot;, :content=&gt;&quot;125_1_bo&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;alternate-protocol&quot;, :content=&gt;&quot;80:quic,p=0.02&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-06 19:45:05 UTC"
 }

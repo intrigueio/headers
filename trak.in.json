@@ -6,14 +6,14 @@
       "name": "http://trak.in"
     }
   },
-  "timestamp_start": "2015-01-05 19:49:52 UTC",
-  "id": "88d6d655-e48b-4a13-beb9-0bcd6151e204",
+  "timestamp_start": "2015-01-06 19:50:02 UTC",
+  "id": "e7e9dc7a-3248-4b96-a206-a60ba42ef7bb",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Mon, 05 Jan 2015 19:49:53 GMT"
+        "content": "Tue, 06 Jan 2015 19:50:04 GMT"
       }
     },
     {
@@ -26,22 +26,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Mon, 05 Jan 2015 19:47:26 GMT"
+        "name": "vary",
+        "content": "Cookie,Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"ab3a6-11eb5-50becf5b4af80\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "x-pingback",
+        "content": "http://trak.in/xmlrpc.php"
       }
     },
     {
@@ -49,20 +42,6 @@
       "attributes": {
         "name": "cache-control",
         "content": "max-age=600 no-cache, must-revalidate, post-check=0, pre-check=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,Cookie"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "13264"
       }
     },
     {
@@ -97,10 +76,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "close"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;trak.in&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:49:53 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:47:26 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;ab3a6-11eb5-50becf5b4af80\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=600 no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,Cookie&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;13264&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS from vm347.cloudmin.e2enetworks.net.in&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-lookup&quot;, :content=&gt;&quot;HIT from vm347.cloudmin.e2enetworks.net.in:80&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.0 vm347.cloudmin.e2enetworks.net.in (squid&#x2F;3.1.19)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-05 19:49:53 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;trak.in&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:50:04 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Cookie,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-pingback&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;trak.in&#x2F;xmlrpc.php&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=600 no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS from vm347.cloudmin.e2enetworks.net.in&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-lookup&quot;, :content=&gt;&quot;HIT from vm347.cloudmin.e2enetworks.net.in:80&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.0 vm347.cloudmin.e2enetworks.net.in (squid&#x2F;3.1.19)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n",
+  "timestamp_end": "2015-01-06 19:50:08 UTC"
 }

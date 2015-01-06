@@ -6,8 +6,8 @@
       "name": "http://inilah.com"
     }
   },
-  "timestamp_start": "2015-01-05 19:50:02 UTC",
-  "id": "8dcf39e8-0cf8-4653-93ef-7ae800e9081b",
+  "timestamp_start": "2015-01-06 19:50:13 UTC",
+  "id": "dd700912-35ba-42ab-9c36-3a13fbca1ae2",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -19,8 +19,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "date",
+        "content": "Tue, 06 Jan 2015 19:50:16 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
       }
     },
     {
@@ -34,52 +55,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22f4240e10f1c39876006c35db9adab7c7%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A12%3A%22192.168.11.7%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420487412%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Deecfb113da2512c8b4e9568ee4a058d0cdad84de; expires=Mon, 05-Jan-2015 21:50:12 GMT; Max-Age=7200; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "20084"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Mon, 05 Jan 2015 19:50:10 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-varnish",
-        "content": "322896046"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "age",
-        "content": "0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "via",
-        "content": "1.1 varnish"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "content": "ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22be55c2856d19e8d9318fe902ed8de307%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A12%3A%22192.168.11.7%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420573816%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7D61becc46a9a4ca4b6cd7eabaa1ebec280ceb7c8d; expires=Tue, 06-Jan-2015 21:50:16 GMT; Max-Age=7200; path=/"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;inilah.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.1.19&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;HHVM&#x2F;3.4.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22f4240e10f1c39876006c35db9adab7c7%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A12%3A%22192.168.11.7%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420487412%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Deecfb113da2512c8b4e9568ee4a058d0cdad84de; expires=Mon, 05-Jan-2015 21:50:12 GMT; Max-Age=7200; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;20084&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:50:10 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;322896046&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-05 19:50:10 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;inilah.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.1.19&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:50:16 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;HHVM&#x2F;3.4.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22be55c2856d19e8d9318fe902ed8de307%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A12%3A%22192.168.11.7%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420573816%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7D61becc46a9a4ca4b6cd7eabaa1ebec280ceb7c8d; expires=Tue, 06-Jan-2015 21:50:16 GMT; Max-Age=7200; path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-06 19:50:16 UTC"
 }

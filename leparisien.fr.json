@@ -6,21 +6,28 @@
       "name": "http://leparisien.fr"
     }
   },
-  "timestamp_start": "2015-01-05 19:45:54 UTC",
-  "id": "f06688b6-41dd-475e-8b6c-b66bc39b7964",
+  "timestamp_start": "2015-01-06 19:46:09 UTC",
+  "id": "d5c92178-57c7-4c57-8010-0d461eec2657",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=120"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "67202"
+        "name": "age",
+        "content": "34"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=120"
       }
     },
     {
@@ -33,22 +40,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "expires",
-        "content": "Mon, 05 Jan 2015 19:47:55 GMT"
+        "name": "date",
+        "content": "Tue, 06 Jan 2015 19:46:09 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "expires",
+        "content": "Tue, 06 Jan 2015 19:47:35 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Footprint Distributor V4.10"
+        "content": "ECAcc (dfw/56EF)"
       }
     },
     {
@@ -76,45 +83,38 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-powered-by",
-        "content": "Oxalide [01]"
+        "content": "Oxalide [02]"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varncache",
-        "content": "HIT 15"
+        "content": "HIT 218"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnpar1",
-        "content": "C1 3970390201 3970389045"
+        "content": "C1 3997912421"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnpar2",
-        "content": "C2 411450578"
+        "content": "C2 439012713 438997125"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Mon, 05 Jan 2015 19:45:55 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "content-length",
+        "content": "67366"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;leparisien.fr&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=120&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;67202&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:47:55 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Footprint Distributor V4.10&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Host,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-front&quot;, :content=&gt;&quot;01&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-pad&quot;, :content=&gt;&quot;avoid browser bug&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Oxalide [01]&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varncache&quot;, :content=&gt;&quot;HIT 15&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnpar1&quot;, :content=&gt;&quot;C1 3970390201 3970389045&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnpar2&quot;, :content=&gt;&quot;C2 411450578&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:45:55 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-05 19:45:55 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;leparisien.fr&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;34&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=120&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:46:09 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:47:35 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;ECAcc (dfw&#x2F;56EF)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Host,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-front&quot;, :content=&gt;&quot;01&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-pad&quot;, :content=&gt;&quot;avoid browser bug&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Oxalide [02]&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varncache&quot;, :content=&gt;&quot;HIT 218&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnpar1&quot;, :content=&gt;&quot;C1 3997912421&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnpar2&quot;, :content=&gt;&quot;C2 439012713 438997125&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;67366&quot;}\n",
+  "timestamp_end": "2015-01-06 19:46:09 UTC"
 }

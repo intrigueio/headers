@@ -6,8 +6,8 @@
       "name": "http://joomlart.com"
     }
   },
-  "timestamp_start": "2015-01-05 19:47:58 UTC",
-  "id": "b2f84462-72bc-4e52-a5fd-3e07c2b286db",
+  "timestamp_start": "2015-01-06 19:48:16 UTC",
+  "id": "869ada25-5b7c-42ec-8802-2fe358e375f4",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -20,7 +20,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Mon, 05 Jan 2015 19:47:58 GMT"
+        "content": "Tue, 06 Jan 2015 19:48:16 GMT"
       }
     },
     {
@@ -33,15 +33,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "10937"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Thu, 01 Jan 2015 01:46:00 GMT"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -54,18 +47,46 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"54a4a6d8-2ab9\""
+        "name": "x-powered-by",
+        "content": "PHP/5.3.23"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "set-cookie",
+        "content": "e6955d5189b182aaa5084435b6d82b8a=h25q7iqsqf3sj13m6ejbnfu6n4; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "http://www.joomlart.com/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;joomlart.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:47:58 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;10937&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Thu, 01 Jan 2015 01:46:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;54a4a6d8-2ab9\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n",
-  "timestamp_end": "2015-01-05 19:47:58 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;joomlart.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:48:16 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.3.23&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;e6955d5189b182aaa5084435b6d82b8a=h25q7iqsqf3sj13m6ejbnfu6n4; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;www.joomlart.com&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n",
+  "timestamp_end": "2015-01-06 19:48:16 UTC"
 }

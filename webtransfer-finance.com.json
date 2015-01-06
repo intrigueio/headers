@@ -6,21 +6,14 @@
       "name": "http://webtransfer-finance.com"
     }
   },
-  "timestamp_start": "2015-01-05 19:47:01 UTC",
-  "id": "4c07cda5-c372-4966-8691-1b2f6dbd0ec3",
+  "timestamp_start": "2015-01-06 19:47:17 UTC",
+  "id": "67fd15e4-7d2a-4a60-9ac7-e017059acdbf",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "date",
-        "content": "Mon, 05 Jan 2015 19:47:03 GMT"
+        "content": "Tue, 06 Jan 2015 19:47:17 GMT"
       }
     },
     {
@@ -48,52 +41,38 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d028703d699d1c81ac5c0e977a4779dd31420487222; expires=Tue, 05-Jan-16 19:47:02 GMT; path=/; domain=.webtransfer-finance.com; HttpOnly, PHPSESSID=40ff3c7376a634ae6cc90cab6c6892ee; path=/, ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22e2ec9c7f4b90c5604d996c162c11c822%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.133.83%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420487223%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Db51cb181a0ec1137ca4aaca933349d0b; expires=Mon, 05-Jan-2015 21:47:03 GMT; path=/"
+        "content": "__cfduid=d435a6a4c860a49979df3bdaa8d3203dc1420573637; expires=Wed, 06-Jan-16 19:47:17 GMT; path=/; domain=.webtransfer-finance.com; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.3.28"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "expires",
-        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=31536000, public, must-revalidate, no-store, no-cache, must-revalidate"
+        "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cache",
-        "content": "HIT from Backend"
+        "name": "server",
+        "content": "cloudflare-nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a422f7736690105-DFW"
+        "content": "1a4a6d3518870105-DFW"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;webtransfer-finance.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:47:03 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d028703d699d1c81ac5c0e977a4779dd31420487222; expires=Tue, 05-Jan-16 19:47:02 GMT; path=&#x2F;; domain=.webtransfer-finance.com; HttpOnly, PHPSESSID=40ff3c7376a634ae6cc90cab6c6892ee; path=&#x2F;, ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22e2ec9c7f4b90c5604d996c162c11c822%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.133.83%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420487223%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Db51cb181a0ec1137ca4aaca933349d0b; expires=Mon, 05-Jan-2015 21:47:03 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.3.28&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=31536000, public, must-revalidate, no-store, no-cache, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;HIT from Backend&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a422f7736690105-DFW&quot;}\n",
-  "timestamp_end": "2015-01-05 19:47:03 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;webtransfer-finance.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:47:17 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d435a6a4c860a49979df3bdaa8d3203dc1420573637; expires=Wed, 06-Jan-16 19:47:17 GMT; path=&#x2F;; domain=.webtransfer-finance.com; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a4a6d3518870105-DFW&quot;}\n",
+  "timestamp_end": "2015-01-06 19:47:17 UTC"
 }

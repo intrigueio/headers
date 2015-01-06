@@ -6,8 +6,8 @@
       "name": "http://swagbucks.com"
     }
   },
-  "timestamp_start": "2015-01-05 19:44:56 UTC",
-  "id": "a7211266-a5f5-45f4-b80a-1f53fb228631",
+  "timestamp_start": "2015-01-06 19:45:09 UTC",
+  "id": "a1658ef6-2635-47b3-8dc3-088bed5f0af8",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -26,6 +26,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "p3p",
         "content": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\""
       }
@@ -34,24 +41,24 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__appname=app1; domain=.swagbucks.com; path=/; expires=Tue, 06-Jan-2015 08:01:00 GMT, SBSESSIONID=aaaKLb_kVA2cw5aRpO7Qu; path=/"
+        "content": "__appname=app3; domain=.swagbucks.com; path=/; expires=Wed, 07-Jan-2015 08:01:00 GMT, SBSESSIONID=aaabOBgMd1v3n5ZD4XaRu; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Mon, 05 Jan 2015 19:44:56 GMT"
+        "content": "Tue, 06 Jan 2015 19:45:08 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-length",
-        "content": "26808"
+        "content": "10342"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;swagbucks.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__appname=app1; domain=.swagbucks.com; path=&#x2F;; expires=Tue, 06-Jan-2015 08:01:00 GMT, SBSESSIONID=aaaKLb_kVA2cw5aRpO7Qu; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:44:56 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;26808&quot;}\n",
-  "timestamp_end": "2015-01-05 19:44:56 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;swagbucks.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__appname=app3; domain=.swagbucks.com; path=&#x2F;; expires=Wed, 07-Jan-2015 08:01:00 GMT, SBSESSIONID=aaabOBgMd1v3n5ZD4XaRu; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:45:08 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;10342&quot;}\n",
+  "timestamp_end": "2015-01-06 19:45:09 UTC"
 }

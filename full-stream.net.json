@@ -6,28 +6,14 @@
       "name": "http://full-stream.net"
     }
   },
-  "timestamp_start": "2015-01-05 19:46:21 UTC",
-  "id": "8f02b323-c9db-4a27-aa27-1f9bc3a73951",
+  "timestamp_start": "2015-01-06 19:46:37 UTC",
+  "id": "814a9587-53a0-46fb-b645-ebeb4a3aef6a",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache/2.2.15 (CentOS)"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=kopu9v2sam2195j4cqgrm62kj4; path=/; domain=.full-stream.net; HttpOnly, dle_user_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.full-stream.net; httponly, dle_password=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.full-stream.net; httponly, dle_hash=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.full-stream.net; httponly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "date",
+        "content": "Tue, 06 Jan 2015 19:46:39 GMT"
       }
     },
     {
@@ -40,22 +26,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "80319"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Mon, 05 Jan 2015 19:46:21 GMT"
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d5b975239a2eecf4ad8b60c25961f95931420573599; expires=Wed, 06-Jan-16 19:46:39 GMT; path=/; domain=.full-stream.net; HttpOnly, PHPSESSID=2e4uautiv9l2pksuhhgt3afsk0; path=/; domain=.full-stream.net; HttpOnly, dle_user_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.full-stream.net; httponly, dle_password=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.full-stream.net; httponly, dle_hash=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.full-stream.net; httponly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1007209596"
+        "content": "1040063571"
       }
     },
     {
@@ -70,13 +70,6 @@
       "attributes": {
         "name": "via",
         "content": "1.1 varnish"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
       }
     },
     {
@@ -99,8 +92,22 @@
         "name": "cache-control",
         "content": "max-age = 864000"
       }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1a4a6c46b10d10e7-ORD"
+      }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;full-stream.net&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.15 (CentOS)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=kopu9v2sam2195j4cqgrm62kj4; path=&#x2F;; domain=.full-stream.net; HttpOnly, dle_user_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.full-stream.net; httponly, dle_password=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.full-stream.net; httponly, dle_hash=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.full-stream.net; httponly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;80319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:46:21 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1007209596&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Dec 2016 16:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age = 864000&quot;}\n",
-  "timestamp_end": "2015-01-05 19:46:21 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;full-stream.net&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:46:39 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d5b975239a2eecf4ad8b60c25961f95931420573599; expires=Wed, 06-Jan-16 19:46:39 GMT; path=&#x2F;; domain=.full-stream.net; HttpOnly, PHPSESSID=2e4uautiv9l2pksuhhgt3afsk0; path=&#x2F;; domain=.full-stream.net; HttpOnly, dle_user_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.full-stream.net; httponly, dle_password=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.full-stream.net; httponly, dle_hash=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.full-stream.net; httponly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1040063571&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Dec 2016 16:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age = 864000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a4a6c46b10d10e7-ORD&quot;}\n",
+  "timestamp_end": "2015-01-06 19:46:39 UTC"
 }

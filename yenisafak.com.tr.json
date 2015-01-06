@@ -6,14 +6,14 @@
       "name": "http://yenisafak.com.tr"
     }
   },
-  "timestamp_start": "2015-01-05 19:45:48 UTC",
-  "id": "47983d76-cf30-4acc-8724-27f17f1fffcd",
+  "timestamp_start": "2015-01-06 19:46:02 UTC",
+  "id": "86c0bb30-921d-45fa-8bf0-47b1136e79fc",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Mon, 05 Jan 2015 19:45:51 GMT"
+        "content": "Tue, 06 Jan 2015 19:46:07 GMT"
       }
     },
     {
@@ -26,8 +26,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-px",
-        "content": "rf-ms h0-s1032.p4-dfw ( h0-s1108.p4-dfw), ht brf h0-s1108.p4-dfw.cdngp.net"
+        "content": "rf-ms h0-s1043.p4-dfw ( h0-s1108.p4-dfw), rf-ms h0-s1108.p4-dfw ( origin>CONN)"
       }
     },
     {
@@ -41,21 +48,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Mon, 05 Jan 2015 19:45:57 GMT"
+        "content": "Tue, 06 Jan 2015 19:46:51 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "age",
-        "content": "24"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "32022"
+        "content": "0"
       }
     },
     {
@@ -76,14 +76,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "px-uncompress-origin",
-        "content": "183465"
+        "content": "183300"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Mon, 05 Jan 2015 19:45:26 GMT"
+        "content": "Tue, 06 Jan 2015 19:46:20 GMT"
       }
     },
     {
@@ -94,6 +94,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;yenisafak.com.tr&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:45:51 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;PWS&#x2F;8.1.20.9&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-px&quot;, :content=&gt;&quot;rf-ms h0-s1032.p4-dfw ( h0-s1108.p4-dfw), ht brf h0-s1108.p4-dfw.cdngp.net&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=30&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:45:57 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;24&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;32022&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;px-uncompress-origin&quot;, :content=&gt;&quot;183465&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:45:26 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-05 19:45:51 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;yenisafak.com.tr&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:46:07 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;PWS&#x2F;8.1.20.9&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-px&quot;, :content=&gt;&quot;rf-ms h0-s1043.p4-dfw ( h0-s1108.p4-dfw), rf-ms h0-s1108.p4-dfw ( origin&gt;CONN)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=30&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:46:51 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;px-uncompress-origin&quot;, :content=&gt;&quot;183300&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:46:20 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-06 19:46:21 UTC"
 }

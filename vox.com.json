@@ -6,8 +6,8 @@
       "name": "http://vox.com"
     }
   },
-  "timestamp_start": "2015-01-05 19:45:12 UTC",
-  "id": "7a1f9f28-ab48-49a9-8ff3-2952383ffee1",
+  "timestamp_start": "2015-01-06 19:45:25 UTC",
+  "id": "f0fbda86-0873-4abb-af3d-10766e320c17",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -20,14 +20,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Mon, 05 Jan 2015 19:44:35 GMT"
+        "content": "Tue, 06 Jan 2015 19:43:46 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Tue, 06 Jan 2015 19:40:49 GMT"
       }
     },
     {
@@ -40,36 +47,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "status",
-        "content": "200 OK"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
-        "content": "max-age=0,must-revalidate"
+        "content": "max-age=0, must-revalidate"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-ua-compatible",
-        "content": "IE=Edge,chrome=1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-request-id",
-        "content": "45a684b0-9513-11e4-b3eb-877bcdde924b"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-runtime",
-        "content": "1.683360"
+        "name": "x-xrds-location",
+        "content": "http://www.sbnation.com/openid/yadis.xrdf"
       }
     },
     {
@@ -83,14 +69,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "742207125 773165903"
+        "content": "216545638 222640092"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "age",
-        "content": "39"
+        "content": "99"
       }
     },
     {
@@ -104,7 +90,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-length",
-        "content": "26615"
+        "content": "26735"
       }
     },
     {
@@ -122,6 +108,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;vox.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:44:35 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0,must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;45a684b0-9513-11e4-b3eb-877bcdde924b&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;1.683360&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CAO DSP COR CURa ADMa DEVa PSAa PSDa CONi OUR IND PHY ONL UNI COM NAV INT CNT STA\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;742207125 773165903&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;39&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish-v4&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;26615&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-05 19:45:13 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;vox.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:43:46 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:40:49 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xrds-location&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;www.sbnation.com&#x2F;openid&#x2F;yadis.xrdf&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CAO DSP COR CURa ADMa DEVa PSAa PSDa CONi OUR IND PHY ONL UNI COM NAV INT CNT STA\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;216545638 222640092&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;99&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish-v4&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;26735&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-06 19:45:25 UTC"
 }

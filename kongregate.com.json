@@ -6,8 +6,8 @@
       "name": "http://kongregate.com"
     }
   },
-  "timestamp_start": "2015-01-05 19:45:19 UTC",
-  "id": "9504b4f8-f17e-419c-9e04-43110fb009b0",
+  "timestamp_start": "2015-01-06 19:45:33 UTC",
+  "id": "a3673360-bafd-46c6-ae00-0363346a5bed",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -40,6 +40,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "etag",
+        "content": "\"1723988fc19d51a27d6056c2eb0ec34b\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-content-type-options",
         "content": "nosniff"
       }
@@ -55,7 +62,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.055868"
+        "content": "0.057592"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -83,14 +97,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-kong-sv-uuid",
-        "content": "5076c74c-9d6f-490f-b4c2-ae57e1de31e7"
+        "content": "d255e53a-343a-4887-b7d9-307eea9ca3da"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Mon, 05 Jan 2015 19:45:20 GMT"
+        "content": "Tue, 06 Jan 2015 19:45:33 GMT"
       }
     },
     {
@@ -111,14 +125,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "kong_svid=5076c74c-9d6f-490f-b4c2-ae57e1de31e7; path=/; expires=Fri, 05 Jan 2035 19:45:20 -0000, tmp_visit_data=%7B%22landing_url%22%3A%22%2F%22%7D; path=/, _kongregate_session=BAh7CkkiD3Nlc3Npb25faWQGOgZFVEkiJWRmN2I3MDZiYWQ1OTFhYjY2YjcyYjZhNGRlNTNmMDU2BjsAVEkiCWluaXQGOwBGVEkiD3RyYW5zbGF0b3IGOwBGRkkiCmtzc3RzBjsAVHsGSSIqNzg4Njg4NTRfbmV3X2ZlYXR1cmVfcm9sbF9kZXNpZ25fdGVzdAY7AFRJIhljb250cm9sX2ZlYXR1cmVfcm9sbAY7AFRJIhBfY3NyZl90b2tlbgY7AEZJIjE3aWtJQlNTZUFQSXFidVYxeFBGbVR5aWFiZUlYbmZZTFdaRHBDdEQrU0tRPQY7AEY%3D--2a26b507f01f7aac6a560b32b2e1f93640b66a76; path=/; HttpOnly"
+        "content": "kong_svid=d255e53a-343a-4887-b7d9-307eea9ca3da; path=/; expires=Sat, 06 Jan 2035 19:45:33 -0000, tmp_visit_data=%7B%22landing_url%22%3A%22%2F%22%7D; path=/, _kongregate_session=BAh7CkkiD3Nlc3Npb25faWQGOgZFVEkiJTIyMTE0MzJmNzQ4MTUzNjQ2NWU4NzI2MWE0MzFhYjgyBjsAVEkiCWluaXQGOwBGVEkiD3RyYW5zbGF0b3IGOwBGRkkiCmtzc3RzBjsAVHsGSSIqNzg4Njg4NTRfbmV3X2ZlYXR1cmVfcm9sbF9kZXNpZ25fdGVzdAY7AFRJIhljb250cm9sX2ZlYXR1cmVfcm9sbAY7AFRJIhBfY3NyZl90b2tlbgY7AEZJIjFSM0RVQm1QYWxmMVdXMTZzSWoycTNMbkhEY29Jck5DK0FXNEFDSWw4dkNrPQY7AEY%3D--0c3bb5878e3307409d3359fa9b0fab621505f096; path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "7bb8f508-de35-4309-b42b-9c4d4fe27753"
+        "content": "1053b1fd-0418-41cb-b4b4-ed8f2f984978"
       }
     },
     {
@@ -132,10 +146,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-instart-request-id",
-        "content": "3261725559141811524:QSJ01-NPPRY10:1420487120:76"
+        "content": "13128256681497560176:QSJ01-NPPRY12:1420573533:76"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;kongregate.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-kong-sv-state&quot;, :content=&gt;&quot;frozen&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.055868&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;ALL ADM DEV PSAi COM OUR OTRo STP IND ONL\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-kong-sv-uuid&quot;, :content=&gt;&quot;5076c74c-9d6f-490f-b4c2-ae57e1de31e7&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:45:20 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;kong_svid=5076c74c-9d6f-490f-b4c2-ae57e1de31e7; path=&#x2F;; expires=Fri, 05 Jan 2035 19:45:20 -0000, tmp_visit_data=%7B%22landing_url%22%3A%22%2F%22%7D; path=&#x2F;, _kongregate_session=BAh7CkkiD3Nlc3Npb25faWQGOgZFVEkiJWRmN2I3MDZiYWQ1OTFhYjY2YjcyYjZhNGRlNTNmMDU2BjsAVEkiCWluaXQGOwBGVEkiD3RyYW5zbGF0b3IGOwBGRkkiCmtzc3RzBjsAVHsGSSIqNzg4Njg4NTRfbmV3X2ZlYXR1cmVfcm9sbF9kZXNpZ25fdGVzdAY7AFRJIhljb250cm9sX2ZlYXR1cmVfcm9sbAY7AFRJIhBfY3NyZl90b2tlbgY7AEZJIjE3aWtJQlNTZUFQSXFidVYxeFBGbVR5aWFiZUlYbmZZTFdaRHBDdEQrU0tRPQY7AEY%3D--2a26b507f01f7aac6a560b32b2e1f93640b66a76; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;7bb8f508-de35-4309-b42b-9c4d4fe27753&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-instart-request-id&quot;, :content=&gt;&quot;3261725559141811524:QSJ01-NPPRY10:1420487120:76&quot;}\n",
-  "timestamp_end": "2015-01-05 19:45:20 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;kongregate.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;1723988fc19d51a27d6056c2eb0ec34b\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-kong-sv-state&quot;, :content=&gt;&quot;frozen&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.057592&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;ALL ADM DEV PSAi COM OUR OTRo STP IND ONL\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-kong-sv-uuid&quot;, :content=&gt;&quot;d255e53a-343a-4887-b7d9-307eea9ca3da&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:45:33 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;kong_svid=d255e53a-343a-4887-b7d9-307eea9ca3da; path=&#x2F;; expires=Sat, 06 Jan 2035 19:45:33 -0000, tmp_visit_data=%7B%22landing_url%22%3A%22%2F%22%7D; path=&#x2F;, _kongregate_session=BAh7CkkiD3Nlc3Npb25faWQGOgZFVEkiJTIyMTE0MzJmNzQ4MTUzNjQ2NWU4NzI2MWE0MzFhYjgyBjsAVEkiCWluaXQGOwBGVEkiD3RyYW5zbGF0b3IGOwBGRkkiCmtzc3RzBjsAVHsGSSIqNzg4Njg4NTRfbmV3X2ZlYXR1cmVfcm9sbF9kZXNpZ25fdGVzdAY7AFRJIhljb250cm9sX2ZlYXR1cmVfcm9sbAY7AFRJIhBfY3NyZl90b2tlbgY7AEZJIjFSM0RVQm1QYWxmMVdXMTZzSWoycTNMbkhEY29Jck5DK0FXNEFDSWw4dkNrPQY7AEY%3D--0c3bb5878e3307409d3359fa9b0fab621505f096; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;1053b1fd-0418-41cb-b4b4-ed8f2f984978&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-instart-request-id&quot;, :content=&gt;&quot;13128256681497560176:QSJ01-NPPRY12:1420573533:76&quot;}\n",
+  "timestamp_end": "2015-01-06 19:45:33 UTC"
 }

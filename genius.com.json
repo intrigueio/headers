@@ -6,14 +6,14 @@
       "name": "http://genius.com"
     }
   },
-  "timestamp_start": "2015-01-05 19:45:29 UTC",
-  "id": "83776df9-5fba-4657-bec6-87c823d77f43",
+  "timestamp_start": "2015-01-06 19:45:44 UTC",
+  "id": "8fd8492c-310f-49d6-95ab-8260b1d688c8",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Mon, 05 Jan 2015 19:45:30 GMT"
+        "content": "Tue, 06 Jan 2015 19:45:44 GMT"
       }
     },
     {
@@ -41,7 +41,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d60e4e592534cc65b7876011b01f95ff21420487129; expires=Tue, 05-Jan-16 19:45:29 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=ruA3g7atHRb2D1XQBweLBuHzM%2FICQ7xFOc6Sbapj7YM%3D; domain=genius.com; path=/; expires=Tue, 05-Jan-2016 19:45:30 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMXJ1QTNnN2F0SFJiMkQxWFFCd2VMQnVIek0vSUNRN3hGT2M2U2JhcGo3WU09Og9zZXNzaW9uX2lkIiVjOWNiMzVhMjMzMWNkOGYyNGE2YTg0ZjFkZjE1YzcwNg%3D%3D--3e952b9e7b2a144e07e0e8d6fc6519e4923192e0; domain=.genius.com; path=/; HttpOnly"
+        "content": "__cfduid=dbc5b0b4550b37d88cd0b8f2ccb16c2c11420573544; expires=Wed, 06-Jan-16 19:45:44 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=WgacuZQqz7bHHiMHw9Hca3uY8ehktsjc7b4MkPx7xdE%3D; domain=genius.com; path=/; expires=Wed, 06-Jan-2016 19:45:44 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMVdnYWN1WlFxejdiSEhpTUh3OUhjYTN1WThlaGt0c2pjN2I0TWtQeDd4ZEU9Og9zZXNzaW9uX2lkIiU5NzJkZmJkYTJhNmZjYzg1YTEwYTE3OWY1NGY5YTRlNw%3D%3D--119891e8a63cc8d9ade04ab2c90af3290ad7f1fa; domain=.genius.com; path=/; HttpOnly"
       }
     },
     {
@@ -54,8 +54,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"494d03a67b5c7f60ae8a2da128292c67\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-runtime",
-        "content": "538"
+        "content": "15"
       }
     },
     {
@@ -70,20 +84,6 @@
       "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "etag",
-        "content": "W/\"0be75901282109fc858cb7059c652f24\""
       }
     },
     {
@@ -104,10 +104,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a422d306c5d118f-DFW"
+        "content": "1a4a6aea74da1189-DFW"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;genius.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:45:30 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d60e4e592534cc65b7876011b01f95ff21420487129; expires=Tue, 05-Jan-16 19:45:29 GMT; path=&#x2F;; domain=.genius.com; HttpOnly, _csrf_token=ruA3g7atHRb2D1XQBweLBuHzM%2FICQ7xFOc6Sbapj7YM%3D; domain=genius.com; path=&#x2F;; expires=Tue, 05-Jan-2016 19:45:30 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMXJ1QTNnN2F0SFJiMkQxWFFCd2VMQnVIek0vSUNRN3hGT2M2U2JhcGo3WU09Og9zZXNzaW9uX2lkIiVjOWNiMzVhMjMzMWNkOGYyNGE2YTg0ZjFkZjE1YzcwNg%3D%3D--3e952b9e7b2a144e07e0e8d6fc6519e4923192e0; domain=.genius.com; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;538&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;X-Requested-With&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;0be75901282109fc858cb7059c652f24\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 vegur&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a422d306c5d118f-DFW&quot;}\n",
-  "timestamp_end": "2015-01-05 19:45:30 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;genius.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:45:44 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=dbc5b0b4550b37d88cd0b8f2ccb16c2c11420573544; expires=Wed, 06-Jan-16 19:45:44 GMT; path=&#x2F;; domain=.genius.com; HttpOnly, _csrf_token=WgacuZQqz7bHHiMHw9Hca3uY8ehktsjc7b4MkPx7xdE%3D; domain=genius.com; path=&#x2F;; expires=Wed, 06-Jan-2016 19:45:44 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMVdnYWN1WlFxejdiSEhpTUh3OUhjYTN1WThlaGt0c2pjN2I0TWtQeDd4ZEU9Og9zZXNzaW9uX2lkIiU5NzJkZmJkYTJhNmZjYzg1YTEwYTE3OWY1NGY5YTRlNw%3D%3D--119891e8a63cc8d9ade04ab2c90af3290ad7f1fa; domain=.genius.com; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;494d03a67b5c7f60ae8a2da128292c67\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;15&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;X-Requested-With&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 vegur&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a4a6aea74da1189-DFW&quot;}\n",
+  "timestamp_end": "2015-01-06 19:45:44 UTC"
 }

@@ -6,21 +6,14 @@
       "name": "http://pwc.com"
     }
   },
-  "timestamp_start": "2015-01-05 19:50:05 UTC",
-  "id": "199609f6-3280-4802-b2cd-c17d43af103a",
+  "timestamp_start": "2015-01-06 19:50:16 UTC",
+  "id": "79cca541-745e-40c8-8d74-43b3ce30aa2a",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
         "content": "IBM_HTTP_Server"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "43987"
       }
     },
     {
@@ -54,25 +47,39 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-akamai-transformed",
+        "content": "9 43969 0 pmb=mRUM,1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
-        "content": "max-age=43562"
+        "content": "max-age=35009"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Mon, 05 Jan 2015 19:50:05 GMT"
+        "content": "Tue, 06 Jan 2015 19:50:16 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;pwc.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;IBM_HTTP_Server&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;43987&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;http:&#x2F;&#x2F;www.pwc.com&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi CONi OUR SAMi PUBi IND PHY ONL UNI PUR COM NAV INT DEM CNT STA\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=43562&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Mon, 05 Jan 2015 19:50:05 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-05 19:50:05 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;pwc.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;IBM_HTTP_Server&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;http:&#x2F;&#x2F;www.pwc.com&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi CONi OUR SAMi PUBi IND PHY ONL UNI PUR COM NAV INT DEM CNT STA\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-akamai-transformed&quot;, :content=&gt;&quot;9 43969 0 pmb=mRUM,1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=35009&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:50:16 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n",
+  "timestamp_end": "2015-01-06 19:50:16 UTC"
 }
