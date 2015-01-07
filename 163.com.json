@@ -6,21 +6,21 @@
       "name": "http://163.com"
     }
   },
-  "timestamp_start": "2015-01-06 19:44:52 UTC",
-  "id": "de218e96-cc3a-40e8-b4c6-0c249817da8f",
+  "timestamp_start": "2015-01-07 19:45:07 UTC",
+  "id": "18bdecf9-6f05-4e9a-9186-ad00a6492264",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Tue, 06 Jan 2015 19:46:14 GMT"
+        "content": "Wed, 07 Jan 2015 19:46:31 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Tue, 06 Jan 2015 19:44:54 GMT"
+        "content": "Wed, 07 Jan 2015 19:45:11 GMT"
       }
     },
     {
@@ -40,6 +40,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding,User-Agent,Accept"
       }
@@ -54,25 +61,18 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "via",
-        "content": "1.1 cache.163.com:80 (squid)"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-via",
-        "content": "1.0 czdx87:88 (Cdn Cache Server V2.0), 1.0 dls19:2 (Cdn Cache Server V2.0)"
+        "content": "1.1 czdx87:8106 (Cdn Cache Server V2.0), 1.1 dls19:2 (Cdn Cache Server V2.0)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;163.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:46:14 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:44:54 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=GBK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent,Accept&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=80&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 cache.163.com:80 (squid)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-via&quot;, :content=&gt;&quot;1.0 czdx87:88 (Cdn Cache Server V2.0), 1.0 dls19:2 (Cdn Cache Server V2.0)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n",
-  "timestamp_end": "2015-01-06 19:44:55 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;163.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:46:31 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:45:11 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=GBK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent,Accept&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=80&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-via&quot;, :content=&gt;&quot;1.1 czdx87:8106 (Cdn Cache Server V2.0), 1.1 dls19:2 (Cdn Cache Server V2.0)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-07 19:45:11 UTC"
 }

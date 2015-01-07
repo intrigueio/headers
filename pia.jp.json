@@ -6,52 +6,73 @@
       "name": "http://pia.jp"
     }
   },
-  "timestamp_start": "2015-01-06 19:48:46 UTC",
-  "id": "eddae04c-ed51-4097-9326-e3d07c42bd73",
+  "timestamp_start": "2015-01-07 19:49:11 UTC",
+  "id": "2fc3d8e1-48b5-4d1e-b1ec-5d22e4235723",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Tue, 06 Jan 2015 19:48:49 GMT"
+        "content": "Wed, 07 Jan 2015 19:49:17 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache"
+        "name": "set-cookie",
+        "content": "JSESSIONID=61903769028A1BCE790203E9AC184BE9; Path=/; HttpOnly, n3Session_AETPIA=109daa7d458c22858c879441b0743cf356dc6f8cc5317b9c6e7a912502210f74; Domain=.pia.jp; Path=/, authSession_AETPIA=4d3eea5b066122efd50656e3c5d2819b86a875b514cacc7ff1501ecfed881508; Domain=.pia.jp; Expires=Wed, 07-Jan-2015 20:19:17 GMT; Path=/, BetySessionId_AETPIA=\"\"; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, AuthId_AETPIA=\"\"; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, user_nm_AETPIA=\"\"; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, notify_count_AETPIA=\"\"; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, default_rgon_code_AETPIA=\"\"; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, condition_b_date_AETPIA=\"\"; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, BetySessionId_AETPIA=\"\"; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, LastAccessServerId_AETPIA=\"\"; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, SERVERID=t_app1_1; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Tue, 06 Jan 2015 19:20:01 GMT"
+        "name": "pragma",
+        "content": "No-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "cache-control",
+        "content": "no-cache,no-store,max-age=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "8374"
+        "name": "expires",
+        "content": "Thu, 01 Jan 1970 00:00:00 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html;charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;pia.jp&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:48:49 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:20:01 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;8374&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n",
-  "timestamp_end": "2015-01-06 19:48:49 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;pia.jp&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:49:17 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=61903769028A1BCE790203E9AC184BE9; Path=&#x2F;; HttpOnly, n3Session_AETPIA=109daa7d458c22858c879441b0743cf356dc6f8cc5317b9c6e7a912502210f74; Domain=.pia.jp; Path=&#x2F;, authSession_AETPIA=4d3eea5b066122efd50656e3c5d2819b86a875b514cacc7ff1501ecfed881508; Domain=.pia.jp; Expires=Wed, 07-Jan-2015 20:19:17 GMT; Path=&#x2F;, BetySessionId_AETPIA=\\&quot;\\&quot;; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, AuthId_AETPIA=\\&quot;\\&quot;; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, user_nm_AETPIA=\\&quot;\\&quot;; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, notify_count_AETPIA=\\&quot;\\&quot;; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, default_rgon_code_AETPIA=\\&quot;\\&quot;; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, condition_b_date_AETPIA=\\&quot;\\&quot;; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, BetySessionId_AETPIA=\\&quot;\\&quot;; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, LastAccessServerId_AETPIA=\\&quot;\\&quot;; Domain=.pia.jp; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, SERVERID=t_app1_1; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;No-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache,no-store,max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 01 Jan 1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-07 19:49:18 UTC"
 }

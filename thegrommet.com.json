@@ -6,8 +6,8 @@
       "name": "http://thegrommet.com"
     }
   },
-  "timestamp_start": "2015-01-06 19:49:48 UTC",
-  "id": "8e0ca974-9c9c-410d-8679-4800db6ceedf",
+  "timestamp_start": "2015-01-07 19:50:16 UTC",
+  "id": "05054c59-74e2-4b06-9233-8dc4ea388792",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -20,7 +20,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Tue, 06 Jan 2015 19:49:49 GMT"
+        "content": "Wed, 07 Jan 2015 19:50:18 GMT"
       }
     },
     {
@@ -48,7 +48,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=dfe76edfac2eaf3a1d55153bfff18eb531420573789; expires=Wed, 06-Jan-16 19:49:49 GMT; path=/; domain=.thegrommet.com; HttpOnly"
+        "content": "__cfduid=da21aab1f2914fe4f3f50125a956136a71420660218; expires=Thu, 07-Jan-16 19:50:18 GMT; path=/; domain=.thegrommet.com; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
       }
     },
     {
@@ -68,8 +75,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "age",
-        "content": "1761"
+        "name": "varnish-cacheable",
+        "content": "1"
       }
     },
     {
@@ -96,15 +103,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-purge-url",
-        "content": "/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-varnish",
-        "content": "200489287 200476142"
+        "name": "grommet-fetch",
+        "content": "Cached"
       }
     },
     {
@@ -117,22 +117,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "expires",
-        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+        "name": "x-purge-url",
+        "content": "/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "varnish-cacheable",
-        "content": "1"
+        "name": "x-varnish",
+        "content": "200853560 200850137"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "grommet-fetch",
-        "content": "Cached"
+        "name": "age",
+        "content": "534"
       }
     },
     {
@@ -145,18 +145,11 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cf-railgun",
-        "content": "e06b054363 0.11 0.020902 0031 5360"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cf-ray",
-        "content": "1a4a70eb03dd0938-DFW"
+        "content": "1a52aefc9a130938-DFW"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;thegrommet.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:49:49 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=dfe76edfac2eaf3a1d55153bfff18eb531420573789; expires=Wed, 06-Jan-16 19:49:49 GMT; path=&#x2F;; domain=.thegrommet.com; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CAO PSA OUR\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;1761&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=604800&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-purge-url&quot;, :content=&gt;&quot;&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;200489287 200476142&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-purge-host&quot;, :content=&gt;&quot;www.thegrommet.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;varnish-cacheable&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;grommet-fetch&quot;, :content=&gt;&quot;Cached&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-railgun&quot;, :content=&gt;&quot;e06b054363 0.11 0.020902 0031 5360&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a4a70eb03dd0938-DFW&quot;}\n",
-  "timestamp_end": "2015-01-06 19:49:49 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;thegrommet.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:50:18 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=da21aab1f2914fe4f3f50125a956136a71420660218; expires=Thu, 07-Jan-16 19:50:18 GMT; path=&#x2F;; domain=.thegrommet.com; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CAO PSA OUR\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;varnish-cacheable&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=604800&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;grommet-fetch&quot;, :content=&gt;&quot;Cached&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-purge-host&quot;, :content=&gt;&quot;www.thegrommet.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-purge-url&quot;, :content=&gt;&quot;&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;200853560 200850137&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;534&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a52aefc9a130938-DFW&quot;}\n",
+  "timestamp_end": "2015-01-07 19:50:18 UTC"
 }

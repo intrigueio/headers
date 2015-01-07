@@ -6,8 +6,8 @@
       "name": "http://csnbayarea.com"
     }
   },
-  "timestamp_start": "2015-01-06 19:50:36 UTC",
-  "id": "cc885446-4df7-47d9-b078-6cf1c584c6b6",
+  "timestamp_start": "2015-01-07 19:51:05 UTC",
+  "id": "f0f3c099-dc1a-482e-9348-b80f5cbb931a",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -34,7 +34,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1420573298-1\""
+        "content": "\"1420659883-1\""
       }
     },
     {
@@ -62,14 +62,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Tue, 06 Jan 2015 19:41:38 +0000"
+        "content": "Wed, 07 Jan 2015 19:44:43 +0000"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "v-07c0f9a4-95dc-11e4-8f2b-22000aa915d9"
+        "content": "v-a06106e4-96a5-11e4-b5e9-22000aa915d9"
       }
     },
     {
@@ -83,28 +83,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "614258355 614241902"
+        "content": "616709653 616694018"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-hits",
-        "content": "65"
+        "content": "62"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-age",
-        "content": "532"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "access-control-allow-origin",
-        "content": "*, *"
+        "content": "379"
       }
     },
     {
@@ -118,21 +111,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public, max-age=112"
+        "content": "public, max-age=110"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Tue, 06 Jan 2015 19:52:29 GMT"
+        "content": "Wed, 07 Jan 2015 19:52:56 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Tue, 06 Jan 2015 19:50:37 GMT"
+        "content": "Wed, 07 Jan 2015 19:51:06 GMT"
       }
     },
     {
@@ -148,8 +141,15 @@
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
       }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "*"
+      }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;csnbayarea.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-drupal-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;1420573298-1\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-generator&quot;, :content=&gt;&quot;Drupal 7 (http:&#x2F;&#x2F;drupal.org)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;link&quot;, :content=&gt;&quot;&lt;http:&#x2F;&#x2F;www.csnbayarea.com&#x2F;&gt;; rel=\\&quot;canonical\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:41:38 +0000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;v-07c0f9a4-95dc-11e4-8f2b-22000aa915d9&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ah-environment&quot;, :content=&gt;&quot;prod&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;614258355 614241902&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-hits&quot;, :content=&gt;&quot;65&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-age&quot;, :content=&gt;&quot;532&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;*, *&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public, max-age=112&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:52:29 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:50:37 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n",
-  "timestamp_end": "2015-01-06 19:50:37 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;csnbayarea.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-drupal-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;1420659883-1\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-generator&quot;, :content=&gt;&quot;Drupal 7 (http:&#x2F;&#x2F;drupal.org)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;link&quot;, :content=&gt;&quot;&lt;http:&#x2F;&#x2F;www.csnbayarea.com&#x2F;&gt;; rel=\\&quot;canonical\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:44:43 +0000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;v-a06106e4-96a5-11e4-b5e9-22000aa915d9&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ah-environment&quot;, :content=&gt;&quot;prod&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;616709653 616694018&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-hits&quot;, :content=&gt;&quot;62&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-age&quot;, :content=&gt;&quot;379&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public, max-age=110&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:52:56 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:51:06 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;*&quot;}\n",
+  "timestamp_end": "2015-01-07 19:51:06 UTC"
 }

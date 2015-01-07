@@ -6,14 +6,14 @@
       "name": "http://telus.com"
     }
   },
-  "timestamp_start": "2015-01-06 19:49:03 UTC",
-  "id": "55cbe14e-6e87-4e25-8d34-2847e88907a4",
+  "timestamp_start": "2015-01-07 19:49:30 UTC",
+  "id": "079d90c2-5ab9-44ba-a8e8-96d008880444",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Tue, 06 Jan 2015 19:35:21 GMT"
+        "content": "Wed, 07 Jan 2015 19:35:47 GMT"
       }
     },
     {
@@ -21,13 +21,6 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html;charset=UTF-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "9174"
       }
     },
     {
@@ -69,7 +62,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "292558097"
+        "content": "184150243"
       }
     },
     {
@@ -104,10 +97,17 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "lang=en; Domain=.telus.com; Expires=Thu, 05-Feb-2015 19:47:59 GMT; Path=/, BrowserProfile=\"{\\\"language\\\":\\\"en\\\"}\"; Version=1; Domain=.telus.com; Max-Age=2592000; Expires=Thu, 05-Feb-2015 19:47:59 GMT; Path=/, JSESSIONID=11D1F442BF1BEA62C300A5E93EF0D90A; Path=/; HttpOnly, MSESSIONID=f1188867-7413-4e69-8d2f-eaa568d73dad; Domain=.telus.com; Path=/; HttpOnly, BIGipServerwww.telus.com.5050_pool=581609664.7956.0000; path=/, TS56ab0f=24d8cb914aec2d044d5de9885a1fa74635b562c83fa8836054ac3c3075dd0ecb099d595f799a84c5a28dfd2660ac0ec5c91d4a478acd529159dcec92e25edfd390916e74; Path=/, WAFSessionID=180398272.0.0000; path=/"
+        "content": "lang=en; Domain=.telus.com; Expires=Fri, 06-Feb-2015 19:51:16 GMT; Path=/, BrowserProfile=\"{\\\"language\\\":\\\"en\\\"}\"; Version=1; Domain=.telus.com; Max-Age=2592000; Expires=Fri, 06-Feb-2015 19:51:16 GMT; Path=/, JSESSIONID=9045330D14BF3008E1B5647C931D6DC8; Path=/; HttpOnly, MSESSIONID=77915b56-a82b-4f2c-8bdd-27abeecafdcb; Domain=.telus.com; Path=/; HttpOnly, BIGipServerwww.telus.com.5050_pool=581609664.47635.0000; path=/, TS56ab0f=54b7fdf75d2b1d848d8b856152018cde768c0e6f1eced00e54ad8dcb75dd0ecb099d595f799a84c5a28dfd2660ac0ec5777a2e278acd5291e06204d7e25edfd32ba97911; Path=/, WAFSessionID=180398272.0.0000; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;telus.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:35:21 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;9174&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-language&quot;, :content=&gt;&quot;en&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-region&quot;, :content=&gt;&quot;bc&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-passthrough-reason&quot;, :content=&gt;&quot;Not Set in Path (Province)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;292558097&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish-v4&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;lang=en; Domain=.telus.com; Expires=Thu, 05-Feb-2015 19:47:59 GMT; Path=&#x2F;, BrowserProfile=\\&quot;{\\\\\\&quot;language\\\\\\&quot;:\\\\\\&quot;en\\\\\\&quot;}\\&quot;; Version=1; Domain=.telus.com; Max-Age=2592000; Expires=Thu, 05-Feb-2015 19:47:59 GMT; Path=&#x2F;, JSESSIONID=11D1F442BF1BEA62C300A5E93EF0D90A; Path=&#x2F;; HttpOnly, MSESSIONID=f1188867-7413-4e69-8d2f-eaa568d73dad; Domain=.telus.com; Path=&#x2F;; HttpOnly, BIGipServerwww.telus.com.5050_pool=581609664.7956.0000; path=&#x2F;, TS56ab0f=24d8cb914aec2d044d5de9885a1fa74635b562c83fa8836054ac3c3075dd0ecb099d595f799a84c5a28dfd2660ac0ec5c91d4a478acd529159dcec92e25edfd390916e74; Path=&#x2F;, WAFSessionID=180398272.0.0000; path=&#x2F;&quot;}\n",
-  "timestamp_end": "2015-01-06 19:49:05 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;telus.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:35:47 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-language&quot;, :content=&gt;&quot;en&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-region&quot;, :content=&gt;&quot;bc&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-passthrough-reason&quot;, :content=&gt;&quot;Not Set in Path (Province)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;184150243&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish-v4&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;lang=en; Domain=.telus.com; Expires=Fri, 06-Feb-2015 19:51:16 GMT; Path=&#x2F;, BrowserProfile=\\&quot;{\\\\\\&quot;language\\\\\\&quot;:\\\\\\&quot;en\\\\\\&quot;}\\&quot;; Version=1; Domain=.telus.com; Max-Age=2592000; Expires=Fri, 06-Feb-2015 19:51:16 GMT; Path=&#x2F;, JSESSIONID=9045330D14BF3008E1B5647C931D6DC8; Path=&#x2F;; HttpOnly, MSESSIONID=77915b56-a82b-4f2c-8bdd-27abeecafdcb; Domain=.telus.com; Path=&#x2F;; HttpOnly, BIGipServerwww.telus.com.5050_pool=581609664.47635.0000; path=&#x2F;, TS56ab0f=54b7fdf75d2b1d848d8b856152018cde768c0e6f1eced00e54ad8dcb75dd0ecb099d595f799a84c5a28dfd2660ac0ec5777a2e278acd5291e06204d7e25edfd32ba97911; Path=&#x2F;, WAFSessionID=180398272.0.0000; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
+  "timestamp_end": "2015-01-07 19:49:31 UTC"
 }

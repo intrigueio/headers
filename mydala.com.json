@@ -6,8 +6,8 @@
       "name": "http://mydala.com"
     }
   },
-  "timestamp_start": "2015-01-06 19:45:31 UTC",
-  "id": "d2959361-9113-49d8-8b94-e3f3358c6a68",
+  "timestamp_start": "2015-01-07 19:45:48 UTC",
+  "id": "3187ff8c-687f-4df1-867e-8f3971a1d944",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -47,6 +47,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-akamai-transformed",
+        "content": "9 20870 0 pmb=mRUM,1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -55,7 +62,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Tue, 06 Jan 2015 19:45:33 GMT"
+        "content": "Wed, 07 Jan 2015 19:45:52 GMT"
       }
     },
     {
@@ -76,10 +83,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "yyaER9j4ut=MDAwM2IyODViMGMwMDAwMDAwMDQwalVZOicxNDIwNTkyOTcx;path=/, PHPSESSID=usflut56kjt34ib9brsdl14180; path=/; domain=.mydala.com"
+        "content": "yyaER9j4ut=MDAwM2IyODViMGMwMDAwMDAwMDQwXWBJbCYxNDIwNjc5NjA5;path=/, PHPSESSID=18558ka0hhrh3gjufcs0a87sf3; path=/; domain=.mydala.com"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;mydala.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.4.3 (Unix) OpenSSL&#x2F;0.9.8e-fips-rhel5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:45:33 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;yyaER9j4ut=MDAwM2IyODViMGMwMDAwMDAwMDQwalVZOicxNDIwNTkyOTcx;path=&#x2F;, PHPSESSID=usflut56kjt34ib9brsdl14180; path=&#x2F;; domain=.mydala.com&quot;}\n",
-  "timestamp_end": "2015-01-06 19:45:33 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;mydala.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.4.3 (Unix) OpenSSL&#x2F;0.9.8e-fips-rhel5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-akamai-transformed&quot;, :content=&gt;&quot;9 20870 0 pmb=mRUM,1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:45:52 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;yyaER9j4ut=MDAwM2IyODViMGMwMDAwMDAwMDQwXWBJbCYxNDIwNjc5NjA5;path=&#x2F;, PHPSESSID=18558ka0hhrh3gjufcs0a87sf3; path=&#x2F;; domain=.mydala.com&quot;}\n",
+  "timestamp_end": "2015-01-07 19:45:52 UTC"
 }

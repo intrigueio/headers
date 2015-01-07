@@ -6,8 +6,8 @@
       "name": "http://17zwd.com"
     }
   },
-  "timestamp_start": "2015-01-06 19:47:59 UTC",
-  "id": "1587ba69-a031-47f6-8f5b-64e41eb1d0e7",
+  "timestamp_start": "2015-01-07 19:48:22 UTC",
+  "id": "307f09ca-c812-49b5-885d-f350a12a2585",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -26,8 +26,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "content-length",
+        "content": "3499"
       }
     },
     {
@@ -41,14 +41,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "_alit_=AQAAAIw5gA/lBAAAaO2FU65tjj2K1Rqa; Path=/; HttpOnly, SERVERID=dfbe742d662447ba64cadceb209cc183|1420573681|1420573681;Path=/"
+        "content": "_alit_=AQAAAIeUvXuGcAsAaO2FU+EerwdtJ9wj; Path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Tue, 06 Jan 2015 19:48:01 GMT"
+        "content": "Wed, 07 Jan 2015 19:48:24 GMT"
       }
     },
     {
@@ -76,21 +76,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "cache8.l2cn201[7,200-0,M], cache28.l2cn201[8,0], kunlun2.cn125[77,200-0,M], kunlun16.cn125[93,0]"
+        "content": "cache22.l2cn202[41,304-0,H], cache8.l2cn202[43,0], kunlun2.cn125[111,200-0,H], kunlun6.cn125[122,0]"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "age",
+        "content": "0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "MISS TCP_REFRESH_MISS dirn:1:803779566"
+        "content": "HIT TCP_REFRESH_HIT dirn:1:36213106"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-swift-savetime",
-        "content": "Tue, 06 Jan 2015 19:48:01 GMT"
+        "content": "Wed, 07 Jan 2015 19:48:24 GMT"
       }
     },
     {
@@ -101,6 +108,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;17zwd.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Tengine&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_alit_=AQAAAIw5gA&#x2F;lBAAAaO2FU65tjj2K1Rqa; Path=&#x2F;; HttpOnly, SERVERID=dfbe742d662447ba64cadceb209cc183|1420573681|1420573681;Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:48:01 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 07:32:52 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;e979bbfa8229d01:0\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;cache8.l2cn201[7,200-0,M], cache28.l2cn201[8,0], kunlun2.cn125[77,200-0,M], kunlun16.cn125[93,0]&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS TCP_REFRESH_MISS dirn:1:803779566&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-swift-savetime&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:48:01 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-swift-cachetime&quot;, :content=&gt;&quot;3600&quot;}\n",
-  "timestamp_end": "2015-01-06 19:48:01 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;17zwd.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Tengine&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;3499&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_alit_=AQAAAIeUvXuGcAsAaO2FU+EerwdtJ9wj; Path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:48:24 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 07:32:52 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;e979bbfa8229d01:0\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;cache22.l2cn202[41,304-0,H], cache8.l2cn202[43,0], kunlun2.cn125[111,200-0,H], kunlun6.cn125[122,0]&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;HIT TCP_REFRESH_HIT dirn:1:36213106&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-swift-savetime&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:48:24 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-swift-cachetime&quot;, :content=&gt;&quot;3600&quot;}\n",
+  "timestamp_end": "2015-01-07 19:48:24 UTC"
 }

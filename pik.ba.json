@@ -6,14 +6,14 @@
       "name": "http://pik.ba"
     }
   },
-  "timestamp_start": "2015-01-06 19:48:55 UTC",
-  "id": "52415bf0-ded9-4f66-a6c1-74ab348c4484",
+  "timestamp_start": "2015-01-07 19:49:21 UTC",
+  "id": "f093c441-2a86-4c94-98d4-2a07687fa591",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Tue, 06 Jan 2015 19:48:57 GMT"
+        "name": "server",
+        "content": "nginx"
       }
     },
     {
@@ -40,8 +40,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d018bcf97f8af87df25fd8b71e92c66461420573737; expires=Wed, 06-Jan-16 19:48:57 GMT; path=/; domain=.pik.ba; HttpOnly, pik_sesija=ff97e752f05f405c93a2624954cc295467396c59%2ByhYqIn8zyEjBgOnJRvPIWJu7ti2U55qxFhN9e18f; path=/; domain=.pik.ba; httponly"
+        "name": "date",
+        "content": "Wed, 07 Jan 2015 19:49:27 GMT"
       }
     },
     {
@@ -77,6 +77,13 @@
       "attributes": {
         "name": "x-content-type-options",
         "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "pik_sesija=20cb640504315984914a77ec7fa5e7972b8c8aff%2BKDz6tI8AbbohwQ2gznZ37svByGemrQFJTM4feemp; path=/; domain=.pik.ba; httponly"
       }
     },
     {
@@ -127,22 +134,8 @@
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
       }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1a4a6fa04f8d0418-ORD"
-      }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;pik.ba&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:48:57 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d018bcf97f8af87df25fd8b71e92c66461420573737; expires=Wed, 06-Jan-16 19:48:57 GMT; path=&#x2F;; domain=.pik.ba; HttpOnly, pik_sesija=ff97e752f05f405c93a2624954cc295467396c59%2ByhYqIn8zyEjBgOnJRvPIWJu7ti2U55qxFhN9e18f; path=&#x2F;; domain=.pik.ba; httponly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-expose-headers&quot;, :content=&gt;&quot;x-json&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;www.pik.ba&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;HHVM&#x2F;3.4.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, max-age=0, must-revalidate, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-headers&quot;, :content=&gt;&quot;X-Requested-With, X-Prototype-Version, X-CSRF-Token, X-JSON&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-credentials&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 26 Jul 1997 05:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a4a6fa04f8d0418-ORD&quot;}\n",
-  "timestamp_end": "2015-01-06 19:48:57 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;pik.ba&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:49:27 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-expose-headers&quot;, :content=&gt;&quot;x-json&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;www.pik.ba&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;HHVM&#x2F;3.4.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;pik_sesija=20cb640504315984914a77ec7fa5e7972b8c8aff%2BKDz6tI8AbbohwQ2gznZ37svByGemrQFJTM4feemp; path=&#x2F;; domain=.pik.ba; httponly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, max-age=0, must-revalidate, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-headers&quot;, :content=&gt;&quot;X-Requested-With, X-Prototype-Version, X-CSRF-Token, X-JSON&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-credentials&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 26 Jul 1997 05:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n",
+  "timestamp_end": "2015-01-07 19:49:27 UTC"
 }

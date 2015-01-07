@@ -6,8 +6,8 @@
       "name": "http://groupon.de"
     }
   },
-  "timestamp_start": "2015-01-06 19:47:48 UTC",
-  "id": "ff0b7a17-2d2d-4538-a331-c5e90bfba151",
+  "timestamp_start": "2015-01-07 19:48:11 UTC",
+  "id": "799a1285-f9e8-4a19-b052-360b93d40c12",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -21,6 +21,13 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "Express"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "101755"
       }
     },
     {
@@ -41,7 +48,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "46a4fd1d-50a6-40bb-8459-b4ab3d19e614"
+        "content": "93dc39b5-f118-4a8d-aae8-6adf2178ac8a"
       }
     },
     {
@@ -76,28 +83,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "pageId=292931ce-a592-4c93-aba7-b7c0af45c5c8-1420573669054-TH0; Path=/, division=berlin; Max-Age=315360000; Domain=.groupon.de; Path=/; Expires=Fri, 03 Jan 2025 19:47:49 GMT, CID=DE_DTI_0_0_0_0; Domain=.groupon.de; Path=/; Expires=Thu, 05 Feb 2015 23:59:59 GMT, homepage.sid=s%3A_bfNGKX9WNfiBk_RHPXNhWjcXdliUDtC.FEw6nAMF8jx8WXDQNqc5QCnhPezyZnaChsqGBDZST9g; Path=/; HttpOnly, b=a0585e03-94ce-4654-af54-0b069eac76ca; Expires=Fri, 03 Jan 2025 19:47:49 GMT; Path=/; Domain=.groupon.de, p0=1; Expires=Tue, 06 Jan 2015 19:52:49 GMT; Path=/; Domain=.groupon.de, s=292931ce-a592-4c93-aba7-b7c0af45c5c8; Expires=Tue, 06 Jan 2015 20:17:49 GMT; Path=/; Domain=.groupon.de"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-akamai-transformed",
-        "content": "9 97565 0 pmb=mRUM,1"
+        "content": "pageId=5e59354e-bdd0-424b-94f2-97249ba7f6d0-1420660094119-TH0; Path=/, division=aachen; Max-Age=315360000; Domain=.groupon.de; Path=/; Expires=Sat, 04 Jan 2025 19:48:14 GMT, CID=DE_DTI_0_0_0_0; Domain=.groupon.de; Path=/; Expires=Fri, 06 Feb 2015 23:59:59 GMT, homepage.sid=s%3A4Mt0e8JdAnMo6E87TmqwQw94JGWpU96J.zGrHj8cR9SY6vAIFJsFdHu5ufkTuixMmQ4OSoy%2Fs%2FQc; Path=/; HttpOnly, b=3a21ce7e-cb85-4435-adfe-e3b81e957066; Expires=Sat, 04 Jan 2025 19:48:14 GMT; Path=/; Domain=.groupon.de, p0=1; Expires=Wed, 07 Jan 2015 19:53:14 GMT; Path=/; Domain=.groupon.de, s=5e59354e-bdd0-424b-94f2-97249ba7f6d0; Expires=Wed, 07 Jan 2015 20:18:14 GMT; Path=/; Domain=.groupon.de"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Tue, 06 Jan 2015 19:47:50 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "98678"
+        "content": "Wed, 07 Jan 2015 19:48:14 GMT"
       }
     },
     {
@@ -108,6 +101,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;groupon.de&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Express&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, no-cache, no-store, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;46a4fd1d-50a6-40bb-8459-b4ab3d19e614&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-p-cookie&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;DENY&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-destination&quot;, :content=&gt;&quot;homepage_ita&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;pageId=292931ce-a592-4c93-aba7-b7c0af45c5c8-1420573669054-TH0; Path=&#x2F;, division=berlin; Max-Age=315360000; Domain=.groupon.de; Path=&#x2F;; Expires=Fri, 03 Jan 2025 19:47:49 GMT, CID=DE_DTI_0_0_0_0; Domain=.groupon.de; Path=&#x2F;; Expires=Thu, 05 Feb 2015 23:59:59 GMT, homepage.sid=s%3A_bfNGKX9WNfiBk_RHPXNhWjcXdliUDtC.FEw6nAMF8jx8WXDQNqc5QCnhPezyZnaChsqGBDZST9g; Path=&#x2F;; HttpOnly, b=a0585e03-94ce-4654-af54-0b069eac76ca; Expires=Fri, 03 Jan 2025 19:47:49 GMT; Path=&#x2F;; Domain=.groupon.de, p0=1; Expires=Tue, 06 Jan 2015 19:52:49 GMT; Path=&#x2F;; Domain=.groupon.de, s=292931ce-a592-4c93-aba7-b7c0af45c5c8; Expires=Tue, 06 Jan 2015 20:17:49 GMT; Path=&#x2F;; Domain=.groupon.de&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-akamai-transformed&quot;, :content=&gt;&quot;9 97565 0 pmb=mRUM,1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:47:50 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;98678&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-06 19:47:50 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;groupon.de&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Express&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;101755&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, no-cache, no-store, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;93dc39b5-f118-4a8d-aae8-6adf2178ac8a&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-p-cookie&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;DENY&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-destination&quot;, :content=&gt;&quot;homepage_ita&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;pageId=5e59354e-bdd0-424b-94f2-97249ba7f6d0-1420660094119-TH0; Path=&#x2F;, division=aachen; Max-Age=315360000; Domain=.groupon.de; Path=&#x2F;; Expires=Sat, 04 Jan 2025 19:48:14 GMT, CID=DE_DTI_0_0_0_0; Domain=.groupon.de; Path=&#x2F;; Expires=Fri, 06 Feb 2015 23:59:59 GMT, homepage.sid=s%3A4Mt0e8JdAnMo6E87TmqwQw94JGWpU96J.zGrHj8cR9SY6vAIFJsFdHu5ufkTuixMmQ4OSoy%2Fs%2FQc; Path=&#x2F;; HttpOnly, b=3a21ce7e-cb85-4435-adfe-e3b81e957066; Expires=Sat, 04 Jan 2025 19:48:14 GMT; Path=&#x2F;; Domain=.groupon.de, p0=1; Expires=Wed, 07 Jan 2015 19:53:14 GMT; Path=&#x2F;; Domain=.groupon.de, s=5e59354e-bdd0-424b-94f2-97249ba7f6d0; Expires=Wed, 07 Jan 2015 20:18:14 GMT; Path=&#x2F;; Domain=.groupon.de&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:48:14 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-07 19:48:15 UTC"
 }

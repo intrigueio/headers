@@ -6,21 +6,21 @@
       "name": "http://ci123.com"
     }
   },
-  "timestamp_start": "2015-01-06 19:45:02 UTC",
-  "id": "c4269700-aa5d-4308-afdd-9d4a0e5b5548",
+  "timestamp_start": "2015-01-07 19:45:17 UTC",
+  "id": "a2f001f4-63bc-42f1-bc4e-dedd3305a5cd",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Tue, 06 Jan 2015 19:45:03 GMT"
+        "content": "Wed, 07 Jan 2015 19:45:21 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-length",
-        "content": "33178"
+        "content": "33308"
       }
     },
     {
@@ -34,7 +34,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Tue, 06 Jan 2015 19:29:04 GMT"
+        "content": "Wed, 07 Jan 2015 19:29:04 GMT"
       }
     },
     {
@@ -42,13 +42,6 @@
       "attributes": {
         "name": "connection",
         "content": "Keep-Alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "age",
-        "content": "8"
       }
     },
     {
@@ -62,7 +55,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"e2171b-2dea9-50c00d1e6153a\""
+        "content": "\"e2171b-2de32-50c14efc0a90e\""
       }
     },
     {
@@ -83,31 +76,24 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "HIT from nj-252.ci123.com"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-cache-lookup",
-        "content": "HIT from nj-252.ci123.com:80"
+        "content": "MISS from nj249.ci123.com"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "1.0 252.ci123.com:80 (squid)"
+        "content": "1.0 nj249.ci123.com:80 (squid)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "fw-via",
-        "content": "DISK HIT from ctl-js-111-151.fcd, Configured MISS from ctl-js-111-152.fcd, LRefresh MISS from ctl-gd-148-145.fcd"
+        "content": "DISK HIT from ctl-fj-134-157.fcd, Configured MISS from ctl-fj-134-153.fcd, LRefresh MISS from ctl-gd-148-145.fcd"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ci123.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:45:03 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;33178&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:29:04 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;Keep-Alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;e2171b-2dea9-50c00d1e6153a\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;HIT from nj-252.ci123.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-lookup&quot;, :content=&gt;&quot;HIT from nj-252.ci123.com:80&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.0 252.ci123.com:80 (squid)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;fw-via&quot;, :content=&gt;&quot;DISK HIT from ctl-js-111-151.fcd, Configured MISS from ctl-js-111-152.fcd, LRefresh MISS from ctl-gd-148-145.fcd&quot;}\n",
-  "timestamp_end": "2015-01-06 19:45:04 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ci123.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:45:21 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;33308&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:29:04 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;Keep-Alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;e2171b-2de32-50c14efc0a90e\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS from nj249.ci123.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.0 nj249.ci123.com:80 (squid)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;fw-via&quot;, :content=&gt;&quot;DISK HIT from ctl-fj-134-157.fcd, Configured MISS from ctl-fj-134-153.fcd, LRefresh MISS from ctl-gd-148-145.fcd&quot;}\n",
+  "timestamp_end": "2015-01-07 19:45:21 UTC"
 }

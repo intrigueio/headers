@@ -6,14 +6,14 @@
       "name": "http://sabq.org"
     }
   },
-  "timestamp_start": "2015-01-06 19:45:03 UTC",
-  "id": "2bd9b26e-f2e3-4005-a8b0-846e41506fa0",
+  "timestamp_start": "2015-01-07 19:45:19 UTC",
+  "id": "561167b2-6865-49fe-9bca-4bf54b3e1b38",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Tue, 06 Jan 2015 19:45:04 GMT"
+        "content": "Wed, 07 Jan 2015 19:45:20 GMT"
       }
     },
     {
@@ -41,14 +41,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=dc5717d22b28155d9704715a3f95bb7e11420573504; expires=Wed, 06-Jan-16 19:45:04 GMT; path=/; domain=.sabq.org; HttpOnly, Sabq=p35bitjndvg0405c99upu1iph7; path=/; domain=.sabq.org, SABQ_WEBSERVERS=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/"
+        "content": "__cfduid=db2649d433a7dbf72c8335f530264fcb31420659919; expires=Thu, 07-Jan-16 19:45:19 GMT; path=/; domain=.sabq.org; HttpOnly, Sabq=mtp1i0le1bf0jdh3lb3p8k44e3; path=/; domain=.sabq.org, SABQ_WEBSERVERS=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.4.16"
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-railgun",
+        "content": "direct (starting new WAN connection)"
       }
     },
     {
@@ -75,15 +82,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-railgun",
-        "content": "b97b456271 2.05 0.023282 0030 5360"
+        "name": "x-powered-by",
+        "content": "PHP/5.4.16"
       }
     },
     {
@@ -97,10 +97,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a4a69f37a171189-DFW"
+        "content": "1a52a7b22099118f-DFW"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;sabq.org&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:45:04 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=dc5717d22b28155d9704715a3f95bb7e11420573504; expires=Wed, 06-Jan-16 19:45:04 GMT; path=&#x2F;; domain=.sabq.org; HttpOnly, Sabq=p35bitjndvg0405c99upu1iph7; path=&#x2F;; domain=.sabq.org, SABQ_WEBSERVERS=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.4.16&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-railgun&quot;, :content=&gt;&quot;b97b456271 2.05 0.023282 0030 5360&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a4a69f37a171189-DFW&quot;}\n",
-  "timestamp_end": "2015-01-06 19:45:04 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;sabq.org&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:45:20 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=db2649d433a7dbf72c8335f530264fcb31420659919; expires=Thu, 07-Jan-16 19:45:19 GMT; path=&#x2F;; domain=.sabq.org; HttpOnly, Sabq=mtp1i0le1bf0jdh3lb3p8k44e3; path=&#x2F;; domain=.sabq.org, SABQ_WEBSERVERS=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-railgun&quot;, :content=&gt;&quot;direct (starting new WAN connection)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.4.16&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a52a7b22099118f-DFW&quot;}\n",
+  "timestamp_end": "2015-01-07 19:45:20 UTC"
 }

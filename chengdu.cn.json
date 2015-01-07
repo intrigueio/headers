@@ -6,23 +6,9 @@
       "name": "http://chengdu.cn"
     }
   },
-  "timestamp_start": "2015-01-06 19:46:35 UTC",
-  "id": "cc34271c-e309-479e-b406-56a93420168d",
+  "timestamp_start": "2015-01-07 19:46:55 UTC",
+  "id": "be53d82a-0485-4425-a8a5-28117d684f61",
   "entities": [
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "www.chengdu.cn/2015.1.1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Tue, 06 Jan 2015 19:38:09 GMT"
-      }
-    },
     {
       "type": "WebApplicationHeader",
       "attributes": {
@@ -34,21 +20,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Tue, 06 Jan 2015 14:13:09 GMT"
+        "content": "Wed, 07 Jan 2015 19:11:58 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "www.chengdu.cn/2015.1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Wed, 07 Jan 2015 19:38:30 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "W/\"54abed75-1eafa\""
+        "content": "\"54ad84fe-1e948\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Tue, 06 Jan 2015 19:38:08 GMT"
+        "content": "Wed, 07 Jan 2015 19:38:29 GMT"
       }
     },
     {
@@ -61,25 +61,39 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "age",
+        "content": "0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-cache",
-        "content": "MISS from cache_cnc92"
+        "content": "HIT from cache_bj218"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "1.0 cache_cnc92:80 (squid/2.6.STABLE1-20060703)"
+        "content": "1.1 cache_bj218 (squid/3.4.6)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "proxy-connection",
-        "content": "close"
+        "name": "connection",
+        "content": "keep-alive"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;chengdu.cn&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;www.chengdu.cn&#x2F;2015.1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:38:09 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 14:13:09 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;54abed75-1eafa\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:38:08 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS from cache_cnc92&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.0 cache_cnc92:80 (squid&#x2F;2.6.STABLE1-20060703)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;proxy-connection&quot;, :content=&gt;&quot;close&quot;}\n",
-  "timestamp_end": "2015-01-06 19:46:39 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;chengdu.cn&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:11:58 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;www.chengdu.cn&#x2F;2015.1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:38:30 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;54ad84fe-1e948\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:38:29 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;HIT from cache_bj218&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 cache_bj218 (squid&#x2F;3.4.6)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-07 19:47:04 UTC"
 }

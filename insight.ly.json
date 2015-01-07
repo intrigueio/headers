@@ -6,11 +6,122 @@
       "name": "http://insight.ly"
     }
   },
-  "timestamp_start": "2015-01-06 19:48:09 UTC",
-  "id": "d842c751-fbcf-4203-a3ae-d9805a20fc8d",
+  "timestamp_start": "2015-01-07 19:48:32 UTC",
+  "id": "52b00ee2-805a-4a65-bef7-0b29e1831049",
   "entities": [
-
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cacheable",
+        "content": "SHORT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=600, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "HIT: 136"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-group",
+        "content": "normal"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Wed, 07 Jan 2015 19:48:33 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pingback",
+        "content": "https://www.insightly.com/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=20"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "link",
+        "content": "<https://www.insightly.com/>; rel=shortlink"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-type",
+        "content": "default"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pass-why",
+        "content": ""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "X-Mapping-fjhppofk=F3C1E3C7745BB5AEEB09EDCCE3C9A793; path=/"
+      }
+    }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;insight.ly&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[-] : SSL connect error : SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed\n",
-  "timestamp_end": "2015-01-06 19:48:11 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;insight.ly&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,Cookie&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cacheable&quot;, :content=&gt;&quot;SHORT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=600, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;HIT: 136&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-group&quot;, :content=&gt;&quot;normal&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:48:33 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-pingback&quot;, :content=&gt;&quot;https:&#x2F;&#x2F;www.insightly.com&#x2F;xmlrpc.php&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;keep-alive&quot;, :content=&gt;&quot;timeout=20&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;link&quot;, :content=&gt;&quot;&lt;https:&#x2F;&#x2F;www.insightly.com&#x2F;&gt;; rel=shortlink&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-type&quot;, :content=&gt;&quot;default&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-pass-why&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;X-Mapping-fjhppofk=F3C1E3C7745BB5AEEB09EDCCE3C9A793; path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-07 19:48:33 UTC"
 }

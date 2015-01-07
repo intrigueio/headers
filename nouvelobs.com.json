@@ -6,21 +6,14 @@
       "name": "http://nouvelobs.com"
     }
   },
-  "timestamp_start": "2015-01-06 19:45:39 UTC",
-  "id": "eba724f5-e3de-4855-a3c5-47314d41dba2",
+  "timestamp_start": "2015-01-07 19:45:58 UTC",
+  "id": "e88a5c49-5654-4b5f-b982-e4f1fe37a051",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Tue, 06 Jan 2015 19:45:41 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "Apache/2.2.22 (Debian)"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
@@ -33,29 +26,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept,Accept-Encoding"
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Wed, 07 Jan 2015 19:45:58 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"XXX1420659919.616\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Tue, 06 Jan 2015 19:46:41 GMT"
+        "content": "Wed, 07 Jan 2015 19:46:58 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "strict-transport-security",
-        "content": "max-age=31536000; includeSubDomains; preload"
+        "name": "last-modified",
+        "content": "Wed, 07 Jan 2015 19:45:25 GMT"
       }
     },
     {
@@ -68,8 +68,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "name": "server",
+        "content": "ECAcc (dfw/56EF)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
       }
     },
     {
@@ -82,53 +110,18 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "age",
-        "content": "0, 0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-varnobs1",
-        "content": "Cache W:2 C: 574029097"
+        "content": "Cache W:2 C: 631480196 634294654"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes, bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "via",
-        "content": "1.1 varnish-v4"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-varncdn",
-        "content": "OVH 460597489"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "content-length",
+        "content": "42645"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;nouvelobs.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:45:41 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.22 (Debian)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public, max-age=60, no-transform&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Tue, 06 Jan 2015 19:46:41 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=31536000; includeSubDomains; preload&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;NOI DEVa TAIa OUR BUS UNI\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0, 0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnobs1&quot;, :content=&gt;&quot;Cache W:2 C: 574029097&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes, bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish-v4&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varncdn&quot;, :content=&gt;&quot;OVH 460597489&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-06 19:45:41 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;nouvelobs.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public, max-age=60, no-transform&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:45:58 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;XXX1420659919.616\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:46:58 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:45:25 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;, CP=\\&quot;NOI DEVa TAIa OUR BUS UNI\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;ECAcc (dfw&#x2F;56EF)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;HIT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnobs1&quot;, :content=&gt;&quot;Cache W:2 C: 631480196 634294654&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;42645&quot;}\n",
+  "timestamp_end": "2015-01-07 19:45:58 UTC"
 }
