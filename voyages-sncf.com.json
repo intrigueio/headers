@@ -6,9 +6,16 @@
       "name": "http://voyages-sncf.com"
     }
   },
-  "timestamp_start": "2015-01-07 19:46:11 UTC",
-  "id": "415aaf57-48e0-4b53-aba8-d779eb6c2f77",
+  "timestamp_start": "2015-01-08 19:46:35 UTC",
+  "id": "417bf943-bcc1-401a-b0f8-c4fb7a5663be",
   "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
     {
       "type": "WebApplicationHeader",
       "attributes": {
@@ -27,14 +34,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "country_code=US; expires=Thu, 08-Jan-2015 19:46:11 GMT; path=/; domain=voyages-sncf.com"
+        "content": "country_code=US; expires=Fri, 09-Jan-2015 19:46:36 GMT; path=/; domain=voyages-sncf.com"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish-request",
-        "content": "//?emlcid=ETM-GEN-issu-testfrX-segmX-segaX-date20141209030043-versX-link-paidX-dma-wave972784"
+        "content": "//?rfrr=Basket_body_Accueil"
       }
     },
     {
@@ -55,7 +62,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish-hits",
-        "content": "5"
+        "content": "2"
       }
     },
     {
@@ -69,21 +76,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "691546226 691544671"
+        "content": "678488402 678487104"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-device",
+        "content": "desktop"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish-key",
-        "content": "//voyages-sncf.com(null)"
+        "content": "//voyages-sncf.comdesktop"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Wed, 07 Jan 2015 19:46:11 GMT"
+        "content": "Thu, 08 Jan 2015 19:46:36 GMT"
       }
     },
     {
@@ -104,7 +118,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Wed, 07 Jan 2015 19:46:11 GMT"
+        "content": "Thu, 08 Jan 2015 19:46:36 GMT"
       }
     },
     {
@@ -115,6 +129,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;voyages-sncf.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;221099&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;country_code=US; expires=Thu, 08-Jan-2015 19:46:11 GMT; path=&#x2F;; domain=voyages-sncf.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-request&quot;, :content=&gt;&quot;&#x2F;&#x2F;?emlcid=ETM-GEN-issu-testfrX-segmX-segaX-date20141209030043-versX-link-paidX-dma-wave972784&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-hits&quot;, :content=&gt;&quot;5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-cache&quot;, :content=&gt;&quot;HIT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;691546226 691544671&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-key&quot;, :content=&gt;&quot;&#x2F;&#x2F;voyages-sncf.com(null)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:46:11 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:46:11 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-07 19:46:11 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;voyages-sncf.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;221099&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;country_code=US; expires=Fri, 09-Jan-2015 19:46:36 GMT; path=&#x2F;; domain=voyages-sncf.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-request&quot;, :content=&gt;&quot;&#x2F;&#x2F;?rfrr=Basket_body_Accueil&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-hits&quot;, :content=&gt;&quot;2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-cache&quot;, :content=&gt;&quot;HIT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;678488402 678487104&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-device&quot;, :content=&gt;&quot;desktop&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-key&quot;, :content=&gt;&quot;&#x2F;&#x2F;voyages-sncf.comdesktop&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:46:36 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:46:36 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-08 19:46:36 UTC"
 }

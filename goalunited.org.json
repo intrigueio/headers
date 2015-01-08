@@ -6,8 +6,8 @@
       "name": "http://goalunited.org"
     }
   },
-  "timestamp_start": "2015-01-07 19:48:24 UTC",
-  "id": "6adb0348-6607-4563-88a8-c5377c8b8e0b",
+  "timestamp_start": "2015-01-08 19:48:56 UTC",
+  "id": "f40566f5-6640-494e-a5f4-a3dc77ecbe2e",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -20,7 +20,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Wed, 07 Jan 2015 19:48:24 GMT"
+        "content": "Thu, 08 Jan 2015 19:48:57 GMT"
       }
     },
     {
@@ -33,6 +33,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -40,8 +47,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "_NJIN_=arld9nm188ddjefseo12pbffu7; path=/; domain=.goalunited.org, _GU2011_=6%1B%028%01J%8D%22%BC%AD%C2%FB%F7%5B9%E1%5B%F6%60%14%C2%7B%DB9cx%A7%40E%1C%BF%C5%99E%C1%2B%D4%96%A1%2C; path=/; domain=.goalunited.org, _GU2011_=%5CJ%07y%81S%7Byr%85%DCN%86%2C%A9J%C2%D2%25K%81A%D2Ii%88O%D8k%E8%B9%80Al%A7N%5D%F1%1C%88; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Wed, 07-Jan-2015 20:48:24 GMT; path=/; domain=.goalunited.org, lang=en; expires=Wed, 07-Jan-2015 20:48:24 GMT; path=/; domain=.manager-football.org, lang=en; expires=Wed, 07-Jan-2015 20:48:24 GMT"
+        "content": "_NJIN_=hgm6bqkho42fi5as0fni3op2m3; path=/; domain=.goalunited.org, _GU2011_=IS%C1%FE%80%1C%7Ft%BAI%2C%3Cy%8F%D0%F5%2A%0FP%7F%F0e%05%86%CAV%CCj%9F%85%B2%22%DD4%21%86%0Af%9B%1C; path=/; domain=.goalunited.org, _GU2011_=%9BQF%A4%B6%88%9Db%1Fp%E4%2B%E2%5E%C71B%02%12%91%05%81%ED%84-%2F%88%AC%B0%3E%87%21%11%94%FC%86%E2%C1Z%F9; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Thu, 08-Jan-2015 20:48:57 GMT; path=/; domain=.goalunited.org, lang=en; expires=Thu, 08-Jan-2015 20:48:57 GMT; path=/; domain=.manager-football.org, lang=en; expires=Thu, 08-Jan-2015 20:48:57 GMT"
       }
     },
     {
@@ -64,22 +78,8 @@
         "name": "pragma",
         "content": "no-cache"
       }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "9301"
-      }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;goalunited.org&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:48:24 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_NJIN_=arld9nm188ddjefseo12pbffu7; path=&#x2F;; domain=.goalunited.org, _GU2011_=6%1B%028%01J%8D%22%BC%AD%C2%FB%F7%5B9%E1%5B%F6%60%14%C2%7B%DB9cx%A7%40E%1C%BF%C5%99E%C1%2B%D4%96%A1%2C; path=&#x2F;; domain=.goalunited.org, _GU2011_=%5CJ%07y%81S%7Byr%85%DCN%86%2C%A9J%C2%D2%25K%81A%D2Ii%88O%D8k%E8%B9%80Al%A7N%5D%F1%1C%88; path=&#x2F;; domain=.goalunited.org, ping=1, lang=en; expires=Wed, 07-Jan-2015 20:48:24 GMT; path=&#x2F;; domain=.goalunited.org, lang=en; expires=Wed, 07-Jan-2015 20:48:24 GMT; path=&#x2F;; domain=.manager-football.org, lang=en; expires=Wed, 07-Jan-2015 20:48:24 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;9301&quot;}\n",
-  "timestamp_end": "2015-01-07 19:48:25 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;goalunited.org&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:48:57 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_NJIN_=hgm6bqkho42fi5as0fni3op2m3; path=&#x2F;; domain=.goalunited.org, _GU2011_=IS%C1%FE%80%1C%7Ft%BAI%2C%3Cy%8F%D0%F5%2A%0FP%7F%F0e%05%86%CAV%CCj%9F%85%B2%22%DD4%21%86%0Af%9B%1C; path=&#x2F;; domain=.goalunited.org, _GU2011_=%9BQF%A4%B6%88%9Db%1Fp%E4%2B%E2%5E%C71B%02%12%91%05%81%ED%84-%2F%88%AC%B0%3E%87%21%11%94%FC%86%E2%C1Z%F9; path=&#x2F;; domain=.goalunited.org, ping=1, lang=en; expires=Thu, 08-Jan-2015 20:48:57 GMT; path=&#x2F;; domain=.goalunited.org, lang=en; expires=Thu, 08-Jan-2015 20:48:57 GMT; path=&#x2F;; domain=.manager-football.org, lang=en; expires=Thu, 08-Jan-2015 20:48:57 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n",
+  "timestamp_end": "2015-01-08 19:48:57 UTC"
 }

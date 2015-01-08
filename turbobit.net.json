@@ -6,14 +6,14 @@
       "name": "http://turbobit.net"
     }
   },
-  "timestamp_start": "2015-01-07 19:45:43 UTC",
-  "id": "8a77d55b-9172-417e-9f24-76c730b4d3a1",
+  "timestamp_start": "2015-01-08 19:46:03 UTC",
+  "id": "eb8bf42f-d450-4962-b81a-0db403a97f79",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Wed, 07 Jan 2015 19:45:44 GMT"
+        "content": "Thu, 08 Jan 2015 19:46:03 GMT"
       }
     },
     {
@@ -40,8 +40,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d41944045ab285b2765bc1cbe17e01f871420659943; expires=Thu, 07-Jan-16 19:45:43 GMT; path=/; domain=.turbobit.net; HttpOnly, kohanasession=c654974a53188040279618faa0b401a8; expires=Wed, 07-Jan-2015 22:45:44 GMT; path=/; domain=.turbobit.net, kohanasession=fe5f6a06540f1edd3557d21da8273f0cd7a57b14%7Ec654974a53188040279618faa0b401a8; expires=Wed, 07-Jan-2015 22:45:44 GMT; path=/; domain=.turbobit.net, compid=a797b0110eebbc3161fda5252ba05b7d399b40f3%7EC09A7E0BC0BB4A4B85E0F9C6D809407F; expires=Thu, 07-Jan-2016 19:45:44 GMT; path=/; domain=.turbobit.net, user_isloggedin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, pay_design_label=1ea07e6d8b9ac9ced1fca533170ec98605dc5f05%7Eold; expires=Thu, 08-Jan-2015 19:45:44 GMT; path=/; domain=.turbobit.net, user_lang=ru; path=/"
+        "name": "server",
+        "content": "Apache/2.2.22 (FreeBSD)"
       }
     },
     {
@@ -49,6 +49,13 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.3.28"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "kohanasession=d5c091cbe3464b3dc4255f227bbc6a66; expires=Thu, 08-Jan-2015 22:46:03 GMT; path=/; domain=.turbobit.net, kohanasession=6405193dc498e46897ad04d0bebf79b511a47073%7Ed5c091cbe3464b3dc4255f227bbc6a66; expires=Thu, 08-Jan-2015 22:46:03 GMT; path=/; domain=.turbobit.net, compid=adbd6c9856e126d94e7b0c52617f41b025a45489%7EEF643744DB930988A8243D4F97F48297; expires=Fri, 08-Jan-2016 19:46:03 GMT; path=/; domain=.turbobit.net, user_isloggedin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, pay_design_label=1ea07e6d8b9ac9ced1fca533170ec98605dc5f05%7Eold; expires=Fri, 09-Jan-2015 19:46:03 GMT; path=/; domain=.turbobit.net, user_lang=ru; path=/"
       }
     },
     {
@@ -71,22 +78,8 @@
         "name": "pragma",
         "content": "no-cache"
       }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1a52a849178110e7-ORD"
-      }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;turbobit.net&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:45:44 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d41944045ab285b2765bc1cbe17e01f871420659943; expires=Thu, 07-Jan-16 19:45:43 GMT; path=&#x2F;; domain=.turbobit.net; HttpOnly, kohanasession=c654974a53188040279618faa0b401a8; expires=Wed, 07-Jan-2015 22:45:44 GMT; path=&#x2F;; domain=.turbobit.net, kohanasession=fe5f6a06540f1edd3557d21da8273f0cd7a57b14%7Ec654974a53188040279618faa0b401a8; expires=Wed, 07-Jan-2015 22:45:44 GMT; path=&#x2F;; domain=.turbobit.net, compid=a797b0110eebbc3161fda5252ba05b7d399b40f3%7EC09A7E0BC0BB4A4B85E0F9C6D809407F; expires=Thu, 07-Jan-2016 19:45:44 GMT; path=&#x2F;; domain=.turbobit.net, user_isloggedin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;, pay_design_label=1ea07e6d8b9ac9ced1fca533170ec98605dc5f05%7Eold; expires=Thu, 08-Jan-2015 19:45:44 GMT; path=&#x2F;; domain=.turbobit.net, user_lang=ru; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.3.28&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a52a849178110e7-ORD&quot;}\n",
-  "timestamp_end": "2015-01-07 19:45:44 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;turbobit.net&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:46:03 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.22 (FreeBSD)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.3.28&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;kohanasession=d5c091cbe3464b3dc4255f227bbc6a66; expires=Thu, 08-Jan-2015 22:46:03 GMT; path=&#x2F;; domain=.turbobit.net, kohanasession=6405193dc498e46897ad04d0bebf79b511a47073%7Ed5c091cbe3464b3dc4255f227bbc6a66; expires=Thu, 08-Jan-2015 22:46:03 GMT; path=&#x2F;; domain=.turbobit.net, compid=adbd6c9856e126d94e7b0c52617f41b025a45489%7EEF643744DB930988A8243D4F97F48297; expires=Fri, 08-Jan-2016 19:46:03 GMT; path=&#x2F;; domain=.turbobit.net, user_isloggedin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;, pay_design_label=1ea07e6d8b9ac9ced1fca533170ec98605dc5f05%7Eold; expires=Fri, 09-Jan-2015 19:46:03 GMT; path=&#x2F;; domain=.turbobit.net, user_lang=ru; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n",
+  "timestamp_end": "2015-01-08 19:46:03 UTC"
 }

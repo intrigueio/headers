@@ -6,14 +6,14 @@
       "name": "http://sciencedaily.com"
     }
   },
-  "timestamp_start": "2015-01-07 19:47:23 UTC",
-  "id": "9e4c7572-ffef-4d24-864b-ea9a070f9352",
+  "timestamp_start": "2015-01-08 19:47:53 UTC",
+  "id": "24f6d170-e8a4-4e01-b438-181352cad312",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Wed, 07 Jan 2015 19:47:24 GMT"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
@@ -26,36 +26,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=dee16c7da71d201b01fbae284db07f4881420660044; expires=Thu, 07-Jan-16 19:47:24 GMT; path=/; domain=.sciencedaily.com; HttpOnly"
+        "name": "date",
+        "content": "Thu, 08 Jan 2015 19:48:02 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "W/\"41b0e-50c1521becf5c-gzip\""
+        "content": "W/\"4150d-50c295163ec9c-gzip\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Wed, 07 Jan 2015 19:43:03 GMT"
+        "content": "Thu, 08 Jan 2015 19:48:02 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache/2.4.7 (Ubuntu)"
       }
     },
     {
@@ -68,18 +61,18 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
+        "name": "content-length",
+        "content": "47290"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cf-ray",
-        "content": "1a52aabbd37d09ac-ORD"
+        "name": "connection",
+        "content": "keep-alive"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;sciencedaily.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:47:24 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=dee16c7da71d201b01fbae284db07f4881420660044; expires=Thu, 07-Jan-16 19:47:24 GMT; path=&#x2F;; domain=.sciencedaily.com; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;41b0e-50c1521becf5c-gzip\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:43:03 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Host,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a52aabbd37d09ac-ORD&quot;}\n",
-  "timestamp_end": "2015-01-07 19:47:24 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;sciencedaily.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:48:02 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;4150d-50c295163ec9c-gzip\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:48:02 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.4.7 (Ubuntu)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Host,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;47290&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-08 19:47:54 UTC"
 }

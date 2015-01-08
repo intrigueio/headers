@@ -6,9 +6,16 @@
       "name": "http://unionpaysecure.com"
     }
   },
-  "timestamp_start": "2015-01-07 19:50:39 UTC",
-  "id": "ad5b003e-3a61-41a4-b189-31287962e0df",
+  "timestamp_start": "2015-01-08 19:51:17 UTC",
+  "id": "d8046310-95ff-49d5-8509-65f0b61f1e66",
   "entities": [
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Thu, 08 Jan 2015 19:51:32 GMT"
+      }
+    },
     {
       "type": "WebApplicationHeader",
       "attributes": {
@@ -19,18 +26,53 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "0"
+        "name": "set-cookie",
+        "content": "JSESSIONID=A15B7A0EA1AD79F23DCF3EB7A23FBE21; Path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Wed, 07 Jan 2015 19:50:40 GMT"
+        "name": "cache-control",
+        "content": "no-cache, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "1825"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-via",
+        "content": "1.1 lsh8:0 (Cdn Cache Server V2.0)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;unionpaysecure.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:50:40 GMT&quot;}\n",
-  "timestamp_end": "2015-01-07 19:50:41 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;unionpaysecure.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:51:32 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=A15B7A0EA1AD79F23DCF3EB7A23FBE21; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;1825&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-via&quot;, :content=&gt;&quot;1.1 lsh8:0 (Cdn Cache Server V2.0)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-08 19:51:33 UTC"
 }

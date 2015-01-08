@@ -6,14 +6,14 @@
       "name": "http://cloudify.cc"
     }
   },
-  "timestamp_start": "2015-01-07 19:48:26 UTC",
-  "id": "a10e74e5-3100-4179-a312-70f8e9e83aa5",
+  "timestamp_start": "2015-01-08 19:48:59 UTC",
+  "id": "cf2d3d81-fbd9-4f20-956b-ef146a981f0c",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Wed, 07 Jan 2015 19:48:26 GMT"
+        "content": "Thu, 08 Jan 2015 19:49:00 GMT"
       }
     },
     {
@@ -41,7 +41,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d03195d88cf16e9a8ff157275f9a6df071420660106; expires=Thu, 07-Jan-16 19:48:26 GMT; path=/; domain=.cloudify.cc; HttpOnly, _cloudify_session=QXdQRG9jTTNIcnlCREdyMDhaUWZEaDRIRUI2WHg4ZWF0bkMra2VOVjViUHJxalA2SEJLNGNsVkE3YUdZa3V4R1V6TEtJei9BWi9NenYzL05FaXhrNFQ3TUNVbTFEaEhIcmNodW5KeDVYVVdaRGdiYUpoZmtNYmhISlVnUkxscDhuVEJwK1hwL0piOVFOaWFmb0Z1MlNJeXJLeW1UK2lCTm56eUJyRnJhdTFOKzRId1RoK0NZaFdTWnB6Um8wTktuLS10UHBGZ3NsdlNTb0gzZXNseVVjRTRBPT0%3D--3da9330f882c098b4d8770aa0259220b509578a8; path=/; HttpOnly"
+        "content": "__cfduid=d66f0cd59bdcf7b0ebc71cc902e59389c1420746540; expires=Fri, 08-Jan-16 19:49:00 GMT; path=/; domain=.cloudify.cc; HttpOnly, _cloudify_session=RGNyekZVNUg1eHEyc1JTV0hCUWpEei9VTk44Yk9MaUtTdGIwUXVJaHRrTUNmdzYwdWtIajdXZnhOem1taDZMNHl6a05CNEFGWkx1UVkxYm1iaDhtSW93ODVycHNBT09FZDFpWkg4ZUlwMUtSZDhSN3A5NTRhaWdXb09VV05PemtZa0FjK0sxb08wWUY0ckQ3TFMvbm9URElldjlrV0c0N2czcFNQWEdlL2xkaG9HY3Y5U3IzSm8wNnlVODYzdTRXLS1OMWJ5d2NFa2tTcVE4K1Bld2p3ZHFnPT0%3D--49731908e80d57a7ae3eee45ce00b7a8f968f2d7; path=/; HttpOnly"
       }
     },
     {
@@ -90,14 +90,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "974bee87-1bb2-4e9b-8d79-b402b2081e25"
+        "content": "348c643c-5ae3-4aff-997e-19f03564e051"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.139092"
+        "content": "0.020486"
       }
     },
     {
@@ -118,10 +118,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a52ac417b7d03e8-DFW"
+        "content": "1a5aea76326e03e8-DFW"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;cloudify.cc&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:48:26 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d03195d88cf16e9a8ff157275f9a6df071420660106; expires=Thu, 07-Jan-16 19:48:26 GMT; path=&#x2F;; domain=.cloudify.cc; HttpOnly, _cloudify_session=QXdQRG9jTTNIcnlCREdyMDhaUWZEaDRIRUI2WHg4ZWF0bkMra2VOVjViUHJxalA2SEJLNGNsVkE3YUdZa3V4R1V6TEtJei9BWi9NenYzL05FaXhrNFQ3TUNVbTFEaEhIcmNodW5KeDVYVVdaRGdiYUpoZmtNYmhISlVnUkxscDhuVEJwK1hwL0piOVFOaWFmb0Z1MlNJeXJLeW1UK2lCTm56eUJyRnJhdTFOKzRId1RoK0NZaFdTWnB6Um8wTktuLS10UHBGZ3NsdlNTb0gzZXNseVVjRTRBPT0%3D--3da9330f882c098b4d8770aa0259220b509578a8; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;974bee87-1bb2-4e9b-8d79-b402b2081e25&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.139092&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a52ac417b7d03e8-DFW&quot;}\n",
-  "timestamp_end": "2015-01-07 19:48:26 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;cloudify.cc&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:49:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d66f0cd59bdcf7b0ebc71cc902e59389c1420746540; expires=Fri, 08-Jan-16 19:49:00 GMT; path=&#x2F;; domain=.cloudify.cc; HttpOnly, _cloudify_session=RGNyekZVNUg1eHEyc1JTV0hCUWpEei9VTk44Yk9MaUtTdGIwUXVJaHRrTUNmdzYwdWtIajdXZnhOem1taDZMNHl6a05CNEFGWkx1UVkxYm1iaDhtSW93ODVycHNBT09FZDFpWkg4ZUlwMUtSZDhSN3A5NTRhaWdXb09VV05PemtZa0FjK0sxb08wWUY0ckQ3TFMvbm9URElldjlrV0c0N2czcFNQWEdlL2xkaG9HY3Y5U3IzSm8wNnlVODYzdTRXLS1OMWJ5d2NFa2tTcVE4K1Bld2p3ZHFnPT0%3D--49731908e80d57a7ae3eee45ce00b7a8f968f2d7; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;348c643c-5ae3-4aff-997e-19f03564e051&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.020486&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a5aea76326e03e8-DFW&quot;}\n",
+  "timestamp_end": "2015-01-08 19:49:00 UTC"
 }

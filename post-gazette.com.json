@@ -6,8 +6,8 @@
       "name": "http://post-gazette.com"
     }
   },
-  "timestamp_start": "2015-01-07 19:50:36 UTC",
-  "id": "b3ca06be-9a17-4798-97c3-1f9215a22d2c",
+  "timestamp_start": "2015-01-08 19:51:14 UTC",
+  "id": "894c40c7-326c-4554-a017-0b0991a3f07d",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -20,14 +20,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Wed, 07 Jan 2015 19:49:16 GMT"
+        "content": "Thu, 08 Jan 2015 19:49:21 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1099f84b32ad01:0\""
+        "content": "\"513c17327c2bd01:0\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -41,28 +48,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-urlrewrite-passed-to",
-        "content": "PPGWEB03 URLRewrite (2015-01-07T19:50:37.0547279+00:00)"
+        "content": "PPGWEB07 URLRewrite (2015-01-08T19:51:15.4338610+00:00)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-urlrewrite-looking-for-redirects-by",
-        "content": "PPGWEB03 URLRewrite URL = (http://www.post-gazette.com/) Label = () (2015-01-07T19:50:37.0547279+00:00)"
+        "content": "PPGWEB07 URLRewrite URL = (http://www.post-gazette.com/) Label = () (2015-01-08T19:51:15.4338610+00:00)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-urlrewrite-looking-for-rewrites-by",
-        "content": "PPGWEB03 URLRewrite URL = (/) Label = () (2015-01-07T19:50:37.0547279+00:00)"
+        "content": "PPGWEB07 URLRewrite URL = (/) Label = () (2015-01-08T19:51:15.4338610+00:00)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-urlrewrite-completed-by",
-        "content": "PPGWEB03 URLRewrite (2015-01-07T19:50:37.0547279+00:00)"
+        "content": "PPGWEB07 URLRewrite (2015-01-08T19:51:15.4338610+00:00)"
       }
     },
     {
@@ -76,28 +83,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-libercus-ignored-by",
-        "content": "PPGWEB03 Libercus (2015-01-07T19:50:37.5881300Z Path: /libercus/static/frontpage.html"
+        "content": "PPGWEB07 Libercus (2015-01-08T19:51:15.4963664Z Path: /libercus/static/frontpage.html"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "content-length",
+        "content": "60199"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Wed, 07 Jan 2015 19:51:17 GMT"
+        "content": "Thu, 08 Jan 2015 19:52:03 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1306841868"
+        "content": "2124753507"
       }
     },
     {
@@ -139,10 +153,10 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish-server",
-        "content": "PPGVARNISH03"
+        "content": "PPGVARNISH04"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;post-gazette.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:49:16 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;1099f84b32ad01:0\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;8.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-urlrewrite-passed-to&quot;, :content=&gt;&quot;PPGWEB03 URLRewrite (2015-01-07T19:50:37.0547279+00:00)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-urlrewrite-looking-for-redirects-by&quot;, :content=&gt;&quot;PPGWEB03 URLRewrite URL = (http:&#x2F;&#x2F;www.post-gazette.com&#x2F;) Label = () (2015-01-07T19:50:37.0547279+00:00)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-urlrewrite-looking-for-rewrites-by&quot;, :content=&gt;&quot;PPGWEB03 URLRewrite URL = (&#x2F;) Label = () (2015-01-07T19:50:37.0547279+00:00)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-urlrewrite-completed-by&quot;, :content=&gt;&quot;PPGWEB03 URLRewrite (2015-01-07T19:50:37.0547279+00:00)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Libercus AppServer v2.4.7.9305&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-libercus-ignored-by&quot;, :content=&gt;&quot;PPGWEB03 Libercus (2015-01-07T19:50:37.5881300Z Path: &#x2F;libercus&#x2F;static&#x2F;frontpage.html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:51:17 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1306841868&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-device&quot;, :content=&gt;&quot;desktop&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-server&quot;, :content=&gt;&quot;PPGVARNISH03&quot;}\n",
-  "timestamp_end": "2015-01-07 19:50:37 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;post-gazette.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:49:21 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;513c17327c2bd01:0\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;8.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-urlrewrite-passed-to&quot;, :content=&gt;&quot;PPGWEB07 URLRewrite (2015-01-08T19:51:15.4338610+00:00)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-urlrewrite-looking-for-redirects-by&quot;, :content=&gt;&quot;PPGWEB07 URLRewrite URL = (http:&#x2F;&#x2F;www.post-gazette.com&#x2F;) Label = () (2015-01-08T19:51:15.4338610+00:00)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-urlrewrite-looking-for-rewrites-by&quot;, :content=&gt;&quot;PPGWEB07 URLRewrite URL = (&#x2F;) Label = () (2015-01-08T19:51:15.4338610+00:00)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-urlrewrite-completed-by&quot;, :content=&gt;&quot;PPGWEB07 URLRewrite (2015-01-08T19:51:15.4338610+00:00)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Libercus AppServer v2.4.7.9305&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-libercus-ignored-by&quot;, :content=&gt;&quot;PPGWEB07 Libercus (2015-01-08T19:51:15.4963664Z Path: &#x2F;libercus&#x2F;static&#x2F;frontpage.html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;60199&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:52:03 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;2124753507&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-device&quot;, :content=&gt;&quot;desktop&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-server&quot;, :content=&gt;&quot;PPGVARNISH04&quot;}\n",
+  "timestamp_end": "2015-01-08 19:51:16 UTC"
 }

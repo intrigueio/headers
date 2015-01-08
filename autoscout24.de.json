@@ -6,8 +6,8 @@
       "name": "http://autoscout24.de"
     }
   },
-  "timestamp_start": "2015-01-07 19:45:59 UTC",
-  "id": "75b29635-6bdb-44c7-af1f-1f2f2af49479",
+  "timestamp_start": "2015-01-08 19:46:21 UTC",
+  "id": "3f85659c-3916-4704-afe4-cac39bb36dd2",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -40,8 +40,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "dynatrace",
+        "content": "PT=81356882;PA=-983041340;RS=AutoScout24 - Live/20150108191921_0.session;SP=AutoScout24 - Live;PS=-2052362619"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "GUID=206a8769-9bd8-4702-95f6-a3d6862b3654; domain=.autoscout24.de; path=/; HttpOnly, as24Visitor=206a8769-9bd8-4702-95f6-a3d6862b3654; domain=.autoscout24.de; expires=Thu, 07-Jan-2016 19:45:59 GMT; path=/, OmnitureVisitedSearch=Home; domain=.autoscout24.de; path=/, ServiceBox=; domain=.autoscout24.de; expires=Sun, 08-Mar-2015 19:45:59 GMT; path=/"
+        "content": "GUID=6d6f5ea6-3482-4524-bd37-e0b890597170; domain=.autoscout24.de; path=/; HttpOnly, as24Visitor=6d6f5ea6-3482-4524-bd37-e0b890597170; domain=.autoscout24.de; expires=Fri, 08-Jan-2016 19:46:22 GMT; path=/, OmnitureVisitedSearch=Home; domain=.autoscout24.de; path=/, ServiceBox=; domain=.autoscout24.de; expires=Mon, 09-Mar-2015 19:46:22 GMT; path=/"
       }
     },
     {
@@ -62,7 +69,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "sid",
-        "content": "LWEBDEV019"
+        "content": "LWEBDEV002"
       }
     },
     {
@@ -75,18 +82,25 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-dynatrace",
+        "content": "PT=81356882;PA=-983041340;RS=AutoScout24 - Live/20150108191921_0.session;SP=AutoScout24 - Live;PS=-2052362619"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "date",
-        "content": "Wed, 07 Jan 2015 19:45:59 GMT"
+        "content": "Thu, 08 Jan 2015 19:46:22 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-length",
-        "content": "22577"
+        "content": "43815"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;autoscout24.de&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;GUID=206a8769-9bd8-4702-95f6-a3d6862b3654; domain=.autoscout24.de; path=&#x2F;; HttpOnly, as24Visitor=206a8769-9bd8-4702-95f6-a3d6862b3654; domain=.autoscout24.de; expires=Thu, 07-Jan-2016 19:45:59 GMT; path=&#x2F;, OmnitureVisitedSearch=Home; domain=.autoscout24.de; path=&#x2F;, ServiceBox=; domain=.autoscout24.de; expires=Sun, 08-Mar-2015 19:45:59 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnetmvc-version&quot;, :content=&gt;&quot;4.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;sid&quot;, :content=&gt;&quot;LWEBDEV019&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Wed, 07 Jan 2015 19:45:59 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;22577&quot;}\n",
-  "timestamp_end": "2015-01-07 19:46:00 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;autoscout24.de&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;dynatrace&quot;, :content=&gt;&quot;PT=81356882;PA=-983041340;RS=AutoScout24 - Live&#x2F;20150108191921_0.session;SP=AutoScout24 - Live;PS=-2052362619&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;GUID=6d6f5ea6-3482-4524-bd37-e0b890597170; domain=.autoscout24.de; path=&#x2F;; HttpOnly, as24Visitor=6d6f5ea6-3482-4524-bd37-e0b890597170; domain=.autoscout24.de; expires=Fri, 08-Jan-2016 19:46:22 GMT; path=&#x2F;, OmnitureVisitedSearch=Home; domain=.autoscout24.de; path=&#x2F;, ServiceBox=; domain=.autoscout24.de; expires=Mon, 09-Mar-2015 19:46:22 GMT; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnetmvc-version&quot;, :content=&gt;&quot;4.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;sid&quot;, :content=&gt;&quot;LWEBDEV002&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dynatrace&quot;, :content=&gt;&quot;PT=81356882;PA=-983041340;RS=AutoScout24 - Live&#x2F;20150108191921_0.session;SP=AutoScout24 - Live;PS=-2052362619&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:46:22 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;43815&quot;}\n",
+  "timestamp_end": "2015-01-08 19:46:23 UTC"
 }
