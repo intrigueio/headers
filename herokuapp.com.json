@@ -6,8 +6,8 @@
       "name": "http://herokuapp.com"
     }
   },
-  "timestamp_start": "2015-01-08 19:46:22 UTC",
-  "id": "57920a5f-625e-4099-8cbf-68044a70c1ba",
+  "timestamp_start": "2015-01-09 19:46:29 UTC",
+  "id": "b85abb13-ac2d-40ee-b904-c4ccbe818361",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -27,7 +27,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Thu, 08 Jan 2015 19:46:25 GMT"
+        "content": "Fri, 09 Jan 2015 19:46:31 GMT"
       }
     },
     {
@@ -42,6 +42,13 @@
       "attributes": {
         "name": "strict-transport-security",
         "content": "max-age=31536000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -68,13 +75,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-length",
         "content": "16976"
       }
@@ -83,7 +83,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "W/\"5e82af29718f1359aeaed014ec5675aa\""
+        "content": "W/\"b6d6948759a08f13625538b99dd8c20c\""
       }
     },
     {
@@ -97,21 +97,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "www-sso-session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTdlZjkwZDQxNjk1ODMyN2FjYjQwMTU5NTY3N2I1MWQyBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTZSMWIrRGc1MlN2Z2QybkpkanF1SHNYUHNMK0dGc2prZkZVYndHT0hOMTA9BjsARg%3D%3D--6fb03fcfd2f715c6e027bbd806bb241b883ec374; path=/; secure; HttpOnly"
+        "content": "www-sso-session=BAh7CEkiD3Nlc3Npb25faWQGOgZFVEkiJThjOGI5OTFhYTJiOWYyZDQ5NzZlYzY1MTI0ODhmMTc3BjsAVEkiDGJvdW5jZXIGOwBGSSJxc1JvcGc0ZXdBUTBEeEN0QXVQK0tUMFltOVA0ajZKOElwdkxFVHZWUVphQWFTazhOdDhhZ2kyQTViNzhobkNXTmJiZGh0aHhvdVdyYTlSMUpjcWVtTnlTaUdCTWFrSUJRWDZPR1g0bmxwYnM9BjsARkkiEF9jc3JmX3Rva2VuBjsARkkiMTJ2elBhVzZuOUxWazdWY2d3QjBQVFE2eGV6akRNN2VTTXllWlZleFhaYXc9BjsARg%3D%3D--fd09ed1144661f8f85dc580a2c63b5b6392392b7; path=/; secure; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "96cf85ee-66fa-42fe-aab4-d576af3323b7"
+        "content": "93742c82-4ac1-4afb-aa0a-0c28d1a88e00"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.026170"
+        "content": "0.029247"
       }
     },
     {
@@ -122,6 +122,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;herokuapp.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Cowboy&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:46:25 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=31536000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;16976&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;5e82af29718f1359aeaed014ec5675aa\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;www-sso-session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTdlZjkwZDQxNjk1ODMyN2FjYjQwMTU5NTY3N2I1MWQyBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTZSMWIrRGc1MlN2Z2QybkpkanF1SHNYUHNMK0dGc2prZkZVYndHT0hOMTA9BjsARg%3D%3D--6fb03fcfd2f715c6e027bbd806bb241b883ec374; path=&#x2F;; secure; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;96cf85ee-66fa-42fe-aab4-d576af3323b7&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.026170&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 vegur&quot;}\n",
-  "timestamp_end": "2015-01-08 19:46:25 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;herokuapp.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Cowboy&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:46:31 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=31536000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;16976&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;b6d6948759a08f13625538b99dd8c20c\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;www-sso-session=BAh7CEkiD3Nlc3Npb25faWQGOgZFVEkiJThjOGI5OTFhYTJiOWYyZDQ5NzZlYzY1MTI0ODhmMTc3BjsAVEkiDGJvdW5jZXIGOwBGSSJxc1JvcGc0ZXdBUTBEeEN0QXVQK0tUMFltOVA0ajZKOElwdkxFVHZWUVphQWFTazhOdDhhZ2kyQTViNzhobkNXTmJiZGh0aHhvdVdyYTlSMUpjcWVtTnlTaUdCTWFrSUJRWDZPR1g0bmxwYnM9BjsARkkiEF9jc3JmX3Rva2VuBjsARkkiMTJ2elBhVzZuOUxWazdWY2d3QjBQVFE2eGV6akRNN2VTTXllWlZleFhaYXc9BjsARg%3D%3D--fd09ed1144661f8f85dc580a2c63b5b6392392b7; path=&#x2F;; secure; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;93742c82-4ac1-4afb-aa0a-0c28d1a88e00&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.029247&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 vegur&quot;}\n",
+  "timestamp_end": "2015-01-09 19:46:31 UTC"
 }

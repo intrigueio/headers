@@ -6,80 +6,94 @@
       "name": "http://ncsu.edu"
     }
   },
-  "timestamp_start": "2015-01-08 19:48:38 UTC",
-  "id": "4e81777f-1b3f-4b12-89b1-bdde870ac864",
+  "timestamp_start": "2015-01-09 19:48:37 UTC",
+  "id": "e91771f7-ffe6-482b-8556-d9e73bae6e1b",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Thu, 08 Jan 2015 19:48:40 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
-        "content": "Apache"
+        "content": "squid/3.1.10"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
+        "name": "mime-version",
+        "content": "1.0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.3.3"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-pingback",
-        "content": "https://www.ncsu.edu/xmlrpc.php"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "expires",
-        "content": "Wed, 11 Jan 1984 05:00:00 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-cache, must-revalidate, max-age=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "7576"
+        "name": "date",
+        "content": "Fri, 09 Jan 2015 14:32:37 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "3366"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-squid-error",
+        "content": "ERR_CANNOT_FORWARD 0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Language"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "MISS from afh-lab-2c-linux00"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-lookup",
+        "content": "HIT from afh-lab-2c-linux00:80"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.0 afh-lab-2c-linux00 (squid/3.1.10)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ncsu.edu&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:48:40 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding,User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.3.3&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-pingback&quot;, :content=&gt;&quot;https:&#x2F;&#x2F;www.ncsu.edu&#x2F;xmlrpc.php&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Wed, 11 Jan 1984 05:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache, must-revalidate, max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;7576&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n",
-  "timestamp_end": "2015-01-08 19:48:40 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ncsu.edu&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;squid&#x2F;3.1.10&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;mime-version&quot;, :content=&gt;&quot;1.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 14:32:37 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;3366&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-squid-error&quot;, :content=&gt;&quot;ERR_CANNOT_FORWARD 0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Language&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS from afh-lab-2c-linux00&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-lookup&quot;, :content=&gt;&quot;HIT from afh-lab-2c-linux00:80&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.0 afh-lab-2c-linux00 (squid&#x2F;3.1.10)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-09 19:48:37 UTC"
 }

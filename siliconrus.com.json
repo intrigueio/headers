@@ -6,21 +6,14 @@
       "name": "http://siliconrus.com"
     }
   },
-  "timestamp_start": "2015-01-08 19:49:07 UTC",
-  "id": "9d47c9f1-ea22-4225-924b-166da15275b9",
+  "timestamp_start": "2015-01-09 19:49:05 UTC",
+  "id": "3c6080c4-7d42-4e35-bc54-19ef73b3af89",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "date",
-        "content": "Thu, 08 Jan 2015 19:49:08 GMT"
+        "content": "Fri, 09 Jan 2015 19:49:06 GMT"
       }
     },
     {
@@ -33,8 +26,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "15268"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -48,7 +41,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "willNotCollectEmail=1; expires=Sun, 11-Jan-2015 19:49:07 GMT; path=/; domain=.siliconrus.com"
+        "content": "__cfduid=de90b4519e3c234f5bdf3ce769b35ad051420832946; expires=Sat, 09-Jan-16 19:49:06 GMT; path=/; domain=.siliconrus.com; HttpOnly, willNotCollectEmail=1; expires=Mon, 12-Jan-2015 19:49:06 GMT; path=/; domain=.siliconrus.com"
       }
     },
     {
@@ -62,7 +55,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Thu, 08 Jan 2015 19:49:07 GMT"
+        "content": "Fri, 09 Jan 2015 19:49:06 GMT"
       }
     },
     {
@@ -71,8 +64,22 @@
         "name": "vary",
         "content": "Accept-Encoding"
       }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1a6327f8fdd20104-DFW"
+      }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;siliconrus.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:49:08 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;15268&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;willNotCollectEmail=1; expires=Sun, 11-Jan-2015 19:49:07 GMT; path=&#x2F;; domain=.siliconrus.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-store, no-cache, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:49:07 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n",
-  "timestamp_end": "2015-01-08 19:49:08 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;siliconrus.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:49:06 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=de90b4519e3c234f5bdf3ce769b35ad051420832946; expires=Sat, 09-Jan-16 19:49:06 GMT; path=&#x2F;; domain=.siliconrus.com; HttpOnly, willNotCollectEmail=1; expires=Mon, 12-Jan-2015 19:49:06 GMT; path=&#x2F;; domain=.siliconrus.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-store, no-cache, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:49:06 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a6327f8fdd20104-DFW&quot;}\n",
+  "timestamp_end": "2015-01-09 19:49:06 UTC"
 }

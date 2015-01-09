@@ -6,8 +6,8 @@
       "name": "http://lululemon.com"
     }
   },
-  "timestamp_start": "2015-01-08 19:48:07 UTC",
-  "id": "5713dc52-fcf6-452a-874e-cec50908ef65",
+  "timestamp_start": "2015-01-09 19:48:06 UTC",
+  "id": "3c705747-d2f6-4774-8128-0810b73ec69e",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -33,32 +33,39 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Thu, 08 Jan 2015 19:48:08 GMT"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "39796"
+        "name": "date",
+        "content": "Fri, 09 Jan 2015 19:48:13 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "JSESSIONID=804A98460D213AE430DDB82E0E8C96C7; Path=/, UsrLocale=en_US; Domain=.lululemon.com; Expires=Sat, 07-Feb-2015 19:48:08 GMT; Path=/, Country=US; Domain=.lululemon.com; Expires=Sat, 07-Feb-2015 19:48:08 GMT; Path=/, us_ord=\"OQTDLa8Gs08xAeeQVaRkeA==\"; Version=1; Domain=.lululemon.com; Max-Age=604800; Path=/, isLoggedin=false; Domain=.lululemon.com; Path=/, cartCount=0; Domain=.lululemon.com; Path=/, NSC_mvmvmfnpo_qspe_mc=ffffffff09c943d545525d5f4f58455e445a4a4229a0;path=/"
+        "content": "JSESSIONID=F3CB5140720813E373ACDABB94C49B5B; Path=/, UsrLocale=en_US; Domain=.lululemon.com; Expires=Sun, 08-Feb-2015 19:48:12 GMT; Path=/, Country=US; Domain=.lululemon.com; Expires=Sun, 08-Feb-2015 19:48:12 GMT; Path=/, us_ord=\"mx9fbHW9WXTcEAHu+CTWZg==\"; Version=1; Domain=.lululemon.com; Max-Age=604800; Path=/, isLoggedin=false; Domain=.lululemon.com; Path=/, cartCount=0; Domain=.lululemon.com; Path=/, NSC_mvmvmfnpo_qspe_mc=ffffffff09c943d245525d5f4f58455e445a4a4229a0;path=/"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;lululemon.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Web Server 1.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-atg-version&quot;, :content=&gt;&quot;Oracle ATG Web Commerce&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=ISO-8859-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:48:08 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;39796&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=804A98460D213AE430DDB82E0E8C96C7; Path=&#x2F;, UsrLocale=en_US; Domain=.lululemon.com; Expires=Sat, 07-Feb-2015 19:48:08 GMT; Path=&#x2F;, Country=US; Domain=.lululemon.com; Expires=Sat, 07-Feb-2015 19:48:08 GMT; Path=&#x2F;, us_ord=\\&quot;OQTDLa8Gs08xAeeQVaRkeA==\\&quot;; Version=1; Domain=.lululemon.com; Max-Age=604800; Path=&#x2F;, isLoggedin=false; Domain=.lululemon.com; Path=&#x2F;, cartCount=0; Domain=.lululemon.com; Path=&#x2F;, NSC_mvmvmfnpo_qspe_mc=ffffffff09c943d545525d5f4f58455e445a4a4229a0;path=&#x2F;&quot;}\n",
-  "timestamp_end": "2015-01-08 19:48:08 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;lululemon.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Web Server 1.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-atg-version&quot;, :content=&gt;&quot;Oracle ATG Web Commerce&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=ISO-8859-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:48:13 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=F3CB5140720813E373ACDABB94C49B5B; Path=&#x2F;, UsrLocale=en_US; Domain=.lululemon.com; Expires=Sun, 08-Feb-2015 19:48:12 GMT; Path=&#x2F;, Country=US; Domain=.lululemon.com; Expires=Sun, 08-Feb-2015 19:48:12 GMT; Path=&#x2F;, us_ord=\\&quot;mx9fbHW9WXTcEAHu+CTWZg==\\&quot;; Version=1; Domain=.lululemon.com; Max-Age=604800; Path=&#x2F;, isLoggedin=false; Domain=.lululemon.com; Path=&#x2F;, cartCount=0; Domain=.lululemon.com; Path=&#x2F;, NSC_mvmvmfnpo_qspe_mc=ffffffff09c943d245525d5f4f58455e445a4a4229a0;path=&#x2F;&quot;}\n",
+  "timestamp_end": "2015-01-09 19:48:13 UTC"
 }

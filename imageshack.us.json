@@ -6,21 +6,21 @@
       "name": "http://imageshack.us"
     }
   },
-  "timestamp_start": "2015-01-08 19:47:28 UTC",
-  "id": "0ef767ca-6826-482f-b75d-920fd208383f",
+  "timestamp_start": "2015-01-09 19:47:26 UTC",
+  "id": "b37d2894-3a50-4b70-ae0f-440e90df8adc",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.0.4"
+        "content": "nginx/1.2.8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Thu, 08 Jan 2015 19:47:28 GMT"
+        "content": "Fri, 09 Jan 2015 19:47:26 GMT"
       }
     },
     {
@@ -28,6 +28,13 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-length",
+        "content": "3315"
       }
     },
     {
@@ -47,13 +54,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "3315"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "accept-ranges",
         "content": "bytes"
       }
@@ -62,14 +62,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1820709395"
+        "content": "1828633670 1828633124"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "age",
-        "content": "0"
+        "content": "7"
       }
     },
     {
@@ -83,7 +83,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish-hits",
-        "content": "0"
+        "content": "35"
       }
     },
     {
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;imageshack.us&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.0.4&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:47:28 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.2.9&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;3315&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1820709395&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-hits&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-ip&quot;, :content=&gt;&quot;208.94.0.199&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-port&quot;, :content=&gt;&quot;17001&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, User-Agent&quot;}\n",
-  "timestamp_end": "2015-01-08 19:47:28 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;imageshack.us&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.2.8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:47:26 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;3315&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.2.9&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1828633670 1828633124&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;7&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-hits&quot;, :content=&gt;&quot;35&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-ip&quot;, :content=&gt;&quot;208.94.0.199&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-port&quot;, :content=&gt;&quot;17001&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, User-Agent&quot;}\n",
+  "timestamp_end": "2015-01-09 19:47:26 UTC"
 }

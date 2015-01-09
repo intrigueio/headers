@@ -6,8 +6,8 @@
       "name": "http://financialexpress.com"
     }
   },
-  "timestamp_start": "2015-01-08 19:49:37 UTC",
-  "id": "a2bd94ef-11a1-4359-a8db-c8a129424ed1",
+  "timestamp_start": "2015-01-09 19:49:35 UTC",
+  "id": "944281b4-8a70-4837-a754-fdce474c40f4",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -33,6 +33,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "max-age=707, public"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-pingback",
         "content": "http://www.financialexpress.com/xmlrpc.php"
       }
@@ -40,43 +47,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=611, public"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "age",
-        "content": "66"
+        "content": "574"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Thu, 08 Jan 2015 19:49:38 GMT"
+        "content": "Fri, 09 Jan 2015 19:49:36 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Thu, 08 Jan 2015 19:43:43 GMT"
+        "content": "Fri, 09 Jan 2015 19:36:49 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Thu, 08 Jan 2015 19:58:43 GMT"
+        "content": "Fri, 09 Jan 2015 19:51:49 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-length",
-        "content": "95990"
+        "content": "94943"
       }
     },
     {
@@ -87,6 +87,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;financialexpress.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, Cookie&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-pingback&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;www.financialexpress.com&#x2F;xmlrpc.php&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=611, public&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;66&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:49:38 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:43:43 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:58:43 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;95990&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-08 19:49:39 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;financialexpress.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding, Cookie&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=707, public&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-pingback&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;www.financialexpress.com&#x2F;xmlrpc.php&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;574&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:49:36 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:36:49 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:51:49 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;94943&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
+  "timestamp_end": "2015-01-09 19:49:36 UTC"
 }

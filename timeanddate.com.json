@@ -6,14 +6,21 @@
       "name": "http://timeanddate.com"
     }
   },
-  "timestamp_start": "2015-01-08 19:45:46 UTC",
-  "id": "45ea8c30-09a2-4069-ae27-bc17fa8de5c7",
+  "timestamp_start": "2015-01-09 19:45:57 UTC",
+  "id": "e92f7fa8-4682-41dc-ae3c-3ac868e7aa73",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "Apache/2.2.29"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "TIMEANDDATE_SESSION=T_1420746346%3AC_1%3Ad7_1%3A; expires=Fri, 09-Jan-2015 19:45:46 GMT; path=/; domain=timeanddate.com"
+        "content": "TIMEANDDATE_SESSION=T_1420832758%3AC_1%3Ad7_1%3A; expires=Sat, 10-Jan-2015 19:45:58 GMT; path=/; domain=timeanddate.com"
       }
     },
     {
@@ -40,22 +47,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes, bytes"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "9732"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Thu, 08 Jan 2015 19:45:47 GMT"
+        "content": "Fri, 09 Jan 2015 19:45:58 GMT"
       }
     },
     {
@@ -76,7 +83,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-served-by",
-        "content": "cache-ord1720-ORD"
+        "content": "cache-iad2138-IAD"
       }
     },
     {
@@ -97,7 +104,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-timer",
-        "content": "S1420746346.975205,VS0,VE25"
+        "content": "S1420832758.003033,VS0,VE24"
       }
     },
     {
@@ -108,6 +115,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;timeanddate.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;TIMEANDDATE_SESSION=T_1420746346%3AC_1%3Ad7_1%3A; expires=Fri, 09-Jan-2015 19:45:46 GMT; path=&#x2F;; domain=timeanddate.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes, bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;9732&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:45:47 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-served-by&quot;, :content=&gt;&quot;cache-ord1720-ORD&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-hits&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-timer&quot;, :content=&gt;&quot;S1420746346.975205,VS0,VE25&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n",
-  "timestamp_end": "2015-01-08 19:45:47 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;timeanddate.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.29&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;TIMEANDDATE_SESSION=T_1420832758%3AC_1%3Ad7_1%3A; expires=Sat, 10-Jan-2015 19:45:58 GMT; path=&#x2F;; domain=timeanddate.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:45:58 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-served-by&quot;, :content=&gt;&quot;cache-iad2138-IAD&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-hits&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-timer&quot;, :content=&gt;&quot;S1420832758.003033,VS0,VE24&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n",
+  "timestamp_end": "2015-01-09 19:45:58 UTC"
 }

@@ -6,21 +6,14 @@
       "name": "http://mandmdirect.com"
     }
   },
-  "timestamp_start": "2015-01-08 19:50:57 UTC",
-  "id": "4b440279-baef-4daa-8414-4417c09fb110",
+  "timestamp_start": "2015-01-09 19:50:53 UTC",
+  "id": "223e3fc9-1b08-4deb-8676-0c00f1821df0",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
         "content": "private"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "69841"
       }
     },
     {
@@ -54,22 +47,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-akamai-transformed",
+        "content": "9 71204 0 pmb=mRUM,1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "date",
-        "content": "Thu, 08 Jan 2015 19:50:58 GMT"
+        "content": "Fri, 09 Jan 2015 19:50:54 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "MandMDirectSession=1132164127113034058022142209060044085161185242028208141054161130113205112228237123192088159139070254060112213097109085054005241191212036184016152025132027033218236091105147180179111023015194241; expires=Sun, 08-Feb-2015 19:50:12 GMT; path=/; HttpOnly, MandMDirectLastSearchCookie=; path=/, PROF-PERSIST-COOKIE-V2=HAM/J6E/SKbh3/tJ5pRx1dns824GViNmX6mGuxey9Ulyjp581NPc2ThpdyVQFxP57V+/X6b1KVnb6gE=; path=/"
+        "content": "MandMDirectSession=1180058098197114143057143073133096009208028186066124066253175186149041080254079035212105003001169208167020143121001212064054220059155163081089003077157057178196024034176253209154214127098014195; expires=Mon, 09-Feb-2015 19:50:05 GMT; path=/; HttpOnly, MandMDirectLastSearchCookie=; path=/, PROF-PERSIST-COOKIE-V2=PN1PwmHpRZFL9glJ5pRx1dns824GVgmtoGma8lyU2AZgCthfiDiIdUkyctpiGAq9zx4s8rEUJbX3l5w=; path=/"
       }
     },
     {
@@ -80,6 +87,6 @@
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;mandmdirect.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;69841&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:50:58 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;MandMDirectSession=1132164127113034058022142209060044085161185242028208141054161130113205112228237123192088159139070254060112213097109085054005241191212036184016152025132027033218236091105147180179111023015194241; expires=Sun, 08-Feb-2015 19:50:12 GMT; path=&#x2F;; HttpOnly, MandMDirectLastSearchCookie=; path=&#x2F;, PROF-PERSIST-COOKIE-V2=HAM&#x2F;J6E&#x2F;SKbh3&#x2F;tJ5pRx1dns824GViNmX6mGuxey9Ulyjp581NPc2ThpdyVQFxP57V+&#x2F;X6b1KVnb6gE=; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent&quot;}\n",
-  "timestamp_end": "2015-01-08 19:50:59 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;mandmdirect.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-akamai-transformed&quot;, :content=&gt;&quot;9 71204 0 pmb=mRUM,1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:50:54 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;MandMDirectSession=1180058098197114143057143073133096009208028186066124066253175186149041080254079035212105003001169208167020143121001212064054220059155163081089003077157057178196024034176253209154214127098014195; expires=Mon, 09-Feb-2015 19:50:05 GMT; path=&#x2F;; HttpOnly, MandMDirectLastSearchCookie=; path=&#x2F;, PROF-PERSIST-COOKIE-V2=PN1PwmHpRZFL9glJ5pRx1dns824GVgmtoGma8lyU2AZgCthfiDiIdUkyctpiGAq9zx4s8rEUJbX3l5w=; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent&quot;}\n",
+  "timestamp_end": "2015-01-09 19:50:54 UTC"
 }

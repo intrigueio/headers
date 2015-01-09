@@ -6,21 +6,14 @@
       "name": "http://tjournal.ru"
     }
   },
-  "timestamp_start": "2015-01-08 19:49:54 UTC",
-  "id": "9067b7a3-8064-4dc7-8c82-37df4add6b51",
+  "timestamp_start": "2015-01-09 19:49:51 UTC",
+  "id": "d30277dd-043f-4f28-be5b-80701917b57d",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "date",
-        "content": "Thu, 08 Jan 2015 19:49:55 GMT"
+        "content": "Fri, 09 Jan 2015 19:49:52 GMT"
       }
     },
     {
@@ -33,8 +26,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "12917"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -48,7 +41,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "red_guestId=0252002a2d9a1df67c11da44fc4d2fbc; expires=Tue, 01-Jan-2030 00:00:00 GMT; path=/; domain=.tjournal.ru; httponly"
+        "content": "__cfduid=dba79b6af7fbb517b884e8fd871d007971420832991; expires=Sat, 09-Jan-16 19:49:51 GMT; path=/; domain=.tjournal.ru; HttpOnly, red_guestId=0cca8628a85bc797ad0390ddb78d398c; expires=Tue, 01-Jan-2030 00:00:00 GMT; path=/; domain=.tjournal.ru; httponly"
       }
     },
     {
@@ -57,8 +50,22 @@
         "name": "vary",
         "content": "Accept-Encoding"
       }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1a6329162298116b-DFW"
+      }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;tjournal.ru&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Thu, 08 Jan 2015 19:49:55 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;12917&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;red_guestId=0252002a2d9a1df67c11da44fc4d2fbc; expires=Tue, 01-Jan-2030 00:00:00 GMT; path=&#x2F;; domain=.tjournal.ru; httponly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n",
-  "timestamp_end": "2015-01-08 19:49:55 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;tjournal.ru&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:49:52 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=dba79b6af7fbb517b884e8fd871d007971420832991; expires=Sat, 09-Jan-16 19:49:51 GMT; path=&#x2F;; domain=.tjournal.ru; HttpOnly, red_guestId=0cca8628a85bc797ad0390ddb78d398c; expires=Tue, 01-Jan-2030 00:00:00 GMT; path=&#x2F;; domain=.tjournal.ru; httponly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a6329162298116b-DFW&quot;}\n",
+  "timestamp_end": "2015-01-09 19:49:52 UTC"
 }
