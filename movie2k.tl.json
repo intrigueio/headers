@@ -6,21 +6,12 @@
       "name": "http://movie2k.tl"
     }
   },
-  "timestamp_start": "2015-01-10 19:50:45 UTC",
-  "id": "a57ba705-4cfd-4293-8e5d-0e14f6693d1b",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
         "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 17:44:30 GMT"
       }
     },
     {
@@ -62,10 +53,8 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22c38e3abcb403490614313982bebfc9bd%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A7%3A%220.0.0.0%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420911870%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7D72cce96d22c944ecdf851e5ae7a74a39; expires=Sat, 10-Jan-2015 19:44:30 GMT; path=/, ci_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22c38e3abcb403490614313982bebfc9bd%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A7%3A%220.0.0.0%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420911870%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3Bs%3A8%3A%22language%22%3Bs%3A7%3A%22english%22%3B%7Df38a78a72885aacb8c79093018ecdde2; expires=Sat, 10-Jan-2015 19:44:30 GMT; path=/"
+        "content": "ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22fd4d20968c76d2ef0e1aa79311249645%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A7%3A%220.0.0.0%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420914451%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7D65da6ef3544d1b1a1fdb2618a3569cd1; expires=Sat, 10-Jan-2015 20:27:31 GMT; path=/, ci_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22fd4d20968c76d2ef0e1aa79311249645%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A7%3A%220.0.0.0%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420914451%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3Bs%3A8%3A%22language%22%3Bs%3A7%3A%22english%22%3B%7Da375e4c2774a9831d9927e486e8372ef; expires=Sat, 10-Jan-2015 20:27:31 GMT; path=/"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;movie2k.tl&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 17:44:30 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;keep-alive&quot;, :content=&gt;&quot;timeout=30&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.4.15&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22c38e3abcb403490614313982bebfc9bd%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A7%3A%220.0.0.0%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420911870%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7D72cce96d22c944ecdf851e5ae7a74a39; expires=Sat, 10-Jan-2015 19:44:30 GMT; path=&#x2F;, ci_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22c38e3abcb403490614313982bebfc9bd%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A7%3A%220.0.0.0%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420911870%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3Bs%3A8%3A%22language%22%3Bs%3A7%3A%22english%22%3B%7Df38a78a72885aacb8c79093018ecdde2; expires=Sat, 10-Jan-2015 19:44:30 GMT; path=&#x2F;&quot;}\n",
-  "timestamp_end": "2015-01-10 19:50:46 UTC"
+  ]
 }

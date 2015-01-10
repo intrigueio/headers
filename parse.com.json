@@ -6,8 +6,6 @@
       "name": "http://parse.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:49:19 UTC",
-  "id": "eee26401-b35b-4812-8048-46695f5a34ce",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -21,13 +19,6 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:49:19 GMT"
       }
     },
     {
@@ -55,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "_parse_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRiIlYjkwMDEwY2MzNzY5MjA4NWYyZWZmMmUwODQ5Yzk4MDRJIhBsYW5kaW5nX3VybAY7AEZJIgYvBjsARkkiEF9jc3JmX3Rva2VuBjsARkkiMWtXdjVxaWtONzhxMTNjbm8xK01oWDZpM2FLbEU2MWR5aUx2SmRaVDZBb1U9BjsARg%3D%3D--1025be859b828d7fcfc5dabd4d8f5491aa51557e; domain=.parse.com; path=/; expires=Mon, 09-Feb-2015 19:49:19 GMT; secure; HttpOnly"
+        "content": "_parse_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRiIlMmVmMTgzMWM0MGU3OTVkOTA5ODU1YmE5Y2MyZTAyY2JJIhBsYW5kaW5nX3VybAY7AEZJIgYvBjsARkkiEF9jc3JmX3Rva2VuBjsARkkiMWJDNnRvL2o0YXR4THNSSjU4VEV1ZmhOQ0F5V0ZRYlZ4dHJLMlJOVzBqdUk9BjsARg%3D%3D--9803a6f4760a36f2fbd4a9827bd15dfe28342197; domain=.parse.com; path=/; expires=Mon, 09-Feb-2015 20:32:23 GMT; secure; HttpOnly"
       }
     },
     {
@@ -83,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.010668"
+        "content": "0.010392"
       }
     },
     {
@@ -96,18 +87,9 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "5545"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;parse.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, no-cache, no-store, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:49:19 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 01 Jan 2000 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_parse_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRiIlYjkwMDEwY2MzNzY5MjA4NWYyZWZmMmUwODQ5Yzk4MDRJIhBsYW5kaW5nX3VybAY7AEZJIgYvBjsARkkiEF9jc3JmX3Rva2VuBjsARkkiMWtXdjVxaWtONzhxMTNjbm8xK01oWDZpM2FLbEU2MWR5aUx2SmRaVDZBb1U9BjsARg%3D%3D--1025be859b828d7fcfc5dabd4d8f5491aa51557e; domain=.parse.com; path=&#x2F;; expires=Mon, 09-Feb-2015 19:49:19 GMT; secure; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.010668&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;5545&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-10 19:49:19 UTC"
+  ]
 }

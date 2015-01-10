@@ -6,11 +6,55 @@
       "name": "http://gtxh.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:51:44 UTC",
-  "id": "e4b98a00-4405-435b-baee-a8d497550b75",
   "entities": [
-
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;gtxh.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[-] : Timed out\n",
-  "timestamp_end": "2015-01-10 19:52:04 UTC"
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/7.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnet-version",
+        "content": "4.0.30319"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "GTXH_USER_ID=e73ed84d794447108dac1ad4574e3803; domain=gtxh.com; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET"
+      }
+    }
+  ]
 }

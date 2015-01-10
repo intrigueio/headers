@@ -6,11 +6,41 @@
       "name": "http://bankbazaar.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:49:56 UTC",
-  "id": "9a25dd6c-7136-4e3f-b27f-a233ec42f9e5",
   "entities": [
-
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;bankbazaar.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[-] : Timed out\n",
-  "timestamp_end": "2015-01-10 19:50:16 UTC"
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "trckr=w3-mp-32730642-1;Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    }
+  ]
 }

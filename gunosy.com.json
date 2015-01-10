@@ -6,8 +6,6 @@
       "name": "http://gunosy.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:50:52 UTC",
-  "id": "0c66b3b3-90c4-45a3-a890-23879b4dbabc",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -26,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:50:52 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
         "content": "nginx/1.6.2"
       }
@@ -41,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "_gunosy_session=BAh7CkkiD3Nlc3Npb25faWQGOgZFRkkiJTQ0NmMxNGQ2YTQxYTc5ZWUxYWI3M2QxOTNhMTYxODBkBjsAVEkiE3NpZ251cF9wcm9jZXNzBjsARmkGSSISc2lnbnVwX3NvdXJjZQY7AEZJIgdwYwY7AFRJIhNzaWdudXBfcmVmZXJlcgY7AEZJIglub25lBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXBvVGhmL2l5bm9oazNua0hlYXp2OHVmU29LL014T0F2Yml4S3owc24xbFk9BjsARg%3D%3D--d2118ccf79836aa6204228c17ae80f86776b450c; path=/; HttpOnly"
+        "content": "_gunosy_session=BAh7CkkiD3Nlc3Npb25faWQGOgZFRkkiJWIzMWQ0YWY3NjY4Y2ExZjZhNGNiNGIyNmFmZmZmZTVlBjsAVEkiE3NpZ251cF9wcm9jZXNzBjsARmkGSSISc2lnbnVwX3NvdXJjZQY7AEZJIgdwYwY7AFRJIhNzaWdudXBfcmVmZXJlcgY7AEZJIglub25lBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUYzbVFnUEZYcGFYVyt2K2FpUHRJaWJzb3VqTzlseDVnZkg0RUVQV3hudDg9BjsARg%3D%3D--ffc6707e65ed67c32bfff710432fc73946f7f908; path=/; HttpOnly"
       }
     },
     {
@@ -69,14 +60,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "8009cf0277fa1bdb50cca201cd4a6dfa"
+        "content": "040844581c72b7c3b745735a0b0b60eb"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.010289"
+        "content": "0.010809"
       }
     },
     {
@@ -89,18 +80,9 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "4085"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;gunosy.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:50:52 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_gunosy_session=BAh7CkkiD3Nlc3Npb25faWQGOgZFRkkiJTQ0NmMxNGQ2YTQxYTc5ZWUxYWI3M2QxOTNhMTYxODBkBjsAVEkiE3NpZ251cF9wcm9jZXNzBjsARmkGSSISc2lnbnVwX3NvdXJjZQY7AEZJIgdwYwY7AFRJIhNzaWdudXBfcmVmZXJlcgY7AEZJIglub25lBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXBvVGhmL2l5bm9oazNua0hlYXp2OHVmU29LL014T0F2Yml4S3owc24xbFk9BjsARg%3D%3D--d2118ccf79836aa6204228c17ae80f86776b450c; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;8009cf0277fa1bdb50cca201cd4a6dfa&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.010289&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;4085&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-10 19:50:52 UTC"
+  ]
 }

@@ -6,8 +6,6 @@
       "name": "http://googleplex.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:50:50 UTC",
-  "id": "c439fc0a-c98d-4094-a0a0-a600d4ba2738",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -34,21 +32,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "LOGINDONE=; Expires=Fri, 09-Jan-2015 19:50:51 GMT; Path=/; Secure, x=EXPIRED;Domain=login.corp.google.com;Path=/;Expires=Mon, 01-Jan-1990 00:00:00 GMT;Secure, x=x:ChgIhYbRkuT91rpQEKTbmKutKRik25irrSkSGQBU15oiZM8eIS1pqPglyGc3nc-sgKuvFf8;Path=/;Expires=Mon, 09-Jan-2017 19:50:51 GMT;Secure;HttpOnly, noGnubbyEnrollment=true;Path=/;Expires=Sun, 11-Jan-2015 19:50:51 GMT;Secure;HttpOnly, S=sso=FvN8wwozbF4; Domain=.google.com; Path=/; Secure; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:50:51 GMT"
+        "content": "LOGINDONE=; Expires=Fri, 09-Jan-2015 20:33:53 GMT; Path=/; Secure, x=EXPIRED;Domain=login.corp.google.com;Path=/;Expires=Mon, 01-Jan-1990 00:00:00 GMT;Secure, x=x:ChkIncDT1fa5xM2VARDaqrasrSkY2qq2rK0pEhkAVNeaIhMg5P7N-EF-x0OKj-PdfygjHtm6;Path=/;Expires=Mon, 09-Jan-2017 20:33:53 GMT;Secure;HttpOnly, noGnubbyEnrollment=true;Path=/;Expires=Sun, 11-Jan-2015 20:33:53 GMT;Secure;HttpOnly, S=sso=VKUBKyReSF8; Domain=.google.com; Path=/; Secure; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Sat, 10 Jan 2015 19:50:51 GMT"
+        "content": "Sat, 10 Jan 2015 20:33:53 GMT"
       }
     },
     {
@@ -82,18 +73,9 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "6210"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
         "content": "GSE"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;googleplex.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=7776000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;The P3P policy for this service is commensurate with internal security policy guidelines.\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;LOGINDONE=; Expires=Fri, 09-Jan-2015 19:50:51 GMT; Path=&#x2F;; Secure, x=EXPIRED;Domain=login.corp.google.com;Path=&#x2F;;Expires=Mon, 01-Jan-1990 00:00:00 GMT;Secure, x=x:ChgIhYbRkuT91rpQEKTbmKutKRik25irrSkSGQBU15oiZM8eIS1pqPglyGc3nc-sgKuvFf8;Path=&#x2F;;Expires=Mon, 09-Jan-2017 19:50:51 GMT;Secure;HttpOnly, noGnubbyEnrollment=true;Path=&#x2F;;Expires=Sun, 11-Jan-2015 19:50:51 GMT;Secure;HttpOnly, S=sso=FvN8wwozbF4; Domain=.google.com; Path=&#x2F;; Secure; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:50:51 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:50:51 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;6210&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;GSE&quot;}\n",
-  "timestamp_end": "2015-01-10 19:50:51 UTC"
+  ]
 }

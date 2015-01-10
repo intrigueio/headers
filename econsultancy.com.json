@@ -6,21 +6,12 @@
       "name": "http://econsultancy.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:50:58 UTC",
-  "id": "333d6a0c-a4f4-418d-b897-262b159be69e",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
         "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:50:59 GMT"
       }
     },
     {
@@ -48,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d7b19c60102ad366e59e0ccfb2f98a0e71420919459; expires=Sun, 10-Jan-16 19:50:59 GMT; path=/; domain=.econsultancy.com; HttpOnly, _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJWM4MzAzNzJmMTNlZWIwYmFhZDgzNGE5MGRmNzFhODc1BjsAVEkiDnJldHVybl90bwY7AEZJQzohQWN0aW9uQ29udHJvbGxlcjo6UGFyYW1ldGVyc3sHSSILYWN0aW9uBjsARkkiCWhvbWUGOwBUSSIPY29udHJvbGxlcgY7AEZJIgpwYWdlcwY7AFQGOg9AcGVybWl0dGVkRg%3D%3D--f23735e17cb72e896c7e588b068e27a15ade4c75; path=/; secure; HttpOnly"
+        "content": "__cfduid=d7f25d56a6240cead163787921eaaf00e1420922041; expires=Sun, 10-Jan-16 20:34:01 GMT; path=/; domain=.econsultancy.com; HttpOnly, _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJWI5OWUyY2NlYzFhOWJlZjEwZDY5M2Q0N2QzYjkwNDcxBjsAVEkiDnJldHVybl90bwY7AEZJQzohQWN0aW9uQ29udHJvbGxlcjo6UGFyYW1ldGVyc3sHSSILYWN0aW9uBjsARkkiCWhvbWUGOwBUSSIPY29udHJvbGxlcgY7AEZJIgpwYWdlcwY7AFQGOg9AcGVybWl0dGVkRg%3D%3D--364a0e3c6c3a14a44889bbf2ed4c85261e22b556; path=/; secure; HttpOnly"
       }
     },
     {
@@ -83,14 +74,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "82c5e521033b7d94fd1838cdaf896090"
+        "content": "eaf871e1430e430ff132ffe35f0f8687"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.016114"
+        "content": "0.038856"
       }
     },
     {
@@ -104,10 +95,8 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a6b681af2360944-DFW"
+        "content": "1a6ba7291ddc118f-DFW"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;econsultancy.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:50:59 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d7b19c60102ad366e59e0ccfb2f98a0e71420919459; expires=Sun, 10-Jan-16 19:50:59 GMT; path=&#x2F;; domain=.econsultancy.com; HttpOnly, _session_id=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJWM4MzAzNzJmMTNlZWIwYmFhZDgzNGE5MGRmNzFhODc1BjsAVEkiDnJldHVybl90bwY7AEZJQzohQWN0aW9uQ29udHJvbGxlcjo6UGFyYW1ldGVyc3sHSSILYWN0aW9uBjsARkkiCWhvbWUGOwBUSSIPY29udHJvbGxlcgY7AEZJIgpwYWdlcwY7AFQGOg9AcGVybWl0dGVkRg%3D%3D--f23735e17cb72e896c7e588b068e27a15ade4c75; path=&#x2F;; secure; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;82c5e521033b7d94fd1838cdaf896090&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.016114&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a6b681af2360944-DFW&quot;}\n",
-  "timestamp_end": "2015-01-10 19:50:59 UTC"
+  ]
 }

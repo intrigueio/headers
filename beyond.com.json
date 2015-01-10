@@ -6,8 +6,6 @@
       "name": "http://beyond.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:50:09 UTC",
-  "id": "05878b43-0023-4d81-97d7-cf5fbbbd9a80",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -41,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ASP.NET_SessionId=lnvq4jw5srb4y1fkyxffscsr; path=/; HttpOnly, UB=Key=ac0362e5-394b-4fb4-a0c4-67e217ac084a; domain=.beyond.com; expires=Tue, 07-Jan-2025 19:48:51 GMT; path=/, Visitor=NewSessionID=08A873A3-F9CB-4B1E-B020-D3FCCAD23606&Tracked=168A2FCA-0767-4B52-B3C2-9CDE15076EE8; path=/, DidIPLkup=Y; expires=Sun, 11-Jan-2015 19:48:51 GMT; path=/, BeyondSessionId=xg9N20%2b5VEQr2KNZDVCLLiUWwmwX7oswQFOOZoIzIJHkVodhwzC%2fJGHqAHQu67jJ; domain=.beyond.com; path=/, SERVERID=WFE11; path=/"
+        "content": "ASP.NET_SessionId=v300igsttzqgwfyadl2itqsn; path=/; HttpOnly, UB=Key=83e80288-0961-4d41-9dd1-8da264955dbc; domain=.beyond.com; expires=Tue, 07-Jan-2025 20:31:53 GMT; path=/, Visitor=NewSessionID=D6DEE387-E8D8-4507-841D-B9EE1C45597A&Tracked=ACCCD288-CE01-47EA-9B47-C1454C5360DF; path=/, DidIPLkup=Y; expires=Sun, 11-Jan-2015 20:31:53 GMT; path=/, BeyondSessionId=6gKBJsPjJXB7ZfIyA%2bmRnLLcglDcun3P%2bpVp4cdPgs2kFOoQGw50M6JF%2fMwQjoMQ; domain=.beyond.com; path=/, SERVERID=WFE10; path=/"
       }
     },
     {
@@ -61,15 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "ASP.NET"
+        "name": "beyond-iis",
+        "content": "Wfe10"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "beyond-iis",
-        "content": "Wfe11"
+        "name": "x-powered-by",
+        "content": "ASP.NET"
       }
     },
     {
@@ -82,25 +80,9 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:48:52 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "close"
       }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "8355"
-      }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;beyond.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ASP.NET_SessionId=lnvq4jw5srb4y1fkyxffscsr; path=&#x2F;; HttpOnly, UB=Key=ac0362e5-394b-4fb4-a0c4-67e217ac084a; domain=.beyond.com; expires=Tue, 07-Jan-2025 19:48:51 GMT; path=&#x2F;, Visitor=NewSessionID=08A873A3-F9CB-4B1E-B020-D3FCCAD23606&amp;Tracked=168A2FCA-0767-4B52-B3C2-9CDE15076EE8; path=&#x2F;, DidIPLkup=Y; expires=Sun, 11-Jan-2015 19:48:51 GMT; path=&#x2F;, BeyondSessionId=xg9N20%2b5VEQr2KNZDVCLLiUWwmwX7oswQFOOZoIzIJHkVodhwzC%2fJGHqAHQu67jJ; domain=.beyond.com; path=&#x2F;, SERVERID=WFE11; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnetmvc-version&quot;, :content=&gt;&quot;4.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;beyond-iis&quot;, :content=&gt;&quot;Wfe11&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:48:52 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;8355&quot;}\n",
-  "timestamp_end": "2015-01-10 19:50:10 UTC"
+  ]
 }

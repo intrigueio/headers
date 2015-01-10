@@ -6,8 +6,6 @@
       "name": "http://listia.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:50:10 UTC",
-  "id": "c9378a49-5204-4fb0-8a58-011bc3a34fbe",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -62,28 +60,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "first_visit_referrer=; path=/; expires=Sun, 10-Jan-2016 19:50:11 GMT, first_visit_request=https%3A%2F%2Fwww.listia.com%2F; path=/; expires=Sun, 10-Jan-2016 19:50:11 GMT, region=us; path=/; expires=Sun, 10-Jan-2016 19:50:11 GMT, _listia_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWFhOGYwZjMwNTRhZjU1YjA2ZWJkNjljNjVkYzMyN2Q2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMWNPazViNlFqQld2UVhNUXpDczBGQXErTXRMK0gzWndZRHNKVHVtTExVd2s9BjsARg%3D%3D--b9d7b60c57c0052cc302fd4128513f986ec46a70; path=/; HttpOnly"
+        "content": "first_visit_referrer=; path=/; expires=Sun, 10-Jan-2016 20:33:12 GMT, first_visit_request=https%3A%2F%2Fwww.listia.com%2F; path=/; expires=Sun, 10-Jan-2016 20:33:12 GMT, region=us; path=/; expires=Sun, 10-Jan-2016 20:33:12 GMT, _listia_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTBmMTFiOGI3MTM4NWQwY2Y5NjljZTA2OWU2YmQ3MjFmBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTJUMWJjbTR5TzBrWDhBN0F5eHlkdUltOE9oWTlvVUsra0MvSTZnbEQ0K1E9BjsARg%3D%3D--133332a57599bd8651e9639690031491c5b9ecae; path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "f73ef078a85ad74dad6e51d938dd8418"
+        "content": "0460c96e37ee61a9a8ec624369c4cb9a"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.276215"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:50:11 GMT"
+        "content": "0.035274"
       }
     },
     {
@@ -107,7 +98,5 @@
         "content": "nginx + Phusion Passenger"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;listia.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;This is not a P3P policy! Read our privacy policy here: http:&#x2F;&#x2F;listia.com&#x2F;privacy\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;first_visit_referrer=; path=&#x2F;; expires=Sun, 10-Jan-2016 19:50:11 GMT, first_visit_request=https%3A%2F%2Fwww.listia.com%2F; path=&#x2F;; expires=Sun, 10-Jan-2016 19:50:11 GMT, region=us; path=&#x2F;; expires=Sun, 10-Jan-2016 19:50:11 GMT, _listia_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWFhOGYwZjMwNTRhZjU1YjA2ZWJkNjljNjVkYzMyN2Q2BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMWNPazViNlFqQld2UVhNUXpDczBGQXErTXRMK0gzWndZRHNKVHVtTExVd2s9BjsARg%3D%3D--b9d7b60c57c0052cc302fd4128513f986ec46a70; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;f73ef078a85ad74dad6e51d938dd8418&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.276215&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:50:11 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx + Phusion Passenger&quot;}\n",
-  "timestamp_end": "2015-01-10 19:50:11 UTC"
+  ]
 }

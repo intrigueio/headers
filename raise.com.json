@@ -6,8 +6,6 @@
       "name": "http://raise.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:51:05 UTC",
-  "id": "2f2c0cf2-7006-46a1-a89f-72b00cc085f3",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -26,15 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:51:02 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "etag",
-        "content": "\"10f9167162436408e88ff8aa89f43edd\""
+        "content": "\"67480e896c70aa1de3e7071b1c7750eb\""
       }
     },
     {
@@ -48,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "_coupontrade_browser_uid=1227b986d72e7dc1e08869a6311c0fe06e4e270d0c84892e8dea5bc5edbb3e3b; path=/; expires=Wed, 10-Jan-2035 19:51:02 GMT; secure, _coupontrade_session_uid=7b2926e5783f4e8fe58f771e10ee1e2db9c8ab50851e1e69794cab2c9adb9306; path=/; expires=Sat, 10-Jan-2015 20:11:02 GMT; secure, _coupontrade_session=c7f2deef2c19923757a5160989f3c087; path=/; expires=Sat, 10-Jan-2015 20:11:02 GMT; secure; HttpOnly"
+        "content": "_coupontrade_browser_uid=df77f50b76b43728a96f024a3b05e3212d0983bee059a2b108c226fee8632221; path=/; expires=Wed, 10-Jan-2035 20:34:06 GMT; secure, _coupontrade_session_uid=97f1ae29a68f4654c4add237cf95b72ad0d4f07a61b9c0e9185b63fe868b15bf; path=/; expires=Sat, 10-Jan-2015 20:54:06 GMT; secure, _coupontrade_session=864ea921be1ec68536b0b712c668e589; path=/; expires=Sat, 10-Jan-2015 20:54:06 GMT; secure; HttpOnly"
       }
     },
     {
@@ -83,14 +74,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "0428930b5ba808189b96d48446aaa85d"
+        "content": "dc0a7348b07fde09b94f2e622d1abf4d"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.039696"
+        "content": "0.060642"
       }
     },
     {
@@ -103,18 +94,9 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "5396"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;raise.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:51:02 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;10f9167162436408e88ff8aa89f43edd\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_coupontrade_browser_uid=1227b986d72e7dc1e08869a6311c0fe06e4e270d0c84892e8dea5bc5edbb3e3b; path=&#x2F;; expires=Wed, 10-Jan-2035 19:51:02 GMT; secure, _coupontrade_session_uid=7b2926e5783f4e8fe58f771e10ee1e2db9c8ab50851e1e69794cab2c9adb9306; path=&#x2F;; expires=Sat, 10-Jan-2015 20:11:02 GMT; secure, _coupontrade_session=c7f2deef2c19923757a5160989f3c087; path=&#x2F;; expires=Sat, 10-Jan-2015 20:11:02 GMT; secure; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=31536000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;0428930b5ba808189b96d48446aaa85d&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.039696&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;5396&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-10 19:51:06 UTC"
+  ]
 }

@@ -6,8 +6,6 @@
       "name": "http://tvp.pl"
     }
   },
-  "timestamp_start": "2015-01-10 19:49:11 UTC",
-  "id": "d2c0a1fb-156b-439f-89a7-41c4460c8406",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -20,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-as",
-        "content": "v3-as-71"
+        "content": "v3-as-80"
       }
     },
     {
@@ -41,21 +39,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "395768085, 1283927451 1283003187, 1283927436, 1409311343"
+        "content": "1791423605, 1407461614 1405768530, 1486325574 1486325517"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish"
+        "content": "1.1 varnish, 1.1 varnish, 1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-fetch-8080",
+        "content": "4"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-var8080",
-        "content": "102"
+        "content": "101"
       }
     },
     {
@@ -69,42 +74,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-res8080",
-        "content": "5"
+        "content": "4"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-age8080",
-        "content": "18491"
+        "content": "50954"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-hit8080",
-        "content": "17"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-fetch-8080",
-        "content": "0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:49:14 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "age",
-        "content": "0"
+        "content": "53"
       }
     },
     {
@@ -132,7 +116,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-var80",
-        "content": "v3-wc-104"
+        "content": "v3-wc-101"
       }
     },
     {
@@ -160,7 +144,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-hit80",
-        "content": "0"
+        "content": "1"
       }
     },
     {
@@ -177,7 +161,5 @@
         "content": "chunked"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;tvp.pl&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-as&quot;, :content=&gt;&quot;v3-as-71&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-as-ttl&quot;, :content=&gt;&quot;-1.000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-as-status&quot;, :content=&gt;&quot;404&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;395768085, 1283927451 1283003187, 1283927436, 1409311343&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-var8080&quot;, :content=&gt;&quot;102&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ttl8080&quot;, :content=&gt;&quot;20.000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-res8080&quot;, :content=&gt;&quot;5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-age8080&quot;, :content=&gt;&quot;18491&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-hit8080&quot;, :content=&gt;&quot;17&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-fetch-8080&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:49:14 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=30&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Cookie&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-var80&quot;, :content=&gt;&quot;v3-wc-104&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ttl80&quot;, :content=&gt;&quot;30.000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-res80&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-age80&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-hit80&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-f5&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
-  "timestamp_end": "2015-01-10 19:49:14 UTC"
+  ]
 }

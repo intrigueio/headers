@@ -6,16 +6,7 @@
       "name": "http://yellowpages.com.au"
     }
   },
-  "timestamp_start": "2015-01-10 19:50:11 UTC",
-  "id": "1ab0a8c4-ffdc-4adf-b6ed-f92b9285cb3a",
   "entities": [
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:50:12 GMT"
-      }
-    },
     {
       "type": "WebApplicationHeader",
       "attributes": {
@@ -48,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "yellow-guid=34a1fa6c-cb8a-4436-b0d0-6e6139501dbb; Path=/; HttpOnly, TS7e1ed3=9255f98b2090c1671aa3bfb9ded8999d5a0b0011fa85b97254b18275; Path=/"
+        "content": "yellow-guid=7f5f6a92-0747-46d5-8034-147a8a560e7c; Path=/; HttpOnly, TS7e1ed3=20d91fc2d660bd1381b36d9c5405b29c16a67ec5c3b5fc8554b18c8a; Path=/"
       }
     },
     {
@@ -61,25 +52,16 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "10324"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "age",
-        "content": "1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;yellowpages.com.au&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:50:12 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;yellow-guid=34a1fa6c-cb8a-4436-b0d0-6e6139501dbb; Path=&#x2F;; HttpOnly, TS7e1ed3=9255f98b2090c1671aa3bfb9ded8999d5a0b0011fa85b97254b18275; Path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;10324&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-10 19:50:13 UTC"
+  ]
 }

@@ -6,21 +6,12 @@
       "name": "http://allmodern.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:51:45 UTC",
-  "id": "56d4fdd5-0cf7-418b-9f33-0b18803e53e8",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
         "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:51:46 GMT"
       }
     },
     {
@@ -76,21 +67,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server_id",
-        "content": "bo3.20.159"
+        "content": "bo3.20.28"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ABTestVariations=criteo_tellapart_test_v1=control; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726564141; path=/; domain=allmodern.com, CSNUtId=ac101911-54b1-82d2-644d-201aef05af02; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726564141; path=/; domain=allmodern.com, WFDC=BO; expires=Sun, 10-Jan-2016 19:51:46 GMT; Max-Age=31536000; path=/; domain=allmodern.com, WFSID=ek9a2apvn7f1ubpk72o4qsat34; path=/; domain=allmodern.com; HttpOnly, CSN=g_zip=67346; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726564141; path=/; domain=allmodern.com, CSNBrief=SLoc=bo3; path=/; domain=allmodern.com, serverUAInfo=%7B%22browser%22%3A%22unknown%22%2C%22browserVersion%22%3A%22%22%2C%22OS%22%3A%22unknown+os%22%2C%22OSVersion%22%3A%22%22%2C%22isMobile%22%3Afalse%2C%22isTablet%22%3Afalse%7D; path=/; domain=allmodern.com, wfgelfs=db_class=0; path=/; domain=.allmodern.com, WfTracking=NAN_PID=NULL; path=/; domain=allmodern.com"
+        "content": "ABTestVariations=criteo_tellapart_test_v1=control; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726561563; path=/; domain=allmodern.com, CSNUtId=ac101911-54b1-8ce4-987e-55ffbe54eb02; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726561563; path=/; domain=allmodern.com, WFDC=BO; expires=Sun, 10-Jan-2016 20:34:44 GMT; Max-Age=31536000; path=/; domain=allmodern.com, WFSID=gpdav55u722gi3s5tc63iv44h5; path=/; domain=allmodern.com; HttpOnly, CSN=g_zip=67346; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726561563; path=/; domain=allmodern.com, CSNBrief=SLoc=bo3; path=/; domain=allmodern.com, serverUAInfo=%7B%22browser%22%3A%22unknown%22%2C%22browserVersion%22%3A%22%22%2C%22OS%22%3A%22unknown+os%22%2C%22OSVersion%22%3A%22%22%2C%22isMobile%22%3Afalse%2C%22isTablet%22%3Afalse%7D; path=/; domain=allmodern.com, wfgelfs=db_class=0; path=/; domain=.allmodern.com, WfTracking=NAN_PID=NULL; path=/; domain=allmodern.com"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "txid",
-        "content": "rBAZEVSxgtJkTSAa7wWvAg=="
+        "content": "rBAZEVSxjOSYflX/vlTrAg=="
       }
     },
     {
@@ -100,7 +91,5 @@
         "content": "SSNX"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;allmodern.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:51:46 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server_id&quot;, :content=&gt;&quot;bo3.20.159&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ABTestVariations=criteo_tellapart_test_v1=control; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726564141; path=&#x2F;; domain=allmodern.com, CSNUtId=ac101911-54b1-82d2-644d-201aef05af02; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726564141; path=&#x2F;; domain=allmodern.com, WFDC=BO; expires=Sun, 10-Jan-2016 19:51:46 GMT; Max-Age=31536000; path=&#x2F;; domain=allmodern.com, WFSID=ek9a2apvn7f1ubpk72o4qsat34; path=&#x2F;; domain=allmodern.com; HttpOnly, CSN=g_zip=67346; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726564141; path=&#x2F;; domain=allmodern.com, CSNBrief=SLoc=bo3; path=&#x2F;; domain=allmodern.com, serverUAInfo=%7B%22browser%22%3A%22unknown%22%2C%22browserVersion%22%3A%22%22%2C%22OS%22%3A%22unknown+os%22%2C%22OSVersion%22%3A%22%22%2C%22isMobile%22%3Afalse%2C%22isTablet%22%3Afalse%7D; path=&#x2F;; domain=allmodern.com, wfgelfs=db_class=0; path=&#x2F;; domain=.allmodern.com, WfTracking=NAN_PID=NULL; path=&#x2F;; domain=allmodern.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;txid&quot;, :content=&gt;&quot;rBAZEVSxgtJkTSAa7wWvAg==&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;wfr&quot;, :content=&gt;&quot;SSNX&quot;}\n",
-  "timestamp_end": "2015-01-10 19:51:46 UTC"
+  ]
 }

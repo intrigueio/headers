@@ -6,21 +6,12 @@
       "name": "http://depor.pe"
     }
   },
-  "timestamp_start": "2015-01-10 19:50:40 UTC",
-  "id": "0a3631d1-2374-421d-9129-5c3ff75663ae",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
         "content": "nginx/1.2.7"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:50:40 GMT"
       }
     },
     {
@@ -55,10 +46,8 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ci_session=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%2261f1c823089d889dc31d1dfd2178b247%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.133.83%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221420919440%22%3B%7D15836a9c9306dee2d832cdde17aaf198; expires=Sat, 10-Jan-2015 21:50:40 GMT; path=/, ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%2261f1c823089d889dc31d1dfd2178b247%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.133.83%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221420919440%22%3Bs%3A10%3A%22user_token%22%3Bs%3A13%3A%2254b1829045748%22%3B%7D00afa8d08d80a3df1bb61a5cee424c5a; expires=Sat, 10-Jan-2015 21:50:40 GMT; path=/"
+        "content": "ci_session=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22f92b2b14d7a17f98de85751525486b64%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.133.83%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221420922022%22%3B%7D1ee789861602f7b197048eae50d4a14d; expires=Sat, 10-Jan-2015 22:33:42 GMT; path=/, ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22f92b2b14d7a17f98de85751525486b64%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.133.83%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221420922022%22%3Bs%3A10%3A%22user_token%22%3Bs%3A13%3A%2254b18ca6da8e6%22%3B%7D4a08e67cc389bbbaeb50558425177bf1; expires=Sat, 10-Jan-2015 22:33:42 GMT; path=/"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;depor.pe&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.2.7&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:50:40 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.2.17&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ci_session=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%2261f1c823089d889dc31d1dfd2178b247%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.133.83%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221420919440%22%3B%7D15836a9c9306dee2d832cdde17aaf198; expires=Sat, 10-Jan-2015 21:50:40 GMT; path=&#x2F;, ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%2261f1c823089d889dc31d1dfd2178b247%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.133.83%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221420919440%22%3Bs%3A10%3A%22user_token%22%3Bs%3A13%3A%2254b1829045748%22%3B%7D00afa8d08d80a3df1bb61a5cee424c5a; expires=Sat, 10-Jan-2015 21:50:40 GMT; path=&#x2F;&quot;}\n",
-  "timestamp_end": "2015-01-10 19:50:40 UTC"
+  ]
 }

@@ -6,8 +6,6 @@
       "name": "http://skynewsarabia.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:49:15 UTC",
-  "id": "982c0419-382a-4529-a7a3-7d020569f69a",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -33,6 +31,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "expires",
+        "content": "Sat, 10 Jan 2015 20:40:13 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-revision",
         "content": "8.8"
       }
@@ -40,29 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "age",
-        "content": "3"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:49:16 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "expires",
-        "content": "Sat, 10 Jan 2015 19:50:13 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "135414"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -72,7 +56,5 @@
         "content": "keep-alive"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;skynewsarabia.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;ar&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public,  max-age=60, s-maxage=60&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-revision&quot;, :content=&gt;&quot;8.8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;3&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:49:16 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:50:13 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;135414&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-10 19:49:16 UTC"
+  ]
 }

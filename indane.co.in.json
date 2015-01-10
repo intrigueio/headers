@@ -6,8 +6,6 @@
       "name": "http://indane.co.in"
     }
   },
-  "timestamp_start": "2015-01-10 19:49:27 UTC",
-  "id": "ac9694e7-3ae2-4be8-a9a7-14b816772377",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -40,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "Microsoft-IIS/8.5"
       }
@@ -48,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=uc1m6evpq2afda3vsegamvknr7; path=/, Ind-%3FP1%3FIndane=HEDCKIMA; Expires=Sat, 10-Jan-2015 21:49:28 GMT; Path=/; HttpOnly"
+        "content": "PHPSESSID=dgou0os94jqecgq7pge8rf3rq1; path=/, Ind-%3FP1%3FIndane=GODCKIMA; Expires=Sat, 10-Jan-2015 22:32:33 GMT; Path=/; HttpOnly"
       }
     },
     {
@@ -68,25 +73,9 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:49:28 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "close"
       }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "45276"
-      }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;indane.co.in&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;8.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=uc1m6evpq2afda3vsegamvknr7; path=&#x2F;, Ind-%3FP1%3FIndane=HEDCKIMA; Expires=Sat, 10-Jan-2015 21:49:28 GMT; Path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by-plesk&quot;, :content=&gt;&quot;PleskWin&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:49:28 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;45276&quot;}\n",
-  "timestamp_end": "2015-01-10 19:49:29 UTC"
+  ]
 }

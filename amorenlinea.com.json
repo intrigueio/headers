@@ -6,8 +6,6 @@
       "name": "http://amorenlinea.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:51:31 UTC",
-  "id": "f5238597-2406-4192-91fe-1a9b2d7a5643",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -21,13 +19,6 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html;charset=UTF-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:51:31 GMT"
       }
     },
     {
@@ -62,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "CFID=6fbccc4b-c070-44d7-8159-81bce490a665; Expires=Mon, 09-Jan-2045 03:43:01 GMT; Path=/, CFTOKEN=0; Expires=Mon, 09-Jan-2045 03:43:01 GMT; Path=/, CCID=51; Expires=Mon, 09-Jan-2045 03:43:01 GMT; Path=/, LCID=es; Expires=Mon, 09-Jan-2045 03:43:01 GMT; Path=/, SPEED=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, SITE=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, USERNAME=\"\"; Path=/, THIRDPARTY=\"\"; Path=/, AFFCODES=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, AWSELB=33B1F74F0CF65943AFD656B3A704D53B8B0992DE1DF46C4B93528169E635648AFA828F12D224B19C2BF56ED65866E8F7F5F2EDEAD30C72F03380FED3D4D41A60EDB4A2E43A;PATH=/;MAX-AGE=3600"
+        "content": "CFID=144b49e0-2b11-4951-bd67-1a1ac30f93da; Expires=Mon, 09-Jan-2045 04:26:01 GMT; Path=/, CFTOKEN=0; Expires=Mon, 09-Jan-2045 04:26:01 GMT; Path=/, CCID=51; Expires=Mon, 09-Jan-2045 04:26:01 GMT; Path=/, LCID=es; Expires=Mon, 09-Jan-2045 04:26:01 GMT; Path=/, SPEED=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, SITE=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, USERNAME=\"\"; Path=/, THIRDPARTY=\"\"; Path=/, AFFCODES=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, AWSELB=33B1F74F0CF65943AFD656B3A704D53B8B0992DE1D0FBE64D1D191513448C6B77FD3C655F08E9A722DDF79680004B2CEE7CBAFA24368DEE298451AC9AF433478767E516EBC;PATH=/;MAX-AGE=3600"
       }
     },
     {
@@ -75,18 +66,9 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;amorenlinea.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, no-store, no-cache, must-revalidate, no-cache=\\&quot;set-cookie\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:51:31 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;CAO DSP COR CURa OUR IND PHY ONL UNI DEM LOC\\&quot; policyref=\\&quot;&#x2F;w3c&#x2F;p3p.xml\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;CFID=6fbccc4b-c070-44d7-8159-81bce490a665; Expires=Mon, 09-Jan-2045 03:43:01 GMT; Path=&#x2F;, CFTOKEN=0; Expires=Mon, 09-Jan-2045 03:43:01 GMT; Path=&#x2F;, CCID=51; Expires=Mon, 09-Jan-2045 03:43:01 GMT; Path=&#x2F;, LCID=es; Expires=Mon, 09-Jan-2045 03:43:01 GMT; Path=&#x2F;, SPEED=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, SITE=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, USERNAME=\\&quot;\\&quot;; Path=&#x2F;, THIRDPARTY=\\&quot;\\&quot;; Path=&#x2F;, AFFCODES=\\&quot;\\&quot;; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=&#x2F;, AWSELB=33B1F74F0CF65943AFD656B3A704D53B8B0992DE1DF46C4B93528169E635648AFA828F12D224B19C2BF56ED65866E8F7F5F2EDEAD30C72F03380FED3D4D41A60EDB4A2E43A;PATH=&#x2F;;MAX-AGE=3600&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-10 19:51:31 UTC"
+  ]
 }

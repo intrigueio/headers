@@ -6,16 +6,7 @@
       "name": "http://jango.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:50:28 UTC",
-  "id": "af542f99-2de7-4d32-aed2-36200fee6e8e",
   "entities": [
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:50:28 GMT"
-      }
-    },
     {
       "type": "WebApplicationHeader",
       "attributes": {
@@ -34,7 +25,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"ab16b1988f8a26b35084f139b63fc678\""
+        "content": "\"fe5e4e2e34a61b05552755442633f3b9\""
       }
     },
     {
@@ -48,14 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "be3c706ba5cafe355a05dc9ddea5ea2d"
+        "content": "3bf1db207928617574789f9356d159eb"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.044136"
+        "content": "0.037691"
       }
     },
     {
@@ -76,7 +67,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "_jango_s=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTU2MjQ1MThiNGZlNGUzMzQyNTUzY2UzODYyMDc0YWEwBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUp5UTJzZzBGMjYvUUs2OWVxanprOXNmcEFMV0Z2cDhYT25USkdCdjhMY0E9BjsARg%3D%3D--b9f2ed0da55edf1f5ee5d1f5c08daeb15fe10cfb; domain=.jango.com; path=/; expires=Fri, 10-Jan-2020 19:50:28 GMT; HttpOnly"
+        "content": "_jango_s=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTY5YTU4ODQ0YjZiYzA5MjU3MjExZWUxNTVkNjI0ZWZjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXNaNEZwTUNjUmN0bzhXR2NGNWwrQ1lQOEJLeEZ1c29SYUtTK0duN0RtaVE9BjsARg%3D%3D--12e70e80a5bda0e439dbd9325e8a0dc4d36531e9; domain=.jango.com; path=/; expires=Fri, 10-Jan-2020 20:33:30 GMT; HttpOnly"
       }
     },
     {
@@ -96,18 +87,9 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "19322"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;jango.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:50:28 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;ab16b1988f8a26b35084f139b63fc678\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;be3c706ba5cafe355a05dc9ddea5ea2d&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.044136&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger 4.0.23&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_jango_s=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTU2MjQ1MThiNGZlNGUzMzQyNTUzY2UzODYyMDc0YWEwBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUp5UTJzZzBGMjYvUUs2OWVxanprOXNmcEFMV0Z2cDhYT25USkdCdjhMY0E9BjsARg%3D%3D--b9f2ed0da55edf1f5ee5d1f5c08daeb15fe10cfb; domain=.jango.com; path=&#x2F;; expires=Fri, 10-Jan-2020 19:50:28 GMT; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;19322&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n",
-  "timestamp_end": "2015-01-10 19:50:28 UTC"
+  ]
 }

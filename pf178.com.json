@@ -6,11 +6,76 @@
       "name": "http://pf178.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:51:28 UTC",
-  "id": "48b11a66-3cd1-4c05-b0ae-1864f1884f70",
   "entities": [
-
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;pf178.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[-] : Unable to connect: buffer error\n",
-  "timestamp_end": "2015-01-10 19:51:48 UTC"
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Thu, 19 Nov 1981 08:52:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/6.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET, PHP/5.2.17"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "real_ipd=104.237.133.83; expires=Sat, 10-Jan-2015 22:28:53 GMT; path=/; domain=pf178.com, ECM_ID=55d9f9b861eaea8f96f25537d1af7b7b56605ba2; path=/; domain=pf178.com, Hm_lpvt_aaf959d416d06ef6b2852f86c4bf3124=1420921733; path=/, Hm_lvt_aaf959d416d06ef6b2852f86c4bf3124=1420921733; expires=Sun, 10-Jan-2016 20:28:53 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-via",
+        "content": "1.1 shb16:0 (Cdn Cache Server V2.0)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    }
+  ]
 }

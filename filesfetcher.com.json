@@ -6,21 +6,12 @@
       "name": "http://filesfetcher.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:49:14 UTC",
-  "id": "ad00430b-735f-4ab7-bc35-9bada6671068",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
         "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:49:15 GMT"
       }
     },
     {
@@ -48,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=dafdb7dd8d1676f5606c216e14a98efa61420919355; expires=Sun, 10-Jan-16 19:49:15 GMT; path=/; domain=.filesfetcher.com; HttpOnly, _cloudify_session=MzYrT3BlRFdHNzRGRDlPeDRIVW1qSHBMdTFpYXRvYjQ0eXVDOEdJcWdJMDc4WDlaTzdkZTROWm05V1hkQ1ZwOFZyT2FhOEFkaW9XMlpLK2ljWFpXTnJVbnhYM1JyeFJYSXlwNHhKSUtIang3d2lzL043cFRMQWxENFg2MEFIRmR4RmdjdmxwaWlMdnladHo0MitBWTJCWSs4OU5xdzlwYVJDbnNnZHZqbWhjZTA2cElrSUhmaldVcXZrd2xMcEhGMGpxbmpmdW9aMzRJRDZkdEhiRENpa1hHbnkvWEhBTGFRY2djd2JIOElJZ2JaOTFoQlpSK1BKRVBWVk1ybnloaS0teHJIK2MyVXRrbEdwT1FqaUxOV3dxQT09--8a23d3a8bd5129097b2c1bfb625db0e25b044245; path=/; secure; HttpOnly"
+        "content": "__cfduid=d48f5fcd872ef5c177e24c7f3645eeaef1420921938; expires=Sun, 10-Jan-16 20:32:18 GMT; path=/; domain=.filesfetcher.com; HttpOnly, _cloudify_session=ejJQYitHQnJwQW5IWDJ2TVVoWmVMK2cwMEpmRCtMNnN3NnRnTEtES0Zic0RXY1pMQ09oV3hyY3crb2RpM25MOVUzdTluKzYrc2NBMllLclZmektaQ2V6SnA4RmhFU3BoSHBrVmdLS0s5Uy9jcHJ3OTArU2NPZlQ3RlZKQ2xrTjQ5eDlHTmtMSnpJL1J5Y2h6aFF0ZzJtYTJSeXdMRUMwWFV5N2pIeHc4ZDAvcmFPMlN0bDllZ0tER282cGlNeGMvaXkxdjQ4QUo1L3MzeVo5T2YySi9jNEJWRk1lbHplMWZpMGpjZk5lUVB2Qkc3YzRSbnFBR2pCYkFIYkdDWFI4UC0tQ3RPaTVpT0VuWWRQZDZ6T3NNQlF0Zz09--b3f93e4bbcda3a12607eb16912dc79031f03fa47; path=/; secure; HttpOnly"
       }
     },
     {
@@ -111,14 +102,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "2a5c42a3-2df8-4954-a87c-3e5fc28bb567"
+        "content": "46501fea-4418-4217-8b5f-0473edfcb4df"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.027109"
+        "content": "0.026768"
       }
     },
     {
@@ -132,10 +123,8 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a6b65910568118f-DFW"
+        "content": "1a6ba4a3e2c41183-DFW"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;filesfetcher.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:49:15 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=dafdb7dd8d1676f5606c216e14a98efa61420919355; expires=Sun, 10-Jan-16 19:49:15 GMT; path=&#x2F;; domain=.filesfetcher.com; HttpOnly, _cloudify_session=MzYrT3BlRFdHNzRGRDlPeDRIVW1qSHBMdTFpYXRvYjQ0eXVDOEdJcWdJMDc4WDlaTzdkZTROWm05V1hkQ1ZwOFZyT2FhOEFkaW9XMlpLK2ljWFpXTnJVbnhYM1JyeFJYSXlwNHhKSUtIang3d2lzL043cFRMQWxENFg2MEFIRmR4RmdjdmxwaWlMdnladHo0MitBWTJCWSs4OU5xdzlwYVJDbnNnZHZqbWhjZTA2cElrSUhmaldVcXZrd2xMcEhGMGpxbmpmdW9aMzRJRDZkdEhiRENpa1hHbnkvWEhBTGFRY2djd2JIOElJZ2JaOTFoQlpSK1BKRVBWVk1ybnloaS0teHJIK2MyVXRrbEdwT1FqaUxOV3dxQT09--8a23d3a8bd5129097b2c1bfb625db0e25b044245; path=&#x2F;; secure; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;strict-transport-security&quot;, :content=&gt;&quot;max-age=31536000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN, SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;2a5c42a3-2df8-4954-a87c-3e5fc28bb567&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.027109&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a6b65910568118f-DFW&quot;}\n",
-  "timestamp_end": "2015-01-10 19:49:15 UTC"
+  ]
 }

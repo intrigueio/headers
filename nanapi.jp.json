@@ -6,8 +6,6 @@
       "name": "http://nanapi.jp"
     }
   },
-  "timestamp_start": "2015-01-10 19:49:20 UTC",
-  "id": "ba342788-17cb-4923-9617-749e00e38745",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -26,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:49:21 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
         "content": "nginx/1.6.2"
       }
@@ -41,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__ptc=395aed9b028e09eeaa04aa48fa9b51a6a0eeae63; path=/; expires=Wed, 10 Jan 2035 19:49:21 -0000, __ttc=e8f2983b03381df15706708d6d1429615c9cf86b; path=/; expires=Sat, 10 Jan 2015 20:04:21 -0000, _nanapi_session=a2wyMlRqQnpkTnlabVFDUTJQeWJ6K29rZUJnUHZILzFSdXEyM3F5d2hINVBCVTFTclhQSjREblhacFVuTTd3L3VtZHAvL3l0WVBhTmNvQnF6OU5CdUhVdWgvSUNxUHJiZTBoK1VZRVpwYTZqdGJ0dC9GOVIwaEIvVGd2V2duaDBTWG5CYzY0OGdHRjE1TGdLKzUyK0FBPT0tLTRwdzN4dnZscSsxK2wzWUR1anBpNVE9PQ%3D%3D--ef314ae01bf097f5c55d9521310d99eede79a2b1; path=/; HttpOnly, AWSELB=6B6131B91CD2B87D365515623063D11F4B52AFBB8082E9C2B6F2DA053119DE64416A17151A508BBAB08FA627A5F69034CD9D42BDBE285808130793F3882F6AC341DF64F617;PATH=/;MAX-AGE=3600"
+        "content": "__ptc=5d73e0edff309e345cfba73135b5da1f1717e2fa; path=/; expires=Wed, 10 Jan 2035 20:32:24 -0000, __ttc=8b6a76f5494adce722c0b9b02bb2c7f5718db129; path=/; expires=Sat, 10 Jan 2015 20:47:24 -0000, _nanapi_session=L1I2ek92NnZSSDhkbFdKeUpxeFFnOXYySUlHaTJNLzhkaWRCTlZWamIwTWQ3T0dzS3B4WVNXeTdSMlB2YUpFaTlLSjdsc3hMNnVXV1hYZUlORWhzS2RDWFJuNERSL1lYUjVPdnBkaHNSUzNzTVZpbHJVTEZtaWpKMk5ycWlXazA4Uno0TkorTGMzWUVnWXI4dU0rRWxBPT0tLVFsTHR0d0ViM25ybUdMVktvL29zekE9PQ%3D%3D--11fb9f33bdd48bf1f83da4b64ddf61c27d8fc0be; path=/; HttpOnly, AWSELB=6B6131B91CD2B87D365515623063D11F4B52AFBB80EEEC78A9ACF60FAD8D1FFEBF9A432449508BBAB08FA627A5F69034CD9D42BDBEAD21BD94881C06113AFFC39F8EB122C5;PATH=/;MAX-AGE=3600"
       }
     },
     {
@@ -69,14 +60,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "2c46c50f-f9ca-4bf0-836f-7ba17a4db419"
+        "content": "0d15e78f-6aad-4a87-848f-353e226bb7dd"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.037379"
+        "content": "0.053423"
       }
     },
     {
@@ -89,18 +80,9 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "9892"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;nanapi.jp&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate, no-cache=\\&quot;set-cookie\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:49:21 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__ptc=395aed9b028e09eeaa04aa48fa9b51a6a0eeae63; path=&#x2F;; expires=Wed, 10 Jan 2035 19:49:21 -0000, __ttc=e8f2983b03381df15706708d6d1429615c9cf86b; path=&#x2F;; expires=Sat, 10 Jan 2015 20:04:21 -0000, _nanapi_session=a2wyMlRqQnpkTnlabVFDUTJQeWJ6K29rZUJnUHZILzFSdXEyM3F5d2hINVBCVTFTclhQSjREblhacFVuTTd3L3VtZHAvL3l0WVBhTmNvQnF6OU5CdUhVdWgvSUNxUHJiZTBoK1VZRVpwYTZqdGJ0dC9GOVIwaEIvVGd2V2duaDBTWG5CYzY0OGdHRjE1TGdLKzUyK0FBPT0tLTRwdzN4dnZscSsxK2wzWUR1anBpNVE9PQ%3D%3D--ef314ae01bf097f5c55d9521310d99eede79a2b1; path=&#x2F;; HttpOnly, AWSELB=6B6131B91CD2B87D365515623063D11F4B52AFBB8082E9C2B6F2DA053119DE64416A17151A508BBAB08FA627A5F69034CD9D42BDBE285808130793F3882F6AC341DF64F617;PATH=&#x2F;;MAX-AGE=3600&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;2c46c50f-f9ca-4bf0-836f-7ba17a4db419&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.037379&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;9892&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-10 19:49:21 UTC"
+  ]
 }

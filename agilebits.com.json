@@ -6,8 +6,6 @@
       "name": "http://agilebits.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:50:59 UTC",
-  "id": "abdf0002-a1f2-45d6-8cef-bc37baa87c35",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -26,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:51:00 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
         "content": "nginx"
       }
@@ -41,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "_AgileBits_session=d1BrV1FDYmdWMWlkamR6OWluOGs1d2dsNFphZVFMcy9zRVFrZE9lQnVMRmR6dTdKejVrWS8zOXFPcjlxWEFUaysvdXpFaDJtRWlKV3E4VDRRWnhFc0gxQlBzbnNsaG5sVURQZFdXZ1NuQlZYbXk1aEcwdUNXWjB1dkFFRm1YVGJDeFJWaHcyQmdwTEFBNEJZbWpXM1lPTWtZK0Z3dmxpbnRpblNLamZJK3VsMDd3eEpaUy8rSU9DVzdDazVBTTA5LS1xMXZwRndSUDdqUnNoam1wL3NXUEh3PT0%3D--b8536b2f56900de55dffea72eeb9b81331fb7f73; path=/; HttpOnly, AWSELB=47E529D316582B854CCAB0AF56BBB96607A0116F66C0B8F8E03A4B9281E2298983F56AEC2B65892A4445F56D3FFFB5BEE5C23BB7914D59FA2671C367FB41C486CDDCB18AC9B7A4E4EE4145D152B85ABE64EC24C9A2;PATH=/;HTTPONLY"
+        "content": "_AgileBits_session=STMvQlVlV1dmUkV0SkpkbE1EYk0walBoSTlOWHhBZ0RhaE1ORzFZL1c4bWhFanlMYVdxTFcvYjl3N2tCY0o2MWNIQ0tUdlpENUNmcUNmVjlTcjh5ZE5rQnFTNC9lVWVZRnp4SW5xM0daek44d2pDTTJuTDBjTUNUL2gwS3RiRzJuNmhXWVYvdTNYeXVVY0ViMUZlSWIwQXBiT1cyUHp1OFl3U01WZDJyTXRoVHhjWEErMzFYY2I3UWZtRWtVajQrLS02dzUrdHlUOFZ5SGpndmpJNS8wYmlBPT0%3D--7dedb7ce50ecfabe93c8da34b9838203557541fe; path=/; HttpOnly, AWSELB=47E529D316582B854CCAB0AF56BBB96607A0116F66DEAB422A612CAF60D24EBC12C26C5F0BD84161F4D3619BC3DB47ECC1792DB7F5EA5EA644722A28A2D5A8ABC8BC0F85CDDA931E3850C96B334E2080160F4AAFA6;PATH=/;HTTPONLY"
       }
     },
     {
@@ -69,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "2a8bbf30-6e84-4f96-b6ee-99b3fd514252"
+        "content": "0ddeb64e-c724-4d13-a0e8-727674be60ee"
       }
     },
     {
@@ -82,18 +73,9 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "2036"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;agilebits.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:51:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_AgileBits_session=d1BrV1FDYmdWMWlkamR6OWluOGs1d2dsNFphZVFMcy9zRVFrZE9lQnVMRmR6dTdKejVrWS8zOXFPcjlxWEFUaysvdXpFaDJtRWlKV3E4VDRRWnhFc0gxQlBzbnNsaG5sVURQZFdXZ1NuQlZYbXk1aEcwdUNXWjB1dkFFRm1YVGJDeFJWaHcyQmdwTEFBNEJZbWpXM1lPTWtZK0Z3dmxpbnRpblNLamZJK3VsMDd3eEpaUy8rSU9DVzdDazVBTTA5LS1xMXZwRndSUDdqUnNoam1wL3NXUEh3PT0%3D--b8536b2f56900de55dffea72eeb9b81331fb7f73; path=&#x2F;; HttpOnly, AWSELB=47E529D316582B854CCAB0AF56BBB96607A0116F66C0B8F8E03A4B9281E2298983F56AEC2B65892A4445F56D3FFFB5BEE5C23BB7914D59FA2671C367FB41C486CDDCB18AC9B7A4E4EE4145D152B85ABE64EC24C9A2;PATH=&#x2F;;HTTPONLY&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;2a8bbf30-6e84-4f96-b6ee-99b3fd514252&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;2036&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-10 19:51:00 UTC"
+  ]
 }

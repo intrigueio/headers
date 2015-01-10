@@ -6,21 +6,12 @@
       "name": "http://avvo.com"
     }
   },
-  "timestamp_start": "2015-01-10 19:49:17 UTC",
-  "id": "ac0cce0a-b8fd-49ae-9e48-0a72a49b7a4f",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
         "content": "nginx/1.6.2"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Sat, 10 Jan 2015 19:49:17 GMT"
       }
     },
     {
@@ -90,7 +81,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "_persistent_session_id=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiKTI2YTJiMmM1LTQ5MjctNDQ2OS1i%0AYzgzLTAxYzNmZmY0ODFhZgY7AFQ%3D%0A--08b8f08a07d1f8ae2116ea0a9b49a19fac9d2bf6; domain=.avvo.com; path=/; expires=Fri, 10 Jan 2020 19:49:17 -0000, presto_session_id=d3a9b696-ef18-4227-bc6f-aaac3ad54cde; path=/; expires=Sat, 10 Jan 2015 20:19:17 -0000, _session_id=fef329e4555c8cb7a85dcc53fe2d9d8d; path=/; HttpOnly"
+        "content": "_persistent_session_id=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiKWJkZTBjMWNmLTM2ZDAtNGYwYi1h%0AMmMzLTYyZTY0ODkzYWYzMQY7AFQ%3D%0A--079a72869d1eaf3c47a51cdafa60d13276890afe; domain=.avvo.com; path=/; expires=Fri, 10 Jan 2020 20:32:20 -0000, presto_session_id=e3b31a11-df10-49a2-8186-86520c971957; path=/; expires=Sat, 10 Jan 2015 21:02:20 -0000, _session_id=053e8e697f86c51e82dab1c3cba4d252; path=/; HttpOnly"
       }
     },
     {
@@ -104,17 +95,15 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "f6557e88-3e2e-4374-8531-20953e59a954"
+        "content": "b7b93c3a-bbed-4809-9fbd-f96fd4d1dc1c"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.055391"
+        "content": "0.089876"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;avvo.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:49:17 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;DSP LAW\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_persistent_session_id=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiKTI2YTJiMmM1LTQ5MjctNDQ2OS1i%0AYzgzLTAxYzNmZmY0ODFhZgY7AFQ%3D%0A--08b8f08a07d1f8ae2116ea0a9b49a19fac9d2bf6; domain=.avvo.com; path=&#x2F;; expires=Fri, 10 Jan 2020 19:49:17 -0000, presto_session_id=d3a9b696-ef18-4227-bc6f-aaac3ad54cde; path=&#x2F;; expires=Sat, 10 Jan 2015 20:19:17 -0000, _session_id=fef329e4555c8cb7a85dcc53fe2d9d8d; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;f6557e88-3e2e-4374-8531-20953e59a954&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.055391&quot;}\n",
-  "timestamp_end": "2015-01-10 19:49:17 UTC"
+  ]
 }
