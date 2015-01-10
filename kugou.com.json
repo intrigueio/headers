@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "KugouCDN"
+        "content": "nginx"
       }
     },
     {
@@ -31,6 +31,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "keep-alive",
         "content": "timeout=20"
       }
@@ -38,29 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding, Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "last-modified",
-        "content": "Sat, 10 Jan 2015 20:30:01 GMT"
+        "content": "Sat, 10 Jan 2015 21:30:02 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "kg-via",
-        "content": "SS-U-52-40"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     }
   ]
