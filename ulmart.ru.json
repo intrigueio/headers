@@ -6,11 +6,69 @@
       "name": "http://ulmart.ru"
     }
   },
-  "timestamp_start": "2015-01-09 19:46:11 UTC",
-  "id": "de8b1610-e2d3-438f-913a-a4cfb40b1e12",
   "entities": [
-
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ulmart.ru&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[-] : Timed out\n",
-  "timestamp_end": "2015-01-09 19:46:31 UTC"
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "QRATOR"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=15"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "route=ff268aa3fc4b7a5913cfe049c924c4b8; Domain=.ulmart.ru; Path=/, JSESSIONID=2043CDC963396FA3AD08E19B999D6D90.api20; Domain=.ulmart.ru; Path=/; HttpOnly, um_visitor=1; Domain=ulmart.ru; Expires=Sun, 10-Jan-2016 20:29:34 GMT; Path=/; HttpOnly, ieCheck=1; Domain=ulmart.ru; Expires=Sat, 24-Jan-2015 20:29:34 GMT; Path=/; HttpOnly, User-ID=-1; Domain=ulmart.ru; Expires=Sun, 10-Jan-2016 20:29:34 GMT; Path=/; HttpOnly, city=55555; Domain=ulmart.ru; Expires=Sat, 24-Jan-2015 20:29:34 GMT; Path=/, city=55555; Domain=ulmart.ru; Expires=Sat, 24-Jan-2015 20:29:35 GMT; Path=/, utmpid30=knhdilSxi6HBpUeJKebcAg==; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "ru-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "$xframe",
+        "content": "SAMEORIGIN"
+      }
+    }
+  ]
 }

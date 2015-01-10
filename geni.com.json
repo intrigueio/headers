@@ -6,11 +6,94 @@
       "name": "http://geni.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:51:31 UTC",
-  "id": "eeccda79-9ae9-430f-9c23-c817b8ee43e4",
+  "timestamp_start": "2015-01-10 19:51:22 UTC",
+  "id": "443c97c2-7403-4ffd-b145-5a94bfac18c9",
   "entities": [
-
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx/1.6.2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "date",
+        "content": "Sat, 10 Jan 2015 19:51:24 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": ""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-methods",
+        "content": "POST, GET, OPTIONS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-max-age",
+        "content": "1728000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "464"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ref=; path=/; expires=Sun, 11-Jan-2015 19:51:24 GMT, gsession=BAh7CjoPc2Vzc2lvbl9pZEkiJWNlNzAzZDZkMDBkMmEwMjNlZGY1ZmI5MWM5MmI5MTAzBjoGRUY6C2xvY2FsZUkiCmVuLVVTBjsGVDoUZ2VuaV9zZXNzaW9uX2lkSSIlMzdiZjAzYWI1ZGQ1ODM3ZTg4ZGFhZmMyZjdjZjRlMzgGOwZGSSIKZmxhc2gGOwZUSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7CzoQaHRtbF9ub3RpY2UwOgtub3RpY2UwOgl0cmZuMDoPaHRtbF9lcnJvcjA6CmVycm9yMDoJdHJmZTAGOgpAdXNlZHsLOwpGOwtGOwxGOw1GOw5GOw9GSSINcmVmX3R5cGUGOwZUSSITYmxhbmtfbm9fcmVmZXIGOwZU--a4c480e7383970f92f6e4ca1a2475ee04d53a651; path=/; HttpOnly"
+      }
+    }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;geni.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[-] : Timed out\n",
-  "timestamp_end": "2015-01-09 19:51:51 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;geni.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:51:24 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-methods&quot;, :content=&gt;&quot;POST, GET, OPTIONS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-max-age&quot;, :content=&gt;&quot;1728000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;464&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ref=; path=&#x2F;; expires=Sun, 11-Jan-2015 19:51:24 GMT, gsession=BAh7CjoPc2Vzc2lvbl9pZEkiJWNlNzAzZDZkMDBkMmEwMjNlZGY1ZmI5MWM5MmI5MTAzBjoGRUY6C2xvY2FsZUkiCmVuLVVTBjsGVDoUZ2VuaV9zZXNzaW9uX2lkSSIlMzdiZjAzYWI1ZGQ1ODM3ZTg4ZGFhZmMyZjdjZjRlMzgGOwZGSSIKZmxhc2gGOwZUSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7CzoQaHRtbF9ub3RpY2UwOgtub3RpY2UwOgl0cmZuMDoPaHRtbF9lcnJvcjA6CmVycm9yMDoJdHJmZTAGOgpAdXNlZHsLOwpGOwtGOwxGOw1GOw5GOw9GSSINcmVmX3R5cGUGOwZUSSITYmxhbmtfbm9fcmVmZXIGOwZU--a4c480e7383970f92f6e4ca1a2475ee04d53a651; path=&#x2F;; HttpOnly&quot;}\n",
+  "timestamp_end": "2015-01-10 19:51:24 UTC"
 }

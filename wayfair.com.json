@@ -6,8 +6,6 @@
       "name": "http://wayfair.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:46:14 UTC",
-  "id": "bc48d9bf-ceb6-4559-ad99-a8ced2442c96",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -48,14 +46,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server_id",
-        "content": "bo3.20.158"
+        "content": "bo3.20.18"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "txid",
-        "content": "rBAZEVSwMAeZ4CBiCoIWAg=="
+        "content": "rBAZEVSxi7JkTSAa/NJQAg=="
       }
     },
     {
@@ -70,13 +68,6 @@
       "attributes": {
         "name": "vary",
         "content": "User-Agent, Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:46:15 GMT"
       }
     },
     {
@@ -97,10 +88,8 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ABTestVariations=criteo_tellapart_test_v1=criteo; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726650872; path=/; domain=wayfair.com, CSNUtId=ac101911-54b0-3007-99e0-20620a821602; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726650872; path=/; domain=wayfair.com, WFDC=BO; expires=Sat, 09-Jan-2016 19:46:15 GMT; Max-Age=31536000; path=/; domain=wayfair.com, WFSID=65fnlheekfv73qfd5rm5e57rn4; path=/; domain=wayfair.com; HttpOnly, CSN=g_zip=67346; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726650872; path=/; domain=wayfair.com, CSNBrief=SLoc=bo3; path=/; domain=wayfair.com, serverUAInfo=%7B%22browser%22%3A%22unknown%22%2C%22browserVersion%22%3A%22%22%2C%22OS%22%3A%22unknown+os%22%2C%22OSVersion%22%3A%22%22%2C%22isMobile%22%3Afalse%2C%22isTablet%22%3Afalse%7D; path=/; domain=wayfair.com, wfgelfs=db_class=0; path=/; domain=.wayfair.com, WfTracking=NAN_PID=NULL; path=/; domain=wayfair.com"
+        "content": "ABTestVariations=criteo_tellapart_test_v1=criteo; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726561869; path=/; domain=wayfair.com, CSNUtId=ac101911-54b1-8bb2-644d-201afcd25002; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726561869; path=/; domain=wayfair.com, WFDC=BO; expires=Sun, 10-Jan-2016 20:29:38 GMT; Max-Age=31536000; path=/; domain=wayfair.com, WFSID=bgcc2330edbrlm3ddagnkt4d44; path=/; domain=wayfair.com; HttpOnly, CSN=g_zip=67346; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726561869; path=/; domain=wayfair.com, CSNBrief=SLoc=bo3; path=/; domain=wayfair.com, serverUAInfo=%7B%22browser%22%3A%22unknown%22%2C%22browserVersion%22%3A%22%22%2C%22OS%22%3A%22unknown+os%22%2C%22OSVersion%22%3A%22%22%2C%22isMobile%22%3Afalse%2C%22isTablet%22%3Afalse%7D; path=/; domain=wayfair.com, wfgelfs=db_class=0; path=/; domain=.wayfair.com, WfTracking=NAN_PID=NULL; path=/; domain=wayfair.com"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;wayfair.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server_id&quot;, :content=&gt;&quot;bo3.20.158&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;txid&quot;, :content=&gt;&quot;rBAZEVSwMAeZ4CBiCoIWAg==&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;wfr&quot;, :content=&gt;&quot;SSNX&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;User-Agent, Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:46:15 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ABTestVariations=criteo_tellapart_test_v1=criteo; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726650872; path=&#x2F;; domain=wayfair.com, CSNUtId=ac101911-54b0-3007-99e0-20620a821602; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726650872; path=&#x2F;; domain=wayfair.com, WFDC=BO; expires=Sat, 09-Jan-2016 19:46:15 GMT; Max-Age=31536000; path=&#x2F;; domain=wayfair.com, WFSID=65fnlheekfv73qfd5rm5e57rn4; path=&#x2F;; domain=wayfair.com; HttpOnly, CSN=g_zip=67346; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726650872; path=&#x2F;; domain=wayfair.com, CSNBrief=SLoc=bo3; path=&#x2F;; domain=wayfair.com, serverUAInfo=%7B%22browser%22%3A%22unknown%22%2C%22browserVersion%22%3A%22%22%2C%22OS%22%3A%22unknown+os%22%2C%22OSVersion%22%3A%22%22%2C%22isMobile%22%3Afalse%2C%22isTablet%22%3Afalse%7D; path=&#x2F;; domain=wayfair.com, wfgelfs=db_class=0; path=&#x2F;; domain=.wayfair.com, WfTracking=NAN_PID=NULL; path=&#x2F;; domain=wayfair.com&quot;}\n",
-  "timestamp_end": "2015-01-09 19:46:15 UTC"
+  ]
 }

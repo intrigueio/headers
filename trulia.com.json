@@ -6,8 +6,6 @@
       "name": "http://trulia.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:45:53 UTC",
-  "id": "d467aa35-69d1-4254-8cf4-3873c0ff1e7a",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -40,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cnection",
-        "content": "close"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
       }
@@ -54,15 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "rtss",
+        "content": "1-1181-4"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:45:54 GMT"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -83,10 +74,8 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=a2cb07672216914e1fb3dec306918fd4; path=/; HttpOnly, tlftmusr=150109a2cb07672216914e1fb3dec306918fd4; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726650893; path=/, ftmsess=1; expires=Sat, 10-Jan-2015 07:45:54 GMT; Max-Age=43200; path=/, promptdata=%7B%22c%22%3A%7B%22pg-home%22%3A1%7D%2C%22pd%22%3A%5B%5D%2C%22pts%22%3Anull%7D; expires=Sat, 09-Jan-2016 19:45:54 GMT; Max-Age=31536000; path=/; domain=.trulia.com, fvstts=20150109; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726650893; path=/, TruliaLBSS=1969689516.20480.0000; path=/, truss=0;expires=Wed, 08-Jul-2015 19:45:54 GMT;path=/;"
+        "content": "truss=1; path=/; domain=.trulia.com, PHPSESSID=8378d495e63117548bca608a30f805d1; path=/; HttpOnly, tlftmusr=1501108378d495e63117548bca608a30f805d1; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726561890; path=/, ftmsess=1; expires=Sun, 11-Jan-2015 08:29:17 GMT; Max-Age=43200; path=/, promptdata=%7B%22c%22%3A%7B%22pg-home%22%3A1%7D%2C%22pd%22%3A%5B%5D%2C%22pts%22%3Anull%7D; expires=Sun, 10-Jan-2016 20:29:17 GMT; Max-Age=31536000; path=/; domain=.trulia.com, fvstts=20150110; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726561890; path=/, TruliaLBcookie=2165183404.20480.0000; path=/, TruliaLBSS=993465260.20480.0000; path=/, truss=1;expires=Thu, 09-Jul-2015 20:29:17 GMT;path=/;"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;trulia.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.4.7 (Ubuntu)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cnection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:45:54 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=a2cb07672216914e1fb3dec306918fd4; path=&#x2F;; HttpOnly, tlftmusr=150109a2cb07672216914e1fb3dec306918fd4; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726650893; path=&#x2F;, ftmsess=1; expires=Sat, 10-Jan-2015 07:45:54 GMT; Max-Age=43200; path=&#x2F;, promptdata=%7B%22c%22%3A%7B%22pg-home%22%3A1%7D%2C%22pd%22%3A%5B%5D%2C%22pts%22%3Anull%7D; expires=Sat, 09-Jan-2016 19:45:54 GMT; Max-Age=31536000; path=&#x2F;; domain=.trulia.com, fvstts=20150109; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=726650893; path=&#x2F;, TruliaLBSS=1969689516.20480.0000; path=&#x2F;, truss=0;expires=Wed, 08-Jul-2015 19:45:54 GMT;path=&#x2F;;&quot;}\n",
-  "timestamp_end": "2015-01-09 19:45:54 UTC"
+  ]
 }

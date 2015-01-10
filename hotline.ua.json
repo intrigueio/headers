@@ -6,21 +6,12 @@
       "name": "http://hotline.ua"
     }
   },
-  "timestamp_start": "2015-01-09 19:48:18 UTC",
-  "id": "ca6c2369-b6b5-4fc2-9f23-02135325e2f6",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
         "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:48:18 GMT"
       }
     },
     {
@@ -48,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "region=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, region_mode=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, region=1; expires=Sat, 10-Jan-2015 19:48:18 GMT; path=/; domain=.hotline.ua, city_id=187; expires=Sat, 10-Jan-2015 19:48:18 GMT; path=/; domain=.hotline.ua, region_mode=1; expires=Sat, 10-Jan-2015 19:48:18 GMT; path=/; domain=.hotline.ua, currency=uah; expires=Sat, 10-Jan-2015 19:48:18 GMT; path=/; domain=.hotline.ua, PHPSESSID=4fb26284d35e33d5a82b8fae7378e99e; path=/; domain=.hotline.ua, PHPSESSID=659c6f32166a77f2b7185354be5cec0b; path=/; domain=.hotline.ua, PHPSESSID=d90a1d444640f29e5217e104b3d04c18; path=/; domain=.hotline.ua, PHPSESSID=d7526730b695513214e384d138f5ff39; path=/; domain=.hotline.ua, PHPSESSID=348cfdfe16ed5bee4644322a7adcb65d; path=/; domain=.hotline.ua, PHPSESSID=35427e9a7c3dd92295eb146ed9573548; path=/; domain=.hotline.ua, PHPSESSID=ae2a70c2a240a8ac92847c2596e3e3a0; path=/; domain=.hotline.ua, PHPSESSID=260e7c1834176d0969af2ce92ad71fc5; path=/; domain=.hotline.ua"
+        "content": "region=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, region_mode=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, region=1; expires=Sun, 11-Jan-2015 20:31:27 GMT; path=/; domain=.hotline.ua, city_id=187; expires=Sun, 11-Jan-2015 20:31:27 GMT; path=/; domain=.hotline.ua, region_mode=1; expires=Sun, 11-Jan-2015 20:31:27 GMT; path=/; domain=.hotline.ua, currency=uah; expires=Sun, 11-Jan-2015 20:31:27 GMT; path=/; domain=.hotline.ua, PHPSESSID=7d29c3778aacb2adbc855fa60a6ef9e9; path=/; domain=.hotline.ua, PHPSESSID=a8967b58a67fc1559162804e23327a28; path=/; domain=.hotline.ua, PHPSESSID=5e84c3da27110e0f7ff338ad9000f1e8; path=/; domain=.hotline.ua, PHPSESSID=10cd76db5df3f4a2019d9bc5e982470f; path=/; domain=.hotline.ua, PHPSESSID=07c50ab39091a4753cddbce0c813a84d; path=/; domain=.hotline.ua, PHPSESSID=22a0368fb922645e7d2961e1f4948ccb; path=/; domain=.hotline.ua, PHPSESSID=e2745c7aeb7336c28830c5195367352b; path=/; domain=.hotline.ua, PHPSESSID=948cc97bbe97545079586edea83939d8; path=/; domain=.hotline.ua"
       }
     },
     {
@@ -58,7 +49,5 @@
         "content": "ru"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;hotline.ua&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:48:18 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=WINDOWS-1251&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;region=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;, region_mode=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;, region=1; expires=Sat, 10-Jan-2015 19:48:18 GMT; path=&#x2F;; domain=.hotline.ua, city_id=187; expires=Sat, 10-Jan-2015 19:48:18 GMT; path=&#x2F;; domain=.hotline.ua, region_mode=1; expires=Sat, 10-Jan-2015 19:48:18 GMT; path=&#x2F;; domain=.hotline.ua, currency=uah; expires=Sat, 10-Jan-2015 19:48:18 GMT; path=&#x2F;; domain=.hotline.ua, PHPSESSID=4fb26284d35e33d5a82b8fae7378e99e; path=&#x2F;; domain=.hotline.ua, PHPSESSID=659c6f32166a77f2b7185354be5cec0b; path=&#x2F;; domain=.hotline.ua, PHPSESSID=d90a1d444640f29e5217e104b3d04c18; path=&#x2F;; domain=.hotline.ua, PHPSESSID=d7526730b695513214e384d138f5ff39; path=&#x2F;; domain=.hotline.ua, PHPSESSID=348cfdfe16ed5bee4644322a7adcb65d; path=&#x2F;; domain=.hotline.ua, PHPSESSID=35427e9a7c3dd92295eb146ed9573548; path=&#x2F;; domain=.hotline.ua, PHPSESSID=ae2a70c2a240a8ac92847c2596e3e3a0; path=&#x2F;; domain=.hotline.ua, PHPSESSID=260e7c1834176d0969af2ce92ad71fc5; path=&#x2F;; domain=.hotline.ua&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;ru&quot;}\n",
-  "timestamp_end": "2015-01-09 19:48:19 UTC"
+  ]
 }

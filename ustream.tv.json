@@ -6,8 +6,6 @@
       "name": "http://ustream.tv"
     }
   },
-  "timestamp_start": "2015-01-09 19:46:24 UTC",
-  "id": "f5312866-0b3f-4634-85a7-bd9b3efd78fc",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -41,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-rsrc",
-        "content": "sjc-web100"
+        "content": "sjc-web108"
       }
     },
     {
@@ -62,14 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=UstreamGuestSession; path=/; HttpOnly, ab_test_1=1; expires=Wed, 14-Jan-2015 19:46:25 GMT; path=/, ab_test_2=1; expires=Wed, 14-Jan-2015 19:46:25 GMT; path=/, ustream-guest=YkXfinacNDgBwiMdyLRRpwu%252BSkok2uuBpUOgyuTPL4iL739NARCXx6Yr%252FWa6y9ngHxeV7bIyL%252BDAcWsYMX5GqgnZpTmpHjU7dbr1yWvbntKeIxzJk%252BiOiO9LpLwjw%252BTMRkFv4JioweMkzqtvNQZ5%252BPIvgw0Rw2%252FG1VOMbQSyTgesRGE3CKMvTu5BL42ttJS20bRexTAKEM5pVBhTc3PXFmptIPC6bsdJCYV6qCYrcmKhj1KvRngA1b9d; path=/; httponly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "8367"
+        "content": "PHPSESSID=UstreamGuestSession; path=/; HttpOnly, ab_test_1=0; expires=Thu, 15-Jan-2015 20:29:46 GMT; path=/, ab_test_2=1; expires=Thu, 15-Jan-2015 20:29:46 GMT; path=/, ustream-guest=upnQpR49PXUY8PulbN9RJ%252BWb333SwRw3yLa2gtOsL2oWkV2CGJUUJE5fPfmkWyjDQJ1pm792cw6NJXTxSWE%252BmnWWOlM%252B1mha5YJ7iZ9s9NDQnLnMs1EEVE3CDI%252BDzJx%252BwHxjoUH3zxGGPZyw6BbsT5Y4Vud7oN8MozU0HPWiTTzAY1tIQZNk0tklTqr78Y9hnofAcXKOL%252BTd1Da8gZd8n5atZpKx4jBjKGcPyQ4VvrZCJ8AzZYicFxON; path=/; httponly"
       }
     },
     {
@@ -77,20 +68,6 @@
       "attributes": {
         "name": "accept-ranges",
         "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:46:25 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "age",
-        "content": "0"
       }
     },
     {
@@ -118,10 +95,8 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-backendorigin",
-        "content": "www.ustream.tv-bck/sjc-web-cache02"
+        "content": "www.ustream.tv-bck/sjc-web-cache06"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;ustream.tv&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;ustream&#x2F;web&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public, max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rsrc&quot;, :content=&gt;&quot;sjc-web100&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PHPSESSID=UstreamGuestSession; path=&#x2F;; HttpOnly, ab_test_1=1; expires=Wed, 14-Jan-2015 19:46:25 GMT; path=&#x2F;, ab_test_2=1; expires=Wed, 14-Jan-2015 19:46:25 GMT; path=&#x2F;, ustream-guest=YkXfinacNDgBwiMdyLRRpwu%252BSkok2uuBpUOgyuTPL4iL739NARCXx6Yr%252FWa6y9ngHxeV7bIyL%252BDAcWsYMX5GqgnZpTmpHjU7dbr1yWvbntKeIxzJk%252BiOiO9LpLwjw%252BTMRkFv4JioweMkzqtvNQZ5%252BPIvgw0Rw2%252FG1VOMbQSyTgesRGE3CKMvTu5BL42ttJS20bRexTAKEM5pVBhTc3PXFmptIPC6bsdJCYV6qCYrcmKhj1KvRngA1b9d; path=&#x2F;; httponly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;8367&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:46:25 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache-info&quot;, :content=&gt;&quot;0 (60)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-domain&quot;, :content=&gt;&quot;www.ustream.tv&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-backendorigin&quot;, :content=&gt;&quot;www.ustream.tv-bck&#x2F;sjc-web-cache02&quot;}\n",
-  "timestamp_end": "2015-01-09 19:46:25 UTC"
+  ]
 }

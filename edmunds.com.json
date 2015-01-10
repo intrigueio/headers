@@ -6,8 +6,6 @@
       "name": "http://edmunds.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:46:34 UTC",
-  "id": "15f975cb-b97f-4f81-8e10-b370d131fdcf",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -54,13 +52,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:46:35 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "transfer-encoding",
         "content": "chunked"
       }
@@ -76,10 +67,8 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "edmunds=37d3dea0-9838-11e4-b188-06c826000c9a; Domain=.edmunds.com; Expires=Sat, 09-Jan-2016 19:46:35 GMT; Path=/, edw=829967860925338240; Domain=.edmunds.com; Expires=Fri, 09-Jan-2015 20:16:35 GMT; Path=/, JSESSIONID=5A9DA5AE84913D0C7FC193AF4A268578; Path=/; HttpOnly, EdmundsYear=\"&dma=504\"; Version=1; Domain=.edmunds.com; Max-Age=31536000; Expires=Sat, 09-Jan-2016 19:46:35 GMT; Path=/, EdmundsYear=\"&zip=08205&dma=504:IP&city=Absecon&state=NJ\"; Version=1; Domain=.edmunds.com; Max-Age=31536000; Expires=Sat, 09-Jan-2016 19:46:35 GMT; Path=/, EnvironmentID=856e68014c6d00d1fc1372ab40dbba17;Max-Age=180;Path=/;Version=1;Domain=.edmunds.com;, EnvironmentID=856e68014c6d00d1fc1372ab40dbba17;Max-Age=180;Path=/;Version=1;Domain=.edmunds-media.com;"
+        "content": "edmunds=6fb15170-9907-11e4-b188-06c826000c9a; Domain=.edmunds.com; Expires=Sun, 10-Jan-2016 20:29:54 GMT; Path=/, edw=58079426527726232; Domain=.edmunds.com; Expires=Sat, 10-Jan-2015 20:59:54 GMT; Path=/, JSESSIONID=DA4859BD7D1CEC5AB6BA787866F5F140; Path=/; HttpOnly, EdmundsYear=\"&dma=504\"; Version=1; Domain=.edmunds.com; Max-Age=31536000; Expires=Sun, 10-Jan-2016 20:29:54 GMT; Path=/, EdmundsYear=\"&zip=08205&dma=504:IP&city=Absecon&state=NJ\"; Version=1; Domain=.edmunds.com; Max-Age=31536000; Expires=Sun, 10-Jan-2016 20:29:54 GMT; Path=/, EnvironmentID=856e68014c6d00d1fc1372ab40dbba17;Max-Age=180;Path=/;Version=1;Domain=.edmunds.com;, EnvironmentID=856e68014c6d00d1fc1372ab40dbba17;Max-Age=180;Path=/;Version=1;Domain=.edmunds-media.com;"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;edmunds.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache-Coyote&#x2F;1.1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=ISO-8859-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-session&quot;, :content=&gt;&quot;856e68014c6d00d1fc1372ab40dbba17&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-environment&quot;, :content=&gt;&quot;Prod-2&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:46:35 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;edmunds=37d3dea0-9838-11e4-b188-06c826000c9a; Domain=.edmunds.com; Expires=Sat, 09-Jan-2016 19:46:35 GMT; Path=&#x2F;, edw=829967860925338240; Domain=.edmunds.com; Expires=Fri, 09-Jan-2015 20:16:35 GMT; Path=&#x2F;, JSESSIONID=5A9DA5AE84913D0C7FC193AF4A268578; Path=&#x2F;; HttpOnly, EdmundsYear=\\&quot;&amp;dma=504\\&quot;; Version=1; Domain=.edmunds.com; Max-Age=31536000; Expires=Sat, 09-Jan-2016 19:46:35 GMT; Path=&#x2F;, EdmundsYear=\\&quot;&amp;zip=08205&amp;dma=504:IP&amp;city=Absecon&amp;state=NJ\\&quot;; Version=1; Domain=.edmunds.com; Max-Age=31536000; Expires=Sat, 09-Jan-2016 19:46:35 GMT; Path=&#x2F;, EnvironmentID=856e68014c6d00d1fc1372ab40dbba17;Max-Age=180;Path=&#x2F;;Version=1;Domain=.edmunds.com;, EnvironmentID=856e68014c6d00d1fc1372ab40dbba17;Max-Age=180;Path=&#x2F;;Version=1;Domain=.edmunds-media.com;&quot;}\n",
-  "timestamp_end": "2015-01-09 19:46:35 UTC"
+  ]
 }

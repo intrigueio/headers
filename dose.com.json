@@ -6,8 +6,6 @@
       "name": "http://dose.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:48:09 UTC",
-  "id": "85d31516-7711-4601-87f7-27995715763b",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -26,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:48:09 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
         "content": "nginx"
       }
@@ -41,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "laravel_session=eyJpdiI6IlR2UE90Nlp6eVREYnFtRml2QkdSeXZSbExuR2ZzQWdwQWpjS1FrZjExeDA9IiwidmFsdWUiOiJSb1dGM1FodlM5M3Y5bG92NXZpRkpTMURIdXVRejA1YVRPdWUzSXF0dlpcL253WVZwUFhyMHNGS2tPeFwvTW9wUmdmYUdZOFBDeHV3QXRmNTJqWGJ4M2RBPT0iLCJtYWMiOiJjOTVmNGMwMWQ0YjQwYzFiZjM5Y2RhOGFiZjJjY2Q0YzE5YWI3NjEzY2M0YTM3YmU2MWE4ZDkzYjU1ZDJlNDgxIn0%3D; expires=Fri, 09-Jan-2015 21:48:09 GMT; path=/; httponly, features_uaid=eyJpdiI6IjZUNHhzZzBXNVNNbit0V1BUMzBCMFZweEVGMnVvYUFaOEhYS2ljWWM4cEE9IiwidmFsdWUiOiJLTSs2S2c1Nis0R2U2UG5vTjhwNHlwQXplSW0yelBVUEtmcmp3WDRXRGVRPSIsIm1hYyI6ImRmZDBjMTI3MTdjYzM1ZmExMmY5OGVhMzU1MTVhZGRiYWU1MTg0N2ExMTE4OGI3Yzc5YWYxMjA3OGYzMjJmNTkifQ%3D%3D; path=/; httponly"
+        "content": "laravel_session=eyJpdiI6IkMxcVh4cWNCZlRURmRrM0RuUzNtSk1wdTNUZzVHZ0ZrOENlSmtrT0xqTUk9IiwidmFsdWUiOiJhUldRblNSajloOGpMbDcrK01kaEZteGZGOGpZRVJCWUlDTDJZT2pVVnQxMFhyQ1ViaUZYZjZPT20xd0Y2XC85a2lwQ2JKU0hsbzVZTVp4elZ6aktzc0E9PSIsIm1hYyI6ImRlMWZmY2Y0ZThhOTNiZjk5OGNhMzNhMGE5NzhmM2NlZGY0YjY4MWI0ZWI5NDQ4NmMxOWZkMGJkNDRmOWJlNjIifQ%3D%3D; expires=Sat, 10-Jan-2015 22:31:17 GMT; path=/; httponly, features_uaid=eyJpdiI6ImFtdkpSWGttdnFFUFF5ek1nUDZxWUpFOFozZ1wvclNMcW04MlBkdk45S2Y4PSIsInZhbHVlIjoiYlprMFdGWWRTVXZma0NrU002eWtmYmxRM1RlQ0kzODQ4cHRQT3UxdTI4az0iLCJtYWMiOiIzYzU5ODUwOTIzODEyMDE3MTk0ZmExODZlYTgzOTNhNTU0ZDFkOGRjMGZlNDdmMTU4MGJkNWM3MmQ4MDA0NzE5In0%3D; path=/; httponly"
       }
     },
     {
@@ -55,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-backend",
-        "content": "core02"
+        "content": "core08"
       }
     },
     {
@@ -68,8 +59,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "11209"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -79,7 +70,5 @@
         "content": "keep-alive"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;dose.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:48:09 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;laravel_session=eyJpdiI6IlR2UE90Nlp6eVREYnFtRml2QkdSeXZSbExuR2ZzQWdwQWpjS1FrZjExeDA9IiwidmFsdWUiOiJSb1dGM1FodlM5M3Y5bG92NXZpRkpTMURIdXVRejA1YVRPdWUzSXF0dlpcL253WVZwUFhyMHNGS2tPeFwvTW9wUmdmYUdZOFBDeHV3QXRmNTJqWGJ4M2RBPT0iLCJtYWMiOiJjOTVmNGMwMWQ0YjQwYzFiZjM5Y2RhOGFiZjJjY2Q0YzE5YWI3NjEzY2M0YTM3YmU2MWE4ZDkzYjU1ZDJlNDgxIn0%3D; expires=Fri, 09-Jan-2015 21:48:09 GMT; path=&#x2F;; httponly, features_uaid=eyJpdiI6IjZUNHhzZzBXNVNNbit0V1BUMzBCMFZweEVGMnVvYUFaOEhYS2ljWWM4cEE9IiwidmFsdWUiOiJLTSs2S2c1Nis0R2U2UG5vTjhwNHlwQXplSW0yelBVUEtmcmp3WDRXRGVRPSIsIm1hYyI6ImRmZDBjMTI3MTdjYzM1ZmExMmY5OGVhMzU1MTVhZGRiYWU1MTg0N2ExMTE4OGI3Yzc5YWYxMjA3OGYzMjJmNTkifQ%3D%3D; path=&#x2F;; httponly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-backend&quot;, :content=&gt;&quot;core02&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.4.17&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;11209&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-09 19:48:09 UTC"
+  ]
 }

@@ -6,8 +6,6 @@
       "name": "http://laredoute.fr"
     }
   },
-  "timestamp_start": "2015-01-09 19:47:00 UTC",
-  "id": "67cab04a-dbc2-480d-82f9-8448c6ea7469",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -27,7 +25,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "BaseDirectory=; expires=Mon, 09-Feb-2015 19:47:03 GMT; path=/, BaseDirectory=; expires=Mon, 09-Feb-2015 19:47:03 GMT; path=/, ASP.NET_SessionId=glvzqw3kbb0hkgczydxnw2f5; path=/; HttpOnly, CurrencyShortName=EUR; expires=Sat, 09-Jan-2016 19:47:03 GMT; path=/, TheseusGUID1=4e0abe56-9310-448e-ae39-f1f31f3d2ef6; expires=Fri, 16-Jan-2015 19:47:03 GMT; path=/, SArea=HP; expires=Sat, 09-Jan-2016 19:47:03 GMT; path=/, LRCookiePrivacy=0; expires=Sat, 09-Jan-2016 19:47:03 GMT; path=/, M.R.Basket=ID=4e0abe56-9310-448e-ae39-f1f31f3d2ef6|09/01/2015 20:47:03||&BsktPrCnt=0&BsktLineItemCnt=0; expires=Fri, 23-Jan-2015 19:47:03 GMT; path=/, dtCookie=CA1CD30262CB600289D7AF60B5367ACF|LR+FR|1; Path=/; Domain=.laredoute.fr, SRV=3494320556.20480.0000; expires=Fri, 09-Jan-2015 20:17:04 GMT; path=/, Theseus_DC=1543425730.20480.0000; expires=Tue, 13-Jan-2015 20:16:57 GMT; path=/, GEOCC=US;path=/;"
+        "content": "BaseDirectory=; expires=Tue, 10-Feb-2015 20:30:21 GMT; path=/, BaseDirectory=; expires=Tue, 10-Feb-2015 20:30:21 GMT; path=/, ASP.NET_SessionId=zudpyhvr5goxyoa5s4m5l0uw; path=/; HttpOnly, CurrencyShortName=EUR; expires=Sun, 10-Jan-2016 20:30:21 GMT; path=/, TheseusGUID1=e1585422-3ef0-489b-8e2f-c1b45d73bc7f; expires=Sat, 17-Jan-2015 20:30:21 GMT; path=/, SArea=HP; expires=Sun, 10-Jan-2016 20:30:21 GMT; path=/, LRCookiePrivacy=0; expires=Sun, 10-Jan-2016 20:30:21 GMT; path=/, M.R.Basket=ID=e1585422-3ef0-489b-8e2f-c1b45d73bc7f|10/01/2015 21:30:21||&BsktPrCnt=0&BsktLineItemCnt=0; expires=Sat, 24-Jan-2015 20:30:21 GMT; path=/, dtCookie=A29865721D3E685A51517BEE2771F8A5|LR+FR|1; Path=/; Domain=.laredoute.fr, SRV=3393657260.20480.0000; expires=Sat, 10-Jan-2015 21:00:22 GMT; path=/, Theseus_DC=1543425730.20480.0000; expires=Wed, 14-Jan-2015 21:00:15 GMT; path=/, GEOCC=US;path=/;"
       }
     },
     {
@@ -82,20 +80,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:47:04 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "age",
-        "content": "0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -111,10 +95,8 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-server",
-        "content": "zzsrpc11"
+        "content": "zzsrpc10"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;laredoute.fr&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;BaseDirectory=; expires=Mon, 09-Feb-2015 19:47:03 GMT; path=&#x2F;, BaseDirectory=; expires=Mon, 09-Feb-2015 19:47:03 GMT; path=&#x2F;, ASP.NET_SessionId=glvzqw3kbb0hkgczydxnw2f5; path=&#x2F;; HttpOnly, CurrencyShortName=EUR; expires=Sat, 09-Jan-2016 19:47:03 GMT; path=&#x2F;, TheseusGUID1=4e0abe56-9310-448e-ae39-f1f31f3d2ef6; expires=Fri, 16-Jan-2015 19:47:03 GMT; path=&#x2F;, SArea=HP; expires=Sat, 09-Jan-2016 19:47:03 GMT; path=&#x2F;, LRCookiePrivacy=0; expires=Sat, 09-Jan-2016 19:47:03 GMT; path=&#x2F;, M.R.Basket=ID=4e0abe56-9310-448e-ae39-f1f31f3d2ef6|09&#x2F;01&#x2F;2015 20:47:03||&amp;BsktPrCnt=0&amp;BsktLineItemCnt=0; expires=Fri, 23-Jan-2015 19:47:03 GMT; path=&#x2F;, dtCookie=CA1CD30262CB600289D7AF60B5367ACF|LR+FR|1; Path=&#x2F;; Domain=.laredoute.fr, SRV=3494320556.20480.0000; expires=Fri, 09-Jan-2015 20:17:04 GMT; path=&#x2F;, Theseus_DC=1543425730.20480.0000; expires=Tue, 13-Jan-2015 20:16:57 GMT; path=&#x2F;, GEOCC=US;path=&#x2F;;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;preprod.laredoute.fr&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-headers&quot;, :content=&gt;&quot;Origin, X-Requested-With, Content-Type, Accept&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-credentials&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dynatrace-js-agent&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:47:04 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-server&quot;, :content=&gt;&quot;zzsrpc11&quot;}\n",
-  "timestamp_end": "2015-01-09 19:47:04 UTC"
+  ]
 }

@@ -6,21 +6,12 @@
       "name": "http://audiojungle.net"
     }
   },
-  "timestamp_start": "2015-01-09 19:49:04 UTC",
-  "id": "dbb85fd6-2965-41b2-a126-34bb7cd6d71a",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
         "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:49:05 GMT"
       }
     },
     {
@@ -69,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"bf203df7dd5dd6d67150c3dbfe9b0796\""
+        "content": "\"3030aa790b0dd6dcc7ed87938f01a27c\""
       }
     },
     {
@@ -83,24 +74,22 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "referring_user=-1; domain=.audiojungle.net; path=/; expires=Thu, 09-Apr-2015 20:49:04 GMT, _fd_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTIxMzZjODlhMjY0YzQ1ZWUzMmEyNGY1NTZmMDY0MzJlBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUxmN3ZNU2NTZzB1SkJCRWNzSWhGL2x4bFdIN2xBRStLU2g3WGVWU1NkTzg9BjsARg%3D%3D--c9531eada071114ecba6ccdc761864bbbb6631b1; path=/; expires=Mon, 09-Jan-2017 07:49:05 GMT; HttpOnly, signed_in=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT"
+        "content": "referring_user=-1; domain=.audiojungle.net; path=/; expires=Fri, 10-Apr-2015 21:32:08 GMT, _fd_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTI5MDkxODMzYzA1NGU3NTU2Y2I1ODkzYWYwMTAwZDM5BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMVcveXZpNW5yd0xzbk9WWFRRUVJUK1hIU3VqYUl6ZGhBcE1NenE0R25wZGM9BjsARg%3D%3D--133355ee5d02f09988e907afa5d3d738af98ebf4; path=/; expires=Tue, 10-Jan-2017 08:32:09 GMT; HttpOnly, signed_in=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "c1f46f1f88c30e8364a6288fc13f46c9"
+        "content": "93611371e54d2caddf7d6644775dc2e9"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.263196"
+        "content": "0.259320"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;audiojungle.net&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:49:05 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;bf203df7dd5dd6d67150c3dbfe9b0796\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;referring_user=-1; domain=.audiojungle.net; path=&#x2F;; expires=Thu, 09-Apr-2015 20:49:04 GMT, _fd_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTIxMzZjODlhMjY0YzQ1ZWUzMmEyNGY1NTZmMDY0MzJlBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUxmN3ZNU2NTZzB1SkJCRWNzSWhGL2x4bFdIN2xBRStLU2g3WGVWU1NkTzg9BjsARg%3D%3D--c9531eada071114ecba6ccdc761864bbbb6631b1; path=&#x2F;; expires=Mon, 09-Jan-2017 07:49:05 GMT; HttpOnly, signed_in=; path=&#x2F;; expires=Thu, 01-Jan-1970 00:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;c1f46f1f88c30e8364a6288fc13f46c9&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.263196&quot;}\n",
-  "timestamp_end": "2015-01-09 19:49:05 UTC"
+  ]
 }

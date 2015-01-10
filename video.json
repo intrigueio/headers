@@ -3,31 +3,22 @@
   "entity": {
     "type": "WebApplication",
     "attributes": {
-      "name": "http://my.tv.sohu.com/user/video"
+      "name": "http://xhamster.com/user/video"
     }
   },
-  "timestamp_start": "2015-01-09 19:49:28 UTC",
-  "id": "47f4d64f-0f93-496d-935a-865ae55b680e",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "FSS"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:49:31 GMT"
+        "content": "nginx/1.6.0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html;charset=GBK"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -47,11 +38,30 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.3.15"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "JSESSIONID=abc_PkFWdxGRm6RRPpqRu; path=/"
+        "content": "stats=63; expires=Sat, 17-Jan-2015 20:30:57 GMT; path=/; domain=.xhamster.com, mdg:uid=66%3Aa2%3A1; path=/; domain=.xhamster.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "srv",
+        "content": "m14"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;my.tv.sohu.com&#x2F;user&#x2F;video&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;FSS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:49:31 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=GBK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=abc_PkFWdxGRm6RRPpqRu; path=&#x2F;&quot;}\n",
-  "timestamp_end": "2015-01-09 19:49:32 UTC"
+  ]
 }

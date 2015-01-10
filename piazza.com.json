@@ -6,21 +6,21 @@
       "name": "http://piazza.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:50:10 UTC",
-  "id": "34f79488-e352-413a-a234-345416c12831",
+  "timestamp_start": "2015-01-10 19:50:02 UTC",
+  "id": "3354c0f6-37b3-4100-8db9-9f74c6e8cd65",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.2.1.2854"
+        "content": "nginx/1.2.1.1345"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Fri, 09 Jan 2015 19:50:11 GMT"
+        "content": "Sat, 10 Jan 2015 19:50:03 GMT"
       }
     },
     {
@@ -68,22 +68,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-runtime",
+        "content": "12"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "piazza_session=LHvKICLuwKuKKKCyxFwLILtywJFFwtCD.5%275MD%3F5%26x%26%26%7C%22%21r%7Cw5M5Vrab_rddZhI%5C50; path=/; expires=Fri, 10 Jul 2015 19:50:03 GMT; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-runtime",
-        "content": "14"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "p3p",
-        "content": "CP='IDC DSP CURa ADMa DEVa OUR ONL UNI COM NAV'"
       }
     },
     {
@@ -96,11 +96,11 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "piazza_session=wwyvDFKFFtJvyEEDEIKvHyIIwFtDwyyE.5%275MD%3F5%26x%26%26%7C%22%21r%7Cw5M5Vrlb_rwG%21%5Dty50; path=/; expires=Thu, 09 Jul 2015 19:50:11 GMT; HttpOnly"
+        "name": "p3p",
+        "content": "CP='IDC DSP CURa ADMa DEVa OUR ONL UNI COM NAV'"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;piazza.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.2.1.2854&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:50:11 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger (mod_rails&#x2F;mod_rack) 3.0.7&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;14&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=&#x27;IDC DSP CURa ADMa DEVa OUR ONL UNI COM NAV&#x27;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;13dc3bf755c252402c6af20171e4b474\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;piazza_session=wwyvDFKFFtJvyEEDEIKvHyIIwFtDwyyE.5%275MD%3F5%26x%26%26%7C%22%21r%7Cw5M5Vrlb_rwG%21%5Dty50; path=&#x2F;; expires=Thu, 09 Jul 2015 19:50:11 GMT; HttpOnly&quot;}\n",
-  "timestamp_end": "2015-01-09 19:50:11 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;piazza.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.2.1.1345&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:50:03 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;close&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger (mod_rails&#x2F;mod_rack) 3.0.7&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;12&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;piazza_session=LHvKICLuwKuKKKCyxFwLILtywJFFwtCD.5%275MD%3F5%26x%26%26%7C%22%21r%7Cw5M5Vrab_rddZhI%5C50; path=&#x2F;; expires=Fri, 10 Jul 2015 19:50:03 GMT; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;13dc3bf755c252402c6af20171e4b474\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=&#x27;IDC DSP CURa ADMa DEVa OUR ONL UNI COM NAV&#x27;&quot;}\n",
+  "timestamp_end": "2015-01-10 19:50:03 UTC"
 }

@@ -6,21 +6,12 @@
       "name": "http://craftsy.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:47:59 UTC",
-  "id": "5bc2f8c7-fe2f-4972-8a95-639969e5e8ce",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
         "content": "text/html;charset=UTF-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "14148"
       }
     },
     {
@@ -47,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:48:00 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
         "content": "Apache/2.2.29 (Amazon)"
       }
@@ -62,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "JSESSIONID=3FC5DF8B518A57BAD83E5EC4FC783E93.europe002; Path=/, originalSessionId=3FC5DF8B518A57BAD83E5EC4FC783E93.europe002; Expires=Thu, 05-Nov-2015 19:48:00 GMT; Path=/, _preu=193293319; Expires=Thu, 05-Nov-2015 19:48:00 GMT; Path=\"\", SCPSS-2=W0MXHwGK08cuMoRNLieimQRmjq5wxDUkmKVEj2TkbVZlwAwBMyozT7LDO85ep_gFXM6_PKosA3x7b6PPpjL1CGij-ulfeXsGJuAjBB0LM31xAcYGhZ4Q5GwYwbIsxNtv; Expires=Thu, 05-Nov-2015 19:48:00 GMT; Path=/, AWSELB=6B21F5FF148943CA315ECFB2CC70E58786637B16BD80005714A120396147DD7B55A3CD79475B7FD49B20D07D4981A9BAC18689D68CC93BB64813B220587C059386CDC2E9E9;PATH=/;MAX-AGE=86400"
+        "content": "JSESSIONID=64827A4243E0D63CDC01F06FDFCA2F51.blondie002; Path=/, originalSessionId=64827A4243E0D63CDC01F06FDFCA2F51.blondie002; Expires=Fri, 06-Nov-2015 20:31:08 GMT; Path=/, _preu=193733119; Expires=Fri, 06-Nov-2015 20:31:08 GMT; Path=\"\", SCPSS-2=W0MXHwGK08cuMoRNLieimZJUyYGZoNdpcyndQC1qHhKx67_KuojrGtQPIuf7LzZnXM6_PKosA3x7b6PPpjL1CGij-ulfeXsGJuAjBB0LM32ZZAE7IuD2LjVt1EC9BrGx; Expires=Fri, 06-Nov-2015 20:31:08 GMT; Path=/, AWSELB=6B21F5FF148943CA315ECFB2CC70E58786637B16BD09126866EA62DA8366A82B841A67E5D60109182F4E7CFBB53120A7F6982011547E30E4F755C2901055DCEA2A8D872C7F;PATH=/;MAX-AGE=86400"
       }
     },
     {
@@ -90,17 +74,15 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "1.1 28297b8e5186f1186a8454fb1075dda9.cloudfront.net (CloudFront)"
+        "content": "1.1 6534ba62281109827a50dc8ec0470b13.cloudfront.net (CloudFront)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-amz-cf-id",
-        "content": "FY1ZkNc9mYsnUlE_X5g4lyC4ytL0pJkNrhWpnXLsdlVV3IUZw4x8dg=="
+        "content": "KhR0dKOAA0PtTDYrs4DXaHT1Ao67z5_FGWGDTnEW-ZsUsNzDLDp1Iw=="
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;craftsy.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html;charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;14148&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-cache=\\&quot;set-cookie\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:48:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.29 (Amazon)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;JSESSIONID=3FC5DF8B518A57BAD83E5EC4FC783E93.europe002; Path=&#x2F;, originalSessionId=3FC5DF8B518A57BAD83E5EC4FC783E93.europe002; Expires=Thu, 05-Nov-2015 19:48:00 GMT; Path=&#x2F;, _preu=193293319; Expires=Thu, 05-Nov-2015 19:48:00 GMT; Path=\\&quot;\\&quot;, SCPSS-2=W0MXHwGK08cuMoRNLieimQRmjq5wxDUkmKVEj2TkbVZlwAwBMyozT7LDO85ep_gFXM6_PKosA3x7b6PPpjL1CGij-ulfeXsGJuAjBB0LM31xAcYGhZ4Q5GwYwbIsxNtv; Expires=Thu, 05-Nov-2015 19:48:00 GMT; Path=&#x2F;, AWSELB=6B21F5FF148943CA315ECFB2CC70E58786637B16BD80005714A120396147DD7B55A3CD79475B7FD49B20D07D4981A9BAC18689D68CC93BB64813B220587C059386CDC2E9E9;PATH=&#x2F;;MAX-AGE=86400&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;Miss from cloudfront&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 28297b8e5186f1186a8454fb1075dda9.cloudfront.net (CloudFront)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-amz-cf-id&quot;, :content=&gt;&quot;FY1ZkNc9mYsnUlE_X5g4lyC4ytL0pJkNrhWpnXLsdlVV3IUZw4x8dg==&quot;}\n",
-  "timestamp_end": "2015-01-09 19:48:00 UTC"
+  ]
 }

@@ -6,14 +6,12 @@
       "name": "http://economist.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:46:26 UTC",
-  "id": "c4a98486-0c24-44d3-8eb6-ec129593bfb9",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Fri, 09 Jan 2015 19:46:26 GMT"
+        "content": "Sat, 10 Jan 2015 19:20:26 GMT"
       }
     },
     {
@@ -34,21 +32,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1420832786\""
+        "content": "\"1420917626\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ec_device=false; expires=Sat, 10-Jan-2015 19:46:26 GMT; path=/, incap_ses_208_121505=QsQxDNtqqGq1gHJABPfiAhIwsFQAAAAA9f2JP7/JpFhGPuzUFrj60A==; path=/; Domain=.economist.com, visid_incap_121505=sudk3G7jSYOm4i//JM6R5xIwsFQAAAAAQUIPAAAAAADjUliSiiilgRpxM3uApE3u; expires=Sun, 08 Jan 2017 14:29:26 GMT; path=/; Domain=.economist.com"
+        "content": "ec_device=false; expires=Sun, 11-Jan-2015 19:20:26 GMT; path=/, incap_ses_208_121505=WBBcYW19gCYTaGNDBPfiAruLsVQAAAAAdLnMudI3RNIOouSo7BchHw==; path=/; Domain=.economist.com, visid_incap_121505=4a95yfoXTnqMj2ptU+WEELuLsVQAAAAAQUIPAAAAAADuEAPMbYrDalmL49SLPJL5; expires=Mon, 09 Jan 2017 14:29:27 GMT; path=/; Domain=.economist.com"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-backend-server",
-        "content": "dc3web6 D=714178"
+        "content": "dc3web4 D=585352"
       }
     },
     {
@@ -82,22 +80,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:46:27 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-varnish",
-        "content": "1390587137"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "age",
-        "content": "0"
+        "content": "1399092786 1398708115"
       }
     },
     {
@@ -146,14 +130,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish-cache",
-        "content": "MISS"
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-hits",
+        "content": "4"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-iinfo",
-        "content": "4-88526394-88522190 PNNN RT(1420832786119 0) q(0 0 0 6) r(8 8) U5"
+        "content": "6-141059083-141056085 PNNN RT(1420921787288 16) q(0 0 0 2) r(0 0) U5"
       }
     },
     {
@@ -170,7 +161,5 @@
         "content": "chunked"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;economist.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:46:26 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 11 Mar 1984 12:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Cookie, Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;1420832786\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;ec_device=false; expires=Sat, 10-Jan-2015 19:46:26 GMT; path=&#x2F;, incap_ses_208_121505=QsQxDNtqqGq1gHJABPfiAhIwsFQAAAAA9f2JP7&#x2F;JpFhGPuzUFrj60A==; path=&#x2F;; Domain=.economist.com, visid_incap_121505=sudk3G7jSYOm4i&#x2F;&#x2F;JM6R5xIwsFQAAAAAQUIPAAAAAADjUliSiiilgRpxM3uApE3u; expires=Sun, 08 Jan 2017 14:29:26 GMT; path=&#x2F;; Domain=.economist.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-backend-server&quot;, :content=&gt;&quot;dc3web6 D=714178&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Economist Web Server&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public, max-age = 10800&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:46:27 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;1390587137&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;xff&quot;, :content=&gt;&quot;104.237.133.83&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ip&quot;, :content=&gt;&quot;104.237.133.83&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-geoip-country&quot;, :content=&gt;&quot;AA&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-geoip-region&quot;, :content=&gt;&quot;UNKNOWN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-iinfo&quot;, :content=&gt;&quot;4-88526394-88522190 PNNN RT(1420832786119 0) q(0 0 0 6) r(8 8) U5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cdn&quot;, :content=&gt;&quot;Incapsula&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
-  "timestamp_end": "2015-01-09 19:46:27 UTC"
+  ]
 }

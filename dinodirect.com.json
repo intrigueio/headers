@@ -6,21 +6,12 @@
       "name": "http://dinodirect.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:48:04 UTC",
-  "id": "e7dd7336-6813-4160-8e1d-1e13e2dd7aac",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
         "content": "nginx/1.7.4"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:48:06 GMT"
       }
     },
     {
@@ -33,8 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "46128"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -55,14 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "AREAIDS=;domain=.dinodirect.com;expires=Thu, 09-Jan-2014 19:47:00 GMT;path=/, AREAIDS=335%2C114%2C119%2C124%2C%2D%20;domain=.dinodirect.com;expires=Sat, 31-Jan-2015 19:47:00 GMT;path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "age",
-        "content": "0"
+        "content": "AREAIDS=;domain=.dinodirect.com;expires=Fri, 10-Jan-2014 20:31:08 GMT;path=/, AREAIDS=335%2C114%2C119%2C124%2C%2D%20;domain=.dinodirect.com;expires=Sun, 01-Feb-2015 20:31:08 GMT;path=/"
       }
     },
     {
@@ -72,7 +56,5 @@
         "content": "MISS"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;dinodirect.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.7.4&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:48:06 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;46128&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;AREAIDS=;domain=.dinodirect.com;expires=Thu, 09-Jan-2014 19:47:00 GMT;path=&#x2F;, AREAIDS=335%2C114%2C119%2C124%2C%2D%20;domain=.dinodirect.com;expires=Sat, 31-Jan-2015 19:47:00 GMT;path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;MISS&quot;}\n",
-  "timestamp_end": "2015-01-09 19:48:06 UTC"
+  ]
 }

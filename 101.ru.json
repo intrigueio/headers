@@ -6,8 +6,8 @@
       "name": "http://101.ru"
     }
   },
-  "timestamp_start": "2015-01-09 19:50:19 UTC",
-  "id": "67cd3b24-a535-4848-b157-d3af4282ba70",
+  "timestamp_start": "2015-01-10 19:50:10 UTC",
+  "id": "57d25d1a-4d9b-4084-bb85-fad1033b5d0c",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -20,7 +20,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "date",
-        "content": "Fri, 09 Jan 2015 19:50:20 GMT"
+        "content": "Sat, 10 Jan 2015 19:50:11 GMT"
       }
     },
     {
@@ -33,8 +33,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "13282"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -54,8 +54,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.5.9-1ubuntu4.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "setst=-1; expires=Fri, 09-Jan-2015 20:50:20 GMT; path=/, updTime=1420833020; expires=Sat, 09-Jan-2016 19:50:20 GMT; path=/, con=1420833020; expires=Sat, 09-Jan-2016 19:50:20 GMT; path=/, sid_101_ru=kotrodrsbi11n16ooo58vveq22; path=/, mobile=0; expires=Sun, 08-Feb-2015 19:50:20 GMT, mobile_version=0; expires=Sun, 08-Feb-2015 19:50:20 GMT, bit=2; expires=Sat, 09-Jan-2016 19:50:20 GMT, type=2; expires=Sat, 09-Jan-2016 19:50:20 GMT, serv=202; expires=Sat, 09-Jan-2016 19:50:20 GMT"
+        "content": "setst=-1; expires=Sat, 10-Jan-2015 20:50:11 GMT; Max-Age=3600; path=/, updTime=1420919411; expires=Sun, 10-Jan-2016 19:50:11 GMT; Max-Age=31536000; path=/, con=1420919411; expires=Sun, 10-Jan-2016 19:50:11 GMT; Max-Age=31536000; path=/, sid_101_ru=gpthhje69pa5h0au2f9dvbjbl7; path=/, mobile=0; expires=Mon, 09-Feb-2015 19:50:11 GMT; Max-Age=2592000, mobile_version=0; expires=Mon, 09-Feb-2015 19:50:11 GMT; Max-Age=2592000, bit=2; expires=Sun, 10-Jan-2016 19:50:11 GMT; Max-Age=31536000, type=2; expires=Sun, 10-Jan-2016 19:50:11 GMT; Max-Age=31536000, serv=202; expires=Sun, 10-Jan-2016 19:50:11 GMT; Max-Age=31536000"
       }
     },
     {
@@ -76,24 +83,17 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Fri, 09 Jan 2015 18:50:20 GMT"
+        "content": "Sat, 10 Jan 2015 18:50:11 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Fri, 09 Jan 2015 19:50:20 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "Sat, 10 Jan 2015 19:50:11 GMT"
       }
     }
   ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;101.ru&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:50:20 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;13282&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;keep-alive&quot;, :content=&gt;&quot;timeout=12&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;setst=-1; expires=Fri, 09-Jan-2015 20:50:20 GMT; path=&#x2F;, updTime=1420833020; expires=Sat, 09-Jan-2016 19:50:20 GMT; path=&#x2F;, con=1420833020; expires=Sat, 09-Jan-2016 19:50:20 GMT; path=&#x2F;, sid_101_ru=kotrodrsbi11n16ooo58vveq22; path=&#x2F;, mobile=0; expires=Sun, 08-Feb-2015 19:50:20 GMT, mobile_version=0; expires=Sun, 08-Feb-2015 19:50:20 GMT, bit=2; expires=Sat, 09-Jan-2016 19:50:20 GMT, type=2; expires=Sat, 09-Jan-2016 19:50:20 GMT, serv=202; expires=Sat, 09-Jan-2016 19:50:20 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, must-revalidate, no-cache, max-age=0, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 18:50:20 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:50:20 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n",
-  "timestamp_end": "2015-01-09 19:50:20 UTC"
+  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;101.ru&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:50:11 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;keep-alive&quot;, :content=&gt;&quot;timeout=12&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.5.9-1ubuntu4.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;setst=-1; expires=Sat, 10-Jan-2015 20:50:11 GMT; Max-Age=3600; path=&#x2F;, updTime=1420919411; expires=Sun, 10-Jan-2016 19:50:11 GMT; Max-Age=31536000; path=&#x2F;, con=1420919411; expires=Sun, 10-Jan-2016 19:50:11 GMT; Max-Age=31536000; path=&#x2F;, sid_101_ru=gpthhje69pa5h0au2f9dvbjbl7; path=&#x2F;, mobile=0; expires=Mon, 09-Feb-2015 19:50:11 GMT; Max-Age=2592000, mobile_version=0; expires=Mon, 09-Feb-2015 19:50:11 GMT; Max-Age=2592000, bit=2; expires=Sun, 10-Jan-2016 19:50:11 GMT; Max-Age=31536000, type=2; expires=Sun, 10-Jan-2016 19:50:11 GMT; Max-Age=31536000, serv=202; expires=Sun, 10-Jan-2016 19:50:11 GMT; Max-Age=31536000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, must-revalidate, no-cache, max-age=0, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 18:50:11 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Sat, 10 Jan 2015 19:50:11 GMT&quot;}\n",
+  "timestamp_end": "2015-01-10 19:50:11 UTC"
 }

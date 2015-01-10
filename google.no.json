@@ -6,16 +6,7 @@
       "name": "http://google.no"
     }
   },
-  "timestamp_start": "2015-01-09 19:45:45 UTC",
-  "id": "b72b606d-3872-4609-acbd-0dc35be18ddf",
   "entities": [
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:45:45 GMT"
-      }
-    },
     {
       "type": "WebApplicationHeader",
       "attributes": {
@@ -41,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PREF=ID=c1286105e4278360:FF=0:TM=1420832745:LM=1420832745:S=SOnHIp-IlwX1Kf9H; expires=Sun, 08-Jan-2017 19:45:45 GMT; path=/; domain=.google.no, NID=67=rndUCrLNEzIM8errU-2O-SgNkg5B5SHZC9dCQg8FkGdKY6kEGN9aMYoQtMzpPftH4jG8nUYM5Q7M8pdprHIgmvR1mw4JsqJnmr0lX58Joq02_egqyYi04zHGzVo-PBHb; expires=Sat, 11-Jul-2015 19:45:45 GMT; path=/; domain=.google.no; HttpOnly"
+        "content": "PREF=ID=1de55d3b90363c7e:FF=0:TM=1420921750:LM=1420921750:S=t0Ijznme7LaUsyB4; expires=Mon, 09-Jan-2017 20:29:10 GMT; path=/; domain=.google.no, NID=67=mVuVgeIFgC6DhdTVekXL2cg6lSIh9l0tgsjbmRPQJoxfqtM_WPGmAPCfHA3wMdaa7H1VU6QfrbfgafSf-84EDcSgOppry4_ad_JJTFlxm60rQpv725eYOrvRJulimsDe; expires=Sun, 12-Jul-2015 20:29:10 GMT; path=/; domain=.google.no; HttpOnly"
       }
     },
     {
@@ -82,11 +73,23 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "none"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "transfer-encoding",
         "content": "chunked"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;google.no&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:45:45 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;private, max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=ISO-8859-1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;PREF=ID=c1286105e4278360:FF=0:TM=1420832745:LM=1420832745:S=SOnHIp-IlwX1Kf9H; expires=Sun, 08-Jan-2017 19:45:45 GMT; path=&#x2F;; domain=.google.no, NID=67=rndUCrLNEzIM8errU-2O-SgNkg5B5SHZC9dCQg8FkGdKY6kEGN9aMYoQtMzpPftH4jG8nUYM5Q7M8pdprHIgmvR1mw4JsqJnmr0lX58Joq02_egqyYi04zHGzVo-PBHb; expires=Sat, 11-Jul-2015 19:45:45 GMT; path=&#x2F;; domain=.google.no; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;p3p&quot;, :content=&gt;&quot;CP=\\&quot;This is not a P3P policy! See http:&#x2F;&#x2F;www.google.com&#x2F;support&#x2F;accounts&#x2F;bin&#x2F;answer.py?hl=en&amp;answer=151657 for more info.\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;gws&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;alternate-protocol&quot;, :content=&gt;&quot;80:quic,p=0.02&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n",
-  "timestamp_end": "2015-01-09 19:45:45 UTC"
+  ]
 }

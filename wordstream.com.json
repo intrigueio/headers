@@ -6,16 +6,7 @@
       "name": "http://wordstream.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:47:19 UTC",
-  "id": "587efef6-de5c-4688-9e97-435f4c8a23a6",
   "entities": [
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:47:19 GMT"
-      }
-    },
     {
       "type": "WebApplicationHeader",
       "attributes": {
@@ -34,42 +25,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-drupal-cache",
-        "content": "MISS"
+        "content": "HIT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "myref_1=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.wordstream.com, mycmp=none; expires=Wed, 14-Apr-2038 19:47:19 GMT; path=/; domain=.wordstream.com, mysrc=none; expires=Wed, 14-Apr-2038 19:47:19 GMT; path=/; domain=.wordstream.com, tstamp=20150109%2814%3A01%3A19%29; expires=Wed, 14-Apr-2038 19:47:19 GMT; path=/; domain=.wordstream.com, navp=http%3Awww.wordstream.com+%3E+; path=/; domain=.wordstream.com"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "expires",
-        "content": "Sun, 19 Nov 1978 05:00:00 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Fri, 09 Jan 2015 19:47:19 +0000"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "public, max-age=86400"
+        "content": "myref_1=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.wordstream.com, mycmp=none; expires=Thu, 15-Apr-2038 20:30:35 GMT; path=/; domain=.wordstream.com, mysrc=none; expires=Thu, 15-Apr-2038 20:30:35 GMT; path=/; domain=.wordstream.com, tstamp=20150110%2815%3A01%3A35%29; expires=Thu, 15-Apr-2038 20:30:35 GMT; path=/; domain=.wordstream.com, navp=http%3Awww.wordstream.com+%3E+; path=/; domain=.wordstream.com"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1420832839-1\""
+        "content": "\"1420919247-1\""
       }
     },
     {
@@ -82,15 +52,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Cookie,Accept-Encoding"
+        "name": "cache-control",
+        "content": "public, max-age=86400"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "4587"
+        "name": "last-modified",
+        "content": "Sat, 10 Jan 2015 19:47:27 +0000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Sun, 19 Nov 1978 05:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Cookie,Accept-Encoding"
       }
     },
     {
@@ -100,7 +84,5 @@
         "content": "text/html; charset=utf-8"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;wordstream.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:47:19 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.3.29&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-drupal-cache&quot;, :content=&gt;&quot;MISS&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;myref_1=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=&#x2F;; domain=.wordstream.com, mycmp=none; expires=Wed, 14-Apr-2038 19:47:19 GMT; path=&#x2F;; domain=.wordstream.com, mysrc=none; expires=Wed, 14-Apr-2038 19:47:19 GMT; path=&#x2F;; domain=.wordstream.com, tstamp=20150109%2814%3A01%3A19%29; expires=Wed, 14-Apr-2038 19:47:19 GMT; path=&#x2F;; domain=.wordstream.com, navp=http%3Awww.wordstream.com+%3E+; path=&#x2F;; domain=.wordstream.com&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Sun, 19 Nov 1978 05:00:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;last-modified&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:47:19 +0000&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;public, max-age=86400&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;1420832839-1\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Cookie,Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;4587&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n",
-  "timestamp_end": "2015-01-09 19:47:20 UTC"
+  ]
 }

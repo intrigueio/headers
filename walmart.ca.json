@@ -6,8 +6,6 @@
       "name": "http://walmart.ca"
     }
   },
-  "timestamp_start": "2015-01-09 19:46:50 UTC",
-  "id": "a61151dc-b979-4418-94dd-d5d6c036b12d",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -27,21 +25,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "request-id",
-        "content": "20041358"
+        "content": "21234530"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "request-time",
-        "content": "42ms"
+        "content": "40ms"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "served-by",
-        "content": "app20"
+        "content": "app13"
       }
     },
     {
@@ -83,7 +81,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Fri, 09 Jan 2015 19:46:50 GMT"
+        "content": "Sat, 10 Jan 2015 20:30:09 GMT"
       }
     },
     {
@@ -98,13 +96,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:46:50 GMT"
       }
     },
     {
@@ -125,7 +116,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "walmart.csrf=99d74e35219f2f91acc5d493; Path=/, walmart.csrf=; Expires=Thu, 08 Jan 2015 19:46:51 GMT; Path=/; Domain=.walmart.ca; HTTPOnly, ENV=origin-edc-pstore;max-age=1200;path=/;domain=.walmart.ca, TBENV=origin-edc-torbit-www; Path=/; Domain=.walmart.ca; max-age=1200; HttpOnly, userSegment=50-percent; expires=Sun, 08-Feb-2015 19:46:50 GMT; path=/; domain=www.walmart.ca, akaau_P1=1420834610~id=52013d5628d60ac71c3a4b13c3caf2b9; path=/"
+        "content": "walmart.csrf=33C07246608B57794F5DD8F11AA1A8F5; path=/; domain=www.walmart.ca, userSegment=50-percent; expires=Mon, 09-Feb-2015 20:30:09 GMT; path=/; domain=www.walmart.ca, akaau_P1=1420923609~id=5e5c645752248c535b126150466f5196; path=/"
       }
     },
     {
@@ -135,7 +126,5 @@
         "content": "http://www.walmart.ca"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;walmart.ca&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-credentials&quot;, :content=&gt;&quot;true&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;request-id&quot;, :content=&gt;&quot;20041358&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;request-time&quot;, :content=&gt;&quot;42ms&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;served-by&quot;, :content=&gt;&quot;app20&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-page-type&quot;, :content=&gt;&quot;home&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-tb&quot;, :content=&gt;&quot;1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:46:50 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:46:50 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;walmart.csrf=99d74e35219f2f91acc5d493; Path=&#x2F;, walmart.csrf=; Expires=Thu, 08 Jan 2015 19:46:51 GMT; Path=&#x2F;; Domain=.walmart.ca; HTTPOnly, ENV=origin-edc-pstore;max-age=1200;path=&#x2F;;domain=.walmart.ca, TBENV=origin-edc-torbit-www; Path=&#x2F;; Domain=.walmart.ca; max-age=1200; HttpOnly, userSegment=50-percent; expires=Sun, 08-Feb-2015 19:46:50 GMT; path=&#x2F;; domain=www.walmart.ca, akaau_P1=1420834610~id=52013d5628d60ac71c3a4b13c3caf2b9; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;access-control-allow-origin&quot;, :content=&gt;&quot;http:&#x2F;&#x2F;www.walmart.ca&quot;}\n",
-  "timestamp_end": "2015-01-09 19:46:50 UTC"
+  ]
 }

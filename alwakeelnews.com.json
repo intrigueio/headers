@@ -6,11 +6,41 @@
       "name": "http://alwakeelnews.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:48:15 UTC",
-  "id": "9c0aead7-cc3c-402b-98ea-1322d1a4317c",
   "entities": [
-
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;alwakeelnews.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[-] : Timed out\n",
-  "timestamp_end": "2015-01-09 19:48:35 UTC"
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=70e377654877163a3eae401572c54768; path=/; domain=.alwakeelnews.com, tcid=1420921887296.RG75X02tpJFKJcZXR.cw7dGYj9O0jpa; expires=Sat, 09-Jan-2016 20:31:27 GMT, mobile_co=on"
+      }
+    }
+  ]
 }

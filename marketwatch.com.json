@@ -6,8 +6,6 @@
       "name": "http://marketwatch.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:45:59 UTC",
-  "id": "0e033063-66b6-49a0-857f-52a72a701097",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -40,15 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "ASP.NET"
+        "name": "x-machine",
+        "content": "sbkdfpswebp05"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-machine",
-        "content": "sbkdfpswebp03"
+        "name": "x-powered-by",
+        "content": "ASP.NET"
       }
     },
     {
@@ -62,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "expires",
-        "content": "Fri, 09 Jan 2015 19:45:59 GMT"
+        "content": "Sat, 10 Jan 2015 20:29:22 GMT"
       }
     },
     {
@@ -77,13 +75,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:45:59 GMT"
       }
     },
     {
@@ -104,10 +95,8 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": ".ASPXAUTH=; domain=marketwatch.com; expires=Tue, 12-Oct-1999 05:00:00 GMT; path=/; HttpOnly, kayla=g=c8a70b693f344572b6358cbd520cc615; domain=.marketwatch.com; expires=Thu, 09-Jan-2020 19:45:58 GMT; path=/, mw5_loc={\"Country\":\"US\",\"Region\":\"TX\",\"City\":\"DALLAS\",\"Continent\":\"NA\",\"County\":[\"DALLAS\"]}; domain=.marketwatch.com; path=/, mw5_prefs=tmox=1/9/2015&mox=False&tth=False&exp=1/9/2017; domain=.marketwatch.com; expires=Mon, 09-Jan-2017 06:00:00 GMT; path=/"
+        "content": ".ASPXAUTH=; domain=marketwatch.com; expires=Tue, 12-Oct-1999 05:00:00 GMT; path=/; HttpOnly, kayla=g=2fa4d720938a45c29a5bce0832ffc0fd; domain=.marketwatch.com; expires=Fri, 10-Jan-2020 20:29:18 GMT; path=/, mw5_loc={\"Country\":\"US\",\"Region\":\"TX\",\"City\":\"DALLAS\",\"Continent\":\"NA\",\"County\":[\"DALLAS\"]}; domain=.marketwatch.com; path=/, mw5_prefs=mox=False&tth=False&exp=1/10/2017; domain=.marketwatch.com; expires=Tue, 10-Jan-2017 06:00:00 GMT; path=/"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;marketwatch.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Microsoft-IIS&#x2F;7.5&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnetmvc-version&quot;, :content=&gt;&quot;3.0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-aspnet-version&quot;, :content=&gt;&quot;4.0.30319&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;ASP.NET&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-machine&quot;, :content=&gt;&quot;sbkdfpswebp03&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:45:59 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, no-cache, no-store&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:45:59 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive, Transfer-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;.ASPXAUTH=; domain=marketwatch.com; expires=Tue, 12-Oct-1999 05:00:00 GMT; path=&#x2F;; HttpOnly, kayla=g=c8a70b693f344572b6358cbd520cc615; domain=.marketwatch.com; expires=Thu, 09-Jan-2020 19:45:58 GMT; path=&#x2F;, mw5_loc={\\&quot;Country\\&quot;:\\&quot;US\\&quot;,\\&quot;Region\\&quot;:\\&quot;TX\\&quot;,\\&quot;City\\&quot;:\\&quot;DALLAS\\&quot;,\\&quot;Continent\\&quot;:\\&quot;NA\\&quot;,\\&quot;County\\&quot;:[\\&quot;DALLAS\\&quot;]}; domain=.marketwatch.com; path=&#x2F;, mw5_prefs=tmox=1&#x2F;9&#x2F;2015&amp;mox=False&amp;tth=False&amp;exp=1&#x2F;9&#x2F;2017; domain=.marketwatch.com; expires=Mon, 09-Jan-2017 06:00:00 GMT; path=&#x2F;&quot;}\n",
-  "timestamp_end": "2015-01-09 19:45:59 UTC"
+  ]
 }

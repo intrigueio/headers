@@ -6,16 +6,7 @@
       "name": "http://watch32.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:47:54 UTC",
-  "id": "0aa73632-971d-4ad7-8b68-0456ee453266",
   "entities": [
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:47:55 GMT"
-      }
-    },
     {
       "type": "WebApplicationHeader",
       "attributes": {
@@ -41,14 +32,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d46f0be3a1243b96b0026663a4c80fc071420832874; expires=Sat, 09-Jan-16 19:47:54 GMT; path=/; domain=.watch32.com; HttpOnly, PHPSESSID=080be4434ee82650ee163c8fb295b21f; path=/"
+        "content": "__cfduid=dfbcd5f07665a9b15da82c7741c91bdd41420921863; expires=Sun, 10-Jan-16 20:31:03 GMT; path=/; domain=.watch32.com; HttpOnly, PHPSESSID=82b5af6d69ad4892969a6d6c1ba8b507; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-powered-by",
-        "content": "PHP/5.3.28"
+        "content": "PHP/5.3.27"
       }
     },
     {
@@ -75,6 +73,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-cache",
+        "content": "HIT from Backend"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "cloudflare-nginx"
       }
@@ -83,10 +88,8 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a6326388b890168-ORD"
+        "content": "1a6ba2cf650f0168-ORD"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;watch32.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:47:55 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=UTF-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;__cfduid=d46f0be3a1243b96b0026663a4c80fc071420832874; expires=Sat, 09-Jan-16 19:47:54 GMT; path=&#x2F;; domain=.watch32.com; HttpOnly, PHPSESSID=080be4434ee82650ee163c8fb295b21f; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.3.28&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;expires&quot;, :content=&gt;&quot;Thu, 19 Nov 1981 08:52:00 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;no-store, no-cache, must-revalidate, post-check=0, pre-check=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;pragma&quot;, :content=&gt;&quot;no-cache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;cloudflare-nginx&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cf-ray&quot;, :content=&gt;&quot;1a6326388b890168-ORD&quot;}\n",
-  "timestamp_end": "2015-01-09 19:47:55 UTC"
+  ]
 }

@@ -6,8 +6,6 @@
       "name": "http://imgbox.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:47:57 UTC",
-  "id": "355b9c2a-5ebf-4427-8efb-a775ae4a384e",
   "entities": [
     {
       "type": "WebApplicationHeader",
@@ -76,21 +74,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "request_method=GET; path=/, _imgbox_session=SzIzbWRCNlRmWjVoRHNmUnFXeWt5cndLNmhyNzN2MTVLTHZyVjNJSmdkUHhhQXZnMWN6a1lVSGFjOFE1Uk10SEE2eXEwSlA2Qi9WbmpsS3RQUHpRMjc1a1F0TjdzeEpaekNIeXFhUEMwVnp6aFNsSjd0R0FxV1BzY1lqdFVnWmRRZjVyQ2ppZVQvV1Zyc1Qra2JSRmRjQjB3VXFBQWx2ckRBd0RnRnVxMnVYR2h5MEMrTjJFNXE0NDNvOFpMZjVCLS0xNTEwY1BaKzBNRHQ3RHFwUnpUNzRnPT0%3D--6fddaf3291f8f8926a77112734a06e4ffb4c1e2c; path=/; expires=Sat, 09 Jan 2016 19:47:58 -0000; HttpOnly"
+        "content": "request_method=GET; path=/, _imgbox_session=Vkl0dmMrbXpDWWxHcjc1Sm1TTDF6UmlWVi9NYUpBWlM5RGk5QXRJZkZKaERVeGc1YXkyQVZmeXZpUjVPdHR3dklrNUtVNHViQk16Q2FuZVdsNld2bjVrL1J3ZmY5a0NsNE1XdWZiYnBBZUk2RlVuVEo0NTE2UG4vcERFQk9BcnJEeVNueXFRdExUOXpNMkFNeXJ6MytBR0JTWmZlbnlUU1A3Qk1hVHphUHRPRzh4Z1NDNkJOTWtlWkJDYndtRk1GLS04RTN1UFozWmFyY1NMYjBaZ0FkT09BPT0%3D--cadd89d2455d0dc1f15ac83117f024573308b3b7; path=/; expires=Sun, 10 Jan 2016 20:31:06 -0000; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "17a7e74d-c8d6-4a33-a843-aa28ba394870"
+        "content": "d3d5cdc0-dca7-499f-992f-4b8f8908d12b"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.011098"
+        "content": "0.014829"
       }
     },
     {
@@ -103,18 +101,9 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:47:58 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
         "content": "nginx/1.6.0 + Phusion Passenger 4.0.46"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;imgbox.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;request_method=GET; path=&#x2F;, _imgbox_session=SzIzbWRCNlRmWjVoRHNmUnFXeWt5cndLNmhyNzN2MTVLTHZyVjNJSmdkUHhhQXZnMWN6a1lVSGFjOFE1Uk10SEE2eXEwSlA2Qi9WbmpsS3RQUHpRMjc1a1F0TjdzeEpaekNIeXFhUEMwVnp6aFNsSjd0R0FxV1BzY1lqdFVnWmRRZjVyQ2ppZVQvV1Zyc1Qra2JSRmRjQjB3VXFBQWx2ckRBd0RnRnVxMnVYR2h5MEMrTjJFNXE0NDNvOFpMZjVCLS0xNTEwY1BaKzBNRHQ3RHFwUnpUNzRnPT0%3D--6fddaf3291f8f8926a77112734a06e4ffb4c1e2c; path=&#x2F;; expires=Sat, 09 Jan 2016 19:47:58 -0000; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;17a7e74d-c8d6-4a33-a843-aa28ba394870&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.011098&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger 4.0.46&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:47:58 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.6.0 + Phusion Passenger 4.0.46&quot;}\n",
-  "timestamp_end": "2015-01-09 19:47:58 UTC"
+  ]
 }

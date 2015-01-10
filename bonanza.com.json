@@ -6,16 +6,7 @@
       "name": "http://bonanza.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:48:17 UTC",
-  "id": "863129d1-eaf7-444e-a83c-fb62b10d92a5",
   "entities": [
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:48:18 GMT"
-      }
-    },
     {
       "type": "WebApplicationHeader",
       "attributes": {
@@ -41,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"787981019e821ff8ec604351b905ceed\""
+        "content": "\"48641803aa0cb0fa47b98ffd618c7822\""
       }
     },
     {
@@ -55,14 +46,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "55023a8d4992708843d2d0cb183f5cb4"
+        "content": "26f0849d7809614b9a34573da637fc9e"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.586539"
+        "content": "0.120731"
       }
     },
     {
@@ -83,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "locale=en-US; domain=.bonanza.com; path=/; expires=Sat, 10-Jan-2015 19:48:19 GMT, intrkrf=Direct; domain=.bonanza.com; path=/, intrkep=http%3A%2F%2Fwww.bonanza.com%2F; domain=.bonanza.com; path=/, intrkvc=1; domain=.bonanza.com; path=/, source_em=4; path=/, intrkld=1420832898.9355066; domain=.bonanza.com; path=/, pxa=MbIwWZ3hp1GEcAe7sntKlz2LX; path=/, _session_id=f8c7deb28bcfd2ad71fb818de4231dab; domain=.bonanza.com; path=/"
+        "content": "locale=en-US; domain=.bonanza.com; path=/; expires=Sun, 11-Jan-2015 20:31:27 GMT, intrkrf=Direct; domain=.bonanza.com; path=/, intrkep=http%3A%2F%2Fwww.bonanza.com%2F; domain=.bonanza.com; path=/, intrkvc=1; domain=.bonanza.com; path=/, source_em=4; path=/, intrkld=1420921887.5567923; domain=.bonanza.com; path=/, pxa=tzHGfNvrJpaYbCRwP92Z76sEn; path=/, _session_id=7f6487f30fb5eef39ac0525901bea480; domain=.bonanza.com; path=/"
       }
     },
     {
@@ -103,13 +94,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-length",
-        "content": "15355"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -121,7 +105,5 @@
         "content": "http"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;bonanza.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:48:18 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&#x2F;2.2.22 (Ubuntu)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-language&quot;, :content=&gt;&quot;en-US&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=Edge,chrome=1&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;\\&quot;787981019e821ff8ec604351b905ceed\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;55023a8d4992708843d2d0cb183f5cb4&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.586539&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-rack-cache&quot;, :content=&gt;&quot;miss&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;Phusion Passenger 4.0.53&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;locale=en-US; domain=.bonanza.com; path=&#x2F;; expires=Sat, 10-Jan-2015 19:48:19 GMT, intrkrf=Direct; domain=.bonanza.com; path=&#x2F;, intrkep=http%3A%2F%2Fwww.bonanza.com%2F; domain=.bonanza.com; path=&#x2F;, intrkvc=1; domain=.bonanza.com; path=&#x2F;, source_em=4; path=&#x2F;, intrkld=1420832898.9355066; domain=.bonanza.com; path=&#x2F;, pxa=MbIwWZ3hp1GEcAe7sntKlz2LX; path=&#x2F;, _session_id=f8c7deb28bcfd2ad71fb818de4231dab; domain=.bonanza.com; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;15355&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frontend&quot;, :content=&gt;&quot;http&quot;}\n",
-  "timestamp_end": "2015-01-09 19:48:19 UTC"
+  ]
 }

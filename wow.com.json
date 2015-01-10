@@ -6,11 +6,55 @@
       "name": "http://wow.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:45:46 UTC",
-  "id": "c32f5f0c-c724-4b06-a7d3-a8b0e3e0b273",
   "entities": [
-
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;wow.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[-] : Timed out\n",
-  "timestamp_end": "2015-01-09 19:46:06 UTC"
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "clickstreamid=4699656139825856547, s_guid=\"4d00daff46d9457d8dc0cd83e03fc79c:100115\"; Version=1; Domain=.wow.com; Max-Age=33955200; Expires=Sun, 07-Feb-2016 20:29:11 GMT; Path=/, MVT_TBP=a1|780|20150110|20150110; Domain=.wow.com; Expires=Sun, 07-Feb-2016 20:29:11 GMT; Path=/, MVT_TBV=a1|362; Domain=.wow.com; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "expires",
+        "content": "Sat, 1 Jan 2000 12:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    }
+  ]
 }

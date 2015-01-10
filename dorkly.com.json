@@ -6,21 +6,12 @@
       "name": "http://dorkly.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:46:29 UTC",
-  "id": "6e962cd2-e8ae-4b6c-9f37-6d63f87c8b7f",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "accept-ranges",
         "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "age",
-        "content": "40"
       }
     },
     {
@@ -40,13 +31,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:46:30 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
         "content": "Apache"
       }
@@ -55,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "player-context=%7B%22context%22%3A%22homepage%22%2C%22referer%22%3A%22%22%2C%22sort%22%3A%22recent%22%7D; path=/, next-prev-context=%7B%22context%22%3A%22homepage%22%2C%22sort%22%3A%22recent%22%7D; path=/"
+        "content": "player-context=%7B%22context%22%3A%22homepage%22%2C%22referer%22%3A%22http%3A%5C%2F%5C%2Fwww.dorkly.com%5C%2Flink%5C%2F39755%5C%2Fshirt-of-the-week-businessman%22%2C%22sort%22%3A%22recent%22%7D; path=/, next-prev-context=%7B%22context%22%3A%22homepage%22%2C%22sort%22%3A%22recent%22%7D; path=/"
       }
     },
     {
@@ -76,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "HIT (25)"
+        "content": "HIT (38)"
       }
     },
     {
@@ -90,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-dk-backend",
-        "content": "ip-10-138-46-140.ec2.internal"
+        "content": "ip-10-40-182-225.ec2.internal"
       }
     },
     {
@@ -111,21 +95,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "2024335143 2024330942"
+        "content": "892209694 892196156"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish-ip",
-        "content": "10.191.79.221"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-length",
-        "content": "12164"
+        "content": "10.77.55.95"
       }
     },
     {
@@ -135,7 +112,5 @@
         "content": "keep-alive"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;dorkly.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;accept-ranges&quot;, :content=&gt;&quot;bytes&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;age&quot;, :content=&gt;&quot;40&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:46:30 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;Apache&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;player-context=%7B%22context%22%3A%22homepage%22%2C%22referer%22%3A%22%22%2C%22sort%22%3A%22recent%22%7D; path=&#x2F;, next-prev-context=%7B%22context%22%3A%22homepage%22%2C%22sort%22%3A%22recent%22%7D; path=&#x2F;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;vary&quot;, :content=&gt;&quot;Accept-Encoding&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;via&quot;, :content=&gt;&quot;1.1 varnish&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cache&quot;, :content=&gt;&quot;HIT (25)&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-cacheable&quot;, :content=&gt;&quot;YES&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-dk-backend&quot;, :content=&gt;&quot;ip-10-138-46-140.ec2.internal&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-powered-by&quot;, :content=&gt;&quot;PHP&#x2F;5.3.6&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-ua-compatible&quot;, :content=&gt;&quot;IE=edge&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish&quot;, :content=&gt;&quot;2024335143 2024330942&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-varnish-ip&quot;, :content=&gt;&quot;10.191.79.221&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-length&quot;, :content=&gt;&quot;12164&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n",
-  "timestamp_end": "2015-01-09 19:46:30 UTC"
+  ]
 }

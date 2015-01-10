@@ -6,21 +6,12 @@
       "name": "http://uszcn.com"
     }
   },
-  "timestamp_start": "2015-01-09 19:48:42 UTC",
-  "id": "247b5a30-f9b0-43f5-9b37-50e6556fa2e5",
   "entities": [
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
         "content": "nginx/1.7.3"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "date",
-        "content": "Fri, 09 Jan 2015 19:48:45 GMT"
       }
     },
     {
@@ -76,7 +67,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "W/\"7ae64a64836e152ed5a6a384d0fd505a\""
+        "content": "W/\"850f59305448b4bc34c879aedec0721e\""
       }
     },
     {
@@ -90,24 +81,22 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "_c=08oxhqbo1qnioj6f; domain=uszcn.com; path=/; expires=Tue, 09 Jan 2035 19:48:45 -0000, _ns=OWZadjR0bVhSZHkzOXpoS1QxQ1BBRHBQdk5PcnJhTkFzZTVEOVNlZDloUWFrbjg0SmRFMWVNTWUrdExFMlJyaTFZM3V3bHg0MnI4OHRvL1RSL3ZpaExHSUk1UlBwUHZNZGdoMGF2SkR6T3Z0OXUyM1hoOVh2b21MWDRIUCtNUkFaREVGYUpwTy8rVVRjcnlaTHdPT2l3PT0tLWJuVERrWE9GaG9KckdKWUExMnM1RHc9PQ%3D%3D--b929208825c613b400cdd2b4ba80d20efa90107b; path=/; HttpOnly"
+        "content": "_c=08q2ddpyuz8lh6rk; domain=uszcn.com; path=/; expires=Wed, 10 Jan 2035 20:31:50 -0000, _ns=Q0tic20wSmdiWVl4REgyY2cwYXlSR3ExUDNaVmFwczV5T3duVnRzTHByTXRsWEtEaEgzZVM0VVNhM0ExbnJ1VVkwcDNrMTVsU0JaMlE3ZWxoalpQeWNnekpWMUNuSTY3bjkzdzNHRnpINnlqNU1IamdtRUU1WTNoOWNnNXppM3FtUVpRZWtGanhFTCtRQmxsRlRJVE53PT0tLVhIb1RzRHJDOWxRUEdKdGtNRm45Z1E9PQ%3D%3D--e8d7f8aa5b44229ca7ae87dabcf0a9254082433d; path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "a9716223-788f-44da-aad2-09d8797d593e"
+        "content": "c903198c-a25e-41d4-b423-f55125158f95"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.014135"
+        "content": "0.014127"
       }
     }
-  ],
-  "task_log": "[ ] : BaseTask setup() called.\n[ ] : Task: web_app_gather_headers\n[ ] : Task entity: {&quot;type&quot;=&gt;&quot;WebApplication&quot;, &quot;attributes&quot;=&gt;{&quot;name&quot;=&gt;&quot;http:&#x2F;&#x2F;uszcn.com&quot;}}\n[ ] : Task options: []\n[ ] : BaseTask run() called.\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;server&quot;, :content=&gt;&quot;nginx&#x2F;1.7.3&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;date&quot;, :content=&gt;&quot;Fri, 09 Jan 2015 19:48:45 GMT&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;content-type&quot;, :content=&gt;&quot;text&#x2F;html; charset=utf-8&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;transfer-encoding&quot;, :content=&gt;&quot;chunked&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;connection&quot;, :content=&gt;&quot;keep-alive&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;status&quot;, :content=&gt;&quot;200 OK&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-frame-options&quot;, :content=&gt;&quot;SAMEORIGIN&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-xss-protection&quot;, :content=&gt;&quot;1; mode=block&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-content-type-options&quot;, :content=&gt;&quot;nosniff&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;etag&quot;, :content=&gt;&quot;W&#x2F;\\&quot;7ae64a64836e152ed5a6a384d0fd505a\\&quot;&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;cache-control&quot;, :content=&gt;&quot;max-age=0, private, must-revalidate&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;set-cookie&quot;, :content=&gt;&quot;_c=08oxhqbo1qnioj6f; domain=uszcn.com; path=&#x2F;; expires=Tue, 09 Jan 2035 19:48:45 -0000, _ns=OWZadjR0bVhSZHkzOXpoS1QxQ1BBRHBQdk5PcnJhTkFzZTVEOVNlZDloUWFrbjg0SmRFMWVNTWUrdExFMlJyaTFZM3V3bHg0MnI4OHRvL1RSL3ZpaExHSUk1UlBwUHZNZGdoMGF2SkR6T3Z0OXUyM1hoOVh2b21MWDRIUCtNUkFaREVGYUpwTy8rVVRjcnlaTHdPT2l3PT0tLWJuVERrWE9GaG9KckdKWUExMnM1RHc9PQ%3D%3D--b929208825c613b400cdd2b4ba80d20efa90107b; path=&#x2F;; HttpOnly&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-request-id&quot;, :content=&gt;&quot;a9716223-788f-44da-aad2-09d8797d593e&quot;}\n[+] : Creating entity: WebApplicationHeader, {:name=&gt;&quot;x-runtime&quot;, :content=&gt;&quot;0.014135&quot;}\n",
-  "timestamp_end": "2015-01-09 19:48:45 UTC"
+  ]
 }
