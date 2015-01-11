@@ -11,28 +11,42 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Varnish"
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-eb-device",
+        "content": "desktop"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "s-maxage=30"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html;charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "content-language",
+        "content": "da-DK"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1519125459"
+        "content": "1519602805"
       }
     },
     {
@@ -45,8 +59,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cneonction",
-        "content": "close"
+        "name": "connection",
+        "content": "keep-alive"
       }
     },
     {
@@ -68,6 +82,13 @@
       "attributes": {
         "name": "freedom-of-speech",
         "content": "Je suis Charlie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

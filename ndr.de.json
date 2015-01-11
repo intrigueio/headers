@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html;charset=UTF-8"
       }
     },
     {
@@ -25,7 +25,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public, max-age=40"
+        "content": "public, max-age=55"
       }
     },
     {
@@ -40,6 +40,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=AA82B6F2C20EBBACBE10B2A3E1B11F44; Path=/; HttpOnly, X-Mapping-omgbnpna=8067BE503EF11721A3AD12B042314ACD;path=/"
       }
     }
   ]
