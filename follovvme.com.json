@@ -10,8 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -32,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d536ebfa5beb4b2b48682668a428c68b41420981257; expires=Mon, 11-Jan-16 13:00:57 GMT; path=/; domain=.follovvme.com; HttpOnly"
+        "content": "__cfduid=d3ad3879484781ed6322d5541afe5e4621420984861; expires=Mon, 11-Jan-16 14:01:01 GMT; path=/; domain=.follovvme.com; HttpOnly, PHPSESSID=pa81lvf0knoi3nfh3iljrq8mr1; expires=Mon, 12-Jan-2015 02:01:01 GMT; path=/; domain=follovvme.com"
       }
     },
     {
@@ -52,15 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a714cdc0e650424-ORD"
+        "content": "1a71a4d96d450424-ORD"
       }
     }
   ]

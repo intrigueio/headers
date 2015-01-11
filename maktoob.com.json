@@ -10,22 +10,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "p3p",
+        "content": "policyref=\"http://info.yahoo.com/w3c/p3p.xml\", CP=\"CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "ATS/4.0.2"
+        "name": "x-frame-options",
+        "content": "DENY"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-store"
+        "name": "strict-transport-security",
+        "content": "max-age=2592000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "DNR=deleted; expires=Sat, 11-Jan-2014 13:57:57 GMT; path=/; domain=.www.yahoo.com, DNR=deleted; expires=Sat, 11-Jan-2014 13:57:57 GMT; path=/; domain=.en-maktoob.yahoo.com, PH=deleted; expires=Sat, 11-Jan-2014 13:57:57 GMT; path=/; domain=.yahoo.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -38,8 +52,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-language",
-        "content": "en"
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "http/1.1 ir52.fp.bf1.yahoo.com (ApacheTrafficServer)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "ATS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, private, max-age=0"
       }
     }
   ]

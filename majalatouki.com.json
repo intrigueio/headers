@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=df988d760c5ac2cfff4e83a3c69de36da1420981334; expires=Mon, 11-Jan-16 13:02:14 GMT; path=/; domain=.majalatouki.com; HttpOnly"
+        "content": "__cfduid=d7011cbb629faded3146ab6b4f8181f141420984941; expires=Mon, 11-Jan-16 14:02:21 GMT; path=/; domain=.majalatouki.com; HttpOnly"
       }
     },
     {
@@ -59,6 +59,27 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pingback",
+        "content": "http://majalatouki.com/wordpress/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "cloudflare-nginx"
       }
@@ -67,7 +88,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a714ebf959f0430-ORD"
+        "content": "1a71a6cc9b3a042a-ORD"
       }
     }
   ]
