@@ -24,8 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes, bytes"
+        "name": "cache-control",
+        "content": "max-age=60"
       }
     },
     {
@@ -33,6 +33,13 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
