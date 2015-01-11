@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -26,6 +33,69 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-we-need-to-talk",
+        "content": "Hey, you need to check out https://www.bukalapak.com/careers. Or just email me at xinuc@bukalapak.com :)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "request_method=GET; path=/, identity=c25658c3c5d7377eacc2414253dd09c7; domain=.bukalapak.com; path=/; expires=Thu, 11 Jan 2035 02:56:34 -0000, lskjfewjrh34ghj23brjh234=eyJzZXNzaW9uX2lkIjoiYTk4ZjdjNTU5OWI0Zjg1ZjU0MTIwNThkYzkwODQzZDgiLCJkZXNrdG9wX3ZpZXciOiJ0cnVlIiwiX2NzcmZfdG9rZW4iOiJwdnlVa0s3TzNCRTl6Tm16U0xiaVNoVzA0R0ZNQlZKK3NRaWVHUC9HYVpBPSIsInNwbGl0Ijp7ImxvZ2luLXJlZ2lzdGVyLWJ1dHRvbi12MiI6ImdyZWVuLWJ0biJ9fQ%3D%3D--3f5db57689f1fcb6ecfdaf905023fb91b8a54f1a; domain=.bukalapak.com; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "70cb5c53-4e8f-4ecc-b7fe-c021c80b9292"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=31536000; includeSubdomains"
       }
     }
   ]
