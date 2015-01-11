@@ -10,36 +10,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "cache-control",
+        "content": "no-cache, must-revalidate, post-check=0, pre-check=0, no-cache=\"set-cookie\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=5, no-cache=\"set-cookie\""
+        "name": "content-language",
+        "content": "en"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1e514-50c5bbd3cf800\""
+        "content": "\"1420966649\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Sun, 11 Jan 2015 07:57:20 GMT"
+        "content": "Sun, 11 Jan 2015 08:57:29 +0000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "link",
+        "content": "<http://www.deccanchronicle.com/>; rel=\"canonical\""
       }
     },
     {
@@ -53,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "AWSELB=EF0BAFB50282FB9FD2A472352DB35E9C0AC082DD1B3B4F8C7D6F6C4AEE0F61C9954DE859919F339FF6922D310ED81B63FEA34CF9E60A0566A31E5DA09232AAF20DD575EC3E;PATH=/;MAX-AGE=1800"
+        "content": "AWSELB=EF0BAFB50282FB9FD2A472352DB35E9C0AC082DD1B3B4F8C7D6F6C4AEE0F61C9954DE85991A6DEC4615567F737275D72993445B0E40A0566A31E5DA09232AAF20DD575EC3E;PATH=/;MAX-AGE=1800"
       }
     },
     {
@@ -61,6 +68,20 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-generator",
+        "content": "Drupal 7 (http://drupal.org)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.3.10"
       }
     },
     {
