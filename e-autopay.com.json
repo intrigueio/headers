@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -26,6 +26,48 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.4.36-0+deb7u1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "laravel_session=eyJpdiI6IlVuS0Y3bm5TR3hJXC8zUEtUU25CQVR3PT0iLCJ2YWx1ZSI6Im5wRHNDRVFEUk04MkVxVXBZeFExVkp5dlA5UEdhT094SncyMFZXXC8zT3RvVzZKelpGeGxMR1dlOUtzV1NibnBSdjc4N24rUXhKXC90N0hpRWVpbFd2dFE9PSIsIm1hYyI6IjVmYTY2M2U1MTY1YjJmZDM2NGU0OTgyMzk1Y2MyODRlYTk1ZTc2NjhmMmI0YzAwNjc3NmQ4NWMwNDVhY2JlNTYifQ%3D%3D; expires=Sun, 11-Jan-2015 06:58:04 GMT; path=/; httponly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-eautopay",
+        "content": "2.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     }
   ]

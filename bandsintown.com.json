@@ -17,15 +17,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "etag",
-        "content": "\"0f2b2f35f2e767ccb25d3f9d5946526f\""
+        "content": "\"09e2b42667ad8b7719d9d045f88b3e2e\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "19"
+        "content": "21"
       }
     },
     {
@@ -45,22 +59,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "set-cookie",
-        "content": "_bandsintown_session=a8fbb99406d123b32a1030c60ecccb47; path=/; HttpOnly"
+        "content": "_bandsintown_session=cd435f908e029f837507f1bbcefe36d2; path=/; HttpOnly"
       }
     },
     {
@@ -75,13 +75,6 @@
       "attributes": {
         "name": "connection",
         "content": "close"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
       }
     }
   ]

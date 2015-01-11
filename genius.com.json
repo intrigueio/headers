@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d0c7dd0973f44a6f6c615f7c9860a65191420948558; expires=Mon, 11-Jan-16 03:55:58 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=NhM1sRUafn5vlWdsgyEITXRFRqXizPpyBJoVvdFjhRM%3D; domain=genius.com; path=/; expires=Mon, 11-Jan-2016 03:55:58 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMU5oTTFzUlVhZm41dmxXZHNneUVJVFhSRlJxWGl6UHB5QkpvVnZkRmpoUk09Og9zZXNzaW9uX2lkIiU1NDM4ODAzOGYyZGYxYTEzNDJhOTY1OTU3YTM4NGZmNw%3D%3D--f95e5b76a0897ae3895367583a68dc56780fcfa5; domain=.genius.com; path=/; HttpOnly"
+        "content": "__cfduid=d993e39a5e03607babbf2ca34ca6a279f1420952144; expires=Mon, 11-Jan-16 04:55:44 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=xA4c7onwCnTO4n1rTckPu%2Bki0rRYqYguqNXyEiU3xjY%3D; domain=genius.com; path=/; expires=Mon, 11-Jan-2016 04:55:44 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMXhBNGM3b253Q25UTzRuMXJUY2tQdStraTByUllxWWd1cU5YeUVpVTN4alk9Og9zZXNzaW9uX2lkIiUwY2M4YTFkYmRkZTUxZGEzM2YwZmY0NTA4NmYzMmJjYg%3D%3D--9d8975813120ee37d6abb8c4c7fdc730f706627f; domain=.genius.com; path=/; HttpOnly"
       }
     },
     {
@@ -45,8 +45,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"e129fd5645f7d3182ecfc78930500692\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-genius-body-classes",
+        "content": "act-show cont-home"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "14"
       }
     },
     {
@@ -59,29 +80,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "W/\"2ba5c0a149adf91a7abfaae6f5491d4d\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-runtime",
-        "content": "13"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-genius-body-classes",
-        "content": "act-show cont-home"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
@@ -102,7 +102,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a6e2e8b4867118f-DFW"
+        "content": "1a6e86166f89118f-DFW"
       }
     }
   ]
