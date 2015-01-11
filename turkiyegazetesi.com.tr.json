@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public, max-age=14"
+        "content": "public, no-cache=\"Set-Cookie\", max-age=15"
       }
     },
     {
@@ -25,7 +25,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Sun, 11 Jan 2015 22:02:43 GMT"
+        "content": "Sun, 11 Jan 2015 23:02:44 GMT"
       }
     },
     {
@@ -40,6 +40,13 @@
       "attributes": {
         "name": "server",
         "content": "Microsoft-IIS/8.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId=t33eusotfwlpcpzv1eyp2wa5; path=/; HttpOnly"
       }
     },
     {

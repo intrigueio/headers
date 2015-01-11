@@ -31,13 +31,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-akamai-transformed",
-        "content": "9 23017 0 pmb=mRUM,1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -54,6 +47,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=BF9225B36DB98824724CCE392EBF94A1; Path=/; HttpOnly, GUEST_LANGUAGE_ID=en_US; Expires=Mon, 11-Jan-2016 23:01:15 GMT; Path=/, COOKIE_SUPPORT=true; Expires=Mon, 11-Jan-2016 23:01:15 GMT; Path=/"
       }
     }
   ]
