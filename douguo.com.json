@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "DGS 1.4.0"
+        "content": "nginx/1.5.7"
       }
     },
     {
@@ -45,8 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "dg_auths=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%220bd49c59bbbc9dec1522b158756e0844%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.133.83%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420977429%3B%7D24d624eabaab1c2da4aede8561c88779; expires=Sun, 11-Jan-2015 13:57:09 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "from",
-        "content": "DGS-234"
+        "content": "DGS-128"
       }
     }
   ]
