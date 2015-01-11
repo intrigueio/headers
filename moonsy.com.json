@@ -11,28 +11,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.6.2"
+        "content": "Apache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "set-cookie",
+        "content": "ax=1; expires=Sun, 11-Jan-2015 07:09:50 GMT; path=/, det2=745823; expires=Wed, 06-Jan-2016 06:59:50 GMT; path=/, huid=0f04656920f894bd72f4454776881a75; expires=Wed, 06-Jan-2016 06:59:50 GMT; path=/, info2=1420959590%231%231%231420959590; expires=Wed, 06-Jan-2016 06:59:50 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "close"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"54b189da-bd\""
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
       }
     }
   ]

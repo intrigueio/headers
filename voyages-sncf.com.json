@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -18,14 +25,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "country_code=US; expires=Mon, 12-Jan-2015 05:56:01 GMT; path=/; domain=voyages-sncf.com"
+        "content": "country_code=US; expires=Mon, 12-Jan-2015 06:56:16 GMT; path=/; domain=voyages-sncf.com"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"d5ba580e32ee585ed028ec392dcbb2fa\""
+        "name": "x-varnish-request",
+        "content": "//?rfrr=Page%20Inconnue%3A%2Fattestation-cout-trajet-voiture_body_voyagessncfcom"
       }
     },
     {
@@ -45,15 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-varnish-hits",
+        "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-varnish-cache",
-        "content": "MISS"
+        "content": "HIT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "363804250"
+        "content": "683789936 683789673"
       }
     },
     {
@@ -68,13 +82,6 @@
       "attributes": {
         "name": "x-varnish-key",
         "content": "//voyages-sncf.comdesktop"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-varnish-request",
-        "content": "//"
       }
     },
     {
