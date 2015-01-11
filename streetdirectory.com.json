@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
         "content": "Apache"
       }
@@ -25,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ci_session=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%2207c82c6a311bf991a53fbeb8594c9b0a%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A9%3A%2210.0.0.58%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421002936%22%3B%7Db06de4a9e61b49d45821f86a3275c230; expires=Sun, 11-Jan-2015 21:02:16 GMT; path=/"
+        "content": "ci_session=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%227c5d6772aa326e1e629270f59353e32b%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%22104.237.133.83%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421006455%22%3B%7Ded2c9fc47bcda8f29bc58b8788526d4f; expires=Sun, 11-Jan-2015 22:00:55 GMT; path=/"
       }
     },
     {
@@ -39,7 +32,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
       }
     }
   ]

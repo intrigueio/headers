@@ -25,7 +25,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "akaau=1421002992~id=03ec2746c67dd2ecccfff5ec1a558a79; path=/"
+        "content": "akaau=1421006602~id=3f075fbdd77caed1b613b8c7c366dd3b; path=/"
       }
     },
     {
@@ -33,6 +33,13 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-akamai-transformed",
+        "content": "9 287317 0 pmb=mRUM,1"
       }
     },
     {
@@ -52,8 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     }
   ]

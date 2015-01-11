@@ -24,15 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "x-akamai-transformed",
+        "content": "9 13908 0 pmb=mRUM,1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private, max-age=283667"
+        "content": "private, max-age=280054"
       }
     },
     {
@@ -47,6 +47,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
       }
     }
   ]
