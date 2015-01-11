@@ -17,22 +17,71 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache, no-store, must-revalidate"
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "status",
-        "content": "503 Service Unavailable"
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "f896f00f90d785c127aea24b792d5ed6"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.275937"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-powered-by",
-        "content": "PleskLin"
+        "content": "Phusion Passenger 4.0.53, PleskLin"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "_whitepin_socialstream2_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJTExMWEwNTcxYWRmNGIxNmI0NWVlNmVjOGE3OTg4ZDRkBjsAVEkiF2NvbXBhcmlzb25fY291bnRlcgY7AEZpAEkiEF9jc3JmX3Rva2VuBjsARkkiMTQ1OXlXaERnVmFleitmMGp3c0FlcWZMYWQ2dU42dVFHQTY3Z0ZQMEhYME09BjsARg%3D%3D--4c645c8ac39a462dc99adc0af5759a027a25cd3f; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"0915d8996a13f271bb8906cc989ffee4-gzip\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -45,15 +94,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html; charset=utf-8"
       }
     }
   ]

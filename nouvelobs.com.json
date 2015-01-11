@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache/2.2.22 (Debian)"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
@@ -19,6 +19,41 @@
       "attributes": {
         "name": "cache-control",
         "content": "public, max-age=60, no-transform"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"XXX1420980969.857\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DEVa TAIa OUR BUS UNI\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache/2.2.22 (Debian)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=0"
       }
     },
     {
@@ -38,27 +73,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "strict-transport-security",
-        "content": "max-age=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "p3p",
-        "content": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DEVa TAIa OUR BUS UNI\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-ua-compatible",
         "content": "IE=edge,chrome=1"
       }
@@ -66,29 +80,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnobs2",
-        "content": "Cache W:1 C: 87504092 87504093"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes, bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "via",
-        "content": "1.1 varnish-v4"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-varncdn",
-        "content": "OVH 600898768"
+        "name": "x-varnobs1",
+        "content": "Cache W:1 C: 786719300"
       }
     },
     {
@@ -96,13 +89,6 @@
       "attributes": {
         "name": "transfer-encoding",
         "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
       }
     }
   ]
