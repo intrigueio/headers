@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "_NJIN_=tbqv5l6jrbrn97fvtbg8nttlj4; path=/; domain=.goalunited.org, _GU2011_=%9B%3B%80%A6%22q%26%DD%88%01%B4gs%AE%0B%FBC%A1%91%C8%E6%CB%1F%B3e%F2c%1D%B4%C2qB%EA6d%7B%B7%8D%82%0A; path=/; domain=.goalunited.org, _GU2011_=%EB%E1H%EE%EBB%02%D6%85v%97%25%02%F8%C9%60%0D%8E%17%BD%05%03q%C3%A4%EC%17%3E%AC%3B%F2%846%F7%8C%DBsR%7B%14; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Sun, 11-Jan-2015 19:00:33 GMT; path=/; domain=.goalunited.org, lang=en; expires=Sun, 11-Jan-2015 19:00:33 GMT; path=/; domain=.manager-football.org, lang=en; expires=Sun, 11-Jan-2015 19:00:33 GMT"
+        "content": "_NJIN_=dgksalvr6m6q51dtcsr2h5k955; path=/; domain=.goalunited.org, _GU2011_=%16%90%D8%1Ee%1Ar%91%BC%03%F6%5B%BEK%3CZ%7C%0F%1E%83%D0v%1C%9D%0A%3F%95%1F%E3%0C%E4f%80%0A%86%25%95M%CB%98; path=/; domain=.goalunited.org, _GU2011_=%A4%1B3Ix%F1%F6xT%C28%B2%8B%0D%E8hG%2A%86%AE%1E%EE%2Al%D5OE%EB%93%C8HA%8F%E7%C0%C6%ECH%9C%AB; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Sun, 11-Jan-2015 20:00:48 GMT; path=/; domain=.goalunited.org, lang=en; expires=Sun, 11-Jan-2015 20:00:48 GMT; path=/; domain=.manager-football.org, lang=en; expires=Sun, 11-Jan-2015 20:00:48 GMT"
       }
     },
     {
@@ -47,13 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
       }
     }
   ]
