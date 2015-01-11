@@ -10,22 +10,71 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "server",
+        "content": "nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "BigIP"
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "Keep-Alive"
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-answeredby",
+        "content": "app09"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "mtat-motor-talk.de-p=Hx0YEAQjsegRWaduE7ggWA;Path=/;Expires=Mon, 11-Jan-2016 22:00:28 GMT, mtat-motor-talk.de-t=Hx0YEAQjsegRWaduE7ggWA;Path=/, CID=489958328;Path=/;Domain=www.motor-talk.de;Expires=Mon, 11-Jan-2016 22:00:28 GMT, sTC14_session=a_home;Path=/;Domain=www.motor-talk.de"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-sessionreferenceid",
+        "content": "AT:Hx0YEAQjsegRWaduE7ggWA"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "de-DE"
       }
     }
   ]
