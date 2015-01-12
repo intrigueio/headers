@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-dynatrace",
+        "content": "PT=35982607;PA=1019387918;RS=TWNMM Canada/20150112143209_0.session;SP=TWNMM Canada;PS=-384574522"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-ua-compatible",
         "content": "IE=Edge,chrome=1"
       }
@@ -25,21 +32,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "s-maxage=600, max-age=600, private, proxy-revalidate"
+        "content": "s-maxage=600, max-age=600"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "2305546861 2304660314, 2019313662 2018942035"
+        "content": "2141246580, 2887697444"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-iscached",
-        "content": "HIT"
+        "name": "via",
+        "content": "1.1 varnish, 1.1 varnish"
       }
     },
     {
@@ -52,15 +59,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive, Transfer-Encoding"
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iscached",
+        "content": "MISS"
       }
     }
   ]

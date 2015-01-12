@@ -10,36 +10,92 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close, close"
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "x-powered-by",
+        "content": "PHP/5.3.27"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-iinfo",
-        "content": "10-67623511-0 0NNN RT(1421089574464 1) q(0 -1 -1 0) r(0 -1) B10(8,808400,0)"
+        "name": "p3p",
+        "content": "policyref=\"/bitrix/p3p.xml\", CP=\"NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-cms",
+        "content": "Bitrix Site Manager (a1beeebf5043f0de31775882b8d8c476)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "incap_ses_282_215487=rHWyYvX/zwZ3m7bLpt3pAyYbtFQAAAAAPJBtYi6joVpIV94mC/mw/A==; path=/; Domain=.payeer.com, visid_incap_215487=DoqYjlxAQ2e5SrHui4CctSYbtFQAAAAAQUIPAAAAAAAgR6oJaMT4Wc6ed3qfdGzA; expires=Wed, 11 Jan 2017 12:50:31 GMT; path=/; Domain=.payeer.com"
+        "content": "PHPSESSID=45fk46t7he3011pvvtiejgj925; path=/, incap_ses_198_215487=BITpeMtV9hWd3cNPMnC/AiwptFQAAAAAjqMOcnXnxEG8tTIdyr3jBA==; path=/; Domain=.payeer.com, visid_incap_215487=09zWFggeRxGKB3JGwXIadCsptFQAAAAAQUIPAAAAAACjdtES+S5fK22RaJsSQLr+; expires=Wed, 11 Jan 2017 11:03:39 GMT; path=/; Domain=.payeer.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "10-9615458-9596601 PNNN RT(1421093163371 233) q(0 0 0 0) r(5 5) U10000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cdn",
+        "content": "Incapsula"
       }
     }
   ]
