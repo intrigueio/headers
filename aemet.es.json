@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=600,must-revalidate"
+        "content": "max-age=7200,must-revalidate"
       }
     },
     {
@@ -25,7 +25,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Mon, 12 Jan 2015 01:44:02 GMT"
+        "content": "Mon, 12 Jan 2015 02:44:01 GMT"
       }
     },
     {
@@ -54,6 +54,13 @@
       "attributes": {
         "name": "via",
         "content": "1.1 clwcmiabr01 (jaguar/3.0-11)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "warning",
+        "content": "111 JaguarCache \"Revalidation failed\""
       }
     }
   ]

@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,15 +38,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "set-cookie",
-        "content": ".ASPXANONYMOUS=RVr7Qp1k0AEkAAAAZDg4NWFkMDctM2JmZC00NmZhLWFmOTItOGZjZTAxZTE4MzJkTD3dFxV2T1QTVftTH-jz-0fugvWV0WTiCLsyfLZznCk1; expires=Sun, 22-Mar-2015 12:39:39 GMT; path=/; HttpOnly, ASP.NET_SessionId=4lmhe0u4t0xpczmbvpd5srgy; path=/; HttpOnly"
+        "content": ".ASPXANONYMOUS=692f6KVk0AEkAAAAM2QxOWRiNWYtOTBjMy00YjNmLWI4ZTYtZThjZDY3NjAwY2M0VeqiUxvl58rAhjt7iISMPviVzHnIEQjYeq-IR98hTb41; expires=Sun, 22-Mar-2015 13:41:32 GMT; path=/; HttpOnly, ASP.NET_SessionId=j1jck3przjdjilu4sf0b35tg; path=/; HttpOnly"
       }
     },
     {
@@ -74,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "174497542 176968038"
+        "content": "176946112"
       }
     },
     {
@@ -87,15 +87,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnish-cache",
-        "content": "HIT"
+        "name": "x-varnish-cache-hits",
+        "content": "0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnish-cache-hits",
-        "content": "159661"
+        "name": "x-varnish-cache",
+        "content": "MISS"
       }
     },
     {
@@ -117,13 +117,6 @@
       "attributes": {
         "name": "x-device",
         "content": "desktop"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
       }
     }
   ]
