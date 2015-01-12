@@ -10,15 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "server",
+        "content": "nginx/1.2.1"
       }
     },
     {
@@ -26,6 +19,13 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]
