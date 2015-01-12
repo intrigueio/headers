@@ -24,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -38,8 +31,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": ".ASPXANONYMOUS=YIVtScdk0AEkAAAAODJkZTE1YWUtMmIwYy00OTY5LTkxMmItNTY3YmUyYTM1NzA3i0y0YAzMNIqAs4J2eNVEg8MMl3p3Az9rycKKjU8CMwg1; expires=Sun, 22-Mar-2015 17:40:28 GMT; path=/; HttpOnly, ASP.NET_SessionId=nrxzm2nmdow50ookm1uqdiax; path=/; HttpOnly"
+        "content": ".ASPXANONYMOUS=pDd3xc9k0AEkAAAAN2NkYTMzMTEtOGYyZC00YTA1LThkNzAtOGY2OWExOTRhZmM2BS0rxhQ30BypQqDhMZceLSw0UMWLpSxvMhdgG0O_TYo1; expires=Sun, 22-Mar-2015 18:41:12 GMT; path=/; HttpOnly, ASP.NET_SessionId=0xet1b5vospypxdbkovtx042; path=/; HttpOnly"
       }
     },
     {
@@ -74,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "179532962 180215644"
+        "content": "186345207 185959278"
       }
     },
     {
@@ -95,7 +95,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish-cache-hits",
-        "content": "164977"
+        "content": "167977"
       }
     },
     {
@@ -117,6 +117,13 @@
       "attributes": {
         "name": "x-device",
         "content": "desktop"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     }
   ]
