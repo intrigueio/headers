@@ -10,15 +10,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html; charset=ISO-8859-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PREF=ID=7241911d00056d20:FF=0:TM=1421020840:LM=1421020840:S=qR50LIC0f4eg8FHi; expires=Wed, 11-Jan-2017 00:00:40 GMT; path=/; domain=.google.lu, NID=67=BQSFB5h5Nvn4Mv80SrGQJwJChHdrVeCRAUtqTqWfitl4Ex88n--1ptuOPPJCAJUIOi_dyKVvx0oAZjunuSJPGauToeMyBov7YVzyP753ij-DU0o5vG8u4zKynmaq2WpA; expires=Tue, 14-Jul-2015 00:00:40 GMT; path=/; domain=.google.lu; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info.\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "GFE/2.0"
+        "content": "gws"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
@@ -26,6 +61,27 @@
       "attributes": {
         "name": "alternate-protocol",
         "content": "80:quic,p=0.02"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "none"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

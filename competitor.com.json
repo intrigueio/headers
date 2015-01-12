@@ -45,20 +45,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Sun, 11 Jan 2015 22:59:40 +0000"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-pingback",
         "content": "http://running.competitor.com/xmlrpc.php"
       }
@@ -73,6 +59,20 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=24rvnp6cmlbcjfosqf78b8q615; path=/, timeout_facebook=1; expires=Mon, 12-Jan-2015 00:03:43 GMT; path=/; domain=running.competitor.com, cookie_fb_set=1; path=/; domain=running.competitor.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=300, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "pragma",
         "content": "no-cache"
       }
@@ -80,8 +80,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "last-modified",
+        "content": "Mon, 12 Jan 2015 00:02:43 +0000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-srv",
-        "content": "web2.competitor.com"
+        "content": "web3.competitor.com"
       }
     }
   ]
