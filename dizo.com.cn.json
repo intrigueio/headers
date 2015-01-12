@@ -17,6 +17,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -53,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ASP.NET_SessionId=r5l3yc55nevwzontczkpnjzv; path=/; HttpOnly, DizoAnonymousUser=UserID=bfd288e6-a594-4c41-a0b3-c2632b6d05c0; domain=dizo.com.cn; path=/"
+        "content": "DizoAnonymousUser=UserID=0c0bbac3-0e0c-4ba0-b785-97fc82cadc01; domain=dizo.com.cn; path=/"
       }
     },
     {
@@ -61,13 +68,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
       }
     }
   ]
