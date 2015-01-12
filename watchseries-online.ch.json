@@ -32,14 +32,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d73224dfbe8d807c1867a0c5142ec2fc11421038937; expires=Tue, 12-Jan-16 05:02:17 GMT; path=/; domain=.watchseries-online.ch; HttpOnly"
+        "content": "__cfduid=d0112f21d6d22e528b9c2cfe365bf4d2c1421042547; expires=Tue, 12-Jan-16 06:02:27 GMT; path=/; domain=.watchseries-online.ch; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Mon, 12 Jan 2015 05:01:56 GMT"
+        "name": "cache-control",
+        "content": "max-age=3600, public"
       }
     },
     {
@@ -52,8 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=3577, public"
+        "name": "x-pingback",
+        "content": "http://watchseries-online.ch/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Mon, 12 Jan 2015 06:02:27 GMT"
       }
     },
     {
@@ -61,13 +68,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding,User-Agent"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-pingback",
-        "content": "http://watchseries-online.ch/xmlrpc.php"
       }
     },
     {
@@ -88,7 +88,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a76cd120cf90106-DFW"
+        "content": "1a772533a5be0106-DFW"
       }
     }
   ]
