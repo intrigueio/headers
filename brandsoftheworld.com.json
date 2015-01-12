@@ -24,15 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache, must-revalidate, post-check=0, pre-check=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "etag",
-        "content": "\"1421057111\""
+        "content": "\"1421060730-1\""
       }
     },
     {
@@ -52,8 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "public, max-age=3600"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Cookie,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "last-modified",
-        "content": "Mon, 12 Jan 2015 10:05:11 GMT"
+        "content": "Mon, 12 Jan 2015 11:05:30 GMT"
       }
     },
     {
@@ -68,13 +75,6 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-encoding"
       }
     }
   ]
