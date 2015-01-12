@@ -11,28 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=ISO-8859-1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "content": "Apache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ci_session=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22d580fe2aeb38aa624e3318f3f249a684%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A9%3A%22127.0.0.1%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421096743%22%3B%7D5de101c957e6825e1db2c1e5fc39331f; expires=Mon, 12-Jan-2015 23:05:43 GMT; path=/; domain=.3bmeteo.com"
+        "content": "ci_session=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%2262b1da4f1f95905b61a623ae54ec5539%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A11%3A%22192.168.0.3%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421100351%22%3B%7D9e4a24d2e22ee568701a54b5f04ebc39; expires=Tue, 13-Jan-2015 00:05:51 GMT; path=/; domain=.3bmeteo.com"
       }
     },
     {
@@ -40,6 +26,20 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=ISO-8859-1"
       }
     }
   ]

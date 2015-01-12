@@ -39,7 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d258f944b35c674a20ac44f96b48911841421096846; expires=Tue, 12-Jan-16 21:07:26 GMT; path=/; domain=.thegrommet.com; HttpOnly"
+        "content": "__cfduid=df9684649a33544d9b87de9032d3a74db1421100456; expires=Tue, 12-Jan-16 22:07:36 GMT; path=/; domain=.thegrommet.com; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=604800"
       }
     },
     {
@@ -52,15 +59,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cf-railgun",
-        "content": "direct (starting new WAN connection)"
+        "name": "x-purge-url",
+        "content": "/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "grommet-fetch",
-        "content": "Cached"
+        "name": "x-varnish",
+        "content": "202694655 202683574"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
@@ -73,8 +87,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "strict-transport-security",
-        "content": "max-age=604800"
+        "name": "x-purge-host",
+        "content": "www.thegrommet.com"
       }
     },
     {
@@ -94,6 +108,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "grommet-fetch",
+        "content": "Cached"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "via",
         "content": "1.1 varnish"
       }
@@ -101,36 +122,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-purge-host",
-        "content": "www.thegrommet.com"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-purge-url",
-        "content": "/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-varnish",
-        "content": "202678916 202678736"
+        "name": "cf-railgun",
+        "content": "ea256b04d4 0.23 0.018422 0031 5360"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a7c52d907540932-DFW"
+        "content": "1a7caafe83860938-DFW"
       }
     }
   ]
