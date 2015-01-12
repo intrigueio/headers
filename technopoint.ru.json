@@ -45,15 +45,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "User-Agent"
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, private, must-revalidate"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, must-revalidate"
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "tp_session=ufoo9r1p8rkmp1n5dfmhk1lcd1; path=/; HttpOnly, __CITY__=18; expires=Mon, 25-Jun-2018 09:05:05 GMT; Max-Age=108864000; path=/, YII_CSRF_TOKEN=950f0d851cfee680bc2fcac2eb8610546742c80e; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent"
       }
     }
   ]
