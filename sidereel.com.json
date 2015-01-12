@@ -94,13 +94,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cachehit",
-        "content": "No; vcl_fetch; inserting"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "accept-ranges",
         "content": "bytes"
       }
@@ -109,7 +102,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "607178795"
+        "content": "607457892 607178795"
       }
     },
     {
@@ -138,6 +131,13 @@
       "attributes": {
         "name": "cache-control",
         "content": "no-cache, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cachehit",
+        "content": "Yes"
       }
     }
   ]
