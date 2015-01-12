@@ -38,29 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Hsoub Nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "Hsoub, Phusion Passenger"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIZSFRUUF9BQ0NFUFRfTEFOR1VBR0UiLWRhMzlh%0AM2VlNWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDkiFEhUVFBfVVNF%0AUl9BR0VOVCItMThlNDBlMTQwMWVlZjY3ZTFhZTY5ZWZhYjA5YWZiNzFmODdm%0AZmI4MSIPc2Vzc2lvbl9pZCJFNTEyZGRmNDNmYmMyYjI3NTY4MWVkNTgzY2Iy%0AZmQ0MGE5MGMyZGQ2ODNmM2FkZjkxMjQzZGFjODdiNzQ5NWJlYSIJY3NyZiIl%0AYzZjNzM0ODM3YzFhNjg5OTI4YzQzMDE3YjNlMGUzODY%3D%0A--61156ce4f0ea8e549b6d85dc0c170799a3034981; path=/; HttpOnly"
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIPc2Vzc2lvbl9pZCJFN2ZjMWY0ZGFhYmM1ZWVmMjUyY2FmNDVhN2Vh%0AN2Y4YTU3NjA2Y2UxOGQzMTA1NGE2NmIzNmZlNWY4NWEyMWZkYSIJY3NyZiIl%0AMmViZGJkZDg0YjJjZGZhMTA0OTc2MjQ3Njc1MDNmNmQiDXRyYWNraW5newci%0AGUhUVFBfQUNDRVBUX0xBTkdVQUdFIi1kYTM5YTNlZTVlNmI0YjBkMzI1NWJm%0AZWY5NTYwMTg5MGFmZDgwNzA5IhRIVFRQX1VTRVJfQUdFTlQiLTE4ZTQwZTE0%0AMDFlZWY2N2UxYWU2OWVmYWIwOWFmYjcxZjg3ZmZiODE%3D%0A--cd4929cdeb1332cd5c98d59e2d004361b199771c; path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {
@@ -73,8 +66,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
+        "name": "x-powered-by",
+        "content": "Hsoub, Phusion Passenger"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Hsoub Nginx"
       }
     }
   ]

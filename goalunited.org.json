@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "_NJIN_=dba92vgt8empc1405ptqvbvfl3; path=/; domain=.goalunited.org, _GU2011_=%EC%D4%A5%1E%3A%9A%E1%BD%FA%DE%87%9C%0A%1A%CF1P%E2h-%A7%23%8E%B1w%F0%D9%0FgA%CDO%149q%2A%80y%E50; path=/; domain=.goalunited.org, _GU2011_=%BE%C2%F1%8D%C04%23%08%C7%29%F5%B8%22N%27%1C%EF%B7%2B%26%00%B3%F5%93%FEu%9AJ%0E4%81%8A%A9_%80%E1F%EC%C0-; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Mon, 12-Jan-2015 16:04:55 GMT; path=/; domain=.goalunited.org, lang=en; expires=Mon, 12-Jan-2015 16:04:55 GMT; path=/; domain=.manager-football.org, lang=en; expires=Mon, 12-Jan-2015 16:04:55 GMT"
+        "content": "_NJIN_=s0cq7v2ldpk834n8kog4c6i231; path=/; domain=.goalunited.org, _GU2011_=r%9En%A4%AD%8C%CE_%C1w%27%C7%E3%F9%CA%D2%C5%A8%2Fl%C0%94%3Et%7F%F2%23%05%ED%17%17m%CD%B2%118bV%E4%28; path=/; domain=.goalunited.org, _GU2011_=%19%AD%C8F%C8%40B%A6%0D%8Cj%C7%DB%F3%BE%BB%1F%02%A4%D4P%8A%97t%DD%B5t3%EE%18%E3Q%99%C4%DAI6%5B2%1C; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Mon, 12-Jan-2015 17:04:56 GMT; path=/; domain=.goalunited.org, lang=en; expires=Mon, 12-Jan-2015 17:04:56 GMT; path=/; domain=.manager-football.org, lang=en; expires=Mon, 12-Jan-2015 17:04:56 GMT"
       }
     },
     {
@@ -47,13 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
       }
     }
   ]

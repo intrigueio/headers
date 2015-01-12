@@ -10,8 +10,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache/2.2.8"
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d305000d88454068695c836ec9c9128211421078508; expires=Tue, 12-Jan-16 16:01:48 GMT; path=/; domain=.2ch.net; HttpOnly"
       }
     },
     {
@@ -25,14 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"159187-178e-505769fb0d7c0\"-gzip"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "content": "W/\"159187-178e-505769fb0d7c0\"-gzip"
       }
     },
     {
@@ -45,15 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "server",
+        "content": "cloudflare-nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "cf-ray",
+        "content": "1a7a93273ccd03dc-DFW"
       }
     }
   ]

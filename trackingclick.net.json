@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx/1.0.15"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -17,15 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Voluum-Traffic/1.0"
+        "name": "connection",
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "keep-alive",
+        "content": "timeout=15"
       }
     }
   ]

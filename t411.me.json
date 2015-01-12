@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html; charset=windows-1252"
       }
     },
     {
@@ -32,21 +32,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d853a2a3175c7ed9269af7187dea1a0491421074956; expires=Tue, 12-Jan-16 15:02:36 GMT; path=/; domain=.t411.me; HttpOnly"
+        "content": "__cfduid=d5200ba749c19287f2d3ebc138d98a4531421078565; expires=Tue, 12-Jan-16 16:02:45 GMT; path=/; domain=.t411.me; HttpOnly, uid=null; expires=Mon, 12-Jan-2015 16:02:45 GMT; Max-Age=0; path=/; domain=.t411.me, pass=null; expires=Mon, 12-Jan-2015 16:02:45 GMT; Max-Age=0; path=/; domain=.t411.me, authKey=null; expires=Mon, 12-Jan-2015 16:02:45 GMT; Max-Age=0; path=/; domain=.t411.me, authApi=null; expires=Mon, 12-Jan-2015 16:02:45 GMT; Max-Age=0; path=/; domain=.t411.me"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "x-powered-by",
+        "content": "PHP/5.5.20-1+deb.sury.org~trusty+1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "t411-node",
+        "content": "webus1"
       }
     },
     {
@@ -60,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a7a3c6c081b0956-DFW"
+        "content": "1a7a9489a06a0956-DFW"
       }
     }
   ]
