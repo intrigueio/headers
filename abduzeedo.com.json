@@ -10,8 +10,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache"
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=dcb64d810529bf244d934bd5da935efd51421169143; expires=Wed, 13-Jan-16 17:12:23 GMT; path=/; domain=.abduzeedo.com; HttpOnly"
       }
     },
     {
@@ -25,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1421165554-1\""
+        "content": "W/\"1421166530-1\""
       }
     },
     {
@@ -46,7 +67,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "link",
-        "content": "<http://abduzeedo.com/>; rel=\"canonical\",<http://abduzeedo.com/>; rel=\"shortlink\""
+        "content": "<http://abduzeedo.com/>; rel=\"shortlink\",<http://abduzeedo.com/>; rel=\"canonical\""
       }
     },
     {
@@ -60,7 +81,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Tue, 13 Jan 2015 16:12:34 GMT"
+        "content": "Tue, 13 Jan 2015 16:28:50 GMT"
       }
     },
     {
@@ -87,22 +108,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-varnish",
-        "content": "1089483615"
+        "content": "1089622817 1089539215"
       }
     },
     {
@@ -115,15 +122,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "x-varnish-cache",
+        "content": "HIT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnish-cache",
-        "content": "MISS"
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1a8337eb22a503e2-DFW"
       }
     }
   ]
