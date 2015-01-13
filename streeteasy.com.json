@@ -10,15 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Tue, 13 Jan 2015 05:04:05 GMT"
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -26,6 +26,34 @@
       "attributes": {
         "name": "server",
         "content": "nginx/1.6.2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "streeteasy_site=nyc; path=/; expires=Wed, 13 Jan 2016 06:08:52 -0000, _ses=BAh7CzoPc2Vzc2lvbl9pZCIlYzkyNzFkMjdiOTJkOWY4YTcwMjA4NDg3NzhlZTNjMTU6EG5ld192aXNpdG9yVDoOdXNlcl9kYXRhew46EHNhbGVzX29yZGVySSIPcHJpY2VfZGVzYwY6BkVUOhJyZW50YWxzX29yZGVySSIPcHJpY2VfZGVzYwY7CVQ6EGluX2NvbnRyYWN0RjoNaGlkZV9tYXBGOhJzaG93X2xpc3RpbmdzRjoSbW9ydGdhZ2VfdGVybWkjOhltb3J0Z2FnZV9kb3ducGF5bWVudGkZOiFtb3J0Z2FnZV9kb3ducGF5bWVudF9kb2xsYXJzaQJQwzoSbW9ydGdhZ2VfcmF0ZWYJNC43NToSbG9va19hbmRfZmVlbEkiCTIwMTQGOwlUOhBhZHNfYmFja2VuZEkiCXpkZnAGOwlUOhFsYXN0X3NlY3Rpb25JIgpzYWxlcwY7CVQ%3D--4bc25e058d9df0587dbe0f501dd6e477a4f9d8cf; path=/; expires=Tue, 13 Jan 2015 07:08:52 -0000; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "156"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {

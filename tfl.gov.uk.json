@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public, must-revalidate, max-age=60, s-maxage=60"
+        "content": "public, must-revalidate, max-age=30, s-maxage=30"
       }
     },
     {
@@ -38,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "api-entity-payload",
-        "content": "Line, LineStatus, RoadCorridor, Line, LineStatus, Line, LineStatus, Line, LineStatus, Line, LineStatus"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-ttl-rule",
         "content": "0"
       }
@@ -60,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-ttl",
-        "content": "60.000"
+        "content": "30.000"
       }
     },
     {
@@ -74,7 +67,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "10.76.3.37, 1553893257"
+        "content": "10.76.2.234, 387395379"
       }
     },
     {
