@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "X-Forwarded-Proto,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "surrogate-control",
         "content": "content=ESI/1.0,max-age=10800"
       }
@@ -32,6 +39,13 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
+        "content": "public,max-age=900,s-maxage=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "edge-control",
         "content": "public,max-age=900,s-maxage=1"
       }
     },
@@ -67,49 +81,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "563171648 562907098, 3777313364"
+        "content": "563744466, 3788738371"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish, 1.1 varnish"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-back",
-        "content": "HIT"
+        "content": "MISS"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cache-hits-back",
-        "content": "5897"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive, Transfer-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "akaau=1421154812~id=1da6966f97b8e158db7e1b60a7c76bd0; path=/"
+        "name": "x-cache",
+        "content": "MISS"
       }
     }
   ]
