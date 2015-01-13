@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "server",
+        "content": "Apache"
       }
     },
     {
@@ -19,6 +19,20 @@
       "attributes": {
         "name": "cache-control",
         "content": "max-age=60"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-backend",
+        "content": "web2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Host,Accept-Encoding"
       }
     },
     {
@@ -32,42 +46,42 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"FakeTue, 13 Jan 2015 19:16:10 GMT\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "Apache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Host,Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-backend",
-        "content": "web3"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-varnrvp1",
-        "content": "520439950"
+        "content": "\"FakeTue, 13 Jan 2015 20:16:09 GMT\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnrvp2",
-        "content": "721941131 730596724"
+        "content": "731489563"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnrvp1",
+        "content": "522458427"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varncdn",
+        "content": "cdn03 71244251 64804697"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     }
   ]

@@ -17,6 +17,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -39,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "here_auth=; Domain=here.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure, here_access=; Domain=here.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure, express:sess=eyJjc3JmU2VjcmV0IjoiVU9MNWFPQ0ozWnd3bFU1MWlxSk9KM1BGIiwiaXBMb29rdXBSZXNwb25zZSI6eyJsYXRpdHVkZSI6MzkuNDIsImxvbmdpdHVkZSI6LTc0LjV9fQ==; path=/; secure; httponly, express:sess.sig=aXhtxzVpKvlmUz4llF5vw2CNFUw; path=/; secure; httponly"
+        "content": "here_auth=; Domain=here.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure, here_access=; Domain=here.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure, express:sess=eyJjc3JmU2VjcmV0IjoiMlZLLVZLbUNlRl9aSWNGV25wem1aTmdiIiwiaXBMb29rdXBSZXNwb25zZSI6eyJsYXRpdHVkZSI6MzkuNDIsImxvbmdpdHVkZSI6LTc0LjV9fQ==; path=/; secure; httponly, express:sess.sig=MVaBjUQ08_mfd-57niFI93xwluU; path=/; secure; httponly"
       }
     },
     {
@@ -60,14 +67,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "1.1 fd3fd85f28379fe70a1280860cbb372e.cloudfront.net (CloudFront)"
+        "content": "1.1 26d5dca1cf83ecc7dfacdbf84de64204.cloudfront.net (CloudFront)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-amz-cf-id",
-        "content": "8uxcue4SITMZBTslxJ9voaoZDx4R-lzbJ_6GMN1GZiIulDOeYK8Udw=="
+        "content": "H3Ouaz87Rija3BVX8Hmy3MFNGM5Z3bPxBZJyK6UuxrTjy82Zr6nhoQ=="
       }
     }
   ]

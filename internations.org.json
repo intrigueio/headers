@@ -10,43 +10,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "__indbg=b07b4c87-fb00-4d66-a88f-7185f7eee0a01421176287.3364; expires=Sat, 12-Oct-2024 19:11:27 GMT; Max-Age=307584000; path=/; httponly, INSESSION=v7o5o5mp8t79jvu3v53v0qla2blsdt0qa54dr990sbpmej7b24qi3u4ur9l7qorsj41piu9mb05f6a4320rds01adg134kp9mufh2l1; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "max-age=0, must-revalidate, no-cache, no-store, post-check=0, pre-check=0, private"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "content": "text/html"
       }
     }
   ]
