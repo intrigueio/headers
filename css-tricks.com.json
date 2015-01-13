@@ -10,36 +10,78 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close, close"
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "x-pingback",
+        "content": "http://css-tricks.com/xmlrpc.php"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-iinfo",
-        "content": "7-11677086-0 0NNN RT(1421132722683 0) q(0 -1 -1 0) r(0 -1) B10(4,314,0)"
+        "name": "x-powered-by",
+        "content": "PleskLin"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-status",
+        "content": "HIT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "incap_ses_220_247240=R/f5NTvY5Q3dm6FiPpkNA7LDtFQAAAAA/GwkRLfgdYQUsxrS7H5/Cg==; path=/; Domain=.css-tricks.com, visid_incap_247240=IE8pe5WZR4S9bMFv/4W+5LLDtFQAAAAAQUIPAAAAAAAb0vxc4314QF3t/bO5op1E; expires=Wed, 11 Jan 2017 11:37:33 GMT; path=/; Domain=.css-tricks.com"
+        "content": "incap_ses_220_247240=Gw1kfAT7iF51L7ViPpkNA9LRtFQAAAAAdBjtlKmIWnDatKSoWzcoIQ==; path=/; Domain=.css-tricks.com, visid_incap_247240=FexqFUg0TEStZGMDlQQG+9LRtFQAAAAAQUIPAAAAAABayMrXaBcpUqeLohyGibFK; expires=Wed, 11 Jan 2017 11:37:33 GMT; path=/; Domain=.css-tricks.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "9-20240264-20235367 PNNN RT(1421136338672 1) q(0 0 0 0) r(0 0)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cdn",
+        "content": "Incapsula"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]
