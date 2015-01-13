@@ -11,14 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache/2.2.3 (CentOS)"
+        "content": "nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=300"
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -31,8 +31,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xrds-location",
+        "content": "http://sourceforge.net/account/xrds.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "VISITOR=54b47cf9c3d3bc311bc4f84c; expires=\"Fri, 10-Jan-2025 02:03:37 GMT\"; httponly; Max-Age=315360000; Path=/, sourceforge=c8955ebfe360d72359256dde8e4d29ee90947a5egAJ9cQEoVQxsYW5kaW5nX3BhZ2VxAlUBL1UFcHJlZnNxA31xBFUDa2V5cQVVGDU0YjQ3Y2Y5YzNkM2JjMzExYmM0Zjg0Y3EGVQNfaWRxB1UgOTEyMDMxZGE4MTIyNDQwZjkyNjg4NDJkZDRiMDQ2NThxCFUOX2FjY2Vzc2VkX3RpbWVxCUdB1S0fPlqq/FUOX2NyZWF0aW9uX3RpbWVxCkdB1S0fPlqq73Uu; expires=Tue, 19-Jan-2038 03:14:07 GMT; httponly; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {

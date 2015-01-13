@@ -45,20 +45,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "Hsoub, Phusion Passenger"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-content-type-options",
         "content": "nosniff"
       }
@@ -66,8 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIJY3NyZiIlYjdiMDgwOTYwMzVjNGFiOWQ4MWQxODk1M2U1MTZmMTYi%0ADXRyYWNraW5newciFEhUVFBfVVNFUl9BR0VOVCItMThlNDBlMTQwMWVlZjY3%0AZTFhZTY5ZWZhYjA5YWZiNzFmODdmZmI4MSIZSFRUUF9BQ0NFUFRfTEFOR1VB%0AR0UiLWRhMzlhM2VlNWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDki%0AD3Nlc3Npb25faWQiRTIxYjlmNGYyN2FmMWQxMjJhZjdlOGI1YjA2NTdlMzY1%0AYWExMjczYTFjNzNlZDBmMzIyMzRiYzIyM2ExNTNiMDY%3D%0A--96b21e4e5420cfcd0156f83ac16965a69f70c15e; path=/; HttpOnly"
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIJY3NyZiIlMGNkODQxNzJhYjE0NTlkYmU1NThhOTg1OWRkODM2NTMi%0ADXRyYWNraW5newciFEhUVFBfVVNFUl9BR0VOVCItMThlNDBlMTQwMWVlZjY3%0AZTFhZTY5ZWZhYjA5YWZiNzFmODdmZmI4MSIZSFRUUF9BQ0NFUFRfTEFOR1VB%0AR0UiLWRhMzlhM2VlNWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDki%0AD3Nlc3Npb25faWQiRTViOWFjNzA1Zjg2YzU3NmQ4MjcxMjAwMDg2NjdlNzQ5%0ANTg0ZGIyM2VjMjllNmVkMTAzMzJkNGQ4MmQzYTk5Y2M%3D%0A--32818c778d23fd09cac99fbb763c7cf7b680595d; path=/; HttpOnly"
       }
     },
     {
@@ -75,6 +68,13 @@
       "attributes": {
         "name": "server",
         "content": "Hsoub Nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Hsoub, Phusion Passenger"
       }
     }
   ]
