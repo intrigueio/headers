@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public"
+        "content": "public, no-cache=\"Set-Cookie\", max-age=70"
       }
     },
     {
@@ -25,7 +25,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Tue, 13 Jan 2015 02:06:12 GMT"
+        "content": "Tue, 13 Jan 2015 03:06:22 GMT"
       }
     },
     {
@@ -45,8 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-ua-compatible",
-        "content": "IE=edge, IE=Edge,chrome=1"
+        "name": "set-cookie",
+        "content": "KSID=cdm0ggskt1k3kd4xipaziavk; path=/; HttpOnly"
       }
     },
     {
@@ -75,6 +75,13 @@
       "attributes": {
         "name": "x-content-type-options",
         "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
       }
     },
     {
