@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -31,29 +24,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Cookie"
+        "name": "x-varnish",
+        "content": "1830598562"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnish",
-        "content": "2027754978"
+        "name": "vary",
+        "content": "Cookie, Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "csrftoken=6e0ac58a533bf63a4bf3570e13aafbb3; expires=Tue, 12-Jan-2016 04:05:29 GMT; Max-Age=31449600; Path=/, COUNTRY=US; Domain=.tv.com; Path=/, REGION=US; Domain=.tv.com; Path=/"
+        "content": "csrftoken=facdefc59bafeb1be86dc5fb524c3b49; expires=Tue, 12-Jan-2016 05:05:13 GMT; Max-Age=31449600; Path=/, COUNTRY=US; Domain=.tv.com; Path=/, REGION=US; Domain=.tv.com; Path=/"
       }
     }
   ]

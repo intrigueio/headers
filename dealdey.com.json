@@ -17,15 +17,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-rack-cache",
-        "content": "stale, valid, store"
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -38,22 +52,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-content-digest",
-        "content": "c068d31d943d4c43d081ece3d57435052a710e2c"
+        "name": "x-ua-compatible",
+        "content": "IE=Edge"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Tue, 13 Jan 2015 03:50:53 GMT"
+        "name": "set-cookie",
+        "content": "_dealday_session=BAh7C0kiD3Nlc3Npb25faWQGOgZFVEkiJWJmMDBiZDY5MjUzN2EwNDU2ODJhNDdhZTkxMjI1ODAzBjsAVEkiFmZlZWRfcmVmcmVzaF90aW1lBjsARmwrBwKptFRJIhZsYXN0X2ZlZWRfcmVmcmVzaAY7AEZVOiBBY3RpdmVTdXBwb3J0OjpUaW1lV2l0aFpvbmVbCEl1OglUaW1lDaXBHMBfm%2B0ZCToNbmFub19udW1pAskDOg1uYW5vX2RlbmkGOg1zdWJtaWNybyIHlpA6CXpvbmVJIghVVEMGOwBUSSITQWZyaWNhL0FsZ2llcnMGOwBUSXU7Bw2mwRzAX5vtGQk7CGkCyQM7CWkGOwoiB5aQOwtJIghVVEMGOwBUSSIbbGFzdF9mZWVkX2NvdW50X3VwZGF0ZQY7AEZVOwZbCEl1OwcNpcEcwHOb7RkJOwhpAioDOwlpBjsKIgaBOwtJIghVVEMGOwBUQBBJdTsHDabBHMBzm%2B0ZCTsIaQIqAzsJaQY7CiIGgTsLSSIIVVRDBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUpORHk3QTNSM2NEUTU1QVdrVkpNc01MQUtsR0l1WjA3dFZXZ3d6SEtraEE9BjsARkkiDGNhcnRfaWQGOwBGaQQHfYAB--56ec67a9e5eae0e65fa93381a3b9cd77f80c60bd; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "d87eded29536e7a5c9e6ade865ee6a76"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.344299"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
       }
     }
   ]
