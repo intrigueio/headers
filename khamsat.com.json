@@ -38,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-powered-by",
         "content": "Hsoub, Phusion Passenger"
       }
@@ -52,8 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Hsoub Nginx"
+        "name": "set-cookie",
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIUSFRUUF9VU0VSX0FHRU5UIi0xOGU0MGUxNDAx%0AZWVmNjdlMWFlNjllZmFiMDlhZmI3MWY4N2ZmYjgxIhlIVFRQX0FDQ0VQVF9M%0AQU5HVUFHRSItZGEzOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4%0AMDcwOSIJY3NyZiIlYzcyMjQ5MDczOGRlZWY1MWIwYWIxYTI5OGUxZmQ1MmEi%0AD3Nlc3Npb25faWQiRWQyNmEyMDYyZTJmMjA4YTNiNmMzMGZhZjM2NTRkYmNh%0AMjdmMjgwOGIwMzc3NWVmNmJlYjA0NjJkODJhOGYyNDE%3D%0A--208af625d69b9280e25c987963603ebe15fdde19; path=/; HttpOnly"
       }
     },
     {
@@ -66,6 +59,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-xss-protection",
         "content": "1; mode=block"
       }
@@ -73,8 +73,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIPc2Vzc2lvbl9pZCJFMDZjOTA0YmQ2NmUwZmZjMjUzY2NlNzM5NDUw%0AYzQwNjc2YWM4Yzc5ZDI5ZTQ5OWRiNGQxY2Q2NmUwYWExOGUwNSINdHJhY2tp%0Abmd7ByIUSFRUUF9VU0VSX0FHRU5UIi0xOGU0MGUxNDAxZWVmNjdlMWFlNjll%0AZmFiMDlhZmI3MWY4N2ZmYjgxIhlIVFRQX0FDQ0VQVF9MQU5HVUFHRSItZGEz%0AOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4MDcwOSIJY3NyZiIl%0AYjRlNmFiZDZjYmY0Y2UyMjRiZGI1NTQ0ZWQ2YWY0ODk%3D%0A--89de8ff021576169a62fd58608620ce6c9eba890; path=/; HttpOnly"
+        "name": "server",
+        "content": "Hsoub Nginx"
       }
     }
   ]

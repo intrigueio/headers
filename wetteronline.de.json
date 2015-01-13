@@ -38,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "User-Agent, User-Agent, User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "no-cache"
       }
@@ -45,15 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "User-Agent"
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
       }
     }
   ]

@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -31,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d7de480efe41bf9322d03e90276cb22e51421139975; expires=Wed, 13-Jan-16 09:06:15 GMT; path=/; domain=.couchtuner.eu; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -47,20 +47,6 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.3.21"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1a806fcdfac8094a-DFW"
       }
     }
   ]

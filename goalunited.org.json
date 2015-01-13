@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "_NJIN_=kn1583bhaa4gmp005qkqq1cqd3; path=/; domain=.goalunited.org, _GU2011_=B%89%1E%E6%ACn%7Cr%21%2A%D2%0E%17Nn%A4%22%EC%05%A6%BD%ACU1i%26%D7%9E%A3%B8%A3%DA%BC%C5%7C%074%F5%11%D4; path=/; domain=.goalunited.org, _GU2011_=%90%7D%D7%EB%0E9%88%0B%85%C9%9D%FA%C8%D27Yc%04%B0h%F6B%B8HAjT%FD%897%3A8i%C6%1D%5C%FD%D5%DF%87; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Tue, 13-Jan-2015 10:08:02 GMT; path=/; domain=.goalunited.org, lang=en; expires=Tue, 13-Jan-2015 10:08:02 GMT; path=/; domain=.manager-football.org, lang=en; expires=Tue, 13-Jan-2015 10:08:02 GMT"
+        "content": "_NJIN_=t5jlh99mvprc7pr7i5cbph9nb1; path=/; domain=.goalunited.org, _GU2011_=%7D%F5pJ%DB%86%85%2A%01%9D%23%B9%A0%817MG%28L%60%E0%9C%A8s%F0jL%ADX%9D%F7%C2%0BB%F7%A8%E1%13%81%EF; path=/; domain=.goalunited.org, _GU2011_=zu%5E%2C%86%F4qC%1E%17%1D%607%0B%F2%A2y%90%A8%80%8E%EBF%0BL%D6%C2%C1%16e%BEsJ%9F%ACrC%BD%9C%27; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Tue, 13-Jan-2015 11:08:13 GMT; path=/; domain=.goalunited.org, lang=en; expires=Tue, 13-Jan-2015 11:08:13 GMT; path=/; domain=.manager-football.org, lang=en; expires=Tue, 13-Jan-2015 11:08:13 GMT"
       }
     },
     {
@@ -47,13 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
       }
     }
   ]
