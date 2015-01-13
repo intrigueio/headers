@@ -11,28 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx"
+        "content": "Apache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "name": "set-cookie",
+        "content": "gendai=hkcfou2e4cp64rukn3rilat9r1; expires=Wed, 14-Jan-2015 01:10:07 GMT; Max-Age=10800; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "cache-control",
+        "content": "max-age=300"
       }
     },
     {
@@ -45,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "gendai=la42hk4sl4giksl8bqqh8g9pi3; expires=Wed, 14-Jan-2015 00:10:09 GMT; Max-Age=10800; path=/"
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
       }
     }
   ]

@@ -31,22 +31,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cnection",
-        "content": "close"
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=3"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "golem_viewauto=desktop%3Ageneric; expires=Wed, 14-Jan-2015 09:10:05 GMT; path=/; domain=.golem.de"
+        "content": "golem_viewauto=desktop%3Ageneric; expires=Wed, 14-Jan-2015 10:10:03 GMT; path=/; domain=.golem.de"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"PEAR-Cache-85a1719a41e0d0f23543096430c37a6f\""
+        "content": "\"PEAR-Cache-eead575e772bae7835f72366e5473e08\""
       }
     },
     {
