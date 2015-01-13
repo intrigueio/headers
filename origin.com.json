@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-origin-ops",
-        "content": "zBauwbgCtxEFUfRSbeJ60N/fKNpDeR5oBJaXn+K57r4=%0A"
+        "content": "2L88uqVMa+3HZ1Srm0AGw/dU/SdNuOJUmTyz9xk1ljU=%0A"
       }
     },
     {
@@ -52,8 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "o-sessionid=oh5eip2g2ek0l82b5u9judski7; expires=Wed, 14-Jan-2015 00:04:05 GMT; path=/; domain=.origin.com; secure; HttpOnly"
       }
     }
   ]

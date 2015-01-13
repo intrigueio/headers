@@ -32,14 +32,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d787dfccdb90fac57c2d303b078b8c7521421103894; expires=Tue, 12-Jan-16 23:04:54 GMT; path=/; domain=.identi.li; HttpOnly"
+        "content": "__cfduid=dd115a0af88e4a3a48fa943be5d89255e1421107509; expires=Wed, 13-Jan-16 00:05:09 GMT; path=/; domain=.identi.li; HttpOnly, PHPSESSID=c1bthrq6d6s4b9c5m19nj26807; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        "name": "x-powered-by",
+        "content": "PHP/5.3.3"
       }
     },
     {
@@ -47,6 +47,27 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Tue, 13 Jan 2015 00:10:39 GMT"
       }
     },
     {
@@ -60,7 +81,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a7cfeef735c1195-DFW"
+        "content": "1a7d572ea44c0106-DFW"
       }
     }
   ]

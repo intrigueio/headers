@@ -17,29 +17,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "set-cookie",
+        "content": "PHPSESSID=j6bjv253j1q5daiela9hk9b0q6; path=/, accept_cookies=yes; path=/; domain=.rozee.pk, rz_nonPKusr=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.rozee.pk, rzsessNP=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.rozee.pk"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=0, no-cache"
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "via",
-        "content": "1.1 www.rozee.pk"
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-mod-pagespeed",
-        "content": "1.8.31.4-4056"
+        "name": "p3p",
+        "content": "policyref=\"/w3c/p3p.xml\", CP=\"ALL DSP COR CUR ADMa DEVa PSAa PSDa TAIa OUR BUS COM DEM INT NAV OTC PRE PUR STA UNI\""
       }
     },
     {
@@ -47,6 +47,13 @@
       "attributes": {
         "name": "connection",
         "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
