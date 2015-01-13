@@ -109,7 +109,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-vtex-cache-status-janus-edge",
-        "content": "EXPIRED"
+        "content": "REVALIDATED"
       }
     },
     {
@@ -138,6 +138,13 @@
       "attributes": {
         "name": "x-vtex-remote-cache",
         "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
