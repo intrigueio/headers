@@ -17,8 +17,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -32,7 +46,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=123; expires=Tue, 13-Jan-2015 10:52:01 GMT; path=/; domain=.fashionara.com"
+        "content": "PHPSESSID=123; expires=Tue, 13-Jan-2015 11:52:25 GMT; path=/; domain=.fashionara.com, PHPSESSID=jsh2i0l1bv611pp9clu4mqcbi5; expires=Tue, 20-Jan-2015 12:09:05 GMT; path=/; domain=.www.fashionara.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {

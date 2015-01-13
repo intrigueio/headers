@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.4.5"
+        "content": "nginx"
       }
     },
     {
@@ -39,14 +39,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Cookie"
+        "content": "Accept-Encoding, Cookie"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "dac_legal_disclaimer_test_a=False; expires=Thu, 12-Feb-2015 11:09:40 GMT; Max-Age=2592000; Path=/, dac_legal_disclaimer_test_b=False; expires=Thu, 12-Feb-2015 11:09:40 GMT; Max-Age=2592000; Path=/, dac_social_redesign_test=True; expires=Thu, 12-Feb-2015 11:09:40 GMT; Max-Age=2592000; Path=/, dac_category_guide_top_link_unit=False; expires=Thu, 12-Feb-2015 11:09:40 GMT; Max-Age=2592000; Path=/"
+        "content": "dac_legal_disclaimer_test_a=True; expires=Thu, 12-Feb-2015 12:10:08 GMT; Max-Age=2592000; Path=/, dac_legal_disclaimer_test_b=False; expires=Thu, 12-Feb-2015 12:10:08 GMT; Max-Age=2592000; Path=/, dac_social_redesign_test=True; expires=Thu, 12-Feb-2015 12:10:08 GMT; Max-Age=2592000; Path=/, dac_category_guide_top_link_unit=True; expires=Thu, 12-Feb-2015 12:10:08 GMT; Max-Age=2592000; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-distil-cs",
+        "content": "MISS"
       }
     }
   ]
