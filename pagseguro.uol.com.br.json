@@ -11,21 +11,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache"
+        "content": "Apache-Coyote/1.1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Thu, 18 Dec 2014 05:29:38 GMT"
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=ISO-8859-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "pt-BR"
       }
     },
     {
@@ -38,8 +52,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "set-cookie",
+        "content": "LAST_SERVER_HIT=a6f8bd4fb3ec0fa9829576209e851867; Domain=pagseguro.uol.com.br; Expires=Tue, 13-Jan-2015 07:36:45 GMT; Path=/; Secure, csrfId=61; Path=/; HttpOnly; Expires=13 Jan 2015 11:06:45 GMT, csrfId=61; Path=/; HttpOnly; Expires=13 Jan 2015 11:06:45 GMT"
       }
     },
     {
@@ -47,6 +61,13 @@
       "attributes": {
         "name": "connection",
         "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

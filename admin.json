@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -17,15 +24,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "p3p",
+        "content": "CP=\" OTI DSP COR IVA OUR IND COM \", CP=\" OTI DSP COR IVA OUR IND COM \""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "Keep-Alive"
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "BAIDUID=7CFB3AB910C9563BF35A2EFB92CFB547:FG=1; expires=Wed, 13-Jan-16 07:06:06 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1, BAIDUID=DE49ACF8B017FA92ECF44BAA03A4E209:FG=1; expires=Wed, 13-Jan-16 07:06:06 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "tracecode",
+        "content": "03660827210292969482011315"
       }
     },
     {
@@ -39,35 +60,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "wait",
-        "content": "2"
+        "content": "1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "BAIDUID=52F5BC74795FC5EA90A59B25D040D5B0:FG=1; expires=Wed, 13-Jan-16 06:05:58 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1, BAIDUID=DED3B24A90889A449456E2DCF726960F:FG=1; expires=Wed, 13-Jan-16 06:05:58 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "p3p",
-        "content": "CP=\" OTI DSP COR IVA OUR IND COM \", CP=\" OTI DSP COR IVA OUR IND COM \""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "tracecode",
-        "content": "03587911680557065738011314"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "Apache"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]
