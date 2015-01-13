@@ -11,7 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private"
+        "content": "private, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -24,8 +31,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "ASP.NET_SessionId=gnc3mtdap4qtodfnrvi32pap; path=/; HttpOnly"
+        "content": "ASP.NET_SessionId=bqqheff1mz1u5rgcpyadrbho; path=/; HttpOnly, USERCREDENTIALS=EMAIL=&PASSWORD=&USERID=0&VISITORID=574062005; expires=Fri, 10-Jan-2025 21:11:32 GMT; path=/, USERSETTINGS=; expires=Mon, 12-Jan-2015 21:11:32 GMT; path=/"
       }
     },
     {
