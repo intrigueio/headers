@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "nginx"
       }
@@ -17,8 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "name": "set-cookie",
+        "content": "vip_restrict=1; expires=Wed, 14-Jan-2015 16:10:10 GMT; Max-Age=86400; Path=/, country=US; expires=Wed, 13-Jan-2016 16:10:10 GMT; Max-Age=31536000; Path=/, analytics=\"c5dcd61d-a2ec-4c46-bb88-8eefb714ef06:0:0:1421165410:6db8db41-9a57-4931-834a-84efc00ec8e1\"; expires=Wed, 13-Jan-2016 16:10:10 GMT; Max-Age=31536000; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "DENY"
       }
     },
     {
@@ -33,34 +54,6 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "keep-alive",
-        "content": "timeout=5"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding, Cookie"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "vip_restrict=1; expires=Wed, 14-Jan-2015 15:10:03 GMT; Max-Age=86400; Path=/, country=US; expires=Wed, 13-Jan-2016 15:10:03 GMT; Max-Age=31536000; Path=/, analytics=\"817ee010-d4bd-45b6-872b-84a36318b210:0:0:1421161803:2a3f36dc-d39d-445f-900e-726715b0f2c4\"; expires=Wed, 13-Jan-2016 15:10:03 GMT; Max-Age=31536000; Path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "DENY"
       }
     }
   ]

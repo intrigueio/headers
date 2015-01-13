@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "_NJIN_=n5vugi83kbguvda3rst5mrlss3; path=/; domain=.goalunited.org, _GU2011_=F%CF%AD%C1%DD%F0%BAB4%84%09%FC%5D%ED%A9%8A%FB%5D%02%93%F6%8E%40%7F%17%02d%28U%FC2%F0%B1%93%84%CF%F0%C2%5E%BC; path=/; domain=.goalunited.org, _GU2011_=%9F%8D%1B%14%25H%E7%81%97%40%FD%FEU%FC%F3%AB%BC%11%9E%8F%A4%82s6%87%C1%059%84%03D%08%7F%96%F9Y%D8%06k%93; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Tue, 13-Jan-2015 16:09:40 GMT; path=/; domain=.goalunited.org, lang=en; expires=Tue, 13-Jan-2015 16:09:40 GMT; path=/; domain=.manager-football.org, lang=en; expires=Tue, 13-Jan-2015 16:09:40 GMT"
+        "content": "_NJIN_=28v63eufj8qdjabp08kpld9916; path=/; domain=.goalunited.org, _GU2011_=%1Fv%86%9F%7B%24%C4%F2%3E%83%1FD%1C%BB-%9Fm%F3%23%1A%E2%AA%D8h%27%BBa%D8%09%08s%BA%89%B8%06%22%0B%C2E%DC; path=/; domain=.goalunited.org, _GU2011_=%97%7B%A1%F7p%8B%A3%B3%D32Xv%0AdxM%A8L%AB%C4U%FAk%C6%A5N%A6%89%7B%E4%AA%08b%B5%89%A9%18%83%11%A2; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Tue, 13-Jan-2015 17:09:45 GMT; path=/; domain=.goalunited.org, lang=en; expires=Tue, 13-Jan-2015 17:09:45 GMT; path=/; domain=.manager-football.org, lang=en; expires=Tue, 13-Jan-2015 17:09:45 GMT"
       }
     },
     {
@@ -47,13 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
       }
     }
   ]
