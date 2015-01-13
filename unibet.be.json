@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html;charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,29 +38,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "retry-after",
-        "content": "3600"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Mon, 08 Dec 2014 14:53:11 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "set-cookie",
-        "content": "BIGipServermaintenance_technical_problem=1661224714.23040.0000; path=/"
+        "content": "ADRUM_7_0_0=clientRequestGUID%3A727a2b1e-a05a-414a-a7d8-e2f0d13ab737; Expires=Tue, 13-Jan-2015 18:12:45 GMT; Path=/, USESSIONID=DC657911459695879A29223ECABA6021; Path=/; Secure; HttpOnly, ADRUM_7_0_1=btId%3A394; Expires=Tue, 13-Jan-2015 18:12:45 GMT; Path=/, ADRUM_7_0_2=btDuration%3A41; Expires=Tue, 13-Jan-2015 18:12:45 GMT; Path=/, BIGipServercms_fe_PROD=!s+KhX/3GdgJxnJzkghuJ0B8qytsZ+c6iUWLpaxwukF/TrlqcFwiNMss8kcLCdodcePXpSlcj+Q/1WHQ=; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1,requiresActiveX=true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     }
   ]
