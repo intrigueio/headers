@@ -17,8 +17,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "x-ps",
+        "content": "ps24"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "nl-NL"
       }
     },
     {
@@ -31,20 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=0,must-revalidate,post-check=0,pre-check=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "retry-after",
-        "content": "1800"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-ua-compatible",
         "content": "IE=edge"
       }
@@ -52,15 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "set-cookie",
+        "content": "abt_aid=191#189#186#280#372#283#241#194#389#340#376#345#347#343#107; Expires=Fri, 13-Feb-2015 08:10:35 GMT; Path=/, abt_aid_session=true; Expires=Wed, 14-Jan-2015 08:40:35 GMT; Path=/, BUI=mysno6ahbsvjfq7ssr0fuak7i9imgwm0; Domain=.bol.com; Expires=Sat, 13-Jan-2018 08:10:35 GMT; Path=/, JSESSIONID=E5BE9014743AEF7D7BE21A4BE9E9F7A2.ps24; Path=/nl, locale=nl_NL; Domain=www.bol.com; Expires=Thu, 14-Jan-2016 08:10:35 GMT; Path=/nl"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html;charset=UTF-8"
       }
     }
   ]

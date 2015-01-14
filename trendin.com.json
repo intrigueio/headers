@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "live",
-        "content": "3"
+        "content": "2"
       }
     },
     {
@@ -38,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-akamai-transformed",
-        "content": "9 - 0 pmb=mRUM,1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -53,7 +46,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=600"
+        "content": "max-age=0, no-cache, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -68,6 +68,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "session_key=8759a80c5ee02d4ef2e297be83bdb8b6; expires=Thu, 15-Jan-2015 08:12:29 GMT; path=/, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, customer_id=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, bbb=c3cf2918d6f8b04fe0fe2e11bbf42114; expires=Thu, 15-Jan-2015 08:12:29 GMT; path=/, 2c13bf470b0cff7f836912399abb0301=CCbjZw89N%2BEOHRvE76Ns8CXeJBPajrFQrLlWeye7XAFFC8NPwmz6iIkFQ7fw%2B%2FIUrmhZ0esHlU3fyAj3xTx0WkdBjBsYMnGl7u%2B%2FuxeryqaeH2bzsKhEvPsU4LUyD3EHDlFKuiQgK8G0RycOZEEEBwZ4DzoefAYxgfwI3%2FXl4ekPqrnTd6HluO9J8%2B9VkKmArjnabjQhLlnZEV0QzlzptqUxAJDm2EzxI4gEdPcpYv8%3D000170; expires=Thu, 15-Jan-2015 08:12:29 GMT; path=/; domain=.trendin.com; httponly"
       }
     }
   ]
