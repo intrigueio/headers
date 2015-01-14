@@ -11,14 +11,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Varnish"
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge,chrome=1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html;charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-vg-webcache",
+        "content": "163"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=300"
       }
     },
     {
@@ -32,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1613217582"
+        "content": "1836191777"
       }
     },
     {
@@ -45,15 +66,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cnection",
-        "content": "close"
+        "name": "connection",
+        "content": "Keep-Alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "from",
-        "content": "n7nwswc01.starwave.com"
+        "content": "n7nwswc03.starwave.com"
       }
     },
     {
@@ -61,6 +82,13 @@
       "attributes": {
         "name": "x-cache",
         "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent, Accept-Encoding"
       }
     }
   ]

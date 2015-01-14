@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private"
+        "content": "private, max-age=0"
       }
     },
     {
@@ -24,15 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "oos_non-oml_"
+        "name": "x-content-type-options",
+        "content": "nosniff"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
+        "name": "x-frame-options",
+        "content": "DENY"
       }
     },
     {
@@ -46,14 +46,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-ua-compatible",
-        "content": "ie=edge"
+        "content": "ie=edge,chrome=1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "sys=AVmLO3/kTXQLZDKZgLb90Qg=; domain=800notes.com; expires=Tue, 01-Jan-2030 05:00:00 GMT; path=/; HttpOnly"
+        "content": "sys=Aac0PW+hXnQL/7AN37790Qg=; domain=800notes.com; expires=Tue, 01-Jan-2030 05:00:00 GMT; path=/; HttpOnly"
       }
     }
   ]

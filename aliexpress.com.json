@@ -10,15 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Tengine"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html;charset=UTF-8"
       }
     },
     {
@@ -38,6 +31,20 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "ali_apache_id=104.237.133.83.1421204913855.995299.6; path=/; domain=.aliexpress.com; expires=Wed, 30-Nov-2084 01:01:01 GMT, JSESSIONID=45418656521EED28B1AF9FB960256D5C; Path=/, ali_apache_track=; Domain=.aliexpress.com; Expires=Mon, 01-Feb-2083 06:22:40 GMT; Path=/, ali_apache_tracktmp=; Domain=.aliexpress.com; Path=/, xman_us_f=x_l=0&x_locale=en_US; Domain=.aliexpress.com; Expires=Mon, 01-Feb-2083 06:22:40 GMT; Path=/, aep_usuc_f=region=US&site=glo&b_locale=en_US&c_tp=USD; Domain=.aliexpress.com; Expires=Mon, 01-Feb-2083 06:22:40 GMT; Path=/, acs_usuc_t=acs_rt=c3af89d3d2d04ab8ab4ba40474433214; Domain=.aliexpress.com; Path=/, xman_t=STDos3LDR5efQkRzWyazVqec5q6f9EKG4Hik+TAnQDuw7t73pbToIRwKKVm33xWI; Domain=.aliexpress.com; Path=/; HttpOnly, intl_locale=en_US; Domain=.aliexpress.com; Path=/, intl_common_forever=ZSODAzWWPLUzY8wO7g6rq617NVvom3a8wUZb8VbWeCowBW3g6Gt4yA==; Domain=.aliexpress.com; Expires=Mon, 01-Feb-2083 06:22:40 GMT; Path=/; HttpOnly, xman_f=d9aGmtSuhx1qQci2cUZVeQE54qGD2k6i7HcEvsaRyXBnmB46Q6gYA00t2of/K1NtNowjVbEz7IrrFtzKfCEIbFIT1VAHs9duDsO0BwYA3YKqdj89CjQl6g==; Domain=.aliexpress.com; Expires=Mon, 01-Feb-2083 06:22:40 GMT; Path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Tengine"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -45,8 +52,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "ali_apache_id=104.237.133.83.1421201303475.730192.2; path=/; domain=.aliexpress.com; expires=Wed, 30-Nov-2084 01:01:01 GMT"
+        "name": "x-powered-by",
+        "content": "Servlet 2.4; JBoss-4.0.5.GA (build: CVSTag=Branch_4_0 date=200610162339)/Tomcat-5.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"CAO PSA OUR\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "resin-trace",
+        "content": "ali_resin_trace=ae_subsite=glo,US,en_US,USD"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
       }
     }
   ]
