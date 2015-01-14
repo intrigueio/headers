@@ -60,21 +60,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "must-revalidate, private, max-age=0"
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "sca=; path=/, _app_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTc4ZjRkMzJjNmY0ZjlkNDU0ZjRmYzc1ZDJkZDdlOTEzBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXpOQ2NPOGhHcU5RaHVkZjFGR3cvOUFDVmxxZWlHbjBPa1BvOHdLWEdReXc9BjsARg%3D%3D--c2c05138897941f0fafb2333b7218b126e8bad0b; path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "47d5873594157282182756d1e423843d"
+        "content": "ba1d5034ac6f2036feef023a06cd2e62"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.105014"
+        "content": "0.091705"
       }
     },
     {
