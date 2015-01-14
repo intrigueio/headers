@@ -10,29 +10,64 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "AkamaiGHost"
+        "name": "cached_response",
+        "content": "true"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "mime-version",
-        "content": "1.0"
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=00006O7dMIdfulxULCeBIMVIlwD:18s1c; Path=/, WC_PERSISTENT=RKxYUBrvSh4eqrbIY37Waux3VE4%3d%0a%3b2015%2d01%2d14+06%3a15%3a33%2e351%5f1421234133351%2d415257%5f0; Expires=Thu, 07-Jul-16 11:15:32 GMT; Path=/, doorId=hanes; Path=/, AKAI=0:1421234133; expires=Wed, 28-Jan-2015 11:15:33 GMT; path=/; domain=.hanes.com"
       }
     }
   ]
