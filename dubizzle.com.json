@@ -11,14 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.6.1"
+        "content": "nginx/1.7.7"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,8 +38,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"53fdb4d7-506\""
+        "name": "content-language",
+        "content": "en"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Language, Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-django-request-time",
+        "content": "0.084205s"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "skybar_sess_False=1; Domain=.dubizzle.com; expires=Thu, 15 Jan 2015 04:08:38 GMT; Path=/, sid=0c7b44359c4665872d3654a7fb012af2; Domain=.dubizzle.com; expires=Wed, 21-Jan-2015 04:08:38 GMT; Max-Age=604800; Path=/, l=; Domain=.dubizzle.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/, paabar_sess=; Domain=.dubizzle.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-store"
       }
     }
   ]
