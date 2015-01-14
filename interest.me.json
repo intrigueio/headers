@@ -59,15 +59,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "JSESSIONID=F575A42930CB05249F9D3AEBBCCA95E3; Path=/; HttpOnly"
+        "content": "JSESSIONID=3306B81F54D5262551C27C1FD57E2836; Path=/; HttpOnly"
       }
     }
   ]

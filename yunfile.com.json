@@ -11,28 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache-Coyote/1.1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "JSESSIONID=E279C1E74A6A09C5AC2FFCACCFF1414B; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/, language=en_us; Domain=yunfile.com; Expires=Tue, 14-Apr-2015 13:14:15 GMT; Path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "content": "squid/2.7.STABLE9"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html;charset=utf-8"
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-squid-error",
+        "content": "ERR_CANNOT_FORWARD 11"
       }
     },
     {
@@ -52,15 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "via",
+        "content": "1.0 yunfile.com:80 (squid/2.7.STABLE9)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "via",
-        "content": "1.1 yunfile.com:80 (squid/2.7.STABLE9)"
+        "name": "connection",
+        "content": "close"
       }
     }
   ]

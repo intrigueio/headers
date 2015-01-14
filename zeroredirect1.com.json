@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "ZeroPark-Traffic"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-content-security-policy",
         "content": "default-src 'self'; script-src 'self' 'unsafe-inline'"
       }
@@ -38,8 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "ZeroPark-Traffic"
+        "name": "connection",
+        "content": "keep-alive"
       }
     }
   ]

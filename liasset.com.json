@@ -10,6 +10,27 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "Apache-Coyote/1.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"CAO CUR ADM DEV PSA PSD OUR\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -17,22 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Netty3.7/Play2.2"
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-ssr-engine-init",
-        "content": "https://static.licdn.com/sc/h/ejh69fo4gsgxc4mvs9k8tmx87"
+        "name": "content-language",
+        "content": "en-US"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-fs-uuid",
-        "content": "91e6bd637f43b91380798618712b0000"
+        "content": "866631e3c746b91390d2223caa2b0000"
       }
     },
     {
@@ -40,20 +61,6 @@
       "attributes": {
         "name": "x-page-speed",
         "content": "1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "sameorigin"
       }
     },
     {
@@ -88,7 +95,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "JSESSIONID=\"ajax:3538407650466346423\"; Path=/; Domain=.www.linkedin.com; HTTPOnly, bcookie=\"v=2&7960e432-8704-433c-8da3-4a38639dd897\"; domain=.linkedin.com; Path=/; Expires=Sat, 14-Jan-2017 00:53:44 GMT, bscookie=\"v=1&2015011413161166d6d76b-f85f-4c44-85c0-81436de2b510AQHjaWVwwRU3T-eDG2DyvkDuUTmp30BD\"; domain=.www.linkedin.com; Path=/; Secure; Expires=Sat, 14-Jan-2017 00:53:44 GMT; HttpOnly, lidc=\"b=LB11:g=161:u=1:i=1421241372:t=1421327772:s=3900672664\"; Expires=Thu, 15 Jan 2015 13:16:12 GMT; domain=.linkedin.com; Path=/"
+        "content": "_lipt=deleteMe; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, leo_auth_token=\"GST:9vvUdTGXMuoPaPnM1jHIdMGu-ys1j2mynWYdGrDGYDx5sc4Ya7R4qM:1421244981:36a3ef506f5cff3cfe092729a8bb08f851a2986d\"; Version=1; Max-Age=1799; Expires=Wed, 14-Jan-2015 14:46:20 GMT; Path=/, sl=\"delete me\"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, sl=\"delete me\"; Version=1; Domain=.www.linkedin.com; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, s_leo_auth_token=\"delete me\"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, JSESSIONID=\"ajax:3790437244610684498\"; Version=1; Domain=.www.linkedin.com; Path=/, visit=\"v=1&G\"; Version=1; Max-Age=63072000; Expires=Fri, 13-Jan-2017 14:16:21 GMT; Path=/, bcookie=\"v=2&c40d1a7c-a392-4b25-86d1-ba4dd055ac3b\"; domain=.linkedin.com; Path=/; Expires=Sat, 14-Jan-2017 01:53:53 GMT, bscookie=\"v=1&20150114141621571ce8fa-7238-49e5-83b6-ab50c68ddc4bAQGtpJm8Byl2WysLw8NCvSSX4jcrKVRI\"; domain=.www.linkedin.com; Path=/; Secure; Expires=Sat, 14-Jan-2017 01:53:53 GMT; HttpOnly, lidc=\"b=LB11:g=161:u=1:i=1421244981:t=1421331381:s=3960945908\"; Expires=Thu, 15 Jan 2015 14:16:21 GMT; domain=.linkedin.com; Path=/"
       }
     },
     {
@@ -103,6 +110,13 @@
       "attributes": {
         "name": "cache-control",
         "content": "no-cache, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -123,7 +137,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-li-uuid",
-        "content": "kea9Y39DuROAeYYYcSsAAA=="
+        "content": "hmYx48dGuROQ0iI8qisAAA=="
       }
     }
   ]
