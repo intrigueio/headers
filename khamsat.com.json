@@ -45,15 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIJY3NyZiIlNjAyZDk1NTZlMDc5NjQ2NjZjYTZiOWUwNGRiNGNjM2Yi%0AD3Nlc3Npb25faWQiRTgzMDA2YWE4ZGVmMTU5NWMxYTNiZTg5Njg4YTcxNzMz%0AYWY1YmI2YmNmMzA5ZjY5NGQ5ZWQwZmU3MWUxN2MwM2EiDXRyYWNraW5newci%0AFEhUVFBfVVNFUl9BR0VOVCItMThlNDBlMTQwMWVlZjY3ZTFhZTY5ZWZhYjA5%0AYWZiNzFmODdmZmI4MSIZSFRUUF9BQ0NFUFRfTEFOR1VBR0UiLWRhMzlhM2Vl%0ANWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDk%3D%0A--68cae64805df176f26725fb2fd00afbfe7d1820e; path=/; HttpOnly"
+        "name": "server",
+        "content": "Hsoub Nginx"
       }
     },
     {
@@ -66,15 +66,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
+        "name": "set-cookie",
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIPc2Vzc2lvbl9pZCJFYzE2ZWNlZDQ5ZjczZjE4Yjk4YTg3ZmU4MTYz%0AYjY3NmJmZjM3NjFiYzE0ZDdlZmQyMDg0NDk3NzMyZGRmMDRjMCIJY3NyZiIl%0AZDVjMDk2ZTY4MmMwMGI5ZTFkY2VkMWM0OGEzM2UwM2YiDXRyYWNraW5newci%0AGUhUVFBfQUNDRVBUX0xBTkdVQUdFIi1kYTM5YTNlZTVlNmI0YjBkMzI1NWJm%0AZWY5NTYwMTg5MGFmZDgwNzA5IhRIVFRQX1VTRVJfQUdFTlQiLTE4ZTQwZTE0%0AMDFlZWY2N2UxYWU2OWVmYWIwOWFmYjcxZjg3ZmZiODE%3D%0A--155d5fc8ce4aa9b4a3f74341b2d2b500f13d3a0a; path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Hsoub Nginx"
+        "name": "x-content-type-options",
+        "content": "nosniff"
       }
     }
   ]
