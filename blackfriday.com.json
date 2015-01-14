@@ -11,21 +11,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=0, private, must-revalidate"
+        "content": "must-revalidate,private,max-age=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"6c94f59b017bd9c6188fbd7719094a19\""
+        "name": "last-modified",
+        "content": "Tue, 23 Dec 2014 20:16:39 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "retry-after",
+        "content": "10"
       }
     },
     {
@@ -33,27 +40,6 @@
       "attributes": {
         "name": "server",
         "content": "Apache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "request_method=GET; path=/; secure"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "status",
-        "content": "200 OK"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "strict-transport-security",
-        "content": "max-age=31536000"
       }
     },
     {
@@ -73,22 +59,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-varnish",
-        "content": "1488021114"
+        "content": "1488023184"
       }
     },
     {
@@ -103,13 +75,6 @@
       "attributes": {
         "name": "x-varnish-object-age",
         "content": "0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
       }
     },
     {
