@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "nginx"
       }
@@ -17,8 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "name": "set-cookie",
+        "content": "country=US; expires=Thu, 14-Jan-2016 15:14:44 GMT; Max-Age=31536000; Path=/, analytics=\"09c1e3e3-35e2-4903-a5c5-31db908a0675:0:0:1421248484:0fea1951-4752-4a8f-9f60-6dac23836670\"; expires=Thu, 14-Jan-2016 15:14:44 GMT; Max-Age=31536000; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "DENY"
       }
     },
     {
@@ -33,34 +54,6 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "keep-alive",
-        "content": "timeout=5"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding, Cookie"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "country=US; expires=Thu, 14-Jan-2016 14:14:27 GMT; Max-Age=31536000; Path=/, analytics=\"09c43b84-203a-41ab-be70-0ef49de57469:0:0:1421244867:15e0fe73-36c3-42fa-b3b2-4e6bdfbeab5c\"; expires=Thu, 14-Jan-2016 14:14:27 GMT; Max-Age=31536000; Path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "DENY"
       }
     }
   ]
