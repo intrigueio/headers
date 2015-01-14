@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache-Coyote/rtm-sfrfr38"
+        "content": "Apache-Coyote/rtm-sfrfr3"
       }
     },
     {
@@ -31,6 +31,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "User-Agent,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html;charset=UTF-8"
       }
@@ -39,14 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "1.1 www.sfr.fr, http1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "1.1 www.sfr.fr, http4"
       }
     },
     {
@@ -54,13 +54,6 @@
       "attributes": {
         "name": "connection",
         "content": "close"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
       }
     }
   ]
