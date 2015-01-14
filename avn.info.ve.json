@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.6.2"
+        "content": "nginx/1.2.4"
       }
     },
     {
@@ -46,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=300, must-revalidate, public, must-revalidate, proxy-revalidate"
+        "content": "max-age=300, store, no-cache, must-revalidate, post-check=0, pre-check=0, public, must-revalidate, proxy-revalidate"
       }
     },
     {
@@ -60,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Wed, 14 Jan 2015 16:14:00 GMT"
+        "content": "Wed, 14 Jan 2015 17:13:46 GMT"
       }
     }
   ]

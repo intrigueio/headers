@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "etag",
+        "content": "\"25876944\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "access-control-allow-origin",
         "content": "*"
       }
@@ -38,13 +45,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
         "content": "max-age=600"
       }
@@ -52,15 +52,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
-        "content": "keep-alive, Transfer-Encoding"
+        "content": "keep-alive"
       }
     }
   ]
