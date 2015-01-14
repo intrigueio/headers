@@ -32,14 +32,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, must-revalidate, max-age=0"
+        "content": "must-revalidate; max-age=243"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "etag",
+        "content": "99c2b53ef287685a11518cfc14251c6d"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-flexicache",
+        "content": "cached; serve-mode=standalone; created=Wed, 14 Jan 2015 14:13:05 EST; expires=Wed, 14 Jan 2015 14:23:05 EST"
       }
     },
     {

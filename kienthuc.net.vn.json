@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public"
+        "content": "public, no-cache=\"Set-Cookie\", max-age=120"
       }
     },
     {
@@ -25,7 +25,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Wed, 14 Jan 2015 18:11:58 GMT"
+        "content": "Wed, 14 Jan 2015 19:15:11 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -33,6 +40,13 @@
       "attributes": {
         "name": "server",
         "content": "Microsoft-IIS/7.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "site.IsMobile=IsMobile=NO; domain=kienthuc.net.vn; expires=Thu, 15-Jan-2015 19:15:11 GMT; path=/, .ASPXANONYMOUS=lKdsQcBm0AEkAAAANjBmOGQxODQtMWU4ZS00MGZkLTljYTMtN2QwYTczMDEyYzZj0; domain=kienthuc.net.vn; expires=Wed, 25-Mar-2015 05:55:11 GMT; path=/; HttpOnly"
       }
     },
     {
