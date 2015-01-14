@@ -10,15 +10,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-store, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=us-ascii"
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Microsoft-HTTPAPI/2.0"
+        "content": "Microsoft-IIS/8.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "CFID=6148130; Expires=Thu, 15-Jan-2015 16:14:50 GMT; Path=/; HttpOnly, CFTOKEN=4ead3631345a701a-1C43222F-DB1E-4018-C1013B171F3CDCC8; Expires=Thu, 15-Jan-2015 16:14:50 GMT; Path=/; HttpOnly, JSESSIONID=C2D974B53E376B8183C7A998DF947CD5.SUG2; Path=/; HttpOnly, USEFULLSITE=true; Expires=Sun, 14-Jan-2018 16:14:50 GMT; Path=/, ISMOBILE=false; Expires=Sun, 14-Jan-2018 16:14:50 GMT; Path=/, AWSELB=5503871F0834E6D71233696AA4849C1653FF33E4535F60F85AD81D7ED3A6B55F157E7F7FC331E00FF724410B2B59428CBAD0382C1C6947B9E6119997F2FA261245BF259415D521EC7003C0C4191C97E9EAEC07AFC5;PATH=/;HTTPONLY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET"
       }
     },
     {

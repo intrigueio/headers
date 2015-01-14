@@ -24,8 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "overlayfacebook=1; expires=Thu, 15-Jan-2015 03:16:41 GMT"
+        "content": "overlayfacebook=1; expires=Thu, 15-Jan-2015 04:16:54 GMT, PHPSESSID=9c6bbb7a603f20bfec82e7db4250d866; path=/"
       }
     },
     {
