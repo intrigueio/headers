@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -24,15 +17,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Microsoft-IIS/8.0"
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ASP.NET_SessionId=gchyf3zsl2wf5x3tzuqeeteg; path=/; HttpOnly, PluginTracking=CookieDateUnixTime=1421345891; domain=.camplace.com; expires=Mon, 15-Jan-2114 17:18:11 GMT; path=/, CP_WEB=CP_WEB2; path=/"
+        "content": "__cfduid=de6cf9d065d30ce5ab1e719443300e5801421345899; expires=Fri, 15-Jan-16 18:18:19 GMT; path=/; domain=.camplace.com; HttpOnly, ASP.NET_SessionId=arnlzred0kdst1usoveuiqe0; path=/; HttpOnly, PluginTracking=CookieDateUnixTime=1421349500; domain=.camplace.com; expires=Mon, 15-Jan-2114 18:18:20 GMT; path=/, CP_WEB=CP_WEB8; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
       }
     },
     {
@@ -52,8 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1a9413425f021177-DFW"
       }
     }
   ]

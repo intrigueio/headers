@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx"
+        "content": "nginx/1.1.19"
       }
     },
     {
@@ -24,8 +24,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "x-powered-by",
+        "content": "HHVM/3.4.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22e492b508ac44e0717960697c816eccef%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A12%3A%22192.168.11.7%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1421346104%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7D54ab8c5b3b3151773486bb1e6b0c74f0c488ee54; expires=Thu, 15-Jan-2015 20:21:44 GMT; Max-Age=7200; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "283916925"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
       }
     },
     {
@@ -33,13 +54,6 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "HHVM/3.4.2"
       }
     }
   ]

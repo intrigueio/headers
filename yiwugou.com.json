@@ -11,14 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "ngx_openresty"
+        "content": "Apache/1.3.41 (Unix) mod_forward_0_3"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html;charset=UTF-8"
+        "name": "connection",
+        "content": "close"
       }
     },
     {
@@ -31,29 +31,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "JSESSIONID=2546114B776317F757B93EEECA8DD59F; Path=/; HttpOnly, uid=CgYec1S39xhlGHaPcxEXAg==; expires=Fri, 15-Jan-16 17:21:28 GMT; domain=yiwugou.com; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "p3p",
-        "content": "policyref=\"/w3c/p3p.xml\", CP=\"CUR ADM OUR NOR STA NID\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-via",
-        "content": "1.1 tzh61:8080 (Cdn Cache Server V2.0), 1.1 jzh79:7 (Cdn Cache Server V2.0)"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "content-type",
+        "content": "text/plain"
       }
     }
   ]
