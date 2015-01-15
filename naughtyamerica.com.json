@@ -24,15 +24,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.5.9-1ubuntu4.5"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "connectpersist=4037021868.20480.0000; path=/"
+        "content": "nsid=1vb0cu62d5a40qvpnp64s6gqt0; expires=Thu, 29-Jan-2060 20:29:30 GMT; Max-Age=1421327685; path=/; domain=.naughtyamerica.com, natscookiemonster=4.4.8.8.2.0.0.0.0; expires=Sat, 14-Feb-2015 07:14:45 GMT; Max-Age=2592000; path=/; domain=.naughtyamerica.com, landsite=yes; expires=Thu, 15-Jan-2015 08:14:45 GMT; Max-Age=3600; path=/; domain=.naughtyamerica.com, connectpersist=4037021868.20480.0000; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=600, max-age=600, public, must-revalidate, proxy-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "public"
       }
     }
   ]
