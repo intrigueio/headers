@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx admin"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
       }
@@ -26,13 +33,6 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=df8ea9e333dfdbd6835cae8bede2572381421331420; expires=Fri, 15-Jan-16 14:17:00 GMT; path=/; domain=.zemtv.com; HttpOnly"
       }
     },
     {
@@ -61,20 +61,6 @@
       "attributes": {
         "name": "x-cache",
         "content": "HIT from Backend"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1a92b1bf3032092c-DFW"
       }
     }
   ]

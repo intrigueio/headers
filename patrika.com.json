@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public"
+        "content": "public, no-cache=\"Set-Cookie\", max-age=5"
       }
     },
     {
@@ -25,7 +25,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Thu, 15 Jan 2015 14:18:09 GMT"
+        "content": "Thu, 15 Jan 2015 15:18:29 GMT"
       }
     },
     {
@@ -38,8 +38,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId=ydkb3pi3pa3gcrelqgblbt34; path=/; HttpOnly"
       }
     },
     {
@@ -54,13 +54,6 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "ASP.NET"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
       }
     },
     {

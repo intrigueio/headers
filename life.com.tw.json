@@ -10,29 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx/1.6.2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d366355b9b2538c04dda6034d67a6a4f51421331341; expires=Fri, 15-Jan-16 14:15:41 GMT; path=/; domain=.life.com.tw; HttpOnly, PHPSESSID=o2o6kd1o71s7i118mqalru0e50; path=/; domain=life.com.tw; HttpOnly"
       }
     },
     {
@@ -59,15 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cf-ray",
-        "content": "1a92afd55eb80926-DFW"
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=6kvna6b132hsl091picesgtik0; path=/; domain=life.com.tw; HttpOnly"
       }
     }
   ]

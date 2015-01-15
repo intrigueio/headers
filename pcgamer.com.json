@@ -17,6 +17,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-from-cache",
+        "content": "true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -32,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "Keep-Alive"
       }
     },
     {
@@ -40,13 +47,6 @@
       "attributes": {
         "name": "set-cookie",
         "content": "sparkRegion=US; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-from-cache",
-        "content": "true"
       }
     }
   ]

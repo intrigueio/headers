@@ -11,7 +11,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 PHP/5.3.29"
+        "content": "nginx admin"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=windows-1256"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -25,14 +53,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=51bf751a2afa378d359db9a40b2bf01b; path=/"
+        "content": "PHPSESSID=b413d4adc4976166d3498b9b2914fd32; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=0, no-cache, no-store, must-revalidate, post-check=0, pre-check=0"
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
@@ -45,29 +73,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-mod-pagespeed",
-        "content": "1.8.31.5-4307"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "close"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=windows-1256"
+        "name": "x-cache",
+        "content": "HIT from Backend"
       }
     }
   ]
