@@ -38,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "Hsoub Nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
         "content": "Hsoub, Phusion Passenger"
       }
@@ -45,8 +52,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
@@ -59,22 +66,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Hsoub Nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIUSFRUUF9VU0VSX0FHRU5UIi0xOGU0MGUxNDAx%0AZWVmNjdlMWFlNjllZmFiMDlhZmI3MWY4N2ZmYjgxIhlIVFRQX0FDQ0VQVF9M%0AQU5HVUFHRSItZGEzOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4%0AMDcwOSIPc2Vzc2lvbl9pZCJFNGRjMGZmNTQzMWY5MTc5NmQ1NzQzYjM2ZjZi%0AMmRmYWZhNzc4MDU1OGFlZGFkMzVjMDVhYjc0Zjg1NmE0YmY2NyIJY3NyZiIl%0AZGUyMTZjZDFlMDYyNTRmOWYwYTk1Y2Q0YzVkMWNlYmQ%3D%0A--3e00bae093d01534538dc1f33a9f59dead788acd; path=/; HttpOnly"
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIZSFRUUF9BQ0NFUFRfTEFOR1VBR0UiLWRhMzlh%0AM2VlNWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDkiFEhUVFBfVVNF%0AUl9BR0VOVCItMThlNDBlMTQwMWVlZjY3ZTFhZTY5ZWZhYjA5YWZiNzFmODdm%0AZmI4MSIPc2Vzc2lvbl9pZCJFMGIyOTlkNmM2Y2NmM2YwYTkwZmYwNTA4MTA4%0AYjM5MjhiNmZkMzNlZmE0MWY1NjBhY2U4ZGU4NzFhMTdlNGM2OSIJY3NyZiIl%0AODJmMTVlNTAyOWRiMGFkYTRiNDc1MzAwM2M5NmJhMTA%3D%0A--b98b837fbcafed07f35c24dd8a37ab38d9b291fd; path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     }
   ]

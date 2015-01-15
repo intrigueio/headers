@@ -11,42 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.4.20"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "OC_PHPSESSID=phla8tc979ssokvspadq1gaul3mp71bm; expires=Thu, 22-Jan-2015 07:15:31 GMT; path=/; domain=.online-convert.com; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
+        "content": "Varnish"
       }
     },
     {
@@ -54,6 +19,13 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "retry-after",
+        "content": "5"
       }
     },
     {
@@ -67,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "close"
       }
     },
     {
@@ -81,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-server",
-        "content": "web2"
+        "content": "web1"
       }
     }
   ]

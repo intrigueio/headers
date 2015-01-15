@@ -11,14 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Microsoft-IIS/5.0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "close"
+        "content": "nginx/1.4.0"
       }
     },
     {
@@ -26,6 +19,48 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pagespeed",
+        "content": "off"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-sol",
+        "content": "orig"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ASPSESSIONIDQQASQDBA=IEFHGKEABNKFCBBAPMFHLBJN; path=/, ezouid=1568348951; Path=/; Domain=snopes.com; Expires=Wed, 04 Jan 2017 08:15:37 UTC"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Cookie,Host,X-Middleton-Mode,Accept-Encoding"
       }
     }
   ]

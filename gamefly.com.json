@@ -11,14 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private"
+        "content": "private, no-cache, must-revalidate,private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html"
       }
     },
     {
@@ -31,27 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-ua-compatible",
-        "content": "IE=Edge; chrome=1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-aspnetmvc-version",
-        "content": "4.0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-aspnet-version",
-        "content": "4.0.30319"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-powered-by",
         "content": "ASP.NET"
       }
@@ -59,29 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
-        "content": "keep-alive, Transfer-Encoding"
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "CacheSessionId=0exzkrywrexf405ckezirbm3; domain=.gamefly.com; path=/; HttpOnly, gicc=M9JdMMcupWpuKYiVlV5rzeLcN9+tYDaQ8Ld1YVZ3ln6QC8qKqVO6Bv3JCZfITS3W; domain=.gamefly.com; path=/; HttpOnly, ddt=; domain=.gamefly.com; expires=Tue, 15-Jan-1985 07:19:14 GMT; path=/; HttpOnly, vis=0exzkrywrexf405ckezirbm3; domain=.gamefly.com; expires=Wed, 15-Jan-2020 07:19:14 GMT; path=/, returnToken=; expires=Tue, 15-Jan-1985 07:19:14 GMT; path=/, flyauth=; expires=Tue, 15-Jan-1985 07:19:14 GMT; path=/, ckIsFresh=; expires=Tue, 15-Jan-1985 07:19:14 GMT; path=/, isCleaned=; domain=.gamefly.com; expires=Tue, 15-Jan-1985 07:19:14 GMT; path=/, ckIsClean=True; expires=Fri, 15-Jan-2016 07:19:14 GMT; path=/; HttpOnly, sessionInit=True; domain=.gamefly.com; path=/; HttpOnly, XSRF-TOKEN=s_R5ryGFqm07OBT6Qn4ITM5SDTG8Gp5NFggQx2xzQphedqmLvN8RLTP-9-jChf2QW05X01WV_6_Pr0GV6-S8ml7y0OQjQH0YC1OR0Jv2iK6CkYMylEcZkBZR5T6HlmhP2Zi_qQ2:3Z-A5oZtoC-sb9Fn-C9A8_I_JLoFmDVeYKfKbsI7ZW16Jv6R5ofVR1pzTEkYeonxGJSMly9tySKJn9yVBp_JhHd4TZg7mtCVb_HFZ-rXt_WUas1-4KAZ7DLmdqF3jfVtkhcoVg2; domain=.gamefly.com; path=/, gfpool=False; domain=.gamefly.com; path=/; HttpOnly"
+        "content": "ASPSESSIONIDCQDDDACT=GDNIDGLDALPCCOBJHGEEOFFG; path=/"
       }
     }
   ]

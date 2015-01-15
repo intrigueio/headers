@@ -39,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=15"
+        "content": "max-age=60"
       }
     },
     {
@@ -54,6 +54,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "TS2a138f=0ebc00cc7b748331604a8c573732b478a606967e31443d0454b77820; Path=/, gandermountain=1862604204.20992.0000; path=/"
       }
     }
   ]
