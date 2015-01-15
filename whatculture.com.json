@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=da337135f64fbedb6d5d75bca1b3fc9b91421324239; expires=Fri, 15-Jan-16 12:17:19 GMT; path=/; domain=.whatculture.com; HttpOnly"
+        "content": "__cfduid=ddd110118dd793e3b7b939abfc17fbee21421327848; expires=Fri, 15-Jan-16 13:17:28 GMT; path=/; domain=.whatculture.com; HttpOnly"
       }
     },
     {
@@ -45,15 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cf-railgun",
-        "content": "direct (starting new WAN connection)"
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "x-pingback",
+        "content": "http://whatculture.com/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "1216443687 1216264000"
       }
     },
     {
@@ -73,27 +80,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-pingback",
-        "content": "http://whatculture.com/xmlrpc.php"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.5.20"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-varnish",
-        "content": "1216226750 1216068483"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
         "content": "cloudflare-nginx"
       }
@@ -102,7 +88,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a92026fbb63094a-DFW"
+        "content": "1a925a8e04be094a-DFW"
       }
     }
   ]
