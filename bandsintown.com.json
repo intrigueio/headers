@@ -17,8 +17,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
       }
     },
     {
@@ -31,8 +31,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-runtime",
-        "content": "13"
+        "content": "24"
       }
     },
     {
@@ -46,21 +53,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"0fbb382927be554d4812729f91171621\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
+        "content": "\"7805f37d16e89143cf9647dc47fc4cc8\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "_bandsintown_session=9592d372b37ced49c074d591af09952a; path=/; HttpOnly"
+        "content": "_bandsintown_session=66501a269c7b06855b1aed312e3e03a1; path=/; HttpOnly"
       }
     },
     {

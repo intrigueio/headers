@@ -17,8 +17,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "surrogate-control",
-        "content": "no-store"
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "*,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-vgn-hpd-variations-key",
+        "content": "b57a4e7dcaa09837b73fb8f470c8c12f"
       }
     },
     {
@@ -38,50 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "*,Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "JSESSIONID=0000gHn0Qc2uomONYNKneN-hl_l:13qqap3ao; Path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
-        "content": "no-cache=\"set-cookie, set-cookie2\""
+        "content": "max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-vgn-hpd-cached",
+        "content": "true"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "enviroment",
-        "content": "Prod 97"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-language",
-        "content": "en-AU"
+        "content": "Prod 097"
       }
     }
   ]
