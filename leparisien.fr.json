@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "vary",
+        "content": "Host,Accept-Encoding"
       }
     },
     {
@@ -24,29 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-front",
+        "content": "01"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "ECAcc (dfw/56EF)"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Host,Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-front",
-        "content": "02"
       }
     },
     {
@@ -59,6 +45,27 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-varnpar2",
+        "content": "C2 813216792"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varncache",
+        "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnpar1",
+        "content": "C1 77116371"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
         "content": "Oxalide [01]"
       }
@@ -66,22 +73,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varncache",
-        "content": "HIT 591"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnpar1",
-        "content": "C1 75455307 75435574"
+        "name": "via",
+        "content": "1.1 varnish"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnpar2",
-        "content": "C2 811594845"
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=3"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnishbox",
+        "content": "772181587"
       }
     }
   ]

@@ -52,6 +52,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "max-age=0, no-cache, no-store"
       }
@@ -66,15 +73,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "business1=2035; path=/, JSESSIONID=jPXjJ3hcQLpvPvY0QnNSpGTw1cqSWwj6VL5QxdWqTLYKvbLyNKML!-1870021585; path=/; HttpOnly, BNES_business1=aeksSdFroFRWs5xj1p4/E8KYY4PXy0UsfABHKmEdMBtTHG3VpxnRjitUr+UQRAqm0o/qFi20nUa+3RAZmeyS6w==; path=/, BNES_JSESSIONID=igj0AvWFocvJ520Ksep/eRmR+tvPisOxCyYsDnOqtKS5NnwzWwH3r1ty14Z2SE0GmzJr+cnFx789DMbjVcaRyXPIWUyXZ0rsAXPWFW4VCJfw9l4NXR+u++WzIHG69bhJgaKx/WJvUkDwBBnhNOvH4VlcEmKWNiaC; path=/; HttpOnly"
+        "content": "business1=2035; path=/, JSESSIONID=gHV8J3ypTTpQXlNKkFSQrtCw5PqsJQgmMc74JRZCvZJQDzbLkq1F!-1870021585; path=/; HttpOnly, BNES_business1=0TgCfa+dzfDz3K4fB6/188tnkv4dmdiVDpvQemjIdrRYCXeOc6O+W2vdEYWhn3rNdfiaJyCIl3DMgTRHR8E9oQ==; path=/, BNES_JSESSIONID=BV6o+aS74sDZU7acWs+LAWMg/CXhz38m57cmtjiXp49KdxerjquDUtghTSQyeM+bmdG6abnNv2fyubp/5BNFVeku7kaYQoWvUw8a+lK3BU6YuLBWAYEQZh8/0BV3Nta8CgvCNFFFruWRE9AxdnkcG8bYE7v8cKk6; path=/; HttpOnly"
       }
     }
   ]
