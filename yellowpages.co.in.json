@@ -45,8 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=aaa5zkAy6c4HzfCwpvTRu; domain=.yellowpages.co.in; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-distil-cs",
-        "content": "HIT"
+        "content": "MISS"
       }
     }
   ]

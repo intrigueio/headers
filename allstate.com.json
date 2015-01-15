@@ -45,15 +45,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "InitVisit=2015-01-15T04:19:25.5390041-06:00; expires=Fri, 31-Dec-9999 23:59:59 GMT; path=/; HttpOnly, AMS.001=vox1fdvydiqyfr45ltgany55; path=/; HttpOnly"
+        "content": "InitVisit=2015-01-15T05:19:49.0936085-06:00; expires=Fri, 31-Dec-9999 23:59:59 GMT; path=/; HttpOnly, AMS.001=1m2uca45a0sfskffuvd4pxmh; path=/; HttpOnly"
       }
     }
   ]
