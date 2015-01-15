@@ -11,14 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache=\"set-cookie\""
+        "content": "no-cache, no-store, max-age=0, must-revalidate, no-cache=\"set-cookie\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -32,7 +39,63 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "AWSELB=4B3DF11CDCD8CFB8765FDEB4D38F76B8A6B99BCF66F69C47989332AB5C50EE38559AB25055695D43CFE2A31FC66E67B2A4E3FB85C6AD14C91993DA26C1F1FE62BF7A8638;PATH=/"
+        "content": "request_method=GET; path=/, _hercules_session=cW9tYk5EaGlNYmxySDRKRlhZeHdSWFU2Qm9TMjNWbEtqTlg2LzdVSVlnOS9Jc1JPYjVBOTlEVmNQRkE4cG11d0hvN0tqYXdBcXk0TWJCRTAwbXBZb0M0TU15VkllMjB2MGIxM2NjVUw1MFd5eUQxZ2VvNXJvM05rYy9ZZ281WlFBbVJtVThkNkNuWGEwalh2djNuSnBTQTNmb2poVzNDUld3d0d6Z1BmYW1Feit6dW12ay8vYU5mcDVKL2NWZVJiLS1FL2hPUE9ZeFBjZit6Uy9CcGo2bFZnPT0%3D--9af91cd8388c8d2ad5c7b5199050e693eafc3bf3; path=/; HttpOnly, AWSELB=4B3DF11CDCD8CFB8765FDEB4D38F76B8A6B99BCF66F69C47989332AB5C50EE38559AB250797B5222DA7B26146FF76272F369948B71347D100CAB7EF81689E8CAF9016110;PATH=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "c165c71b-a8c5-4117-b0c2-5bd7b04dbbe4"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.257135"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {
