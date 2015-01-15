@@ -17,15 +17,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "cache-control",
+        "content": "no-cache, max-age=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=0"
+        "name": "set-cookie",
+        "content": "_osession=eyJpdiI6IkVZUmVWdEREM296SmVLZEpHbEhqb0E9PSIsInZhbHVlIjoiRld5UlVJSGx2ZTRXeFdzandiNnIreVFDUkhKbXEzVjNVS0NEcjU5QllqXC9MYjNXakthRkhJWjhibkoraXJqVGNESUVEdVo4aXlCNmpaNU1YRjlzMm13PT0iLCJtYWMiOiIxODRhNzIyZWE1M2JhYjdjZDY3ZWU4NjdlYzAxMzgyZGYxOWI2YzJmYzAxMzEwMzgyODhmNmQ0NmE0NjMxNWI3In0%3D; expires=Thu, 15-Jan-2015 22:20:21 GMT; Max-Age=7200; path=/; httponly, language=eyJpdiI6IllQYlhLamw4QlwvUEZWRHBycVwvYjJldz09IiwidmFsdWUiOiI1eTBvM01DeERoWEM4UnF1XC9LcCs0Zz09IiwibWFjIjoiYzY0ODk1ZWQzMjk2MTVhMWM1YzVhOWY4MTAyOGU0MWNiMzZlNTkxYjQ0YjlhMzUxNDY5MmI0NTA4NjU3ZTczMyJ9; expires=Tue, 14-Jan-2020 20:20:20 GMT; Max-Age=157679999; path=/; httponly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -46,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html; charset=UTF-8"
       }
     }
   ]
