@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-strangeloop",
+        "content": "Compression"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "Apache"
       }
@@ -33,6 +40,13 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html;charset=ISO-8859-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -52,15 +66,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "stop_mobi=yes, akaau=1421321420~id=b5c78cdf8cb73169e12f8f4288e18775; path=/"
+        "content": "stop_mobi=yes, akaau=1421325038~id=73b79389677506ccbd0dc4f994aebc43; path=/"
       }
     },
     {
