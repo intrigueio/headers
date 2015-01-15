@@ -18,14 +18,56 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "via",
-        "content": "1.1 varnish, 1.1 varnish"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "_locale=en; domain=.dotabuff.com; path=/; expires=Tue, 14 Jan 2020 23:15:18 -0000, _s=Yjd5OHoxVWcvbWRRazhtZzJJRHhrS0luaWdlU05kcVBYb3UvRUxkbS9LMk0zQ0hRdCtRd2c2eXFydkN4b0VQejlud3R5N3d4OHAzeElHai9SaUtsaG1OY1hPVjFIY0RRL1JVUXhuSlNRelR6czMyUUlLcjlYSmxFKzl3Z2xvd3BzVWRqb1pkSU9HeDZWOEtFd25zZkVLazZKVldJRS85c0lXNFN3MFpVWXF4UVlzb3V3WFN3UUxVZmJ2SFFhdlUybTB1U3VrdnZ2eUMwSzEzMU9ESU95MFloQmlBRjZrZThLa3YraDBzMHBxVmN6a2JiVXNXbW83VXRWYVY1VGVSZk1SMTZ2U1l6dlF1RXRxcERsTG1ScXRPNWt2TGUvZGlteVpReXRMZVBYYmgvd25nKzFwK0gwOTcvaytOUHBOOEl4dzBiQXh3OFZRY0NZR2kxeW1Fbm80eC9zSW05ZXdyT0hLZjkwbkxVUWxRM0N6dnFKNmVlMGNBb1UvazdsL0VjNFN6L0VEeWdqZEZmc2FLZ2Zvbmswc1pnSi8zcEIxdUxqeEIrTlpRQ2t0YXhDTXAraTZ4dmlUa1V0N1ljbUcxdE9DbkhuVDROOTc5U0RFVStGcEFKS3ZYOFB6UGQvRjlVSWxNdTVxa2tJZUxPU1B3dXRLRWlHOW9uaUpVWTZ0eFFqWTRibWltUCtTRU9VbmNkdlMxY1lkQVdDQytoR0p3SUN2WnoreW8zdE51UXRnL3NFWE52VTFsS3FEblpGeVV3LS0rUldtSUFyNzJGU3JPRkdYblY5eGd3PT0%3D--621bd5b75d11ac9208836751350262674614933d; domain=.dotabuff.com; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "60253998-9319-4b48-a123-358703e203b1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -33,6 +75,13 @@
       "attributes": {
         "name": "accept-ranges",
         "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
       }
     },
     {
@@ -46,28 +95,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-served-by",
-        "content": "cache-dfw1823-DFW, cache-ord1724-ORD"
+        "content": "cache-dfw1827-DFW"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "MISS, MISS"
+        "content": "MISS"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-hits",
-        "content": "0, 0"
+        "content": "0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-timer",
-        "content": "S1421273719.082270,VS0,VE27"
+        "content": "S1421277318.275872,VS0,VE64"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     }
   ]

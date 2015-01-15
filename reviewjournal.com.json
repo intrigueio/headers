@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "public, max-age=1800"
       }
@@ -32,14 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1421273734-1\""
+        "content": "\"1421277003-1\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Wed, 14 Jan 2015 22:15:34 GMT"
+        "content": "Wed, 14 Jan 2015 23:10:03 GMT"
       }
     },
     {
@@ -66,6 +73,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-ah-environment",
         "content": "prod"
       }
@@ -73,22 +87,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-drupal-cache",
+        "name": "x-cache",
         "content": "HIT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-request-id",
-        "content": "cb257434-4620-472e-a30b-0e6b74ee3fcf"
+        "name": "x-cache-hits",
+        "content": "127"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "x-drupal-cache",
+        "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "v-78c81a12-9c42-11e4-a970-22000afe0aed"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "2993186197 2993154873"
       }
     },
     {
