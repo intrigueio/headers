@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache=\"set-cookie\""
       }
     },
     {
@@ -33,6 +33,13 @@
       "attributes": {
         "name": "server",
         "content": "nginx/1.2.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=5k2rri9ts7n3165cme69th6l84; path=/; domain=.wired.it, AWSELB=E3DD811F14EC8C31734F2C38FA97034ED6DFB9FD5D14E6ADC8FD4EE0FFC9110CE5F9F8BF1D821367C9C014FBAF40A90E59D998EC50E85A0990C936C065E37A390EA02055F7;PATH=/;MAX-AGE=1200"
       }
     },
     {
@@ -60,7 +67,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-hits",
-        "content": "26"
+        "content": "1"
       }
     },
     {
@@ -81,7 +88,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-served-by",
-        "content": "ip-10-10-1-84"
+        "content": "ip-10-10-1-13"
       }
     },
     {
@@ -95,7 +102,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "171802739 171802114"
+        "content": "1016558603 1016558412"
       }
     },
     {
