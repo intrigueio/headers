@@ -24,36 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
+        "name": "retry-after",
+        "content": "900"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "strict-transport-security",
-        "content": "max-age=15552000"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Cookie,Authorization,Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "x-lazr-oopsid",
+        "content": "OOPS-cb36a9194fc9d69a1582717d8a41169e"
       }
     },
     {
@@ -67,28 +46,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "HIT from banana.canonical.com"
+        "content": "HIT from nutmeg.canonical.com"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-lookup",
-        "content": "HIT from banana.canonical.com:3128"
+        "content": "HIT from nutmeg.canonical.com:3128"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "1.0 banana.canonical.com:3128 (squid/2.7.STABLE7)"
+        "content": "1.0 nutmeg.canonical.com:3128 (squid/2.7.STABLE7)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
       }
     }
   ]
