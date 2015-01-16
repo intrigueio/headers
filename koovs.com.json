@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
@@ -24,15 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"2e0995-72a-4f5aa2bc68241\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Fri, 28 Mar 2014 12:52:14 GMT"
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -40,6 +33,13 @@
       "attributes": {
         "name": "server",
         "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "prodcsrf_token_name=853db946ab46c588500fa86b12f11cb2; expires=Fri, 16-Jan-2015 23:27:13 GMT; path=/; domain=.koovs.com; httponly, prodcsrf_token_name=853db946ab46c588500fa86b12f11cb2; expires=Fri, 16-Jan-2015 23:27:13 GMT; path=/; domain=.koovs.com; httponly, PHPSESSID=8iinmpqff6rrbqmklj3al6i467; path=/; domain=.koovs.com; HttpOnly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodf_t_v_f=1421443633; expires=Thu, 12-Nov-2015 21:27:13 GMT; path=/; domain=.koovs.com, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, KOOVS_SHOPPING_ID=887ea194-9dc6-11e4-80a4-069cd5537a05; expires=Sat, 31-Jan-2015 21:27:13 GMT; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodcsrf_token_name=98a8115f01ccf221261dee59fe426e0b; expires=Fri, 16-Jan-2015 23:27:13 GMT; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly, prodci_session_koovs=a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A26%3A%228iinmpqff6rrbqmklj3al6i467%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.0.0.243%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221421443633%22%3B%7D7b5d8b0c1b9ee45ef58fcd476c2cf4a7; path=/; domain=.koovs.com; httponly"
       }
     },
     {
@@ -61,6 +61,13 @@
       "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge,chrome=1"
       }
     },
     {
