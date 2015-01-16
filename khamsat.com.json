@@ -38,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-content-type-options",
         "content": "nosniff"
       }
@@ -52,6 +59,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "Hsoub Nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-xss-protection",
         "content": "1; mode=block"
       }
@@ -60,21 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIPc2Vzc2lvbl9pZCJFZmMxZWQwNzJkZmQ1N2IxMGRjODQwZDg4YzQy%0AM2M0YWExM2RlYTQ5YTQ1OTQ0MWJhMDkzZTk4MWIxODcxYmY1OSINdHJhY2tp%0Abmd7ByIUSFRUUF9VU0VSX0FHRU5UIi0xOGU0MGUxNDAxZWVmNjdlMWFlNjll%0AZmFiMDlhZmI3MWY4N2ZmYjgxIhlIVFRQX0FDQ0VQVF9MQU5HVUFHRSItZGEz%0AOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4MDcwOSIJY3NyZiIl%0AZGQ1NmI3YTMxNzVmODAzOWRkMzMyM2VlMzgxZTk0MjY%3D%0A--bad38cc22cbfef097f308919aa10dd1d4fe6fbda; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "Hsoub Nginx"
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIUSFRUUF9VU0VSX0FHRU5UIi0xOGU0MGUxNDAx%0AZWVmNjdlMWFlNjllZmFiMDlhZmI3MWY4N2ZmYjgxIhlIVFRQX0FDQ0VQVF9M%0AQU5HVUFHRSItZGEzOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4%0AMDcwOSIPc2Vzc2lvbl9pZCJFZjljNDVlMDM5YWZhYTk1YTI4MWE5OTk0ODZm%0AYzFmNGIwNWVkYmZkNWExNmM1MzJhZWVkZWY0MjgzMTA0NmJjNyIJY3NyZiIl%0AODEwMDNjMmIzNmNkNjQ2ZjUyZGFmZGFlMmMzMTNiNTI%3D%0A--853b7e48c5d1268e9c5faf250490eecba4dd931f; path=/; HttpOnly"
       }
     }
   ]

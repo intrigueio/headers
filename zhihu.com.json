@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-security-policy",
-        "content": "default-src *; frame-src *.zhihu.com getpocket.com note.youdao.com; script-src *.zhihu.com *.google-analytics.com 'unsafe-eval'; style-src *.zhihu.com 'unsafe-inline'"
+        "name": "server",
+        "content": "zhihu_nginx"
       }
     },
     {
@@ -24,15 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "zhihu_nginx"
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-security-policy",
+        "content": "default-src *; frame-src *.zhihu.com getpocket.com note.youdao.com; script-src *.zhihu.com *.google-analytics.com 'unsafe-eval'; style-src *.zhihu.com 'unsafe-inline'"
       }
     },
     {
@@ -45,8 +52,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cache-status",
-        "content": "HIT"
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -59,8 +66,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "x-cache-status",
+        "content": "HIT"
       }
     }
   ]
