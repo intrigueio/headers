@@ -10,8 +10,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "server",
+        "content": "Apache/2.2.22 (Ubuntu)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Cookie,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "xcsrftoken=YMaYgW42rmfDxyRG9YQrf0BGsgXGZWWw; Domain=.pcpartpicker.com; expires=Fri, 15-Jan-2016 22:27:15 GMT; Max-Age=31449600; Path=/"
       }
     },
     {
@@ -25,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
       }
     }
   ]
