@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -17,15 +24,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "p3p",
+        "content": "CP=\" OTI DSP COR IVA OUR IND COM \", CP=\" OTI DSP COR IVA OUR IND COM \""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "Keep-Alive"
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "BAIDUID=C908CD1E552A0F133D20EFA337744939:FG=1; expires=Sat, 16-Jan-16 11:24:15 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1, BAIDUID=99768A576EC195F5D057871F8F762BE2:FG=1; expires=Sat, 16-Jan-16 11:24:15 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "tracecode",
+        "content": "14555612180221521418011619"
       }
     },
     {
@@ -45,29 +66,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "BAIDUID=EAE1A6135B38B2ECA8C405BE261E34ED:FG=1; expires=Sat, 16-Jan-16 10:24:01 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1, BAIDUID=AEBDB0B2CE3810984AD117AA94CB8AD2:FG=1; expires=Sat, 16-Jan-16 10:24:01 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "p3p",
-        "content": "CP=\" OTI DSP COR IVA OUR IND COM \", CP=\" OTI DSP COR IVA OUR IND COM \""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "tracecode",
-        "content": "14414790710892610058011618"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "Apache"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]
