@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -39,28 +46,49 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding,Cookie"
+        "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pingback",
+        "content": "http://phandroid.com/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=d4ef36b66866f1468c5773f819e4a93b; expires=Fri, 16-Jan-2015 23:29:09 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "link",
+        "content": "<http://wp.me/SjiW>; rel=shortlink"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Fri, 16 Jan 2015 19:24:29 GMT"
+        "content": "Fri, 16 Jan 2015 20:29:10 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "pragma",
+        "content": "public"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=60, public"
+        "content": "max-age=300, public"
       }
     },
     {
@@ -75,13 +103,6 @@
       "attributes": {
         "name": "x-xss-protection",
         "content": "1; mode=block"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
-        "content": "public"
       }
     }
   ]

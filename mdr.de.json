@@ -17,15 +17,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html;charset=UTF-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "JSESSIONID=7037CA162404D8EB6F4920FE52A65E38; Path=/webapp"
+        "name": "vary",
+        "content": "x-forwarded-for,Accept-Encoding"
       }
     },
     {
@@ -38,8 +31,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
