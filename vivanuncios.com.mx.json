@@ -10,36 +10,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "User-Agent,Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=86400, public"
+        "name": "set-cookie",
+        "content": "prevRedirect=/; Expires=Fri, 16-Jan-2015 06:51:34 GMT; Path=/, machguid=2541cafe-6599-4974-91db-e891eb312363-14af1676d76; Expires=Sat, 16-Jan-2016 06:21:34 GMT; Path=/, anonUsrId=a86c994d-79ac-4ac9-9472-18a3f5a890f6"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html;charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-vivastreet",
-        "content": "www"
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache Tomcat"
       }
     },
     {
@@ -47,27 +47,6 @@
       "attributes": {
         "name": "transfer-encoding",
         "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-vivastreet-kiwiipage",
-        "content": "1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "86400 GMT"
       }
     }
   ]
