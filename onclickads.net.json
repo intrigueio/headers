@@ -10,78 +10,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0"
+        "name": "server",
+        "content": "nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=ISO-8859-1"
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.3.25"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PREF=ID=fc0c9f7f42ce1de8:FF=0:TM=1421421807:LM=1421421807:S=63MulIs1JmUmdSTS; expires=Sun, 15-Jan-2017 15:23:27 GMT; path=/; domain=.google.com, NID=67=XIyX1nwOK3foCjj4Me_YRn4tTXSyM32VIF_VsWWQdx9hwTMIuZePDCi5G-cFaE-cM-GBdw_ZR5mjrhmOtDCgdomru_BOv1aS2zQrmPPdMLxp0XHjbRTYW8rV1SoczdUh; expires=Sat, 18-Jul-2015 15:23:27 GMT; path=/; domain=.google.com; HttpOnly"
+        "content": "PHPSESSID=e7869494fd89db9533c14b223ea6fefc; expires=Sat, 17-Jan-2015 15:52:11 GMT; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "p3p",
-        "content": "CP=\"This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info.\""
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "gws"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "alternate-protocol",
-        "content": "80:quic,p=0.02"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "none"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "pragma",
+        "content": "no-cache"
       }
     }
   ]
