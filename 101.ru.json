@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -38,8 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.5.9-1ubuntu4.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "setst=-1; expires=Fri, 16-Jan-2015 15:28:17 GMT; path=/, updTime=1421418497; expires=Sat, 16-Jan-2016 14:28:17 GMT; path=/, con=1421418497; expires=Sat, 16-Jan-2016 14:28:17 GMT; path=/, sid_101_ru=s3i5iu3f5ms25bsnb7jp1fsrn7; path=/, mobile=0; expires=Sun, 15-Feb-2015 14:28:17 GMT, mobile_version=0; expires=Sun, 15-Feb-2015 14:28:17 GMT, bit=2; expires=Sat, 16-Jan-2016 14:28:17 GMT, type=2; expires=Sat, 16-Jan-2016 14:28:17 GMT, serv=342; expires=Sat, 16-Jan-2016 14:28:17 GMT"
+        "content": "setst=-1; expires=Fri, 16-Jan-2015 16:28:23 GMT; Max-Age=3600; path=/, updTime=1421422103; expires=Sat, 16-Jan-2016 15:28:23 GMT; Max-Age=31536000; path=/, con=1421422103; expires=Sat, 16-Jan-2016 15:28:23 GMT; Max-Age=31536000; path=/, sid_101_ru=k65l8kk8um516i0mv6p45g6a21; path=/, mobile=0; expires=Sun, 15-Feb-2015 15:28:23 GMT; Max-Age=2592000, mobile_version=0; expires=Sun, 15-Feb-2015 15:28:23 GMT; Max-Age=2592000, bit=2; expires=Sat, 16-Jan-2016 15:28:23 GMT; Max-Age=31536000, type=2; expires=Sat, 16-Jan-2016 15:28:23 GMT; Max-Age=31536000, serv=202; expires=Sat, 16-Jan-2016 15:28:23 GMT; Max-Age=31536000"
       }
     },
     {
@@ -60,14 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Fri, 16 Jan 2015 14:28:17 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "Fri, 16 Jan 2015 15:28:23 GMT"
       }
     }
   ]
