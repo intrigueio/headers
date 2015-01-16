@@ -11,7 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private"
+        "content": "no-cache, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -24,22 +31,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Microsoft-IIS/7.5"
+        "name": "retry-after",
+        "content": "600"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "ORGN=FnacAff; domain=.fnac.pt; expires=Sun, 15-Feb-2015 13:27:28 GMT; path=/, OrderInSession=0; domain=.fnac.pt; path=/, ORIGDT=16-01-2015+14%3a27%3a28; domain=.fnac.pt; expires=Sun, 15-Feb-2015 13:27:28 GMT; path=/, UID=0AEACA1DA-5A93-2885-1597-D7FF997D6800; domain=.fnac.pt; expires=Wed, 15-Jan-2020 13:27:28 GMT; path=/, SID=b2820ecd-a0df-c47f-1414-d46f81e77c64; domain=.fnac.pt; expires=Wed, 15-Jul-2015 12:27:28 GMT; path=/, ORGN=FnacAff; domain=.fnac.pt; expires=Sun, 15-Feb-2015 13:27:28 GMT; path=/, OrderInSession=0; domain=.fnac.pt; path=/, ORIGDT=16-01-2015+14%3a27%3a28; domain=.fnac.pt; expires=Sun, 15-Feb-2015 13:27:28 GMT; path=/, UID=0AEACA1DA-5A93-2885-1597-D7FF997D6800; domain=.fnac.pt; expires=Wed, 15-Jan-2020 13:27:28 GMT; path=/, SID=b2820ecd-a0df-c47f-1414-d46f81e77c64; domain=.fnac.pt; expires=Wed, 15-Jul-2015 12:27:28 GMT; path=/, NBART=0; domain=.fnac.pt; expires=Wed, 15-Jan-2020 23:00:00 GMT; path=/"
+        "name": "server",
+        "content": "Microsoft-IIS/7.0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-aspnet-version",
-        "content": "4.0.30319"
+        "content": "2.0.50727"
       }
     },
     {
@@ -47,6 +54,27 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-robots-tag",
+        "content": "noindex, noarchive, nofollow"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "Keep-Alive"
       }
     }
   ]
