@@ -39,14 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=de9cc1bdbf7a2de1fe02c3b284daa85831421429331; expires=Sat, 16-Jan-16 17:28:51 GMT; path=/; domain=.thegrommet.com; HttpOnly"
+        "content": "__cfduid=da752aab49386fe93e0a8afffa7dc55701421432944; expires=Sat, 16-Jan-16 18:29:04 GMT; path=/; domain=.thegrommet.com; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "varnish-cacheable",
+        "content": "1"
       }
     },
     {
@@ -54,6 +54,20 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "grommet-fetch",
+        "content": "Cached"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
       }
     },
     {
@@ -81,7 +95,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "203950772 203947500"
+        "content": "203995815 203993681"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
@@ -94,36 +115,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "varnish-cacheable",
-        "content": "1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "grommet-fetch",
-        "content": "Cached"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "via",
-        "content": "1.1 varnish"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cf-railgun",
-        "content": "777eee3d75 2.10 0.020687 0031 5360"
+        "content": "3880f0f851 0.07 0.014502 0031 5360"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a9c082c45860932-DFW"
+        "content": "1a9c605ccca10932-DFW"
       }
     }
   ]
