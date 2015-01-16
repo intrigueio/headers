@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,8 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "MNSV=web18|VLi8K|VLi8K; path=/"
+        "content": "v=6j-MP9Dzis3IZjqxhNAFf_xZR3yzCEb2VLjK6A; expires=Thu, 11-Jan-2035 00:00:00 GMT; path=/, MNSV=web9|VLjK6|VLjK6; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-minted-visitor",
+        "content": "_FlHfLMIRvY"
       }
     }
   ]
