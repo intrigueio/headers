@@ -10,8 +10,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 PHP/5.4.34"
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=de5df03522b316469508c67a04f5b4e111421411142; expires=Sat, 16-Jan-16 12:25:42 GMT; path=/; domain=.libertagia.com; HttpOnly, PHPSESSID=a8fbea39144a0f9f205bdba0c4bc2644; path=/, fe-lang=pt; expires=Sun, 15-Feb-2015 12:25:41 GMT; path=/"
       }
     },
     {
@@ -19,13 +40,6 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.4.34"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=2e6d5b7a5b9560465f59f0d746094468; path=/, fe-lang=pt; expires=Sun, 15-Feb-2015 11:25:23 GMT; path=/"
       }
     },
     {
@@ -45,15 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "server",
+        "content": "cloudflare-nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "cf-ray",
+        "content": "1a9a4c19e7f710bd-ORD"
       }
     }
   ]

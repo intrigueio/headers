@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -24,22 +17,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "server",
+        "content": "nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "keep-alive",
-        "content": "timeout=5"
+        "name": "set-cookie",
+        "content": "country=US; expires=Sat, 16-Jan-2016 12:26:38 GMT; Max-Age=31536000; Path=/, analytics=\"e771cb6e-39f3-4cb7-9f05-cbbb0a9a006e:0:0:1421411198:f06d2550-5761-403a-a5c3-276b1b820b72\"; expires=Sat, 16-Jan-2016 12:26:38 GMT; Max-Age=31536000; Path=/"
       }
     },
     {
@@ -52,15 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "country=US; expires=Sat, 16-Jan-2016 11:26:22 GMT; Max-Age=31536000; Path=/, analytics=\"600212ab-da39-4bfa-aa9f-3496e8379cbb:0:0:1421407582:834de0c7-695f-4ab8-ba21-5fb27bb8bd22\"; expires=Sat, 16-Jan-2016 11:26:22 GMT; Max-Age=31536000; Path=/"
+        "name": "x-frame-options",
+        "content": "DENY"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "DENY"
+        "name": "connection",
+        "content": "keep-alive"
       }
     }
   ]
