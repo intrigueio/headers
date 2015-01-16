@@ -17,6 +17,20 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "15"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-ua-compatible",
         "content": "IE=EDGE, chrome=1"
       }
@@ -24,15 +38,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "status",
-        "content": "200"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "etag",
-        "content": "\"e82447be214a227f7107258b317fcabc\""
+        "content": "\"a5864d04e982046a16618e2de0576055\""
       }
     },
     {
@@ -45,22 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-runtime",
-        "content": "16"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
+        "name": "status",
+        "content": "200"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "_bandsintown_session=61ee8c0b08b4dcb2c7b6e5112fc2cc69; path=/; HttpOnly"
+        "content": "_bandsintown_session=9c41112903a3283299e1303c8bff23d2; path=/; HttpOnly"
       }
     },
     {
@@ -75,6 +75,13 @@
       "attributes": {
         "name": "connection",
         "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

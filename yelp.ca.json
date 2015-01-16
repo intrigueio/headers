@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-node",
-        "content": "web40-r6-sfo2, www_all"
+        "content": "web25-r5-sfo2, www_all"
       }
     },
     {
@@ -61,6 +61,13 @@
       "attributes": {
         "name": "x-proxied",
         "content": "extlb2-r5-sfo2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "bip-sfo2=sticky_web25-r5-sfo2; path=/"
       }
     }
   ]

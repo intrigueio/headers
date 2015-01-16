@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Fri, 16 Jan 2015 01:50:06 GMT"
+        "name": "cache-control",
+        "content": "max-age=900"
       }
     },
     {
@@ -25,7 +25,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"10c3f-7c87-50cbb311daf80\""
+        "content": "\"7c69-50cbc72ebe340\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Fri, 16 Jan 2015 03:20:05 GMT"
       }
     },
     {
@@ -40,6 +47,13 @@
       "attributes": {
         "name": "server",
         "content": "Apache/2.2.15 (CentOS)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {

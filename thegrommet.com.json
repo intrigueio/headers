@@ -39,14 +39,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d489db43d477882e6b93c00b266b835ea1421374967; expires=Sat, 16-Jan-16 02:22:47 GMT; path=/; domain=.thegrommet.com; HttpOnly"
+        "content": "__cfduid=d9dcf56bb00773bf933888fbc8e7b987e1421378592; expires=Sat, 16-Jan-16 03:23:12 GMT; path=/; domain=.thegrommet.com; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-purge-host",
-        "content": "www.thegrommet.com"
+        "name": "cache-control",
+        "content": "public"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-railgun",
+        "content": "direct (starting new WAN connection)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "grommet-fetch",
+        "content": "Cached"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=604800"
       }
     },
     {
@@ -59,8 +80,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "grommet-fetch",
-        "content": "Cached"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -80,22 +101,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "strict-transport-security",
-        "content": "max-age=604800"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "public"
+        "name": "x-purge-host",
+        "content": "www.thegrommet.com"
       }
     },
     {
@@ -109,21 +116,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "203796521 203796034"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-railgun",
-        "content": "4f8693e88c 0.31 0.018570 0031 5360"
+        "content": "203810747 203810324"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a96d8e845d80938-DFW"
+        "content": "1a97316c224b0932-DFW"
       }
     }
   ]
