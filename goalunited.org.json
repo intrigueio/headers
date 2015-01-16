@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "_NJIN_=2c5gjls1aqmjt12fecutmhu610; path=/; domain=.goalunited.org, _GU2011_=u%91%2Fr%01%A3%CF%7E%E8%8C%EA%29%D5%1F6%9BZ%D8%ACs%15%92%CA%2A7j%03%C4%85%A7%F1%12%AC%8B%8E%17%A3%02%01%82; path=/; domain=.goalunited.org, _GU2011_=%2F%FA%A9%92%BE%E8%8C%22c%BAmbW%1E%87M%98%08K%FB%24%07%EB%DC%8A%D7%C1%9F%DD%C5%07%F2%15%9CC%A9%7C%EF3%E6; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Fri, 16-Jan-2015 05:21:43 GMT; path=/; domain=.goalunited.org, lang=en; expires=Fri, 16-Jan-2015 05:21:43 GMT; path=/; domain=.manager-football.org, lang=en; expires=Fri, 16-Jan-2015 05:21:43 GMT"
+        "content": "_NJIN_=1sjks1ddlbhjn6sb7ifbb13la4; path=/; domain=.goalunited.org, _GU2011_=+%DB0e%8A%03%08s%F2Ts%A8%2A%3C%D4%8DD%B4b%E2T%3C%EC%B8%23%18f%16%1B%A7%B4M%05%60%80%86%9F%5CR%E6; path=/; domain=.goalunited.org, _GU2011_=I%93%E4%BB%80Ee%E2%1B%3C%954%07D%9D%D5i%01%AA%B0C%EB%99%DF%7E%07%9BG%DD%D0F%B6%83M%FE%8CTR%7E+; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Fri, 16-Jan-2015 06:22:00 GMT; path=/; domain=.goalunited.org, lang=en; expires=Fri, 16-Jan-2015 06:22:00 GMT; path=/; domain=.manager-football.org, lang=en; expires=Fri, 16-Jan-2015 06:22:00 GMT"
       }
     },
     {
@@ -47,13 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
       }
     }
   ]
