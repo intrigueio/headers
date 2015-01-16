@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, no-store, public"
+        "content": "private, max-age=0, proxy-revalidate, no-store, no-cache, must-revalidate, public"
       }
     },
     {
@@ -46,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-appserver",
-        "content": "hp-gmx-bs012"
+        "content": "hp-gmx-bs006"
       }
     },
     {
@@ -59,8 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "rtss",
+        "content": "1-1250-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "SSLB=.0; domain=www.gmx.net ;path=/"
+        "content": "SSLB=.1; domain=www.gmx.net ;path=/"
       }
     },
     {

@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx"
+        "content": "Mongrel 1.1.5"
       }
     },
     {
@@ -24,22 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "etag",
+        "content": "\"0f4a18f5f1236431430ea759e62006d5\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "status",
-        "content": "200 OK"
+        "content": "200"
       }
     },
     {
@@ -59,15 +52,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "_bandsintown_session=67f0766a3c82c1a54a1d235525ec530b; path=/; HttpOnly"
+        "name": "x-runtime",
+        "content": "17"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-runtime",
-        "content": "17"
+        "name": "set-cookie",
+        "content": "_bandsintown_session=4590e329d92af2e78c185589aca0127c; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
       }
     }
   ]
