@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
       }
@@ -38,6 +31,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=dcd7d6391f89c2e8423aac02037434d9a1421367718; expires=Sat, 16-Jan-16 00:21:58 GMT; path=/; domain=.makezine.com; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding, Cookie"
       }
@@ -46,14 +46,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Thu, 15 Jan 2015 23:20:46 GMT"
+        "content": "Fri, 16 Jan 2015 00:19:46 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=241, must-revalidate"
+        "content": "max-age=168, must-revalidate"
       }
     },
     {
@@ -82,6 +82,20 @@
       "attributes": {
         "name": "link",
         "content": "<http://wp.me/P22K2I-ugJ>; rel=shortlink"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1a9627eeeb9a09a0-ORD"
       }
     }
   ]

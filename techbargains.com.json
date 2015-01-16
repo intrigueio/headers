@@ -31,6 +31,20 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-tb-dc-rule",
+        "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-tb-nli",
+        "content": "1, 1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-bserver",
         "content": "NO"
       }
@@ -46,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=10"
+        "content": "max-age=20"
       }
     },
     {
@@ -66,6 +80,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=787E39ED753BA3C27D9907E4147F2F9D; Path=/, TBUSERCOOKIE=IlVTRVJJRD0yYzgzNTQ1Mi0zNmM4LTQ5YWYtOGJjYS1mZjM0NGExZTFhYmIiLCJSRUZFUlJBTFVSTD0iLCJMQU5ESU5HUEFHRT0vaW5kZXguaHRtbCIsIkRBVEVDUkVBVEVEPTAxLzE1LzIwMTUgMTY6MTk6MzEgUFNUIiwiVkVSU0lPTj0xLjAi; Domain=techbargains.com; Expires=Wed, 03-Feb-2083 03:33:38 GMT; Path=/, TBSESSIONCOOKIE=IlNFU1NJT05JRD0xNDMxYzU1NS1mY2ZjLTQ2MjItOTVhMy0zZWIwZTNkNTIyOGQiLCJEQVRFQ1JFQVRFRD0wMS8xNS8yMDE1IDE2OjE5OjMxIFBTVCIsIk5FV1NMRVRURVJQT1BVUENPVU5UPTAiLCJJU1NVQlNDUklCRUQ9ZmFsc2Ui; Domain=techbargains.com; Expires=Fri, 16-Jan-2015 00:49:31 GMT; Path=/, TBCOUPONCOOKIE=IkNPVVBPTklEUz0i; Domain=techbargains.com; Expires=Thu, 16-Apr-2015 00:19:31 GMT; Path=/, TBTESTCOOKIE=TEST; Domain=techbargains.com; Expires=Fri, 16-Jan-2015 00:49:31 GMT; Path=/, TBGENERALCOOKIE=; Domain=techbargains.com; Expires=Thu, 16-Apr-2015 00:19:31 GMT; Path=/, TBVERSIONCOOKIE=IkNVUlJFTlRWRVJTSU9OPTIuMC41IiwiQ1VSUkVOVE1FVEhPRD1BU1NJR05FRCIsIkNVUlJFTlREQVRFPTAxLzE1LzIwMTUgMTY6MTk6MzEgUFNUIiwiSU5JVElBTFZFUlNJT049Mi4wLjUiLCJJTklUSUFMTUVUSE9EPUFTU0lHTkVEIiwiSU5JVElBTERBVEU9MDEvMTUvMjAxNSAxNjoxOTozMSBQU1Qi; Domain=techbargains.com; Expires=Thu, 16-Apr-2015 00:19:31 GMT; Path=/, TBSVALCOOKIE=InVzZXJUeXBlPW5ldyIsImN1cnJlbnRVcmw9L2luZGV4Lmh0bWwi; Domain=techbargains.com; Expires=Fri, 16-Jan-2015 00:49:31 GMT; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-tb-hpc",
         "content": "1"
       }
@@ -74,13 +95,6 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-tb-usus",
-        "content": "1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-tb-nli",
         "content": "1"
       }
     }
