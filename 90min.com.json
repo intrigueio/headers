@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "access-control-allow-origin",
         "content": "*"
       }
@@ -38,8 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "last-modified",
+        "content": "Sat, 17 Jan 2015 13:07:37 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
-        "content": "nginx/1.4.6 (Ubuntu)"
+        "content": "ECS (dfw/278C)"
       }
     },
     {
@@ -47,6 +61,20 @@
       "attributes": {
         "name": "status",
         "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "HIT"
       }
     },
     {
@@ -60,14 +88,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "0068c9f4c658d310156697c65376f406"
+        "content": "9e6b5d65c2221443ed4b8f29ced9b2e3"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.046936"
+        "content": "0.064235"
       }
     },
     {
@@ -75,13 +103,6 @@
       "attributes": {
         "name": "x-ua-compatible",
         "content": "IE=Edge,chrome=1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
       }
     }
   ]
