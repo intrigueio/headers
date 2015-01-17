@@ -52,15 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=3, must-revalidate"
+        "name": "set-cookie",
+        "content": "PHPSESSID=2930aaf9e46a7e1940762180811e5f50; path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "wp-super-cache",
-        "content": "Served supercache file from PHP"
+        "name": "x-pingback",
+        "content": "http://www.desitvbox.me/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "link",
+        "content": "<http://www.desitvbox.me/>; rel=shortlink"
       }
     },
     {
