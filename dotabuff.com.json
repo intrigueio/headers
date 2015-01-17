@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.6.1"
+        "content": "Varnish"
       }
     },
     {
@@ -24,57 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "max-age=0, private, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "_locale=en; domain=.dotabuff.com; path=/; expires=Fri, 17 Jan 2020 10:30:14 -0000, _s=MXVUdUpJcVBITHlUSDVmcDJOZVdqRU1UcHVqbFQweXRwSDVObHk5bDlMT1dtZG43NDllL2Q0NFhrL0t3dUxscnR0L2QvNjZaelozcm9XdWEwMXNXSVpJa05aaU4xenNab0Rid3EzdThwWGRHVWZiM3RvWUhrWXFZOWl6aUJXeEJ4bFd0eUhLZnY4ZVZMbFZxaENGU2RMVXlkbnFSbVhMdHIxcnRrdHNJV0MrYWR3cG54aldoSHNDeStYcGlJUEllMnAwTExyYUpNeWhlZFNZSXBwTTQxSzVJQ20veHoyUnh4T2RoTjgzOXJCY2ZQc21zYmZWTkMrTlFudkhOTWdaZ2NUOWMrWWdzTHNyT3pPZEliOHZBVVF1dG5BRk9sOTg0RTBHVkVFZWdpRjRaL0RNTE9GN3RuaW5aVC9qNXdYdVNQMGNrVEtqZjhvYndLZzBKZlB5TERrZXF5TElSK05zN2xIWGIxQUZXbytEWGg1dG1sb05ndHl1K09EMWl3dTRMRVZyaWQwTTFUcUlYMDZYeWlGY0wzZXRGR0tPcFlCdkNiV0kyQjJFWldFQ2tqbW9SYlArS1E2LzB6MEtvazVRNFEwM3VhcGVObUYyL2FOMWw4azhZaGlBYXZsV1FNbFcvcU1qQlV4WEFGWkpZSHBHQkMvcmdDZGRacUR0YmdCMjF3NlhTdEZIK2U2Sy9wMC9POEd3d0xHdFFSMDJjNHd4RWt5Qm02UUhpZW5EOVpYcFZlUjkxRjNYYzR4bVF5NG5BLS1uUFYxRjRSZURQNGhZZnM1OTdQSmtnPT0%3D--5353b3bdf5327903737edb29f694df758408c4ee; domain=.dotabuff.com; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-request-id",
-        "content": "096fae6d-2c55-48cf-a737-deb53b92812b"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "via",
-        "content": "1.1 varnish, 1.1 varnish"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "retry-after",
+        "content": "5"
       }
     },
     {
@@ -87,43 +38,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "close"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-served-by",
-        "content": "cache-dfw1831-DFW, cache-ord1731-ORD"
+        "content": "cache-atl6220-ATL"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "MISS, MISS"
+        "content": "MISS"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-hits",
-        "content": "0, 0"
+        "content": "0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-timer",
-        "content": "S1421490614.854946,VS0,VE57"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "S1421494242.795610,VS0,VE0"
       }
     }
   ]
