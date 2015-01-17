@@ -10,15 +10,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache"
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=db7c3447bf66eea9d1a05fa554e965f5b1421461543; expires=Sun, 17-Jan-16 02:25:43 GMT; path=/; domain=.yelp.com; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-node",
-        "content": "web40-r6-sfo2, www_all"
+        "content": "web38, www_all"
       }
     },
     {
@@ -38,20 +59,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=UTF-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-mode",
         "content": "ro"
       }
@@ -60,7 +67,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-proxied",
-        "content": "extlb1-r4-sfo2"
+        "content": "lb2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1a9f1a99b2710944-DFW"
       }
     }
   ]

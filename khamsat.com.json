@@ -38,15 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
+        "name": "server",
+        "content": "Hsoub Nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIPc2Vzc2lvbl9pZCJFNzgyMTk1NGU5ZTNiNzQ4MzJlNjRkNDI3ODJh%0ANzVhNzE5YzJhMzZjODM2ZWFjZDI4Y2MwYTI2YTY5NDcyYTkyZSIJY3NyZiIl%0AN2FmZTRmZWI2NTBjZWNkZjU0MGQ2YWRmZDNiY2EzOGQiDXRyYWNraW5newci%0AGUhUVFBfQUNDRVBUX0xBTkdVQUdFIi1kYTM5YTNlZTVlNmI0YjBkMzI1NWJm%0AZWY5NTYwMTg5MGFmZDgwNzA5IhRIVFRQX1VTRVJfQUdFTlQiLTE4ZTQwZTE0%0AMDFlZWY2N2UxYWU2OWVmYWIwOWFmYjcxZjg3ZmZiODE%3D%0A--76e686c69d84951613fa4fb469d701d3b9cfa200; path=/; HttpOnly"
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {
@@ -59,13 +59,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "Hsoub, Phusion Passenger"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
       }
@@ -73,8 +66,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Hsoub Nginx"
+        "name": "x-powered-by",
+        "content": "Hsoub, Phusion Passenger"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIZSFRUUF9BQ0NFUFRfTEFOR1VBR0UiLWRhMzlh%0AM2VlNWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDkiFEhUVFBfVVNF%0AUl9BR0VOVCItMThlNDBlMTQwMWVlZjY3ZTFhZTY5ZWZhYjA5YWZiNzFmODdm%0AZmI4MSIJY3NyZiIlNTA4ZTA5YjIzY2FjNjE5NWYzMGYwMzc1N2FkNTkzY2Ei%0AD3Nlc3Npb25faWQiRTE1OGIxMTY5Nzk3OTU3ZjE5NzVlODQxNTQ2YzYzZmJk%0AMTk3NDZhYzhkYzgwYTViZWQ4ZWU0OTk4ZmZkOThhMTU%3D%0A--dbf033b57c48eeb334c5990eecf4318f4f58d965; path=/; HttpOnly"
       }
     }
   ]

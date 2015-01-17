@@ -38,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "pragma",
         "content": "no-cache"
       }
@@ -52,8 +59,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "X-Mapping-ponfmedk=E274CC2973B6AE123AE7297AA77088AE; path=/, PHPSESSID=2srj0jph9bqo4qh961n4f4np66; path=/; HttpOnly, json=0d726186eeb08211c52339948e755b0b; httponly"
+        "content": "X-Mapping-ponfmedk=489168D88FC9DB4FDFD64AB865CF3768; path=/, PHPSESSID=j442btqni6h6v1alrjkgp3c587; path=/; HttpOnly, json=2e1806817f696a375feed15b4a1e4c72; httponly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "sameorigin"
       }
     },
     {
