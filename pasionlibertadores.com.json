@@ -38,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cache-hits",
-        "content": "1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
         "content": "max-age=60, public, must-revalidate"
       }
@@ -53,14 +46,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "HIT"
+        "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "X-Mapping-fjhppofk=9034A8513E56E0849BBE496DA459CC6F; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Sat, 17 Jan 2015 20:29:33 GMT"
+        "content": "Sat, 17 Jan 2015 21:31:26 GMT"
       }
     },
     {
@@ -74,14 +81,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-planisys-cdn-upstream",
-        "content": "host="
+        "content": "host=50.56.48.214:80"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-planisys-cdn-cache",
-        "content": "status=HIT"
+        "content": "status=EXPIRED"
       }
     },
     {
@@ -103,13 +110,6 @@
       "attributes": {
         "name": "x-planisys-cdn-geoip",
         "content": "country="
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
       }
     }
   ]
