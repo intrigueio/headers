@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
         "content": "max-age=30"
       }
@@ -31,29 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Sat, 17 Jan 2015 14:31:18 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
-        "content": "ECS (dfw/278C)"
+        "content": "Webserver"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-cache",
-        "content": "HIT"
+        "content": "Accept-Encoding, X-UA-Device-Type"
       }
     },
     {
@@ -67,7 +46,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-ua-device-type",
-        "content": "mobile"
+        "content": "not-mobile"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]
