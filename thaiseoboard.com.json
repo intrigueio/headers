@@ -52,15 +52,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
+        "name": "pragma",
         "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "last-modified",
-        "content": "Sat, 17 Jan 2015 04:29:45 GMT"
+        "content": "Sat, 17 Jan 2015 05:30:05 GMT"
       }
     }
   ]
