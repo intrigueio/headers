@@ -38,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "set-cookie",
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIZSFRUUF9BQ0NFUFRfTEFOR1VBR0UiLWRhMzlh%0AM2VlNWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDkiFEhUVFBfVVNF%0AUl9BR0VOVCItMThlNDBlMTQwMWVlZjY3ZTFhZTY5ZWZhYjA5YWZiNzFmODdm%0AZmI4MSIJY3NyZiIlOTgzZTNmNzE2MWZhZjEyZTVmZTQzYjA4ODFmNGVmZjYi%0AD3Nlc3Npb25faWQiRTE4OThmNzFmMWM5OTg5MjkzZTY2NTRjOTk4OTEwZjBi%0AYzE0MTY4YzVhY2E2MjY0YWVlZTA1MzcwYWQ5Nzk3MDg%3D%0A--123acbacab8c5cecfd65d324b679d84058bac136; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Hsoub, Phusion Passenger"
       }
     },
     {
@@ -59,8 +66,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIUSFRUUF9VU0VSX0FHRU5UIi0xOGU0MGUxNDAx%0AZWVmNjdlMWFlNjllZmFiMDlhZmI3MWY4N2ZmYjgxIhlIVFRQX0FDQ0VQVF9M%0AQU5HVUFHRSItZGEzOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4%0AMDcwOSIPc2Vzc2lvbl9pZCJFZTBkNjlmNzhmZTM1MGEzYWM2MzA0MjA5YmUw%0AZGNmMmFhYjc4N2M1NGM2NGJhMTJlNWUyMjgxZTYzZTk5YmUzZCIJY3NyZiIl%0AMWJkM2VmNTIxZWMxNTZhY2YxYzJiOGZlNTJiOTQxZDY%3D%0A--fe3275ffcf420e027842e85f1c787cbbe60fbb44; path=/; HttpOnly"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
@@ -68,13 +75,6 @@
       "attributes": {
         "name": "x-content-type-options",
         "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "Hsoub, Phusion Passenger"
       }
     }
   ]
