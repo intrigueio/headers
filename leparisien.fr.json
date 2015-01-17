@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
         "content": "max-age=120"
       }
@@ -31,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "last-modified",
+        "content": "Sat, 17 Jan 2015 01:26:37 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "ECAcc (dfw/56EF)"
       }
@@ -39,7 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Host,Accept-Encoding"
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "HIT"
       }
     },
     {
@@ -60,21 +67,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-powered-by",
-        "content": "Oxalide [01]"
+        "content": "Oxalide [02]"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varncache",
-        "content": "HIT 9"
+        "content": "HIT 2"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnpar1",
-        "content": "C1 122145948 122144235"
+        "content": "C1 123138376"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnpar2",
+        "content": "C2 859217111 859216920"
       }
     }
   ]

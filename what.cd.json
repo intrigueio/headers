@@ -10,8 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -32,14 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=daf06b9dc3c71f718fa638fc932f87cfe1421454565; expires=Sun, 17-Jan-16 00:29:25 GMT; path=/; domain=.what.cd; HttpOnly"
+        "content": "__cfduid=dd614ad7aa7e0deaa69dcd078600fb1471421458171; expires=Sun, 17-Jan-16 01:29:31 GMT; path=/; domain=.what.cd; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        "content": "no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
@@ -52,15 +59,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
+        "name": "strict-transport-security",
+        "content": "max-age=15768000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1a9e703810a21183-DFW"
+        "content": "1a9ec8421dc51183-DFW"
       }
     }
   ]

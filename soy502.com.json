@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "public, max-age=3600, no-cache=\"set-cookie\""
       }
@@ -32,21 +39,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1421454515-1\""
+        "content": "\"1421457796-1\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Sat, 17 Jan 2015 00:28:35 +0000"
+        "content": "Sat, 17 Jan 2015 01:23:16 +0000"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "link",
-        "content": "<http://www.soy502.com/>; rel=\"shortlink\",<http://www.soy502.com/>; rel=\"canonical\""
+        "content": "<http://www.soy502.com/>; rel=\"canonical\",<http://www.soy502.com/>; rel=\"shortlink\""
       }
     },
     {
@@ -60,7 +67,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "AWSELB=F70157650E5ADAFDFB36E20CB36104429BAEAF7C5D8214A2FBF961A5C01E8A3EAC09E29B5235F7B3C5C11EB7BA80B8DD25BF4973D5DE9D2C4938E132378DA9D3893F3BBA5C;PATH=/;MAX-AGE=28800"
+        "content": "AWSELB=F70157650E5ADAFDFB36E20CB36104429BAEAF7C5DB9BFAC8B6EFC489F5B2DB2B7FACF1701424FEB1D3154135C9AC8E0DAC6D4C173901F79B780A89DE055FF78BDF2C492F1;PATH=/;MAX-AGE=28800"
       }
     },
     {
@@ -68,6 +75,13 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
       }
     },
     {
@@ -94,8 +108,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "x-varnish",
+        "content": "682561278 682560425"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish-cache",
+        "content": "HIT"
       }
     },
     {
