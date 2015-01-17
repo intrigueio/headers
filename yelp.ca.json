@@ -18,35 +18,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-node",
-        "content": "web32-r6-sfo2, www_all"
+        "content": "web55-r7-sfo2, www_all"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "yuv=5hlDNWX9UgB9s7ahUBqkXY2ftn-1Ky7w0Dm1Q6rS27kz1X8SkWpn-xkQfH_MD2H-kbx-m6B8CSu5vkB_9GZBaCPY7LD-fawY; Domain=.yelp.ca; Max-Age=630720000; Path=/; expires=Fri, 12-Jan-2035 03:29:04 GMT, bse=8f9cc95ce987f1176576124bac9c9e30; Domain=.yelp.ca; Path=/; HttpOnly, hl=en_CA; Domain=.yelp.ca; Max-Age=630720000; Path=/; expires=Fri, 12-Jan-2035 03:29:04 GMT, recentlocations=; Domain=.yelp.ca; Path=/, location=%7B%22city%22%3A+%22Toronto%22%2C+%22zip%22%3A+%22%22%2C+%22address1%22%3A+%22%22%2C+%22address2%22%3A+%22%22%2C+%22address3%22%3A+%22%22%2C+%22state%22%3A+%22ON%22%2C+%22country%22%3A+%22CA%22%2C+%22unformatted%22%3A+%22Toronto%2C+ON%22%7D; Domain=.yelp.ca; Max-Age=630720000; Path=/; expires=Fri, 12-Jan-2035 03:29:04 GMT, fd=0; Domain=.www.yelp.ca; Max-Age=630720000; Path=/; expires=Fri, 12-Jan-2035 03:29:04 GMT"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
+        "content": "User-Agent"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "connection",
+        "content": "close"
       }
     },
     {
@@ -67,7 +60,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-proxied",
-        "content": "extlb2-r5-sfo2"
+        "content": "extlb1-r4-sfo2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "bip-sfo2=sticky_web55-r7-sfo2; path=/"
       }
     }
   ]

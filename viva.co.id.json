@@ -24,6 +24,20 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.2.17"
       }
@@ -31,8 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
+        "name": "set-cookie",
+        "content": "otp-pagepeel=TRUE; expires=Sun, 18-Jan-2015 04:26:31 GMT; path=/; domain=.viva.co.id, serverid=portal_cache2; path=/"
       }
     },
     {
@@ -40,13 +54,6 @@
       "attributes": {
         "name": "x-upstream-cache-status",
         "content": "HIT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "serverid=portal_cache1; path=/"
       }
     },
     {

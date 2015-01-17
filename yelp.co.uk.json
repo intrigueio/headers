@@ -18,35 +18,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-node",
-        "content": "web40-r5-iad1, www_all"
+        "content": "web67-r3-iad1, www_all"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "yuv=28mkBEOTV_DUbhL1jdTKyVyo8Mn9FMSmwJLiYxWejD1-uZPbyg8GBzGeO_CEd8flhZiB8Q_ie9cFNX_LZu8GWdFYe-xdlGM_; Domain=.yelp.co.uk; Max-Age=630720000; Path=/; expires=Fri, 12-Jan-2035 03:31:13 GMT, bse=53a065896568ca3ac37ed3ee55eb1512; Domain=.yelp.co.uk; Path=/; HttpOnly, hl=en_GB; Domain=.yelp.co.uk; Max-Age=630720000; Path=/; expires=Fri, 12-Jan-2035 03:31:13 GMT, recentlocations=; Domain=.yelp.co.uk; Path=/, location=%7B%22city%22%3A+%22London%22%2C+%22zip%22%3A+%22%22%2C+%22address1%22%3A+%22%22%2C+%22address2%22%3A+%22%22%2C+%22address3%22%3A+%22%22%2C+%22state%22%3A+%22XGL%22%2C+%22country%22%3A+%22GB%22%2C+%22unformatted%22%3A+%22London%22%7D; Domain=.yelp.co.uk; Max-Age=630720000; Path=/; expires=Fri, 12-Jan-2035 03:31:13 GMT, fd=0; Domain=.www.yelp.co.uk; Max-Age=630720000; Path=/; expires=Fri, 12-Jan-2035 03:31:13 GMT"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
+        "content": "User-Agent"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "connection",
+        "content": "close"
       }
     },
     {
@@ -68,6 +61,13 @@
       "attributes": {
         "name": "x-proxied",
         "content": "extlb1-r1-iad1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "bip-iad1=sticky_web67-r3-iad1; path=/"
       }
     }
   ]

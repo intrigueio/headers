@@ -18,35 +18,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-node",
-        "content": "web12-r3-iad1, www_all"
+        "content": "web44-r5-iad1, www_all"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "yuv=3Ut4viQCB3ogAPo94WSqkPXmnz0cv-Uj1gSIsE8B4FaO4G2nfuN9qaGgbrrqj0yvoAspu8mkWn89SD0adifprJ7qA7YNt9D1; Domain=.yelp.de; Max-Age=630720000; Path=/; expires=Fri, 12-Jan-2035 03:31:37 GMT, bse=32670a903f1f369e2e1c12602acbe7ad; Domain=.yelp.de; Path=/; HttpOnly, hl=de_DE; Domain=.yelp.de; Max-Age=630720000; Path=/; expires=Fri, 12-Jan-2035 03:31:37 GMT, recentlocations=; Domain=.yelp.de; Path=/, location=%7B%22city%22%3A+%22Berlin%22%2C+%22zip%22%3A+%22%22%2C+%22address1%22%3A+%22%22%2C+%22address2%22%3A+%22%22%2C+%22address3%22%3A+%22%22%2C+%22state%22%3A+%22BE%22%2C+%22country%22%3A+%22DE%22%2C+%22unformatted%22%3A+%22Berlin%22%7D; Domain=.yelp.de; Max-Age=630720000; Path=/; expires=Fri, 12-Jan-2035 03:31:37 GMT, fd=0; Domain=.www.yelp.de; Max-Age=630720000; Path=/; expires=Fri, 12-Jan-2035 03:31:37 GMT"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
+        "content": "User-Agent"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "connection",
+        "content": "close"
       }
     },
     {
@@ -68,6 +61,13 @@
       "attributes": {
         "name": "x-proxied",
         "content": "extlb1-r2-iad1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "bip-iad1=sticky_web44-r5-iad1; path=/"
       }
     }
   ]
