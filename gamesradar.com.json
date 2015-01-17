@@ -17,8 +17,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-from-cache",
-        "content": "true"
+        "name": "vary",
+        "content": "Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=600"
       }
     },
     {
@@ -45,8 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-handled-by",
+        "content": "10.183.138.210:11211 : 10.208.99.155:3031"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "X-Mapping-fjhppofk=11FD1623B0BACAF8100C258C7A210572; path=/"
+        "content": "X-Mapping-fjhppofk=11FD1623B0BACAF8100C258C7A210572; path=/, csrftoken=14e3783964611ce27e3b252ffa7593a0; expires=Sat, 16-Jan-2016 18:31:09 GMT; Max-Age=31449600; Path=/, cache_exclude=; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/, gamesradarRegion=US; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Sat, 17 Jan 2015 18:31:09 GMT"
       }
     }
   ]

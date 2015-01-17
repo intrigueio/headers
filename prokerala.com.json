@@ -38,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=878828baae9dbb037741bf16ddc8b993; path=/; domain=.prokerala.com"
+        "content": "PHPSESSID=481782fc51835a0a18574de8810faa36; path=/; domain=.prokerala.com"
       }
     },
     {
@@ -47,6 +54,13 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "HIT from Backend"
       }
     },
     {
@@ -60,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=0, no-cache, no-store, must-revalidate, post-check=0, pre-check=0"
+        "content": "max-age=0, no-cache, no-store"
       }
     }
   ]

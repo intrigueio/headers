@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx"
+        "content": "nginx/1.7.6"
       }
     },
     {
@@ -38,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=p82ebth0qs39mq94du8vfsult7; path=/, userid=8e77358f38602641b5bc808ef5ab7522; expires=Tue, 14-Jan-2025 17:31:27 GMT"
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.3.29, PleskLin"
       }
     },
     {
@@ -54,6 +61,20 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=t3u7os1tqpsqgo8noasoougo67; path=/, userid=b272f72a369bf8bdb71355df64c1daf0; expires=Tue, 14-Jan-2025 18:31:37 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Sat, 17 Jan 2015 18:31:37 GMT"
       }
     }
   ]

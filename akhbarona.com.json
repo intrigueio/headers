@@ -10,8 +10,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.3.26"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
       }
     },
     {
@@ -31,8 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "PagespeedRewriteProxy 0.1"
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -54,13 +68,6 @@
       "attributes": {
         "name": "accept-ranges",
         "content": "none"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
       }
     },
     {
