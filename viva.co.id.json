@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "nginx/1.6.2"
       }
@@ -17,22 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "close"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding, Accept-Encoding,User-Agent"
+        "content": "Accept-Encoding,User-Agent"
       }
     },
     {
@@ -45,22 +38,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "otp-pagepeel=TRUE; expires=Sun, 18-Jan-2015 08:26:12 GMT; path=/; domain=.viva.co.id, serverid=portal_cache2; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-upstream-cache-status",
-        "content": "HIT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private"
+        "content": "EXPIRED"
       }
     }
   ]
