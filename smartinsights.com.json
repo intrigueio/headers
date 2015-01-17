@@ -32,14 +32,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=daad608a243f9700a0a78fa0750d45b6b1421479936; expires=Sun, 17-Jan-16 07:32:16 GMT; path=/; domain=.smartinsights.com; HttpOnly"
+        "content": "__cfduid=d399a97035579f0dabe73656f237f23291421483552; expires=Sun, 17-Jan-16 08:32:32 GMT; path=/; domain=.smartinsights.com; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "public"
+        "name": "cache-control",
+        "content": "no-cache, max-age=3600, public, must-revalidate, proxy-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-railgun",
+        "content": "direct (starting new WAN connection)"
       }
     },
     {
@@ -52,22 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "pragma",
+        "content": "public"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding, Accept-Encoding, Cookie"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "max-age=2877, max-age=3600, public, must-revalidate, proxy-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-railgun",
-        "content": "115d48efd6 0010 normal 5360"
+        "content": "Accept-Encoding, Cookie"
       }
     },
     {
@@ -81,7 +81,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1aa0dba27ba60962-DFW"
+        "content": "1aa133eba7f00968-DFW"
       }
     }
   ]
