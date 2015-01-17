@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,8 +38,64 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"ALL DSP COR CURa ADMa DEVa OUR IND COM NAV\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "etag",
-        "content": "\"53e49df3-5bd\""
+        "content": "W/\"dd05778189c331026c56c5e69ad31de6\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "_camdolls_session2=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTEzOGE5ZGIzNDZmMGVmZmU1NGFmNzBhYTI4NDE0NjNiBjsAVEkiCXV1aWQGOwBGSSIpNjg2Y2RhZDAtODA2MS0wMTMyLWY4NWEtN2ExNjNlMTAzMWJmBjsAVA%3D%3D--484d89c18ed0275923a1ab2a706147aefd535812; domain=.camdolls.com; path=/; expires=Sat, 31-Jan-2015 10:27:48 GMT; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "7f219cfa3de71c67c3d2cde8b446d8ad"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.028708"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
       }
     }
   ]
