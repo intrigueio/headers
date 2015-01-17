@@ -39,14 +39,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Cookie,Accept-Encoding,User-Agent"
+        "content": "Accept-Encoding,Cookie,User-Agent"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-pingback",
-        "content": "http://theme123.net/xmlrpc.php"
+        "name": "cache-control",
+        "content": "max-age=3, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "wp-super-cache",
+        "content": "Served supercache file from PHP"
       }
     },
     {
