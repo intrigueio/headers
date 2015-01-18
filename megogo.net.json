@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -46,14 +46,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "Accept-Encoding, Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "MGSES=iof7ucg6m39500h3sih53is4t6; path=/; domain=.megogo.net; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, public, s-maxage=1800"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-digest",
+        "content": "en5f9c166b6981465ee6ec0cc9aa9cf9a66a12a751"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "ngb",
-        "content": "mfra231prodnew, bfra01prod"
+        "content": "afra231prodnew, mfra231prodnew, bfra01prod"
       }
     },
     {
