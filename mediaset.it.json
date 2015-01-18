@@ -24,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -46,14 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding, Accept-Encoding,User-Agent"
+        "content": "Accept-Encoding,User-Agent"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "sid",
-        "content": "c0-f90a6803-m40-001, c0-f90a3e02-m01-001"
+        "content": "c0-f90a3003-m30-001, c0-f90a3e02-m01-001"
       }
     },
     {
@@ -61,6 +54,13 @@
       "attributes": {
         "name": "cache-control",
         "content": "max-age=0, public"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     }
   ]
