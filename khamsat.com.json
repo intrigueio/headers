@@ -38,22 +38,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIJY3NyZiIlMDdhZjliNDRiMTcwMTE3MDQwODIxMzkwMGJmMzYwYzAi%0AD3Nlc3Npb25faWQiRTRjYzM5NmQxMzIwYzdjYzhiMDBjZjdiZWI4YTJmZThh%0AZTk5ZjEyZmRkNTEzZjg1ZDlhZGI4NDNiZGE2MjlhMzUiDXRyYWNraW5newci%0AGUhUVFBfQUNDRVBUX0xBTkdVQUdFIi1kYTM5YTNlZTVlNmI0YjBkMzI1NWJm%0AZWY5NTYwMTg5MGFmZDgwNzA5IhRIVFRQX1VTRVJfQUdFTlQiLTE4ZTQwZTE0%0AMDFlZWY2N2UxYWU2OWVmYWIwOWFmYjcxZjg3ZmZiODE%3D%0A--e40ac7618c290dd997aaf23665e40d70da7e56f3; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {
@@ -66,8 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
@@ -75,6 +68,13 @@
       "attributes": {
         "name": "server",
         "content": "Hsoub Nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIZSFRUUF9BQ0NFUFRfTEFOR1VBR0UiLWRhMzlh%0AM2VlNWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDkiFEhUVFBfVVNF%0AUl9BR0VOVCItMThlNDBlMTQwMWVlZjY3ZTFhZTY5ZWZhYjA5YWZiNzFmODdm%0AZmI4MSIPc2Vzc2lvbl9pZCJFMTlkOTQzNzM4YmI1MDBlODczYmUxNmM3NWQ1%0ANzNmMjk2N2MzZTIwZDliZDYxNWEzMWUzYjVjNGNhYTdkMGU0ZiIJY3NyZiIl%0AYjFiNzdiYWY5NDlkZjliODZlZmFkMzJiNWE5ZWQ0ZTE%3D%0A--1d5b5c60c2f1f7c5e6fb283db7748e2117f6cee5; path=/; HttpOnly"
       }
     }
   ]

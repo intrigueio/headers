@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -38,22 +45,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.3.3"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "last-modified",
-        "content": "Sun, 18 Jan 2015 00:01:00 GMT"
+        "content": "Mon, 19 Jan 2015 00:01:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "policyref=\"/bitrix/p3p.xml\", CP=\"NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-cms",
+        "content": "Bitrix Site Manager (bd2bc670613cc293d44a342b1defd81a)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=veksarmofshdp1crh86sckpr96; path=/; domain=www.eldorado.ru, iRegionSectionId=11324; expires=Sat, 14-Oct-2017 21:35:04 GMT; path=/, AUTORIZ=0; expires=Sat, 14-Oct-2017 21:35:04 GMT; path=/; domain=.eldorado.ru, lv_user_org=0; expires=Sat, 14-Oct-2017 21:35:04 GMT; path=/; domain=.eldorado.ru, USER_AUTH_GTM=0; expires=Tue, 17-Jan-2017 21:35:04 GMT; path=/, show_region_popup=1; expires=Mon, 19-Jan-2015 21:35:04 GMT; path=/; domain=www.eldorado.ru, BITRIX_SM_SALE_UID=2510384181; expires=Wed, 13-Jan-2016 21:35:04 GMT; path=/; domain=www.eldorado.ru, bCNT=0%3A0; expires=Tue, 17-Feb-2015 21:35:04 GMT; path=/, userSplit=B; path=/; domain=www.eldorado.ru; max-age=86400, show_region_popup=1; path=/; domain=www.eldorado.ru; max-age=86400"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-ua-compatible",
-        "content": "IE=Edge,chrome=1"
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
@@ -66,22 +94,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "userSplit=B; path=/; domain=www.eldorado.ru; max-age=86400, show_region_popup=1; path=/; domain=www.eldorado.ru; max-age=86400"
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "x-server",
+        "content": "10.0.3.75:80 200"
       }
     }
   ]

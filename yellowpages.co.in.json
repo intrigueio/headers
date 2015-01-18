@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html"
       }
     },
     {
@@ -46,21 +46,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache"
+        "content": "no-cache, private, no-cache, no-store, must-revalidate"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "JSESSIONID=aaaW4EQXKn8wUeCeZX_Ru; domain=.yellowpages.co.in; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-distil-cs",
-        "content": "EXPIRED"
+        "name": "edge-control",
+        "content": "no-store, bypass-cache"
       }
     }
   ]
