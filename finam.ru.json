@@ -10,8 +10,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; Charset=windows-1251"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Sun, 18 Jan 2015 08:33:38 UTC"
       }
     },
     {
@@ -19,6 +40,13 @@
       "attributes": {
         "name": "server",
         "content": "Microsoft-IIS/7.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ASPSESSIONIDSQQQRTAS=CJMLMBLBFOBBOGHDNBFPAANG; path=/"
       }
     },
     {
