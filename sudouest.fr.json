@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "server",
+        "content": "Apache"
       }
     },
     {
@@ -19,6 +19,20 @@
       "attributes": {
         "name": "cache-control",
         "content": "max-age=60"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-backend",
+        "content": "web2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Host,Accept-Encoding"
       }
     },
     {
@@ -32,35 +46,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"FakeSun, 18 Jan 2015 06:40:53 GMT\""
+        "content": "\"FakeSun, 18 Jan 2015 07:40:00 GMT\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache"
+        "name": "x-varnrvp2",
+        "content": "810445584 811246025"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Host,Accept-Encoding"
+        "name": "x-varncdn",
+        "content": "cdn02 495947166 494417432"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-backend",
-        "content": "web3"
+        "name": "connection",
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnrvp1",
-        "content": "605196438 603869932"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     }
   ]
