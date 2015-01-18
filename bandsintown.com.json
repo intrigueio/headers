@@ -17,8 +17,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-runtime",
-        "content": "15"
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"5159f841cfcbe9029c076bc1322e8f40\""
       }
     },
     {
@@ -38,8 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"f7cee05c9f43e25f504c0a8d67ac94ec\""
+        "name": "x-runtime",
+        "content": "20"
       }
     },
     {
@@ -52,15 +59,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "set-cookie",
-        "content": "_bandsintown_session=3efc54be2fb7efab0e43e638a7066077; path=/; HttpOnly"
+        "content": "_bandsintown_session=67cfd3232780e816cd279106afd33a81; path=/; HttpOnly"
       }
     },
     {
@@ -75,13 +75,6 @@
       "attributes": {
         "name": "connection",
         "content": "close"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
       }
     }
   ]
