@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=gbk"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,8 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"4e1dc2b0-17f\""
+        "name": "x-powered-by",
+        "content": "PHP/5.4.24"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "MrdD_2132_saltkey=LhO7eDBi; expires=Tue, 17-Feb-2015 17:29:39 GMT; path=/; httponly, MrdD_2132_lastvisit=1421598579; expires=Tue, 17-Feb-2015 17:29:39 GMT; path=/, MrdD_2132_sid=i3cKv3; expires=Mon, 19-Jan-2015 17:29:39 GMT; path=/, MrdD_2132_lastact=1421602179%09index.php%09; expires=Mon, 19-Jan-2015 17:29:39 GMT; path=/, MrdD_2132_stats_qc_reg=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, MrdD_2132_cloudstatpost=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, MrdD_2132_sid=i3cKv3; expires=Mon, 19-Jan-2015 17:29:39 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     }
   ]

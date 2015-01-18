@@ -18,14 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Sun, 18 Jan 2015 01:19:47 GMT"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -38,22 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache, max-age=3600, public, must-revalidate, proxy-revalidate"
+        "name": "link",
+        "content": "<http://www.copyblogger.com/>; rel=shortlink"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "W3 Total Cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding, Cookie"
+        "name": "last-modified",
+        "content": "Sun, 18 Jan 2015 17:36:22 GMT"
       }
     },
     {
@@ -66,8 +59,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "cache-control",
+        "content": "public, must-revalidate, proxy-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "f921dc9ce07a8fe982fd4dc2e48a634a"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "W3 Total Cache/0.9.4.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pingback",
+        "content": "http://www.copyblogger.com/xmlrpc.php"
       }
     }
   ]
