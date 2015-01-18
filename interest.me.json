@@ -31,7 +31,7 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "nncoection",
+        "name": "cneonction",
         "content": "close"
       }
     },
@@ -59,15 +59,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "JSESSIONID=1778CF20BB99C9FC8D34B9C7076646FB; Path=/; HttpOnly"
+        "content": "WMONID=Q3qC26ix7iQ; Expires=Mon, 18-Jan-2016 00:34:15 GMT; Path=/, JSESSIONID=2A78502FB217A184198346921BFC6B82; Path=/; HttpOnly"
       }
     }
   ]
