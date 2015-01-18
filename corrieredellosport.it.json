@@ -11,14 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache"
+        "content": "Apache/2.2.14 (Ubuntu)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=120"
+        "name": "content-language",
+        "content": "en"
       }
     },
     {
@@ -32,21 +32,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html;charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-pad",
-        "content": "avoid browser bug"
+        "name": "cache-control",
+        "content": "max-age:300"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cacheable",
-        "content": "YES:FORCED #2 300s"
+        "content": "YES default 300.000"
       }
     },
     {
@@ -60,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1229645319"
+        "content": "1582965078 1582953470"
       }
     },
     {
@@ -75,6 +75,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "HIT"
       }
     }
   ]

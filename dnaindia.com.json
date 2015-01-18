@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "content-language",
+        "content": "en"
       }
     },
     {
@@ -24,15 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-header",
-        "content": "app1"
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1902024751 1902022106"
+        "content": "1902441957 1902438987"
       }
     },
     {
@@ -45,22 +45,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
-        "content": "max-age=13"
+        "content": "max-age=20"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-n",
-        "content": "S"
+        "content": "keep-alive, Transfer-Encoding"
       }
     }
   ]
