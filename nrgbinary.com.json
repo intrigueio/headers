@@ -11,28 +11,56 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "BigIP"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "Keep-Alive"
+        "content": "Apache/6.6.6"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "incap_ses_282_63112=CP0ASsxp+AkCuNzSpt3pA7Fwu1QAAAAAylk9uxICntn6NeK71kEtWw==; path=/; Domain=.nrgbinary.com, visid_incap_63112=sr1os7IrSoCjhLBL9RrBC7Fwu1QAAAAAQUIPAAAAAABsDDeuoqycu0qZGxFr79El; expires=Mon, 16 Jan 2017 12:49:54 GMT; path=/; Domain=.nrgbinary.com"
+        "content": "spotsession_1_2043133513=cfe2b623b0d3ec4a63ae1a5ac417cdda; path=/; domain=.nrgbinary.com, isLanguageTerriortyChecked=1, allowedDemoAccount=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, BOA=test; expires=Sun, 18-Jan-2015 08:36:54 GMT; path=/, incap_ses_209_63112=V7dsJeVRJTmD0at2lYTmArZ+u1QAAAAAji3zXucAGcsah0/rkeh1hQ==; path=/; Domain=.nrgbinary.com, visid_incap_63112=qBxxgcQuRJOB4Z6cLSKTJrV+u1QAAAAAQUIPAAAAAAAHdh1bTlPlrcymTTpei1We; expires=Mon, 16 Jan 2017 14:53:34 GMT; path=/; Domain=.nrgbinary.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-iinfo",
-        "content": "9-93699188-93699189 NNNN CT(1 -1 0) RT(1421570225564 0) q(0 0 0 0) r(0 0) U11"
+        "content": "9-88448353-88448354 NNNN CT(117 -1 0) RT(1421573813948 0) q(0 0 1 0) r(4 4) U11"
       }
     },
     {
@@ -40,6 +68,13 @@
       "attributes": {
         "name": "x-cdn",
         "content": "Incapsula"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

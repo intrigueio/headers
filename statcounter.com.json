@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -17,22 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=dd20a4923e9aa90f839922a2478e3acfd1421569910; expires=Mon, 18-Jan-16 08:31:50 GMT; path=/; domain=.statcounter.com; HttpOnly, PHPSESSID=kbihll9hjd45acq75t1mdkr593; path=/; domain=.statcounter.com"
       }
     },
     {
@@ -47,6 +40,13 @@
       "attributes": {
         "name": "p3p",
         "content": "policyref=\"http://www.statcounter.com/w3c/p3p.xml\", CP=\"NOI DSP COR NID ADM DEV PSA OUR IND UNI PUR COM NAV INT STA\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=7oi2isk0hibldd3eetcb0vogj3; path=/; domain=.statcounter.com"
       }
     },
     {
@@ -68,20 +68,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding,User-Agent"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1aa97043ad161195-DFW"
       }
     }
   ]
