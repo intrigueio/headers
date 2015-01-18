@@ -24,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -52,8 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-varnish",
-        "content": "1076926208 1076917381"
+        "content": "1077295929"
       }
     },
     {
@@ -67,14 +67,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-age",
-        "content": "88"
+        "content": "0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "Cached 3 times / web_director"
+        "content": "Uncached / web_director"
       }
     }
   ]

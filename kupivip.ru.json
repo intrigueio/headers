@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,8 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"54bc1909-422\""
+        "name": "set-cookie",
+        "content": "JSESSIONID=D24BE7C754F840FC30CB603BBBBF744E.vip-cl4; Path=/; HttpOnly, dmUserId=4161f91d-55f7-4753-90c6-53168162dfac; Expires=Mon, 18-Jan-2016 22:37:26 GMT; Path=/, referer=ZGlyZWN0; Expires=Wed, 18-Feb-2015 22:37:26 GMT; Path=/, VIP_OAUTH_ORIGIN=\"Lw==\"; Version=1; Domain=.kupivip.ru; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate,post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     }
   ]
