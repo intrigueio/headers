@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx/1.7.8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -38,8 +31,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "keep-alive",
-        "content": "timeout=20"
+        "name": "set-cookie",
+        "content": "__cfduid=de086b78a90edcee6ce6f6c08da34c4b61421678496; expires=Tue, 19-Jan-16 14:41:36 GMT; path=/; domain=.jotform.com; HttpOnly, PHPSESSID=hnr0i1e12pf06snlhk3alfnk63; path=/, theme=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.jotform.com, theme=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, theme=tile-black; expires=Thu, 19-Feb-2015 14:41:36 GMT; path=/, guest=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.jotform.com, guest=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, guest=guest_50183546454052; expires=Thu, 19-Feb-2015 14:41:36 GMT; path=/; domain=.jotform.com, Intro-Video=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.jotform.com, Intro-Video=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, Intro-Video=1; expires=Tue, 19-Jan-2016 14:41:36 GMT; path=/"
       }
     },
     {
@@ -47,13 +40,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding, Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=s50q4nm0lkmer467r2qos1is15; path=/, theme=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.jotform.com, theme=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, theme=tile-black; expires=Thu, 19-Feb-2015 13:41:25 GMT; path=/, guest=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.jotform.com, guest=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, guest=guest_50184067398058; expires=Thu, 19-Feb-2015 13:41:25 GMT; path=/; domain=.jotform.com, Intro-Video=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.jotform.com, Intro-Video=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, Intro-Video=1; expires=Tue, 19-Jan-2016 13:41:25 GMT; path=/"
       }
     },
     {
@@ -75,6 +61,20 @@
       "attributes": {
         "name": "x-form-cache",
         "content": "MISS-APP"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1ab3cb4b7a8a0944-DFW"
       }
     }
   ]

@@ -11,28 +11,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx"
+        "content": "Apache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "name": "x-pingback",
+        "content": "http://www.worldfree4u.com/xmlrpc.php"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "cache-control",
+        "content": "no-cache, must-revalidate, max-age=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -45,15 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.3.28"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-pingback",
-        "content": "http://www.persundress.fr/xmlrpc.php"
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
       }
     }
   ]

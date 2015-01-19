@@ -18,7 +18,49 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "public, no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "65c0ea89-ff4e-4ae1-a7e3-add5216c4b15"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish, 1.1 varnish"
       }
     },
     {
@@ -26,13 +68,6 @@
       "attributes": {
         "name": "accept-ranges",
         "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "via",
-        "content": "1.1 varnish"
       }
     },
     {
@@ -46,28 +81,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-served-by",
-        "content": "cache-dfw1821-DFW"
+        "content": "cache-dfw1821-DFW, cache-ord1728-ORD"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "MISS"
+        "content": "HIT, HIT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-hits",
-        "content": "0"
+        "content": "1, 3"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-timer",
-        "content": "S1421674849.424887,VS0,VE6"
+        "content": "S1421678460.756918,VS0,VE0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     }
   ]
