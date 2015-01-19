@@ -11,7 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -25,7 +32,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx"
+        "content": "Apache/2.2.22 (FreeBSD)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.3.28"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "kohanasession=694778ccf0b6dd548c9b2a0aad676672; expires=Mon, 19-Jan-2015 03:35:21 GMT; path=/; domain=.turbobit.net, kohanasession=b3806e57f1c686950dae1386280e6b312ce40882%7E694778ccf0b6dd548c9b2a0aad676672; expires=Mon, 19-Jan-2015 03:35:21 GMT; path=/; domain=.turbobit.net, compid=21ec829b25e179534ff4728999329ba43615acae%7EC0F3279C44C648199A00D76547845DB7; expires=Tue, 19-Jan-2016 00:35:21 GMT; path=/; domain=.turbobit.net, user_isloggedin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, pay_design_label=1ea07e6d8b9ac9ced1fca533170ec98605dc5f05%7Eold; expires=Tue, 20-Jan-2015 00:35:21 GMT; path=/; domain=.turbobit.net, user_lang=ru; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     }
   ]
