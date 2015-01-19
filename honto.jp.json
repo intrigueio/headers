@@ -17,27 +17,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-publis-status",
-        "content": "REDIRECT TO PublisRedirectUri"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
       }
@@ -45,15 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "HBSSESSID=hnd184bnbpea9lin8b4ebamfi4; path=/; HttpOnly, psid=f3bdf013b6b1c7c45d646082e3a3b6a31421678558; expires=Sun, 19-Apr-2015 14:42:38 GMT; path=/; httponly, trid=6a509ca2-9fe9-11e4-bb75-ffaa805a47db.1; expires=Thu, 01-Jan-2026 14:42:38 GMT; path=/; httponly, scid=6a509ca2-9fe9-11e4-bb75-ffaa805a47db.1; expires=Thu, 01-Jan-2026 14:42:38 GMT; path=/; httponly"
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
+        "name": "connection",
+        "content": "close"
       }
     },
     {
