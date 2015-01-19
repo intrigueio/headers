@@ -18,28 +18,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": ""
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "pragma",
-        "content": ""
+        "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-server-name",
-        "content": "www01"
+        "content": "www02"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "true-client-ip",
-        "content": "74.86.158.107"
+        "content": "104.237.133.83"
       }
     },
     {
@@ -75,6 +75,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=d99b328444c111d472c5d19e104e1ef1; path=/; domain=.spreadshirt.com; HttpOnly, dice=84; expires=Wed, 18-Feb-2015 13:40:53 GMT; path=/; domain=.spreadshirt.com"
       }
     }
   ]
