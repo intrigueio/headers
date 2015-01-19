@@ -38,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "via",
-        "content": "rtm, 1.1 www.sfr.fr, http5"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html;charset=UTF-8"
       }
@@ -52,15 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-language",
-        "content": "en-US"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "JSESSIDRTM=0B5A6E7611D13E1AB457065AB4E02D60.rtm-sfrfr3; Path=/"
+        "name": "via",
+        "content": "1.1 www.sfr.fr, http3"
       }
     },
     {
@@ -68,6 +54,13 @@
       "attributes": {
         "name": "connection",
         "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

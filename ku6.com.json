@@ -11,14 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "retry-after",
-        "content": "5"
+        "name": "cache-control",
+        "content": "max-age=120"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cache",
-        "content": "MISS"
+        "name": "x-cache-hits",
+        "content": "109"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "powered-by-chinacache",
+        "content": "HIT from 060320c3SU.4"
       }
     }
   ]

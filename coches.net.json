@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public, max-age=190"
+        "content": "public, no-cache=\"Set-Cookie\", max-age=300"
       }
     },
     {
@@ -25,7 +25,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Mon, 19 Jan 2015 04:28:45 GMT"
+        "content": "Mon, 19 Jan 2015 05:30:46 GMT"
       }
     },
     {
@@ -47,6 +47,13 @@
       "attributes": {
         "name": "p3p",
         "content": "policyref=\"http://www.anuntis.com/w3c/p3p.xml\", CP=\"NON DSP COR NID CURa ADMa OUR NOR STA\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "usunico=19/01/2015:6-0438609:287; expires=Wed, 18-Feb-2015 05:30:46 GMT; path=/, SessionASM=19/01/2015:6-0438609:287696076; path=/, useragent=0; path=/, cfg=4; expires=Tue, 20-Jan-2015 05:30:46 GMT; path=/, ASP.NET_SessionId=wupytzwmknol04zexreu1caq; path=/; HttpOnly"
       }
     }
   ]
