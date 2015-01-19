@@ -38,6 +38,20 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "Hsoub Nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Hsoub, Phusion Passenger"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
       }
@@ -52,15 +66,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "Hsoub, Phusion Passenger"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "Hsoub Nginx"
+        "name": "set-cookie",
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIJY3NyZiIlM2I5YzU5YWI4MzdkYWM4YzkzYmVmZjQ1ODI2ZDYxYmMi%0ADXRyYWNraW5newciGUhUVFBfQUNDRVBUX0xBTkdVQUdFIi1kYTM5YTNlZTVl%0ANmI0YjBkMzI1NWJmZWY5NTYwMTg5MGFmZDgwNzA5IhRIVFRQX1VTRVJfQUdF%0ATlQiLTE4ZTQwZTE0MDFlZWY2N2UxYWU2OWVmYWIwOWFmYjcxZjg3ZmZiODEi%0AD3Nlc3Npb25faWQiRTdmOTE5MjA0NDE1ZTBiYjliNjIzY2ZmNjAyNzVmYjZj%0ANTQzY2RhZTk3OTc3OWY5NzY1NTZlYjg5NWE1MGM3NmQ%3D%0A--691b2c03482dc2ab7528f55043f34eddd04e6d5c; path=/; HttpOnly"
       }
     },
     {
@@ -68,13 +75,6 @@
       "attributes": {
         "name": "x-xss-protection",
         "content": "1; mode=block"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIZSFRUUF9BQ0NFUFRfTEFOR1VBR0UiLWRhMzlh%0AM2VlNWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDkiFEhUVFBfVVNF%0AUl9BR0VOVCItMThlNDBlMTQwMWVlZjY3ZTFhZTY5ZWZhYjA5YWZiNzFmODdm%0AZmI4MSIJY3NyZiIlNmRiMmQ4ZWE5NWZhNDNlOWRhYzBmMDM5MDIxYzYyMmEi%0AD3Nlc3Npb25faWQiRTQzZWY2NjVlYjRjODQyZmI4NDIyMjBmODdlMGYyODcw%0AYTUxNWU4YTZjMDhiMGQyMDZlODY3NTgyZDQyOWIwZmU%3D%0A--0b93e2269364bd84fb4fce940cae018606656a09; path=/; HttpOnly"
       }
     }
   ]

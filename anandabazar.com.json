@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html;charset=utf-8"
       }
     },
     {
@@ -32,21 +32,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d248a831c105e0692975437aa26a98d261421667723; expires=Tue, 19-Jan-16 11:42:03 GMT; path=/; domain=.anandabazar.com; HttpOnly"
+        "content": "__cfduid=d38581c28d412df5004c46a3d55fdf8f51421671325; expires=Tue, 19-Jan-16 12:42:05 GMT; path=/; domain=.anandabazar.com; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        "content": "public, max-age=300, s-maxage=300"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "x-varnish",
+        "content": "1039346777 1039343419"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
       }
     },
     {
@@ -60,7 +67,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1ab2c44504c10932-DFW"
+        "content": "1ab31c3a5ccd092c-DFW"
       }
     }
   ]
