@@ -59,8 +59,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-zip-status",
+        "content": "request=gzip:this; respond=vary"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-cache",
-        "content": "HIT from 58.49.56.21"
+        "content": "MISS from webcache_123.150.92.10_hexun.com, HIT from 58.49.56.23"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via-cache",
+        "content": "1.1 webcache_123.150.92.10_hexun.com:80 (QuickStar3.2_20100304)"
       }
     }
   ]

@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8;charset=UTF-8"
       }
     },
     {
@@ -26,6 +26,27 @@
       "attributes": {
         "name": "connection",
         "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Servlet/3.0 JSP/2.2 (GlassFish Server Open Source Edition 3.1.2.2 Java/Oracle Corporation/1.6)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PLAY_FLASH=\"\"; Domain=.prozeny.cz; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, PLAY_ERRORS=\"\"; Domain=.prozeny.cz; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, PLAY_SESSION=\"\"; Domain=.prozeny.cz; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/"
       }
     }
   ]

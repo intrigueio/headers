@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private"
+        "name": "server",
+        "content": "nginx/1.7.6"
       }
     },
     {
@@ -24,22 +24,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Microsoft-IIS/7.5"
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=20"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "lng=1; path=/, number_of_redirects=0; path=/, urls_tracker=https://thelotter.com/default.aspx?itemid=1; path=/, ASP.NET_SessionId=bs1ymrlaoy4crx4zrnnkhssg; path=/; HttpOnly, ViewMobile=False; path=/, ViewMobile=False; path=/, ViewMobile=False; path=/, ViewMobile=False; path=/, ViewMobile=False; path=/, ViewMobile=False; path=/"
+        "content": "lng=1; path=/, number_of_redirects=0; path=/, urls_tracker=https://thelotter.com/default.aspx?itemid=1; path=/, ASP.NET_SessionId=y55no4545mb3ho54kplf0ior; path=/; HttpOnly, ViewMobile=False; path=/, ViewMobile=False; path=/, ViewMobile=False; path=/, ViewMobile=False; path=/, ViewMobile=False; path=/, ViewMobile=False; path=/"
       }
     },
     {
@@ -67,7 +81,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server-name",
-        "content": "TLWeb32"
+        "content": "TLWeb31"
       }
     },
     {

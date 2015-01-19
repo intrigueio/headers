@@ -11,35 +11,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html;charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Sat, 10 Jan 2015 12:16:25 GMT"
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-cnection",
-        "content": "close"
+        "content": "max-age=60"
       }
     },
     {
@@ -53,14 +46,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "country=us; path=/; Expires=Mon, 26 Jan 2015 08:38:29 GMT;, device=pc; path=/; Expires=Wed, 18 Feb 2015 08:38:29 GMT;"
+        "content": "country=us; path=/; Expires=Mon, 26 Jan 2015 09:38:32 GMT;, device=pc; path=/; Expires=Wed, 18 Feb 2015 09:38:32 GMT;"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "User-Agent,Cookie"
       }
     }
   ]

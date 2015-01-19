@@ -45,8 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "etag",
-        "content": "\"31e5e1b1bcf3c1ab3ef546fca231becf\""
+        "content": "\"25b430897b1fbec4ccaa1c06181af01b\""
       }
     },
     {
@@ -59,15 +66,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "set-cookie",
-        "content": "radvid=205447fdd5bd7183005307a97835afd4; path=/; expires=Sun, 19 Jan 2025 08:37:40 -0000, , version=1; path=/; expires=Sun, 19 Jan 2025 08:37:40 -0000ravelrys_pocketses=BAh7BzoQX2NzcmZfdG9rZW4iMUlRZ3lVQWRjdWpEbzArbjBZNnpVbTM2VUFGUVNOaFlRNy9pVk1qcGtqbDA9Og9zZXNzaW9uX2lkIiUwNmE4Y2ZkZTM2NWQ5YzBmNTc0ZWNlMTJlZGZiMzhlYQ%3D%3D--e986882b7f1a4d00b4df6f062770f6c76780d114; path=/; HttpOnly"
+        "content": "radvid=899d3248ba5cbacdabaeeee51d9f99be; path=/; expires=Sun, 19-Jan-2025 09:37:49 GMT, version=1; path=/; expires=Sun, 19-Jan-2025 09:37:49 GMT, ravelrys_pocketses=BAh7BzoQX2NzcmZfdG9rZW4iMWtnTzgxK1kzMU84OUV0U0ZvQTljQjN1QkFKNDBQVTVxZjI3Mk5Lemo3blE9Og9zZXNzaW9uX2lkIiUwMzFiZDRjNzQ4YzE2Y2QyYTBkNTE3NTA1NjVjMTE1NQ%3D%3D--c3cd15a400be081365c8b2f33abe00893fd86702; path=/; HttpOnly"
       }
     },
     {
@@ -81,7 +81,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-handled-by",
-        "content": "shetland"
+        "content": "corriedale"
       }
     },
     {

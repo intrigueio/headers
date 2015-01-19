@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.5.7"
+        "content": "nginx/1.6.2"
       }
     },
     {
@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "close"
       }
@@ -31,8 +38,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.5.20"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=hkgoom8abpfbngljhtkcf2spq2; path=/; domain=.dns-shop.ru; HttpOnly, PHPSESSID=nos5al03e2j3e0kjb8nro8hm16; path=/; domain=.dns-shop.ru; HttpOnly, options_city=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0, options_local=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0, dns_user=1_8e660ae082b2ac6a1ebe7a301c2d1b42f2ab4913; expires=Tue, 19-Jan-2016 09:37:30 GMT; Max-Age=31536000; path=/; domain=.dns-shop.ru; httponly, city_path=vladivostok; expires=Tue, 19-Jan-2016 15:26:16 GMT; Max-Age=31556926; path=/; domain=.dns-shop.ru"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
