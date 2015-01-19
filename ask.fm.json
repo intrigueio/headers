@@ -31,22 +31,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "set-cookie",
+        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Tue, 19-Jan-2016 16:38:06 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CToQb2xkX2dldF91cmwiBi86D3Nlc3Npb25faWQiJWEyMzZhZDE5OGQ2ODY4MGEwYjQ2YTVmM2I1MGViZDk0Ogphc2tmbXsAOhBfY3NyZl90b2tlbiIxSDJpakNxM3hENU8zU2ZWRGlDdXozNGkrZkpucnpOYlpuWkhwSXNEOGxZOD0%3D--4b69b945b45798cb95e49b579cc3f5910cce8363; path=/; HttpOnly"
       }
     },
     {
@@ -59,8 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Tue, 19-Jan-2016 15:37:54 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CToPc2Vzc2lvbl9pZCIlZGNmM2E1ZWQ1MGVjOWEzZjdiM2NjZjlmMzc4ZGY3M2E6CmFza2ZtewA6EG9sZF9nZXRfdXJsIgYvOhBfY3NyZl90b2tlbiIxalo1SmpxN3Ztb2tVMkI4VWZ3WkZyTzdmYU12aHV6d2E1WCt4UW1PaC9Mdz0%3D--9003e76294c5d644b533835702bb6c1d010f4444; path=/; HttpOnly"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
       }
     },
     {
