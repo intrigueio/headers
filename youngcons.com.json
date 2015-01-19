@@ -39,21 +39,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cacheable",
-        "content": "bot"
+        "content": "SHORT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,Cookie"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "MISS"
+        "content": "HIT: 52"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-group",
-        "content": "bot"
+        "content": "normal"
       }
     },
     {
@@ -96,13 +103,6 @@
       "attributes": {
         "name": "accept-ranges",
         "content": "none"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
       }
     },
     {

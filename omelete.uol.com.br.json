@@ -17,8 +17,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-cacheback-key",
+        "content": ":GET:full:/::{}"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cacheback",
+        "content": "HIT FRESH"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "max-age=600"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cacheback-shortcut",
+        "content": "yes"
       }
     },
     {
@@ -32,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "2234936726"
+        "content": "2190862005"
       }
     },
     {

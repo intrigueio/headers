@@ -10,6 +10,83 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "*"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "htuid=e8e32418c0065e7c83aa171b0f870676; path=/; expires=Sun, 19-Jan-2025 04:41:45 GMT, session_id=8b2c2d9fd7490097150c60557c14f871; path=/; expires=Mon, 19-Jan-2015 05:11:45 GMT, ft_control_server_footer=off; path=/, _healthTap_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJThiMmMyZDlmZDc0OTAwOTcxNTBjNjA1NTdjMTRmODcxBjsAVEkiD2dtdF9vZmZzZXQGOwBGaQA%3D--4487c4510b0881b3b80c9e794ac27c702e6d9392; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "6199e0e57e1583d9ef861a517b52d1a5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.020415"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
