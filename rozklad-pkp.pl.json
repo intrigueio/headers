@@ -24,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=8mkfkct0bp4ofg1054j934q5m1; path=/; HttpOnly, CMS=CMS3; path=/, NGINX=ngnix2; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
         "content": "max-age=3600, public, s-maxage=3600"
       }
@@ -60,7 +53,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-status",
-        "content": "EXPIRED"
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "NGINX=ngnix2; path=/"
       }
     }
   ]
