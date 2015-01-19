@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "public, max-age=86400"
       }
@@ -59,13 +66,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "CHOCOLATECHIP=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, CHOCOLATECHIP=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.sketchup.com"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Cookie,Accept-Encoding"
       }
@@ -73,8 +73,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-ah-environment",
         "content": "prod"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-hits",
+        "content": "324"
       }
     },
     {
@@ -95,7 +116,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "8bf393ec-6ab1-434f-b83a-7a5d15f2ba1c"
+        "content": "v-d6d83ccc-a002-11e4-bc45-12313d16a252"
       }
     },
     {
@@ -108,8 +129,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "x-varnish",
+        "content": "2240040910 2239775667"
       }
     },
     {
