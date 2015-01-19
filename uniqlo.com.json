@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "no-cache=\"set-cookie\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html;charset=UTF-8"
       }
@@ -26,6 +33,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=57fcc1f3-561b-4b2b-b0c5-d8c72c61f608; Path=/; HttpOnly, AWSELB=0189B32CE2E752CCA1C011F3815672DD77C927FE7A4B4D7532537CCBE4F0EB9295CE544A4EF906843E6017108D884E860AD22E9782E47B6315C205365DDE5E690016A7E8;PATH=/;MAX-AGE=1800"
       }
     }
   ]

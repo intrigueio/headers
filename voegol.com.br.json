@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public"
+        "content": "private"
       }
     },
     {
@@ -19,13 +19,6 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "*, Accept-Encoding, User-Agent"
       }
     },
     {
@@ -39,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "sprequestguid",
-        "content": "13a3e8ad-a0af-4bfd-8dfe-fa19260f4621"
+        "content": "5a41ac10-95fe-402e-b60d-13ae933e89ae"
       }
     },
     {
@@ -59,6 +52,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "SPSessionGuid=5a41ac10-95fe-402e-b60d-13ae933e89ae; path=/, ck_nacionalidade=ck_cookie_nacionalidade=http://www.voegol.com.br/pt-br/; expires=Tue, 19-Jan-2016 10:38:15 GMT; path=/, BIGipServerpool_www.voegol.com.br_80_new_site=4179081672.20480.0000; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
         "content": "ASP.NET"
       }
@@ -73,15 +73,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "BIGipServerpool_www.voegol.com.br_80_new_site=4145527240.20480.0000; path=/"
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "Keep-Alive"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]
