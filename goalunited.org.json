@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "_NJIN_=rdu2ku5em253as4va7mm6d9oo6; path=/; domain=.goalunited.org, _GU2011_=%9B_-%08%40%C5%D6%CC-8C%B9U9%93%AE%CA1g%EF%05I%BAwk%22%F4%1D%8FV%F7%83u%13%26%8F%29%7C%BE%D6; path=/; domain=.goalunited.org, _GU2011_=t%9B%3F%C4%9B%28T%24%3FG%B6%0F%3A%A5%1E%B2%5C%C5%3B%ABAv%15u%14%B8q%EFnv%CD%14%FDAb9%96%29%1E%9D; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Mon, 19-Jan-2015 08:39:20 GMT; path=/; domain=.goalunited.org, lang=en; expires=Mon, 19-Jan-2015 08:39:20 GMT; path=/; domain=.manager-football.org, lang=en; expires=Mon, 19-Jan-2015 08:39:20 GMT"
+        "content": "_NJIN_=efju1f87uoqt5fglr3qlqaj8s4; path=/; domain=.goalunited.org, _GU2011_=%0A%CF%F6uu%DE%23%EE%BA%92%BF%28G%0D%03%2A%EE%8E%E3%F4%B9%21%AC%A1%B4%D8%972%B5%D6%CE%B8d%1AR%02%10%01R%B0; path=/; domain=.goalunited.org, _GU2011_=%16%26%9B%EB%91%03O%D3a%8A%9D%7D%DB%14%3CqI%B3%1C%ECB.%FD.%91%8B%1C%890%8F%81%85%B7%9B%C1z%8B%3F%29%5E; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Mon, 19-Jan-2015 09:39:36 GMT; path=/; domain=.goalunited.org, lang=en; expires=Mon, 19-Jan-2015 09:39:36 GMT; path=/; domain=.manager-football.org, lang=en; expires=Mon, 19-Jan-2015 09:39:36 GMT"
       }
     },
     {
@@ -47,13 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
       }
     }
   ]
