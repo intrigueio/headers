@@ -17,6 +17,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -24,15 +31,92 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "access-control-allow-credentials",
+        "content": "true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "dd37f54d-df62-4dc9-bbda-7d88ba711e2f"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-revision",
+        "content": "c512af7d2ea9b4e87693f311c36e95ff73d818ac"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.382877"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "http://reverb.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"d3dc58e86c183f8fa5d19d6a4fdb6779\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "X-Mapping-fjhppofk=080EF86848BA63FF87CD299141A23333; path=/"
+        "content": "X-Mapping-fjhppofk=080EF86848BA63FF87CD299141A23333; path=/, return_to=https%3A%2F%2Freverb.com%2F; path=/, split=%7B%22onboarding_banner_ab_test%3A3%22%3A%22big_text_banner%22%7D; path=/; expires=Tue, 19 Jan 2016 20:29:57 -0000, _reverb_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTYzYWFjNDBjYjFkZWZhYThkMjA2YTk1Yjc5MGVhYTlhBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUZIM082TzBWV3NXODU3TU5WdFlUNXBJY0w0VmV0b3N1ei9KY0ZSb0ZtcUk9BjsARg%3D%3D--1a757de578d8e13c36f0f04fc4d8ced33e43de80; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     }
   ]
