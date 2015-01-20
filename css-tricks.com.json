@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -60,14 +67,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "incap_ses_220_247240=Vji+Te2x5hDvXha2QJkNAxKyvVQAAAAAfj6/1YwCzIYdC5K7I49WpA==; path=/; Domain=.css-tricks.com, visid_incap_247240=kWMGgbcmTFGM1Wbzs3cr3BKyvVQAAAAAQUIPAAAAAAC2FBnZkVOmOtnsRhh8VpiU; expires=Wed, 18 Jan 2017 15:30:32 GMT; path=/; Domain=.css-tricks.com"
+        "content": "incap_ses_220_247240=bHnYJkSTh11VZDe2QJkNAzDAvVQAAAAAlwUrouziqb1V7sRofyIn5A==; path=/; Domain=.css-tricks.com, visid_incap_247240=B5YlAf9uQM64tPDq1huwNzDAvVQAAAAAQUIPAAAAAABR5gFO4tUkkDJC15+2w0J9; expires=Wed, 18 Jan 2017 15:30:32 GMT; path=/; Domain=.css-tricks.com"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-iinfo",
-        "content": "6-7320000-7314446 PNNN RT(1421718034200 2) q(0 0 0 0) r(0 0)"
+        "content": "8-11998444-11998445 NNNN CT(6 -1 0) RT(1421721648338 1) q(0 0 0 0) r(0 0) U1"
       }
     },
     {
@@ -75,13 +82,6 @@
       "attributes": {
         "name": "x-cdn",
         "content": "Incapsula"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
       }
     }
   ]

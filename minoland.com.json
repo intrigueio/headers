@@ -10,8 +10,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -24,15 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "User-Agent"
+        "name": "set-cookie",
+        "content": "6AWO_04c9_lastvisit=1421718310; expires=Thu, 19-Feb-2015 02:45:10 GMT; path=/; domain=.minoland.com, 6AWO_04c9_sid=tDN5oE; expires=Wed, 21-Jan-2015 02:45:10 GMT; path=/; domain=.minoland.com, 6AWO_04c9_lastact=1421721910%09index.php%09; expires=Wed, 21-Jan-2015 02:45:10 GMT; path=/; domain=.minoland.com, 6AWO_04c9_sid=tDN5oE; expires=Wed, 21-Jan-2015 02:45:10 GMT; path=/; domain=.minoland.com"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "powered-by",
-        "content": "8-host.net"
+        "name": "cache-control",
+        "content": "no-cache"
       }
     }
   ]
