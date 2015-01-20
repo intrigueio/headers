@@ -24,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -38,29 +31,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding, *"
+        "name": "set-cookie",
+        "content": "SERVERID_HTTP=4; Domain=.wildberries.ru; Path=/, ___wbl=7517; domain=.wildberries.ru; expires=Fri, 20-Mar-2015 13:43:20 GMT; path=/, ___wbuV1=userId=2c74310b-758c-42ec-8d34-1305768f67ba&firstVisit=01/20/2015 13:43:20&lastVisit=01/20/2015 13:43:20; domain=.wildberries.ru; expires=Fri, 20-Jan-2017 13:43:20 GMT; path=/, ___wbs=sessionId=cb808ae8-f945-4a00-80e3-2f7aa95a3e84&startDateTime=01/20/2015 13:43:20; domain=.wildberries.ru; expires=Tue, 20-Jan-2015 14:13:20 GMT; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public, max-age=128"
+        "content": "public, no-cache=\"Set-Cookie\", max-age=300"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Tue, 20 Jan 2015 12:40:08 GMT"
+        "content": "Tue, 20 Jan 2015 13:43:20 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "status-id",
-        "content": "06"
+        "content": "01"
       }
     }
   ]

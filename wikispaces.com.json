@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-whom",
-        "content": "w2-prod-http"
+        "content": "w5-prod-http, p4"
       }
     },
     {
@@ -40,6 +40,34 @@
       "attributes": {
         "name": "p3p",
         "content": "CP: ALL DSP COR CURa ADMa DEVa CONo OUR IND ONL COM NAV INT CNT STA"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "slave=1%3A7f2923eedbfc8e2378a516fb961bc705%3A7e3a083e974b329d3bcbc262622ca9d9e544c3b8985a84bf4d53a61fb5ce2612e087c55f6a988b980d0d6e6aaa65f40158743863f8bf45c589354f6795d824e37740f8b16c9e34354302d4fe6b68bba31342c8aaaeaf0fd30b0702b7491aacf5b9bd2d1501cfcb54a83bd44f58b44f4f; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     }
   ]
