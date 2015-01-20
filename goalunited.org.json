@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "_NJIN_=sofdi286ujn397ess4amusrud1; path=/; domain=.goalunited.org, _GU2011_=%9EE%5CP%92H%2A%60%3C%3D%E7%CF%7D%F3%7F%EB%98%02%D4%BC2%C9%8B%A9%F8%B0%81PO%C4%B88O%03%21%C5%A7%5D%CD%1D; path=/; domain=.goalunited.org, _GU2011_=h%27%1F%7B%05%BD%22%2C7%95%1D+%B2%D4%A8%D6%60%E5%AA%85%AB%7E8%40Wn%2A%EA%1A%BA%D9kf%AAx%BD%BB%B9cV; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Tue, 20-Jan-2015 18:46:43 GMT; path=/; domain=.goalunited.org, lang=en; expires=Tue, 20-Jan-2015 18:46:43 GMT; path=/; domain=.manager-football.org, lang=en; expires=Tue, 20-Jan-2015 18:46:43 GMT"
+        "content": "_NJIN_=im0u2f2qhsiu2qq7ors1pa3i10; path=/; domain=.goalunited.org, _GU2011_=%23u%24%14H%11%14%DE9%5E%E8%27%D2%D6%5B%86x%DCb%9CN%AB%AE%F1.%3D%A0%BAD_%CE%F4%9C%00T%81%B1I%3F%F3; path=/; domain=.goalunited.org, _GU2011_=%0D8%C5%86%88%04%E3%5BP%89%A5%CA%9D%9A%DCOc%07%25%D6%CA%5E%5E%8A%28%7EH%CD%5D6b%5C%97%BB%19%1B%D4%C6%88%5C; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Tue, 20-Jan-2015 19:46:25 GMT; path=/; domain=.goalunited.org, lang=en; expires=Tue, 20-Jan-2015 19:46:25 GMT; path=/; domain=.manager-football.org, lang=en; expires=Tue, 20-Jan-2015 19:46:25 GMT"
       }
     },
     {
@@ -47,13 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
       }
     }
   ]
