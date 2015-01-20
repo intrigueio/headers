@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -17,15 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "retry-after",
-        "content": "5"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
-        "content": "Varnish"
+        "content": "nginx/1.1.19"
       }
     },
     {
@@ -38,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-varnish",
-        "content": "20054020"
+        "content": "57540619 19529732"
       }
     },
     {
