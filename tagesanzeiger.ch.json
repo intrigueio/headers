@@ -17,13 +17,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "close"
       }
@@ -31,8 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-varnish",
-        "content": "579195651"
+        "content": "2033826725 2033800579"
       }
     },
     {
@@ -74,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish-cache",
-        "content": "MISS"
+        "content": "HIT"
       }
     }
   ]

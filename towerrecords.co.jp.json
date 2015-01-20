@@ -10,22 +10,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-store, max-age=0, private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "BigIP"
+        "content": "Microsoft-IIS/7.5"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "set-cookie",
+        "content": "website#sc_wede=1; path=/, tracking2=1ca14ef894bd457a82e0da394538d7c1; domain=.tower.jp; expires=Thu, 19-Feb-2015 15:47:29 GMT; path=/, ASP.NET_SessionId=utz0ssgsauarpyybumlqvd5v; path=/; HttpOnly, crfl=0; path=/, prev_page=http://tower.jp/; path=/, BIGIP_COOKIE3=02;path=/;domain=.tower.jp;"
       }
     }
   ]

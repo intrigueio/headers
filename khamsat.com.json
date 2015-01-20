@@ -38,8 +38,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIJY3NyZiIlNTllNzlkOWIzZDBlYTEwNWQwOTgyOTU0MmQ5MzJlYmMi%0AD3Nlc3Npb25faWQiRTJkNzBjMmUyNDliZjI3MDIxYWMwMjZmZDE3ZjVlOGVm%0AOWYxMjQ2NTk5YjFiODc1MGJhZWNjNzA0ZGFlNmFiMWIiDXRyYWNraW5newci%0AFEhUVFBfVVNFUl9BR0VOVCItMThlNDBlMTQwMWVlZjY3ZTFhZTY5ZWZhYjA5%0AYWZiNzFmODdmZmI4MSIZSFRUUF9BQ0NFUFRfTEFOR1VBR0UiLWRhMzlhM2Vl%0ANWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDk%3D%0A--1cd17ed01ecf564b9b688bb4d5357792b6275f90; path=/; HttpOnly"
+        "name": "x-content-type-options",
+        "content": "nosniff"
       }
     },
     {
@@ -52,6 +52,20 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "Hsoub Nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIPc2Vzc2lvbl9pZCJFYmRhNWY3NTVkMGI0YTAzMjlmYmE3OWNiYTY2%0AOTE0YjY0MWYxNDVmYTVkNWNkNDY2YTA1YWEwYTE0MDczMDRkMyINdHJhY2tp%0Abmd7ByIZSFRUUF9BQ0NFUFRfTEFOR1VBR0UiLWRhMzlhM2VlNWU2YjRiMGQz%0AMjU1YmZlZjk1NjAxODkwYWZkODA3MDkiFEhUVFBfVVNFUl9BR0VOVCItMThl%0ANDBlMTQwMWVlZjY3ZTFhZTY5ZWZhYjA5YWZiNzFmODdmZmI4MSIJY3NyZiIl%0ANjM2MDE3MjUxZDZmMTQ0MTg3N2U3MGY1NjYyZGU1YzM%3D%0A--09f116d0905918392af21b66fb92a6679e45967e; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
       }
@@ -59,22 +73,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-xss-protection",
         "content": "1; mode=block"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "Hsoub Nginx"
       }
     }
   ]

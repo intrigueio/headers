@@ -39,14 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-powered-by",
-        "content": "PHP/5.2.17"
+        "content": "PHP/5.4.17"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Tue, 20 Jan 2015 14:46:53 GMT"
+        "content": "Tue, 20 Jan 2015 15:47:11 GMT"
       }
     },
     {
@@ -60,14 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "cachesrv=10.3.3.2; path=/; domain=femina.hu, PHPSESSID=9e0201cf17f3eaf9a7b92e94b7debb3c; expires=Wed, 21-Jan-2015 14:46:53 GMT; path=/; domain=.femina.hu, PHPSESSID=9e0201cf17f3eaf9a7b92e94b7debb3c; expires=Wed, 21-Jan-2015 14:46:53 GMT; path=/; domain=.femina.hu, uuid=12176521325385657499410937585578; expires=Tue, 27-Jan-2015 14:46:53 GMT; path=/; domain=.femina.hu"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform"
+        "content": "cachesrv=10.3.3.3; path=/; domain=femina.hu, PHPSESSID=dfe5d51628f75debca04098ba0385237; expires=Wed, 21-Jan-2015 15:47:11 GMT; path=/; domain=.femina.hu, PHPSESSID=dfe5d51628f75debca04098ba0385237; expires=Wed, 21-Jan-2015 15:47:11 GMT; path=/; domain=.femina.hu, uuid=12176883197765523734656937713250; expires=Tue, 27-Jan-2015 15:47:11 GMT; path=/; domain=.femina.hu, akadalymentes=akadalymentes; expires=Wed, 04-Feb-1970 17:20:00 GMT; path=/; domain=femina.hu, szavaz_142403=1; expires=Wed, 21-Jan-2015 15:47:12 GMT; path=/; domain=femina.hu, horoszkopbox=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=femina.hu, szavaz_107061=1; expires=Wed, 21-Jan-2015 15:47:12 GMT; path=/; domain=femina.hu, szavaz_95328=1; expires=Wed, 21-Jan-2015 15:47:12 GMT; path=/; domain=femina.hu"
       }
     },
     {
@@ -80,8 +73,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "no-transform"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "User-Agent, Accept"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "sameorigin"
       }
     }
   ]
