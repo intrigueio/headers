@@ -32,21 +32,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Tue, 20 Jan 2015 15:46:10 GMT"
+        "content": "Tue, 20 Jan 2015 16:45:57 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, must-revalidate, post-check=0, pre-check=0"
+        "content": "public, max-age=300"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1421768770\""
+        "content": "\"1421772357-1\""
       }
     },
     {
@@ -81,7 +81,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
+        "content": "Cookie,User-Agent,Accept-Encoding"
       }
     },
     {
@@ -89,6 +89,13 @@
       "attributes": {
         "name": "connection",
         "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
