@@ -18,14 +18,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"54bda00c-1c87-gzip\""
+        "name": "status",
+        "content": "500 Internal Server Error"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "1NT0WMTB4XX79BYGJ2CY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "5.170958"
       }
     },
     {
@@ -33,6 +47,13 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "nncoection",
+        "content": "close"
       }
     }
   ]

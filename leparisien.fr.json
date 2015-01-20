@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "vary",
+        "content": "Host,Accept-Encoding"
       }
     },
     {
@@ -24,43 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-front",
+        "content": "02"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Tue, 20 Jan 2015 02:40:10 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "ECAcc (dfw/56EF)"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-cache",
-        "content": "HIT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-front",
-        "content": "01"
       }
     },
     {
@@ -73,22 +45,64 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "Oxalide [01]"
+        "name": "x-varnpar1",
+        "content": "C1 209148674"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varncache",
-        "content": "HIT 10"
+        "content": "MISS"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnpar1",
-        "content": "C1 208470636 208468881"
+        "name": "x-varnpar2",
+        "content": "C2 945520897"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Oxalide [02]"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=3"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnishbox",
+        "content": "1831253627"
       }
     }
   ]
