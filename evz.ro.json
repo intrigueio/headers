@@ -10,15 +10,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Varnish"
+        "name": "cache-control",
+        "content": "must-revalidate, max-age=700, s-maxage=700"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "retry-after",
-        "content": "0"
+        "name": "pragma",
+        "content": "public"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ws",
+        "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -32,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1802341840, 1669769835"
+        "content": "219759082, 1670872625"
       }
     },
     {
@@ -53,14 +67,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-debug-0b",
-        "content": "Si"
+        "content": "He"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-ba-0b",
-        "content": "default_last_resort"
+        "content": "default"
       }
     },
     {
