@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private, no-cache=\"set-cookie\""
+        "content": "private, no-cache=\"set-cookie\", no-cache=\"set-cookie\""
       }
     },
     {
@@ -24,8 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": ""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "Segmentacao=controller=Home&action=Index&gBT_comprar_vender=&gBT_financiamento=&gBT_revista=&gBT_seguros=&gBT_servicos=&marca=X&modelo=X&blindado=&ano_modelo=X&preco=X&uf=X&Cod_clientePJ=&posicao=&BT_comprar_vender=X&BT_financiamento=X&BT_revista=X&BT_seguros=X&BT_servicos=X&anuncioDfp='9764/HP/HP'&midiasDfp=101,107,77,163,164,161,172; expires=Mon, 20-Jul-2015 22:45:13 GMT; path=/, AWSELB=FBEB4F8D0A4EA85DD70F4AB212E2DE8B1D243194C8C94CB9215A038055396680CA7692BA63D446789AE8519200D5E6432B93E186180C8FA89BE9C4B8876E90E61B45255E3A;PATH=/;MAX-AGE=3600"
+        "content": "Segmentacao=controller=Home&action=Index&gBT_comprar_vender=&gBT_financiamento=&gBT_revista=&gBT_seguros=&gBT_servicos=&marca=X&modelo=X&blindado=&ano_modelo=X&preco=X&uf=X&Cod_clientePJ=&posicao=&BT_comprar_vender=X&BT_financiamento=X&BT_revista=X&BT_seguros=X&BT_servicos=X&anuncioDfp='9764/HP/HP'&midiasDfp=101,107,77,163,164,161,172; expires=Mon, 20-Jul-2015 23:45:22 GMT; path=/, AWSELB=7501F5811809154EBDC892781E589C96862C454FADA40EF7421B4EAC82EA2262E80DA3B25305505434ABD08C486D1A8CA7AEB4AC005C435EA73B8EE073AE56BCDB5C9BF8A7;PATH=/;MAX-AGE=3600, AWSELB=FBEB4F8D0A4EA85DD70F4AB212E2DE8B1D243194C82B97DCCBD542CC76B7D70C03D980C28BE6C2A789F47D404881C35958DD59702CFAECA620F087B46CAE01F4173A09BBD5;PATH=/;MAX-AGE=3600"
       }
     },
     {
@@ -54,6 +61,13 @@
       "attributes": {
         "name": "x-ua-compatible",
         "content": "IE=8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {

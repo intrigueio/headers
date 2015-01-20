@@ -11,14 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache-Coyote/1.1"
+        "content": "Apache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html;charset=ISO-8859-1"
+        "name": "vary",
+        "content": "Host,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "SITESERVER=ID=d5e933f50000014b08b32545f16d001e; Domain=.priceline.com; Expires=Thu, 12-Jan-2045 22:44:35 GMT; Path=/, JSessionKey=344b050a364a050a20150120224435c4e020304934; Domain=.priceline.com; Path=/, vid=v20150120224435c4e02030; Domain=.priceline.com; Path=/, Referral=CLICKID=&WEBENTRYTIME=01%2F20%2F2015+17%3A44%3A35&ID=DIRECT&PRODUCTID=&SOURCEID=DT; Domain=.priceline.com; Expires=Thu, 19-Feb-2015 22:44:35 GMT; Path=/, JSESSIONID=08215357C1F9061D88F7128ECEB3E0B6; Path=/landing, pclnguidse=8ab4d57c6fd4b17c70a5b80e8bb55ed5d0e13dd3;path=/;domain=.priceline.com;, pclnguidpe=8ab4d57c6fd4b17c70a5b80e8bb55ed5d0e13dd3;expires=Fri, 17-Jan-2025 22:44:35 GMT;path=/;domain=.priceline.com;"
       }
     },
     {
@@ -31,22 +38,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "SITESERVER=ID=acef258c0000014b087c11aec67b0090; Domain=.priceline.com; Expires=Thu, 12-Jan-2045 21:44:22 GMT; Path=/, JSessionKey=504a200a544a200a201501202144223ae021446392; Domain=.priceline.com; Path=/, vid=v201501202144223ae02144; Domain=.priceline.com; Path=/, Referral=CLICKID=&WEBENTRYTIME=01%2F20%2F2015+16%3A44%3A22&ID=DIRECT&PRODUCTID=&SOURCEID=DT; Domain=.priceline.com; Expires=Thu, 19-Feb-2015 21:44:22 GMT; Path=/, JSESSIONID=9BB1A1E9DA30661EB084A0D0A57757E2; Path=/landing, pclnguidse=a88fa3cedf8c4701126e6aa8d0dd1226c2f7ce32;path=/;domain=.priceline.com;, pclnguidpe=a88fa3cedf8c4701126e6aa8d0dd1226c2f7ce32;expires=Fri, 17-Jan-2025 21:44:22 GMT;path=/;domain=.priceline.com;"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "wsheader",
-        "content": "ws=h3pp1 D=144315 NT=146"
+        "content": "ws=h430 D=40269 NT=41"
       }
     },
     {
@@ -59,8 +52,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "content-type",
+        "content": "text/html;charset=ISO-8859-1"
       }
     }
   ]
