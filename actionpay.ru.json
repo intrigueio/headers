@@ -10,36 +10,64 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx/1.6.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close, close"
+        "content": "close"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-iinfo",
-        "content": "10-168445768-0 0NNN RT(1421761670233 0) q(0 -1 -1 0) r(0 -1) B10(8,808400,0)"
+        "name": "x-powered-by",
+        "content": "PHP/5.5.11-3+deb.sury.org~precise+1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "incap_ses_198_284820=avLzVN9aEVVendxeMnC/AoZcvlQAAAAAfrNv5AOAF+eilQn1JLNI2w==; path=/; Domain=.actionpay.ru, visid_incap_284820=L2aCq/7aRo2mLuZ5hE4z3IZcvlQAAAAAQUIPAAAAAAALr6neRDvqAaQLSaDpzFhV; expires=Thu, 19 Jan 2017 11:03:47 GMT; path=/; Domain=.actionpay.ru"
+        "content": "incap_ses_47_284820=VO9tXTDbb14WFrtwufumAKlqvlQAAAAA6Kp8MCtUyk6aFj53DvZH9g==; path=/; Domain=.actionpay.ru, visid_incap_284820=dSa3P0puSzatjRU3u9GyialqvlQAAAAAQUIPAAAAAACWmmkpwy8HupQ5gCGW4XWf; expires=Thu, 19 Jan 2017 09:20:49 GMT; path=/; Domain=.actionpay.ru"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "5-5416629-5416630 NNNN CT(10 -1 0) RT(1421765289710 1) q(0 0 0 0) r(0 0) U10000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cdn",
+        "content": "Incapsula"
       }
     }
   ]
