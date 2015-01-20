@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "_NJIN_=ee191er8qtcu2rsms93vrft2m1; path=/; domain=.goalunited.org, _GU2011_=%0DY1P%F3%ABT%8A%1B%0D%AB%F9M%3B%BCo3%2A%F9%DF%CFn%DC%2Bl%04%BE8V%FB%E8x%2FwL%89%5D%17R%AB; path=/; domain=.goalunited.org, _GU2011_=%D4%C5%2Ad%83D%E1%2F%85%F0%8F%2C%C0%F7Up%C2_%FB%94%92%3B%98%E7%9E%0E%8A%16%3AQ%29%A1%87YJ%AC%94%08%AE%24; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Tue, 20-Jan-2015 04:43:17 GMT; path=/; domain=.goalunited.org, lang=en; expires=Tue, 20-Jan-2015 04:43:17 GMT; path=/; domain=.manager-football.org, lang=en; expires=Tue, 20-Jan-2015 04:43:17 GMT"
+        "content": "_NJIN_=prbtp612tof68h3il3i23i2dk4; path=/; domain=.goalunited.org, _GU2011_=%B1%E3F%83%D6%1Cz%C3%8Dv3%D5%C8%25%2C%89%0Bpu%9A%C4%24%27z%97%92%3D%1D%C5%A4%21%FD%BA+%21U%F3%A6%19%E3; path=/; domain=.goalunited.org, _GU2011_=%82%E57%F8-%13%BD%26kV6%17%B0%E9%0B%CE%2A%C7%B0%10%7F%A4%2A+%95d%FDX%7B%9D%FA%5BRAY%B1%9B%CC%ED%1D; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Tue, 20-Jan-2015 05:43:41 GMT; path=/; domain=.goalunited.org, lang=en; expires=Tue, 20-Jan-2015 05:43:41 GMT; path=/; domain=.manager-football.org, lang=en; expires=Tue, 20-Jan-2015 05:43:41 GMT"
       }
     },
     {
@@ -47,13 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
       }
     }
   ]

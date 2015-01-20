@@ -10,15 +10,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "retry-after",
-        "content": "21600"
+        "name": "cache-control",
+        "content": "no-cache, no-store,no-transform"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": ".ASPXANONYMOUS=W_Gki_1q0AEkAAAAMWM4MmNiM2MtMzlkOS00NTliLWI5YWMtMzFiNWEwOGQyN2Y40; expires=Mon, 30-Mar-2015 15:23:59 GMT; path=/; HttpOnly, ASP.NET_SessionId=cfgy32xicm0tut3dkyptbus3; path=/; HttpOnly, CO=4230226084; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"This is not a P3P policy. See http://www.thetrainline.com/buytickets/terms.aspx for more info\""
       }
     }
   ]
