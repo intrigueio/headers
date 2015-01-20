@@ -24,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-cnection",
         "content": "close"
       }
@@ -46,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "userLanguage=es_VE; expires=Thu, 19-Feb-2015 19:47:41 GMT; path=/, PHPSESSID_f453bf4b9ca64a52e92fb0b1805efc46=2269s7r0ugkrdij5qr6mirrlm1; path=/; domain=www.linio.com.ve; HttpOnly, browserDetection=eyJ0eXBlIjpudWxsLCJuYW1lIjoiT3RoZXIiLCJjc3NDbGFzcyI6IiIsInZlcnNpb24iOjB9; expires=Tue, 27-Jan-2015 19:47:41 GMT; path=/, prudsys-uid=76b7812eb6a3f06c096355af32da151d; expires=Wed, 20-Jan-2016 19:47:41 GMT; path=/, browserDetection=eyJ0eXBlIjpudWxsLCJuYW1lIjoiT3RoZXIiLCJjc3NDbGFzcyI6IiIsInZlcnNpb24iOjB9; expires=Tue, 27-Jan-2015 19:47:41 GMT; path=/, prudsys-uid=80161176a34282439d8156c7da99752d; expires=Wed, 20-Jan-2016 19:47:41 GMT; path=/"
+        "content": "userLanguage=es_VE; expires=Thu, 19-Feb-2015 20:47:49 GMT; path=/, PHPSESSID_f453bf4b9ca64a52e92fb0b1805efc46=2vinfn012ql7b7kb10ii72bce4; path=/; domain=www.linio.com.ve; HttpOnly, browserDetection=eyJ0eXBlIjpudWxsLCJuYW1lIjoiT3RoZXIiLCJjc3NDbGFzcyI6IiIsInZlcnNpb24iOjB9; expires=Tue, 27-Jan-2015 20:47:49 GMT; path=/, prudsys-uid=50dd121691abc00d8849689f0476c747; expires=Wed, 20-Jan-2016 20:47:49 GMT; path=/, browserDetection=eyJ0eXBlIjpudWxsLCJuYW1lIjoiT3RoZXIiLCJjc3NDbGFzcyI6IiIsInZlcnNpb24iOjB9; expires=Tue, 27-Jan-2015 20:47:49 GMT; path=/, prudsys-uid=cc78b9406cec7e89c9d77a0a80357c61; expires=Wed, 20-Jan-2016 20:47:49 GMT; path=/"
       }
     },
     {
@@ -67,14 +60,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "User-Agent"
+        "content": "User-Agent, Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-server",
-        "content": "alice03.cluster.linio.com"
+        "content": "alice05.cluster.linio.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -38,15 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "incap_ses_209_163575=R8GnehkbPjWLrgR+lYTmAjuxvlQAAAAA/iPDODf+pTb3rF3WsXdGxg==; path=/; Domain=.egopay.com, visid_incap_163575=2e8eelpyRMaUS1ymi6u6STaxvlQAAAAAQUIPAAAAAAARN7XqTTndLXNbDtXgiXUY; expires=Thu, 19 Jan 2017 14:53:37 GMT; path=/; Domain=.egopay.com"
+        "content": "incap_ses_209_163575=ukJ9Z4wT6S90yCh+lYTmAky/vlQAAAAA0TYcyGnB4RQGyxoIr42QXA==; path=/; Domain=.egopay.com, visid_incap_163575=UelK5UmlT1+QAWuooCI9mUy/vlQAAAAAQUIPAAAAAAAmoXIpM2iy7jn74/APw8/Y; expires=Thu, 19 Jan 2017 14:53:37 GMT; path=/; Domain=.egopay.com"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-iinfo",
-        "content": "2-35207556-35207560 NNNN CT(149 151 0) RT(1421783350386 25) q(0 0 3 0) r(3 54) U11"
+        "content": "3-50665983-50665987 NNNN CT(163 162 0) RT(1421786955987 33) q(0 0 3 6) r(3 5) U10000"
       }
     },
     {
@@ -54,13 +68,6 @@
       "attributes": {
         "name": "x-cdn",
         "content": "Incapsula"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
       }
     }
   ]

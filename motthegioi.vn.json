@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public"
+        "content": "public, no-cache=\"Set-Cookie\", max-age=120"
       }
     },
     {
@@ -25,7 +25,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Tue, 20 Jan 2015 19:43:38 GMT"
+        "content": "Tue, 20 Jan 2015 20:45:07 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -40,6 +47,13 @@
       "attributes": {
         "name": "x-aspnet-version",
         "content": "4.0.30319"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "site.IsMobile=IsMobile=NO; domain=motthegioi.vn; expires=Wed, 21-Jan-2015 20:45:07 GMT; path=/, .ASPXANONYMOUS=AG9RGuaHfWa8UsN_Ry2YmDjBp7kHlKIVff_WlxHzo0Sk0tQrkQ7qkgblwNl0kfYzTblFC-kk87p3Ki-MBkvNr8ZF0ksjTYgRR3JaTW6hN6-SoaAk_Gtt-UwmR2vKLADc3yKXh5iMQhBmR4SC6HnqpQ2; domain=motthegioi.vn; expires=Tue, 31-Mar-2015 07:25:07 GMT; path=/; HttpOnly"
       }
     },
     {
