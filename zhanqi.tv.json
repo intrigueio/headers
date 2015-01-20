@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.6.0"
+        "content": "Tengine"
       }
     },
     {
@@ -24,15 +24,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "_alit_=AQAAAG84SWse/Q4AaO2FU9WuDotZseeX; Path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Tue, 20 Jan 2015 05:44:51 GMT"
+        "content": "Tue, 20 Jan 2015 06:45:31 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"54bdf98b-1b869\""
       }
     },
     {
@@ -46,7 +67,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "websource",
-        "content": "webappmaster01, upstream02"
+        "content": "webappmaster02, upstream01"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
@@ -59,15 +87,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-via",
-        "content": "1.1 zjjhdx37:8105 (Cdn Cache Server V2.0), 1.1 shiben2:3 (Cdn Cache Server V2.0)"
+        "name": "via",
+        "content": "cache22.l2cn202[21,200-0,M], cache15.l2cn202[22,0], kunlun1.cn125[87,200-0,M], kunlun19.cn125[89,0]"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "x-cache",
+        "content": "MISS TCP_MISS dirn:-2:-2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-swift-savetime",
+        "content": "Tue, 20 Jan 2015 06:45:35 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-swift-cachetime",
+        "content": "60"
       }
     }
   ]
