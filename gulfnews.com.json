@@ -11,14 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.7.6"
+        "content": "nginx/1.7.9"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html;charset=utf-8"
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -38,15 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "public, max-age=1800, s-maxage=1800"
+        "name": "set-cookie",
+        "content": "JSESSIONID=D8D8A0FE972E0F1A834FD1AE89362C02; Path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-hostname",
-        "content": "542935-front6"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     }
   ]
