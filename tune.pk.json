@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=oj8fi3j8vhdnfmo0u53vjaslo1; expires=Wed, 21-Jan-2015 00:40:28 GMT; path=/, fb_239452059417627_state=ce36038675c4df5385fcb14916288beb; expires=Tue, 20-Jan-2015 01:40:28 GMT; path=/, pageredir=http%3A%2F%2Ftune.pk%2F; expires=Tue, 20-Jan-2015 02:40:28 GMT; path=/"
+        "content": "PHPSESSID=kqnhpl56jse21bm2ipdld7n1j2; expires=Wed, 21-Jan-2015 01:40:39 GMT; path=/, fb_239452059417627_state=a9a9a9a5f8555d7f175f08819c61fa15; expires=Tue, 20-Jan-2015 02:40:39 GMT; path=/, pageredir=http%3A%2F%2Ftune.pk%2F; expires=Tue, 20-Jan-2015 03:40:39 GMT; path=/"
       }
     },
     {
@@ -47,6 +61,13 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "HIT from Backend"
       }
     }
   ]
