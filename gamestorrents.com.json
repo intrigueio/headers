@@ -10,8 +10,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "server",
+        "content": "Apache/2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "idioma=ESP; expires=Tue, 19-Jan-2038 03:14:07 GMT; path=/, http:www.gamestorrents.com=1; expires=Thu, 19-Feb-2015 18:16:08 GMT, pais=deleted; expires=Mon, 20-Jan-2014 18:16:07 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
       }
     },
     {
@@ -19,6 +33,13 @@
       "attributes": {
         "name": "connection",
         "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {

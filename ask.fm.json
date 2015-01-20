@@ -31,22 +31,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Wed, 20-Jan-2016 16:43:06 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CToQb2xkX2dldF91cmwiBi86D3Nlc3Npb25faWQiJTIxYzliYTZhYjg2YmMzNDhiOGVlYTJiYjdkZmQwZWUyOgphc2tmbXsAOhBfY3NyZl90b2tlbiIxUUwvSFBtQ21mczduV2ROUjFGVXdlTU5TTE5NMFBqaGRyYTB1TzFVWEFEaz0%3D--f476eb473e0b8b2975ca4278459f7f6d646c5bd9; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
+        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Wed, 20-Jan-2016 17:43:39 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CToPc2Vzc2lvbl9pZCIlYmQ4Y2ZmNDQxOGNmN2Q2MWNlMDVmY2ZhMzQ1NzNjMzU6CmFza2ZtewA6EG9sZF9nZXRfdXJsIgYvOhBfY3NyZl90b2tlbiIxakNsdlNHYkdJdmErY3ZHcUJhSVhvZVd3cFloMHllSWhxQUpNWk44R2ZMdz0%3D--193f7f9e25f042848181b335e3084b3a045addd0; path=/; HttpOnly"
       }
     },
     {
@@ -61,6 +54,13 @@
       "attributes": {
         "name": "x-xss-protection",
         "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
