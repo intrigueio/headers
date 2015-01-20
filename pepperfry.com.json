@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-transform"
+        "content": "max-age=0, no-transform"
       }
     },
     {
@@ -19,6 +19,13 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "cache"
       }
     },
     {
@@ -54,6 +61,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "frontend=f542fbcfbaae0cee46e6f1229dd6e6a05379c3969bad89f49843709913878cef; expires=Sun, 19-Jul-2015 10:43:41 GMT; Max-Age=15552000; path=/, csrf_token=cdbd6aaf01ffd856241a2b80e83fec7e7e3a7dc9460117294ab5e72fece75122; path=/"
       }
     }
   ]

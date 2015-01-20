@@ -39,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d59bfc10366681c1b99c8d1f40ffdc8001421747213; expires=Wed, 20-Jan-16 09:46:53 GMT; path=/; domain=.thegrommet.com; HttpOnly"
+        "content": "__cfduid=d583657dd9202268f67f55748ecffdc4d1421750813; expires=Wed, 20-Jan-16 10:46:53 GMT; path=/; domain=.thegrommet.com; HttpOnly"
       }
     },
     {
@@ -47,6 +47,13 @@
       "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "varnish-cacheable",
+        "content": "1"
       }
     },
     {
@@ -73,15 +80,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-purge-url",
-        "content": "/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-varnish",
-        "content": "205393722 205353190"
+        "name": "grommet-fetch",
+        "content": "Cached"
       }
     },
     {
@@ -94,15 +94,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "varnish-cacheable",
-        "content": "1"
+        "name": "x-purge-url",
+        "content": "/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "grommet-fetch",
-        "content": "Cached"
+        "name": "x-varnish",
+        "content": "205400480 205353190"
       }
     },
     {
@@ -115,15 +115,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cf-railgun",
-        "content": "65a1ba537b 0.11 0.073820 0031 5360"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cf-ray",
-        "content": "1aba58f351750932-DFW"
+        "content": "1abab0db361d0932-DFW"
       }
     }
   ]

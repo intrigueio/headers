@@ -31,6 +31,27 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Wed, 20-Jan-2016 10:41:52 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CToPc2Vzc2lvbl9pZCIlOWQ3NGFiNjgwNzQ1ZTExZTNiOWNkMWNjNjU0ZWFiYmI6CmFza2ZtewA6EG9sZF9nZXRfdXJsIgYvOhBfY3NyZl90b2tlbiIxNEM1NzUyUEJTVy9VN2VQQXZwOVNOOWlIVDlEV1l4dnlhMlRXcFJYd0VRWT0%3D--90e7e5f840f688cd3b15afb11e9d82aa4c2b1aea; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
       }
@@ -40,27 +61,6 @@
       "attributes": {
         "name": "x-xss-protection",
         "content": "1; mode=block"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Wed, 20-Jan-2016 09:41:39 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CToQb2xkX2dldF91cmwiBi86D3Nlc3Npb25faWQiJWQ3NzY0YTdlM2RiNmRkYzlkZWZjMDY3ODEzNjkxZDAwOgphc2tmbXsAOhBfY3NyZl90b2tlbiIxRU5KQU1XcnB4RGpQV0ZDb2s2MDAvTklKelN5SURIM0t6SkdkL2Jlb0s1QT0%3D--d27a8a9955e18ad24bf950abcfff4fd826b3dc3b; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
       }
     },
     {

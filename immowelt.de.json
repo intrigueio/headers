@@ -45,15 +45,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-akamai-transformed",
+        "content": "9 110090 0 pmb=mRUM,1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "iwUserProfile=840efb8445a545a98b860af64c2fe8b5; domain=immowelt.de; expires=Mon, 20-Jan-2020 09:44:20 GMT; path=/, IwAGSessionId=e2d6e73c-0e8d-f3e4-bb1f-8bb6fa3f9afa; path=/; HttpOnly"
+        "content": "iwUserProfile=050e4452600242eeb23e72ba1b9c748a; domain=immowelt.de; expires=Mon, 20-Jan-2020 10:44:27 GMT; path=/, IwAGSessionId=4e1945a0-9741-392d-1f00-b5cd4db684f2; path=/; HttpOnly"
       }
     }
   ]
