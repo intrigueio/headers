@@ -11,7 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache"
+        "content": "public, max-age=180"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cn-origin",
+        "content": "IP-0A6401C8"
       }
     },
     {
@@ -24,8 +31,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "last-modified",
+        "content": "Tue, 20 Jan 2015 08:53:48 GMT"
       }
     },
     {
@@ -33,13 +40,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-aspnet-version",
-        "content": "4.0.30319"
       }
     },
     {
