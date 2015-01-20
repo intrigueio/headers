@@ -24,15 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "status",
-        "content": "503 Service Temporarily Unavailable"
+        "name": "p3p",
+        "content": "CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\", CP=\"CAO DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CON OUR LEG UNI\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "cache-control",
+        "content": "no-cache, no-store, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -45,8 +52,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "deb088d138aa52ddbeb48990e3e58a5e=6qbcrmhtnbsa0ctc5f1ht1sb63; path=/; domain=.pch.com, pdd=aD14709; expires=Wed, 20-Jan-2016 07:41:44 GMT; path=/; domain=.pch.com, pci=nigtdk40Derq78jb; expires=Wed, 20-Jan-2016 07:41:44 GMT; path=/; domain=.pch.com"
       }
     }
   ]
