@@ -38,6 +38,20 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-xss-protection",
         "content": "1; mode=block"
       }
@@ -52,20 +66,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIUSFRUUF9VU0VSX0FHRU5UIi0xOGU0MGUxNDAx%0AZWVmNjdlMWFlNjllZmFiMDlhZmI3MWY4N2ZmYjgxIhlIVFRQX0FDQ0VQVF9M%0AQU5HVUFHRSItZGEzOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4%0AMDcwOSIPc2Vzc2lvbl9pZCJFZDE3MGM5Nzg1ZWU4NmNjOTU4YzBlMTAyYjAw%0AOTU3ODM2MDAzNmQ1M2IwZmM0ZmMyNjk4YWY4NTAwYTIxM2E3ZSIJY3NyZiIl%0ANGQ0NTdmMTg0YjgzZDcxMWY0YTc3ZDNlODcwNjY2YmY%3D%0A--01f34230168693742f86ce49fe73cf6cd577f043; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
         "content": "Hsoub Nginx"
       }
@@ -73,8 +73,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "set-cookie",
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIJY3NyZiIlNzExZjkyODE3OTg0MDAxNzI4NGEyNDY4YzkzMGU0NTci%0ADXRyYWNraW5newciGUhUVFBfQUNDRVBUX0xBTkdVQUdFIi1kYTM5YTNlZTVl%0ANmI0YjBkMzI1NWJmZWY5NTYwMTg5MGFmZDgwNzA5IhRIVFRQX1VTRVJfQUdF%0ATlQiLTE4ZTQwZTE0MDFlZWY2N2UxYWU2OWVmYWIwOWFmYjcxZjg3ZmZiODEi%0AD3Nlc3Npb25faWQiRTgwOWE2Y2QzNTc2MDRmZTU1NGE2ZGUxMjY0NTY3NDE1%0AODFiMGJjZDkzZDY4ZDg4YzMzMjA2YzcyOGY5YzEyYzg%3D%0A--5faf7f9265b8d7b5c2bacaa1d2b49a80b80f24fd; path=/; HttpOnly"
       }
     }
   ]

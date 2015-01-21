@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "max-age=300"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -17,8 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-squid-error",
-        "content": "ERR_CANNOT_FORWARD 11"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
