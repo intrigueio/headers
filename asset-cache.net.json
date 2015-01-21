@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Microsoft-IIS/7.5"
+        "content": "Microsoft-IIS/7.5, Apache/2.2.15 (CentOS)"
       }
     },
     {
@@ -31,15 +31,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-aspnetmvc-version",
-        "content": "4.0"
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1, IE=edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "44dcacbeeb017245d3309ebc968438ca"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.197527"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "nncoection",
+        "content": "close"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-powered-by",
-        "content": "ASP.NET"
+        "content": "Phusion Passenger 4.0.38, ASP.NET"
       }
     },
     {
@@ -47,13 +82,6 @@
       "attributes": {
         "name": "p3p",
         "content": "CP=CURa ADMa DEVa CUSa TAIa PSAa CONa OUR UNR IND DSP NON COR"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-ua-compatible",
-        "content": "IE=edge,chrome=1"
       }
     },
     {
@@ -81,21 +109,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "nmusisc=; expires=Thu, 21-Jan-1965 14:53:35 GMT; path=/, vis=vid=121d7ef0-4fd7-42a8-b1ce-5208e106d513; domain=gettyimages.com; expires=Sun, 21-Jan-2035 14:53:35 GMT; path=/, gig=Country=USA; domain=gettyimages.com; expires=Sun, 15-Jan-2040 14:53:35 GMT; path=/, mrn=GU=d667282f-e572-4a9d-8570-bfecc58e5d3d; domain=gettyimages.com; expires=Fri, 27-Mar-2015 13:53:35 GMT; path=/, giu=NV=1&LV=1%2f21%2f2015+6%3a53%3a35+AM; domain=gettyimages.com; expires=Mon, 20-Jan-2020 14:53:35 GMT; path=/, uc=TI=MV7ON8TO4rmMPE%2bwmAAHQMGYAkRVgaxf%2bSwNq%2b7KgkhJ1QPOCikyWrJ%2fwqR15kNbP5UTYyj8wqeL27LiOEgAE%2bwjg6mxxDJzmgCL8dMrX5eaB7A1AG9T45NakLFUmRKmF%2fDXane7KpV6ubWTkMBMCekCVxHSWPibOQPolB5Sw%2bA%3d%7c77u%2fblVBUWxkUyswRTFYWVlPN1dzLzIKMTAwCgo4RTZoQnc9PQorRldoQnc9PQowCgoxMDQuMjM3LjEzMy44MwowCjEwMAoKMTAwCjAKMTIxZDdlZjAtNGZkNy00MmE4LWIxY2UtNTIwOGUxMDZkNTEzCgo%3d%7c3*CFHuEDKp8pVSK61a744MNi01hVcPnppIXMNQ0WgMvZkogsdVGPY6i%2fIJ%2f%2bWMQ%2bvt*CFHuEDKp8pVSK61a744MNr0l1pgaGjjCZVdXBSzHveiYQtlgRxGK6gLbB%2b3542jn&UI=XsxJZRbB2P69bicsJ%2biOeybVgGP5NHWC7LGknTUfnzg%3d; domain=gettyimages.com; expires=Mon, 20-Jan-2020 14:53:35 GMT; path=/, auth=; domain=gettyimages.com; expires=Mon, 21-Jan-1985 14:53:35 GMT; path=/, gilp=; expires=Thu, 21-Jan-1965 14:53:35 GMT; path=/, gisi=; expires=Thu, 21-Jan-1965 14:53:35 GMT; path=/, gisp=; expires=Thu, 21-Jan-1965 14:53:35 GMT; path=/, trk=; expires=Thu, 21-Jan-1965 14:53:35 GMT; path=/, ASP.NET_SessionId=s3k4nozwccveaynv3pqdyiuv; domain=gettyimages.com; path=/; HttpOnly, tg=Language=en-US; domain=gettyimages.com; expires=Sun, 15-Jan-2040 14:53:35 GMT; path=/, ttSessionHist=ttPruned=1; domain=gettyimages.com; path=/, UnsupportedBrowser=APPROVED=1; domain=gettyimages.com; path=/"
+        "content": "unisess=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTc3YWIyYzU5NGFkYjM5YWI5NjNjMzg4ZDA2MThlZjA1BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMU0rMzlweGMwdE8yWW5tNUVvWnVuelU0YXU1THJoNWxwR3NYbGs0VGVwaVE9BjsARg%3D%3D--e1868d36e655875ea26f57f62fbcfe13e90220e9; domain=.gettyimages.com; path=/; HttpOnly, vis=vid=736022b2-1242-4696-bf29-ba6ee6c9eda1; domain=gettyimages.com; expires=Sun, 21-Jan-2035 15:53:20 GMT; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, no-store"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "content": "private"
       }
     }
   ]
