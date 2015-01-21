@@ -10,15 +10,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Microsoft-IIS/6.0"
+        "name": "cache-control",
+        "content": "private"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": ""
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Microsoft-IIS/6.0"
       }
     },
     {
@@ -45,15 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private"
+        "name": "set-cookie",
+        "content": "DizoAnonymousUser=UserID=3f2ed920-d91d-42d7-9733-19a2b1ef955c; domain=dizo.com.cn; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     }
   ]

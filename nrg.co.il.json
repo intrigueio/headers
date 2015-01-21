@@ -11,28 +11,56 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "AkamaiGHost"
+        "content": "Apache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "mime-version",
-        "content": "1.0"
+        "name": "x-ua-compatible",
+        "content": "IE=EmulateIE7"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=windows-1255"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, no-cache, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive, Transfer-Encoding"
       }
     }
   ]
