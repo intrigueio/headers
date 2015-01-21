@@ -38,15 +38,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "Test=ex4mgbregf4twqjmwb1mm0uy; path=/; HttpOnly"
+        "content": "Test=gmc2kslqqzolpz3zwixmhbj5; path=/; HttpOnly"
       }
     }
   ]

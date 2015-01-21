@@ -59,15 +59,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ASP.NET_SessionId=fejrfntuygnvqz1pvptv1dfn; domain=fragrancex.com; path=/; HttpOnly, ASP.NET_SessionId=fejrfntuygnvqz1pvptv1dfn; domain=fragrancex.com; path=/; HttpOnly, CartGuid=20d34c32-bbe6-4b71-a960-4b867438c239; domain=fragrancex.com; expires=Fri, 20-Feb-2015 04:51:35 GMT; path=/"
+        "content": "ASP.NET_SessionId=mnoguc1zwvqcl1konv1kxyzb; domain=fragrancex.com; path=/; HttpOnly, ASP.NET_SessionId=mnoguc1zwvqcl1konv1kxyzb; domain=fragrancex.com; path=/; HttpOnly, CartGuid=7bd06f92-97ae-44cc-a259-27e4a2c84538; domain=fragrancex.com; expires=Fri, 20-Feb-2015 05:51:23 GMT; path=/"
       }
     }
   ]
