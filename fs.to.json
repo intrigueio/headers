@@ -38,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=8c308d3be9361994af4c81d7faec176d; path=/, vs=68ed8553aea2cfc5; expires=Fri, 20-Jan-2017 11:49:05 GMT; path=/; domain=.brb.to, ppu=FXsk.1bsbhoc1dslt1.9377d20b440b9937240f15d5ad511969; expires=Thu, 21-Jan-2016 11:49:05 GMT; path=/, pph=4e8c232e5e18c262ed96344185ddf849; expires=Thu, 21-Jan-2016 11:49:05 GMT; path=/, ppr=Lw%3D%3D; expires=Fri, 20-Feb-2015 11:49:05 GMT; path=/, pprh=YnJiLnRv; expires=Fri, 20-Feb-2015 11:49:05 GMT; path=/, pprf=%7C; expires=Fri, 20-Feb-2015 11:49:05 GMT; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
         "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
@@ -54,6 +47,13 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-proxy-cache",
+        "content": "EXPIRED"
       }
     }
   ]

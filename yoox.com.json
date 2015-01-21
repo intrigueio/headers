@@ -38,15 +38,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "VISIT=TSKAY=3FD17CD7&NAZIONE=UNITED+STATES&ID%5FNAZIONE=38&ID%5FMERCATO=19&SIGLA%5FVALUTA=%24&CURRENCYCODE=USD&REFERENCE%5FCURRENCYCODE=USD&CAMBIO%5FEURO=1&ID%5FMERCATO%5FPER%5FLISTINO=19&MERCATO%5FPATH=%2fus%2f&VALUTA%5FID=22&DYN%5FPATH=%2fus%2f&SITE%5FCODE=YOOX_US&EUR%5FEXCHANGE%5FRATE=0.78444&ANONYMOUS%5FCHECKOUT=True&NAZIONE%5FISO=US&WAREHOUSES=70%2c413%2c439%2c594%2c691%2c744%2c1111%2c1446%2c1923%2c2787%2c2805%2c4112%2c4134%2c4625%2c4800%2c5551%2c4098%2c2775%2c1918%2c1441%2c1106%2c739%2c686%2c589%2c434%2c271%2c408&TWOLETTERISOCODE=EN; domain=yoox.com; path=/, USERINFO=SESSO=D&SESSOBAMBINO=D; domain=yoox.com; expires=Tue, 20-Jan-2015 11:48:12 GMT; path=/, OLDVISIT=1; domain=yoox.com; expires=Fri, 31-Dec-9999 23:59:59 GMT; path=/, SESSIONS=FIRSTTIMEUSER=1; domain=yoox.com; path=/, TS019ba4a1=01a1c9e334905752f22043b3c08091804302cc95d029468380bc0b405b412435fc3e2972f1; Path=/, TS01186779=01a1c9e3344e4c7f5418741ae91b51ab2028ebef3b40f367579d6f5b80284c7df71a9c13bad60ed29e0f93612c1616aa479e2427c02d17279d6bebf40339c27706846b1fbd450aba391434aceb178957a1c99782618199d4b861efc975ce161a618311df82; path=/; domain=yoox.com"
+        "content": "VISIT=TSKAY=3FD17CD7&NAZIONE=UNITED+STATES&ID%5FNAZIONE=38&ID%5FMERCATO=19&SIGLA%5FVALUTA=%24&CURRENCYCODE=USD&REFERENCE%5FCURRENCYCODE=USD&CAMBIO%5FEURO=1&ID%5FMERCATO%5FPER%5FLISTINO=19&MERCATO%5FPATH=%2fus%2f&VALUTA%5FID=22&DYN%5FPATH=%2fus%2f&SITE%5FCODE=YOOX_US&EUR%5FEXCHANGE%5FRATE=0.78444&ANONYMOUS%5FCHECKOUT=True&NAZIONE%5FISO=US&WAREHOUSES=70%2c413%2c439%2c594%2c691%2c744%2c1111%2c1446%2c1923%2c2787%2c2805%2c4112%2c4134%2c4625%2c4800%2c5551%2c4098%2c2775%2c1918%2c1441%2c1106%2c739%2c686%2c589%2c434%2c271%2c408&TWOLETTERISOCODE=EN; domain=yoox.com; path=/, USERINFO=SESSO=D&SESSOBAMBINO=D; domain=yoox.com; expires=Tue, 20-Jan-2015 12:48:25 GMT; path=/, OLDVISIT=1; domain=yoox.com; expires=Fri, 31-Dec-9999 23:59:59 GMT; path=/, SESSIONS=FIRSTTIMEUSER=1; domain=yoox.com; path=/, TS019ba4a1=01a1c9e3342fe02d637676f2337b634a59f7d0058931bd0ff6d1cb89d7ca489735f7ca89f0; Path=/, TS01186779=01a1c9e3342f5c7269e1f1eabc8d7d05ce9bc9ac8340d231cf4b1b3f43a7e80f90262ad9e236cc4b6d542df668f9a1c3e98969aa01ac4e19409dba931b8287fe79e1b32f1924cb0fc137a88530ac37e8f5b7cf780b2474dcfb383c030be2933f5a55dcf9df; path=/; domain=yoox.com"
       }
     }
   ]
