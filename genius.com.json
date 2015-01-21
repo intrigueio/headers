@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d305583b457c44bed0b4235934bf9e1a01421876991; expires=Thu, 21-Jan-16 21:49:51 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=NnKUNtqWPGsgA0%2FHkLOdAzbLPNWrSTeC14VYNzjF0T8%3D; domain=genius.com; path=/; expires=Thu, 21-Jan-2016 21:49:51 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMU5uS1VOdHFXUEdzZ0EwL0hrTE9kQXpiTFBOV3JTVGVDMTRWWU56akYwVDg9Og9zZXNzaW9uX2lkIiU1Yzc2YjQ3YjA0MWMzZjc5ZmY2MWMzZDU5ZTAyMzk2Yw%3D%3D--563bb06a05a01811f681ee8c375bb966c9f44746; domain=.genius.com; path=/; HttpOnly"
+        "content": "__cfduid=da540e26f09c29c28d4b7b5cec6bdd8611421880602; expires=Thu, 21-Jan-16 22:50:02 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=0wGwt5r04ssatW8sO8Fg1ewgKLS0B%2BgiZWRF0RW6PCM%3D; domain=genius.com; path=/; expires=Thu, 21-Jan-2016 22:50:02 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMTB3R3d0NXIwNHNzYXRXOHNPOEZnMWV3Z0tMUzBCK2dpWldSRjBSVzZQQ009Og9zZXNzaW9uX2lkIiVkODkyYTM0NzZmZmQ3N2IxY2RhNDVkNzVlYTlkMzAxMA%3D%3D--360e560378c70ff139e6bd8a5ad6c6f25cf9b912; domain=.genius.com; path=/; HttpOnly"
       }
     },
     {
@@ -40,6 +40,20 @@
       "attributes": {
         "name": "status",
         "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "X-Requested-With"
       }
     },
     {
@@ -53,14 +67,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "W/\"2cdb58f4035b8a55269c5e874c23ba38\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-runtime",
-        "content": "24"
+        "content": "W/\"2e44e7920db57796132a59eb670c2c83\""
       }
     },
     {
@@ -73,15 +80,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "X-Requested-With"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
+        "name": "x-runtime",
+        "content": "15"
       }
     },
     {
@@ -102,7 +102,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1ac6b95a3a71118f-DFW"
+        "content": "1ac71184aa951189-DFW"
       }
     }
   ]
