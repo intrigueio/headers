@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private"
+        "name": "server",
+        "content": "nginx/1.1.19"
       }
     },
     {
@@ -24,6 +24,20 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -31,15 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Microsoft-IIS/7.5"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "set-cookie",
-        "content": "_sc=pfh3mpwjvo2isumhquujig2p; path=/; HttpOnly, _md=0; path=/; HttpOnly, _vs=1692a2fe-e446-4d62-8aab-8d8d298b8a7e; expires=Tue, 10-Feb-2015 13:49:45 GMT; path=/; HttpOnly"
+        "content": "_sc=u3qakpb4g02rphuxql3cdvp0; path=/; HttpOnly, _md=0; path=/; HttpOnly, _vs=ebcfb0aa-01b8-4f6e-bdb1-3eb5f614a1ec; expires=Tue, 10-Feb-2015 14:49:53 GMT; path=/; HttpOnly"
       }
     }
   ]
