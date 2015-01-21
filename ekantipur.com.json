@@ -17,6 +17,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "max-age=7200, public, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "last-modified",
         "content": "Thu, 22 Jan 2015 02:40:10 +0545 GMT"
       }
@@ -33,13 +40,6 @@
       "attributes": {
         "name": "x-ua-compatible",
         "content": "IE=EmulateIE7"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "max-age=7200, public, must-revalidate"
       }
     },
     {

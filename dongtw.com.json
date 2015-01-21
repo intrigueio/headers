@@ -52,22 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache, must-revalidate, max-age=0"
+        "name": "x-pingback",
+        "content": "http://www.dongtw.com/xmlrpc.php"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "retry-after",
-        "content": "3600"
+        "name": "link",
+        "content": "<http://www.dongtw.com/>; rel=shortlink"
       }
     }
   ]

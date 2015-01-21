@@ -53,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-drupal-cache",
-        "content": "MISS"
+        "content": "HIT"
       }
     },
     {
@@ -74,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "2031809573 2031809297"
+        "content": "1206284840 1206284267"
       }
     },
     {
@@ -87,8 +87,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "0"
+        "name": "x-akamai-transformed",
+        "content": "9 - 0 pmb=mRUM,1"
       }
     },
     {
@@ -102,14 +102,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public, max-age=7079"
+        "content": "public, max-age=8237"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     }
   ]
