@@ -17,15 +17,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-ua-compatible",
-        "content": "IE=EDGE, chrome=1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "etag",
-        "content": "\"d6a1b7fd131dbd7869c9179077403997\""
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
       }
     },
     {
@@ -39,14 +32,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "14"
+        "content": "13"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
+        "name": "etag",
+        "content": "\"c496061e16ad95531719e7ef753882d0\""
       }
     },
     {
@@ -59,8 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=EDGE, chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "_bandsintown_session=4cfb577490321e81167f8244ec4312d0; path=/; HttpOnly"
+        "content": "_bandsintown_session=a6f96465c7bbafd74d9a2f774e76e1f6; path=/; HttpOnly"
       }
     },
     {
@@ -75,6 +75,13 @@
       "attributes": {
         "name": "connection",
         "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

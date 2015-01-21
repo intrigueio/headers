@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "public, s-maxage=300, max-age=120"
       }
@@ -32,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1421828060-0+ident+gzip\""
+        "content": "\"1421828060-0\""
       }
     },
     {
@@ -81,7 +88,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-hits",
-        "content": "HIT (1)"
+        "content": "MISS"
       }
     },
     {
@@ -116,14 +123,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-trace",
-        "content": "1B252D8BB8D63982E1D3561766A23B6827B0B13A96095868EFA37B6FFA"
+        "content": "1BF0431E382F18C15627B0EE0EA70FF5833DB91E9980C95C2B1F887601"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1687738751 1687738730"
+        "content": "1997367204"
       }
     }
   ]

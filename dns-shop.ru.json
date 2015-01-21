@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.0.15"
+        "content": "nginx/1.6.2"
       }
     },
     {
@@ -32,7 +32,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -46,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=dr30mjoalms87mj6452o6sec32; path=/; domain=.frau-technica.ru; HttpOnly, PHPSESSID=43mh5evifcd2duhc371s75tot4; path=/; domain=.frau-technica.ru; HttpOnly, options_city=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0, options_local=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0, dns_user=1_3cfcee938e6326ec895be1f65c6a733a0f93101a; expires=Thu, 21-Jan-2016 08:47:18 GMT; Max-Age=31536000; path=/; domain=.frau-technica.ru; httponly, city_path=vladivostok; expires=Thu, 21-Jan-2016 14:36:04 GMT; Max-Age=31556926; path=/; domain=.frau-technica.ru"
+        "content": "PHPSESSID=g892sjd9pv9g55upsttr5aofn4; path=/; domain=.dns-shop.ru; HttpOnly, PHPSESSID=atfcevtoqgnq0gq9pb2b214bc7; path=/; domain=.dns-shop.ru; HttpOnly, options_city=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0, options_local=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0, dns_user=1_a5095ddfeb6df588501dfce81b86b2e56c674ef2; expires=Thu, 21-Jan-2016 09:47:27 GMT; Max-Age=31536000; path=/; domain=.dns-shop.ru; httponly, city_path=vladivostok; expires=Thu, 21-Jan-2016 15:36:13 GMT; Max-Age=31556926; path=/; domain=.dns-shop.ru"
       }
     },
     {

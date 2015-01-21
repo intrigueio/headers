@@ -10,8 +10,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private, post-check=0, pre-check=0, max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -19,6 +33,34 @@
       "attributes": {
         "name": "server",
         "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "abgroup=gridgroup; expires=Thu, 21-Jan-2016 08:00:00 GMT; path=/; domain=.slickdeals.net, fp_style=grid; expires=Thu, 21-Jan-2016 08:00:00 GMT; path=/, bbsessionhash=de76460f03cc22634a8a4888dbc8f7af; path=/; domain=.slickdeals.net; HttpOnly, auuid=651a1802a15211e4a8fbfeacace6049c; expires=Thu, 21-Jan-2016 09:46:38 GMT; path=/; domain=.slickdeals.net, bbnps_tracking=%7B%22last_reset%22%3A1421833598%7D; path=/; domain=.slickdeals.net, bbnps_auuid=651a1802a15211e4a8fbfeacace6049c; path=/; domain=.slickdeals.net, bblastactivity=1421833598; expires=Thu, 21-Jan-2016 09:46:38 GMT; path=/; domain=.slickdeals.net, abt_new=1421833598; expires=Thu, 21-Jan-2016 09:46:38 GMT; path=/; domain=.slickdeals.net, abt_uuid=f94a93c879f24ff583654c036eb9b78a; expires=Thu, 21-Jan-2016 09:46:38 GMT; path=/; domain=.slickdeals.net, bbvisitday=20150121; expires=Fri, 20-Feb-2015 09:46:38 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

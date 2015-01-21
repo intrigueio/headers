@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, no-store,no-transform"
+        "content": "max-age=0, no-cache, no-store, no-transform"
       }
     },
     {
@@ -24,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -38,15 +31,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": ".ASPXANONYMOUS=quMNEOlr0AEkAAAAZjNlNzY5MDctYmJkNS00MDc3LTljYTMtN2RkMWMwZDkxMTk10; expires=Tue, 31-Mar-2015 19:29:53 GMT; path=/; HttpOnly, ASP.NET_SessionId=eyy2g0ddpdrukfkpsa3epjqm; path=/; HttpOnly, CO=4232805368; path=/; HttpOnly"
+        "name": "p3p",
+        "content": "CP=\"This is not a P3P policy. See http://www.thetrainline.com/buytickets/terms.aspx for more info\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "p3p",
-        "content": "CP=\"This is not a P3P policy. See http://www.thetrainline.com/buytickets/terms.aspx for more info\""
+        "name": "set-cookie",
+        "content": ".ASPXANONYMOUS=GINSdPFr0AEkAAAAMWIwNjJlY2ItNTM2Ny00OGYzLTkyMDktMDBiNzI3MDY5YzE00; expires=Tue, 31-Mar-2015 20:29:57 GMT; path=/; HttpOnly, ASP.NET_SessionId=cuz0ew3mt45wwtlqsenukbu0; path=/; HttpOnly, CO=4232909909; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "rtss",
+        "content": "1-1-90"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-amps",
+        "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
       }
     }
   ]
