@@ -11,14 +11,42 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Varnish"
+        "content": "Cowboy"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "retry-after",
-        "content": "0"
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "chrome=1"
       }
     },
     {
@@ -31,6 +59,41 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "etag",
+        "content": "\"bfbffa18d984ad203f4553efffa73889\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "eba9d4cc-76ad-46c4-9a50-37e8b1f5398b"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.131058"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 vegur, 1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "accept-ranges",
         "content": "bytes"
       }
@@ -38,15 +101,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "via",
-        "content": "1.1 varnish"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-served-by",
-        "content": "cache-ord1731-ORD"
+        "content": "cache-dfw1824-DFW"
       }
     },
     {
@@ -66,15 +122,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "_p=9f91bc91e6fdda3a9ba5850b35830632; Path=/; Max-Age=315360000; Domain=getpebble.com"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "set-cookie",
+        "content": "_PebbleFrontend_session=Qy9ydlROMGtOMGRVMFhoZE5yalVLa3FIZGhSQnRPb252VTA5TnhKbmZCV2V3WE96NjlEbjIvQXJnT01vckpGSnpXMjZJRUdhWUtIY2Rlc1NmeC9VdENlZGV5M0poTS9pTXpHd3h1dEowc0loNlpHQlBqREJzSVZiWFl3MHh1UmYwWFNPOFBmZjVUeDhvOXl5K2swY21EUHN1VnVhbGFBcVlFZC9OOUNockV6eEtHQzNMMUw1SW1IeVJwYmhGa1dFUE1ITlB3K1VLcFhqRE1UenNhMTFOY25IRGtBYzVuL2VtLzBYdzFXM0JHZWFzT3VGWWxDckZuSm9kSW9ORUs2TFpPU2lzV3RQV3BweWFTWEZUUUlyNGJ1NzhDRy9Ld2trZWt5K2V1R3NZZXM9LS1TSXA5SUlBVHkvaytCZktMdGhwSU5BPT0%3D--dc454d5bdba028dba21ef17303ddbc6250b7dfb3; path=/; HttpOnly, _p=9ec8f907c383be356201ded2ac01e7e0; Path=/; Max-Age=315360000; Domain=getpebble.com"
       }
     }
   ]
