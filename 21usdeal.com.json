@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,43 +38,64 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,Cookie"
+        "name": "x-w3tc-minify",
+        "content": "On"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Wed, 21 Jan 2015 16:46:45 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "etag",
-        "content": "\"8e90-50d2c4d0bed88\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "pragma",
+        "content": "public, no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=188, public, must-revalidate, proxy-revalidate"
+        "content": "max-age=600, public, must-revalidate, proxy-revalidate, private, no-cache, no-store, proxy-revalidate, no-transform"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "a351790e4c3dfe151ab2ef44f3402df0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-powered-by",
-        "content": "W3 Total Cache/0.9.2.11"
+        "content": "W3 Total Cache/0.9.2.11, PleskLin"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pingback",
+        "content": "http://www.21usdeal.com/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "qtrans_cookie_test=qTranslate+Cookie+Test; path=/; domain=www.21usdeal.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Wed, 21 Jan 2015 17:53:47 GMT"
       }
     },
     {
@@ -75,13 +103,6 @@
       "attributes": {
         "name": "ms-author-via",
         "content": "DAV"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
-        "content": "public"
       }
     }
   ]

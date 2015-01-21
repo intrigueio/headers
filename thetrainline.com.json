@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=0, no-cache, no-store, no-transform"
+        "content": "no-cache, no-store,no-transform"
       }
     },
     {
@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -31,43 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": ".ASPXANONYMOUS=iq8TvTRs0AEkAAAAMmNmMTcxMzMtZWU1Ni00NWRmLWEyMDgtMzRlNWQ5ZjY2OWI00; expires=Wed, 01-Apr-2015 04:31:36 GMT; path=/; HttpOnly, ASP.NET_SessionId=kioiwpq1wkcrkjccst3ooqvg; path=/; HttpOnly, CO=4233916698; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "p3p",
         "content": "CP=\"This is not a P3P policy. See http://www.thetrainline.com/buytickets/terms.aspx for more info\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": ".ASPXANONYMOUS=KWvEWCxs0AEkAAAAYmViY2VhOWMtZjYwMy00MDY3LWE2NTMtOGRlN2MwNThhMDgy0; expires=Wed, 01-Apr-2015 03:31:31 GMT; path=/; HttpOnly, ASP.NET_SessionId=bbo1yea02sdbktwow5uqoj35; path=/; HttpOnly, CO=4233772416; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "rtss",
-        "content": "1-1-95"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-amps",
-        "content": "1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
       }
     }
   ]

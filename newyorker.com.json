@@ -11,49 +11,42 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Varnish"
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "link",
+        "content": "<http://www.newyorker.com/>; rel=shortlink"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "*"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "retry-after",
-        "content": "5"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "x-cacheable",
+        "content": "NO:Not Cacheable"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1872235153"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "via",
-        "content": "1.1 varnish"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-cnection",
-        "content": "close"
+        "content": "1872407050"
       }
     },
     {
@@ -61,6 +54,34 @@
       "attributes": {
         "name": "varnish-x-cache",
         "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=88"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
       }
     }
   ]
