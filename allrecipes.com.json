@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -17,8 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "retry-after",
-        "content": "3600"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -31,15 +38,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "maintenancemodemodule-version",
-        "content": "0.3.0.0"
+        "name": "set-cookie",
+        "content": "ARLocal=***; domain=.allrecipes.com; path=/, ASP.NET_SessionId=ex5uu0ug132u5y0ba4xgwpri; path=/; HttpOnly, SERef=0; domain=.allrecipes.com; path=/, armsg=; domain=.allrecipes.com; expires=Tue, 20-Jan-2015 08:46:33 GMT; path=/, ARCookingSchoolLink=True; domain=.allrecipes.com; path=/, ARYieldbot=True; domain=.allrecipes.com; path=/, ARPubmaticForIE=True; domain=.allrecipes.com; path=/, ARGptRefactorForPubmatic=True; domain=.allrecipes.com; path=/, RVR=; domain=.allrecipes.com; expires=Sat, 21-Feb-2015 08:46:33 GMT; path=/, RVR=; domain=.allrecipes.com; expires=Tue, 20-Jan-2015 08:46:33 GMT; path=/, ARSiteUser=1-7602f010-9bb7-458d-8080-0bcca0a6ed8f; domain=.allrecipes.com; expires=Thu, 21-Jan-2016 08:46:33 GMT; path=/, ARCompressedSession=nAEAAB+LCAAAAAAABACNkLtSwzAQRf9FNY4VhiQmXRqYFNAQqNzI0treifWYXSkMw/jfke0MoaS8d++efYjvWiQGOrrW12KfFViFw8EYAubs1KIWd7UwyGFQX6/Kws0M5Fsc4GhVB0tz7JNtXAa80zDn+hjDvixxivDKgkFVqGEg0Biyob0tFZXRB6cupfMB9Uaugutm/i/tDXQi+MvkDOXZvaL/Bx0zlVMIniK67gVsA8Q9hmV7nTh6m8ec/Bnc9c5x6tHenxFuT1r0c0Izp9bFbivvW7mWxWPT7IqHTWWKSlaykI3WSqotmKpdxgeCC8LnxJkk8hMSxxNa+EDG6ClXIiUYxQ8iTEibnAEAAA==; domain=.allrecipes.com; path=/, ARFirstImpressionAdTargeting=True; domain=.allrecipes.com; path=/, ARRenderLanguageVariations=True; domain=.allrecipes.com; path=/, ARMdotBanner=False; domain=.allrecipes.com; path=/, FirstImpression=False; domain=.allrecipes.com; expires=Thu, 22-Jan-2015 08:46:33 GMT; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "maintenancemodemodule-builddate",
-        "content": "2012.06.18 05:56:22 PM -07:00"
+        "name": "x-powered-by",
+        "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "machinename",
+        "content": "usseawb10"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge"
       }
     }
   ]
