@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Sucuri/Cloudproxy"
+        "content": "nginx"
       }
     },
     {
@@ -38,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=45"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -46,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "bbsessionhash=7dfba826dde3b970e430ff8416ee6d9b; path=/; HttpOnly, bblastvisit=1421963804; expires=Fri, 22-Jan-2016 21:56:44 GMT; path=/, bblastactivity=0; expires=Fri, 22-Jan-2016 21:56:44 GMT; path=/, bb2_screener_=1421963804+167.114.101.19+104.237.133.83%2C+167.114.101.19; path=/questions/, bbnp_notices_displayed=18; path=/"
+        "content": "bbsessionhash=b04323a6879e40cb6ae753577754ce71; path=/; HttpOnly, bblastvisit=1421967415; expires=Fri, 22-Jan-2016 22:56:55 GMT; path=/, bblastactivity=0; expires=Fri, 22-Jan-2016 22:56:55 GMT; path=/, bb2_screener_=1421967415+104.237.133.83+104.237.133.83; path=/questions/, bbnp_notices_displayed=18; path=/"
       }
     },
     {
@@ -61,27 +68,6 @@
       "attributes": {
         "name": "pragma",
         "content": "private"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
       }
     }
   ]
