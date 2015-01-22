@@ -10,15 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "QRATOR"
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,15 +31,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "keep-alive",
-        "content": "timeout=15"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"53466ba2-728\""
+        "name": "set-cookie",
+        "content": "anonymousUserId=d99ae945-96c7-4ad5-a9ec-d20aea052ff8; Expires=Wed, 13-Jan-2016 07:52:56 GMT; Path=/, JSESSIONID=744DB56397F9254FC5E8AF24DF8C7028.m1-app04; Path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "MSX Turbo R (R800) Web Server 0.46"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "MSX Basic Web Clustered Engine (WCE pi)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge"
       }
     }
   ]

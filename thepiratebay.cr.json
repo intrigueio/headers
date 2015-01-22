@@ -10,15 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "server",
+        "content": "nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "content-type",
+        "content": "text/html"
       }
     },
     {
@@ -31,8 +31,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d0d03c3e71f3571dccd7c0dd6a744082d1421909516; expires=Fri, 22-Jan-16 06:51:56 GMT; path=/; domain=.thepiratebay.cr; HttpOnly"
+        "name": "keep-alive",
+        "content": "timeout=60"
       }
     },
     {
@@ -47,20 +47,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1ac9d36dce5510bd-ORD"
       }
     }
   ]

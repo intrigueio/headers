@@ -31,15 +31,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "JSESSIONID=51D694E9CD3721330BA9A21A5E1E0F49; Path=/, UsrLocale=en_US; Domain=.lululemon.com; Expires=Sat, 21-Feb-2015 06:53:20 GMT; Path=/, Country=US; Domain=.lululemon.com; Expires=Sat, 21-Feb-2015 06:53:20 GMT; Path=/, us_ord=\"xgU7K3AvrkbYxwsNYgpYRg==\"; Version=1; Domain=.lululemon.com; Max-Age=604800; Path=/, isLoggedin=false; Domain=.lululemon.com; Path=/, cartCount=0; Domain=.lululemon.com; Path=/, NSC_mvmvmfnpo_qspe_mc=ffffffff09c943dc45525d5f4f58455e445a4a4229a0;path=/"
+        "content": "JSESSIONID=B4CC21AD55340E1D9AB3613EC86A2C49; Path=/, UsrLocale=en_US; Domain=.lululemon.com; Expires=Sat, 21-Feb-2015 07:53:30 GMT; Path=/, Country=US; Domain=.lululemon.com; Expires=Sat, 21-Feb-2015 07:53:30 GMT; Path=/, us_ord=\"4cegNuE3kDsf9dbvfNlkIA==\"; Version=1; Domain=.lululemon.com; Max-Age=604800; Path=/, isLoggedin=false; Domain=.lululemon.com; Path=/, cartCount=0; Domain=.lululemon.com; Path=/, NSC_mvmvmfnpo_qspe_mc=ffffffff09c943d345525d5f4f58455e445a4a4229a0;path=/"
       }
     }
   ]
