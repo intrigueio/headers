@@ -17,15 +17,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
-        "content": "Microsoft-IIS/8.0"
+        "content": "Microsoft-IIS/8.5"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-aspnet-version",
-        "content": "2.0.50727"
+        "content": "4.0.30319"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnetmvc-version",
+        "content": "4.0"
       }
     },
     {
@@ -38,36 +59,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "x-cache",
+        "content": "Hit from cloudfront"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "public, max-age=290, private"
+        "name": "via",
+        "content": "1.1 780f7a9531c5ea907bf0daf4841c9c9d.cloudfront.net (CloudFront)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "Transfer-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "SERVERID=web01; path=/"
+        "name": "x-amz-cf-id",
+        "content": "2AcS_O01oihpQqheYjKVs-SMXsJkDvhS502SnLj0zzf0QBc2pVEo5Q=="
       }
     }
   ]
