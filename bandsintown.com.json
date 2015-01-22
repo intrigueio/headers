@@ -17,6 +17,20 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -31,22 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "x-runtime",
+        "content": "33"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "status",
-        "content": "500"
+        "name": "etag",
+        "content": "\"1f007df9828c4cce2cd726f3fa575f13\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "_bandsintown_session=79387e64e0f96acd800765e06b0833c9; path=/; HttpOnly"
+        "content": "_bandsintown_session=02ec4b73e550e26a0922cdce2c0490f4; path=/; HttpOnly"
       }
     },
     {

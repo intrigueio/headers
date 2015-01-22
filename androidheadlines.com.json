@@ -10,8 +10,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d9364e57b16aa017336039660fc775d8b1421888075; expires=Fri, 22-Jan-16 00:54:35 GMT; path=/; domain=.androidheadlines.com; HttpOnly, X-Mapping-fjhppofk=02FE5D795E0BFA07109C91FAF82FD986; path=/"
       }
     },
     {
@@ -39,14 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "HIT: 1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "HIT: 9"
       }
     },
     {
@@ -66,29 +80,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "keep-alive",
-        "content": "timeout=20"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-type",
         "content": "default"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
       }
     },
     {
@@ -101,8 +94,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "X-Mapping-fjhppofk=02FE5D795E0BFA07109C91FAF82FD986; path=/"
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1ac7c7f5299a10e1-ORD"
       }
     }
   ]
