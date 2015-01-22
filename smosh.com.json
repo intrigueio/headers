@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d4fe1acebed4474427f169df81ad76c2a1421942057; expires=Fri, 22-Jan-16 15:54:17 GMT; path=/; domain=.smosh.com; HttpOnly, SERVERID=webB; path=/"
+        "content": "__cfduid=d3da637bcee4f6864127a86dc3cdf22571421945663; expires=Fri, 22-Jan-16 16:54:23 GMT; path=/; domain=.smosh.com; HttpOnly, SERVERID=webA; path=/"
       }
     },
     {
@@ -53,14 +53,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-drupal-cache",
-        "content": "HIT"
+        "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Thu, 22 Jan 2015 16:51:32 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "public, max-age=3600, private, private"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "W/\"1421940121-1\""
+        "content": "W/\"1421945492-1\""
       }
     },
     {
@@ -87,20 +101,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "public, max-age=3600, private, private"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Thu, 22 Jan 2015 15:22:01 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Cookie,Accept-Encoding"
       }
@@ -109,7 +109,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "382209443"
+        "content": "560182524 560180074"
       }
     },
     {
@@ -123,7 +123,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish-cache",
-        "content": "MISS"
+        "content": "HIT"
       }
     },
     {
@@ -137,7 +137,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1accede071900107-DFW"
+        "content": "1acd45ee5b610107-DFW"
       }
     }
   ]
