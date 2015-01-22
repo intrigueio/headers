@@ -31,6 +31,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-xss-protection",
         "content": "1; mode=block"
       }
@@ -38,15 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Fri, 22-Jan-2016 17:53:12 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CToQb2xkX2dldF91cmwiBi86D3Nlc3Npb25faWQiJWJlZDJkMmJhNTRlNGQ3OGUxMGY5ZjIzZTY0ZGM5ZjgyOgphc2tmbXsAOhBfY3NyZl90b2tlbiIxeitrSk5wWWUxYVlTNWNyMjNRa0NSNjVpMUE4WlBORDR0eW5LZ1FnTVZodz0%3D--13fc48076a42f70690ec182aa118fddc863a9b71; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
@@ -59,8 +59,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "set-cookie",
+        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Fri, 22-Jan-2016 18:53:24 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, _ask.fm_session=BAh7CToPc2Vzc2lvbl9pZCIlZjIxOTM4Mjk2OGU1MDZjYWM1Nzg5OWRkMGVhYTNjN2M6CmFza2ZtewA6EG9sZF9nZXRfdXJsIgYvOhBfY3NyZl90b2tlbiIxZmxNZW9RaWtyS3ZIcXMvcEt0OWs2ZFVmekJBRm1idkdSR1ZrbEFhYTNucz0%3D--a2be532b4e077c23ffdd3e0b5c8d5b1fb7406a95; path=/; HttpOnly"
       }
     },
     {
