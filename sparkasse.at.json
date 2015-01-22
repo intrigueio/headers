@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0"
+        "content": "public"
       }
     },
     {
@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "GPJSESSIONID=dwb7JQ6Vv151BXdbthn5hbvycFCng0bmdTbpYN1wbYMlQfx8DYRR!-540556449; path=/; HttpOnly"
+        "content": "GPJSESSIONID=8y2bJQLMJZVxlbRhpWhDtGXGvN1hXn2CjwyDNbdgv2RDQyBLnCRv!1951362226; path=/; HttpOnly"
       }
     },
     {
@@ -53,7 +53,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "User-Agent,Accept-Encoding"
+        "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "Keep-Alive"
       }
     },
     {

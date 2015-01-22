@@ -31,15 +31,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding, Accept-Language, Cookie"
+        "name": "server",
+        "content": "gunicorn/18.0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "gunicorn/18.0"
+        "name": "retry-after",
+        "content": "3600"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Language, Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "return-after",
+        "content": "3600"
       }
     },
     {
@@ -53,7 +67,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "sessionid=2wa9joas9gv4i4fo5qib2v55hdv6b964; Domain=.forwallpaper.com; expires=Thu, 05-Feb-2015 08:56:05 GMT; httponly; Max-Age=1209600; Path=/"
+        "content": "sessionid=26ge2gk29ny133q3j0v8s1agdwt36qkr; Domain=.forwallpaper.com; expires=Thu, 05-Feb-2015 09:56:12 GMT; httponly; Max-Age=1209600; Path=/"
       }
     }
   ]
