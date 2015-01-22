@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d491b34c5dcdf77e2dec83ed85276ff071421956462; expires=Fri, 22-Jan-16 19:54:22 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=uDOjf8lYgt4qsfd2WUAX6a1iO34%2BIkhB6m0nxWollEc%3D; domain=genius.com; path=/; expires=Fri, 22-Jan-2016 19:54:22 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMXVET2pmOGxZZ3Q0cXNmZDJXVUFYNmExaU8zNCtJa2hCNm0wbnhXb2xsRWM9Og9zZXNzaW9uX2lkIiU3YTJjNTY2Y2VlM2ZjNDU1MzA5MTI2NTZlMjI1OTc3ZA%3D%3D--12278b61fa90cb2d1db1bb68970588a78e1cad1e; domain=.genius.com; path=/; HttpOnly"
+        "content": "__cfduid=d5b02d500c6d9e603a430db28832f649e1421960073; expires=Fri, 22-Jan-16 20:54:33 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=rNhCY0OURflo924Uxw9nyaRzETXgb619i9CGjntHWNk%3D; domain=genius.com; path=/; expires=Fri, 22-Jan-2016 20:54:33 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMXJOaENZME9VUmZsbzkyNFV4dzlueWFSekVUWGdiNjE5aTlDR2pudEhXTms9Og9zZXNzaW9uX2lkIiU0MTNiN2ViNGRjNjI1NDRhMjIyODRjMDRjNjMxMjVkOA%3D%3D--16a87c1b19545c41b617c71d4517d8e977a9141c; domain=.genius.com; path=/; HttpOnly"
       }
     },
     {
@@ -45,6 +45,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "X-Requested-With"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "private, max-age=0, must-revalidate"
       }
@@ -52,22 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "etag",
+        "content": "W/\"2bd32942f702c02efa31d9397c005a9a\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "17"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "etag",
-        "content": "W/\"d13665dec55047bee3fa9ad6ec12171c\""
+        "content": "15"
       }
     },
     {
@@ -80,8 +80,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "X-Requested-With"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
@@ -102,7 +102,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1ace4d91b14e118f-DFW"
+        "content": "1acea5bc340e1189-DFW"
       }
     }
   ]

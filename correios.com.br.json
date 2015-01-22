@@ -60,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=3600, proxy-revalidate, public, private"
+        "content": "max-age=3600, proxy-revalidate, public"
       }
     },
     {
@@ -73,8 +73,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "serverid-SSVBR0299=SAC1236-08; path=/, sitecorreioscookie=169781440.0.0000; expires=Thu, 22-Jan-2015 20:43:02 GMT; path=/"
+        "name": "x-varnish-beresp-ttl",
+        "content": "3600.000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish-beresp-grace",
+        "content": "3600.000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish-beresp-status",
+        "content": "200"
       }
     },
     {
@@ -88,7 +102,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1512377433 1512192100"
+        "content": "759186626 758868590"
       }
     },
     {
@@ -109,7 +123,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-hits",
-        "content": "495"
+        "content": "753"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "sitecorreioscookie=270444736.0.0000; expires=Thu, 22-Jan-2015 21:43:14 GMT; path=/"
       }
     }
   ]
