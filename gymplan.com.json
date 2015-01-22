@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset: iso-8859-1"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -38,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.3.3"
       }
@@ -46,14 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=a19kkck6in1q9mkoi2g4mloqb3; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        "content": "PHPSESSID=5cl9opphnamgohuefif9ejrb33; path=/"
       }
     },
     {
@@ -61,6 +61,20 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-page-speed",
+        "content": "1.9.32.2-4321"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, no-cache, no-store"
       }
     }
   ]
