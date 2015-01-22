@@ -10,6 +10,27 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.3.27"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=g5vkups29n8sa9bh4mnjnutdr5; path=/; HttpOnly, TS01867d0b=01cae56bff82b767a6ba02b0aa7c26bb1fa130022af2ffbc43b820e7e25167894514f3e65c6ab0f0eee85836cd246f0f43cf5843ef; Path=/, TS01867d0b_28=0136bb3d3324ad9abce09f9f6a92a4e44d5fb91bad54bcab094247ef592e81afede7cd3a0c074c305b1d3c18b819c728de01b657ef; Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "pragma",
         "content": "no-cache"
       }
@@ -17,15 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "connection",
+        "content": "close"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]
