@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -24,15 +17,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Microsoft-IIS/7.0"
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ASPSESSIONIDCSBTTARS=PGAAJBAAMNHGFPDDBEOMMELF; path=/"
+        "content": "__cfduid=d11cfcd2e949cc89172af005fbe2b45501421927574; expires=Fri, 22-Jan-16 11:52:54 GMT; path=/; domain=.star.com.tr; HttpOnly, ASPSESSIONIDAQDQRAQS=IHKHAPPDNCKAHICBHNIDFFHC; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
       }
     },
     {
@@ -40,6 +47,20 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1acb8c4b3cf809a6-ORD"
       }
     }
   ]

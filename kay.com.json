@@ -10,50 +10,71 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache/2.2.15 (Red Hat)"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Fri, 29 Aug 2014 10:21:44 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "etag",
-        "content": "\"155f-501c2051a9548\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "pragma",
+        "content": "No-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, no-store, must-revalidate, proxy-revalidate"
+        "content": "no-cache,no-store,max-age=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "x-dynatrace-js-agent",
+        "content": "true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-dynatrace",
+        "content": "PT=74230118;PA=1383372864;RS=dynaTrace Production Profile/20150122012041_0.session;SP=dynaTrace Production Profile;PS=-391812454"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=0000hwIO6e-n_zySQDF5i_JugOS:15vt87rd4; Path=/, WC_PERSISTENT=h8jOMJ7Xz5mfeaUdkP3wV%2fnwFNE%3d%0a%3b2015%2d01%2d22+06%3a57%3a09%2e682%5f1421927829682%2d536%5f0; Expires=Sat, 21-Feb-15 11:57:09 GMT; Path=/, WC_SESSION_ESTABLISHED=true; Path=/, WC_PERSISTENT=agnHjc5KQgW2gDskQstkLC2Mddc%3d%0a%3b2015%2d01%2d22+06%3a57%3a09%2e685%5f1421927829682%2d536%5f10101%5f%2d1002%2c%2d1%2cUSD%5f10101; Expires=Sat, 21-Feb-15 11:57:09 GMT; Path=/, WC_ACTIVEPOINTER=%2d1%2c10101; Path=/, WC_USERACTIVITY_-1002=%2d1002%2c10101%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cTmgDkuJUnQ3Kc46xYsbJBh0WzCQF8oJTRtjf1ucMzhY3rmA2gqS%2bRtWY9DsMMl6PBUmxVfUYfwia0bm6NbTsIhV%2f6%2fuJdxT3U19MTFuAUB0oQI9U2OF9pjBOxK6ZxdGMs0xqrkbv0EeYjxI29ShWt3XKgkeM5XVWmbIueNbJX%2bb0AYVrL%2bTj74bY0MUPouhFx62d3rRDTKBSLeWnbOsh%2bA%3d%3d; Path=/, WC_GENERIC_ACTIVITYDATA=[5502696367%3atrue%3afalse%3a0%3aHp%2bkcq1eqxbTRNEMwpqx%2bJ7AWg4%3d][com.ibm.commerce.context.audit.AuditContext|1421927829682%2d536][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][CTXSETNAME|Store][com.ibm.commerce.context.globalization.GlobalizationContext|%2d1%26USD%26%2d1%26USD][com.ibm.commerce.catalog.businesscontext.CatalogContext|10001%26null%26false%26false%26false][com.ibm.commerce.context.base.BaseContext|10101%26%2d1002%26%2d1002%26%2d1][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.entitlement.EntitlementContext|4000000000000000003%264000000000000000003%26null%26%2d2000%26null%26null%26null][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]; Path=/, dtCookie=6498D8F38DCE0A109B5E1D36FBD702AB|Kay|1; Path=/; Domain=.kay.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
       }
     }
   ]
