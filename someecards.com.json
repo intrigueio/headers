@@ -10,15 +10,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "keycdn-engine"
+        "name": "cache-control",
+        "content": "public, s-maxage=500"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "268393280 268393226"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish-cache",
+        "content": "HIT"
       }
     },
     {
@@ -33,76 +68,6 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-amz-id-2",
-        "content": "BfHKWBUfHH6yftt5yUPA2V4YUn99291ztl8zFH1BfjukHB0ao225n2fR9f22zkFC"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-amz-request-id",
-        "content": "A713B822213ED7DC"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-amz-version-id",
-        "content": "TJqRoKQV4M7b8SYqzVpBSQmMkgramFD_"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Thu, 08 May 2014 19:45:12 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "etag",
-        "content": "W/\"ad60eb5cd0760ddcb5290ac8c0729b91\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "max-age=31556940"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-cache",
-        "content": "HIT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-edge-location",
-        "content": "usda"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "access-control-allow-origin",
-        "content": "*"
       }
     }
   ]

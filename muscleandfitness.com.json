@@ -10,8 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
-        "content": "no-cache, must-revalidate, post-check=0, pre-check=0"
+        "content": "public, max-age=86400"
       }
     },
     {
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "etag",
+        "content": "\"1421888795-1\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "last-modified",
-        "content": "Thu, 22 Jan 2015 05:53:57 GMT"
+        "content": "Thu, 22 Jan 2015 01:06:35 GMT"
       }
     },
     {
@@ -53,7 +67,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "Cookie, Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ami-instance",
+        "content": "2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-hits",
+        "content": "8546"
       }
     },
     {
@@ -108,8 +150,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "x-url",
+        "content": "/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "251144886 244294036"
       }
     },
     {

@@ -11,14 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache"
+        "content": "Apache-Coyote/1.1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate"
+        "name": "set-cookie",
+        "content": "SECURETOKEN=AAAAAAEytBoAAAFLEGl4-AAUQUVTL0NCQy9QS0NTNVBhZGRpbmcAgAAQABA26Yh1JXSOrwnthWTFpGMvAAAAQPWzwfh5TNfDlWkXErD_xEEPK6gW8DYnQ-yzQOfABuQcHr7XH3uou_3Mr_Tv_bgJ19MsHLzibw8czxxdD4WTq_QAFPiChOMfXrUuTCSuBgvmTIKk-aoE; Path=/, DE_abtest_000=H4sIAAAAAAAAAAGWAGn_AAAAAAEytBoAAAFLEGl5BAAUQUVTL0NCQy9QS0NTNVBhZGRpbmcAgAAQABBUBZ7506IAY2UpXjy62azOAAAAQHaUITEPhY2L5cNgp5S_txgM1kvPuQHbmPbeNIj7KVhlUWpWKbY8s-UgShkOOp6LtZ6wkPuKvh5sAW8Az_WmltYAFK2VFK4_uwY5UBUpni7x_u_1UUa_23gpfJYAAAA%3D; Expires=Fri, 22-Jan-2016 06:52:02 GMT; Path=/, DE_visit=H4sIAAAAAAAAAAF2Aon9AAAAAAEytBoAAAFLEGl51QAUQUVTL0NCQy9QS0NTNVBhZGRpbmcAgAAQABC7ttkp4JGiZCqTnz0j4xASAAACIK5DrA7UMDz_XjT5EFAkhcLYG46HbsQ8TBPGL7Qboxv1-slUDn-QJzxp9AVUfWKMSG2quVTumO-C_BXBEcXbh9OQEyYyWKMB8haxUhN66ad4NmzoUDR7Gsp0DAIs3yrPMZ-1Ih9ssaP7uDYCFaYNSL4xtagzFecRnOeyW40hylSVtMebpip49kWgOQDOEGHyIz6UcdGmH0fk5lM5AOtm4Pk2aM8c-BKfiuqFYJfvb3CJFKHoIwNWqwGkY_PNnVJwDdgv1WBzrrGM7aAOLsDj32mLuM6sXW3V27bdo40uw-9JjKEGmVaSGTNsrpp5DDlzOPtn8sPfyGfdFDUK_p7UsyWG47Ra4VzCGgL-6f50LthBpTJ-OST2e-hXgc30ffz9xeG1_9RBLso9CPamQJJixiwzjLKHnC8G-LN-vZhAxiuVxbBchlYaCh2dlG8DLhos4vt2K5QSBFeQXhjjwtLsvGYq3k_K-PoFAePcD86r0FOkrQlGWTEPheqbDdbm-T_kXZCsL3Rez8ra02rHhm7izL4NsA6ml1BG-YMZ7jWhhl84Sj9VqRwCvHndM28-NWuFFyzQWQl6R0A7oI0nwv3FKkFfZyqEC1-CCErj3OoCZOPFGnccgrpC_DwTyneShnczIDt33IkIv5x12Bs_6akqQSXN7YVbg1RCV9GDQiwc_MxFNsL0dNnharqKfbxs_dxXbEbU8jNcuCgNpEH6DklHgT4AFPf3lnYqOCFm81kjZtQoFpDUXZZ8Efr2ZnYCAAA%3D; Expires=Mon, 23-Mar-2015 06:52:02 GMT; Path=/"
       }
     },
     {
@@ -31,22 +31,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "retry-after",
-        "content": "7200"
+        "name": "cache-control",
+        "content": "no-store, no-cache, max-age=0, must-revalidate"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cnection",
-        "content": "close"
+        "name": "vary",
+        "content": "User-Agent,Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "de-DE"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]
