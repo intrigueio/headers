@@ -31,8 +31,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
-        "content": "PHP/5.4.36-0+deb7u3"
+        "content": "HHVM/3.6.0-dev"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "xf_session=1b6a186de512890bccd68abb0f729a20; path=/; httponly, akiba_location=osaka; path=/"
       }
     },
     {
@@ -45,29 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "xf_session=83d1b0685d1f1ae52fa42e8fbdae9adf; path=/; httponly, akiba_location=tokyo; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "last-modified",
-        "content": "Thu, 22 Jan 2015 17:03:22 GMT"
+        "content": "Thu, 22 Jan 2015 18:03:32 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "Accept-Encoding, Accept-Encoding"
       }
     }
   ]

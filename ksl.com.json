@@ -24,15 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=a8b1329ac861243d28905a5ea7a4cf06; expires=Thu, 29-Jan-2015 16:53:54 GMT; path=/; domain=.ksl.com, recdA=3b0be35b93110ad6af57b195d64a75cf; expires=Wed, 18-Oct-2017 15:53:54 GMT; path=/, recdBk=deleted; expires=Wed, 22-Jan-2014 16:53:53 GMT; path=/, recdBkV=deleted; expires=Wed, 22-Jan-2014 16:53:53 GMT; path=/, recd_alias=deleted; expires=Wed, 22-Jan-2014 16:53:53 GMT; path=/, recdA=6e7c354441715ccd47ab98884eb7786d; expires=Wed, 18-Oct-2017 15:53:54 GMT; path=/, recdBk=deleted; expires=Wed, 22-Jan-2014 16:53:53 GMT; path=/, recdBkV=deleted; expires=Wed, 22-Jan-2014 16:53:53 GMT; path=/, recd_alias=deleted; expires=Wed, 22-Jan-2014 16:53:53 GMT; path=/, recdA=45cb530a8a4a152318bf804541bda2a1; expires=Wed, 18-Oct-2017 15:53:54 GMT; path=/, recdBk=deleted; expires=Wed, 22-Jan-2014 16:53:53 GMT; path=/, recdBkV=deleted; expires=Wed, 22-Jan-2014 16:53:53 GMT; path=/, recd_alias=deleted; expires=Wed, 22-Jan-2014 16:53:53 GMT; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
-        "content": "no-cache"
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
@@ -45,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=ff6c6537bfe20b2ca159a5ee62120068; expires=Thu, 29-Jan-2015 17:54:06 GMT; path=/; domain=.ksl.com, recdA=c5692be03ac9e5e9f034fd0336175696; expires=Wed, 18-Oct-2017 16:54:06 GMT; path=/, recdBk=deleted; expires=Wed, 22-Jan-2014 17:54:05 GMT; path=/, recdBkV=deleted; expires=Wed, 22-Jan-2014 17:54:05 GMT; path=/, recd_alias=deleted; expires=Wed, 22-Jan-2014 17:54:05 GMT; path=/, recdA=0a69dfa5e2081c69412d59a67d6152c0; expires=Wed, 18-Oct-2017 16:54:06 GMT; path=/, recdBk=deleted; expires=Wed, 22-Jan-2014 17:54:05 GMT; path=/, recdBkV=deleted; expires=Wed, 22-Jan-2014 17:54:05 GMT; path=/, recd_alias=deleted; expires=Wed, 22-Jan-2014 17:54:05 GMT; path=/, recdA=53c0f5dc99859233b5b0183ff262d655; expires=Wed, 18-Oct-2017 16:54:06 GMT; path=/, recdBk=deleted; expires=Wed, 22-Jan-2014 17:54:05 GMT; path=/, recdBkV=deleted; expires=Wed, 22-Jan-2014 17:54:05 GMT; path=/, recd_alias=deleted; expires=Wed, 22-Jan-2014 17:54:05 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-cms-server",
-        "content": "v06"
+        "content": "v02"
       }
     },
     {
@@ -123,7 +123,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-server",
-        "content": "v06"
+        "content": "v02"
       }
     },
     {

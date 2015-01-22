@@ -38,8 +38,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-akamai-transformed",
-        "content": "9 - 0 pmb=mNONE,2"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -52,15 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "AKAI=0:1421945639; expires=Thu, 05-Feb-2015 16:53:59 GMT; path=/; domain=.saksfifthavenue.com, AKAI=0:1421945639; expires=Thu, 05-Feb-2015 16:53:59 GMT; path=/; domain=.saksfifthavenue.com"
+        "content": "AKAI=0:1421949252; expires=Thu, 05-Feb-2015 17:54:12 GMT; path=/; domain=.saksfifthavenue.com, AKAI=0:1421949252; expires=Thu, 05-Feb-2015 17:54:12 GMT; path=/; domain=.saksfifthavenue.com"
       }
     }
   ]

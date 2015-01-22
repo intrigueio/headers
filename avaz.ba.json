@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx/1.2.1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
       }
@@ -24,8 +17,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "keep-alive",
-        "content": "timeout=20"
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d8b32de98ff1703f9acd14bacecfc03e71421949537; expires=Fri, 22-Jan-16 17:58:57 GMT; path=/; domain=.avaz.ba; HttpOnly"
       }
     },
     {
@@ -38,15 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-varnish",
-        "content": "1890659700"
+        "content": "1891159601 1891142879"
       }
     },
     {
@@ -59,8 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1acda48001af0932-DFW"
       }
     }
   ]
