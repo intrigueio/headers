@@ -11,14 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache-Coyote/1.1"
+        "content": "Apache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "SECURETOKEN=AAAAAAEytBoAAAFLD_s8LAAUQUVTL0NCQy9QS0NTNVBhZGRpbmcAgAAQABAIubOZYtHHFgd1jwUv3lDqAAAAQFEgpwf9oPJnf6DlauQzUtefsX3-5tqf6nypiOOred8rP2OEKZ9b7NFlPVAJCqdAsZ-_NcniC3XPntTe4ho24g4AFA28PBd9SzgVoneokWftlr_mZaSi; Path=/, DE_abtest_000=H4sIAAAAAAAAAAGWAGn_AAAAAAEytBoAAAFLD_s8NAAUQUVTL0NCQy9QS0NTNVBhZGRpbmcAgAAQABDiOsqGY7RphCWXCnWa3WZIAAAAQOkDjL6XoNrCZIJKt1nixW5uI24VJavr541daMv3pzHOcRoQpwv75lDfeiDfSrXZGl87xc2AfenMF9abX2dJ2DQAFHniH3qy5GzbS7nP3wmO419cEouHqCmgbpYAAAA%3D; Expires=Fri, 22-Jan-2016 04:51:38 GMT; Path=/, DE_visit=H4sIAAAAAAAAAAFGArn9AAAAAAEytBoAAAFLD_s88gAUQUVTL0NCQy9QS0NTNVBhZGRpbmcAgAAQABAIMeJRwL8EvHghWt-mTSCNAAAB8B4C8wOTfPvPZSAt0LqLpkO-9BFqHXStG8jMPbkMGZ_-tbRud_cSHgvJ4mD_dudmpk_2Tc61DLj32JGEZB0fWpt7KmbdRUilnikOpyLkPixNRHUxN3ZV-8nzqnbQurDdk62cqVxJjS36Uua05h8WENr7KwFWuoOK0uXHfCAgVR9AGO9GkUUEH1L9MDsd_A55UnOYoE6WvsfUNN1JH0tb7Fwd2j2uzyjbMu8D4Qj268aLtLJ2E586WA7KpHcGSWZTXzZHnWTuNueptp-N_g-8aokkidhjxzFDUKhUZ2OKQQehvBtkrbgVP13Z0Sl5NWo7ifw6J3qzX-JR55iYmrOVc9XCx0NFuztzpYnrOFEwU1YxYFzgTUxroNyPLXRDAtiYRg5pzjKTYpaEoYlN94HzoG70IVijKv60hNCtLBQLaXgyElmouYEGs3VqaxfFrFVRnXpdAROv_SFmXXrPak7dZV3IEBYXUaC64CSjLXuZU7DjNavbix7K9aL3EGYiRAAtcHjgn_Gp41Ur4YwxqhA76hS4lQYJo7aJk1wKPeuSckHeviP1LdfpOTuQGsFSLN6vfLVYVJnc9-uY6PO6s3OMg7lcBzg44rWK1MRG3tToWua8qYDCaeTdNcUQSNT0ebngmuPW-JTxlOd-OBQTw5ZLuQkAFKRVA_VJZ1s3SoOBVqitl_kDh1xLWIl4F0YCAAA%3D; Expires=Mon, 23-Mar-2015 04:51:38 GMT; Path=/"
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate"
       }
     },
     {
@@ -31,36 +31,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, max-age=0, must-revalidate"
+        "name": "retry-after",
+        "content": "7200"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "User-Agent,Accept-Encoding"
+        "name": "x-cnection",
+        "content": "close"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html;charset=UTF-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-language",
-        "content": "de-DE"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "content": "text/html; charset=UTF-8"
       }
     }
   ]
