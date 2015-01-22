@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=ISO-8859-1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,8 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"542b7b51-1256\""
+        "name": "set-cookie",
+        "content": "FDCSESSION=3620A00FC88D5280C48883537530FBA5.tc5pc; Domain=.thalia.de; Path=/, KUNDE_LAYOUT=FLAT;Version=1;Domain=.thalia.de;Path=/;Max-Age=31536000;HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "accept-encoding, user-agent"
       }
     }
   ]

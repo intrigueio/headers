@@ -52,6 +52,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "transfer-encoding",
         "content": "chunked"
       }
@@ -68,13 +75,6 @@
       "attributes": {
         "name": "set-cookie",
         "content": "CIP=104.237.133.83; path=/; domain=.grainger.com, geo=75201|DALLAS|TX|US; path=/; domain=.grainger.com, country=US; path=/; domain=.grainger.com"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding, User-Agent, User-Agent"
       }
     }
   ]
