@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html;charset=UTF-8"
       }
     },
     {
@@ -52,15 +52,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-pingback",
-        "content": "http://www.dongtw.com/xmlrpc.php"
+        "name": "last-modified",
+        "content": "Thu, 22 Jan 2015 02:49:46 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "link",
-        "content": "<http://www.dongtw.com/>; rel=shortlink"
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0, no-cache, no-transform"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-hyper-cache",
+        "content": "hit - plain"
       }
     }
   ]
