@@ -31,13 +31,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-pingback",
-        "content": "http://www.101greatgoals.com/xmlrpc.php"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
         "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
@@ -52,15 +45,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "wp-super-cache",
-        "content": "Served legacy cache file"
+        "name": "x-pingback",
+        "content": "http://www.101greatgoals.com/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "*"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-host",
+        "content": "101-web1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Cookie, Accept-Encoding"
+        "content": "Accept-Encoding"
       }
     },
     {
