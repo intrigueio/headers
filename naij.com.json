@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html;charset=utf-8"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -45,36 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-pingback",
-        "content": "http://www.naij.com/wp/xmlrpc.php"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-cache-engine",
-        "content": "WP-FFPC with memcached via PHP"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "set-cookie",
         "content": "page_views=1; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "link",
+        "content": "<http://www.naij.com/wp-json>; rel=\"https://github.com/WP-API/WP-API\""
       }
     }
   ]

@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "_NJIN_=ojatbekr8le85kj25gpasphvh1; path=/; domain=.goalunited.org, _GU2011_=%88Ec7Q%C2VB%A3%23o%02%B5%82%1BJ%F9%15%D5p%FA%9F%91%B30%5D%C3%00%3D%B4%11%97%ED%5D%F8%B1%24%03%3B%A7; path=/; domain=.goalunited.org, _GU2011_=%0A%F8%F6%BF%E31%7C%93%D2%A8%FE%B3%81-%DD%A2%8F%94%E1%FA%AA%5D%CD%0Ey_S%F4+%839%DD%11%1B%5C%E1%A0O%CA%5C; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Fri, 23-Jan-2015 17:00:56 GMT; path=/; domain=.goalunited.org, lang=en; expires=Fri, 23-Jan-2015 17:00:56 GMT; path=/; domain=.manager-football.org, lang=en; expires=Fri, 23-Jan-2015 17:00:56 GMT"
+        "content": "_NJIN_=0jgdk8ljc9cohkg7b0r21d9jr2; path=/; domain=.goalunited.org, _GU2011_=%86%DE%1B%03%F2%7E%DA%0Eu8%8A-%037%0D%BE%A1%3D%0B%9B%09k%BF%E5-%0F%88%CC-%21f%A7%1E%B7o5%B5%0D%F6H; path=/; domain=.goalunited.org, _GU2011_=%0FQ%A6P%EB%14%A5%96%91T%1B%2B%1E%8E%27%CE%E0%19%9FE%06%28Y%D9%B4%F6%40%3Fls%8A%9Fp%C9SL%0A%C8%F5%A8; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Fri, 23-Jan-2015 18:00:55 GMT; path=/; domain=.goalunited.org, lang=en; expires=Fri, 23-Jan-2015 18:00:55 GMT; path=/; domain=.manager-football.org, lang=en; expires=Fri, 23-Jan-2015 18:00:55 GMT"
       }
     },
     {
@@ -47,13 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
       }
     }
   ]

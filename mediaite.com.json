@@ -39,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding, Accept-Encoding,Cookie"
+        "content": "Accept-Encoding, Cookie"
       }
     },
     {
@@ -52,15 +52,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=3, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "wp-super-cache",
-        "content": "Served supercache file from PHP"
+        "name": "x-pingback",
+        "content": "http://www.mediaite.com/xmlrpc.php"
       }
     }
   ]
