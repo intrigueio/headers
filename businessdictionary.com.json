@@ -11,14 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-cache=\"set-cookie\""
+        "content": "cache; max-age=86400; public, no-cache=\"set-cookie\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -39,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=m19lo35k7agl9artjv5can6074; path=/, AWSELB=9557075B189610D51BA7847BFFF4231ECAB1E01A6C072EF7808E4968D55F31205942DBBF4651F4DE4E2F353D1C3B843E84CC8FC99D4F16D6EA21F958B71060E0201DB5A0F2;PATH=/"
+        "content": "PHPSESSID=i44t8bcog6vecpr3h1pt01t455; path=/, country_code=us; expires=Sun, 22-Feb-2015 15:00:04 GMT; Max-Age=2592000; path=/, state_code=NJ; expires=Sun, 22-Feb-2015 15:00:04 GMT; Max-Age=2592000; path=/, zip_code=08205; expires=Sun, 22-Feb-2015 15:00:04 GMT; Max-Age=2592000; path=/, us=1; expires=Fri, 30-Jan-2015 15:00:04 GMT; Max-Age=604800; path=/, AWSELB=9557075B189610D51BA7847BFFF4231ECAB1E01A6C072EF7808E4968D55F31205942DBBF46EC944404F0A60B784EE165918AF7E88908B380661E7471DBCB0B02ECE453C5E8;PATH=/"
       }
     },
     {
@@ -47,13 +47,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
       }
     },
     {
