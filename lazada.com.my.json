@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,15 +38,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"54be4691-e39\""
+        "name": "vary",
+        "content": "accept-encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "userLanguageML=en; expires=Sun, 22-Feb-2015 08:57:36 GMT; path=/, PHPSESSID_26cedaad9cc30104da500ad92159d7f5=ja8p05sf8o1digladmi5adt8l4; path=/; domain=.lazada.com.my; HttpOnly, browserDetection=eyJ0eXBlIjpudWxsLCJuYW1lIjoiT3RoZXIiLCJjc3NDbGFzcyI6IiIsInZlcnNpb24iOjAsIm9zIjoiVW5Lbm93biJ9; expires=Fri, 30-Jan-2015 08:57:36 GMT; path=/, mib_s=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, split_test_recommendation=t00_b_25; expires=Sat, 23-Jan-2016 08:57:36 GMT; path=/, split_test_recommendation=t00_b_25; path=/, is_new_user=1; expires=Fri, 06-Feb-2015 08:57:36 GMT; path=/, lzd_first_visit=1; expires=Fri, 23-Jan-2015 09:27:36 GMT; path=/, lzd_visitor_type=new; expires=Sat, 23-Jan-2016 08:57:36 GMT; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=0"
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-server",
+        "content": "web31.myamz"
       }
     }
   ]

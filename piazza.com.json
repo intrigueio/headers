@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.2.1.7616"
+        "content": "nginx/1.2.1.1431"
       }
     },
     {
@@ -59,8 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"6801fe7b91320b11d74c4fb2f4657b6c\""
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP='IDC DSP CURa ADMa DEVa OUR ONL UNI COM NAV'"
       }
     },
     {
@@ -73,22 +80,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "etag",
+        "content": "\"6801fe7b91320b11d74c4fb2f4657b6c\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "piazza_session=HtIKKJyLEvFKDvHIyEwCwECFFyJDKyFx.5%275MD%3F5%26x%26%26%7C%22%21r%7Cw5M5Trlb_r%23cz%2BcF50; path=/; expires=Thu, 23 Jul 2015 08:00:48 GMT; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "p3p",
-        "content": "CP='IDC DSP CURa ADMa DEVa OUR ONL UNI COM NAV'"
+        "content": "piazza_session=yEEFuEGHDKFyDIIxwwwLJDEDvyFKEtty.5%275MD%3F5%26x%26%26%7C%22%21r%7Cw5M5Trlb_raG%5EITj50; path=/; expires=Thu, 23 Jul 2015 09:00:37 GMT; HttpOnly"
       }
     }
   ]

@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
       }
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.4.35-0+deb7u1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=da03f39a311ef485136a89be820885ffb1421999912; expires=Sat, 23-Jan-16 07:58:32 GMT; path=/; domain=.myvulkan.com; HttpOnly, qs=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, PHPSESSID=739bcsousac9226q0852sn9np5; path=/; HttpOnly"
+        "content": "qs=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, PHPSESSID=mfp1s57g98o1ga2npvi3n1j337; path=/; HttpOnly"
       }
     },
     {
@@ -47,20 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1ad2725b7d211159-DFW"
       }
     }
   ]
