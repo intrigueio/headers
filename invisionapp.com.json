@@ -24,8 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "LB-Persist=!p6CVE0OEhwIu9AJbssKythl2MGmX5x7N8gqiMZGxBXNiIIPTDBjWXk+/ReWJ04G13ANHkWj9SYB5IQ==; path=/"
+        "content": "LB-Persist=!cPzuYvf2zaTQKWpbssKythl2MGmX51g/Xo9JdoP7GebOqigS0D42j6F0wyIzh2nux+QTVfg5kJ/gMYI=; path=/"
       }
     }
   ]
