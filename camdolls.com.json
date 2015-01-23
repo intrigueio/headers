@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,8 +38,57 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"54bd915d-87\""
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"ALL DSP COR CURa ADMa DEVa OUR IND COM NAV\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "_camdolls_session2=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJWEzY2M1NDc4YjMzNWZjNDQzYjE1NGJjNzU3Mjg4ZDE4BjsAVEkiCXV1aWQGOwBGSSIpOTE0YzYyNTAtODU0Ni0wMTMyLTAxMTItN2ExNjNlZjVlMjg2BjsAVA%3D%3D--a66e5932587b194d34a1f77ab9deb56eb7df5d6b; domain=.camdolls.com; path=/; expires=Fri, 06-Feb-2015 15:58:16 GMT; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "88e54ddf3058d3d4b8820ba23b15a927"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.029401"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
       }
     }
   ]
