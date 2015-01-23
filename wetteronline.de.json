@@ -38,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-n",
-        "content": "S"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "User-Agent, User-Agent"
       }
@@ -59,8 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     }
   ]
