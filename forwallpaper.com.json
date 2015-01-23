@@ -31,6 +31,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, Accept-Language, Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "gunicorn/18.0"
       }
@@ -38,15 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Language, Cookie"
+        "name": "content-language",
+        "content": "en-us"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-language",
-        "content": "en-us"
+        "name": "set-cookie",
+        "content": "sessionid=4jlr90y8ny06slam916vvx0i8fmje0tx; Domain=.forwallpaper.com; expires=Fri, 06-Feb-2015 06:00:17 GMT; httponly; Max-Age=1209600; Path=/"
       }
     }
   ]
