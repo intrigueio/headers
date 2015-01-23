@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "Microsoft-IIS/7.5"
       }
@@ -39,7 +46,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-machine",
-        "content": "sbkdfpswebp03"
+        "content": "sbkdfpswebp01"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -59,15 +73,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "kayla=g=8d699162b4ff4d73a9fddac81dc76a2c; domain=.marketwatch.com; expires=Thu, 23-Jan-2020 05:55:59 GMT; path=/, .ASPXAUTH=; domain=marketwatch.com; expires=Tue, 12-Oct-1999 05:00:00 GMT; path=/; HttpOnly"
+        "content": ".ASPXAUTH=; domain=marketwatch.com; expires=Tue, 12-Oct-1999 05:00:00 GMT; path=/; HttpOnly, kayla=g=9bc023e0e0634e1c9b864d64e68f0688; domain=.marketwatch.com; expires=Thu, 23-Jan-2020 06:56:12 GMT; path=/, mw5_loc={\"Country\":\"US\",\"Region\":\"TX\",\"City\":\"DALLAS\",\"Continent\":\"NA\",\"County\":[\"DALLAS\"]}; domain=.marketwatch.com; path=/, mw5_prefs=mox=False&tth=False&exp=1/23/2017; domain=.marketwatch.com; expires=Mon, 23-Jan-2017 06:00:00 GMT; path=/"
       }
     }
   ]

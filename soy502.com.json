@@ -18,14 +18,42 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache=\"set-cookie\""
+        "content": "public, max-age=3600, no-cache=\"set-cookie\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "es"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"1421993951-0\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Fri, 23 Jan 2015 06:19:11 +0000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "link",
+        "content": "<http://www.soy502.com/>; rel=\"shortlink\",<http://www.soy502.com/>; rel=\"canonical\""
       }
     },
     {
@@ -39,7 +67,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "AWSELB=F70157650E5ADAFDFB36E20CB36104429BAEAF7C5D8CFCE0FC64A6D7A61401FD083D4B5E91D49A52F260ECE3424B5BCBC813B85286B51426149A3358E81247042B89E1FA8C;PATH=/;MAX-AGE=28800"
+        "content": "AWSELB=F70157650E5ADAFDFB36E20CB36104429BAEAF7C5D8214A2FBF961A5C01E8A3EAC09E29B526FECEFD76CA8BFC9C502EAF32F40BCC18C288F33EE7607CC2C2791F810B22E6A;PATH=/;MAX-AGE=28800"
       }
     },
     {
@@ -59,6 +87,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-drupal-cache",
+        "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.3.10-1ubuntu3.9"
       }
@@ -66,8 +101,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-varnish",
-        "content": "769590989 769590787"
+        "content": "2128712962 2128709685"
       }
     },
     {

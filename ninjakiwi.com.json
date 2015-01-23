@@ -10,15 +10,78 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "server",
+        "content": "nginx/1.4.5"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "_nk_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTY2MzI4NWY5YmI0ZDg5MGUwYmMwMjUwZjY3MTQxMDQ1BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTlOOGlmSWtrN1A3eFJPcHJxRUYrdU9jZ3JyZzh0elZmR3ZxZ0YrdHMrcVk9BjsARg%3D%3D--8c77ab4d3a6237fe80f38bdeb66fdcf466e91280; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "c545b0a223bebca0d4ccea9737b3a372"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.078359"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-rack-cache",
+        "content": "miss"
       }
     }
   ]
