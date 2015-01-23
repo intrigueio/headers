@@ -45,8 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-oracle-dms-ecid",
+        "content": "70214237307794"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
-        "content": "Oracle-Application-Server-11g Oracle-Web-Cache-11g/11.1.1.6.0 (TH;max-age=300+0;age=20;ecid=24472831905503,0:1)"
+        "content": "Oracle-Application-Server-11g Oracle-Web-Cache-11g/11.1.1.6.0 (TG;max-age=300+0;age=0;ecid=70214237307794,0:1)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0"
       }
     },
     {
@@ -54,6 +68,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=sLBWJBrQT7yQxSBJYnLdvKpTqnMTJWg2yGcJN8Jxnc0mlYTx6QRj!-1021522184!1166443530; path=/; HttpOnly"
       }
     }
   ]

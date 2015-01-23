@@ -24,36 +24,64 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-varnish-cacheable",
+        "content": "YES"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-backend",
+        "content": "app05"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-edition",
+        "content": ""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "1316546613 1316541200"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish-cache",
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
-        "content": "max-age=0, no-cache, no-store"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "content": "public, max-age=91"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive, Transfer-Encoding"
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "X-Tap=5adb9b67-8230-4c8d-5a51-8ac96d78381c; expires=Fri, 23-Jan-2015 00:55:25 GMT; path=/, X-Tap-2=false; expires=Fri, 23-Jan-2015 00:55:25 GMT; path=/"
+        "content": "X-Tap=a3f7afe1-220b-4dcd-6be0-9ffd5beee7f9; expires=Fri, 23-Jan-2015 01:55:38 GMT; path=/, X-Tap-2=false; expires=Fri, 23-Jan-2015 01:55:38 GMT; path=/"
       }
     }
   ]

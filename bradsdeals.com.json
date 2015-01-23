@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "must-revalidate, private, max-age=0"
+        "content": "max-age=0, private, must-revalidate"
       }
     },
     {
@@ -19,6 +19,13 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"45a9de97a38b51a028694c0e2608f105\""
       }
     },
     {
@@ -33,6 +40,13 @@
       "attributes": {
         "name": "status",
         "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -60,14 +74,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "e02c87fa-7090-4637-b855-da04e11ff38b"
+        "content": "9c32c6c7-3b1c-4dae-a7eb-426de49ea402"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.053289"
+        "content": "0.130240"
       }
     },
     {
