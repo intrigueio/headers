@@ -18,7 +18,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-secret",
+        "content": "cnpudnkgcnpiZXZnbUBoZm5nYnFubC5wYnogbmFxIFYganZ5eSBnZWwgZ2IgdHJnIGxiaCBuIHdiby4="
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-gannett-site-version",
+        "content": "79.0"
       }
     },
     {
@@ -38,8 +66,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "firefly_akamai=\"PT4dQzT50AGUGCKh4HT0mdcwX8wnDMCM3tE9MUVJmJmbHhy08Dc80rksuckVtQWmvfWsybxGAz0bAEe5HsGyc5881eOcBkc9PTGxZhwFaE4qAdmgKbnutW1vu+W7GDUvBgF7EuQ/rCeQP7H7M0EV/zKeDVoHoeD7NH4jm+2gvIE=\"; Domain=.azcentral.com; expires=Sat, 23-Jan-2016 22:01:02 GMT; Max-Age=31536000; Path=/, cleanup_check=; Domain=.azcentral.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/"
       }
     }
   ]

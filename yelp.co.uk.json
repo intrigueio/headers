@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-node",
-        "content": "web7-r3-iad1, www_all"
+        "content": "web4-r2-iad1, www_all"
       }
     },
     {
@@ -60,7 +60,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-proxied",
-        "content": "extlb1-r1-iad1"
+        "content": "extlb1-r2-iad1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "bip-iad1=sticky_web4-r2-iad1; path=/"
       }
     }
   ]
