@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "must-revalidate, private, max-age=0"
+        "content": "max-age=0, private, must-revalidate"
       }
     },
     {
@@ -19,6 +19,13 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"feae4de185ed281ede25403037e5c4fe\""
       }
     },
     {
@@ -33,6 +40,13 @@
       "attributes": {
         "name": "status",
         "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -60,14 +74,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "fc609c61-baee-46cd-9162-7b7ebfc753a2"
+        "content": "2033a23c-f042-49c0-8fb0-7f27c718795a"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.061911"
+        "content": "0.051165"
       }
     },
     {
@@ -75,6 +89,13 @@
       "attributes": {
         "name": "x-xss-protection",
         "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
