@@ -11,7 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=ISO-8859-1"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,22 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "$wsep",
-        "content": ""
+        "name": "cache-control",
+        "content": "no-cache=\"set-cookie, set-cookie2\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Fri, 23 Jan 2015 19:03:01 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "geo_country_code=--; Expires=Sat, 23 Jan 2016 18:02:49 GMT; Path=/; Domain=.linksys.com, geo_ipaddress=104.237.133.83; Expires=Sat, 23 Jan 2016 18:02:49 GMT; Path=/; Domain=.linksys.com, geo_lang=en; Expires=Sat, 23 Jan 2016 18:02:49 GMT; Path=/; Domain=.linksys.com, geo_country_code=US; Expires=Sat, 23 Jan 2016 18:02:49 GMT; Path=/; Domain=.linksysbycisco.com, geo_ipaddress=216.137.32.119; Expires=Sat, 23 Jan 2016 18:02:49 GMT; Path=/; Domain=.linksysbycisco.com, geo_lang=en; Expires=Sat, 23 Jan 2016 18:02:49 GMT; Path=/; Domain=.linksysbycisco.com, JSESSIONID=0000Ic6CIkWcuujlLyXIf7KktCT:-1; Path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-cache=\"set-cookie, set-cookie2\""
+        "content": "geo_country_code=--; Expires=Sat, 23 Jan 2016 19:03:01 GMT; Path=/; Domain=.linksys.com, geo_ipaddress=104.237.133.83; Expires=Sat, 23 Jan 2016 19:03:01 GMT; Path=/; Domain=.linksys.com, geo_lang=en; Expires=Sat, 23 Jan 2016 19:03:01 GMT; Path=/; Domain=.linksys.com, geo_country_code=US; Expires=Sat, 23 Jan 2016 19:03:01 GMT; Path=/; Domain=.linksysbycisco.com, geo_ipaddress=216.137.32.119; Expires=Sat, 23 Jan 2016 19:03:01 GMT; Path=/; Domain=.linksysbycisco.com, geo_lang=en; Expires=Sat, 23 Jan 2016 19:03:01 GMT; Path=/; Domain=.linksysbycisco.com, JSESSIONID=0000T_f5BbNM_HAKcgr8RPN05LD:-1; Path=/, SS_X_JSESSIONID=0001MrUkFEpFt0a4zzVT7MKyYm0:-G03CR2; Path=/"
       }
     },
     {
@@ -60,21 +67,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "Error from cloudfront"
+        "content": "Miss from cloudfront"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "1.1 e998772b5d771a26e93e8a2daac29832.cloudfront.net (CloudFront)"
+        "content": "1.1 7b8404d89510b88df445349aed9f76da.cloudfront.net (CloudFront)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-amz-cf-id",
-        "content": "LBoGR_23u1gREbvHmmuOKzUoOQqWSjP7WkLpQQdniadzsYIPR4-_dA=="
+        "content": "VNeXMR19__P2oMpXJsncMwmG8QXtoip5xWCw8K56BrjBt_rnBwk5cA=="
       }
     }
   ]
