@@ -24,15 +24,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"5472e7dd-781\""
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "7e240xde74rw_xx=2; expires=Sun, 22-Feb-2015 10:03:20 GMT; Max-Age=2592000, __pgstyle=nB; expires=Fri, 23-Jan-2015 11:03:20 GMT; Max-Age=3600; path=/, __pgstyle2=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/"
       }
     }
   ]

@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, no-store,no-transform"
+        "content": "max-age=0, no-cache, no-store, no-transform"
       }
     },
     {
@@ -24,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -38,15 +31,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": ".ASPXANONYMOUS=L8E2xHxt0AEkAAAAMDk4ZTdmYjctYTI4OS00ZjJhLWJjMjUtZDM4YmEwODRiOGNi0; expires=Thu, 02-Apr-2015 19:39:42 GMT; path=/; HttpOnly, ASP.NET_SessionId=e4yfunbv0pxckvj2v1bkfhkq; path=/; HttpOnly, CO=4237459009; path=/; HttpOnly"
+        "name": "p3p",
+        "content": "CP=\"This is not a P3P policy. See http://www.thetrainline.com/buytickets/terms.aspx for more info\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "p3p",
-        "content": "CP=\"This is not a P3P policy. See http://www.thetrainline.com/buytickets/terms.aspx for more info\""
+        "name": "set-cookie",
+        "content": ".ASPXANONYMOUS=JaOMLYVt0AEkAAAAYWViNmZkMDUtZDgwMy00ZTI5LTgzYmQtYmZmN2RjYjRkOTIy0; expires=Thu, 02-Apr-2015 20:39:55 GMT; path=/; HttpOnly, ASP.NET_SessionId=mewqge1jqyxtng34s1mx3pml; path=/; HttpOnly, CO=4237567938; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "rtss",
+        "content": "1-1-95"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-amps",
+        "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
       }
     }
   ]
