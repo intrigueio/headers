@@ -38,15 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cacheable",
-        "content": "SHORT"
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,Cookie"
+        "name": "x-cacheable",
+        "content": "SHORT"
       }
     },
     {
@@ -68,6 +68,13 @@
       "attributes": {
         "name": "x-type",
         "content": "default"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Cookie, Accept-Encoding"
       }
     },
     {
