@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "_NJIN_=pgosc8u9r5am88tmquem08qdk2; path=/; domain=.goalunited.org, _GU2011_=%E9%C7NM%DC%2C%E5%E8%AE%5D%AD%D8%3B%3C%81%BC%81%3F%C8%F0%9Fz%1F%99J%046%EAPA%9C%92%EBh%DCW7%03%A7%03; path=/; domain=.goalunited.org, _GU2011_=%D1%29%C9%14_25%0D%0D%60gX%14%DD%E6%DF%BB%0Eh%CD%0E%D9%E7qD.%E96%F3%C7%2B%F3%BDI%40%98%AF%B7s%8F; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Fri, 23-Jan-2015 00:57:08 GMT; path=/; domain=.goalunited.org, lang=en; expires=Fri, 23-Jan-2015 00:57:08 GMT; path=/; domain=.manager-football.org, lang=en; expires=Fri, 23-Jan-2015 00:57:08 GMT"
+        "content": "_NJIN_=7m1fo58lg5ha3v00rt7h2q0bp2; path=/; domain=.goalunited.org, _GU2011_=%ED%8F%3Fy%D4p%B7%CF%A1%0A%09%2F%E7%AD%A2%199%8B%DEB%7F%5C%2A%BD6%C5%2C%22%22M%F8%EF%E2%9E%FB%82SH%84%94; path=/; domain=.goalunited.org, _GU2011_=Sl%22%3A%0B%E5Wm%25%E4%C4%B7%EC%83%60%8E%B0%B9kE%26%AEGJI%90%2A%F4S14%1B%FB0%87%5D%194%C1%28; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Fri, 23-Jan-2015 01:57:20 GMT; path=/; domain=.goalunited.org, lang=en; expires=Fri, 23-Jan-2015 01:57:20 GMT; path=/; domain=.manager-football.org, lang=en; expires=Fri, 23-Jan-2015 01:57:20 GMT"
       }
     },
     {
@@ -47,13 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
       }
     }
   ]

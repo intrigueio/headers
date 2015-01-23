@@ -24,6 +24,27 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, no-cache, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "transfer-encoding",
         "content": "chunked"
       }
@@ -32,28 +53,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "tvg_session=guardedeyJpdiI6Im53cmJPUkIzbXhKT1RiQ08xRHdVR3c9PSIsInZhbHVlIjoiV01xb01HK3d0YUxLMjd2YndabmVJZUNFU2hRZDJKMkk3dHFld2d6MDZqdEhKeTh2YTY1c20xendxbEdtbWJDSERQREF4VmlEekZQODB0cUVzdmRkZGc9PSIsIm1hYyI6ImQ2ZDZlYjE0MzI0YjM5MmViMDkyODU1ZTNhNDc1YzQ4ZGIzYzc0NzFiN2M0N2MwYjBhNTQ4YTdhMzllNzdkNjcifQ%3D%3D; expires=Thu, 05-Feb-2015 23:55:00 GMT; Max-Age=1209600; path=/; httponly, tvg_user=ed1595a9-4ea4-4571-8262-cf7fafb94779; expires=Tue, 21-Jan-2020 23:55:00 GMT; Max-Age=157680000; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "tvg_session=guardedeyJpdiI6ImVoRWhIRFhrQ0tscE4zUHNvM1VaR1E9PSIsInZhbHVlIjoib3NkQ05cLzRrYnNObko4ZFwvaGkwM0laalQ0dUF2N1U5SFdKckVCTG8yZlY0SW9Lc2lUMzJYZ3ZaT0JiMjA1WEpKNW5DOGlPVTBaUXBsRTBqakJsaHRIUT09IiwibWFjIjoiZGNlYjI3M2I4ODZhZWI1YmUyMjNlNTk0MDQyZjhkOGFhNjdmYmI2MTlmODU4ODU5YzUxOWRmZjY2YmFjNWQ2NCJ9; expires=Fri, 06-Feb-2015 00:55:13 GMT; Max-Age=1209600; path=/; httponly, tvg_user=bf44494b-287b-45e5-9e37-07fe801fc37f; expires=Wed, 22-Jan-2020 00:55:13 GMT; Max-Age=157680000; path=/"
       }
     }
   ]
