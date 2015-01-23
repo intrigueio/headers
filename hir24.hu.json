@@ -24,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -38,8 +31,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": ".ASPXANONYMOUS=J4-67ult0AEkAAAAODViNjI1NmEtYTQ3Mi00MTZkLWI4YjktNDMyZTZkZDkyMTQ2uk9cKhSANEtu1C2Bh51G3WE3EeEEBJHLxCm1krHtCQI1; expires=Fri, 03-Apr-2015 08:41:09 GMT; path=/; HttpOnly, ASP.NET_SessionId=5aizwgbmd0h1jnqpxxiyp1kc; path=/; HttpOnly"
+        "content": ".ASPXANONYMOUS=kEK9vPFt0AEkAAAAZjQyYzJlMzItNWUyMC00ZjZlLTk1OTEtMDE4MjFkYmNmNThiI4XM08H5JuJuj2MKtje0X_XnRKscXf1OZ5pTpnhnDXc1; expires=Fri, 03-Apr-2015 09:37:01 GMT; path=/; HttpOnly, ASP.NET_SessionId=fco1u5zqcln3iftvp5gjavm1; path=/; HttpOnly"
       }
     },
     {
@@ -74,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "88883560"
+        "content": "89784406 89240123"
       }
     },
     {
@@ -87,15 +87,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnish-cache-hits",
-        "content": "0"
+        "name": "x-varnish-cache",
+        "content": "HIT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnish-cache",
-        "content": "MISS"
+        "name": "x-varnish-cache-hits",
+        "content": "20080"
       }
     },
     {
@@ -117,6 +117,13 @@
       "attributes": {
         "name": "x-device",
         "content": "desktop"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     }
   ]

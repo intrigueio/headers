@@ -11,7 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private"
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -38,15 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-aspnet-version",
-        "content": "4.0.30319"
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId=wuda34fqsrapsgubtewcm0vh; path=/; HttpOnly, preventRedirectLoop=false; domain=.finviz.com; expires=Thu, 22-Jan-2015 23:01:52 GMT; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "preventRedirectLoop=false; domain=.finviz.com; expires=Thu, 22-Jan-2015 22:01:37 GMT; path=/"
+        "name": "x-aspnet-version",
+        "content": "4.0.30319"
       }
     },
     {
