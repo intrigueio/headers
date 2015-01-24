@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d6ddaf6a59a4b6cd7f4abfdbc08bd2d4d1422126233; expires=Sun, 24-Jan-16 19:03:53 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=0KrmUnKyRGFxERjc6jtAqY%2FBOXl0KYjQulTW7d56sPQ%3D; domain=genius.com; path=/; expires=Sun, 24-Jan-2016 19:03:54 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMTBLcm1Vbkt5UkdGeEVSamM2anRBcVkvQk9YbDBLWWpRdWxUVzdkNTZzUFE9Og9zZXNzaW9uX2lkIiVhZDgwNTVkNzY1NGRlM2I0OGZlYTdhYmY2ZDkzYjdmYQ%3D%3D--1b7b90c7f6066aa0639dae94b2c0aaf2e5fd1a5d; domain=.genius.com; path=/; HttpOnly"
+        "content": "__cfduid=d537d3ed5ee66291590574eeffd3e90901422129844; expires=Sun, 24-Jan-16 20:04:04 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=xPzM0o6WeS7OUP5MZzVfAvDTOxB3N2cdX7myG2sjYIQ%3D; domain=genius.com; path=/; expires=Sun, 24-Jan-2016 20:04:04 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMXhQek0wbzZXZVM3T1VQNU1aelZmQXZEVE94QjNOMmNkWDdteUcyc2pZSVE9Og9zZXNzaW9uX2lkIiVlNTk0ZDE4MjAxOGU4ODUxYWI3MmNkMmJiYmQ5MjE2Nw%3D%3D--ee443709fd492b403efc7b6b3552a6487190ab6f; domain=.genius.com; path=/; HttpOnly"
       }
     },
     {
@@ -45,8 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "X-Requested-With"
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"5ab5789e1a242c7a39b446d941eb6f56\""
       }
     },
     {
@@ -59,13 +66,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
       }
@@ -73,15 +73,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "W/\"202e9b6c4cc37e23f9a010d057231970\""
+        "name": "x-runtime",
+        "content": "25"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-runtime",
-        "content": "15"
+        "name": "vary",
+        "content": "X-Requested-With"
       }
     },
     {
@@ -102,7 +102,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1ade7e62263c118f-DFW"
+        "content": "1aded6853bc91189-DFW"
       }
     }
   ]
