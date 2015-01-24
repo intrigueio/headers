@@ -11,7 +11,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Varnish"
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-drupal-cache",
+        "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Fri, 23 Jan 2015 17:37:06 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en"
       }
     },
     {
@@ -24,22 +45,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "cache-control",
+        "content": "must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "special"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "BIGipServerpool-DOSC_WWW2.CLUBPENGUIN.COM=1208946954.20480.0000; path=/"
+        "content": "BIGipServerpool-DOSC_WWW2.CLUBPENGUIN.COM=1225724170.20480.0000; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent"
       }
     }
   ]
