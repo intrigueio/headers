@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private"
+        "name": "server",
+        "content": "nginx/1.7.9"
       }
     },
     {
@@ -24,15 +24,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=20"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "rbx-ip=; path=/; HttpOnly, RBXSource=rbx_acquisition_time=1/24/2015 3:01:28 AM&rbx_acquisition_referrer=&rbx_medium=Direct&rbx_source=&rbx_campaign=&rbx_adgroup=&rbx_keyword=&rbx_matchtype=&rbx_send_info=0; expires=Mon, 23-Feb-2015 09:01:28 GMT; path=/, RBXViralAcquisition=time=1/24/2015 3:01:28 AM&referrer=&originatingsite=; expires=Mon, 23-Feb-2015 09:01:28 GMT; path=/, rbx-ip=; path=/; HttpOnly, RBXSource=rbx_acquisition_time=1/24/2015 3:01:28 AM&rbx_acquisition_referrer=&rbx_medium=Direct&rbx_source=&rbx_campaign=&rbx_adgroup=&rbx_keyword=&rbx_matchtype=&rbx_send_info=1; expires=Mon, 23-Feb-2015 09:01:28 GMT; path=/, RBXViralAcquisition=time=1/24/2015 3:01:28 AM&referrer=&originatingsite=; expires=Mon, 23-Feb-2015 09:01:28 GMT; path=/, RBXEventTracker=CreateDate=1/24/2015 3:01:28 AM&rbxid=&browserid=2114040845; expires=Wed, 11-Jun-2042 08:01:28 GMT; path=/, GuestData=UserID=-1524037235; expires=Wed, 11-Jun-2042 08:01:28 GMT; path=/, RBXMarketing=FirstHomePageVisit=1; expires=Wed, 11-Jun-2042 08:01:28 GMT; path=/, __RequestVerificationToken=P0ihHLLtb1k-6mD_oci6CybbSnNQLf9-Ob8t9shyKVx9eZ0u5Nfx-5c0XYUcDY8gXkJknBvr3Ifht_Jn61Ned0K1u2o1; path=/; HttpOnly"
+        "content": "rbx-ip=; path=/; HttpOnly, RBXSource=rbx_acquisition_time=1/24/2015 4:01:40 AM&rbx_acquisition_referrer=&rbx_medium=Direct&rbx_source=&rbx_campaign=&rbx_adgroup=&rbx_keyword=&rbx_matchtype=&rbx_send_info=0; expires=Mon, 23-Feb-2015 10:01:40 GMT; path=/, RBXViralAcquisition=time=1/24/2015 4:01:40 AM&referrer=&originatingsite=; expires=Mon, 23-Feb-2015 10:01:40 GMT; path=/, rbx-ip=; path=/; HttpOnly, RBXSource=rbx_acquisition_time=1/24/2015 4:01:40 AM&rbx_acquisition_referrer=&rbx_medium=Direct&rbx_source=&rbx_campaign=&rbx_adgroup=&rbx_keyword=&rbx_matchtype=&rbx_send_info=1; expires=Mon, 23-Feb-2015 10:01:40 GMT; path=/, RBXViralAcquisition=time=1/24/2015 4:01:40 AM&referrer=&originatingsite=; expires=Mon, 23-Feb-2015 10:01:40 GMT; path=/, RBXEventTracker=CreateDate=1/24/2015 4:01:40 AM&rbxid=&browserid=2114072870; expires=Wed, 11-Jun-2042 09:01:40 GMT; path=/, GuestData=UserID=-2091395953; expires=Wed, 11-Jun-2042 09:01:40 GMT; path=/, RBXMarketing=FirstHomePageVisit=1; expires=Wed, 11-Jun-2042 09:01:40 GMT; path=/, __RequestVerificationToken=_iGbqebTxjYnENmr1SE_Em5ZbYSDoO3F9xiilqed9i9O91nIMnMyZF-5iAKyKQpfUYVJ_U9T_TK3Q3ZQ930wghq05pk1; path=/; HttpOnly"
       }
     },
     {
