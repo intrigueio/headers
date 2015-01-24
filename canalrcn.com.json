@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, must-revalidate, post-check=0, pre-check=0"
+        "content": "public, max-age=60"
       }
     },
     {
@@ -46,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Sat, 24 Jan 2015 21:06:14 GMT"
+        "content": "Sat, 24 Jan 2015 22:03:35 GMT"
       }
     },
     {
@@ -67,14 +67,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-backend-ttl",
-        "content": "0.000"
+        "content": "60.000"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-drupal-cache",
-        "content": "MISS"
+        "content": "HIT"
       }
     },
     {
@@ -88,7 +88,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-newcloud-v-cache",
-        "content": "Miss"
+        "content": "Hit"
       }
     },
     {
@@ -102,35 +102,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "111874"
+        "content": "110533 276720"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "Cookie,Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "Hit from cloudfront"
+        "content": "RefreshHit from cloudfront"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "1.1 dc9b0bc597aca119ace81a1479e39fd3.cloudfront.net (CloudFront)"
+        "content": "1.1 ea8eee53fbc1459b12f3c7b191ba7d13.cloudfront.net (CloudFront)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-amz-cf-id",
-        "content": "MnaM4AMOOwqgf9fXYxEKuj-6IkSG3n4K4dBwLBXryo9mJXn7C1FDyw=="
+        "content": "sioT3k-bb_abvans0eY-Q62JZXf5Zb_vR-sZq0INo1IzuJ83Yf_oGw=="
       }
     }
   ]
