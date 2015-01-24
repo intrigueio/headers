@@ -11,42 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache/2.2.15 (CentOS) DAV/2 PHP/5.4.31 mod_wsgi/3.2 Python/2.6.6 mod_apreq2-20090110/2.8.0 mod_perl/2.0.4 Perl/v5.10.1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.4.31"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
+        "content": "Varnish"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnish",
-        "content": "213475557, 582016708"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "via",
-        "content": "1.1 varnish, 1.1 varnish"
+        "name": "retry-after",
+        "content": "5"
       }
     },
     {
@@ -59,8 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-varnish",
+        "content": "1098535475"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "close"
       }
     }
   ]
