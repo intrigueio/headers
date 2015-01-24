@@ -18,14 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "content": "text/plain; charset=UTF-8"
       }
     },
     {
@@ -45,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "retry-after",
+        "content": "60"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "accept-ranges",
         "content": "bytes"
       }
@@ -52,85 +52,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "SID=ltyga5i0000xgcyurww2mvsx210; path=/, UID-s=ltyga5i0000xgc67x4xd5u5d300; path=/, UID=ltyga5i0000xgc67x4xd5u5d300; path=/; expires=Thu, 23 Jan 2020 13:05:25 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private; no-cache; max-age=0; s-maxage=0; must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-id",
-        "content": "wncd37g0000x00fmuek3nwlsg0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-name",
-        "content": "www"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "final",
-        "content": "true"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "private",
-        "content": "true"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "sessionid",
-        "content": "ltyga5i0000xgcyurww2mvsx210"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "source",
-        "content": "acm.zvezdanews.ru"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-class",
-        "content": "HIGH_PRIORITY"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "userid",
-        "content": "ltyga5i0000xgc67x4xd5u5d300"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vendor",
-        "content": "SKIN/HIERARCHY"
+        "content": "POOL/TGT"
       }
     }
   ]
