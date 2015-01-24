@@ -17,15 +17,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Cookie,Accept-Encoding"
+        "name": "last-modified",
+        "content": "Sat, 24 Jan 2015 11:58:59 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-pingback",
-        "content": "http://trak.in/xmlrpc.php"
+        "name": "etag",
+        "content": "\"129a5e-12202-50d64a16206c0\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
@@ -33,6 +40,13 @@
       "attributes": {
         "name": "cache-control",
         "content": "max-age=600 no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,Cookie"
       }
     },
     {
@@ -67,7 +81,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive"
       }
     }
   ]

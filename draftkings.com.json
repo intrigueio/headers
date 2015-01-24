@@ -59,15 +59,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "u=; domain=.draftkings.com; expires=Fri, 23-Jan-2015 11:02:59 GMT; path=/, AccessToken=; domain=.draftkings.com; expires=Fri, 23-Jan-2015 11:02:59 GMT; path=/, show_impersonation_banner=; domain=.draftkings.com; expires=Fri, 23-Jan-2015 11:02:59 GMT; path=/, VIDN=744932297; domain=.draftkings.com; expires=Sat, 24-Jan-2065 11:02:59 GMT; path=/, SIDN=207141316; domain=.draftkings.com; expires=Sat, 24-Jan-2015 11:32:59 GMT; path=/, SSIDN=210505944; domain=.draftkings.com; expires=Sat, 24-Jan-2015 11:32:59 GMT; path=/, SN=1223548523; domain=.draftkings.com; expires=Mon, 23-Feb-2015 11:02:59 GMT; path=/, HKN=3R0UsPA9eNrJq6VLMh7WeMxEtwVbRfaKCcabe9jHjt6b65LMSbmUQdeqJ4a5Ma5I; domain=.draftkings.com; expires=Sat, 24-Jan-2065 11:02:59 GMT; path=/, SINFN=PID=&AOID=&PUID=0&SSEG=&BID=0&BH=; domain=.draftkings.com; expires=Sat, 24-Jan-2065 11:02:59 GMT; path=/, VID=; expires=Mon, 24-Jan-2005 11:02:59 GMT; path=/, HK=; expires=Mon, 24-Jan-2005 11:02:59 GMT; path=/, EXC=210505944:16; domain=.draftkings.com; expires=Sat, 24-Jan-2015 11:17:59 GMT; path=/"
+        "content": "u=; domain=.draftkings.com; expires=Fri, 23-Jan-2015 12:03:16 GMT; path=/, AccessToken=; domain=.draftkings.com; expires=Fri, 23-Jan-2015 12:03:16 GMT; path=/, show_impersonation_banner=; domain=.draftkings.com; expires=Fri, 23-Jan-2015 12:03:16 GMT; path=/, VIDN=367025467; domain=.draftkings.com; expires=Sat, 24-Jan-2065 12:03:15 GMT; path=/, SIDN=207153651; domain=.draftkings.com; expires=Sat, 24-Jan-2015 12:33:15 GMT; path=/, SSIDN=210518400; domain=.draftkings.com; expires=Sat, 24-Jan-2015 12:33:15 GMT; path=/, SN=1223548523; domain=.draftkings.com; expires=Mon, 23-Feb-2015 12:03:15 GMT; path=/, HKN=jzuu10vJRs1AFYu95c1W30M3CT8TgvfCbqZnyZEpk0rd5gwTt81pDs5r1HJLSPEI; domain=.draftkings.com; expires=Sat, 24-Jan-2065 12:03:15 GMT; path=/, SINFN=PID=&AOID=&PUID=0&SSEG=&BID=0&BH=; domain=.draftkings.com; expires=Sat, 24-Jan-2065 12:03:15 GMT; path=/, VID=; expires=Mon, 24-Jan-2005 12:03:15 GMT; path=/, HK=; expires=Mon, 24-Jan-2005 12:03:15 GMT; path=/, EXC=210518400:15; domain=.draftkings.com; expires=Sat, 24-Jan-2015 12:18:15 GMT; path=/"
       }
     }
   ]
