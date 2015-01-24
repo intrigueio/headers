@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=deab9b67b31040e3617b2267c875da1401422079280; expires=Sun, 24-Jan-16 06:01:20 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=IkMSoxwvrL4VwL3vD8eJy%2BRfK7ThU%2BAoW4SwCIsW0qs%3D; domain=genius.com; path=/; expires=Sun, 24-Jan-2016 06:01:20 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMUlrTVNveHd2ckw0VndMM3ZEOGVKeStSZks3VGhVK0FvVzRTd0NJc1cwcXM9Og9zZXNzaW9uX2lkIiViZjY1ODRiMmM1OTQ1ODcyMmIyZWRkNDdjNjRmMDVlNg%3D%3D--7e2e462a2c1bb12e03864401d0be7aae729fbb25; domain=.genius.com; path=/; HttpOnly"
+        "content": "__cfduid=dae0c1f1224870594d2fc99e2df334e411422082892; expires=Sun, 24-Jan-16 07:01:32 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=HULP%2Fx%2FK1tHcS10jXUJdFNcpYraOV6zXnqF5OhgAlug%3D; domain=genius.com; path=/; expires=Sun, 24-Jan-2016 07:01:32 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMUhVTFAveC9LMXRIY1MxMGpYVUpkRk5jcFlyYU9WNnpYbnFGNU9oZ0FsdWc9Og9zZXNzaW9uX2lkIiU4ZDI5MDVhNzA3Zjg0NDg0MDgwYjk1ZThkYmEzOTUwYQ%3D%3D--ff6b6fa5d396fbdcf7676065c9151eaf738a2baf; domain=.genius.com; path=/; HttpOnly"
       }
     },
     {
@@ -45,8 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "X-Requested-With"
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"c0d88492b5af88be5ddb246ff34ba046\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "16"
       }
     },
     {
@@ -59,29 +73,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "X-Requested-With"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "etag",
-        "content": "W/\"e324a36b2702b76b137e714841a7b3c5\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-runtime",
-        "content": "555"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
       }
     },
     {
@@ -102,7 +102,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1ada040c76ae118f-DFW"
+        "content": "1ada5c409f53118f-DFW"
       }
     }
   ]

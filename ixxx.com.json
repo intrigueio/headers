@@ -11,28 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "ta=3%3BW251bGwsMCwxNDIyMDc5MjM5LDE0MjIwNzkyMzksMiwwLDAsIjIwMTUtMDEtMjQiLG51bGxd; expires=Sun, 24-Jan-2016 06:00:39 GMT; Max-Age=31536000; path=/, CKS0=eyJzdGF0cyI6eyJjbGlkIjowLCJjaWQiOjAsImZyb21faWQiOjQzMCwidG9faWQiOjQzMCwiY2hlY2tlZCI6MTQyMjA3OTIzOX0sInN0YXRzX2luZm8iOnsidGltZSI6MTQyMjA3OTIzOX19; expires=Sun, 24-Jan-2016 06:00:39 GMT; Max-Age=31536000; path=/; domain=ixxx.com"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "max-age=521"
+        "content": "Varnish"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "retry-after",
+        "content": "5"
       }
     },
     {
@@ -46,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1363061021"
+        "content": "1364017665"
       }
     },
     {
@@ -60,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "close"
       }
     }
   ]
