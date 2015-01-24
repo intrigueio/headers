@@ -10,8 +10,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,15 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "customloggingresponse",
-        "content": "V=0C28C08021C33B4B9E1A1E7D7C6A5DE1"
+        "name": "server",
+        "content": ", "
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": ""
+        "name": "customloggingresponse",
+        "content": "V=A324F7BB0B86474F8FF60CD1F8D99672"
       }
     },
     {
@@ -59,43 +73,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "__SessionId=kb0vnttl2jpgai1ze3oekcpw; domain=.ebags.com; path=/; HttpOnly, __VisitorId=A324F7BB0B86474F8FF60CD1F8D99672; domain=.ebags.com; expires=Wed, 24-Jan-2035 00:01:23 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
         "content": ""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-yottaa-optimizations",
-        "content": "ob/1001000000100001100 si/1881863760 tts/1422052840437 ti/54636bb786305e35ea00041e ai/54636bb786305e35ea00040e"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-yottaa-metrics",
-        "content": "012136ad8af6/[21,-,-] 011136d1687d/[-,24.319]"
       }
     }
   ]
