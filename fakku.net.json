@@ -10,8 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html"
       }
     },
     {
@@ -32,28 +39,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d61d00428b4027a78488b527134a445801422101068; expires=Sun, 24-Jan-16 12:04:28 GMT; path=/; domain=.fakku.net; HttpOnly"
+        "content": "__cfduid=d32ba14a917d08d3de4c5b5df1f2037d91422104689; expires=Sun, 24-Jan-16 13:04:49 GMT; path=/; domain=.fakku.net; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "retry-after",
-        "content": "5"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "strict-transport-security",
+        "content": "max-age=31536000; includeSubdomains"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1208265314"
+        "content": "1208549446"
       }
     },
     {
@@ -87,15 +94,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cf-ray",
-        "content": "1adc1800f938116b-DFW"
+        "content": "1adc7064c5481195-DFW"
       }
     }
   ]
