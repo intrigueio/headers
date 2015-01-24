@@ -24,15 +24,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "JSESSIONID=B964B25024FBEBDCCB42D4F36659CEB2; Path=/; HttpOnly, LAST_SITE_CODE=bla; Domain=blair.com; Path=/, PIPELINE_SESSION_ID=cp_9aea884ca4b5498cb4a8a08fb9152497; Domain=blair.com; Expires=Mon, 23-Feb-2015 00:04:14 GMT; Path=/, SITE_VISITED_DATE=01/23/2015; Expires=Thu, 11-Feb-2083 03:18:21 GMT; Path=/, blair.com_LoadBalance=2199196076.20480.0000; expires=Sun, 25-Jan-2015 00:04:14 GMT; path=/"
+        "content": "JSESSIONID=A92EB5E6D936DB39B1C9BDA19E84EEF6; Path=/; HttpOnly, LAST_SITE_CODE=bla; Domain=blair.com; Path=/, PIPELINE_SESSION_ID=cp_5cc0b25b5ac944168ae936dd617e1a6f; Domain=blair.com; Expires=Mon, 23-Feb-2015 01:04:32 GMT; Path=/, SITE_VISITED_DATE=01/23/2015; Expires=Thu, 11-Feb-2083 04:18:39 GMT; Path=/, blair.com_LoadBalance=2249527724.20480.0000; expires=Sun, 25-Jan-2015 01:04:32 GMT; path=/"
       }
     }
   ]
