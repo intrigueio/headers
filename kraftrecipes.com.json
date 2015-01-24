@@ -24,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "*"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
         "content": "Microsoft-IIS/7.5"
       }
@@ -60,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-akamai-transformed",
-        "content": "9 163470 0 pmb=mRUM,1"
+        "content": "9 - 0 pmb=mRUM,1"
       }
     },
     {
@@ -81,7 +74,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "BIGipServerPOOL-www.kraftrecipes.com-80=3083446464.20480.0000; path=/"
+        "content": "BIGipServerPOOL-www.kraftrecipes.com-80=3100223680.20480.0000; path=/, akrte=A; expires=Sat, 24-Jan-2015 02:08:21 GMT; path=/; domain=.www.kraftrecipes.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "*, Accept-Encoding, User-Agent"
       }
     }
   ]
