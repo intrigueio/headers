@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public, max-age=600"
+        "content": "public, max-age=600, no-cache=\"set-cookie\""
       }
     },
     {
@@ -26,13 +26,6 @@
       "attributes": {
         "name": "server",
         "content": "Apache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-akamai-transformed",
-        "content": "9 13875 0 pmb=mRUM,1"
       }
     },
     {

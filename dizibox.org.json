@@ -32,21 +32,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d1dc61cf40bbabef0f10ca17443cecf9f1422111887; expires=Sun, 24-Jan-16 15:04:47 GMT; path=/; domain=.dizibox.org; HttpOnly"
+        "content": "__cfduid=db9852d523d8d6cc4ed29c02846af59531422115498; expires=Sun, 24-Jan-16 16:04:58 GMT; path=/; domain=.dizibox.org; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding, Cookie"
+        "content": "Accept-Encoding, Accept-Encoding, Cookie"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-pingback",
-        "content": "http://www.dizibox.org/xmlrpc.php"
+        "name": "cache-control",
+        "content": "max-age=3, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "wp-super-cache",
+        "content": "Served supercache file from PHP"
       }
     },
     {
@@ -60,7 +67,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1add2020b4bb0956-DFW"
+        "content": "1add78469ce10956-DFW"
       }
     }
   ]
