@@ -38,15 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
+        "name": "server",
+        "content": "Hsoub Nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Hsoub Nginx"
+        "name": "set-cookie",
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIJY3NyZiIlNTg1ODI4ZDJmOGEzMzA1NmEyZDBkMjA2NzUxNzliOGMi%0ADXRyYWNraW5newciGUhUVFBfQUNDRVBUX0xBTkdVQUdFIi1kYTM5YTNlZTVl%0ANmI0YjBkMzI1NWJmZWY5NTYwMTg5MGFmZDgwNzA5IhRIVFRQX1VTRVJfQUdF%0ATlQiLTE4ZTQwZTE0MDFlZWY2N2UxYWU2OWVmYWIwOWFmYjcxZjg3ZmZiODEi%0AD3Nlc3Npb25faWQiRWIwOWU4OTZhNmQ2YjY4ODgyY2RmYjQxMzQ5YjFkZTU0%0ANTE2ZmFmZTY5Y2YwODQwOGRhMjM2NjQyNDc1OWYxODg%3D%0A--45d279e0a57a0ec9c13810d264a4ebdbe0c867f9; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {
@@ -68,13 +75,6 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "Hsoub, Phusion Passenger"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIJY3NyZiIlZDQzOWY1ZGIzOGI1ZTdjMjliNDIyYTFmYjc2NjFjZDAi%0AD3Nlc3Npb25faWQiRTNkYTY4MjUzMDA4MDNlM2M3M2U2MWE2MjZjYjcyMjI4%0AMDQ5YTRmMGY2MWM2YzlkOGUxOTdjZjQwZTdhZDdiNzQiDXRyYWNraW5newci%0AGUhUVFBfQUNDRVBUX0xBTkdVQUdFIi1kYTM5YTNlZTVlNmI0YjBkMzI1NWJm%0AZWY5NTYwMTg5MGFmZDgwNzA5IhRIVFRQX1VTRVJfQUdFTlQiLTE4ZTQwZTE0%0AMDFlZWY2N2UxYWU2OWVmYWIwOWFmYjcxZjg3ZmZiODE%3D%0A--9aa04e93c97969bf6b3c6cdd03d736be77721908; path=/; HttpOnly"
       }
     }
   ]

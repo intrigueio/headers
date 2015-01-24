@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=dbb937d94bab884d25999e53668a09cc51422064828; expires=Sun, 24-Jan-16 02:00:28 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=%2B8VPd62VgbZo5maKx5uk4c7spsxCm0H3CZ1nxvjXJ60%3D; domain=genius.com; path=/; expires=Sun, 24-Jan-2016 02:00:29 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMSs4VlBkNjJWZ2JabzVtYUt4NXVrNGM3c3BzeENtMEgzQ1oxbnh2alhKNjA9Og9zZXNzaW9uX2lkIiViMDJhNWM2MmI0MGYwYWRiYTY0ODE1ZDIxYmEzMjM2OA%3D%3D--d910778cf67a38c6344b103dafc7a368f2888057; domain=.genius.com; path=/; HttpOnly"
+        "content": "__cfduid=dd0843281ba94ffcd96e432c46d4b8f191422068445; expires=Sun, 24-Jan-16 03:00:45 GMT; path=/; domain=.genius.com; HttpOnly, _csrf_token=OFx5Od6SiixX4TIjan09XOGBnRdHIRp1I9T6fCM%2FEtA%3D; domain=genius.com; path=/; expires=Sun, 24-Jan-2016 03:00:46 GMT, _rapgenius_session=BAh7BzoQX2NzcmZfdG9rZW4iMU9GeDVPZDZTaWl4WDRUSWphbjA5WE9HQm5SZEhJUnAxSTlUNmZDTS9FdEE9Og9zZXNzaW9uX2lkIiVlZWJhOGU2OTVkNDAyYzRjNzVjOWI3ZDY2Y2ViMTlmMQ%3D%3D--7e55f757704c0c8a98844f8d7ec57c8065c4210d; domain=.genius.com; path=/; HttpOnly"
       }
     },
     {
@@ -45,8 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "W/\"9192a55bc0c8d47f4692efe56f967b65\""
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "537"
       }
     },
     {
@@ -59,8 +66,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-runtime",
-        "content": "686"
+        "name": "vary",
+        "content": "X-Requested-With"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"df737af1c44009bf85a4a52fecabff6d\""
       }
     },
     {
@@ -68,20 +82,6 @@
       "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "X-Requested-With"
       }
     },
     {
@@ -102,7 +102,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1ad8a338ded8118f-DFW"
+        "content": "1ad8fb8a0be8118f-DFW"
       }
     }
   ]
