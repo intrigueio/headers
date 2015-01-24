@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -38,15 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "wordpress_d23ab4f4c2b8fa2ce35f9c17b5ec108d=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/wp-content/plugins; httponly, wordpress_d23ab4f4c2b8fa2ce35f9c17b5ec108d=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/wp-admin; httponly, wordpress_logged_in_d23ab4f4c2b8fa2ce35f9c17b5ec108d=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; httponly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "last-modified",
-        "content": "Thu, 01 Jan 1970 00:00:00 GMT"
+        "content": "Sat, 24 Jan 2015 15:05:40 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "65cdc3897937b499b7f2076685850ccb"
+        "content": "46cc402bde619df04733c1480083f0c5"
       }
     },
     {
@@ -61,6 +68,13 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pingback",
+        "content": "http://www.freshdesignweb.com/xmlrpc.php"
       }
     }
   ]
