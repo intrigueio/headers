@@ -10,50 +10,71 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache/2.2.15 (Red Hat)"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Fri, 29 Aug 2014 10:21:44 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "etag",
-        "content": "\"155f-501c2051a9548\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "pragma",
+        "content": "No-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, no-store, must-revalidate, proxy-revalidate"
+        "content": "no-cache,no-store,max-age=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "x-dynatrace-js-agent",
+        "content": "true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-dynatrace",
+        "content": "PT=96288090;PA=1383372864;RS=dynaTrace Production Profile/20150125080611_0.session;SP=dynaTrace Production Profile;PS=-391812454"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=0000ePXbBvWLUhym3hz8HqfAH1G:196l7odu5; Path=/, WC_PERSISTENT=AOvFlsEBHesCNJpgAnfp%2fS9m3Bg%3d%0a%3b2015%2d01%2d25+09%3a12%3a31%2e676%5f1422195151676%2d32855%5f0; Expires=Tue, 24-Feb-15 14:12:31 GMT; Path=/, WC_SESSION_ESTABLISHED=true; Path=/, WC_PERSISTENT=b%2bl6BixG6lKLMa6qawMcFQr%2bk7Q%3d%0a%3b2015%2d01%2d25+09%3a12%3a31%2e679%5f1422195151676%2d32855%5f10101%5f%2d1002%2c%2d1%2cUSD%5f10101; Expires=Tue, 24-Feb-15 14:12:31 GMT; Path=/, WC_ACTIVEPOINTER=%2d1%2c10101; Path=/, WC_USERACTIVITY_-1002=%2d1002%2c10101%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cUm4E1YxXvwrqtzd5KNbqWft9BzGZlCV%2b4tocy%2b8s0j7KVIhfJqZ8yWBSVXHEl%2fIW5hVtPHgWX%2bEVQMu4PRwgwKLj642wKxjELixTgrGhBmmhlI3zQEDqq6hj1MOZsYg5S8fFcAGNbjo1%2bVcp%2fhLcvzj1fkXFtbRPl%2bhs3qRVQGTIx4nxlc8m4DctyASWdpRxtS8Jk5y2sb%2b1kBF8sJfUgw%3d%3d; Path=/, WC_GENERIC_ACTIVITYDATA=[5525266796%3atrue%3afalse%3a0%3aVDQhAiz959HgWrhEUUOGgMsdLeg%3d][com.ibm.commerce.context.audit.AuditContext|1422195151676%2d32855][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][CTXSETNAME|Store][com.ibm.commerce.context.globalization.GlobalizationContext|%2d1%26USD%26%2d1%26USD][com.ibm.commerce.catalog.businesscontext.CatalogContext|10001%26null%26false%26false%26false][com.ibm.commerce.context.base.BaseContext|10101%26%2d1002%26%2d1002%26%2d1][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.entitlement.EntitlementContext|4000000000000000003%264000000000000000003%26null%26%2d2000%26null%26null%26null][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]; Path=/, dtCookie=67D54AA2FCE4D60F94D18E6EFA9C5E3C|Kay|1; Path=/; Domain=.kay.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
       }
     }
   ]

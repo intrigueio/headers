@@ -31,15 +31,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
-        "content": "Microsoft-IIS/8.5"
+        "content": "Microsoft-IIS/7.5"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=s7irat3vflrvkufbrgl6ebqj83; path=/, Ind-%3FP1%3FIndane=HCDCKIMA; Expires=Sun, 25-Jan-2015 15:10:28 GMT; Path=/; HttpOnly"
+        "content": "PHPSESSID=as9k5m22gobl1s3mgle43ae2o0; path=/, Ind-%3FP1%3FIndane=HADCKIMA; Expires=Sun, 25-Jan-2015 16:10:56 GMT; Path=/; HttpOnly"
       }
     },
     {
@@ -54,6 +61,27 @@
       "attributes": {
         "name": "x-powered-by-plesk",
         "content": "PleskWin"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "*"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-headers",
+        "content": "Content-Type, Accept, X-Requested-With, X-File-Name"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-methods",
+        "content": "GET, POST"
       }
     },
     {
