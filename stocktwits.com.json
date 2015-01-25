@@ -32,7 +32,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=25"
       }
     },
     {
@@ -60,21 +67,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "session_visits_count=1; path=/; expires=Thu, 25-Jan-2035 06:08:44 GMT, session_visit_counted=true; path=/; expires=Sun, 25-Jan-2015 06:38:44 GMT, quotes_port=0; path=/; expires=Sat, 25-Apr-2015 06:08:44 GMT, _stwts=BAh7CEkiD3Nlc3Npb25faWQGOgZFVEkiJWY0N2M3MmMwNzRhZDkzZmI4OTNiN2IxYTg5ZjlhYjA5BjsAVEkiFGFuYWx5dGljc19xdWV1ZQY7AEZbAEkiEF9jc3JmX3Rva2VuBjsARkkiMVZ2ZUZWYnhWbzZ3S25LK2ZiekwvQTFNeTZBU091dnJYMGRiZ2dwL0hOd0U9BjsARg%3D%3D--89f67bc7e209db5ada2dd64c9abcc01665730042; domain=.stocktwits.com; path=/; HttpOnly"
+        "content": "session_visits_count=1; path=/; expires=Thu, 25-Jan-2035 07:08:52 GMT, session_visit_counted=true; path=/; expires=Sun, 25-Jan-2015 07:38:52 GMT, quotes_port=0; path=/; expires=Sat, 25-Apr-2015 06:08:52 GMT, _stwts=BAh7CEkiD3Nlc3Npb25faWQGOgZFVEkiJTRkOWY2N2FhMTQ0OTZmZTYyNTZkMGViMTI0OWUzZTI1BjsAVEkiFGFuYWx5dGljc19xdWV1ZQY7AEZbAEkiEF9jc3JmX3Rva2VuBjsARkkiMXR4UlhyQXJtM0Y1NWViUDkwT2J0TWxVZnNnRzU1ODBzNXF3Ynl6YlYwU0U9BjsARg%3D%3D--aae2e83b54f08269aa60f91c4c275aca5ec90fe9; domain=.stocktwits.com; path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "1b544e4ccdbe8d57c17aa355c70c523e"
+        "content": "d6e8127e565f6bbad9d3aef25cc70301"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.064926"
+        "content": "0.062568"
       }
     },
     {
