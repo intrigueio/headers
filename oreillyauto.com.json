@@ -11,42 +11,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache"
+        "content": "Apache-Coyote/1.1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "retry-after",
-        "content": "3600"
+        "name": "cache-control",
+        "content": "must-revalidate, max-age=0, no-cache, no-store"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Wed, 05 Mar 2014 21:48:12 GMT"
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"4a6-4f3e2fa36ed9d\""
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "set-cookie",
+        "content": "JSESSIONID=B13B8AAB59A1AA3680E8795B5229F47E; Path=/site/; HttpOnly, SPF_COOKIE=a5cpRg2MpCfx6eiS6RfDwkBd4IWPHvyxp82P5aeVBiAYdd%2FzmtGAq75A%2BUYa7KsVFdLReYAK22kUEF6avZWCMQ%3D%3D; path=/; httpOnly, OReillyAuto_v4.0=rO0ABXQAES0xOm51bGw6LTE6OjpudWxs; path=/; expires=Mon, 25-Jan-2016 12:12:21; HttpOnly"
       }
     },
     {
@@ -59,15 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "BlockDOS"
+        "name": "cache-control",
+        "content": "private"
       }
     },
     {
@@ -24,20 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -45,8 +31,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private"
+        "name": "server",
+        "content": "Microsoft-IIS/7.5"
       }
     },
     {
@@ -67,14 +53,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "incap_ses_262_39563=zXkQK8TTLRF2V3Lez8+iA4TOxFQAAAAA05LBTEAZNrW/dwNINVZrbA==; path=/; Domain=.express.com.pk, visid_incap_39563=fSkTfhjGQQmnXUZAK5s+D4TOxFQAAAAAQUIPAAAAAAAtAYvVeVHoXZtmgPws1mOV; expires=Tue, 24 Jan 2017 09:47:00 GMT; path=/; Domain=.express.com.pk"
+        "content": "incap_ses_262_39563=fWiLSY/xjDzJ5nfez8+iA6PcxFQAAAAAS4Lw3XNHIWMojNxELcmdWQ==; path=/; Domain=.express.com.pk, visid_incap_39563=EN4NSESeR1i95Q6u2EWKIqPcxFQAAAAAQUIPAAAAAACZ0MRYMWAcwECym5V3qcR2; expires=Tue, 24 Jan 2017 09:47:06 GMT; path=/; Domain=.express.com.pk"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-iinfo",
-        "content": "0-2383722-2383723 NNNN CT(24 -1 0) RT(1422184068647 0) q(0 0 0 0) r(1 1) U1"
+        "content": "10-31135102-31128006 PNNN RT(1422187683280 0) q(0 0 0 0) r(1 1) U1"
       }
     },
     {
@@ -82,6 +68,13 @@
       "attributes": {
         "name": "x-cdn",
         "content": "Incapsula"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]
