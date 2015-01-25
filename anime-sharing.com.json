@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d5702e0e8e44c7439e8ffaa591ea1fd421422169709; expires=Mon, 25-Jan-16 07:08:29 GMT; path=/; domain=.anime-sharing.com; HttpOnly, bb_sessionhash=2eab585b04d7a0b44337b309e2191e7c; path=/; HttpOnly, bb_lastvisit=1422169709; expires=Mon, 25-Jan-2016 07:08:29 GMT; path=/, bb_lastactivity=0; expires=Mon, 25-Jan-2016 07:08:29 GMT; path=/"
+        "content": "__cfduid=dfd892ab269218c904c08f8b18035eb621422173321; expires=Mon, 25-Jan-16 08:08:41 GMT; path=/; domain=.anime-sharing.com; HttpOnly, bb_lastactivity=0; expires=Mon, 25-Jan-2016 08:08:19 GMT; path=/"
       }
     },
     {
@@ -52,8 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-guard-cache",
-        "content": "EXPIRED"
+        "content": "HIT"
       }
     },
     {
@@ -67,7 +81,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1ae2a3cec2870938-DFW"
+        "content": "1ae2fbfe4d430938-DFW"
       }
     }
   ]
