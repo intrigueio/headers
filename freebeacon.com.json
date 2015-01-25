@@ -39,21 +39,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding, Accept-Encoding,Cookie"
+        "content": "Accept-Encoding, Cookie"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=3, must-revalidate"
+        "name": "x-pingback",
+        "content": "http://freebeacon.com/xmlrpc.php"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "wp-super-cache",
-        "content": "Served supercache file from PHP"
+        "name": "link",
+        "content": "<http://freebeacon.com/>; rel=shortlink"
       }
     }
   ]

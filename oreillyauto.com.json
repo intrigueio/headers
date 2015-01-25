@@ -11,42 +11,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache-Coyote/1.1"
+        "content": "Apache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "must-revalidate, max-age=0, no-cache, no-store"
+        "name": "retry-after",
+        "content": "3600"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "last-modified",
+        "content": "Wed, 05 Mar 2014 21:48:12 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html;charset=UTF-8"
+        "name": "etag",
+        "content": "\"4a6-4f3e2fa36ed9d\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "JSESSIONID=8DFB6068D898FDFA726C255DF70C7D39; Path=/site/; HttpOnly, SPF_COOKIE=M4XlArKIPouKTxi%2FxGChUgwSs%2FZcbbvzYDjMfXmZksXPeu5mjrJtzGlB7T2XTUbEQoMe178LwSfL%2Fmx7lFTMPQ%3D%3D; path=/; httpOnly, OReillyAuto_v4.0=rO0ABXQAES0xOm51bGw6LTE6OjpudWxs; path=/; expires=Mon, 25-Jan-2016 10:11:35; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "msapplication-config",
-        "content": "none"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
@@ -59,8 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "msapplication-config",
+        "content": "none"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
       }
     }
   ]
