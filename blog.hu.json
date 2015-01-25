@@ -11,42 +11,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.2.1"
+        "content": "Apache/2.2.9 (Debian) mod_ssl/2.2.9 OpenSSL/0.9.8g"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "name": "retry-after",
+        "content": "3600"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "last-modified",
+        "content": "Wed, 17 Feb 2010 00:35:44 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSIDv2=cvoko312cvnqmn1hg690b04gq2; expires=Tue, 24-Feb-2015 03:06:41 GMT; path=/; domain=blog.hu; HttpOnly, INX_CHECKER2=1; expires=Thu, 31-Dec-2037 23:00:00 GMT; path=/; domain=.blog.hu, INX_CHECKER2=1; expires=Thu, 31-Dec-2037 23:00:00 GMT; path=/; domain=.blog.hu"
+        "name": "etag",
+        "content": "\"ef887-2bd-47fc107da3800\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
@@ -54,6 +47,20 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html"
       }
     }
   ]
