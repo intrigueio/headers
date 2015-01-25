@@ -38,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-akamai-transformed",
+        "content": "9 32472 0 pmb=mRUM,1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "no-cache"
       }
@@ -45,15 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "_icl_current_language=en; expires=Mon, 26-Jan-2015 00:04:16 GMT; path=/, AWSELB=93C9EB6110149F1375320513EFE80C0BE484B1DE09C6294FEAD11CEAC21B1E394AAC1B9A11A067E873AED5A8177E2901A1DA4A235553EAA9F5AF6636F90867484DE2B60FE1;PATH=/;MAX-AGE=350"
+        "name": "connection",
+        "content": "keep-alive, Transfer-Encoding"
       }
     }
   ]
