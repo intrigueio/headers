@@ -17,15 +17,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=600"
+        "name": "connection",
+        "content": "keep-alive"
       }
     },
     {
@@ -46,7 +46,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "hit"
+        "content": "miss"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=600"
       }
     }
   ]
