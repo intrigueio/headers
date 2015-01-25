@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "_NJIN_=te7t1r903grt21p0kc6v53fto0; path=/; domain=.goalunited.org, _GU2011_=%17%11%F5%DF%16%A3%14%04R%23%BD%5B%C0%0Ao1%27%18%DD%A8_%3AT%F7F%2B%ECi%29%7E%15%CE%BE%9ES%D62%E3%D2O; path=/; domain=.goalunited.org, _GU2011_=%8B%AE%E5Y%A4P%CD%E4%0E%CDv%10%2Ak%99%CA%00N%88%BBR%93%88%ED%D2%F6%FE%5B%9E%ABR%12%94%DC%B0%8AHK%FC%3A; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Sun, 25-Jan-2015 10:08:58 GMT; path=/; domain=.goalunited.org, lang=en; expires=Sun, 25-Jan-2015 10:08:58 GMT; path=/; domain=.manager-football.org, lang=en; expires=Sun, 25-Jan-2015 10:08:58 GMT"
+        "content": "_NJIN_=92k0eq3e3a6vch4bgr43p1viv2; path=/; domain=.goalunited.org, _GU2011_=%8D%E7%1Ey%E7%B4%BC%96%DC%8A%A5%BF3%14%15%EA%FEpT%C2%91%27%91%27%9D%89%86%FC%EE%E6%3B%BC%8Cd%24%22%2F%F8y%13; path=/; domain=.goalunited.org, _GU2011_=%EF%03%F0%04%40%27%1A%ED%CA_%00%8AADy%E6%87%10%E8F%03%EC%0CJ%18L%FD%E2%3C%3A%BB%1C%C7%8E%2B%F3%EA%C1z%8E; path=/; domain=.goalunited.org, ping=1, lang=en; expires=Sun, 25-Jan-2015 11:09:14 GMT; path=/; domain=.goalunited.org, lang=en; expires=Sun, 25-Jan-2015 11:09:14 GMT; path=/; domain=.manager-football.org, lang=en; expires=Sun, 25-Jan-2015 11:09:14 GMT"
       }
     },
     {
@@ -47,13 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
       }
     }
   ]
