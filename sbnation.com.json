@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,29 +38,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Sat, 24 Jan 2015 22:56:34 GMT"
+        "name": "vary",
+        "content": "Accept-Encoding, Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "status",
+        "content": "200 OK"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=0, must-revalidate"
+        "content": "max-age=0,must-revalidate"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xrds-location",
-        "content": "http://www.sbnation.com/openid/yadis.xrdf"
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "W/\"9afdc6ec0593c6f0972f588386ab91af\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-request-id",
+        "content": "da78cb68-b623-42de-947f-7bd1925d546a"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-runtime",
+        "content": "0.353894"
       }
     },
     {
@@ -67,7 +95,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "474068190 463760558"
+        "content": "475579553 481593518"
       }
     },
     {
@@ -75,13 +103,6 @@
       "attributes": {
         "name": "via",
         "content": "1.1 varnish-v4"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
       }
     }
   ]
