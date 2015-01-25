@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public"
+        "content": "public, no-cache=\"Set-Cookie\", max-age=60"
       }
     },
     {
@@ -25,7 +25,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Sat, 24 Jan 2015 22:05:12 GMT"
+        "content": "Sat, 24 Jan 2015 23:06:04 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -40,6 +47,13 @@
       "attributes": {
         "name": "x-aspnet-version",
         "content": "4.0.30319"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "site.IsMobile=IsMobile=NO; domain=laodong.com.vn; expires=Sun, 25-Jan-2015 23:06:04 GMT; path=/, .ASPXANONYMOUS=Ejj5Krxu0AEkAAAANDljMjc4MTgtY2VhYi00ZWQyLWI4M2ItNTA5ZDQyNjkwMGM10; domain=laodong.com.vn; expires=Sat, 04-Apr-2015 09:46:04 GMT; path=/; HttpOnly"
       }
     }
   ]
