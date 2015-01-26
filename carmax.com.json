@@ -52,15 +52,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "KmxSession_0=fed4c564-a10c-40af-ba37-ef5b0c26542f; domain=.carmax.com; path=/, KmxCurrSession_0=AB=False&StartDate=1/25/2015 9:10:27 AM&DST=7&IsIntranet=False&IP=True&IsHomeOffice=False; domain=.carmax.com; path=/, KmxNewCustomerSession_0=True; domain=.carmax.com; path=/, KmxVisitor_0=VisitorID=18a13a8d-05bc-42b2-9067-a1b57c6240ef&CookieDate=1/25/2015 9:10:27 AM&Zip=75062&ZipDate=1/25/2015 9:10:27 AM; domain=.carmax.com; expires=Mon, 25-Jan-2016 14:10:27 GMT; path=/, KmxabVisitor_0=test=10060&bucket=V10060B01; domain=.carmax.com; expires=Sat, 28-Feb-2015 05:00:00 GMT; path=/, KmxabGeo_0=test=10040&bucket=G10040B02; domain=.carmax.com; expires=Wed, 25-Dec-2019 05:00:00 GMT; path=/, KmxMobile_0=stop_mobi=False; domain=.carmax.com; expires=Wed, 25-Feb-2015 14:10:27 GMT; path=/, KMXCOM_COOKIE=1797169418.28951.0000; path=/"
+        "content": "KmxSession_0=ed08276d-690e-43ed-abc0-3c22f40a1a88; domain=.carmax.com; path=/, KmxCurrSession_0=AB=False&StartDate=1/25/2015 10:37:57 AM&DST=7&IsIntranet=False&IP=True&IsHomeOffice=False; domain=.carmax.com; path=/, KmxNewCustomerSession_0=True; domain=.carmax.com; path=/, KmxVisitor_0=VisitorID=117f72ed-52f9-47bf-b91f-28ff71202662&CookieDate=1/25/2015 10:37:57 AM&Zip=75062&ZipDate=1/25/2015 10:37:57 AM; domain=.carmax.com; expires=Mon, 25-Jan-2016 15:37:57 GMT; path=/, KmxabVisitor_0=test=10060&bucket=V10060B01; domain=.carmax.com; expires=Sat, 28-Feb-2015 05:00:00 GMT; path=/, KmxabGeo_0=test=10040&bucket=G10040B02; domain=.carmax.com; expires=Wed, 25-Dec-2019 05:00:00 GMT; path=/, KmxMobile_0=stop_mobi=False; domain=.carmax.com; expires=Wed, 25-Feb-2015 15:37:57 GMT; path=/, KMXCOM_COOKIE=1746837770.28951.0000; path=/"
       }
     }
   ]
