@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx/1.2.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=iso8859-1"
       }
@@ -31,15 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d4f432a8c81f2a7d4fd5a7f3c6d8d5ddc1422200288; expires=Mon, 25-Jan-16 15:38:08 GMT; path=/; domain=.hltv.org; HttpOnly, PHPSESSID=8aa6nrs2pm9f5q4kg0jlb7qn46; path=/"
+        "name": "x-powered-by",
+        "content": "PHP/5.4.36-0+deb7u1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.4.36-0+deb7u1"
+        "name": "set-cookie",
+        "content": "PHPSESSID=4c9iig6vcetiffn01rrbsb4bn5; path=/"
       }
     },
     {
@@ -54,20 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1ae58e5cf26a10b1-ORD"
       }
     }
   ]

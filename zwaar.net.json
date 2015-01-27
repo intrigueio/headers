@@ -10,15 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
+        "name": "content-type",
+        "content": "text/html"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,8 +31,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"541841cb-219\""
+        "name": "set-cookie",
+        "content": "__cfduid=d0b62b8185841384468f789fcc31cc1951422286543; expires=Tue, 26-Jan-16 15:35:43 GMT; path=/; domain=.zwaar.net; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.3.29"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1aedc82fe66a03d0-DFW"
       }
     }
   ]

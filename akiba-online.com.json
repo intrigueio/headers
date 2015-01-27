@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.6.2"
+        "content": "nginx/1.7.3"
       }
     },
     {
@@ -24,8 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -46,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "xf_session=61035464c8f39a87ea9ca11cf5dd8dd3; path=/; httponly, akiba_location=osaka; path=/"
+        "content": "xf_session=11e21fb3a15cbf14bdb62603daa94759; path=/; httponly, akiba_location=tokyo; path=/"
       }
     },
     {
@@ -60,14 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Sun, 25 Jan 2015 15:45:27 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding, Accept-Encoding"
+        "content": "Mon, 26 Jan 2015 15:45:42 GMT"
       }
     }
   ]

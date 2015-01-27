@@ -38,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-akamai-transformed",
+        "content": "9 15921 0 pmb=mRUM,1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "p3p",
         "content": "policyref=\"http://www.olx.com/w3c/p3p.xml\", CP=\"NON DSP COR CURa\""
       }
@@ -45,22 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-akamai-transformed",
-        "content": "9 79045 0 pmb=mRUM,1"
+        "name": "cache-control",
+        "content": "max-age=0, no-cache, no-store"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive, Transfer-Encoding"
+        "content": "keep-alive"
       }
     }
   ]

@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=windows-1251"
       }
@@ -38,8 +31,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "keep-alive",
-        "content": "timeout=10"
+        "name": "set-cookie",
+        "content": "__cfduid=d318cac9d0ab56b5c3b4dce571fa0c5071422286577; expires=Tue, 26-Jan-16 15:36:17 GMT; path=/; domain=.lostfilm.tv; HttpOnly"
       }
     },
     {
@@ -54,6 +47,20 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.3.27"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1aedc9063f7f0103-DFW"
       }
     }
   ]

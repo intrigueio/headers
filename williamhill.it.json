@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -38,29 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "debug-whit-index",
-        "content": "www.williamhill.it"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "ulang=it; expires=Tue, 26-Jan-2016 01:12:27 GMT; path=/; domain=.williamhill.it, templang=it; path=/; domain=.williamhill.it"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
-        "content": "no-cache"
+        "content": "no-cache, private, no-transform, no-store"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "User-Agent,Accept, Accept-Encoding"
+        "name": "p3p",
+        "content": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pagespeed",
+        "content": "off"
       }
     }
   ]

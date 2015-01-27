@@ -10,22 +10,57 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=us-ascii"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Microsoft-HTTPAPI/2.0"
+        "content": "Microsoft-IIS/8.0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId=wtzcccwf0uygxvji3i4h1guk; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnetmvc-version",
+        "content": "5.1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnet-version",
+        "content": "4.0.30319"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET"
       }
     }
   ]
