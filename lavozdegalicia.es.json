@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "ngx_openresty/1.2.6.6"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=iso-8859-1"
       }
@@ -17,8 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-n",
-        "content": "S"
+        "name": "x-gw-user-access",
+        "content": "1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-esi",
+        "content": "1"
       }
     },
     {
@@ -26,6 +47,13 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=60"
       }
     },
     {

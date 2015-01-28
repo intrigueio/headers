@@ -10,15 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Sucuri/Cloudproxy"
+        "name": "content-type",
+        "content": "text/html"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -32,7 +32,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=h7m36k0mos8ibk02mu4lgtolf3; path=/, sesspv=1, session_views=1"
+        "content": "__cfduid=dee6cab250adafff2c8c95acd1ab8667d1422373203; expires=Wed, 27-Jan-16 15:40:03 GMT; path=/; domain=.godvine.com; HttpOnly, PHPSESSID=7gqcipi9d5546749ufdhtoju75; path=/, sesspv=1, session_views=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.5.9-1ubuntu4.5"
       }
     },
     {
@@ -45,22 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
+        "name": "server",
+        "content": "cloudflare-nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
+        "name": "cf-ray",
+        "content": "1af60beb000d0430-ORD"
       }
     }
   ]

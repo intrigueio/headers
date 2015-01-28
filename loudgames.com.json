@@ -45,8 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-pingback",
-        "content": "http://loudgames.com/xmlrpc.php"
+        "name": "vary",
+        "content": "Accept-Encoding,Cookie"
       }
     },
     {
@@ -54,13 +54,6 @@
       "attributes": {
         "name": "x-cacheable",
         "content": "SHORT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,Cookie"
       }
     },
     {
@@ -87,8 +80,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-pingback",
+        "content": "http://loudgames.com/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-type",
         "content": "default"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pass-why",
+        "content": ""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "X-Mapping-fjhppofk=AD2903B9AB6ACA086E14669CDF5E0EEB; path=/"
       }
     }
   ]

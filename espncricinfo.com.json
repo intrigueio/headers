@@ -11,49 +11,70 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Varnish"
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "public, max-age=60"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "emea-info",
+        "content": "wci028  2.118"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "retry-after",
-        "content": "5"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1002127895"
+        "content": "1249385956 1249381513, 1033869777"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "via",
-        "content": "1.1 varnish"
+        "name": "x-varnish-cache",
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish-hits",
+        "content": "102"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive, Transfer-Encoding"
       }
     }
   ]
