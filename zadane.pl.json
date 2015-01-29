@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
       }
@@ -38,6 +31,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d3fafba9c67df9561b15d7fa3ceab35401422459695; expires=Thu, 28-Jan-16 15:41:35 GMT; path=/; domain=.zadane.pl; HttpOnly, hl=pl; expires=Thu, 28-Jan-2016 15:41:35 GMT; path=/, Zadanepl_cookie[Token][Long]=deleted; expires=Sat, 01-Jan-2000 00:00:00 GMT; path=/; httponly, Zadanepl_cookie[Token][Short]=deleted; expires=Sat, 01-Jan-2000 00:00:00 GMT; path=/; httponly, first_visit=1422459695; expires=Thu, 28-Jan-2021 15:41:35 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "must-revalidate, no-cache, no-store, post-check=0, pre-check=0, private"
       }
@@ -46,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Tue, 27 Jan 2015 15:41:35 GMT"
+        "content": "Wed, 28 Jan 2015 15:41:35 GMT"
       }
     },
     {
@@ -59,15 +59,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "hl=pl; expires=Wed, 27-Jan-2016 15:41:35 GMT; path=/, Zadanepl_cookie[Token][Long]=deleted; expires=Sat, 01-Jan-2000 00:00:00 GMT; path=/; httponly, Zadanepl_cookie[Token][Short]=deleted; expires=Sat, 01-Jan-2000 00:00:00 GMT; path=/; httponly, first_visit=1422373295; expires=Wed, 27-Jan-2021 15:41:35 GMT; path=/"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1afe4b8a057e041e-ORD"
       }
     }
   ]

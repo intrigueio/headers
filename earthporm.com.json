@@ -10,36 +10,78 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "LiteSpeed"
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, no-cache, no-store, must-revalidate, max-age=0"
+        "name": "set-cookie",
+        "content": "__cfduid=d0c02c4eff8a534fc620bdb7a60998f941422459558; expires=Thu, 28-Jan-16 15:39:18 GMT; path=/; domain=.earthporm.com; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.4.29"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Thu, 01 Jan 1970 00:00:00 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "pragma",
-        "content": "no-cache"
+        "content": "public"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "cache-control",
+        "content": "max-age=3600, public, must-revalidate, proxy-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1afe483240a910a5-ORD"
       }
     }
   ]

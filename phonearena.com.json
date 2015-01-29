@@ -18,14 +18,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-powered-by",
-        "content": "PHP/5.4.26"
+        "content": "PHP/5.4.30"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "pasessionid=4097f6300e152204ef7dca9ee99c61df; expires=Wed, 28-Jan-2015 16:06:04 GMT; path=/, pasvv=1; expires=Fri, 27-Feb-2015 15:36:04 GMT; path=/, pamsg_usny=1; expires=Wed, 04-Feb-2015 15:36:04 GMT; path=/, TGLB=TGLBS_05; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "Accept-Encoding,User-Agent"
       }
     },
     {
@@ -40,13 +61,6 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "TGLB=TGLBS_01; path=/"
       }
     }
   ]

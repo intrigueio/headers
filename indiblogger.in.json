@@ -17,6 +17,34 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=15778463"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=943a7ac2cb9b31e358dc2b13058c09be; path=/, IndiLogin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "close"
       }
@@ -25,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=iso-8859-1"
+        "content": "text/html; charset=utf-8"
       }
     }
   ]

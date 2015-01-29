@@ -17,15 +17,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=C176F33A5023C0FA6803588128B3BD0E.worker0; Path=/; HttpOnly, state=\"bXVsdGl2YXJpYW50dGVzdGRlY2lzaW9ucw==:W10=\"; Version=1; Max-Age=31536000; Expires=Thu, 28-Jan-2016 15:36:01 GMT; Path=/, IS24VisitId=vidC176F33A5023C0FA6803588128B3BD0E.worker0; Domain=.immobilienscout24.de; Expires=Thu, 28-Jan-2016 15:36:01 GMT; Path=/, IS24VisitIdSC=sidC176F33A5023C0FA6803588128B3BD0E.worker0; Domain=.immobilienscout24.de; Path=/, immobilienscout24_persist=25763850.20480.0000; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=iso-8859-1"
+        "content": "text/html;charset=UTF-8"
       }
     }
   ]

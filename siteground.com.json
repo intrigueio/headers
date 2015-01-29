@@ -11,7 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache"
+        "content": "nginx/1.7.9"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
       }
     },
     {
@@ -26,27 +40,6 @@
       "attributes": {
         "name": "varnishable",
         "content": "1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
-        "content": "public"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "public, maxage=86400"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=2d98b6bbc63e8041eea864ddd61d38c3; path=/; domain=.siteground.com; HttpOnly, http_referrer=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.siteground.com, first_visit=MTA0LjIzNy4xMzMuODM%3D; expires=Fri, 24-Jan-2025 15:36:34 GMT; path=/; domain=.siteground.com, order_exit=bmV3; expires=Fri, 24-Jan-2025 15:36:34 GMT; path=/, sg_locale_aud1=MQ%3D%3D; expires=Sat, 28-Mar-2015 15:36:34 GMT; path=/; domain=.siteground.com"
       }
     },
     {
@@ -73,8 +66,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "name": "x-proxy-cache",
+        "content": "MISS"
       }
     }
   ]

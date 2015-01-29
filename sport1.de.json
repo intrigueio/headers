@@ -17,13 +17,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "keep-alive",
-        "content": "timeout=5"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding, Cookie, Authorization"
       }
@@ -33,6 +26,13 @@
       "attributes": {
         "name": "cache-control",
         "content": "max-age=120"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes, bytes"
       }
     },
     {
@@ -52,8 +52,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "x-cache-hits",
+        "content": "1"
       }
     },
     {

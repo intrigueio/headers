@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "access-control-allow-origin",
         "content": "*"
       }
@@ -39,21 +46,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cacheable",
-        "content": "NO:Not Cacheable"
+        "content": "YES"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1886772701"
+        "content": "1498049447 1498048372"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "varnish-x-cache",
-        "content": "MISS"
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "varnish-x-cache-hits",
+        "content": "2"
       }
     },
     {
@@ -67,7 +81,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=134"
+        "content": "max-age=173"
       }
     },
     {
