@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -19,6 +26,20 @@
       "attributes": {
         "name": "transfer-encoding",
         "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d9ce1c83febf0962b4d32151d6fe34d901422545927; expires=Fri, 29-Jan-16 15:38:47 GMT; path=/; domain=.codeschool.com; HttpOnly, flash=%7B%7D; path=/; secure"
       }
     },
     {
@@ -66,22 +87,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "flash=%7B%7D; path=/; secure"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-request-id",
-        "content": "4371fe89bdde0f6c854eea1392da2f05"
+        "content": "b64418ad1ab00730315c2f75af652ac5"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.006089"
+        "content": "0.007270"
       }
     },
     {
@@ -101,8 +115,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx + Phusion Passenger 4.0.56"
+        "name": "cf-ray",
+        "content": "1b0684cd95c209a0-ORD"
       }
     }
   ]

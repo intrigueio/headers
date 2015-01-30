@@ -17,13 +17,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "No-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-ua-compatible",
         "content": "IE=edge"
       }
@@ -45,15 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-akamai-transformed",
-        "content": "9 - 0 pmb=mRUM,1"
+        "name": "cache-control",
+        "content": "max-age=0, no-cache, no-store"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, no-cache, no-store"
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -68,6 +61,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=0000lxhsY6TZZoA3CBjvckPkkmX:154s25830; Path=/, WC_PERSISTENT=RjRAcFRLuBSw15S1mVBgP4IF%2fWU%3d%0a%3b2015%2d01%2d29+07%3a39%3a22%2e156%5f1422545962156%2d30674%5f0; Expires=Sat, 28-Jan-17 15:39:21 GMT; Path=/, BEC_BUILD_LEVEL=BEC_Main_Daily.459; Expires=Sat, 28-Jan-17 15:39:21 GMT; Path=/, WC_SESSION_ESTABLISHED=true; Path=/, TS01e25188=01db5ffdaf599042de5f1b33f438b2dbddde6ffccaf9ef17ae867df04e4ef1076343b780c0c331ec527f2985d80ce41592d41bc62f0e16be46347eda1dde61897710a8d9a176ae6eb2991a21ef6515b623b629ee23b757e267fe70f7e48ce4269f8200ff27; Path=/"
       }
     },
     {

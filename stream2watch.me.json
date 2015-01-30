@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d662d3cd3f38bdc0c13f5482edc58a2151422459590; expires=Thu, 28-Jan-16 15:39:50 GMT; path=/; domain=.stream2watch.me; HttpOnly, 2026a7dbe94122782fbf4325c5f0fb23=8cb145e632fff35848ae67fa30666dd4; path=/"
+        "content": "__cfduid=d141633869f5f706d5059d6460de8f99c1422545996; expires=Fri, 29-Jan-16 15:39:56 GMT; path=/; domain=.stream2watch.me; HttpOnly, PHPSESSID=886729288f0492d124cf056a9d02f078; path=/, _sc=deleted; expires=Wed, 29-Jan-2014 15:40:11 GMT; path=/; httponly, _ft=105db29406baade3226c301181573f9bfa3d057000ec022987a28c3773fb6402; expires=Sat, 28-Feb-2015 15:40:12 GMT; path=/; httponly"
       }
     },
     {
@@ -45,22 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "p3p",
-        "content": "CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Wed, 28 Jan 2015 15:40:05 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
-        "content": "post-check=0, pre-check=0"
+        "content": "max-age=600, private, must-revalidate"
       }
     },
     {
@@ -68,6 +54,13 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -81,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1afe48f9b15810e7-ORD"
+        "content": "1b06867ebd630168-ORD"
       }
     }
   ]

@@ -10,15 +10,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Microsoft-IIS/6.0"
+        "content": "Microsoft-IIS/7.0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ASPSESSIONIDSASTBBDB=HNFOODPAJJGBGMEJBFIFKJBN; path=/"
       }
     },
     {
@@ -31,22 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html;charset=UTF-8, text/html; Charset=UTF-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "ASPSESSIONIDQCDTTCDD=PHMHFIGDOJLFFFMHFMEPEJCG; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "private"
+        "name": "connection",
+        "content": "close"
       }
     }
   ]

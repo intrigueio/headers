@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -17,8 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding, Cookie, Accept-Encoding"
+        "content": "Accept-Encoding, Accept-Encoding, Cookie, Accept-Encoding, User-Agent"
       }
     },
     {
@@ -52,6 +73,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "last-modified",
+        "content": "Thu, 29 Jan 2015 15:36:34 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-cacheable",
         "content": "Yes"
       }
@@ -60,14 +88,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "195400379 187434873"
+        "content": "20844123 21071178, 49368628 62047434"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "1.1 varnish (v4)"
+        "content": "1.1 varnish (v4), 1.1 varnish-v4"
       }
     },
     {
@@ -80,15 +108,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "x-steack-cacheable",
+        "content": "Yes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "x-steack-cache",
+        "content": "HIT"
       }
     }
   ]
