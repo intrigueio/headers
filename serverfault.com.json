@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "public, no-cache=\"Set-Cookie\", max-age=60"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -24,8 +17,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=da114615afb40d45e2fee43ca2d9cd1301422632202; expires=Sat, 30-Jan-16 15:36:42 GMT; path=/; domain=.serverfault.com; HttpOnly, prov=9bef90d4-3547-48af-8a19-d7a99f87867e; domain=.serverfault.com; expires=Fri, 01-Jan-2055 00:00:00 GMT; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "public, no-cache=\"Set-Cookie\", max-age=42"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-railgun",
+        "content": "55ec0c58d6 stream 0.000000 0210 5f99"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "last-modified",
-        "content": "Thu, 29 Jan 2015 15:36:25 GMT"
+        "content": "Fri, 30 Jan 2015 15:36:25 GMT"
       }
     },
     {
@@ -46,14 +74,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-guid",
-        "content": "16329d88-1b2b-4c42-9880-2029903dee29"
+        "content": "c0cd1052-9ad6-450a-ad15-912e322c7e76"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "prov=46e4d32d-7c91-41f3-b2dc-133fae2351a3; domain=.serverfault.com; expires=Fri, 01-Jan-2055 00:00:00 GMT; path=/; HttpOnly"
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1b0ebf210bb01189-DFW"
       }
     }
   ]

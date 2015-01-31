@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx centminmod"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html;charset=UTF-8"
       }
@@ -38,15 +31,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "set-cookie",
+        "content": "__cfduid=d1659bfc7f4268d56f089b436aabe6ac61422632476; expires=Sat, 30-Jan-16 15:41:16 GMT; path=/; domain=.insomnia.gr; HttpOnly, ins_session_id=74888d80748abf8cd695c3745024abe9; path=/; httponly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "ins_session_id=495e998e7e01df5eb10a38756126d88c; path=/; httponly"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -61,6 +54,20 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1b0ec5d38224116b-DFW"
       }
     }
   ]

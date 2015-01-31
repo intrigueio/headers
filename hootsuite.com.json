@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -38,22 +38,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "_SID=4oerdo3gqm0abep4bk1cv6a13p70j10is0thahka8cquadk7dlk4tji9rssnrsvc3mnopumckf55durttlp014pbadns43ms7gg4422; expires=Sat, 28-Feb-2015 11:35:43 GMT; Max-Age=2577600; path=/; secure, dlpsv=45; path=/; secure; httponly, ab_multi_currency_country=US; expires=Mon, 30-Mar-2015 15:35:43 GMT; Max-Age=5184000; path=/; secure; httponly, ab_multi_currency_trial_status=NONREGION; expires=Mon, 30-Mar-2015 15:35:43 GMT; Max-Age=5184000; path=/; secure; httponly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        "content": "public, s-maxage=3600"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "vary",
+        "content": "X-User-Hash"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "2849799 2969228"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "Hootsuite"
       }
     }
   ]

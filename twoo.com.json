@@ -52,13 +52,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-akamai-transformed",
-        "content": "9 9416 0 pmb=mRUM,1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -66,15 +59,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "tw_ses=ssotmorj8chrhqcdbf1ude14p5; path=/; domain=.twoo.com; HttpOnly, tw_twoo_lng=en; expires=Wed, 18-Jan-2017 15:35:56 GMT; path=/; domain=.twoo.com, tw_c=cookie_store54ca535c8cd3d7.470894559479711d431b156af80245b8ec4fa8dd; expires=Thu, 27-Jan-2022 15:35:56 GMT; path=/; domain=.twoo.com; httponly, persistwoo=!14G+esIse8gdwlvT7QY0rgiUJS7YcgYwplHZtvLnYMDZv5rH09A4MzX0KzS1Fv8beleZoLHsi2j4Jw==; path=/"
+        "content": "tw_ses=k3e27lghu00v8r6fpkh36gn555; path=/; domain=.twoo.com; HttpOnly, tw_twoo_lng=en; expires=Thu, 19-Jan-2017 15:36:12 GMT; path=/; domain=.twoo.com, tw_c=cookie_store54cba4ec69d452.76906110a495af5c7379ac6bd9387217c71cea74; expires=Fri, 28-Jan-2022 15:36:12 GMT; path=/; domain=.twoo.com; httponly, persistwoo=!QGBH4jI3612EBPHT7QY0rgiUJS7YctAnauIFLKMXrGfam8BFMX6aa7bMpl11BUXoWBWJJ6A+gZMSXo8=; path=/"
       }
     }
   ]

@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
       }
@@ -31,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=dee3f3bd5d3e14888a68a9cf3c17897d01422545780; expires=Fri, 29-Jan-16 15:36:20 GMT; path=/; domain=.megafilmeshd.net; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.4.35"
       }
@@ -46,21 +46,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding, Cookie"
+        "content": "Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pingback",
+        "content": "http://megafilmeshd.net/xmlrpc.php"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=3, must-revalidate, max-age=0, no-cache, no-store, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "wp-super-cache",
-        "content": "Served supercache file from PHP"
+        "content": "max-age=0, no-cache, no-store, must-revalidate"
       }
     },
     {
@@ -68,20 +68,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1b06813b1ca203d6-DFW"
       }
     }
   ]

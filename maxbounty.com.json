@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
       }
@@ -24,29 +17,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Microsoft-IIS/7.0"
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "INDEX_REFERER=;path=/"
+        "content": "__cfduid=dd8416bb512d328bea0f3aebb22463f591422632506; expires=Sat, 30-Jan-16 15:41:46 GMT; path=/; domain=.maxbounty.com; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "ASP.NET"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "p3p",
-        "content": "policyref=\"/P3P/p3p.xml\",CP=\"ALL DSP COR CURa ADMi DEVi HISi OTPi OUR IND PHY ONL UNI FIN COM NAV INT STA\""
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1b0ec68a92870169-ORD"
       }
     }
   ]

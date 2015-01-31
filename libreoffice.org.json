@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"54ca39b1-3cc\""
+        "name": "x-powered-by",
+        "content": "PHP/5.5.9-1ubuntu4.5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, max-age=0, must-revalidate, no-transform"
       }
     }
   ]

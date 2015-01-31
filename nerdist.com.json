@@ -10,22 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
-        "content": "no-cache, must-revalidate, max-age=0"
+        "content": "max-age=600, must-revalidate"
       }
     },
     {
@@ -38,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-pingback",
-        "content": "http://www.nerdist.com/xmlrpc.php"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "pragma",
         "content": "no-cache"
       }
@@ -52,15 +31,64 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "Keep-Alive"
+        "name": "server",
+        "content": "nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "X-Mapping-fjhppofk=55F10EABF5C0FB94DB74411113AF6FA7; path=/, PHPSESSID=i71liv5sbnoc9vffjinnkocf21; path=/"
+        "content": "X-Mapping-fjhppofk=202DD59D47C4B88BD985F7858D2CD22C; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "HIT: 68"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-group",
+        "content": "normal"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cacheable",
+        "content": "SHORT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pass-why",
+        "content": ""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pingback",
+        "content": "http://www.nerdist.com/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-type",
+        "content": "default"
       }
     },
     {
@@ -73,8 +101,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "W3 Total Cache/0.9.4"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

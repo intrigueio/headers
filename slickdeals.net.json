@@ -10,8 +10,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private, post-check=0, pre-check=0, max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -19,6 +33,34 @@
       "attributes": {
         "name": "server",
         "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "abgroup=gridgroup; expires=Sat, 30-Jan-2016 08:00:00 GMT; path=/; domain=.slickdeals.net, fp_style=grid; expires=Sat, 30-Jan-2016 08:00:00 GMT; path=/, bbsessionhash=c1e8c1be16fdd9574a463d981bf8bed8; path=/; domain=.slickdeals.net; HttpOnly, auuid=ad48a748a89511e4828cfeacace6049c; expires=Sat, 30-Jan-2016 15:35:53 GMT; path=/; domain=.slickdeals.net, bbnps_tracking=%7B%22last_reset%22%3A1422632153%7D; path=/; domain=.slickdeals.net, bbnps_auuid=ad48a748a89511e4828cfeacace6049c; path=/; domain=.slickdeals.net, bblastactivity=1422632153; expires=Sat, 30-Jan-2016 15:35:53 GMT; path=/; domain=.slickdeals.net, abt_new=1422632153; expires=Sat, 30-Jan-2016 15:35:53 GMT; path=/; domain=.slickdeals.net, abt_uuid=e04c74aa8bec4ffe920eafcbbfd056e9; expires=Sat, 30-Jan-2016 15:35:53 GMT; path=/; domain=.slickdeals.net, bbvisitday=20150130; expires=Sun, 01-Mar-2015 15:35:54 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent, Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=edge"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

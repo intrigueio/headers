@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=0, no-cache, no-store, no-transform"
+        "content": "no-cache, no-store,no-transform"
       }
     },
     {
@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -31,43 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": ".ASPXANONYMOUS=HKOFwDRz0AEkAAAAMjMyNWYxMGEtM2UyMy00ZmUyLWJkOWMtMDc2NDdjMmI0ZDBj0; expires=Fri, 10-Apr-2015 02:19:19 GMT; path=/; HttpOnly, ASP.NET_SessionId=gle24qmeztaxap54n3rjz2bf; path=/; HttpOnly, CO=4254979572; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "p3p",
         "content": "CP=\"This is not a P3P policy. See http://www.thetrainline.com/buytickets/terms.aspx for more info\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": ".ASPXANONYMOUS=SXZbjWty0AEkAAAAMDI2YjlmY2ItNzlmNy00NmY1LWI5OWQtZTA0NjY0NjcwMzg10; expires=Thu, 09-Apr-2015 02:19:05 GMT; path=/; HttpOnly, ASP.NET_SessionId=3l3upmxhczik2tys42gnf4d3; path=/; HttpOnly, CO=4252538570; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "rtss",
-        "content": "1-1-100"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-amps",
-        "content": "1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
       }
     }
   ]

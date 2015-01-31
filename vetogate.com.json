@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "public, max-age=17"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -24,8 +17,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d503efe1ceac78a53ccbd613d47f2f1501422632160; expires=Sat, 30-Jan-16 15:36:00 GMT; path=/; domain=.vetogate.com; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "public, max-age=88"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "last-modified",
-        "content": "Thu, 29 Jan 2015 15:34:45 GMT"
+        "content": "Fri, 30 Jan 2015 15:36:11 GMT"
       }
     },
     {
@@ -33,13 +54,6 @@
       "attributes": {
         "name": "vary",
         "content": "*"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "Microsoft-IIS/8.5"
       }
     },
     {
@@ -54,6 +68,20 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1b0ebe1a08800926-DFW"
       }
     }
   ]

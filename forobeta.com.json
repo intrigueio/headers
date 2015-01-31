@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=ISO-8859-1"
       }
     },
     {
@@ -38,8 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "bb_sessionhash=30853ad15964d6cbacca4223b49c6c3d; path=/; HttpOnly, bb_lastvisit=1422546064; expires=Fri, 29-Jan-2016 15:41:04 GMT; path=/, bb_lastactivity=0; expires=Fri, 29-Jan-2016 15:41:04 GMT; path=/"
+        "content": "bb_sessionhash=9507e533753b00d50a99ad63474ac282; path=/; HttpOnly, bb_lastvisit=1422632485; expires=Sat, 30-Jan-2016 15:41:25 GMT; path=/, bb_lastactivity=0; expires=Sat, 30-Jan-2016 15:41:25 GMT; path=/"
       }
     }
   ]

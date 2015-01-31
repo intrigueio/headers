@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,22 +38,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Thu, 29 Jan 2015 15:38:13 GMT"
+        "name": "x-powered-by",
+        "content": "PHP/5.3.29"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=pvknss09uegpolbgrrhmoppgs0; path=/, elxis_lang=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/, elxis_lang=persian; expires=Sun, 01-Mar-2015 15:40:06 GMT; path=/, 86cf0eb7337628e8997fa0ee22a5e569=056140b97823a6ad739b85639a8df581; expires=Sat, 31-Jan-2015 11:40:06 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Fri, 30 Jan 2015 15:40:06 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
+        "content": "User-Agent"
       }
     }
   ]
