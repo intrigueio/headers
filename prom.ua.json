@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.7.7"
+        "content": "QRATOR"
       }
     },
     {
@@ -38,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=15"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "pragma",
         "content": "no-cache"
       }
@@ -53,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "user_tracker=8aa18e482a6c5b58af3dd3cfb6fc9bf1fb146f77|104.237.133.83|2015-01-30 17:37:37.861782; Domain=.prom.ua; Path=/, session_region_id=0; Domain=.prom.ua; Path=/, prom=5ebdd7972cdf34eda8bb85dfad9dfa5f1332b4fa2ff3db2d6a7847018838841c894b7b1f; Domain=.prom.ua; httponly; Path=/, csrf_token=df924059acbb4183b4609c0bbabe98e9; Domain=.prom.ua; expires=\"Fri, 29-Jan-2016 15:37:38 GMT\"; Max-Age=31449600; Path=/, auth=936748bcae33f07f8b57e04b7b24d2bc81d06b7c; Domain=.prom.ua; expires=\"Sat, 30-Jan-2016 15:37:38 GMT\"; httponly; Max-Age=31536000; Path=/"
+        "content": "user_tracker=8f23af59cf3badc723d43dfa6a8eaf0f54ddf418|104.237.133.83|2015-01-31 17:38:11.235138; Domain=.prom.ua; Path=/, session_region_id=0; Domain=.prom.ua; Path=/, prom=1c53af345e54ad35a8ec75edc9b3a32b59e726bdfbd1dd0ab6374b0aaf4deaf82f1f94fa; Domain=.prom.ua; httponly; Path=/, csrf_token=38b9654ba7e24d10bc0aaa742732e431; Domain=.prom.ua; expires=\"Sat, 30-Jan-2016 15:38:11 GMT\"; Max-Age=31449600; Path=/, auth=cda21e6e18b15159a96e7f9917a3fcb2b8f60cc4; Domain=.prom.ua; expires=\"Sun, 31-Jan-2016 15:38:11 GMT\"; httponly; Max-Age=31536000; Path=/"
       }
     }
   ]

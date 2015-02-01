@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx admin"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=windows-1256"
       }
@@ -38,6 +31,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d1a288c89e46d9f2dfc481fdc8e0686431422718810; expires=Sun, 31-Jan-16 15:40:10 GMT; path=/; domain=.klmty.net; HttpOnly, PHPSESSID=977dfb57b39c41b33833c17cc2623970; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -47,13 +47,6 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.3.29"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=fc110035e9b38a2eca4b86d34ffed450; path=/"
       }
     },
     {
@@ -75,6 +68,20 @@
       "attributes": {
         "name": "x-cache",
         "content": "HIT from Backend"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1b170194104f10f3-ORD"
       }
     }
   ]

@@ -38,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html;charset=UTF-8"
       }
@@ -59,13 +66,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache, no-store"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "transfer-encoding",
         "content": "chunked"
       }
@@ -75,6 +75,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=0000q8m43QLY-23tZvZu8xuy-S8:17buln2b8; Path=/, WC_PERSISTENT=f6b5EN9p04TBLMwTBiyUVGajRaI%3d%0d%0a%3b2015%2d01%2d31+10%3a40%3a14%2e84%5f1422718814840%2d15111%5f0; Expires=Mon, 02-Mar-15 15:40:14 GMT; Path=/"
       }
     }
   ]

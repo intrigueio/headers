@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "pragma",
         "content": "no-cache"
       }
@@ -17,8 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding,Accept-Encoding"
       }
     },
     {
@@ -39,70 +60,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "neg-created",
-        "content": "1/30/2015 7:35:47 AM"
+        "content": "1/31/2015 7:36:27 AM"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "NV%5FCONFIGURATION=#5%7b%22Sites%22%3a%7b%22USA%22%3a%7b%22Values%22%3a%7b%22w57%22%3a%22USA%22%2c%22w58%22%3a%22USD%22%2c%22wd%22%3a%220%22%7d%2c%22Exp%22%3a%221509114987%22%7d%7d%7d; domain=.newegg.com; expires=Fri, 27-Oct-2017 14:36:27 GMT; path=/, NV%5FFV=#5%7b%22Sites%22%3a%7b%22USA%22%3a%7b%22Values%22%3a%7b%22RememberLanguage%22%3a%22en%22%7d%2c%22Exp%22%3a%221422804987%22%7d%7d%7d; domain=.newegg.com; path=/, NV%5FDVINFO=#5%7b%22Sites%22%3a%7b%22USA%22%3a%7b%22Values%22%3a%7b%22w19%22%3a%22Y%22%7d%2c%22Exp%22%3a%221422804987%22%7d%7d%7d; domain=.newegg.com; path=/, NSC_xxx.ofxfhh.dpn-WJQ=ffffffffaf18324345525d5f4f58455e445a4a4221f1;expires=Sat, 31-Jan-2015 16:06:27 GMT;path=/;httponly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-server-id",
-        "content": "10"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-served-by",
-        "content": "30010"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-ver",
-        "content": "0115201501"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-newegg-flow",
-        "content": "PASS"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-newegg-index",
-        "content": "0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "content": "105"
       }
     }
   ]

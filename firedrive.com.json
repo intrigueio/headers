@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -25,14 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d1a5305283053920d505f0c233a662a761422632456; expires=Sat, 30-Jan-16 15:40:56 GMT; path=/; domain=.firedrive.com; HttpOnly"
+        "content": "close"
       }
     },
     {
@@ -40,20 +40,6 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.5.3-1ubuntu2.6"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1b0ec5547f040938-DFW"
       }
     }
   ]
