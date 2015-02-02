@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -31,15 +31,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Sun, 25 Jan 2015 14:14:34 GMT"
+        "name": "x-pingback",
+        "content": "http://www.wisestamp.com/xmlrpc.php"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=3, must-revalidate"
+        "name": "link",
+        "content": "<http://www.wisestamp.com/>; rel=shortlink"
       }
     },
     {
@@ -47,6 +47,13 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding,Cookie"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=b4d77aa983fd8b0b2a8d8a9306e68fd1; path=/"
       }
     },
     {

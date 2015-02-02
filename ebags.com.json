@@ -10,8 +10,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -39,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "customloggingresponse",
-        "content": "V=EC3F19A3AE030B4496BCD780F7FAFD63"
+        "content": "V=87ECBB3D33701D4588F3E5BEA9719CCD"
       }
     },
     {
@@ -59,43 +73,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "__SessionId=um1ue5e55qabsnxhmomv5yy1; domain=.ebags.com; path=/; HttpOnly, __VisitorId=87ECBB3D33701D4588F3E5BEA9719CCD; domain=.ebags.com; expires=Thu, 01-Feb-2035 15:38:29 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
         "content": ""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-yottaa-optimizations",
-        "content": "ob/1001000001100001010 si/1731199523 tts/1422669024182 ti/54636bb786305e35ea00041e ai/54636bb786305e35ea00040e"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-yottaa-metrics",
-        "content": "012136d1596e/[1,-,-] 011136ad7261/[-,3.677]"
       }
     }
   ]

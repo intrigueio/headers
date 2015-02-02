@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -38,15 +31,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.3.13"
+        "name": "set-cookie",
+        "content": "__cfduid=dd06a629ceaace040a0130d832467c56b1422805242; expires=Mon, 01-Feb-16 15:40:42 GMT; path=/; domain=.share-links.biz; HttpOnly, PHPSESSID=mf3slel92ovjum1trvvrglbg66; path=/, lastVisit=1422805243; expires=Tue, 03-Mar-2015 15:40:43 GMT; path=/, SLlng=en; expires=Tue, 03-Mar-2015 15:40:43 GMT; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=a6c6bnral8o60ile0ju09p7nu4; path=/, lastVisit=1422718865; expires=Mon, 02-Mar-2015 15:41:05 GMT; path=/, SLlng=en; expires=Mon, 02-Mar-2015 15:41:05 GMT; path=/"
+        "name": "x-powered-by",
+        "content": "PHP/5.3.13"
       }
     },
     {
@@ -61,6 +54,20 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1b1f3fc0284409ca-ORD"
       }
     }
   ]

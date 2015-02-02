@@ -11,14 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "AkamaiGHost"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "mime-version",
-        "content": "1.0"
+        "content": "Microsoft-IIS/7.5"
       }
     },
     {
@@ -31,8 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "http://m.starsports.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive"
       }
     }
   ]

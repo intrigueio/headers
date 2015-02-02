@@ -10,8 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx/1.7.7"
+        "name": "cache-control",
+        "content": "no-cache, no-store"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-language",
+        "content": "en"
       }
     },
     {
@@ -24,22 +31,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "server",
+        "content": "nginx/1.6.2"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-language",
-        "content": "en"
+        "name": "set-cookie",
+        "content": "skybar_sess_False=1; Domain=.dubizzle.com; expires=Mon, 02 Feb 2015 15:36:52 GMT; Path=/, sid=40b81e1260b9bdbe3ab2b618ff06b768; Domain=.dubizzle.com; expires=Sun, 08-Feb-2015 15:36:52 GMT; Max-Age=604800; Path=/, l=; Domain=.dubizzle.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/, paabar_sess=; Domain=.dubizzle.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/"
       }
     },
     {
@@ -53,21 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-django-request-time",
-        "content": "0.089425s"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "skybar_sess_False=1; Domain=.dubizzle.com; expires=Sun, 01 Feb 2015 15:36:22 GMT; Path=/, sid=33d0ab32bea19b84aabac6bcb8866481; Domain=.dubizzle.com; expires=Sat, 07-Feb-2015 15:36:22 GMT; Max-Age=604800; Path=/, l=; Domain=.dubizzle.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/, paabar_sess=; Domain=.dubizzle.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-cache, no-store"
+        "content": "0.052578s"
       }
     }
   ]
