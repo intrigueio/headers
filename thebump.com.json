@@ -10,8 +10,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "Cowboy"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
-        "content": "no-cache, no-store"
+        "content": "no-cache, no-store, must-revalidate"
       }
     },
     {
@@ -31,43 +59,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "Microsoft-IIS/7.5"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "set-cookie",
-        "content": "thebump_www#sc_wede=1; path=/, ASP.NET_SessionId=4cxcz355cztslzmiu2cm5oi1; path=/; HttpOnly"
+        "content": "_thebump-web_session=bVgyaTA1UWpxT1c4T3o3MXhGTDlqaXc3VnRYUDZVN0IrY1BKYnFrdGZhS01WQ1RqT3F3Uk5zZXRtbHljT254YmNaY1VJclUzRXIxalNhUGE4YTJtL3cvZWIyTk85cFJRQkRzYmpaWkxrSWxUYmo5aVZaM21POFJQTHA5RitrZXNzeXV4cmprai9LUGp3aWhoN2JVVDVRPT0tLUhSUmFrTjVxWWZiQ2E0dlR0NWRJdHc9PQ%3D%3D--524c6162ade5f8bc3fd09ca55ee92e3956effffa; path=/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-aspnet-version",
-        "content": "2.0.50727"
+        "name": "x-request-id",
+        "content": "ecee0202-124e-469d-b677-d227dabd15f4"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "ASP.NET"
+        "name": "x-runtime",
+        "content": "0.051955"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "serverid",
-        "content": "PRDBUMPCDS01"
+        "name": "via",
+        "content": "1.1 vegur"
       }
     }
   ]

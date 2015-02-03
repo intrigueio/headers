@@ -32,14 +32,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d29ef2aeaeaa2a769c05f7f24547e1d5d1422805330; expires=Mon, 01-Feb-16 15:42:10 GMT; path=/; domain=.zadane.pl; HttpOnly"
+        "content": "__cfduid=da3174a591df4550bedb28b03c1992c721422891755; expires=Tue, 02-Feb-16 15:42:35 GMT; path=/; domain=.zadane.pl; HttpOnly, hl=pl; expires=Tue, 02-Feb-2016 15:42:35 GMT; path=/, Zadanepl_cookie[Token][Long]=deleted; expires=Sat, 01-Jan-2000 00:00:00 GMT; path=/; httponly, Zadanepl_cookie[Token][Short]=deleted; expires=Sat, 01-Jan-2000 00:00:00 GMT; path=/; httponly, first_visit=1422891755; expires=Tue, 02-Feb-2021 15:42:35 GMT; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        "content": "must-revalidate, no-cache, no-store, post-check=0, pre-check=0, private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Mon, 02 Feb 2015 15:42:35 GMT"
       }
     },
     {
@@ -47,6 +54,13 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -60,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1b1f41e5360f10bd-ORD"
+        "content": "1b277fdf5e230167-ORD"
       }
     }
   ]
