@@ -10,8 +10,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache/2.2.22 (Debian)"
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=dc43484feffa1a6e1f9df6819b8fe17b01422978097; expires=Wed, 03-Feb-16 15:41:37 GMT; path=/; domain=.whoishostingthis.com; HttpOnly"
       }
     },
     {
@@ -24,15 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "server",
+        "content": "cloudflare-nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "cf-ray",
+        "content": "1b2fbbd3bdf703e8-DFW"
       }
     }
   ]

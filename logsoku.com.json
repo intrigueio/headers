@@ -10,15 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "uuid=9d167fc9c5b1f0428e330509d9f98f10; Expires=Wed, 04 Mar 2015 15:39:32 GMT; Path=/"
+        "content": "__cfduid=de18d4f6b6e2e233e73b54a0311a996e51422977991; expires=Wed, 03-Feb-16 15:39:51 GMT; path=/; domain=.logsoku.com; HttpOnly, uuid=9dd69260ede512d9f5d79319be838883; Expires=Thu, 05 Mar 2015 15:39:51 GMT; Path=/"
       }
     },
     {
@@ -40,6 +40,20 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1b2fb93bfdd8099a-ORD"
       }
     }
   ]

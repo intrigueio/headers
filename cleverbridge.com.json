@@ -17,36 +17,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "access-control-allow-origin",
+        "content": "*"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "access-control-allow-methods",
+        "content": "POST, GET, OPTIONS, DELETE, PUT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "access-control-max-age",
+        "content": "1000"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-aspnet-version",
-        "content": "4.0.30319"
+        "name": "access-control-allow-headers",
+        "content": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "Keep-Alive"
+        "name": "x-pingback",
+        "content": "http://www.cleverbridge.com/corporate/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "link",
+        "content": "</corporate/>; rel=shortlink"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -54,13 +68,6 @@
       "attributes": {
         "name": "p3p",
         "content": "policyref=\"/w3c/p3p.xml\", CP=\"NON DSP COR CURi ADMa DEVa TAIa HISa OUR LEG PHY ONL PUR COM INT LOC\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
       }
     },
     {

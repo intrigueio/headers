@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "ngx_openresty"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -25,14 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d88bf9c73c207c7bbb92b0645ef712e8c1422891642; expires=Tue, 02-Feb-16 15:40:42 GMT; path=/; domain=.livedirsetsoftware.org; HttpOnly"
+        "content": "close"
       }
     },
     {
@@ -47,20 +47,6 @@
       "attributes": {
         "name": "cache-control",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1b277d1f13f80105-DFW"
       }
     }
   ]

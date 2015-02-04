@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "public, no-cache=\"Set-Cookie\", max-age=60"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -24,8 +17,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d9c41c82842f7dbefdf6fddb263be331f1422977833; expires=Wed, 03-Feb-16 15:37:13 GMT; path=/; domain=.superuser.com; HttpOnly, prov=9660fcf6-035e-4694-8814-28ea2be1e6a2; domain=.superuser.com; expires=Fri, 01-Jan-2055 00:00:00 GMT; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "public, no-cache=\"Set-Cookie\", max-age=59"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-railgun",
+        "content": "cffdf32d2e 88.03 0.010676 0030 5f99"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "last-modified",
-        "content": "Mon, 02 Feb 2015 15:36:57 GMT"
+        "content": "Tue, 03 Feb 2015 15:37:12 GMT"
       }
     },
     {
@@ -46,14 +74,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-guid",
-        "content": "a1d41532-d931-4a95-9813-df9480a93819"
+        "content": "6af88725-02e7-42b7-8ce4-a77e58874300"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "prov=d081c78b-0967-4660-9d0c-dfb11e2bb31f; domain=.superuser.com; expires=Fri, 01-Jan-2055 00:00:00 GMT; path=/; HttpOnly"
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1b2fb5629bb70103-DFW"
       }
     }
   ]

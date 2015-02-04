@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/0.8.54"
+        "content": "nginx/1.6.2"
       }
     },
     {
@@ -39,14 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-powered-by",
-        "content": "PHP/5.2.10 ZendServer/4.0"
+        "content": "PHP/5.3.3"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=qooecp1leu171tcmo0o5nmgch4; path=/"
+        "content": "PHPSESSID=8q4jq3j4d0beboijqubdsqo661; path=/; HttpOnly"
       }
     },
     {
@@ -61,6 +61,20 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     }
   ]

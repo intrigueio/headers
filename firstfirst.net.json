@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "ngx_openresty"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -25,14 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d21955ac0fa56c16b1b2dd5bd50ef63ba1422891459; expires=Tue, 02-Feb-16 15:37:39 GMT; path=/; domain=.firstfirst.net; HttpOnly"
+        "content": "close"
       }
     },
     {
@@ -47,20 +47,6 @@
       "attributes": {
         "name": "cache-control",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1b2778a877f7117d-DFW"
       }
     }
   ]

@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "server",
+        "content": "Apache"
       }
     },
     {
@@ -19,6 +19,20 @@
       "attributes": {
         "name": "cache-control",
         "content": "max-age=60"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-backend",
+        "content": "web2"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Host,Accept-Encoding"
       }
     },
     {
@@ -32,35 +46,42 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"FakeMon, 02 Feb 2015 15:45:45 GMT\""
+        "content": "\"FakeTue, 03 Feb 2015 15:46:23 GMT\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Host,Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-backend",
-        "content": "web3"
+        "name": "x-varnrvp1",
+        "content": "914328874"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnrvp2",
-        "content": "20669479 20669055"
+        "content": "41283962"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varncdn",
+        "content": "cdn02 711856065 712410923"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     }
   ]

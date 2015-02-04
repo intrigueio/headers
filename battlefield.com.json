@@ -31,6 +31,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-full-site",
+        "content": "yes, yes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -38,15 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "connection",
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "pragma",
+        "content": "cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "public"
       }
     }
   ]
