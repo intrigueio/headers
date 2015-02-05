@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -31,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=df6a6e9bec476299fbfbfb16f56d12c791422977949; expires=Wed, 03-Feb-16 15:39:09 GMT; path=/; domain=.webpagetest.org; HttpOnly, o=6c899c28f4234c3458e61b5c79da30d01c190bce; expires=Wed, 03-Feb-2016 15:39:09 GMT; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -52,22 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "o=9ed7daaf4d93d0dd842139e29723d5cd39e14cf9; expires=Thu, 04-Feb-2016 15:39:04 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "timing-allow-origin",
         "content": "*"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1b2fb8366145109f-ORD"
       }
     }
   ]

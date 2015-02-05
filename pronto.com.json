@@ -11,14 +11,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx"
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "abt=509; Domain=.pronto.com; Expires=Thu, 04-Feb-2016 15:42:12 GMT; Path=/, cu.wz=0; Domain=.pronto.com; Expires=Thu, 04-Feb-2016 15:42:12 GMT; Path=/, gcht=; Domain=.pronto.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, oo=100027; Domain=.pronto.com; Expires=Wed, 04-Feb-2015 16:12:12 GMT; Path=/, gc=; Domain=.ask.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, tbe=1; Domain=.ask.com; Expires=Thu, 04-Feb-2016 15:42:12 GMT; Path=/, accepting=1; Domain=.pronto.com; Expires=Thu, 04-Feb-2016 15:42:12 GMT; Path=/, user=l=dir; Domain=.pronto.com; Path=/, cu=1; Domain=.ask.com; Expires=Sat, 01-Feb-2025 15:42:12 GMT; Path=/, puser=pt=V2VkLTQtRmViLTIwMTUtMTU6NDI6MTItVVRD&po=100027&pp=dir; Domain=.ask.com; Expires=Thu, 04-Feb-2016 15:42:12 GMT; Path=/, gct=; Domain=.ask.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/, qc=0; Domain=.pronto.com; Path=/"
       }
     },
     {
@@ -26,27 +40,6 @@
       "attributes": {
         "name": "transfer-encoding",
         "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "user=\"o=0&l=dir\"; Domain=.pronto.com; Path=/, uc=u=19EC779A-6A44-4111-AE9C-7C4D20CBA2E7&sn=pronto.com&od=none&op=-&fv=1422978160789&lv=1422978160789&ok=-&nv=1; Max-Age=315000000; Domain=.pronto.com; Path=/; Expires=Mon, 27 Jan 2025 11:42:42 GMT, ucs=sk=-&sp=-&so=-&sd=none&sc=-&s=1552565234&ap=-&am=-&an=-&ad=dirN&sv=1422978160789&ag=-&ps=1&af=-; Domain=.pronto.com; Path=/"
       }
     }
   ]

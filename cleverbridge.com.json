@@ -17,34 +17,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "access-control-allow-origin",
-        "content": "*"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "access-control-allow-methods",
-        "content": "POST, GET, OPTIONS, DELETE, PUT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "access-control-max-age",
-        "content": "1000"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "access-control-allow-headers",
-        "content": "x-requested-with, Content-Type, origin, authorization, accept, client-security-token"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-pingback",
         "content": "http://www.cleverbridge.com/corporate/xmlrpc.php"
       }
@@ -53,7 +25,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "link",
-        "content": "</corporate/>; rel=shortlink"
+        "content": "<http://www.cleverbridge.com/corporate/>; rel=shortlink"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0"
       }
     },
     {

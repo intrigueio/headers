@@ -18,14 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "public, max-age=0, s-maxage=60"
+        "content": "max-age=0, public, s-maxage=60"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -39,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "____ri=136; expires=Thu, 12-Mar-15 03:36:45 GMT; path=/; domain=.9gag.com"
+        "content": "____ri=900; expires=Fri, 13-Mar-15 03:36:59 GMT; path=/; domain=.9gag.com"
       }
     },
     {
@@ -61,6 +61,13 @@
       "attributes": {
         "name": "x-cacheable",
         "content": "Yes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {

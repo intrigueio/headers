@@ -46,21 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "yts_session=eyJpdiI6ImF3S1ZtZVk4cUl2WDBlSlZPSGREcEE9PSIsInZhbHVlIjoiaWVHU2FMb2ViUko2RWRiNnpMT0Vla3Z1THVcLzcwc1Y3cnlDYTB6NzR2T3pPQktmZzY1eVQxYnRJS3FrNUFXTGswR3Jjd2Q4Q1UxQnYzS2tTNXVwWGdnPT0iLCJtYWMiOiI5NmYzOTNkMGI2N2RjMzhkMDlkNjc3YzM0Nzg5NzhiZTdiNzIwNzQ3OGEyMWM4ZTMxNWQ5YjhiY2YyNjgxN2VkIn0%3D; expires=Tue, 03-Feb-2015 17:37:04 GMT; Max-Age=7200; path=/; httponly"
       }
     },
     {
@@ -75,6 +61,13 @@
       "attributes": {
         "name": "x-content-type-options",
         "content": "nosniff, nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "cached"
       }
     }
   ]

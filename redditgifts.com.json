@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.1.19"
+        "content": "cloudflare-nginx"
       }
     },
     {
@@ -24,8 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d9d21fb487ab35c1ae36373087e91d8481423064294; expires=Thu, 04-Feb-16 15:38:14 GMT; path=/; domain=.redditgifts.com; HttpOnly, csrftoken=fukIhzXAz2XbRmkc4RQsKmGyFfOzaiiV; expires=Wed, 03-Feb-2016 15:38:15 GMT; Max-Age=31449600; Path=/, ause=80b946edc35a69599f96b074b302bdf5; expires=Thu, 04-Feb-2016 15:38:15 GMT; Path=/, sessionid=apr4kfb3vfcb5etiw9orfbwdzm8uqyza; Domain=.redditgifts.com; expires=Fri, 06-Mar-2015 15:38:15 GMT; httponly; Max-Age=2592000; Path=/"
       }
     },
     {
@@ -39,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Tue, 03 Feb 2015 15:38:07 GMT"
+        "content": "Wed, 04 Feb 2015 15:38:15 GMT"
       }
     },
     {
@@ -59,8 +73,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "csrftoken=MYauZWq5wWby2KM7PUq28JPwtOBybZxx; expires=Tue, 02-Feb-2016 15:38:07 GMT; Max-Age=31449600; Path=/, ause=84df8bba1d4dc74f81920ea4cbc881c4; expires=Wed, 03-Feb-2016 15:38:07 GMT; Path=/, sessionid=gxpqbwelqi8vmvjjbgz4srqavd89b2vq; Domain=.redditgifts.com; expires=Thu, 05-Mar-2015 15:38:07 GMT; httponly; Max-Age=2592000; Path=/"
+        "name": "cf-ray",
+        "content": "1b37f44080d603e8-DFW"
       }
     }
   ]
