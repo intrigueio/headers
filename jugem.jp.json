@@ -10,8 +10,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "Close"
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/4.4.9"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"ALL DSP COR PSAa PSDa OUR NOR ONL UNI COM NAV\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=ce5dbe18f3ae132fe6702d0b902cefdd; path=/, first_acc_url=http%3A%2F%2Fjugem.jphttp%3A%2F%2Fjugem.jp; expires=Sat, 14 Mar 2015 03:38:26 GMT; path=/; domain=.jugem.jp, first_acc_referer=null; expires=Sat, 14 Mar 2015 03:38:26 GMT; path=/; domain=.jugem.jp, first_acc_date=20150206003826; expires=Sat, 14 Mar 2015 03:38:26 GMT; path=/; domain=.jugem.jp"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
@@ -24,22 +52,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "refresh",
-        "content": "0.1"
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=iso-8859-1"
+        "content": "text/html; charset=EUC-JP"
       }
     }
   ]

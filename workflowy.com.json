@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx/1.2.7"
+        "name": "cache-control",
+        "content": "no-cache"
       }
     },
     {
@@ -24,8 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "server",
+        "content": "Apache/2.2.22 (Ubuntu)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "sessionid=6532219366ecc5b1a5c219c53cbb0f3d; expires=Thu, 06-Aug-2015 15:43:03 GMT; Max-Age=15724800; Path=/"
       }
     },
     {
@@ -38,15 +45,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "sessionid=f341bc4245d566a4aea3750155e2dc3a; expires=Wed, 05-Aug-2015 15:42:09 GMT; Max-Age=15724800; Path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "connection",
+        "content": "keep-alive"
       }
     }
   ]
