@@ -10,22 +10,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
-        "content": "private, no-cache=\"set-cookie\""
+        "content": "no-cache,max-age=864000, no-cache=\"set-cookie\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"01243aa2cb7cf1:0\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Wed, 13 Aug 2014 19:27:48 GMT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "Segmentacao=controller=Home&action=Index&gBT_comprar_vender=&gBT_financiamento=&gBT_revista=&gBT_seguros=&gBT_servicos=&marca=X&modelo=X&blindado=&ano_modelo=X&preco=X&uf=X&Cod_clientePJ=&posicao=&BT_comprar_vender=X&BT_financiamento=X&BT_revista=X&BT_seguros=X&BT_servicos=X&anuncioDfp='9764/HP/HP'&midiasDfp=101,107,77,163,164,161,172; expires=Wed, 05-Aug-2015 16:39:29 GMT; path=/, AWSELB=FBEB4F8D0A4EA85DD70F4AB212E2DE8B1D243194C82B97DCCBD542CC76B7D70C03D980C28B747F6E655AF29E0311CD94F89A3D9B06FAECA620F087B46CAE01F4173A09BBD5;PATH=/;MAX-AGE=3600"
+        "content": "AWSELB=FBEB4F8D0A4EA85DD70F4AB212E2DE8B1D243194C8CB1C1DD10C4F88FE0CF4BDF6B6184E1ED446789AE8519200D5E6432B93E186180C8FA89BE9C4B8876E90E61B45255E3A;PATH=/;MAX-AGE=3600"
       }
     },
     {
@@ -33,13 +54,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-aspnetmvc-version",
-        "content": "5.2"
       }
     },
     {

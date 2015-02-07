@@ -11,14 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private"
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -38,22 +45,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "correlationvector",
-        "content": "WsPrdh5swEqmE3+r.1.0"
+        "name": "x-xss-protection",
+        "content": "0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-aspnet-version",
-        "content": "4.0.30319"
+        "name": "strict-transport-security",
+        "content": "max-age=31536000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"DSP CUR OTPi IND OTRi ONL FIN\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "MS-CV=WsPrdh5swEqmE3+r.1; domain=.office.com; expires=Fri, 06-Feb-2015 15:37:30 GMT; path=/"
+        "content": "MSPRequ=lt=1423237050&co=1&id=N; path=/;version=1, MSPOK=$uuid-98e6fd7e-ba35-4c45-911b-ed8272404e4f; domain=login.microsoftonline.com;path=/;version=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "deny"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "ppserver",
+        "content": "PPV: 30 H: CH1IDOALGN31 V: 0"
       }
     },
     {
@@ -61,34 +96,6 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "ASP.NET"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "p3p",
-        "content": "CP=\"ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "access-control-allow-headers",
-        "content": "Content-Type"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "access-control-allow-methods",
-        "content": "GET, POST, PUT, DELETE, OPTIONS"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "access-control-allow-credentials",
-        "content": "true"
       }
     }
   ]

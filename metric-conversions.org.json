@@ -24,8 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache, must-revalidate, post-check=0, pre-check=0"
+        "name": "x-drupal-cache",
+        "content": "MISS"
       }
     },
     {
@@ -45,15 +45,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Thu, 05 Feb 2015 15:40:20 GMT"
+        "name": "cache-control",
+        "content": "public, max-age=10800"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Cookie,Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1423150820\""
+        "content": "\"1423237221-1\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Fri, 06 Feb 2015 15:40:21 GMT"
       }
     },
     {

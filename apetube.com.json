@@ -11,35 +11,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "ta=3%3BW251bGwsMCwxNDIzMTUwOTY0LDE0MjMxNTA5NjQsMSwwLDAsIjIwMTUtMDItMDUiLG51bGxd; expires=Fri, 05-Feb-2016 15:42:44 GMT; Max-Age=31536000; path=/, CKS0=eyJkZXZpY2VfdGFnIjoiZGVza3RvcCIsImRldmljZV90YWdfaW5mbyI6eyJ0aW1lIjoxNDIzMTUwOTY0fX0%3D; expires=Fri, 05-Feb-2016 15:42:44 GMT; Max-Age=31536000; path=/; domain=apetube.com"
+        "content": "Varnish"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "retry-after",
+        "content": "5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "244586089"
+        "content": "258427813"
       }
     },
     {
@@ -53,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "close"
       }
     }
   ]

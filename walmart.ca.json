@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
+        "name": "access-control-allow-credentials",
+        "content": "true"
       }
     },
     {
@@ -24,29 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "access-control-allow-credentials",
-        "content": "true"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "request-id",
-        "content": "1635792"
+        "content": "524420"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "request-time",
-        "content": "44ms"
+        "content": "123ms"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "served-by",
-        "content": "app3"
+        "content": "app6"
       }
     },
     {
@@ -61,6 +54,13 @@
       "attributes": {
         "name": "x-page-type",
         "content": "home"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-tb",
+        "content": "1"
       }
     },
     {
@@ -109,7 +109,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "walmart.csrf=; Expires=Wed, 04 Feb 2015 15:38:42 GMT; Path=/; Domain=.walmart.ca; HTTPOnly, walmart.csrf=69b4e12bfac6cf05db3e9541; Path=/, ENV=origin-edc-pstore;max-age=1200;path=/;domain=.walmart.ca, userSegment=40-percent; expires=Sat, 07-Mar-2015 15:38:41 GMT; path=/; domain=www.walmart.ca, akaau_P1=1423152521~id=d8c3c310923efeee8752876d0a582354; path=/"
+        "content": "walmart.csrf=414d255dfe22e8ba4199e1df; Path=/, walmart.csrf=; Expires=Thu, 05 Feb 2015 15:38:38 GMT; Path=/; Domain=.walmart.ca; HTTPOnly, ENV=origin-ndc-pstore;max-age=1200;path=/;domain=.walmart.ca, TBENV=origin-ndc-torbit-www; Path=/; Domain=.walmart.ca; max-age=1200; HttpOnly, userSegment=50-percent; expires=Sun, 08-Mar-2015 15:38:37 GMT; path=/; domain=www.walmart.ca, akaau_P1=1423238917~id=84d18ad12949c203ed5fd97b1f8f5290; path=/"
       }
     },
     {
