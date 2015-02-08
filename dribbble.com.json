@@ -45,8 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-ua-compatible",
-        "content": "IE=Edge,chrome=1"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN, SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
       }
     },
     {
@@ -60,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "_dribbble_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTlkYjdiNmJmZGY5OWQwNTg5ZjA3NTY5NDMwMDc2YjA3BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXZVTmZ1RnQvV0JjVjFHRnkwWkpOR2xBTi9pL2hHRFdvckJaWDdrbHpOKzA9BjsARg%3D%3D--6e301e60b08f2955ee943febf2c07667efc21601; path=/; HttpOnly; secure"
+        "content": "_dribbble_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTQwYWVkNDQxZGEyOTg3ZjBkMGRlZmQ0YjJhNDAyNWUzBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUcyR1REQTM4dVBEelN5SFY4M1VOYTlJVU5Wd1I2QThOWE5OMUFYV3hLeXM9BjsARg%3D%3D--b3328de30ad4b36fd3f261825cc79a8d6ce29c9f; path=/; HttpOnly; secure"
       }
     },
     {
@@ -74,28 +88,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "9e3926d5f838625968c6d875d83e9832"
+        "content": "e703e4ec-4292-4d66-a41b-0ea3c72b4de2"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-runtime",
-        "content": "0.094861"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-rack-cache",
-        "content": "miss"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "content": "0.086419"
       }
     }
   ]

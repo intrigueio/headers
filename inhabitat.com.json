@@ -10,8 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=q7b5og6t7od6hau7g7ff1ve6a6; path=/; domain=.inhabitat.com; HttpOnly, BIGipServerinhabitat-web_POOL=4246933514.20480.0000; path=/, BIGipServerinhabitat-varnish_POOL=4045410314.52514.0000; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
-        "content": "no-cache, must-revalidate, max-age=0"
+        "content": "no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0"
       }
     },
     {
@@ -24,22 +31,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cnection",
-        "content": "close"
+        "name": "x-pingback",
+        "content": "http://inhabitat.com/xmlrpc.php"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "BIGipServerinhabitat-web_POOL=4213379082.20480.0000; path=/, BIGipServerinhabitat-varnish_POOL=4045410314.52514.0000; path=/"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {

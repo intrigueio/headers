@@ -10,36 +10,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private,private,no-transform"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; Charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "ASP.NET, ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
-        "content": "Varnish"
+        "content": "MediaCDN"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-error",
-        "content": "Service Unavailable"
+        "name": "ttl",
+        "content": "300.000"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-error-url",
-        "content": "http://www.ethnos.gr/default.asp?catid=22733"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive"
       }
     }
   ]

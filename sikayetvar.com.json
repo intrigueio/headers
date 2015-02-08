@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -38,15 +45,64 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP=\"NOI DSP COR NID ADMa OPTa OUR NOR\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=k6sed76pl3nianiet9krs7r4eg7b6lqu; path=/, cookie_id=50e65a068a93c10bf5423839cc373dff; expires=Tue, 02-Feb-2016 15:42:32 GMT; Max-Age=31104000; path=/; domain=.sikayetvar.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-bcknd",
+        "content": "discovery"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-credentials",
+        "content": "true"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1690754322"
+        "content": "1700920824"
       }
     },
     {
@@ -61,6 +117,13 @@
       "attributes": {
         "name": "x-cache",
         "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "strict-transport-security",
+        "content": "max-age=15552000; includeSubdomains; preload"
       }
     }
   ]

@@ -10,6 +10,41 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=db13c95d700bb2ea5a03925b7a2a6bd371423323713; expires=Sun, 07-Feb-16 15:41:53 GMT; path=/; domain=.rallydev.com; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "public, max-age=3600"
       }
@@ -24,22 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "etag",
-        "content": "\"1423234659-1\""
+        "content": "W/\"1423322116-1\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Fri, 06 Feb 2015 14:57:39 GMT"
+        "content": "Sat, 07 Feb 2015 15:15:16 GMT"
       }
     },
     {
@@ -52,15 +80,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
+        "name": "vary",
+        "content": "Cookie,Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-age",
-        "content": "2656"
+        "name": "via",
+        "content": "1.1 varnish"
       }
     },
     {
@@ -73,15 +101,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-cache",
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-cache-hits",
-        "content": "242"
+        "content": "94"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-drupal-cache",
-        "content": "MISS"
+        "content": "HIT"
       }
     },
     {
@@ -95,35 +130,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "v-7eca22b8-ae10-11e4-b104-22000af9250f"
+        "content": "v-24b6b0d0-aedc-11e4-9741-22000afc991b"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1811203058 1811186280"
+        "content": "1243558322 1243555742"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Cookie, Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive, Transfer-Encoding"
+        "name": "cf-ray",
+        "content": "1b50b1b98f850108-DFW"
       }
     }
   ]

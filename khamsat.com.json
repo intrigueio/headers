@@ -38,15 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "x-powered-by",
+        "content": "Hsoub, Phusion Passenger"
       }
     },
     {
@@ -59,22 +59,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIUSFRUUF9VU0VSX0FHRU5UIi0xOGU0MGUxNDAx%0AZWVmNjdlMWFlNjllZmFiMDlhZmI3MWY4N2ZmYjgxIhlIVFRQX0FDQ0VQVF9M%0AQU5HVUFHRSItZGEzOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4%0AMDcwOSIJY3NyZiIlM2JjYmZjNzkzM2FkYjI1ZDM1NDI4NTkzZTcwZDEyNTgi%0AD3Nlc3Npb25faWQiRWJmZTdiYWU2YjFmMmRiMmU1ZWU1OGI0ODIxZjQzZTgx%0ANzE0OWZhNWJmZmRmOTUzYTU5ZDQ5ZTcxODdhZDk3Yjk%3D%0A--e49943572e4eccd0ef57a56bc77ab7471055ff51; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "Hsoub Nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIJY3NyZiIlNzk2ZjAwMDVmZmNiMDU3MmVkODg5NDJiMDQ0MmIwZDQi%0ADXRyYWNraW5newciFEhUVFBfVVNFUl9BR0VOVCItMThlNDBlMTQwMWVlZjY3%0AZTFhZTY5ZWZhYjA5YWZiNzFmODdmZmI4MSIZSFRUUF9BQ0NFUFRfTEFOR1VB%0AR0UiLWRhMzlhM2VlNWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDki%0AD3Nlc3Npb25faWQiRTBkZWZhYjcwM2QzNzQxOWRhODc0MjdlZmZkNDcyNWFk%0AYTVlOTBmZmZhNzljY2ZkZGYxMTk3YzQ1Yzg5YWJjNDU%3D%0A--953cc08d3da34ba71658a8097e9686c383c3e3d6; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "Hsoub, Phusion Passenger"
       }
     }
   ]

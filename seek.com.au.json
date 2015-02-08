@@ -11,7 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private"
+        "content": "no-cache, no-store, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -24,15 +31,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Microsoft-IIS/7.5"
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId=ozxo2rwntrfrqoqvq04lmu3h; path=/; HttpOnly, JobseekerSessionId=a98d427d-70c9-4ba3-8d2a-98ae909d5804; domain=seek.com.au; path=/, JobseekerVisitorId=8d581f61-6c90-4c13-a44e-8364d8037587; domain=seek.com.au; expires=Fri, 07-Feb-2020 15:39:12 GMT; path=/, ASP.NET_SessionId=ozxo2rwntrfrqoqvq04lmu3h; path=/; HttpOnly, JobseekerSessionId=a98d427d-70c9-4ba3-8d2a-98ae909d5804; domain=seek.com.au; path=/, JobseekerVisitorId=8d581f61-6c90-4c13-a44e-8364d8037587; domain=seek.com.au; expires=Fri, 07-Feb-2020 15:39:12 GMT; path=/, ca=.; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-aspnet-version",
-        "content": "4.0.30319"
+        "name": "access-control-allow-headers",
+        "content": "X-Seek-Site, X-SeekAPI-Locale, Authorization, Content-Type, Cache-Control, X-Seek-EC-SessionId"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge;chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
       }
     }
   ]

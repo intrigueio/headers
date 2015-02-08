@@ -10,15 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
+        "name": "content-type",
+        "content": "text/html"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -31,15 +31,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.3.29"
+        "name": "set-cookie",
+        "content": "__cfduid=d85599a412cb143713ec9836980e7b2581423323637; expires=Sun, 07-Feb-16 15:40:37 GMT; path=/; domain=.3sk.tv; HttpOnly, PHPSESSID=fe938617c6b880a8c2d0c4e8e3df30fa; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=38cf80c172bee34382d36e056a9515b4; path=/"
+        "name": "x-powered-by",
+        "content": "PHP/5.3.29"
       }
     },
     {
@@ -61,6 +61,20 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1b50afe0f7341189-DFW"
       }
     }
   ]
