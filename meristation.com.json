@@ -11,14 +11,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Varnish"
+        "content": "Apache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "retry-after",
-        "content": "0"
+        "name": "last-modified",
+        "content": "Sun, 08 Feb 2015 15:37:08 GMT"
       }
     },
     {
@@ -32,28 +32,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, no-store, max-age=0s, private, must-revalidate"
+        "content": "max-age=60s, must-revalidate"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "1873919954"
+        "content": "1128873793 1128860538"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "via",
-        "content": "1.1 varnish"
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive, Transfer-Encoding"
       }
     }
   ]

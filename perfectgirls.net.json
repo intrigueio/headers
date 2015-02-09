@@ -10,15 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
-        "content": "text/html;charset=utf-8"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -38,22 +31,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "status",
-        "content": "200 OK"
+        "name": "server",
+        "content": "nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Sat, 07 Feb 2015 15:42:52 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "sameorigin"
+        "name": "cache-control",
+        "content": "max-age=600, public"
       }
     },
     {
@@ -66,36 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "public, max-age=565"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-varnish",
-        "content": "1733969569"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "via",
-        "content": "1.1 varnish"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "lastVisited=20150207; expires=Mon, 09 Mar 2015 11:27:47 -0400; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-status",
-        "content": "HIT"
+        "name": "x-content-type-options",
+        "content": "nosniff"
       }
     }
   ]
