@@ -52,8 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=1167314, public, no-cache"
+        "name": "access-control-allow-origin",
+        "content": "http://media.payumoney.com, http://ux.payumoney.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "authorized",
+        "content": "true"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "authorizehtml",
+        "content": "true"
       }
     }
   ]

@@ -39,14 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d1292c2906a0d22de362a037a030bd1bc1423409891; expires=Mon, 08-Feb-16 15:38:11 GMT; path=/; domain=.4chan.org; HttpOnly"
+        "content": "__cfduid=da9753e34fa5d2f2896431e7c0b84c90f1423496303; expires=Tue, 09-Feb-16 15:38:23 GMT; path=/; domain=.4chan.org; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "Accept-Encoding,Cookie"
       }
     },
     {
@@ -59,8 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "public, max-age=120, s-maxage=120"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cf-ray",
-        "content": "1b58e9afbff41171-DFW"
+        "content": "1b612759bb8e0944-DFW"
       }
     }
   ]
