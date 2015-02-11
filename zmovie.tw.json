@@ -10,8 +10,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache/2.2.15 (Win32) PHP/5.2.8-x64"
+        "name": "content-type",
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d8a2b33ea58b5b329e017cff4d8ad60301423582978; expires=Wed, 10-Feb-16 15:42:58 GMT; path=/; domain=.zmovie.tw; HttpOnly, phpmymovie=2a4f5a053748b44b8d92ec1e8b1deb12; path=/"
       }
     },
     {
@@ -19,13 +40,6 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.2.8-x64"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "phpmymovie=87eff1ece698ffcd9bfda7593711e5e0; path=/"
       }
     },
     {
@@ -52,22 +66,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "server",
+        "content": "cloudflare-nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "cf-ray",
+        "content": "1b696b72a65403ee-DFW"
       }
     }
   ]

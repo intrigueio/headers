@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html;charset=utf-8"
+        "content": "text/html"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -38,15 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "public, max-age=300, s-maxage=300"
+        "name": "p3p",
+        "content": "CP=\"NON DSP COR ADMa OUR IND UNI COM NAV INT\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-hostname",
-        "content": "520898-front4"
+        "name": "cache-control",
+        "content": "no-cache"
       }
     }
   ]

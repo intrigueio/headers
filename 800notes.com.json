@@ -10,15 +10,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0"
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d9651133dcb8ecacd561f458c0a11be941423582857; expires=Wed, 10-Feb-16 15:40:57 GMT; path=/; domain=.800notes.com; HttpOnly, sys=AYHviY8Xn58LY0EeGl8T0gg=; domain=800notes.com; expires=Tue, 01-Jan-2030 08:00:00 GMT; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, max-age=0"
       }
     },
     {
@@ -52,8 +73,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "sys=ATiPuJ+bDJ4L2Osm3JUS0gg=; domain=800notes.com; expires=Tue, 01-Jan-2030 05:00:00 GMT; path=/; HttpOnly"
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1b69687c7e2503e8-DFW"
       }
     }
   ]
