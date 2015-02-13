@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d17ceecdcb7428ad64c563d3d01f569271423669416; expires=Thu, 11-Feb-16 15:43:36 GMT; path=/; domain=.subjectboard.com; HttpOnly"
+        "content": "__cfduid=d43ae19336b8b3ced0d0d597542db83971423755836; expires=Fri, 12-Feb-16 15:43:56 GMT; path=/; domain=.subjectboard.com; HttpOnly"
       }
     },
     {
@@ -46,14 +46,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Cookie,Accept-Encoding"
+        "content": "Accept-Encoding,Cookie"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-pingback",
-        "content": "http://subjectboard.com/wp/xmlrpc.php"
+        "name": "cache-control",
+        "content": "max-age=3, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "wp-super-cache",
+        "content": "Served supercache file from PHP"
       }
     },
     {
@@ -67,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1b71a9bde2d00938-DFW"
+        "content": "1b79e79aa17b0968-DFW"
       }
     }
   ]

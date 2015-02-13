@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=df834eaf26f5ca4261efbd1bc13c0e0761423669319; expires=Thu, 11-Feb-16 15:41:59 GMT; path=/; domain=.ioffer.com; HttpOnly, shopping_cart=b5e89b583a5f008f0a2d001f22c6ec86; path=/; expires=Wed, 18-Feb-2015 15:41:59 GMT, iofferlocale=en-US; path=/, _currency_code=USD; path=/, _localized_country_code=US; path=/, _origination=eyJjYW1wYWlnbiI6bnVsbCwicmVmZXJlcl9ob3N0IjpudWxsLCJsYW5kaW5n%0AX3BhdGgiOiIvIiwibGFuZGluZ19ob3N0Ijoid3d3LmlvZmZlci5jb20iLCJz%0AZWFyY2hfZW5naW5lIjpudWxsLCJzZWFyY2hfZW5naW5lX3F1ZXJ5IjpudWxs%0ALCJzb2NpYWxfc2l0ZSI6bnVsbCwicmVmZXJlcl9wYXRoIjoiLyJ9%0A; path=/; expires=Thu, 11-Feb-2016 15:41:59 GMT, ioffer=d4a4bd80f0280fa9504782f8904f41e2; domain=.ioffer.com; path=/; expires=Wed, 11-Feb-2015 16:11:59 GMT; HttpOnly, iOfferID=CgAP1VTbeEeXgEieJiiCAg==; expires=Sat, 08-Feb-25 15:41:59 GMT; domain=ioffer.com; path=/"
+        "content": "__cfduid=d2b706a1be8901984efdfe14898101ac11423755739; expires=Fri, 12-Feb-16 15:42:19 GMT; path=/; domain=.ioffer.com; HttpOnly, shopping_cart=2e0b9bea301759781c26fdc474fdc686; path=/; expires=Thu, 19-Feb-2015 15:42:19 GMT, iofferlocale=en-US; path=/, _currency_code=USD; path=/, _localized_country_code=US; path=/, _origination=eyJyZWZlcmVyX2hvc3QiOm51bGwsInNlYXJjaF9lbmdpbmUiOm51bGwsInNl%0AYXJjaF9lbmdpbmVfcXVlcnkiOm51bGwsImNhbXBhaWduIjpudWxsLCJsYW5k%0AaW5nX2hvc3QiOiJ3d3cuaW9mZmVyLmNvbSIsInJlZmVyZXJfcGF0aCI6Ii8i%0ALCJzb2NpYWxfc2l0ZSI6bnVsbCwibGFuZGluZ19wYXRoIjoiLyJ9%0A; path=/; expires=Fri, 12-Feb-2016 15:42:20 GMT, ioffer=01186b79e114fb844893cd2fd241e674; domain=.ioffer.com; path=/; expires=Thu, 12-Feb-2015 16:12:20 GMT; HttpOnly, iOfferID=CgAQS1TcydwbdEcIJkXNAg==; expires=Sun, 09-Feb-25 15:42:20 GMT; domain=ioffer.com; path=/"
       }
     },
     {
@@ -45,8 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
@@ -59,22 +66,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-runtime",
-        "content": "333"
+        "content": "343"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "x-content-type-options",
+        "content": "nosniff"
       }
     },
     {
@@ -88,7 +88,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1b71a75f5d420106-DFW"
+        "content": "1b79e53ca3661165-DFW"
       }
     }
   ]
