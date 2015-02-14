@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "AWSELB=05C1D11310299FE142D714774ABD93C5B09ED17343C1211FBDA3E3C8A6588A91255FEDE7653EE20D822E58F1EBD944839691895F037A41567FE93ECA62F5BE167E1DC98568;PATH=/"
+        "content": "AWSELB=05C1D11310299FE142D714774ABD93C5B09ED173433BF106CFFE98B3DBC4DEBCB65B6F1BFBBA765911736E50D380F8BA1762AAE08C53ACFC20CBB162BF88B234A5DFBD0731;PATH=/"
       }
     },
     {
@@ -61,6 +61,13 @@
       "attributes": {
         "name": "x-xss-protection",
         "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {

@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "ASERVER/1.2.9-3"
+        "content": "ngx_openresty"
       }
     },
     {
@@ -38,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "keep-alive",
+        "content": "timeout=20"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding, Accept-Encoding"
       }
@@ -46,14 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Thu, 12 Feb 2015 15:30:12 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by-anquanbao",
-        "content": "MISS from chn-kd-wy-4b2"
+        "content": "Fri, 13 Feb 2015 15:20:17 GMT"
       }
     }
   ]

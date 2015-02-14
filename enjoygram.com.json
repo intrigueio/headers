@@ -11,14 +11,42 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "status",
-        "content": "200 OK"
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d5459891f98289f5332d087c0f3e568841423842144; expires=Sat, 13-Feb-16 15:42:24 GMT; path=/; domain=.enjoygram.com; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -31,92 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "_instagramium_session=N3pmSG1GdWZ4Ui9qd2FpUmFOTFN5V1lQNFkrN0ViVDdRZnVjYmNLS2tadGREQlRUYzdnVkdtOEJFNEpyY1p2bDJLSnNibEw4U2pJYWR3NXRmaklvcjJseWoycU5jOEVoeC9SanBwYWxlYkRTSVFQZUxlZTU0VlJtUmYrTnJPR2xPTm9SMDhacDdmT0Y5NGFRVFVzUDcvTkwxc08xTlMvSzdxTVk2R2dMTzdSTlVESGJ3Zk94KzVzcVhjN3I5NGpPLS1Lb1JZUTFrNXFna0RxdGhNS1IvVEx3PT0%3D--d57cce0d1ca112f6d46abcf95efea4b3430a765b; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-request-id",
-        "content": "3d3b8135-364a-43bf-b1d0-8dbd0be0709d"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-runtime",
-        "content": "0.084075"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "Phusion Passenger 4.0.51"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "server",
-        "content": "nginx/1.6.1 + Phusion Passenger 4.0.51"
+        "content": "cloudflare-nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=0, no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-page-speed",
-        "content": "126_1_bo"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "alternate-protocol",
-        "content": "80:quic,p=0.08"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "none"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "cf-ray",
+        "content": "1b8222b9b5ce03d0-DFW"
       }
     }
   ]

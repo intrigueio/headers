@@ -31,8 +31,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d9244d671316aad9d8cfbac2bab586b561423755671; expires=Fri, 12-Feb-16 15:41:11 GMT; path=/; domain=.nastygal.com; HttpOnly"
+        "name": "content-language",
+        "content": "en"
       }
     },
     {
@@ -40,6 +40,13 @@
       "attributes": {
         "name": "x-content-type-options",
         "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "country_code=US; path=/; expires=Mon, 10 Feb 2025 15:41:30 -0000, ngid=f30f985d-401d-4afa-9171-0447f39e67ef; path=/; expires=Mon, 10 Feb 2025 15:41:30 -0000, useHybris=; path=/, token=; path=/; expires=Mon, 10 Feb 2025 15:41:30 -0000"
       }
     },
     {
@@ -53,35 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=300"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-varnish",
-        "content": "309829517 309796495"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "via",
-        "content": "1.1 varnish"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-cache",
-        "content": "HIT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
+        "content": "public"
       }
     },
     {
@@ -94,29 +73,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-language",
-        "content": "en"
+        "name": "server",
+        "content": "nginx/1.4.4"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-instart-request-id",
-        "content": "5631058396820559159:QSJ01-NPPRY12:1423755671:299"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1b79e393e9870938-DFW"
+        "content": "16571382356504069587:QSJ01-NPPRY12:1423842090:299"
       }
     }
   ]

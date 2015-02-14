@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
       }
@@ -31,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=dfd3517727fc1d8a5953ee0746c54aa3e1423755604; expires=Fri, 12-Feb-16 15:40:04 GMT; path=/; domain=.vanguardngr.com; HttpOnly, device_type=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -52,8 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "device_type=desktop, afoo=abar"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-dummy",
+        "content": "dummy: desktop"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
-        "content": "EasyEngine 2.2.3"
+        "content": "EasyEngine 3.0.1"
       }
     },
     {
@@ -61,20 +75,6 @@
       "attributes": {
         "name": "rt-fastcgi-cache",
         "content": "HIT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1b79e1f1ec130103-DFW"
       }
     }
   ]

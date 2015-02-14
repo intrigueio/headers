@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -31,15 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d850ddd67464e691a46e1d90ac59e07df1423755722; expires=Fri, 12-Feb-16 15:42:02 GMT; path=/; domain=.news.am; HttpOnly, PHPSESSID=3po1npfg1v62tgrmrnv52fcls1; path=/, lang=arm; expires=Thu, 19-Feb-2015 15:43:54 GMT; Max-Age=604800; path=/, search_advanced=true; expires=Fri, 13-Feb-2015 15:43:54 GMT; Max-Age=86400; path=/"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "set-cookie",
+        "content": "PHPSESSID=693951mhfpobk5563jpm2skpg5; path=/, lang=arm; expires=Fri, 20-Feb-2015 15:44:20 GMT; Max-Age=604800; path=/, search_advanced=true; expires=Sat, 14-Feb-2015 15:44:20 GMT; Max-Age=86400; path=/"
       }
     },
     {
@@ -54,20 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1b79e4d33fc3092c-DFW"
       }
     }
   ]

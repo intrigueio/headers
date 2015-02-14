@@ -24,22 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "fly_geo={\"countryCode\": \"us\"}; expires=Thu, 19-Feb-2015 15:38:45 GMT; path=/; domain=.cnet.com, nemo_highlander=header_adjustment%3a1%3acontrol; expires=Fri, 13 Feb 2015 07:59:00 GMT; path=/; domain=.cnet.com;, fly_zip=75201-75212+75214-75238+75240-75244+75246-75254+75260-75267+75270+75275+75277+75283-75285+75287+75301+75303+75312-75313+75315+75320+75326+75336+75339+75342+75354-75360+75367-75368+75370-75374+75376+75378-75382+75389-75395+75397-75398; expires=Thu, 19-Feb-2015 15:38:45 GMT; path=/; domain=.cnet.com, fly_device=desktop; expires=Thu, 19-Feb-2015 15:38:45 GMT; path=/; domain=.cnet.com, fly_default_edition=us; expires=Thu, 19-Feb-2015 15:38:45 GMT; path=/; domain=.cnet.com, fly_default_edition=us; expires=Thu, 19-Feb-2015 15:38:45 GMT; path=/; domain=.cnet.com"
+        "name": "cache-control",
+        "content": "max-age=300, private"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-enable-esi",
-        "content": "true"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "x-tx-id",
+        "content": "91f9a1ee-7924-4378-85c5-88f4c2e4eb16"
       }
     },
     {
@@ -52,8 +45,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "fly_geo={\"countryCode\": \"us\"}; expires=Fri, 20-Feb-2015 15:38:56 GMT; path=/; domain=.cnet.com, fly_default_edition=us; expires=Fri, 20-Feb-2015 15:38:56 GMT; path=/; domain=.cnet.com, fly_device=desktop; expires=Fri, 20-Feb-2015 15:38:56 GMT; path=/; domain=.cnet.com, fly_zip=75201-75212+75214-75238+75240-75244+75246-75254+75260-75267+75270+75275+75277+75283-75285+75287+75301+75303+75312-75313+75315+75320+75326+75336+75339+75342+75354-75360+75367-75368+75370-75374+75376+75378-75382+75389-75395+75397-75398; expires=Fri, 20-Feb-2015 15:38:56 GMT; path=/; domain=.cnet.com"
       }
     }
   ]

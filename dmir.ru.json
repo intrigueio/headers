@@ -24,6 +24,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -31,8 +38,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Thu, 12 Feb 2015 21:00:00 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId_dmir.ru=hfe0tfwqochvrxx0gqiyqvqm; domain=.dmir.ru; path=/; HttpOnly, US=9c8c99e9-9ce5-4a70-9285-1b0d69bceb32; domain=.dmir.ru; expires=Fri, 13-Mar-2015 15:44:54 GMT; path=/, ASP.NET_SessionId_dmir.ru=hfe0tfwqochvrxx0gqiyqvqm; domain=.dmir.ru; path=/; HttpOnly, US=9c8c99e9-9ce5-4a70-9285-1b0d69bceb32; domain=.dmir.ru; expires=Fri, 13-Mar-2015 15:44:54 GMT; path=/, brs36tgh2=70501346176847ea803f0d57a4a456e2; expires=Fri, 13-Mar-2015 15:44:54 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnet-version",
+        "content": "4.0.30319"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
         "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-provided-by",
+        "content": "front-03"
       }
     }
   ]

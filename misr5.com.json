@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html;charset=UTF-8"
       }
     },
     {
@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d7b482c6ff225b64b4cae8b5f03e504441423755764; expires=Fri, 12-Feb-16 15:42:44 GMT; path=/; domain=.misr5.com; HttpOnly, PHPSESSID=f3c5f1a1cd62529986a1d3acd44be74d; path=/; HttpOnly"
+        "content": "__cfduid=df5cbd74f67db8b19e0c7bdeeeba1ab5d1423842195; expires=Sat, 13-Feb-16 15:43:15 GMT; path=/; domain=.misr5.com; HttpOnly"
       }
     },
     {
@@ -45,15 +45,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-hyper-cache",
-        "content": "continue - no file"
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-pingback",
-        "content": "http://www.misr5.com/xmlrpc.php"
+        "name": "cache-control",
+        "content": "private, max-age=0, no-cache, no-transform"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-hyper-cache",
+        "content": "hit - plain"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Fri, 13 Feb 2015 15:41:26 GMT"
       }
     },
     {
@@ -67,7 +81,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1b79e5d615e0117d-DFW"
+        "content": "1b8223f70d150944-DFW"
       }
     }
   ]
