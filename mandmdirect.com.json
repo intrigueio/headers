@@ -45,15 +45,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-akamai-transformed",
+        "content": "9 72130 0 pmb=mRUM,1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "MandMDirectSession=1194155002069252099134127039218151054194197229053037004145098213140148112036255200026137044100177064158084154098248090006182118097052050094017006064211217066178052083034053255027165073203199106; expires=Mon, 16-Mar-2015 15:42:44 GMT; path=/; HttpOnly, MandMDirectLastSearchCookie=; path=/, PROF-PERSIST-COOKIE-V2=cU9fwZmkGRzMHrWqDqsrWP885fg/GHjKYXyG4VCkil39Em715sm3ojgWz+uczTphxO7H+8iaPz9Dxg==; path=/"
+        "content": "MandMDirectSession=1186190177148050119081009228242047227186135021218233035254133035060088182077070103137252029112223017181160063139147218109128041037051008188049116049236056049003103111138060221206164131160220071; expires=Tue, 17-Mar-2015 15:42:35 GMT; path=/; HttpOnly, MandMDirectLastSearchCookie=; path=/, PROF-PERSIST-COOKIE-V2=ElUFSO4dtkufsTFJ5pRx1dns824GVo5qI36v1e4uMrkyejM60gdlk3swr7rv1s6NpH2xTh+LSpu2xA==; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent"
       }
     }
   ]

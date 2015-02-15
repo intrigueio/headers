@@ -52,8 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "PHPSESSID=glnmqgh0p02eqh0g7sdokvv5f4; path=/, bhlang=a%3A2%3A%7Bs%3A8%3A%22langabbr%22%3Bs%3A2%3A%22en%22%3Bs%3A6%3A%22langid%22%3Bs%3A1%3A%221%22%3B%7D; expires=Sun, 15-Feb-2015 15:41:06 GMT; path=/"
       }
     }
   ]

@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache"
+        "content": "no-cache, no-store, no-cache"
       }
     },
     {
@@ -31,6 +31,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "Microsoft-IIS/8.0"
       }
@@ -39,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ASP.NET_SessionId=dd2yebdzsogyafwwdtrfv5fv; domain=.tebyan.net; path=/; HttpOnly, TebyanWebsiteCookie=UD=5UN1OHB2bgY=&UK=BsOJnkyZ7bqK1BhScvbtLE5SqncMgL0EaJppwQCCqtNGnuBqi7KuBg==; domain=.tebyan.net; expires=Sat, 13-Feb-2016 15:34:52 GMT; path=/"
+        "content": "ASP.NET_SessionId=4fv2yjhjpdwv34ecsx32dhzl; domain=.tebyan.net; path=/; HttpOnly, TebyanWebsiteCookie=UD=5UN1OHB2bgY=&UK=iLvBu8BrLzeQkz5BA2785nzBAQKLsTRLPYtCbYb+TxvrD0ZGgL8sbg==; domain=.tebyan.net; expires=Sun, 14-Feb-2016 15:35:03 GMT; path=/"
       }
     },
     {

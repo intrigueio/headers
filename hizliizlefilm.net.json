@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=iso-8859-9"
       }
@@ -31,15 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d519ec5ad6932815ceac40707e0af55631423842188; expires=Sat, 13-Feb-16 15:43:08 GMT; path=/; domain=.hizliizlefilm.net; HttpOnly, PHPSESSID=mflp9hdtgf6rrdsq54ol1d9mk5; path=/"
+        "name": "x-powered-by",
+        "content": "PHP/5.3.3"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.3.3"
+        "name": "set-cookie",
+        "content": "PHPSESSID=1gb3hhvhki4qltfe80rnn61la0; path=/"
       }
     },
     {
@@ -54,20 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1b8223d0eceb092c-DFW"
       }
     }
   ]
