@@ -31,20 +31,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Sun, 14-Feb-2016 15:39:12 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, , authorize_intent=home; path=/; expires=Sat, 14-Feb-2015 15:49:12 GMT, _ask.fm_session=BAh7CToPc2Vzc2lvbl9pZCIlMmNjN2FiMzc3ZTNlMDJiYzM5Y2NmYjAzODU1MDg0NDk6EG9sZF9nZXRfdXJsIgYvOhBfY3NyZl90b2tlbiIxNUdFR0ZmKzJwTVM3VE1RdzFxb2tmSm9kZ2NqWEpsNUFnOTVHbzU2RlZNdz06CmFza2ZtewA%3D--eec449407d73868bcd32a945171d843c5eacc913; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
         "content": "private, max-age=0, must-revalidate"
       }
@@ -52,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
+        "name": "set-cookie",
+        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Mon, 15-Feb-2016 15:39:24 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, , authorize_intent=home; path=/; expires=Sun, 15-Feb-2015 15:49:24 GMT, _ask.fm_session=BAh7CToPc2Vzc2lvbl9pZCIlNDllOWFjYTY5MTlhZTA4YzVjNWMwNzVjNmNjYjZmZDU6EG9sZF9nZXRfdXJsIgYvOhBfY3NyZl90b2tlbiIxemdVeHBmT3ZuT0ViY1Zyd3JqZGNVdXdoK3lWNXFVeXN4S2VDQTBVTTJPTT06CmFza2ZtewA%3D--e7b1e85021b639c031ce68576dbbee2f041a150c; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
       }
     },
     {
@@ -61,6 +54,13 @@
       "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {

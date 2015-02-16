@@ -24,8 +24,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "PSSID=dae7qckjoviep5u0fgoi5vt8v1; path=/; HttpOnly, SLIDESHOW_USER=0; expires=Tue, 17-Feb-2015 15:42:12 GMT; path=/, LAST_URL=http%3A%2F%2Fwww.powershow.com%2F; expires=Mon, 16-Feb-2015 15:42:12 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
-        "content": "max-age=1"
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -33,13 +47,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "close"
       }
     },
     {

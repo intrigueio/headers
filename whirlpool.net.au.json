@@ -38,15 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, *"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "node",
-        "content": "1"
+        "content": "2"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__arp=.node1;domain=.whirlpool.net.au;path=/;HttpOnly, CFID=04dca1b4%2D4658%2D4dcf%2D9b2d%2Daaaee5b984f4;domain=.whirlpool.net.au;path=/;HttpOnly, CFTOKEN=0;domain=.whirlpool.net.au;path=/;HttpOnly, __hap=101; path=/; domain=.whirlpool.net.au; HttpOnly"
+        "content": "__arp=.node2;domain=.whirlpool.net.au;path=/;HttpOnly, CFID=c511cda2%2D508f%2D46b0%2D946b%2D818e33a91457;domain=.whirlpool.net.au;path=/;HttpOnly, CFTOKEN=0;domain=.whirlpool.net.au;path=/;HttpOnly, __hap=102; path=/; domain=.whirlpool.net.au; HttpOnly"
       }
     },
     {
@@ -61,13 +68,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "*"
       }
     },
     {

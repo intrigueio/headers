@@ -10,15 +10,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "connection",
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "set-cookie",
+        "content": "__cfduid=d3a3be9ddc9a97664ff3318e0788cae181424015090; expires=Mon, 15-Feb-16 15:44:50 GMT; path=/; domain=.phim14.net; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
@@ -32,7 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "SUNDATA"
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1b92a10901c40956-DFW"
       }
     }
   ]
