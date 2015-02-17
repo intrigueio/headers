@@ -32,14 +32,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "serverid=portal_cache2; path=/"
+        "content": "otp-pagepeel=TRUE; expires=Tue, 17-Feb-2015 15:39:42 GMT; path=/; domain=.viva.co.id, serverid=portal_cache2; path=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding,User-Agent"
+        "content": "Accept-Encoding, Accept-Encoding,User-Agent"
       }
     },
     {
@@ -54,6 +54,13 @@
       "attributes": {
         "name": "x-upstream-cache-status",
         "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

@@ -11,21 +11,42 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache"
+        "content": "Varnish"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "ta=3%3BW251bGwsMCwxNDI0MDE1MDA3LDE0MjQwMTUwMDcsMSwwLDAsIjIwMTUtMDItMTUiLG51bGxd; expires=Mon, 15-Feb-2016 15:43:27 GMT; Max-Age=31536000; path=/"
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=316"
+        "name": "retry-after",
+        "content": "5"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "405951300"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
       }
     },
     {
@@ -33,20 +54,6 @@
       "attributes": {
         "name": "connection",
         "content": "close"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-type",
-        "content": "text/html"
       }
     }
   ]

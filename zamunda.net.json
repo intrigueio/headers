@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.4.6 (Ubuntu)"
+        "content": "nginx"
       }
     },
     {
@@ -39,21 +39,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "keep-alive",
-        "content": "timeout=10"
+        "content": "timeout=120"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.4.27-1+deb.sury.org~precise+1"
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, must-revalidate"
+        "content": "no-cache, no-store, must-revalidate"
       }
     }
   ]

@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -38,8 +31,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d2d42753ee141862043d5be68c9b587281424101279; expires=Tue, 16-Feb-16 15:41:19 GMT; path=/; domain=.christian-dogma.com; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1b9ad9450e2c1177-DFW"
       }
     }
   ]

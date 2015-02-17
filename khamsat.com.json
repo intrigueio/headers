@@ -45,6 +45,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-powered-by",
         "content": "Hsoub, Phusion Passenger"
       }
@@ -59,22 +66,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIUSFRUUF9VU0VSX0FHRU5UIi0xOGU0MGUxNDAx%0AZWVmNjdlMWFlNjllZmFiMDlhZmI3MWY4N2ZmYjgxIhlIVFRQX0FDQ0VQVF9M%0AQU5HVUFHRSItZGEzOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4%0AMDcwOSIJY3NyZiIlMzYzODk0YWI5OTI1ODkyNjI4MDAzMTAzOGFjNGVjNjgi%0AD3Nlc3Npb25faWQiRTQxNDY0NGY2OGUxMmJlNzI1YWFmZTA2OGJkNzIwY2Zm%0ANDBiNTM2NjRiZmY2NzkwMThlMWYxZDc1MjMzZDQxNmY%3D%0A--ba781071fb71c9292a3438749cecc13b423f66bb; path=/; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "Hsoub Nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIUSFRUUF9VU0VSX0FHRU5UIi0xOGU0MGUxNDAx%0AZWVmNjdlMWFlNjllZmFiMDlhZmI3MWY4N2ZmYjgxIhlIVFRQX0FDQ0VQVF9M%0AQU5HVUFHRSItZGEzOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4%0AMDcwOSIJY3NyZiIlZmMwZGUyNGVhMDA3YzkzZDRiYjNlY2U2ODBjNmQ5MzIi%0AD3Nlc3Npb25faWQiRTY2N2UyZTQwZjgzZWViOWNhOWEyNDM1MWE5NzUzZDQw%0ANjg3NzdmZGU1ZmY3ZThjYjU3ZWE3OWQxYTIxZTY3MTk%3D%0A--c874ad53b1775d18561bed93cdaeed26077365be; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
       }
     }
   ]
