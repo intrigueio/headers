@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -39,49 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache,no-store,max-age=0,must-revalidate"
+        "content": "no-cache, no-cache, private, no-cache, no-store, must-revalidate, max-age=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Mon, 16 Feb 2015 15:39:45 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-security-policy",
-        "content": "default-src 'self' 'unsafe-inline' 'unsafe-eval' wss://portal-xiva.yandex.net *.yandex.ru yandex.ru *.yandex.net *.yandex.ua yandex.ua https://*.yandex.ru https://yandex.ru https://*.yandex.net https://*.yandex.ua https://yandex.ua yandex.st yastatic.net *.yastatic.net ws://portal-xiva.yandex.net wss://portal-xiva.yandex.net wss://push.yandex.ru; img-src data: 'self' awaps.yandex.ua https://awaps.yandex.ua *.yandex.ru *.yandex.ua *.tns-counter.ru *.gemius.pl https://*.yandex.ru https://*.yandex.ua https://*.tns-counter.ru https://*.gemius.pl yandex.st *.yandex.net yastatic.net *.yastatic.net; report-uri http://www.yandex.ru/log/csp?from=big.ua&showid=20927.18410.1424101184.82068&h=a2&yu=771479681424101185;"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "p3p",
-        "content": "policyref=\"/w3c/p3p.xml\", CP=\"NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "yandex_gid=87; Expires=Wed, 18-Mar-2015 15:39:44 GMT; Domain=.yandex.ua; Path=/, yp=; Expires=Fri, 18-Feb-2005 15:39:44 GMT; Path=/, yp=; Expires=Fri, 18-Feb-2005 15:39:44 GMT; Domain=.www.yandex.ua; Path=/, yp=1426693185.ygu.1; Expires=Thu, 13-Feb-2025 15:39:44 GMT; Domain=.yandex.ua; Path=/, yandexuid=771479681424101185; Expires=Thu, 13-Feb-2025 15:39:44 GMT; Domain=.yandex.ua; Path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "DENY"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-xrds-location",
-        "content": "http://openid.yandex.ru/server_xrds/"
+        "name": "strict-transport-security",
+        "content": "max-age=31536000"
       }
     }
   ]

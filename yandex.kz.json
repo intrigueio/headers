@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -39,49 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache,no-store,max-age=0,must-revalidate"
+        "content": "no-cache, no-cache, private, no-cache, no-store, must-revalidate, max-age=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Mon, 16 Feb 2015 15:40:01 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "content-security-policy",
-        "content": "default-src 'self' 'unsafe-inline' 'unsafe-eval' wss://portal-xiva.yandex.net *.yandex.ru yandex.ru *.yandex.net *.yandex.kz yandex.kz https://*.yandex.ru https://yandex.ru https://*.yandex.net https://*.yandex.kz https://yandex.kz yandex.st yastatic.net *.yastatic.net ws://portal-xiva.yandex.net wss://portal-xiva.yandex.net wss://push.yandex.ru; img-src data: 'self' awaps.yandex.kz https://awaps.yandex.kz *.yandex.ru *.yandex.kz *.tns-counter.ru *.gemius.pl https://*.yandex.ru https://*.yandex.kz https://*.tns-counter.ru https://*.gemius.pl yandex.st *.yandex.net yastatic.net *.yastatic.net; report-uri http://www.yandex.ru/log/csp?from=big.kz&showid=20931.18490.1424101201.37017&h=a4&yu=7494209541424101201;"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "p3p",
-        "content": "policyref=\"/w3c/p3p.xml\", CP=\"NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "yandex_gid=87; Expires=Wed, 18-Mar-2015 15:40:01 GMT; Domain=.yandex.kz; Path=/, yp=; Expires=Fri, 18-Feb-2005 15:40:01 GMT; Path=/, yp=; Expires=Fri, 18-Feb-2005 15:40:01 GMT; Domain=.www.yandex.kz; Path=/, yp=1426693201.ygu.1; Expires=Thu, 13-Feb-2025 15:40:01 GMT; Domain=.yandex.kz; Path=/, yandexuid=7494209541424101201; Expires=Thu, 13-Feb-2025 15:40:01 GMT; Domain=.yandex.kz; Path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "DENY"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-xrds-location",
-        "content": "http://openid.yandex.ru/server_xrds/"
+        "name": "strict-transport-security",
+        "content": "max-age=31536000"
       }
     }
   ]

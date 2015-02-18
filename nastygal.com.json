@@ -17,6 +17,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
         "content": "keep-alive"
       }
@@ -24,8 +31,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx/1.4.4"
+        "name": "content-language",
+        "content": "en"
       }
     },
     {
@@ -33,6 +40,13 @@
       "attributes": {
         "name": "x-content-type-options",
         "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "country_code=US; path=/; expires=Fri, 14 Feb 2025 15:42:24 -0000, ngid=c3905dbf-3b27-4626-9446-b181eb2a74b8; path=/; expires=Fri, 14 Feb 2025 15:42:24 -0000, useHybris=; path=/, token=; path=/; expires=Fri, 14 Feb 2025 15:42:24 -0000"
       }
     },
     {
@@ -52,20 +66,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "country_code=US; path=/; expires=Thu, 13 Feb 2025 15:42:01 -0000, ngid=5b074452-f148-4123-98cd-98538bb53d30; path=/; expires=Thu, 13 Feb 2025 15:42:01 -0000, useHybris=; path=/, token=; path=/; expires=Thu, 13 Feb 2025 15:42:01 -0000"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
       }
@@ -73,15 +73,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-language",
-        "content": "en"
+        "name": "server",
+        "content": "nginx/1.4.4"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-instart-request-id",
-        "content": "14554023391770585688:QSJ01-NPPRY12:1424101321:299"
+        "content": "12993768016251833811:QSJ01-NPPRY10:1424187744:299"
       }
     }
   ]

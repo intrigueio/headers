@@ -10,8 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        "content": "private, no-cache, no-store, proxy-revalidate, no-transform, max-age=0, must-revalidate"
       }
     },
     {
@@ -24,8 +31,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "etag",
+        "content": "\"a090b-310-50c6c2d9fc540\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Mon, 12 Jan 2015 03:34:05 GMT"
       }
     },
     {
@@ -33,13 +47,6 @@
       "attributes": {
         "name": "server",
         "content": "Apache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=sfbuuc3l7osjdh2bu981b6pd99s5inm2; path=/; domain=.souq.com; HttpOnly, PLATEFORMC=ae; expires=Tue, 16-Feb-2016 15:39:58 GMT; path=/; domain=.souq.com, PLATEFORML=en; expires=Tue, 16-Feb-2016 15:39:58 GMT; path=/; domain=.souq.com, c_Ident=14241011983197; expires=Thu, 13-Feb-2025 15:39:58 GMT; path=/; domain=.souq.com, NSC_tpvr-83+63+9+208-91=ffffffff35ecef1345525d5f4f58455e445a4a423660;path=/;httponly"
       }
     },
     {
@@ -54,6 +61,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "NSC_tpvr-83+63+9+208-91=ffffffff2d3bb5e645525d5f4f58455e445a4a423660;path=/;httponly"
       }
     }
   ]

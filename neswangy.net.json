@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html"
       }
     },
     {
@@ -32,14 +32,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d55067428fdcdde7732d244b385b3c2f71424101353; expires=Tue, 16-Feb-16 15:42:33 GMT; path=/; domain=.neswangy.net; HttpOnly"
+        "content": "__cfduid=d86e2656a06843c0d107e3557c0cdc02d1424187781; expires=Wed, 17-Feb-16 15:43:01 GMT; path=/; domain=.neswangy.net; HttpOnly, PHPSESSID=0f21ade2eeb44725cf46e894e4a57978; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        "content": "private, no-cache, no-store, proxy-revalidate, no-transform"
       }
     },
     {
@@ -52,8 +59,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "x-cache",
+        "content": "HIT from Backend"
       }
     },
     {
@@ -67,7 +74,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1b9adb15d2aa03d0-DFW"
+        "content": "1ba319241f170107-DFW"
       }
     }
   ]
