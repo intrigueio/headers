@@ -17,8 +17,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "close, close"
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=dfd9757fee38bb42202eeef32e9b0766c1424274077; expires=Thu, 18-Feb-16 15:41:17 GMT; path=/; domain=.express.pk; HttpOnly, visid_incap_302866=DXUo+L0HSfy5pfRYwXrbaJ2y5FQAAAAAQUIPAAAAAABPhTMOHm6VpAWg2MCDcLOz; expires=Fri, 17 Feb 2017 13:13:13 GMT; path=/; Domain=.express.pk, incap_ses_209_302866=2TDZSD3g+yVzMay3pYTmAp2y5FQAAAAAgrkmWuu+9uYllBXUGPSBJQ==; path=/; Domain=.express.pk"
       }
     },
     {
@@ -32,14 +46,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-iinfo",
-        "content": "0-5766030-0 0NNN RT(1424187663264 0) q(0 -1 -1 0) r(0 -1) B10(8,808400,0)"
+        "content": "5-1691786-0 0CNY RT(1424274077035 0) q(0 -1 -1 0) r(0 -1) B10(4,314,0)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "visid_incap_302866=NK7wIgdSSyOacdOsYyxK3A9h41QAAAAAQUIPAAAAAABnq//8nfZsvyhgQ7ydYgrx; expires=Wed, 15 Feb 2017 19:09:53 GMT; path=/; Domain=.express.pk, incap_ses_124_302866=miEjawY18zVV/CGX+Iq4AQ9h41QAAAAAyzeauM9rS79sQTpFeTUT2A==; path=/; Domain=.express.pk"
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1bab53f6e89703d0-DFW"
       }
     }
   ]

@@ -10,29 +10,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=us-ascii"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, User-Agent"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Microsoft-HTTPAPI/2.0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-cnection",
-        "content": "close"
+        "content": ""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "BIGipServerSTP-HTTP=!isDz4qPoxAD1J46A6YlCqYNi5EQ/x1bJKHShVrc3ItAR91ZcEcqB9Uk/XxXCdC2t4qBT/zA0TeKLWYY=; path=/"
+        "content": "eccBasketId=b7e3b28b3a234cae808325b1ce2e99b3; domain=.sierratradingpost.com; expires=Mon, 17-Aug-2015 14:40:48 GMT; path=/, ASP.NET_SessionId=ze2yhh0pauytyfabk40nt43y; domain=.sierratradingpost.com; path=/; HttpOnly, cache=0; domain=.sierratradingpost.com; expires=Thu, 20-Aug-2015 14:40:48 GMT; path=/, cachedValues=Expired; domain=.sierratradingpost.com; expires=Sun, 08-Feb-2015 15:40:48 GMT; path=/, shopperProfile=b7e3b28b3a234cae808325b1ce2e99b3#New_Customer; domain=.sierratradingpost.com; path=/, __RequestVerificationToken=9on96hJpfC1o6xftMYF4KcXxhzi7X_UwfC7cAl904wicQVTFW6r3CTBLbjDAHdOlDyoj3BAOHEmLk5ztR40dGOxNny41; domain=.sierratradingpost.com; path=/; HttpOnly, BIGipServerSTP-HTTP=!51F8fPuNq6CEAy+A6YlCqYNi5EQ/xwk2Z3Ng/R3sm+TPKW4KFPBMHxJ3kw/8xaP7xkW1v/6vfSvYnbU=; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "Keep-Alive"
       }
     }
   ]

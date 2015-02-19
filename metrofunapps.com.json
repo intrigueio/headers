@@ -32,14 +32,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d4530afdf2e6539b44626dc3ad716f0fa1424187801; expires=Wed, 17-Feb-16 15:43:21 GMT; path=/; domain=.metrofunapps.com; HttpOnly, X-Mapping-fjhppofk=03A610A5F50ABFD3612D9EC06C26B037; path=/, PHPSESSID=r8g28jh8t192m1gho8e7scbdf1; path=/"
+        "content": "__cfduid=d265843c489e5b1ab5dc19402b70c9f4f1424274217; expires=Thu, 18-Feb-16 15:43:37 GMT; path=/; domain=.metrofunapps.com; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        "content": "public, max-age=14400"
       }
     },
     {
@@ -59,6 +59,20 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cf-cache-status",
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "server",
         "content": "cloudflare-nginx"
       }
@@ -67,7 +81,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1ba3199f05fe1177-DFW"
+        "content": "1bab5762b3e50104-DFW"
       }
     }
   ]

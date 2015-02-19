@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private"
+        "content": "public, max-age=57"
       }
     },
     {
@@ -24,8 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "last-modified",
+        "content": "Wed, 18 Feb 2015 15:46:08 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "*"
       }
     },
     {
