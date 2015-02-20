@@ -59,13 +59,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-akamai-transformed",
-        "content": "9 - 0 pmb=mRUM,1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding, User-Agent"
       }
@@ -96,6 +89,34 @@
       "attributes": {
         "name": "set-cookie",
         "content": "AKA_POS=US; path=/, AKA_Lang=en; path=/, AKA_Dialect=enUS; path=/, dGroup=all; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-webkit-csp",
+        "content": "frame-ancestors 'self'"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-security-policy",
+        "content": "frame-ancestors 'self'"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-security-policy",
+        "content": "frame-ancestors 'self'"
       }
     }
   ]

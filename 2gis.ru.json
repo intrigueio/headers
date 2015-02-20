@@ -24,15 +24,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"54e48030-4ab\""
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "2gisAPI=639785c0-21a2-4d63-b1ac-2fd6a5c1b27c; expires=Sat, 26-Jan-2115 15:41:28 GMT; path=/; domain=.2gis.ru, __2gis_web_api=73930408-fb3b-4a2d-bd6c-76a9c9b06f37; path=/; domain=.2gis.ru, split.test=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT, split.performance=false; Path=/; Expires=Sun, 21 Feb 2016 15:41:28 GMT, split.pagination=false; Path=/; Expires=Sun, 21 Feb 2016 15:41:28 GMT, time=Thursday, 19-Feb-2015 15:41:28 GMT;Path=/, project=32;Path=/;Max-Age=3000000, defaultProject=32;Path=/;Max-Age=3000000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-node",
+        "content": "online41.d1.nato"
       }
     }
   ]

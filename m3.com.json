@@ -10,43 +10,85 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache"
+        "name": "access-control-allow-headers",
+        "content": "x-requested-with,content-type,Cache-Control,Pragma,Date"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "access-control-allow-methods",
+        "content": "POST, GET, OPTIONS, PUT, DELETE"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "access-control-allow-origin",
+        "content": "http://www.m3.com"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "access-control-expose-headers",
+        "content": "WWW-Authenticate, Server-Authorization"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-security-policy",
+        "content": "default-src 'self' http://*.m3.com:* http://*.m3img.com:* https://*.m3.com:* https://*.m3img.com:*; style-src 'self' 'unsafe-inline' http://*.m3.com:* http://*.m3img.com:* https://*.m3.com:* https://*.m3img.com:* http://*.twitter.com http://*.google-analytics.com http://*.googleadservices.com http://*.google.com http://*.google.co.jp http://*.doubleclick.net http://b92.yahoo.co.jp http://*.twimg.com https://*.twitter.com https://*.google-analytics.com https://*.googleadservices.com https://*.google.com https://*.google.co.jp https://*.doubleclick.net https://b92.yahoo.co.jp https://*.twimg.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://*.m3.com:* http://*.m3img.com:* https://*.m3.com:* https://*.m3img.com:* http://*.twitter.com http://*.google-analytics.com http://*.googleadservices.com http://*.google.com http://*.google.co.jp http://*.doubleclick.net http://b92.yahoo.co.jp http://*.twimg.com https://*.twitter.com https://*.google-analytics.com https://*.googleadservices.com https://*.google.com https://*.google.co.jp https://*.doubleclick.net https://b92.yahoo.co.jp https://*.twimg.com; img-src 'self' data: http://*.m3.com:* http://*.m3img.com:* https://*.m3.com:* https://*.m3img.com:* http://*.twitter.com http://*.google-analytics.com http://*.googleadservices.com http://*.google.com http://*.google.co.jp http://*.doubleclick.net http://b92.yahoo.co.jp http://*.twimg.com https://*.twitter.com https://*.google-analytics.com https://*.googleadservices.com https://*.google.com https://*.google.co.jp https://*.doubleclick.net https://b92.yahoo.co.jp https://*.twimg.com; frame-src 'self' http://*.m3.com:* http://*.m3img.com:* https://*.m3.com:* https://*.m3img.com:* http://*.twitter.com http://*.google-analytics.com http://*.googleadservices.com http://*.google.com http://*.google.co.jp http://*.doubleclick.net http://b92.yahoo.co.jp http://*.twimg.com https://*.twitter.com https://*.google-analytics.com https://*.googleadservices.com https://*.google.com https://*.google.co.jp https://*.doubleclick.net https://b92.yahoo.co.jp https://*.twimg.com"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html;charset=UTF-8"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "DENY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-permitted-cross-domain-policies",
+        "content": "master-only"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "firstUrl=https%3A%2F%2Fwww.m3.com%2Findex.jsp; Path=/, JSESSIONID=6EBE5FDC81D4A5A5BB733C75A3E9B66D.mxapp3; Path=/; Secure, NSC_xxxqy-iuuqt=ffffffffc3a0022045525d5f4f58455e445a4a423660;path=/;secure;httponly"
+        "content": "NSC_xxxqy-iuuqt=ffffffffc3a0022145525d5f4f58455e445a4a423660;path=/;secure;httponly"
       }
     }
   ]

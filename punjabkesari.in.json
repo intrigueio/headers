@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -24,8 +17,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "public, no-cache=\"Set-Cookie\", max-age=300"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Thu, 19 Feb 2015 15:43:51 GMT"
       }
     },
     {
@@ -45,15 +52,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "ASP.NET_SessionId=kkonpwrfmaqk2bagxovwdfee; path=/; HttpOnly"
+        "name": "x-powered-by",
+        "content": "ASP.NET"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "ASP.NET"
+        "name": "x-cache",
+        "content": "Miss from cloudfront"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 717e7f3b695c0bb8501138bcc455763b.cloudfront.net (CloudFront)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-amz-cf-id",
+        "content": "UKAlmJvX61wsBtZx1nPzmWGwDxsVNkGrRwcqqcEa3HxH-vTwnR-aYg=="
       }
     }
   ]

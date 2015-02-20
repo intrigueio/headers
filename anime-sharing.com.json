@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -46,14 +46,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "bb_lastvisit=1423843084; expires=Thu, 18-Feb-2016 15:42:43 GMT; path=/, bb_lastactivity=0; expires=Thu, 18-Feb-2016 15:42:43 GMT; path=/"
+        "content": "bb_sessionhash=ac793ddafdc513bf3771b654898575ff; path=/; HttpOnly, bb_lastvisit=1424360597; expires=Fri, 19-Feb-2016 15:43:17 GMT; path=/, bb_lastactivity=0; expires=Fri, 19-Feb-2016 15:43:17 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "private"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-guard-cache",
-        "content": "HIT"
+        "content": "EXPIRED"
       }
     }
   ]

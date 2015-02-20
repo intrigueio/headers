@@ -10,36 +10,85 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close, close"
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "p3p",
+        "content": "policyref=\"/bitrix/p3p.xml\", CP=\"NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-iinfo",
-        "content": "9-41924389-0 0NNN RT(1424274215972 0) q(0 -1 -1 0) r(0 -1) B10(8,808400,0)"
+        "name": "x-powered-cms",
+        "content": "Bitrix Site Manager (a1beeebf5043f0de31775882b8d8c476)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "visid_incap_215487=kZ27t16QQKKTjojR59bCGiez5FQAAAAAQUIPAAAAAAC86HL+YpL+LyFlnAhaF6Ui; expires=Thu, 16 Feb 2017 16:49:43 GMT; path=/; Domain=.payeer.com, incap_ses_282_215487=/HYOTj9kdB5djaXAtN3pAyez5FQAAAAAZTBiZe7zucSmjD02gLzbGQ==; path=/; Domain=.payeer.com"
+        "content": "PHPSESSID=9timgp4t9arellrnsfs0krinr6; path=/; HttpOnly, visid_incap_215487=2JTFqVZXShGOcn+qMDBVebQE5lQAAAAAQUIPAAAAAACSMbFmFEAxdN9DPRIMShT5; expires=Fri, 17 Feb 2017 16:46:30 GMT; path=/; Domain=.payeer.com, incap_ses_198_215487=S83ZE0Wwbz1J4clKR3C/ArQE5lQAAAAAufhVuH+oHOnrgtVisnwjVA==; path=/; Domain=.payeer.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "9-70790061-70782626 PNNN RT(1424360628170 223) q(0 0 0 0) r(3 3) U10000"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cdn",
+        "content": "Incapsula"
       }
     }
   ]
