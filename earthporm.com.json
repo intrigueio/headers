@@ -18,14 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "content": "text/html"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "last-modified",
+        "content": "Fri, 20 Feb 2015 15:35:28 GMT"
       }
     },
     {
@@ -38,8 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Thu, 19 Feb 2015 15:43:57 GMT"
+        "name": "cache-control",
+        "content": "max-age=3080, max-age=3600, public, must-revalidate, proxy-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "W3 Total Cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding, Cookie"
       }
     },
     {
@@ -52,29 +66,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=3600, public, must-revalidate, proxy-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "etag",
-        "content": "8f330df385bf601139ef1d36bf6fd061"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-pingback",
-        "content": "http://www.earthporm.com/xmlrpc.php"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     }
   ]

@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -39,28 +46,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "route=d11266d8e28d2c973bfbf1b4807dd127; Expires=Thu, 19-Feb-2015 16:41:50 GMT; Path=/"
+        "content": "route=076ffc920dfc88fc3b9c405cf3e3b690; Expires=Fri, 20-Feb-2015 16:42:03 GMT; Path=/, geo__country_code=RU; expires=Fri, 22-Jan-2016 15:42:03 GMT; path=/, geo__city_id=2097; expires=Fri, 22-Jan-2016 15:42:03 GMT; path=/, geo__ip_hash=136b067565602858485b73e350111238; expires=Fri, 22-Jan-2016 15:42:03 GMT; path=/, geo__region_id=42; expires=Fri, 22-Jan-2016 15:42:03 GMT; path=/, PHPSESSID=hmhkdadocp4rejo2amvcrlia00; expires=Sat, 20-Feb-2016 15:42:03 GMT; path=/; HttpOnly, YII_CSRF_TOKEN=02ad4af38ee6957e988958374444cd973754b543; path=/; httponly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Thu, 19 Feb 2015 15:38:08 GMT"
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "etag",
-        "content": "\"54e60360-1036\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "pragma",
+        "content": "no-cache"
       }
     }
   ]

@@ -10,15 +10,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=0, private, no-store, no-cache, must-revalidate"
+        "name": "content-type",
+        "content": "text/html"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=0, private, no-store, no-cache, must-revalidate"
       }
     },
     {
@@ -32,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=2imtrb1i3lptdrp5sjjnl1bfi0; path=/, stat_auth_cookie=; path=/; expires=Thu, 19-Feb-2015 15:43:15 UTC, AWSELB=253BA19D04D624F7DECCDC5C44E104E90CA778133A107656D714F4419925DD94D62F4A29760F47F3C7D72A816BEC0EE50A2571E0D7EBF5673C95D65C299493C35836B907E35ADC0D044E88EECD38C7DAA2748232BC;PATH=/"
+        "content": "PHPSESSID=i3arv6cnp8bg6bseb2u7kgo7b3; path=/, stat_auth_cookie=; path=/; expires=Fri, 20-Feb-2015 15:43:25 UTC, AWSELB=253BA19D04D624F7DECCDC5C44E104E90CA778133ACAE3276DC63BC669A118B2B375017FF6588CB2AE694C4F1505B5E09F066AD26941B87860ED702326ADDFF210E37A87BDFD435211EE7A39923E95FA661C7B4AA5;PATH=/"
       }
     },
     {
@@ -52,8 +59,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "x-cache",
+        "content": "Miss from cloudfront"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "1.1 f5990623911f0367c4cca8d46f07c764.cloudfront.net (CloudFront)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-amz-cf-id",
+        "content": "_wEgv7EUbhqtSSRg-t0WNGPhZAwJ_2qz0sRjREQUxNYsulkrHqOk7w=="
       }
     }
   ]

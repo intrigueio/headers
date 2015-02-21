@@ -10,36 +10,78 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx/1.4.7"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=windows-1256"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close, close"
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-iinfo",
-        "content": "8-3885111-0 0NNN RT(1424360465016 0) q(0 -1 -1 76) r(0 -1) B10(8,808400,0)"
+        "name": "x-powered-by",
+        "content": "PHP/5.2.17"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "visid_incap_306224=mcf3yvXzT06KRTK1wy2nuREE5lQAAAAAQUIPAAAAAAAvgIOqgI11pXTmsJyP813H; expires=Sat, 18 Feb 2017 13:12:32 GMT; path=/; Domain=.fatakat.com, incap_ses_227_306224=XV/mP9r8aGSmvFQV9ncmAxEE5lQAAAAAPV4OKPdLW2MkDZJbZMT66Q==; path=/; Domain=.fatakat.com"
+        "content": "bbsessionhash=bc50b4c5ef6a9ccccc5b348b6b0308b8; path=/; domain=.fatakat.com; HttpOnly, bblastvisit=1424446878; expires=Sat, 20-Feb-2016 15:41:18 GMT; path=/; domain=.fatakat.com, bblastactivity=0; expires=Sat, 20-Feb-2016 15:41:18 GMT; path=/; domain=.fatakat.com, country=US, visid_incap_306224=AQJDm2OKT22J+oTgP/B+951V51QAAAAAQUIPAAAAAAA+3x8rzQJGgnnUlWz5MF6m; expires=Sun, 19 Feb 2017 13:09:40 GMT; path=/; Domain=.fatakat.com, incap_ses_227_306224=8H8xZeHva27L+nwX9ncmA55V51QAAAAAqPZlsbbj8YNr9ndI+amGaQ==; path=/; Domain=.fatakat.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "6-4483684-4483685 NNNN CT(0 -1 0) RT(1424446877918 0) q(0 0 0 1) r(2 2) U1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cdn",
+        "content": "Incapsula"
       }
     }
   ]
