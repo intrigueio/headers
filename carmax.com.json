@@ -52,15 +52,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "KmxSession_0=bd77a69c-e2ee-4021-b2f9-bbc566d6c4d0; domain=.carmax.com; path=/, KmxCurrSession_0=AB=False&StartDate=2/20/2015 10:43:31 AM&DST=7&IsIntranet=False&IP=True&IsHomeOffice=False; domain=.carmax.com; path=/, KmxNewCustomerSession_0=True; domain=.carmax.com; path=/, KmxVisitor_0=VisitorID=8752747f-b174-4c8d-b8b0-2ae6a1c0e755&CookieDate=2/20/2015 10:43:31 AM&Zip=75062&ZipDate=2/20/2015 10:43:31 AM; domain=.carmax.com; expires=Sat, 20-Feb-2016 15:43:31 GMT; path=/, KmxabGeo_0=test=10040&bucket=G10040B02; domain=.carmax.com; expires=Wed, 25-Dec-2019 05:00:00 GMT; path=/, KmxMobile_0=stop_mobi=False; domain=.carmax.com; expires=Fri, 20-Mar-2015 14:43:31 GMT; path=/, KMXCOM_COOKIE=1025417482.29207.0000; path=/"
+        "content": "KmxSession_0=4b380987-a278-42d6-a557-9b484dd04cda; domain=.carmax.com; path=/, KmxCurrSession_0=AB=False&StartDate=2/21/2015 10:43:43 AM&DST=7&IsIntranet=False&IP=True&IsHomeOffice=False; domain=.carmax.com; path=/, KmxNewCustomerSession_0=True; domain=.carmax.com; path=/, KmxVisitor_0=VisitorID=69cf9871-fbd6-4266-9543-3f2845c46a84&CookieDate=2/21/2015 10:43:43 AM&Zip=75062&ZipDate=2/21/2015 10:43:43 AM; domain=.carmax.com; expires=Sun, 21-Feb-2016 15:43:43 GMT; path=/, KmxabGeo_0=test=10040&bucket=G10040B02; domain=.carmax.com; expires=Wed, 25-Dec-2019 05:00:00 GMT; path=/, KmxMobile_0=stop_mobi=False; domain=.carmax.com; expires=Sat, 21-Mar-2015 14:43:43 GMT; path=/, KMXCOM_COOKIE=1713283338.29207.0000; path=/"
       }
     }
   ]

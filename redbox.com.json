@@ -66,15 +66,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ASP.NET_SessionId=cs5saxhbmvlpontg5gsvsvsm; path=/; HttpOnly, rbuser=Validation=cFIbc06kEeRxSihRvREAGm5yh8BZCNUJSceokyyDW/A=; expires=Sun, 22-Mar-2015 14:41:25 GMT; path=/; HttpOnly, LB=193097482.0.0000; path=/"
+        "content": "ASP.NET_SessionId=jq1vprbhrksfhskv4wyf0iau; path=/; HttpOnly, rbuser=Validation=cFIbc06kEeRxSihRvREAGm5yh8BZCNUJSceokyyDW/A=; expires=Mon, 23-Mar-2015 14:41:34 GMT; path=/; HttpOnly, LB=3028446986.0.0000; path=/"
       }
     }
   ]

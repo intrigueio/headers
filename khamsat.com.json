@@ -38,15 +38,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "Hsoub Nginx"
+        "name": "x-powered-by",
+        "content": "Hsoub, Phusion Passenger"
       }
     },
     {
@@ -59,8 +52,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "Hsoub, Phusion Passenger"
+        "name": "server",
+        "content": "Hsoub Nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIPc2Vzc2lvbl9pZCJFN2VmZmY2MDE2OGI5NzNkZDZiMzdkNzk4Mjc3%0AYmNlMTAxNTczZDgzYzlhYjVhMzBmYjJjNTIwYzliZmFmMmQ2NiINdHJhY2tp%0Abmd7ByIUSFRUUF9VU0VSX0FHRU5UIi0xOGU0MGUxNDAxZWVmNjdlMWFlNjll%0AZmFiMDlhZmI3MWY4N2ZmYjgxIhlIVFRQX0FDQ0VQVF9MQU5HVUFHRSItZGEz%0AOWEzZWU1ZTZiNGIwZDMyNTViZmVmOTU2MDE4OTBhZmQ4MDcwOSIJY3NyZiIl%0AZjkzMTBmNjQzODlkOWVkYWI0ZTg1YmI3ZThkNzRlN2I%3D%0A--28ebfd394b62d10bbc8da5e66b0679c596850ccf; path=/; HttpOnly"
       }
     },
     {
@@ -73,8 +73,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIPc2Vzc2lvbl9pZCJFODJlZmI4NGI5YjU0YjA0YjU0NjFmMGM2YjE0%0ANjc5NTlkNjljZDJkNGVmZjYzYWUzNTE2NzBjYjdjNjk3MTc2ZiINdHJhY2tp%0Abmd7ByIZSFRUUF9BQ0NFUFRfTEFOR1VBR0UiLWRhMzlhM2VlNWU2YjRiMGQz%0AMjU1YmZlZjk1NjAxODkwYWZkODA3MDkiFEhUVFBfVVNFUl9BR0VOVCItMThl%0ANDBlMTQwMWVlZjY3ZTFhZTY5ZWZhYjA5YWZiNzFmODdmZmI4MSIJY3NyZiIl%0AMzk3NjgwNzhiZDIzNDNhZjQ1MDFlYzcxMDAxOTNmMzk%3D%0A--353801b2a8e5f294724b9d0bf3a08e3ca62966a0; path=/; HttpOnly"
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     }
   ]
