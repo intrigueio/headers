@@ -11,7 +11,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, max-age=0, no-store"
+        "content": "no-cache,no-store,max-age=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "Keep-Alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "via",
+        "content": "TMGRUP (c)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"8027695b54ed01:0\""
       }
     },
     {
@@ -25,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Sat, 21 Feb 2015 15:39:02 GMT"
+        "content": "Sun, 22 Feb 2015 15:38:19 GMT"
       }
     },
     {
@@ -33,13 +54,6 @@
       "attributes": {
         "name": "accept-ranges",
         "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "etag",
-        "content": "\"0af3d84ec4dd01:0\""
       }
     },
     {

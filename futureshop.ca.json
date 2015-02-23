@@ -10,15 +10,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "commerce-server-software",
+        "content": "Microsoft Commerce Server, Enterprise Edition"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "CS_Culture=en-CA; domain=.futureshop.ca; expires=Mon, 22-Feb-2016 15:41:57 GMT; path=/, ASP.NET_SessionId=OcfJWVHHKTvesD+P+/V+v53ihmkY+nBfaCg5qfmchuevvpUohl9XzPmlJ2KtlBvp; domain=.futureshop.ca; path=/; HttpOnly, XN=PDKNLkTInp%2b1IdJZ7QrErTaCFYs%3d; domain=.futureshop.ca; path=/; HttpOnly, PriceWatchCookie=0; domain=.futureshop.ca; expires=Mon, 22-Feb-2016 15:41:57 GMT; path=/, CS_Anonymous=%7b930ae838-e20e-4454-a500-acc0a319e659%7d; domain=.futureshop.ca; expires=Mon, 22-Feb-2016 15:41:57 GMT; path=/; HttpOnly, CS_BasketId=%7b930ae838-e20e-4454-a500-acc0a319e659%7d%2ffalse; domain=.futureshop.ca; expires=Mon, 22-Feb-2016 15:41:57 GMT; path=/; HttpOnly, enabled=1; domain=.futureshop.ca; path=/, RC_BackToPage_URL=%2fErrors%2f404.aspx; domain=.futureshop.ca; path=/; HttpOnly, RC_BackToPage_TITLE=%28en%29Error; domain=.futureshop.ca; path=/; HttpOnly, OtherLanguage=en-CA; domain=.futureshop.ca; path=/; HttpOnly, isQuebec=False, regionCode=non-CA; expires=Mon, 23-Feb-2015 15:41:57 GMT; path=/; domain=.futureshop.ca"
       }
     }
   ]

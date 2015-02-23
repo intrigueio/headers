@@ -10,22 +10,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=us-ascii"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Microsoft-HTTPAPI/2.0"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId=gjxme1il3dnlsaqskffi35og; path=/; HttpOnly, splittest_ads=1293821348; expires=Sat, 22-Feb-2025 15:43:18 GMT; path=/, experiment_bucket=797876726; expires=Sat, 22-Feb-2025 15:43:18 GMT; path=/, splittest_startpage-items-vs-categories=1268409171; expires=Sat, 22-Feb-2025 15:43:18 GMT; path=/, splittest_vip_max_bid_boost=860054791; expires=Sat, 22-Feb-2025 15:43:18 GMT; path=/, splittest_buyer_protection=2085459054; expires=Sat, 22-Feb-2025 15:43:18 GMT; path=/, splittest_related_search_results=775001204; expires=Sat, 22-Feb-2025 15:43:18 GMT; path=/, splittest_clp_with_inspirational_content=398452319; expires=Sat, 22-Feb-2025 15:43:18 GMT; path=/, splittest_html_in_description=1949096067; expires=Sat, 22-Feb-2025 15:43:18 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "DENY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
       }
     }
   ]
