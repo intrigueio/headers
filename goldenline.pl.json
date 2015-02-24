@@ -46,14 +46,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "gl_session_8728383444=c02vf6ud4p9aqma5ovodkem6t4agem93n1li9sn7c6q2njacl3pp07tdr375b4db2s17j9l5l79o8rfkq9clk1ngj6eikbgup92ni53; expires=Sun, 08-Mar-2015 15:43:19 GMT; Max-Age=1209600; path=/; domain=.goldenline.pl, device_view=not_mobile; expires=Sat, 21-Mar-2015 23:00:00 GMT; Max-Age=2359001; path=/; httponly, stat_pv_session=39A5D1406F24B4FC29168EB83C2A3996; path=/; domain=.goldenline.pl; httponly, stat_pv_uu=2DC6F0634250C0386372BE964D05BEC4; expires=Wed, 22-Feb-2023 15:43:19 GMT; Max-Age=252460800; path=/; domain=.goldenline.pl; httponly"
+        "content": "gl_session_8728383444=bqfv31m84sio9i95ffaucu86kvipsacko69d62i8iab0hluvngdrjebbeotec9suo6gea2dgl6h20k03cpoosmfgphiq1mjkl60s451; expires=Mon, 09-Mar-2015 15:43:36 GMT; Max-Age=1209600; path=/; domain=.goldenline.pl, device_view=not_mobile; expires=Sun, 22-Mar-2015 23:00:00 GMT; Max-Age=2358984; path=/; httponly, stat_pv_session=2A9FE4B430312DC9164C2EF626BF2757; path=/; domain=.goldenline.pl; httponly, stat_pv_uu=4A3E6DE66A4A622004AB186644798E7A; expires=Thu, 23-Feb-2023 15:43:36 GMT; Max-Age=252460800; path=/; domain=.goldenline.pl; httponly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache"
+        "content": "private, must-revalidate"
       }
     },
     {
@@ -66,8 +66,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-varnish",
-        "content": "2223726915"
+        "content": "2231457870"
       }
     },
     {

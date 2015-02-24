@@ -38,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
       }
@@ -52,6 +59,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "Hsoub Nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-content-type-options",
         "content": "nosniff"
       }
@@ -59,22 +73,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIPc2Vzc2lvbl9pZCJFY2U0Yjk3Y2NhNDFhMDNmZjg3ODE5Y2ViM2Nm%0ANGQzMTMzYTM1ZGFkNjAzYjliZGIyNWE5MjlkY2U2M2E1NTVhMSINdHJhY2tp%0Abmd7ByIZSFRUUF9BQ0NFUFRfTEFOR1VBR0UiLWRhMzlhM2VlNWU2YjRiMGQz%0AMjU1YmZlZjk1NjAxODkwYWZkODA3MDkiFEhUVFBfVVNFUl9BR0VOVCItMThl%0ANDBlMTQwMWVlZjY3ZTFhZTY5ZWZhYjA5YWZiNzFmODdmZmI4MSIJY3NyZiIl%0AZDk2MmEzMTA4M2NiZjUxZWI2Yzk2ZjZlYjZlOTk2YzU%3D%0A--2a9c141445cdc38cb446cd59c15be8a5e05e8bcf; path=/; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "Hsoub Nginx"
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIJY3NyZiIlZWYzZjZmNjEyYWJkMTExNGY1NDAwM2Y1OGEzYWE4Zjgi%0ADXRyYWNraW5newciFEhUVFBfVVNFUl9BR0VOVCItMThlNDBlMTQwMWVlZjY3%0AZTFhZTY5ZWZhYjA5YWZiNzFmODdmZmI4MSIZSFRUUF9BQ0NFUFRfTEFOR1VB%0AR0UiLWRhMzlhM2VlNWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDki%0AD3Nlc3Npb25faWQiRTliODk0YmQ5MWJmYzJlZWI0YWZjMWUyMDk2NmQyNmQw%0AZjJlZDM5Yjk1YTkzNzJmYmU2NDliMWI5M2JkMDY3ZGM%3D%0A--2e47137debe89ea82d6c5962e8081adc3a532608; path=/; HttpOnly"
       }
     }
   ]

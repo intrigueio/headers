@@ -17,8 +17,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "no-cache=\"set-cookie\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "AWSELB=598BE3731ED0E4F7CD888AB3E02489EEBD3814EB49BC0901ADD9C241D01CA40C01B81CA7C1203D064B6C4F0E0A8BACE6336F17AA61EFAD2745DCAAAC4BF1389D92B054CDC6;PATH=/;MAX-AGE=500"
       }
     },
     {
@@ -39,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "397850 5768"
+        "content": "1164289 1390978"
       }
     },
     {
