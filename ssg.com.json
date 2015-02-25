@@ -10,8 +10,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "*"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache, no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-store, must-revalidate, no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=EUC-KR"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -19,6 +40,27 @@
       "attributes": {
         "name": "connection",
         "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "WMONID=M5pF7ikQM3d;Expires=Wed, 24-Feb-2016 15:42:31 GMT;Path=/, FSID=nka8yv2w6l3p2bn8jc35;Domain=.ssg.com;Path=/, FSID1=nka8yvn8jc32w6l3p2b4;Domain=.ssg.com;Path=/, PCID=14247925510593364577916;Domain=.ssg.com;Expires=Sun, 14-Mar-2083 18:56:38 GMT;Path=/, where=SE%3DN%26CHNL_ID%3D0000015208%26CK_WHERE%3Ddirect_ssg;Domain=.ssg.com;Path=/, CKWHERE=direct_ssg;Domain=.ssg.com;Path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p3p",
+        "content": "CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT'"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

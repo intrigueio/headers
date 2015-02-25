@@ -38,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "Nette Framework"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-frame-options",
         "content": "SAMEORIGIN"
       }
@@ -52,8 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-from-cache",
-        "content": "TRUE"
+        "name": "x-powered-by",
+        "content": "Nette Framework"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "X-Requested-With"
       }
     }
   ]

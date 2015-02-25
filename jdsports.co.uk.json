@@ -45,13 +45,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-akamai-transformed",
-        "content": "9 - 0 pmb=mRUM,1"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -75,6 +68,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "JSESSIONID=0000D0PXawoDmtUwJ1Yf_te-TqN:16sr6sqhr; Path=/, WC_SESSION_ESTABLISHED=true; Path=/, WC_ACTIVEPOINTER=%2d1%2c10151; Path=/, WC_USERACTIVITY_-1002=%2d1002%2c10151%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cnull%2cIflITK0G%2f%2bJkPWkIM6XH0xQtH3vAc%2bV8g6BfQ0D2CL8DsZaRPqbpOYhr4a3pPoDBr4qAd8tYJtSw%0awsEXY6p1mgr9DLNSTjyJQ8bujeLdrZShqEydvH5lNb0NqoRf7DGaPqqe6PbIIzABPg30DrfThQ%3d%3d; Path=/, WC_GENERIC_ACTIVITYDATA=[1825964350%3atrue%3afalse%3a0%3aEqaPmPkLc4S1W4w4ppGSi4v%2bgrk%3d][com.ibm.commerce.context.base.BaseContext|10151%26%2d1002%26%2d1002%26%2d1][com.ibm.commerce.context.globalization.GlobalizationContext|%2d1%26GBP%26%2d1%26GBP][com.ibm.commerce.context.entitlement.EntitlementContext|10002%2610002%26null%26%2d2000%26null%26null%26null][com.ibm.commerce.context.experiment.ExperimentContext|null][CTXSETNAME|Store][com.ibm.commerce.context.audit.AuditContext|null]; Path=/"
       }
     }
   ]

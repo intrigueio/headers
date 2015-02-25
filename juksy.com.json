@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -32,7 +25,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=dbbe794c0a8028cff15058b0fd31a6b4e1424792676; expires=Wed, 24-Feb-16 15:44:36 GMT; path=/; domain=.juksy.com; HttpOnly, PHPSESSID=bvhlmvppgb8ak3hp6ovmjassn4; path=/, analytics=1; expires=Tue, 24-Feb-2015 16:44:37 GMT; Max-Age=3600"
       }
     },
     {
@@ -40,13 +40,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=3ocgbk7c57bgjij6qsbgga5ev7; path=/, analytics=1; expires=Mon, 23-Feb-2015 16:44:21 GMT; Max-Age=3600"
       }
     },
     {
@@ -61,6 +54,20 @@
       "attributes": {
         "name": "cache-control",
         "content": "public"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1bdcc915b2e3117d-DFW"
       }
     }
   ]

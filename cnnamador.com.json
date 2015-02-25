@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -31,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d9f490b6dad62b3ba6f614d4ce92907c21424706126; expires=Tue, 23-Feb-16 15:42:06 GMT; path=/; domain=.cnnamador.com; HttpOnly, ci_session=02726f4649edf70b945cb402b21bdffe73d1dde3f504b79ed80c236c681c6790a9d1d52f9c9a64090927e1e69d89d5ab739bc6d2f68e1f266ff3059909917e6ddFg19YdDalABdmbPjvEkAax2L3p%2By%2Fq3aexvtZoDC8Zfo95gzuZm4kpGaYIpDL4nS%2BnEd4KHACa6wc5o40Bs7u6uoRl0HRypk6EYNobK6i0hUrig%2FWwhxKBJnNsWzDAeGsOqSwwM7WRqU8PdI9V3WGeOUC7bFgwhwS8q1bpP77xEzzfZbpezyz5n02sjs2IeLo3lW0X1y%2B3wddhSgjQhDINdRb6wDvkcx7OZLFMOgsGJpiHYzo1BrzYzr6TEFAjl; expires=Mon, 23-Feb-2015 19:42:05 GMT; path=/; domain=cnnamador.com"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -45,22 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "ci_session=e3c07d49bf08af6c5f113770a1660a90419026cdc495a93b4e7fe896e7f50e2912e9dadc0f6ec9da917ca18cdb97fc203efe03f955cf03fa750cea3dc2c8ddd2v8zAM5KLrgoMY%2B3epBa%2FVydD8JYMu2HHcVnDFP91uoZQTnYlDgbaA6FqCVCujnbAa4j%2Ff1b%2B4yS%2FG7ft3lrUu3oNV0hxGcQomRr8AkowoG4SnmEg1TzJwcClrVWriuwdfuH63SuqYQEqqQBvKa5YqO2jhZk6aHzSAwo3cnPJ%2FbTMlKJviGtGZqJ9q2ZaD9R3oGs07%2FUfhCgWDYw5ZE1W%2B%2B0pssYT7cEcFALIwGCcXwY8yJnUmUXrFJu81Whs0mAC; expires=Tue, 24-Feb-2015 19:42:15 GMT; path=/; domain=cnnamador.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-cache",
         "content": "HIT from Backend"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1bd488087edb117d-DFW"
       }
     }
   ]

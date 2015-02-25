@@ -31,22 +31,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=0, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
+        "name": "set-cookie",
+        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Wed, 24-Feb-2016 15:41:20 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, , authorize_intent=home; path=/; expires=Tue, 24-Feb-2015 15:51:20 GMT, _ask.fm_session=BAh7CToPc2Vzc2lvbl9pZCIlMTE2OGM5OWI3NTE3YmY5NzFhZTE4YmE5ODBkMTBiN2M6EG9sZF9nZXRfdXJsIgYvOhBfY3NyZl90b2tlbiIxL3VMZDVYMHBFcG1ZT3FwUFowK1ZXQjdlU2pkOWhDNkc5QlVHYTdVVXB3Zz06CmFza2ZtewA%3D--23b93d1848bb1ffe1af1751f8a1565a11c06bd75; path=/; HttpOnly"
       }
     },
     {
@@ -59,8 +45,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "mobile_view=false; path=/, , language_id=1; path=/; expires=Tue, 23-Feb-2016 15:41:08 GMT, , l=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT, , authorize_intent=home; path=/; expires=Mon, 23-Feb-2015 15:51:08 GMT, _ask.fm_session=BAh7CToPc2Vzc2lvbl9pZCIlYzQzNzYyYjFlZmFhN2RlMmFiNGViNzIzMGFjODA1MWE6EF9jc3JmX3Rva2VuIjF5NHRqTUEvQ1FoN1FTU2Y3UGpVTVk2UE9jNGR3Wnd1cGl4WTg1Zzhvek5NPToQb2xkX2dldF91cmwiBi86CmFza2ZtewA%3D--120027d2e94cc46ad86e854258962a5b8cc6c02c; path=/; HttpOnly"
+        "name": "cache-control",
+        "content": "private, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
       }
     },
     {
