@@ -18,7 +18,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html;charset=UTF-8"
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -32,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding, Accept-Encoding"
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -45,22 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "public, max-age=172800, must-revalidate"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "last-modified",
-        "content": "Tue, 24 Feb 2015 15:12:59 GMT"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-hyper-cache",
-        "content": "hit - plain"
+        "content": "continue - no file"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pingback",
+        "content": "http://www.watchcartoononline.com/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "public, max-age=172800"
       }
     }
   ]

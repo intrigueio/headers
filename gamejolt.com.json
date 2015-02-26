@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -26,6 +26,13 @@
       "attributes": {
         "name": "transfer-encoding",
         "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -39,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "frontend=eo2hdb13l450rkmmlajn21g576; expires=Wed, 24-Feb-2016 21:35:12 GMT; Max-Age=31556926; path=/; domain=.gamejolt.com, gjads_cc=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=.gamejolt.com"
+        "content": "frontend=uqsvae70h412vqkogd4f2ensl3; expires=Thu, 25-Feb-2016 21:35:13 GMT; Max-Age=31556926; path=/; domain=.gamejolt.com, gjads_cc=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=.gamejolt.com"
       }
     },
     {
@@ -54,13 +61,6 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
       }
     }
   ]

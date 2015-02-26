@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.6.2"
+        "content": "nginx admin"
       }
     },
     {
@@ -33,6 +33,20 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache",
+        "content": "HIT from Backend"
       }
     }
   ]

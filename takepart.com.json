@@ -39,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "must-revalidate, max-age=600"
+        "content": "must-revalidate, max-age=600, no-cache=\"set-cookie\""
       }
     },
     {
@@ -53,14 +53,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1424792155-1\""
+        "content": "\"1424878742-1\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Tue, 24 Feb 2015 15:35:55 GMT"
+        "content": "Wed, 25 Feb 2015 15:39:02 GMT"
       }
     },
     {
@@ -68,6 +68,13 @@
       "attributes": {
         "name": "link",
         "content": "<http://takepart.com/>; rel=\"canonical\",<https://plus.google.com/113369936500827860065/>; rel=\"publisher\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "AWSELB=3B5F817B1A18D38E81F08A4CE4E3521C244620D589596E8696E330512C2BB5A5BDAABC128B9C07CD1534410772BCDFDC377224DA0CDE6A9CEFAD7E71824DE843C4676C2CB9;PATH=/;MAX-AGE=60"
       }
     },
     {
@@ -102,7 +109,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-proxy1-cache",
-        "content": "HIT"
+        "content": "EXPIRED"
       }
     }
   ]

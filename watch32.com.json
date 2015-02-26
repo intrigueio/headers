@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -25,14 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d07ba0d55d1bbcb6277859ce3af9cf9901424792604; expires=Wed, 24-Feb-16 15:43:24 GMT; path=/; domain=.watch32.com; HttpOnly"
+        "content": "close"
       }
     },
     {
@@ -40,20 +40,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1bdcc74fc6ec093e-DFW"
       }
     }
   ]

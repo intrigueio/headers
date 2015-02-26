@@ -31,13 +31,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -45,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "NSC_tbsptittm=ffffffffc3a0b60345525d5f4f58455e445a4a4229a0;path=/;secure;httponly"
+        "content": "NSC_tbsptittm=ffffffffc3a0b62245525d5f4f58455e445a4a4229a0;path=/;secure;httponly"
       }
     }
   ]

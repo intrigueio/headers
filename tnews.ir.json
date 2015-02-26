@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private"
+        "content": "public, max-age=60"
       }
     },
     {
@@ -19,6 +19,20 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Wed, 25 Feb 2015 15:43:50 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "*"
       }
     },
     {
@@ -33,13 +47,6 @@
       "attributes": {
         "name": "x-aspnetmvc-version",
         "content": "4.0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "outputcachetest",
-        "content": "2/24/2015 7:13:49 PM +03:30"
       }
     },
     {

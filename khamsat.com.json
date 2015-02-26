@@ -38,13 +38,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-content-type-options",
-        "content": "nosniff"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-powered-by",
         "content": "Hsoub, Phusion Passenger"
       }
@@ -52,8 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCINdHJhY2tpbmd7ByIZSFRUUF9BQ0NFUFRfTEFOR1VBR0UiLWRhMzlh%0AM2VlNWU2YjRiMGQzMjU1YmZlZjk1NjAxODkwYWZkODA3MDkiFEhUVFBfVVNF%0AUl9BR0VOVCItMThlNDBlMTQwMWVlZjY3ZTFhZTY5ZWZhYjA5YWZiNzFmODdm%0AZmI4MSIJY3NyZiIlMmVjNWY4NjQxYTBkMmEwOTE5Yzk1OGNmZmQ3YWYzNzUi%0AD3Nlc3Npb25faWQiRTcyOGUzNjgxOTNkNDQ3MDc4MzU5OThjMjA2OGJlNTNj%0ANjA4OTM0OTNmOTU5NWI5M2EzZmQ2NzEwYTE5N2M2NWI%3D%0A--d7c5b0bca2e003a568ed3018d86bcf9f66ffa500; path=/; HttpOnly"
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {
@@ -73,8 +73,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
+        "name": "set-cookie",
+        "content": "khamsat0=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat1=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat2=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, khamsat3=; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000, rack.session=BAh7CCIJY3NyZiIlMGRhNGRhNTM1ODcxZmZmMGQ5MGFiZTc3Y2QwZWMwODci%0AD3Nlc3Npb25faWQiRWY0YzA5MDk5ZDU0ZWY3ZDEwMDkxNTI2YmVmZDllMDFh%0AYzc4YTg4ZDViNjJkYzljMmE4Y2QyNjg5MzBhMTdlOTQiDXRyYWNraW5newci%0AGUhUVFBfQUNDRVBUX0xBTkdVQUdFIi1kYTM5YTNlZTVlNmI0YjBkMzI1NWJm%0AZWY5NTYwMTg5MGFmZDgwNzA5IhRIVFRQX1VTRVJfQUdFTlQiLTE4ZTQwZTE0%0AMDFlZWY2N2UxYWU2OWVmYWIwOWFmYjcxZjg3ZmZiODE%3D%0A--ad11f2a2bb915414b9e26dcb6b11c6b9d77e9122; path=/; HttpOnly"
       }
     }
   ]

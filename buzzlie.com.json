@@ -10,15 +10,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=dd735d19926b222c60b40d1effb43ddd41424879174; expires=Thu, 25-Feb-16 15:46:14 GMT; path=/; domain=.buzzlie.com; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=604800, public, must-revalidate, proxy-revalidate"
       }
     },
     {
@@ -31,8 +52,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx/1.4.4"
+        "name": "pragma",
+        "content": "public"
       }
     },
     {
@@ -67,14 +88,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-varnish",
-        "content": "2220999900 2220871396"
+        "content": "2225374930 2225357193"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "cf-cache-status",
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1be508daf5220956-DFW"
       }
     }
   ]

@@ -24,15 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=30"
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-xss-protection",
-        "content": "1; mode=block"
+        "name": "cache-control",
+        "content": "max-age=0, no-cache"
       }
     },
     {

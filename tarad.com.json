@@ -11,21 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "cisession=d92OGll9yioy9KpaAujaeU8GTBhRhSOg6FoxAKQW2LyFG7B9jgcz9Fnp7aQpZgkOnNngXYY3HfQ6NyuCe6Wv5Q1f%2BuejGwmXYT5ex%2FMoBOUiZ2p5pbbSo20wcV6hjAvCLFAqhRB%2FeEtTDyFpnfIJd5pfvQbaO%2FLR4dAbeCNfMJAq3Nk2jy8npnwPNGB6Gdl%2BxzLfLxg70kynszJyQeNcohFSn0dXoK7C6Tf7LFHphBEF5Wt1RHAn7lv8FRMIsDyeySMXWmu6fO37CFpj0J8ejXTwfcSAratMLV32N6YM5xXElwhknaYVNF6l15GC6rUmoS98uuZeBl%2FxvpiJxr04mqHJt%2BJR5DRRKAw9LGu2Tx5muS2umL2r%2FB6Rc3q%2BM11sVp9ZJ00obPMnBdD%2BbpVFAQ9zESM2tdPD6%2F9ZDLOun7r9tU43DIDPmYTSwlVSNHvID%2FsjNuYzdI%2FV3DddPXdTK5y3qPvH1w%2B2wULuUSApygI9gWHzkEhaxXYuQHomYgii; expires=Tue, 24-Feb-2015 17:45:11 GMT; path=/, popup_show=1; expires=Sun, 10-Apr-2016 06:45:11 GMT; path=/; domain=.tarad.com"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "nginx"
       }
     },
     {
@@ -38,8 +24,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "cisession=H4cnpplqe4Hv27jJv98zCU4f1kUgldRoDL7T5XVhRdhZ4HsDcdWEQJRO4pmzhAmtbECHJMfQr909seu2aHpr46MY4fvGjVLycTuKXCHKIg5lCTbnhOWiHhbCZD8qIgDZ%2FdrAebQ4Rf3%2F1a9%2Bqm%2Bd%2FNWRBgnKAPNAZJdmBl3rjARctjdTUoa66Aq86sJgr344rlOC08%2BebpQVF%2FXxfw9Lp4KvaHmlhle929IbBkVANIR3aiy1U9ubgjF4RD6PiNLejuk340OaYkdUsGNP2UnZg4T2ydJWMJxqMH2cactPSfv8QhWcyTtsMPmPBbJxAyvLkkVqoMY407NFm%2FQuVU6yOFkY3XXS8oHihPg3bbVA7nbY1bbEul0Cd12w49VHjZ09JduXYVOlUVbnTX9d26%2B2eUeU7JFb%2Bapt9Zg2nFbOHtH71%2FUNISS0LpzqK0zDcQ%2BCqiNCKN70Vftr8%2Fb92KO0BsqigLAd3fuvSIxek%2BKyvpN4gmQPIMOnnCjbz7k%2BAG3r; expires=Wed, 25-Feb-2015 17:45:13 GMT; path=/, popup_show=1; expires=Mon, 11-Apr-2016 06:45:13 GMT; path=/; domain=.tarad.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     }
   ]

@@ -10,20 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "max-age=1800"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "node",
         "content": "1"
       }
@@ -38,8 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "last-modified",
-        "content": "Tue, 24 Feb 2015 15:18:32 GMT"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -54,6 +40,13 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html;charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=1800"
       }
     },
     {
@@ -94,8 +87,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "last-modified",
+        "content": "Wed, 25 Feb 2015 15:29:59 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "close"
+        "content": "keep-alive"
       }
     }
   ]
