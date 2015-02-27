@@ -17,13 +17,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private, max-age=600"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-language",
         "content": "en-US"
       }
@@ -38,6 +31,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "max-age=600"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "access-control-allow-origin",
         "content": "*"
       }
@@ -47,13 +47,6 @@
       "attributes": {
         "name": "via",
         "content": "1.1 varnish, 1.1 varnish"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
       }
     },
     {
@@ -74,21 +67,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-served-by",
-        "content": "cache-jfk1020-JFK, cache-atl6221-ATL"
+        "content": "cache-jfk1021-JFK, cache-dfw1832-DFW"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "MISS, MISS"
+        "content": "MISS, HIT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-hits",
-        "content": "0, 0"
+        "content": "0, 4"
       }
     },
     {

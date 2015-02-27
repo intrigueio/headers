@@ -45,6 +45,34 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "origin",
+        "content": "http://www.wishpond.com, https://www.wishpond.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "http://www.wishpond.com, https://www.wishpond.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-headers",
+        "content": "origin, x-requested-with, content-type"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "access-control-allow-methods",
+        "content": "PUT, GET, POST, DELETE, OPTIONS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-pingback",
         "content": "http://www.minuto30.com/xmlrpc.php"
       }

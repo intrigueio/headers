@@ -24,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding,User-Agent,Accept"
       }
@@ -45,15 +38,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "via",
+        "content": "1.1 cache.163.com:80 (squid)"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-via",
-        "content": "1.1 czdx90:80 (Cdn Cache Server V2.0), 1.1 dls19:2 (Cdn Cache Server V2.0)"
+        "content": "1.0 czdx85:8107 (Cdn Cache Server V2.0), 1.0 dls19:2 (Cdn Cache Server V2.0)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "close"
       }
     }
   ]

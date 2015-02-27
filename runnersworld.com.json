@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
         "content": "public, max-age=86400"
       }
@@ -32,14 +39,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"1424879060-1\""
+        "content": "\"1424965237-1\""
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Wed, 25 Feb 2015 15:44:20 GMT"
+        "content": "Thu, 26 Feb 2015 15:40:37 GMT"
       }
     },
     {
@@ -66,6 +73,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "via",
+        "content": "1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-ah-environment",
         "content": "prod"
       }
@@ -73,8 +87,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-drupal-cache",
+        "name": "x-cache",
         "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-hits",
+        "content": "50"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-drupal-cache",
+        "content": "MISS"
       }
     },
     {
@@ -88,14 +116,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "dfa8dd0f-6a01-41ff-b76e-6255f9bb6adf"
+        "content": "v-cf36e26e-bdcd-11e4-97a7-12313819e103"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "x-varnish",
+        "content": "518520512 518506466"
       }
     },
     {
