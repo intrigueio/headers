@@ -11,7 +11,35 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache"
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=da51b597c1c5eb60bbd05386e584239ce1425051903; expires=Sat, 27-Feb-16 15:45:03 GMT; path=/; domain=.sfimg.com; HttpOnly, PHPSESSID=jfuj6eeche0eu50vra4p17oev2; path=/; domain=.sfimg.com; secure; HttpOnly"
       }
     },
     {
@@ -31,13 +59,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=hvraijb7h48e4tp7s60l1al112; path=/; domain=.sfimg.com; secure; HttpOnly"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding,User-Agent"
       }
@@ -45,8 +66,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
+        "name": "cf-ray",
+        "content": "1bf581db305b0103-DFW"
       }
     }
   ]

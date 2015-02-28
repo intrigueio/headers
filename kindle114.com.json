@@ -11,14 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx/1.0.12"
+        "content": "nginx/1.6.0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=gbk"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -26,6 +33,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -39,7 +53,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "FjFc_2132_saltkey=ib3bCH5w; expires=Sat, 28-Mar-2015 15:44:03 GMT; path=/; httponly, FjFc_2132_lastrequest=30fffE2FwW9CgrhOccf3%2BVd9n7qJ9wjQFLM7wlJGRWOBlOk0HaZd; expires=Sun, 02-May-2060 18:14:46 GMT; path=/; httponly"
+        "content": "FjFc_2132_saltkey=AgepEOor; expires=Sun, 29-Mar-2015 15:44:46 GMT; path=/; httponly, FjFc_2132_lastvisit=1425048286; expires=Sun, 29-Mar-2015 15:44:46 GMT; path=/, FjFc_2132_lastact=1425051886%09index.php%09; expires=Sat, 28-Feb-2015 15:44:46 GMT; path=/"
       }
     }
   ]

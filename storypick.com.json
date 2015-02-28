@@ -10,15 +10,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx/1.4.4"
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d441d0c103a61538163018ec17f94190e1425051840; expires=Sat, 27-Feb-16 15:44:00 GMT; path=/; domain=.storypick.com; HttpOnly"
       }
     },
     {
@@ -32,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "last-modified",
-        "content": "Thu, 26 Feb 2015 14:02:23 GMT"
+        "content": "Fri, 27 Feb 2015 14:11:04 GMT"
       }
     },
     {
@@ -46,7 +60,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=1137, public, must-revalidate, proxy-revalidate"
+        "content": "max-age=7088, public, must-revalidate, proxy-revalidate"
       }
     },
     {
@@ -66,15 +80,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-varnish",
-        "content": "2083406203"
+        "content": "1994334372 1994155355"
       }
     },
     {
@@ -87,8 +94,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1bf58054bbaa0944-DFW"
       }
     }
   ]

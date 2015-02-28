@@ -10,29 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache/2.2.15 (CentOS) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips PHP/5.3.3"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.3.3"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-pingback",
-        "content": "http://www.self.com/xmlrpc.php"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "access-control-allow-origin",
         "content": "*"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "max-age=900"
       }
     },
     {
@@ -45,15 +31,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cacheable",
-        "content": "YES"
+        "name": "server",
+        "content": "Apache/2.4.6 (CentOS) PHP/5.6.4"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "varnish-x-cache",
+        "content": "MISS"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "1.1 varnish, 1.1 varnish"
+        "content": "1.1 varnish-v4, 1.1 varnish, 1.1 varnish"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-pingback",
+        "content": "http://www.self.com/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.6.4"
       }
     },
     {
@@ -74,28 +81,28 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-served-by",
-        "content": "cache-iad2141-IAD"
+        "content": "cache-iad2147-IAD, cache-ord1734-ORD"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache",
-        "content": "HIT, HIT"
+        "content": "MISS, HIT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-cache-hits",
-        "content": "1"
+        "content": "0, 2"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-timer",
-        "content": "S1424965553.832743,VS0,VE0"
+        "content": "S1425051999.134315,VS0,VE0"
       }
     },
     {
