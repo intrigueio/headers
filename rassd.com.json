@@ -11,14 +11,42 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx"
+        "content": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 mod_perl/2.0.8 Perl/v5.10.1"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html"
+        "name": "x-powered-by",
+        "content": "PHP/5.3.29"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "HttpOnly;Secure"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private, no-cache, no-store, proxy-revalidate, no-transform"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -31,22 +59,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.3.23"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "max-age=86400"
+        "name": "content-type",
+        "content": "text/html"
       }
     }
   ]

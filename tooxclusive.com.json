@@ -24,13 +24,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-pingback",
-        "content": "http://tooxclusive.com/xmlrpc.php"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
         "content": "no-cache, must-revalidate, max-age=0"
       }
@@ -45,15 +38,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "wp_mobiledts_theme=desktop; expires=Wed, 26-Aug-2015 15:47:53 GMT; path=/; domain=tooxclusive.com, mode=grid; expires=Sun, 29-Mar-2015 15:47:53 GMT; path=/; domain=tooxclusive.com"
+        "name": "vary",
+        "content": "Accept-Encoding,User-Agent"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "x-pingback",
+        "content": "http://tooxclusive.com/xmlrpc.php"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "wp_mobiledts_theme=desktop; expires=Thu, 27-Aug-2015 15:48:07 GMT; path=/; domain=tooxclusive.com, mode=grid; expires=Mon, 30-Mar-2015 15:48:07 GMT; path=/; domain=tooxclusive.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Sat, 28 Feb 2015 15:48:07 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {

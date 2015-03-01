@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -24,15 +17,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Microsoft-IIS/7.5"
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=db750accebb014d8be9b7027159055b761425138185; expires=Sun, 28-Feb-16 15:43:05 GMT; path=/; domain=.akhbarelyom.com; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -52,15 +66,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "server",
+        "content": "cloudflare-nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "cf-ray",
+        "content": "1bfdbc584dd50104-DFW"
       }
     }
   ]

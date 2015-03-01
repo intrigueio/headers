@@ -10,15 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx/1.4.7"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -38,6 +31,27 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=d89356eab89f9a69086240789e17cfd0b1425138145; expires=Sun, 28-Feb-16 15:42:25 GMT; path=/; domain=.watchfree.to; HttpOnly, PHPSESSID=b8763gctkbpm54sfd2etechc50; path=/, trk=1; expires=Sat, 28-Feb-2015 23:42:26 GMT; Max-Age=28800"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -45,8 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.3.3"
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1bfdbb641433116b-DFW"
       }
     }
   ]

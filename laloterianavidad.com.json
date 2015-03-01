@@ -31,6 +31,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-cache",
         "content": "MISS from srvest"
       }
@@ -52,15 +59,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
+        "name": "nncoection",
         "content": "close"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "private"
+        "name": "connection",
+        "content": "Keep-Alive"
       }
     }
   ]

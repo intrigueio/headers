@@ -10,6 +10,27 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "Apache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "accept-ranges",
+        "content": "none"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html"
       }
@@ -17,8 +38,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "PagespeedRewriteProxy 0.1"
+        "name": "cache-control",
+        "content": "max-age=0, no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-page-speed",
+        "content": "128_2_bo"
       }
     },
     {
@@ -33,6 +61,13 @@
       "attributes": {
         "name": "alternate-protocol",
         "content": "80:quic,p=0.08"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]
