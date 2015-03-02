@@ -10,20 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-dynatrace-js-agent",
-        "content": "true"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-dynatrace",
-        "content": "PT=1311974;PA=-318717442;RS=Gander Mountain/20150228075002_0.session;SP=Gander Mountain;PS=-1134398975"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "p3p",
         "content": "policyref=\"http://www.gandermountain.com/w3c/p3p.xml\", CP=\"CAO DSP COR LAW CURa ADMa TAIa OUR IND STA\""
       }
@@ -39,7 +25,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-akamai-transformed",
-        "content": "9 28610 0 pmb=mRUM,1"
+        "content": "9 28529 0 pmb=mRUM,1"
       }
     },
     {
@@ -53,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=1"
+        "content": "max-age=60"
       }
     },
     {
@@ -68,6 +54,13 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "TS2a138f=86eb08e42df1d9a0732ec89ab00383fb36deaa56d4fcaa8154f3348b; Path=/, gandermountain=1862604204.21760.0000; path=/"
       }
     }
   ]

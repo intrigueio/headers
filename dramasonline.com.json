@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx admin"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
       }
@@ -26,13 +33,6 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d918e2a413b0d5f41980f66e341c941591425138271; expires=Sun, 28-Feb-16 15:44:31 GMT; path=/; domain=.dramasonline.com; HttpOnly"
       }
     },
     {
@@ -61,20 +61,6 @@
       "attributes": {
         "name": "x-cache",
         "content": "HIT from Backend"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1bfdbe72fd021177-DFW"
       }
     }
   ]
