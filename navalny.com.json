@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "cloudflare-nginx"
+        "content": "nginx/1.1.19"
       }
     },
     {
@@ -24,22 +24,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
         "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d30310271738d8f2ad1b4af6d3873e8b61425224764; expires=Mon, 29-Feb-16 15:46:04 GMT; path=/; domain=.navalny.com; HttpOnly"
       }
     },
     {
@@ -59,8 +45,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-varnish",
-        "content": "714403431 714403377"
+        "content": "714863884 714863660"
       }
     },
     {
@@ -75,13 +68,6 @@
       "attributes": {
         "name": "strict-transport-security",
         "content": "max-age=31536000; includeSubDomains"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cf-ray",
-        "content": "1c05fe18c4200104-DFW"
       }
     }
   ]

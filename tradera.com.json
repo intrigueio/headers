@@ -10,22 +10,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "private"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html; charset=us-ascii"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Microsoft-HTTPAPI/2.0"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "close"
+        "name": "set-cookie",
+        "content": "ASP.NET_SessionId=5g5fi1rx03kua5clk0k2ca3k; path=/; HttpOnly, splittest_ads=369587609; expires=Sun, 02-Mar-2025 15:45:05 GMT; path=/, experiment_bucket=535725459; expires=Sun, 02-Mar-2025 15:45:05 GMT; path=/, splittest_buyer_protection=1073644038; expires=Sun, 02-Mar-2025 15:45:06 GMT; path=/, splittest_vip_max_bid_boost=329470256; expires=Sun, 02-Mar-2025 15:45:06 GMT; path=/, splittest_related_search_results=591025794; expires=Sun, 02-Mar-2025 15:45:06 GMT; path=/, splittest_clp_with_inspirational_content=964572965; expires=Sun, 02-Mar-2025 15:45:06 GMT; path=/, splittest_html_in_description=106781046; expires=Sun, 02-Mar-2025 15:45:06 GMT; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "DENY"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "IE=Edge,chrome=1"
       }
     }
   ]

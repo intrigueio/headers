@@ -10,8 +10,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache/2"
+        "name": "content-type",
+        "content": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "__cfduid=dc8bab614018cedcb734277aa7ed2f5b41425311075; expires=Tue, 01-Mar-16 15:44:35 GMT; path=/; domain=.megashare.sc; HttpOnly, PHPSESSID=ced4uihpk0t4uf3k88f0dm3fe0; path=/"
       }
     },
     {
@@ -19,13 +40,6 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "PHP/5.3.28"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=c1qr4vdlupdokl3i5ubq61auj5; path=/"
       }
     },
     {
@@ -52,15 +66,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "server",
+        "content": "cloudflare-nginx"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=UTF-8"
+        "name": "cf-ray",
+        "content": "1c0e394c1b8c0950-DFW"
       }
     }
   ]

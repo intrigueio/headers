@@ -10,13 +10,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=UTF-8"
       }
@@ -24,15 +17,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
+        "name": "n-cache",
+        "content": "HIT"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
+        "name": "server",
+        "content": "nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-nginx-device",
+        "content": "Desktop"
       }
     },
     {
@@ -52,8 +52,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "n-cache",
-        "content": "HIT"
+        "name": "connection",
+        "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "visid_incap_297190=nlDXlUBeTx2fPHkv7oS8X6eF9FQAAAAAQUIPAAAAAADdgU8jkxyYGgJEnMNo4Q9k; expires=Wed, 01 Mar 2017 13:08:44 GMT; path=/; Domain=.worldlifestyle.com, incap_ses_208_297190=fWZXG4okUxSLYmjHHffiAqeF9FQAAAAAFf4by68sAdPvYISqPaWubA==; path=/; Domain=.worldlifestyle.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-iinfo",
+        "content": "7-26157299-26145655 PNNN RT(1425311143509 0) q(0 0 0 0) r(0 0) U1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cdn",
+        "content": "Incapsula"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     }
   ]

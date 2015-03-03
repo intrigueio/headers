@@ -25,14 +25,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "activeBucketCookie=true; expires=Thu, 30 Apr 2015 15:43:11 GMT; path=/;"
+        "content": "activeBucketCookie=false; expires=Fri, 01 May 2015 15:43:26 GMT; path=/;"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "etag",
-        "content": "\"72d442-1e8eb-5103b9eecfec0\""
+        "content": "\"19741c-1e8c4-5104e9989ed40\""
       }
     },
     {
@@ -40,13 +40,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-akamai-transformed",
-        "content": "9 - 0 pmb=mRUM,1"
       }
     },
     {
@@ -67,7 +60,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=12"
+        "content": "max-age=0, no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {

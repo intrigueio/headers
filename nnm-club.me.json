@@ -46,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "Accept-Encoding, Accept-Encoding"
       }
     },
     {
@@ -74,6 +74,13 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-backend-status",
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frontend-status",
         "content": "HIT"
       }
     }
