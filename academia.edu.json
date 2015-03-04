@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -38,15 +38,43 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-nginx",
-        "content": "bat.z0o.us"
+        "name": "vary",
+        "content": "*"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "*"
+        "name": "status",
+        "content": "200 OK"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-content-type-options",
+        "content": "nosniff"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-ua-compatible",
+        "content": "chrome=1"
       }
     },
     {
@@ -59,22 +87,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "set-cookie",
+        "content": "_cookie_session=MnlMd2Zzbm5YYkhnQXI1ek1PWFkvRW1VWDA3KzZacUJPT3plL2JCZi9UaXorWGVDK3JORmFENGt2bGY2MEQ3WUhzbDgwZ1dtSmUzNlBKT3J5cTMyME1ldTE0TFdpeEVjTnFGa25xV3M2YU1naXFqR2wrNGdqeTVKUnlPdUYzRzg0dGNKRUN4Wmd6aUpBUTNRUXJma3JMdUI3aEJDWUVHcld0eWwwcEt0NmlIUVptYkd5bWQwWExQUEo1TDZsRVl5VmJCUzU1UkpTM1cwSXVNckNYWTFWZ3dqaThiNlhuMjdOQTlVU1VxNEdobz0tLTBWTkxqdlJFRm44bVdVLzFZQUhzdFE9PQ%3D%3D--8f220a3bc94f9b437a43135cd50976be53546af5; domain=.academia.edu; path=/; HttpOnly, request_id=cCrBW8-b9NurW-LcMo, auvid3=cCrBW8-b9NurW-LcMo; Expires=Wed, 02-Mar-16 21:43:08 GMT; Domain=.academia.edu"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-request-id",
-        "content": "cCrBW8-b9M4Cm-chDcA9"
+        "content": "cCrBW8-b9NurW-LcMo"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "request_id=cCrBW8-b9M4Cm-chDcA9, auvid3=cCrBW8-b9M4Cm-chDcA9; Expires=Tue, 01-Mar-16 21:42:58 GMT; Domain=.academia.edu"
+        "name": "x-nginx",
+        "content": "bat.z0o.us"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     }
   ]

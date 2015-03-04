@@ -45,6 +45,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "access-control-allow-origin",
+        "content": "https://www.crackle.com"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "access-control-max-age",
         "content": "86400"
       }
@@ -68,13 +75,6 @@
       "attributes": {
         "name": "access-control-allow-methods",
         "content": "GET,POST"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "access-control-allow-origin",
-        "content": "http://www.crackle.com"
       }
     }
   ]

@@ -18,7 +18,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -26,6 +26,20 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "AREAIDS=;domain=.dinodirect.com;expires=Mon, 03-Mar-2014 15:43:52 GMT;path=/, AREAIDS=335%2C114%2C119%2C124%2C%2D%20;domain=.dinodirect.com;expires=Wed, 25-Mar-2015 15:43:52 GMT;path=/"
       }
     },
     {

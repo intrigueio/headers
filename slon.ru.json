@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "nginx"
+        "content": "nginx/1.6.2"
       }
     },
     {
@@ -38,21 +38,21 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=261bb1ee73e85e7033552eb4b6e9dfa0; path=/; domain=slon.ru"
+        "content": "_SESS=1f515d5lma98snsefprmg8db32; expires=Wed, 04-Mar-2015 15:44:26 GMT; Max-Age=86400; path=/; domain=.slon.ru"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "pragma",
         "content": "no-cache"
       }
     }

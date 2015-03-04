@@ -45,22 +45,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-akamai-transformed",
+        "content": "9 70904 0 pmb=mRUM,1"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "MandMDirectSession=1246249140149060207118053065232122227027178072016243049101100113190057015253214201222202040242246069030068125058239046199163123156111011255026034255176085010066019003178192236021021079202233020; expires=Thu, 02-Apr-2015 14:46:42 GMT; path=/; HttpOnly, MandMDirectLastSearchCookie=; path=/, PROF-PERSIST-COOKIE-V2=/AllHCVmrf/do0KqDqsrWP885fg/GI80Unik35jyDgmnb5BClJIlY9Qp17R8NqzalH2qlxhy9faGVw==; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "User-Agent"
+        "content": "MandMDirectSession=1083095040091204119253189079056007128248080166248180141245202015128029176143161144092206106149181154038127030162043109015093206215121028119240064002160105149247125161225162003108078069014245236; expires=Fri, 03-Apr-2015 14:46:41 GMT; path=/; HttpOnly, MandMDirectLastSearchCookie=; path=/, PROF-PERSIST-COOKIE-V2=eRPNxPaFLf+fsApJ5pRx1dns824GVux1q1z6wJQor0NaNE6ElGLaKXRwNYlxTE/D4K72DuKCQioaSbQ=; path=/"
       }
     }
   ]

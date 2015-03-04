@@ -10,8 +10,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "content-type",
+        "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "etag",
+        "content": "\"686897696a7c876b7z\""
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "cache-control",
-        "content": "private, must-revalidate, no-cache, no-check"
+        "content": "private, no-store, no-cache, must-revalidate, max-age=0"
       }
     },
     {
@@ -24,50 +38,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html; charset=utf-8"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "session=%7b3984A4F6-1203-4958-A665-D93C365B18D1%7d; domain=trademe.co.nz; path=/; HttpOnly, TS0141ee74=015f4a28c1b8496b0f4fd7bcd807e83b0d6a4aedf487d3620b24e444d6d61f706f77f498cb; Path=/, TS01ae6471=015f4a28c1c6d019d63af9ef609e0a9e05c047db9b14869691a8cdbf1952d1bfbeb87083003f83d0d68b6eac627543fb179fdff013; path=/; domain=trademe.co.nz"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "p3p",
-        "content": "policyref=\"/w3c/p3p.xml\", CP=\"ALL DSP COR CURa ADMa DEVi CUSi TAIi PSAi PSDi OUR STP\""
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-cnection",
-        "content": "close"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-ua-compatible",
-        "content": "IE=Edge"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "connection",
-        "content": "Keep-Alive"
+        "content": "close"
       }
     }
   ]

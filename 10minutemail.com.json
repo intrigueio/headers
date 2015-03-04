@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "content-type",
-        "content": "text/html;charset=UTF-8"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
@@ -32,7 +32,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d30b12a0502fb4e951fb6d2c601ddb6071425311297; expires=Tue, 01-Mar-16 15:48:17 GMT; path=/; domain=.10minutemail.com; HttpOnly, JSESSIONID=D4F7C64FF230D3B114D475873E4CF0F8; Path=/, ezouid=1227486479; Path=/; Domain=10minutemail.com; Expires=Sun, 19 Feb 2017 15:48:17 UTC, active_template::3662=orig_site; Path=/; Domain=10minutemail.com; Expires=Wed, 04 Mar 2015 15:48:17 UTC"
+        "content": "__cfduid=d2c51dbd83970d69ed409e53e2b74bfa21425397701; expires=Wed, 02-Mar-16 15:48:21 GMT; path=/; domain=.10minutemail.com; HttpOnly, active_template::3662=%2Faqueous%2Faqueous; expires=Thu, 05-Mar-2015 15:48:21 GMT; Max-Age=172800; path=/; domain=10minutemail.com, JSESSIONID=48E91A489420E85476F968AB0398DC01; Path=/, ezopvc=1; expires=Tue, 03-Mar-2015 18:48:23 GMT; Max-Age=10800; path=/; domain=10minutemail.com; httponly, template97::domain3662::headerpic::viewed=1; expires=Tue, 03-Mar-2015 16:48:23 GMT; Max-Age=3600, ezouid=820646315; Path=/; Domain=10minutemail.com; Expires=Mon, 20 Feb 2017 15:48:21 UTC, active_template::3662=%2Faqueous%2Faqueous; Path=/; Domain=10minutemail.com; Expires=Thu, 05 Mar 2015 15:48:21 UTC"
       }
     },
     {
@@ -45,6 +45,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "response",
+        "content": "200"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
       }
@@ -52,29 +59,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-mod-pagespeed",
-        "content": "1.9.32.3-4448"
+        "name": "x-middleton-pagespeed",
+        "content": "off"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "Servlet 2.4; JBoss-4.2.3.GA (build: SVNTag=JBoss_4_2_3_GA date=200807181417)/JBossWeb-2.0, JSF/1.2"
+        "name": "x-middleton-response",
+        "content": "200"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "x-sol",
-        "content": "orig"
+        "content": "middleton"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "max-age=0, no-cache"
+        "content": "max-age=300, private"
       }
     },
     {
@@ -88,7 +95,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1c0e3eb9cccb0926-DFW"
+        "content": "1c167c33ff8203d0-DFW"
       }
     }
   ]
