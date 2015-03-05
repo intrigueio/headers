@@ -10,8 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx/1.0.5"
+        "name": "accept-ranges",
+        "content": "bytes"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, no-cache=\"set-cookie\""
       }
     },
     {
@@ -24,29 +31,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "server",
+        "content": "nginx/1.4.6 (Ubuntu)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-varnish",
-        "content": "1722435746"
+        "name": "set-cookie",
+        "content": "AWSELB=2325076F1A7596E1E6BDA712E0CAB95808806AA3F89C5B229A04DD26052279B5B997FF5E155DA480FA099A7493D806A618F9B2BCC127BBB4837D71A240E468A55A3CF41902;PATH=/"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "via",
-        "content": "1.1 varnish"
+        "content": "1.1 varnish-v4"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-varnish",
+        "content": "280560306"
       }
     },
     {

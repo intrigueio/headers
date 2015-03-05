@@ -11,28 +11,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache-Coyote/1.1"
+        "content": "Apache"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-type",
-        "content": "text/html;charset=UTF-8"
+        "name": "vary",
+        "content": "Host"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "content-language",
-        "content": "en-US"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "cookieUUID=81d8616a-17e2-480e-9910-e0c3feb0d2c4; Domain=.mail.com; Expires=Thu, 02-Mar-2017 15:43:27 GMT; Path=/, cookieKID=kid%40autoref%40mail.com; Domain=.mail.com; Expires=Thu, 02-Apr-2015 15:43:27 GMT; Path=/, cookiePartner=kid%40autoref%40mail.com; Domain=.mail.com; Expires=Thu, 02-Apr-2015 15:43:27 GMT; Path=/, JSESSIONID=29E4DABFA022AE0DA3FB706D7166D872; Path=/mailcom-webapp-3.5.0/; HttpOnly"
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -45,15 +38,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "set-cookie",
+        "content": "cookieKID=kid%40autoref%40mail.com; Domain=.mail.com; Expires=Fri, 03-Apr-2015 15:44:07 GMT; Path=/, cookiePartner=kid%40autoref%40mail.com; Domain=.mail.com; Expires=Fri, 03-Apr-2015 15:44:07 GMT; Path=/, JSESSIONID=5718C6560B781E5092D8723F978441E8; Path=/mailcom-webapp/; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "content-language",
+        "content": "en-US"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "close"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "content-type",
+        "content": "text/html;charset=UTF-8"
       }
     }
   ]

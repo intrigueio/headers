@@ -10,8 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "nginx, PressableWS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=UTF-8"
       }
     },
     {
@@ -31,29 +38,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "__cfduid=d74b829c70e515ceb4d20f3bd839bac7b1425397568; expires=Wed, 02-Mar-16 15:46:08 GMT; path=/; domain=.issued.tv; HttpOnly, X-Mapping-fjhppofk=AD590BAC6037154CD72577ED7CDFE905; path=/, X-Mapping-fjhppofk=BDB619645D43E7A6E7AB96C2E945FF10; path=/"
+        "name": "vary",
+        "content": "Cookie"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cf-railgun",
-        "content": "direct (waiting for pending WAN connection)"
+        "name": "x-pingback",
+        "content": "http://www.issued.tv/xmlrpc.php"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
+        "name": "access-control-allow-origin",
+        "content": "*"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cf-ray",
-        "content": "1c1678f02bfb0106-DFW"
+        "name": "p-ws",
+        "content": "thor-web-13"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "p-lb",
+        "content": "thor-lb-11.rax.ord.pressable.net"
       }
     }
   ]

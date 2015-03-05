@@ -31,13 +31,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "PHPSESSID=gh9icni39aj9rsgp6o5egbtnv6; path=/, halbcookie=out5; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "cache-control",
         "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
@@ -59,8 +52,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-fastcgi-cache",
-        "content": "MISS"
+        "name": "x-proxy-cache",
+        "content": "HIT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-agent-archon",
+        "content": "pcdo_not_perform"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "halbcookie=out5; path=/"
       }
     }
   ]

@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -32,70 +39,70 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "__cfduid=d3ccbe88611c82b948a53951bdd9882241425397479; expires=Wed, 02-Mar-16 15:44:39 GMT; path=/; domain=.theknot.com; HttpOnly, theknot_www#sc_wede=1; path=/, ASP.NET_SessionId=x402vf55u2qcb045jsl0ggni; path=/; HttpOnly"
+        "content": "__cfduid=dfcdd11093313f967bfa3f1f2c85f18c11425483915; expires=Thu, 03-Mar-16 15:45:15 GMT; path=/; domain=.theknot.com; HttpOnly"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, no-store"
+        "content": "max-age=0, private, must-revalidate"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "pragma",
-        "content": "no-cache"
+        "name": "status",
+        "content": "200 OK"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
+        "name": "via",
+        "content": "1.1 vegur"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-aspnet-version",
-        "content": "2.0.50727"
+        "name": "x-content-type-options",
+        "content": "nosniff"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "ASP.NET"
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "serverid",
-        "content": "PRDSITECORE22"
+        "name": "x-request-id",
+        "content": "40901a2b-efeb-441e-9496-19e81b62f6b3"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-legacy-www",
-        "content": "1"
+        "name": "x-runtime",
+        "content": "0.011089"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "cloudflare-nginx"
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cf-ray",
-        "content": "1c1676c5f49c093e-DFW"
+        "content": "1c1eb509367f03e2-DFW"
       }
     }
   ]
