@@ -10,29 +10,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "content-type",
-        "content": "text/html"
+        "content": "text/html; charset=utf-8"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "accept-ranges",
-        "content": "bytes"
+        "name": "transfer-encoding",
+        "content": "chunked"
       }
     },
     {
@@ -45,8 +31,29 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cache",
-        "content": "MISS"
+        "name": "set-cookie",
+        "content": "__cfduid=d4a1dcdec7ba02ad0af4333bf6133e20c1425570547; expires=Fri, 04-Mar-16 15:49:07 GMT; path=/; domain=.phim14.net; HttpOnly"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "User-Agent,Accept-Encoding"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "server",
+        "content": "cloudflare-nginx"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cf-ray",
+        "content": "1c26f80f5f3e095c-DFW"
       }
     }
   ]
