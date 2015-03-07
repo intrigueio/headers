@@ -46,7 +46,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "session=NdOHcN7-3BCsULGj7LvroORB1UHb0A_D; path=/; expires=Thu, 19 Mar 2015 15:43:59 GMT; domain=www.uber.com; secure; httponly, session.sig=-NorfolORlRBdVf_04furUjOZ2QMn0zEgEsrL1vr-5c; path=/; expires=Thu, 19 Mar 2015 15:43:59 GMT; domain=www.uber.com; secure; httponly, ab-exp-sign-up=false; Max-Age=2592000; Domain=www.uber.com; Path=/; Expires=Sat, 04 Apr 2015 15:43:59 GMT; Secure"
+        "content": "session=1ztr_OC93iYDmuKvaIYY9LVmZ3Xd0qlu; path=/; expires=Fri, 20 Mar 2015 15:44:13 GMT; domain=www.uber.com; secure; httponly, session.sig=d-ZJOAErlC2Zy1rs79n0gVa3yWMoVn-U9SZoMyaghvo; path=/; expires=Fri, 20 Mar 2015 15:44:13 GMT; domain=www.uber.com; secure; httponly, ab-exp-sign-up=false; Max-Age=2592000; Domain=www.uber.com; Path=/; Expires=Sun, 05 Apr 2015 15:44:13 GMT; Secure"
       }
     },
     {
@@ -60,7 +60,14 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "strict-transport-security",
-        "content": "max-age=2592000"
+        "content": "max-age=31536000; includeSubDomains; preload"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-xss-protection",
+        "content": "1; mode=block"
       }
     },
     {

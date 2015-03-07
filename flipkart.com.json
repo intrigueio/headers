@@ -39,14 +39,21 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "vary",
-        "content": "Accept-Encoding"
+        "content": "Accept-Encoding, User-Agent"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "Tkt=c1f7cc12; expires=Thu, 05-Mar-2015 15:48:13 GMT; path=/; domain=.flipkart.com; httponly, agent=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.flipkart.com, SN=2.VI75E81592FF0741C2BDA637FE2BA17A64.SI5E5E64DD1E904F6A9530BA96005C3177.VS142557019329670000768.1425570193; expires=Tue, 01-Sep-2015 15:43:13 GMT; path=/; domain=.flipkart.com; httponly, VID=a; expires=Thu, 05-Mar-2015 14:43:13 GMT; path=/; domain=www.flipkart.com; httponly, VID=2.VI75E81592FF0741C2BDA637FE2BA17A64.1425570193.VS142557019329670000768; expires=Tue, 01-Sep-2015 15:43:13 GMT; path=/; domain=.flipkart.com; httponly, NSID=a; expires=Thu, 05-Mar-2015 14:43:13 GMT; path=/; domain=www.flipkart.com; httponly, NSID=2.SI5E5E64DD1E904F6A9530BA96005C3177.1425570193.VI75E81592FF0741C2BDA637FE2BA17A64; expires=Tue, 01-Sep-2015 15:43:13 GMT; path=/; domain=.flipkart.com; httponly, T=TI142557019328839990879676731504671606116878431170157125798858326486; expires=Sun, 02-Mar-2025 15:43:13 GMT; path=/; domain=.flipkart.com; httponly"
+        "content": "Tkt=53abd666; expires=Fri, 06-Mar-2015 15:48:26 GMT; path=/; domain=.flipkart.com; httponly, agent=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.flipkart.com"
       }
     }
   ]
