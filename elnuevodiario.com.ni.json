@@ -10,6 +10,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-frame-options",
+        "content": "SAMEORIGIN"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
       }
@@ -19,13 +26,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-frame-options",
-        "content": "SAMEORIGIN"
       }
     }
   ]

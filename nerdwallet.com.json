@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "nginx"
+        "name": "cache-control",
+        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
       }
     },
     {
@@ -24,43 +24,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "connection",
-        "content": "keep-alive"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.3.15"
+        "name": "server",
+        "content": "nginx/1.4.6 (Ubuntu)"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "PHPSESSID=c17e9fda1ff8c06a6dbabafcd770af90; path=/"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        "content": "PHPSESSID=ud4c7hqkm73k9cdirpvhlb4ge6; path=/"
       }
     },
     {
@@ -68,6 +40,27 @@
       "attributes": {
         "name": "x-cache",
         "content": "HIT from Backend"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-cache-status",
+        "content": "MISS"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-powered-by",
+        "content": "PHP/5.5.9-1ubuntu4.6"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "keep-alive"
       }
     }
   ]

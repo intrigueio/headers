@@ -10,8 +10,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        "name": "server",
+        "content": "nginx"
       }
     },
     {
@@ -24,50 +24,50 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "last-modified",
+        "content": "Sat, 07 Mar 2015 15:45:07 GMT"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "pragma",
-        "content": "no-cache"
+        "content": "public"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "server",
-        "content": "Apache/2.2.3 (CentOS)"
+        "name": "cache-control",
+        "content": "max-age=3577, public, must-revalidate, proxy-revalidate"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "via",
-        "content": "1.1 varnish"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-cache-varnish",
-        "content": "HIT"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-pingback",
-        "content": "http://www.barstoolsports.com/xmlrpc.php"
+        "name": "connection",
+        "content": "keep-alive"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "x-powered-by",
-        "content": "PHP/5.2.17"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-varnish",
-        "content": "1148356566 1148355750"
+        "name": "x-served-by",
+        "content": "app-005"
       }
     }
   ]

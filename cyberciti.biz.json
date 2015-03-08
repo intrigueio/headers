@@ -39,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, must-revalidate, max-age=0"
+        "content": "no-cache, must-revalidate, max-age=0, max-age=1500, must-revalidate"
       }
     },
     {
@@ -47,6 +47,13 @@
       "attributes": {
         "name": "pragma",
         "content": "no-cache"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "last-modified",
+        "content": "Sat, 07 Mar 2015 15:45:06 GMT"
       }
     },
     {

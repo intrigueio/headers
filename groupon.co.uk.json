@@ -11,14 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "server",
-        "content": "Apache"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-powered-by",
-        "content": "Express"
+        "content": "nginx/1.6.2"
       }
     },
     {
@@ -31,8 +24,36 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "x-powered-by",
+        "content": "Express"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "set-cookie",
+        "content": "pageId=b3692cfe-05ba-4feb-8dde-8f55cd3e6354-1425743146275-TH0; Path=/, division=belfast; Max-Age=315360000; Domain=.groupon.co.uk; Path=/; Expires=Tue, 04 Mar 2025 15:45:46 GMT, CID=UK_DTI_0_0_0_0; Domain=.groupon.co.uk; Path=/; Expires=Mon, 06 Apr 2015 23:59:59 GMT, homepage.sid=s%3AVtcxkTr7cYsLpUtJohkk9xzJgcjRwhhY.E8m9Tx4XoTBsYtq3bH4Zp2gtEhEoCyI6WBky0f5CXn8; Path=/; HttpOnly, b=caf8f266-b7c4-4552-b0e3-7b5da476001b; Expires=Tue, 04 Mar 2025 15:45:46 GMT; Path=/; Domain=.groupon.co.uk, s=b3692cfe-05ba-4feb-8dde-8f55cd3e6354; Expires=Sat, 07 Mar 2015 16:15:46 GMT; Path=/; Domain=.groupon.co.uk, p0=1; Expires=Sat, 07 Mar 2015 15:50:46 GMT; Path=/; Domain=.groupon.co.uk"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "x-request-id",
-        "content": "6079f100-6edd-4119-8f4a-6684b0acfa26"
+        "content": "c1d0414b-dd0c-4bec-b5e8-aee551f92155"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-b-cookie",
+        "content": "caf8f266-b7c4-4552-b0e3-7b5da476001b"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-s-cookie",
+        "content": "b3692cfe-05ba-4feb-8dde-8f55cd3e6354"
       }
     },
     {
@@ -66,8 +87,8 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "pageId=4dbbcc7b-8ee9-47ca-bebd-c1d2a7c342e7-1425656740173-TH0; Path=/, division=belfast; Max-Age=315360000; Domain=.groupon.co.uk; Path=/; Expires=Mon, 03 Mar 2025 15:45:40 GMT, CID=UK_DTI_0_0_0_0; Domain=.groupon.co.uk; Path=/; Expires=Sun, 05 Apr 2015 23:59:59 GMT, homepage.sid=s%3Af80uoQZX847DPVNc-bUZqhreZr2cW_tu.pSDray8bCMkP37i%2Bbv%2FnWryiQjBzPB%2BdG4v%2B%2BOhwKKo; Path=/; HttpOnly, b=331998da-d05b-401f-8647-b885b2647653; Expires=Mon, 03 Mar 2025 15:45:40 GMT; Path=/; Domain=.groupon.co.uk, s=4dbbcc7b-8ee9-47ca-bebd-c1d2a7c342e7; Expires=Fri, 06 Mar 2015 16:15:40 GMT; Path=/; Domain=.groupon.co.uk, p0=1; Expires=Fri, 06 Mar 2015 15:50:40 GMT; Path=/; Domain=.groupon.co.uk"
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     },
     {
@@ -87,8 +108,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "transfer-encoding",
+        "content": "chunked"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "connection",
-        "content": "keep-alive"
+        "content": "keep-alive, Transfer-Encoding"
       }
     }
   ]

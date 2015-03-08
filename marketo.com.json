@@ -17,13 +17,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache, max-age=0, must-revalidate, no-transform, public"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "x-isproduction",
         "content": "Yes"
       }
@@ -45,6 +38,13 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
+        "name": "cache-control",
+        "content": "public, no-cache, no-transform, must-revalidate"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
         "name": "transfer-encoding",
         "content": "chunked"
       }
@@ -54,13 +54,6 @@
       "attributes": {
         "name": "connection",
         "content": "keep-alive, Transfer-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "set-cookie",
-        "content": "bIPs=-1353498346;path=/;"
       }
     }
   ]

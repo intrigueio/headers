@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "private"
+        "content": "no-cache, no-store"
       }
     },
     {
@@ -19,6 +19,13 @@
       "attributes": {
         "name": "content-type",
         "content": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "pragma",
+        "content": "no-cache"
       }
     },
     {
@@ -32,7 +39,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "set-cookie",
-        "content": "ws_loc=zz=SdvVkKiEhGJLiga6lBB3nkXM2aH6vnIpEe8qSpW4dps35eZirXTNmq2irq20akJUnC1xpxx-mpB5Wqz7xKSPP3S4aUv4E-YB94_oTdnexNIh-luhZVyMIxNYjlEs5_IO92DGaF39qA_-ycfBMqSeyVbpZu2RMtWrOWe2QXv2ovTkjdvhjc3AJ015xSb2ZapYVHy5wV1D4fMmfHc5IbqLP2phgKx_I9TH4F_W4bkDYNfZGKfu13y4K0r1t3ljXUh_smGrQv2NiEw_1crsj0tHsaMG1_qM51zVvuIlgVfc2mkXn7jxBf0T2sY2YI44Zh-iPvbgwM8_axcEkS_AABbVnTyedB-nEFF9Y7AAQVRcsy-3G5b9JrmNTKFcFjZFueEzPEvT9XdY-R-eu7yN1LdUgRJnId4LRMVNt1oGspJebRM1&vr=1; expires=Sun, 05-Apr-2015 14:47:06 GMT; path=/, ws_qt=uid=def6448ac7cc41dcb75fd1ffcf845220&qid=&vr=1; expires=Mon, 03-Mar-2025 15:47:06 GMT; path=/, ws_ses=ssid=cb7afe6a453a46a8b57fa39b062ba730&vr=1; expires=Fri, 06-Mar-2015 16:17:06 GMT; path=/"
+        "content": "ws_loc=zz=SdvVkKiEhGJLiga6lBB3nkXM2aH6vnIpEe8qSpW4dps35eZirXTNmq2irq20akJUnC1xpxx-mpB5Wqz7xKSPP3S4aUv4E-YB94_oTdnexNIh-luhZVyMIxNYjlEs5_IO92DGaF39qA_-ycfBMqSeyVbpZu2RMtWrOWe2QXv2ovTkjdvhjc3AJ015xSb2ZapYVHy5wV1D4fMmfHc5IbqLP2phgKx_I9TH4F_W4bkDYNfZGKfu13y4K0r1t3ljXUh_smGrQv2NiEw_1crsj0tHsaMG1_qM51zVvuIlgVfc2mkXn7jxBf0T2sY2YI44Zh-iPvbgwM8_axcEkS_AABbVnTyedB-nEFF9Y7AAQVRcsy-3G5b9JrmNTKFcFjZFueEzPEvT9XdY-R-eu7yN1LdUgRJnId4LRMVNt1oGspJebRM1&vr=1; expires=Mon, 06-Apr-2015 14:47:02 GMT; path=/, ws_qt=uid=8fcf0f3c735248afa38c70c10a5472d1&qid=&vr=1; expires=Tue, 04-Mar-2025 15:47:02 GMT; path=/, ws_ses=ssid=4d3fa66555484d26a7ba501c75ebfd58&vr=1; expires=Sat, 07-Mar-2015 16:17:02 GMT; path=/"
       }
     },
     {
@@ -40,13 +47,6 @@
       "attributes": {
         "name": "vary",
         "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "x-aspnet-version",
-        "content": "4.0.30319"
       }
     },
     {

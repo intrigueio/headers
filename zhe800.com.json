@@ -17,13 +17,6 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "transfer-encoding",
-        "content": "chunked"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "status",
         "content": "200 OK"
       }
@@ -38,15 +31,22 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "cache-control",
-        "content": "no-cache"
+        "name": "accept-ranges",
+        "content": "bytes"
       }
     },
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "set-cookie",
-        "content": "ju_rv=1000; domain=.zhe800.com; path=/; expires=Fri, 06-Mar-2015 23:45:09 GMT"
+        "name": "z-cache",
+        "content": "M"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "cache-control",
+        "content": "no-cache, max-age=0, must-revalidate"
       }
     },
     {

@@ -11,7 +11,7 @@
       "type": "WebApplicationHeader",
       "attributes": {
         "name": "cache-control",
-        "content": "no-cache, no-store"
+        "content": "no-cache, no-store, must-revalidate"
       }
     },
     {
@@ -31,22 +31,15 @@
     {
       "type": "WebApplicationHeader",
       "attributes": {
-        "name": "vary",
-        "content": "Accept-Encoding"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
-        "name": "server",
-        "content": "Microsoft-IIS/7.5"
-      }
-    },
-    {
-      "type": "WebApplicationHeader",
-      "attributes": {
         "name": "set-cookie",
-        "content": "website#sc_wede=1; path=/, ASP.NET_SessionId=lkis1n1w43kgokjskuaqzalm; path=/; HttpOnly, defaultLocation=Denver, CO (DEN); expires=Tue, 05-May-2015 14:47:31 GMT; path=/"
+        "content": "ASP.NET_SessionId=p3ewxn25jyt0cheqcr4ieiex; path=/; HttpOnly, skysales=4024356618.20480.0000; path=/"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "x-aspnetmvc-version",
+        "content": "4.0"
       }
     },
     {
@@ -61,6 +54,20 @@
       "attributes": {
         "name": "x-powered-by",
         "content": "ASP.NET"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "connection",
+        "content": "Keep-Alive"
+      }
+    },
+    {
+      "type": "WebApplicationHeader",
+      "attributes": {
+        "name": "vary",
+        "content": "Accept-Encoding"
       }
     }
   ]
